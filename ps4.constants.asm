@@ -2049,8 +2049,6 @@ Nem_Patterns_Left = ramaddr($FFFFE458)
 Saved_Nem_Frame_Patterns_Left = ramaddr($FFFFE45A)
 Nem_Frame_Patterns_Left = ramaddr($FFFFE484)
 
-Saved_Party_Slots = ramaddr($FFFFE500)
-
 Sprite_Table_Input = ramaddr($FFFFE600)
 
 Enemy_Sprites = ramaddr($FFFFEA00)
