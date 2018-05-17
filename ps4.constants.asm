@@ -351,7 +351,7 @@ ItemID_Elsydeon = id(Item_Elsydeon)	; $77
 ItemID_LacoAxe = id(Item_LacoAxe)	; $78
 ItemID_SonicBustr = id(Item_SonicBustr)	; $79
 ItemID_DefeatAxe = id(Item_DefeatAxe)	; $7A
-ItemID_Nothing3 = id(Item_Nothing3)	; $7B
+ItemID_Shotgun = id(Item_Shotgun)	; $7B
 ItemID_MahlayMail = id(Item_MahlayMail)	; $7C
 ItemID_Monomate = id(Item_Monomate)	; $7D
 ItemID_Dimate = id(Item_Dimate)	; $7E
@@ -389,6 +389,7 @@ ItemID_DezoRing = id(Item_DezoRing)	; $9D
 ItemID_RykrRing = id(Item_RykrRing)	; $9E
 ItemID_AlgoRing = id(Item_AlgoRing)	; $9F
 ItemID_MahlayRing = id(Item_MahlayRing)	; $A0
+ItemID_CrbnArmor = id(Item_CrbnArmor)	; $A1
 
 
 ;  Weapon indexes (remapped in battle); some weapons have the same animation so they share the same ID
