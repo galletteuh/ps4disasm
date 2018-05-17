@@ -1806,7 +1806,7 @@ ChestFlag_AlgoRing = $A5
 ChestFlag_TonoeEscapipe = $A6
 ChestFlag_TonoeOpen = $A7
 ChestFlag_LadeaTwStarDew = $A8
-ChestFlag_Unused = $A9 			; This is used in one (not referenced) of the subroutines in the Main Map Update section.
+ChestFlag_VllyMazeHeadgear = $A9
 
 ; Temporary event flags
 TempEveFlag_BioPlantDoor = 0	; Set when you open the door leading to the Bio Plant
