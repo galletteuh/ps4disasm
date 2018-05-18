@@ -56,6 +56,8 @@ skills = $62
 curr_skill_uses = $6A
 max_skill_uses = $6B
 gain_exp_flag = $7A		; byte ; flag which is set if a character participates and wins a battle at least once. After that characters start gaining experience even if they are not in the party
+tech_learn_countdown = $7B
+last_tech_countdown = $7C
 ; ---------------------------------------------------------------------------
 
 ; ---------------------------------------------------------------------------
@@ -102,8 +104,8 @@ x_step_constant = $20	; longword ; constant that changes objects' x position whe
 y_step_constant = $24	; longword ; constant that changes objects' y position when moving; value is generally 2 or $FFFE
 x_step_duration = $28	; word ; updates characters' x position (one step) automatically until it becomes 0; it's generally 16 when moving from one tile to another
 y_step_duration = $2A	; word ; updates characters' y position (one step) automatically until it becomes 0; it's generally 16 when moving from one tile to another
-sprite_x_pos = $2C	; word	; used for the Sprite table
-sprite_y_pos = $2E	; word	; used for the Sprite table
+x_screen_pos = $2C	; word
+y_screen_pos = $2E	; word
 curr_x_pos = $30	; longword
 curr_y_pos = $34	; longword
 dest_x_pos = $38	; word ; used as destination when updating objects' x position
@@ -122,7 +124,6 @@ sound_length = 8		; word
 routine = $14			; word
 battle_x_pos = $2C		; word
 battle_y_pos = $2E		; word
-target = $38			; longword
 parent = $3C			; longword
 ; ---------------------------------------------------------------------------
 
@@ -137,8 +138,6 @@ fighter_id = $12	; word ; characters and enemies ID; characters' ID start from 1
 fighter_pal_line = $1E
 ability = $24		; word
 palette_obj = $26	; longword
-reaction_flags	= $2A	; bitfield ; mainly for enemies, determines what attacks to use depending on some actions
-						; bit 0 = attacked physically; bit 1 = attacked magically; bit 2 = attacked with techniques; bit 3 = ambush ; bit 4 = multi-target damage
 right_weapon = $2C	; byte ; weapon ID (see 'Battle_WeaponIndexes' in the disassembly)
 left_weapon = $2D	; byte ;
 action_routine = $32	; word
@@ -1473,7 +1472,7 @@ MapID_AirCastleSpace = id(PtrMap_AirCastleSpace)	; $1A0
 
 ; Event flags
 EventFlag_PiataFirstTime = 7	; Set when Chaz is alone in Piata at the start of the game
-EventFlag_AlysFound = 8	; Set when Chaz finds Alys in Piata
+EventFlag_AlysFound = 8	; Set when Chaz hooks up with Alys in Piata
 EventFlag_PrincipalMeeting = 9	; Set after talking to the principal the first time
 EventFlag_HahnJoined = $A	; Set when Hahn joins your party for the first time
 EventFlag_Igglanova = $B	; Set when you fight the Igglanova in the Piata basement
@@ -1526,7 +1525,6 @@ EventFlag_Juza = $41	; Set when you fight Juza
 EventFlag_Zio = $42	; Set when you fight Zio for the first time
 EventFlag_MachineCenter = $43	; Set after Machine Center appears
 EventFlag_LandRover = $44	; Set when you get the Land Rover
-EventFlag_FortuneTeller = $45	; Set when talking to the fortune teller in Aiedo with Alys
 EventFlag_GirlsCaught = $46	; Set after resting in the Aiedo supermarket and the girls get arrested
 EventFlag_DemiJoined = $47	; Set after Zio wounds Alys and you decide to go find Rune
 EventFlag_JuzaDefeated = $48	; Set after the battle against Juza and the stairs appear
@@ -1944,7 +1942,7 @@ RAM_Start = ramaddr($FFFF0000)
 
 Battle_Palette_Objects = ramaddr($FFFF2A90)
 
-Dialogue_Trees = ramaddr($FFFF3000)
+Dialogue_Trees_Buffer = ramaddr($FFFF3000)
 
 Battle_Routine = ramaddr($FFFF4100)
 Battle_Total_Comd_Input = ramaddr($FFFF4106)	; number is incremented each time a command for a character has been selected
@@ -1964,9 +1962,6 @@ Battle_Item_List = ramaddr($FFFF4152)
 Battle_Ability_Effects = ramaddr($FFFF4170) ; if 0 the effect for a skill, technique, etc doesn't work; other numbers are the effects
 Battle_Ability_Range = ramaddr($FFFF4182)	; range (e.g. single target) of techniques and skills
 Battle_Skill_Done_Flag = ramaddr($FFFF4188)	; byte ; set to true when battle objects for skills have finished processing
-Battle_Saved_Char_Stats = ramaddr($FFFF4194)	; longword ; holds address of current character's stats after battle is won
-Battle_Next_Level_Data = ramaddr($FFFF4198)	; longword ; holds address of data for the next level after battle is won
-Battle_Party_Slots_Addr = ramaddr($FFFF419C)	; longword ; holds address of Current_Party_Slots and is used after battle is won
 Battle_Main_Option_Index = ramaddr($FFFF41A0)	; index of the 3 main battle options (COMD, MACR, RUN); it's also the index for displaying each stat message upon level-up
 Battle_Char_Comd_Index = ramaddr($FFFF41A2)
 Battle_Enemy_Index = ramaddr($FFFF41AC)		; index of target enemy
@@ -1976,6 +1971,8 @@ Battle_Skill_Index = ramaddr($FFFF41BA)		; index of skill selected (this is the 
 Battle_Item_Index = ramaddr($FFFF41C4)		; index of item selected (this is the cursor option, not the ID of the Item)
 Battle_Macro_Index = ramaddr($FFFF41D6)
 Battle_Macro_Flag = ramaddr($FFFF41D8)		; set if a macro is going on
+
+Battle_Learned_Tech = ramaddr($FFFF41E0)
 
 Enemy_Formation_Data = ramaddr($FFFF41F0)
 Item_Drop_Rate = ramaddr($FFFF41F2)
@@ -2005,12 +2002,11 @@ System_Stack = ramaddr($FFFF4FF0)
 
 Sound_Index = ramaddr($FFFF500A)
 
-Chunk_Table = ramaddr($FFFF6000)
-Text_Buffer = ramaddr($FFFF7000)
-Plane_A_Buffer = ramaddr($FFFF8000)
-Plane_B_Buffer = ramaddr($FFFF9000)
-Map_Layout_FG = ramaddr($FFFFA000)
-Map_Layout_BG = ramaddr($FFFFB000)
+Plane_A_Buf = ramaddr($FFFF8000)
+Plane_B_Buf = ramaddr($FFFF9000)
+
+Plane_A_Tile_Data = ramaddr($FFFFA000)
+Plane_B_Tile_Data = ramaddr($FFFFB000)
 
 Field_Objects_Memory = ramaddr($FFFFC000)
 Character_1 = ramaddr($FFFFC000)
@@ -2032,6 +2028,27 @@ DMA_Commands_Buffer = ramaddr($FFFFE000)
 
 Nem_Code_Table = ramaddr($FFFFE200)
 
+Sound_Test_Option = ramaddr($FFFFE200)
+Sound_Test_Sound = ramaddr($FFFFE201)
+
+Win_Item_Count = ramaddr($FFFFE200)
+Win_Tech_Count = ramaddr($FFFFE200)
+Win_Skill_Count = ramaddr($FFFFE200)
+
+Win_Selected_Item_ID = ramaddr($FFFFE287)
+Win_Selected_Tech_ID = ramaddr($FFFFE287)
+Win_Selected_Skill_ID = ramaddr($FFFFE287)
+Win_Selected_Item_Addr = ramaddr($FFFFE288)
+Win_Selected_Tech_Addr = ramaddr($FFFFE288)
+Win_Selected_Skill_Addr = ramaddr($FFFFE288)
+Win_Selected_Item_Target = ramaddr($FFFFE28C)
+Win_Selected_Tech_Target = ramaddr($FFFFE28C)
+Win_Selected_Skill_Target = ramaddr($FFFFE28C)
+Win_Heal_Char_Num = ramaddr($FFFFE28E)	; number of characters to heal
+Win_Healing_Value = ramaddr($FFFFE290)	; healing value for characters in the party
+
+Equippable_Inventory = ramaddr($FFFFE380)	; equippable only items showing up in the list when changing equipment
+Equippable_Count = ramaddr($FFFFE3A8)
 
 Win_Char_Num = ramaddr($FFFFE3F0)	; number of characters in the menu
 Win_Saved_Char_ID = ramaddr($FFFFE3F2)
@@ -2049,11 +2066,7 @@ Nem_Patterns_Left = ramaddr($FFFFE458)
 Saved_Nem_Frame_Patterns_Left = ramaddr($FFFFE45A)
 Nem_Frame_Patterns_Left = ramaddr($FFFFE484)
 
-Sprite_Table_Input = ramaddr($FFFFE600)
-
 Enemy_Sprites = ramaddr($FFFFEA00)
-
-Sprite_Table_Input_2 = ramaddr($FFFFEC00)
 
 Game_Mode_Routine = ramaddr($FFFFEC20)
 
@@ -2119,7 +2132,6 @@ Found_Item_Type = ramaddr($FFFFECC4)	; 0 = content is an item; 1 = content is mo
 
 Map_Palettes_Addr = ramaddr($FFFFECD2)
 
-Tile_Coll_Run_Event_Flag = ramaddr($FFFFECE1)	; only bit 0 seems to be used; if set, it disables tile collision and event checks; this can only be changed in the Debug Window
 Field_Poison_Flag = ramaddr($FFFFECE6)	; if 0, poison won't hurt you while walking, otherwise set to 1
 Random_Battles_Flag = ramaddr($FFFFECE7)
 
@@ -2128,7 +2140,6 @@ Saved_Sound_Index = ramaddr($FFFFECEC)
 Battle_Type = ramaddr($FFFFECEE)	; 0 = Profound Darkness battle; 1 = event (or boss) battle; 2 = random battle
 Mota_Battle_BG_Index = ramaddr($FFFFECEF)	; Motavia (outside) has different backgrounds depending on the tile you're standing on
 
-Saved_Dialogue_Addr = ramaddr($FFFFECF0)	; word
 Map_Dialogue_Trees_Addr = ramaddr($FFFFECF8)
 
 Event_Battle_Index = ramaddr($FFFFECFC)
@@ -2139,7 +2150,7 @@ Panel_Data = ramaddr($FFFFED10)
 
 Town_Teleport_Flag = ramaddr($FFFFED50)	; if 0, you can use Ryuka and Telepipe
 Dungeon_Teleport_Index = ramaddr($FFFFED51)	; index which determines the coordinates you get teleported at (through Escapipe or Hinas) for every dungeon; if 0, teleport doesn't work
-Yes_No_Option = ramaddr($FFFFED53)		; byte ; 0 = Yes; 1 = No
+
 Saved_Char_ID_Mem_1 = ramaddr($FFFFED54)
 Saved_Char_ID_Mem_2 = ramaddr($FFFFED55)
 Saved_Char_ID_Mem_3 = ramaddr($FFFFED56)
@@ -2184,10 +2195,10 @@ VDP_Status_Reg = ramaddr($FFFFEF22)
 VInt_Frame_Count = ramaddr($FFFFEF24)
 CRAM_Update_Flag = ramaddr($FFFFEF26)
 
-Camera_Y_Pos_FG = ramaddr($FFFFEF90)
-Camera_X_Pos_FG = ramaddr($FFFFEF94)
-Camera_Y_Pos_BG = ramaddr($FFFFEF98)
-Camera_X_Pos_BG = ramaddr($FFFFEF9C)
+V_Scroll_FG = ramaddr($FFFFEF90)
+H_Scroll_FG = ramaddr($FFFFEF94)
+V_Scroll_BG = ramaddr($FFFFEF98)
+H_Scroll_BG = ramaddr($FFFFEF9C)
 
 Battle_Turn_Order = ramaddr($FFFFEFB0)	; Index and agility of characters and enemies; order is from highest to lowest agility
 											; bytes 1-2 = index; bytes 3-4 = agility
