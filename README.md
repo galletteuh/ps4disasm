@@ -1,2 +1,8 @@
 # ps4disasm
-Phantasy Star IV Disassembly for Mega Drive/Genesis
+Phantasy Star IV with some randomized content
+
+- Random techniques
+
+- Random treasure chests
+
+- Random enemies
