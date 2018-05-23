@@ -9,7 +9,7 @@ Fixed stats not updating right after leveling up.
 
 Vision now uses the Mental stat of the caster rather than a set value.
 
-Changed the Shadow Blade data so the underflow will no longer happen with Chaz before level 4.
+Changed the Shadow Blade data so the underflow will no longer happen with Chaz before level 5.
 
 Now Chaz is revived after the battle against Zio to prevent a Game Over if Chaz, Rika and Rune are dead.
 
@@ -24,3 +24,5 @@ When you go into the menu immediately after opening the chests containing the Ca
 Fixed a couple of typos in the item descriptions.
 
 Chaz will no longer say "This is terrible!" when examining the houses in Ryuon.
+
+Fixed map collision for Reshel, Island Cave and Elsydeon cave.
