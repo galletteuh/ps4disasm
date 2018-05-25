@@ -26,3 +26,5 @@ Fixed a couple of typos in the item descriptions.
 Chaz will no longer say "This is terrible!" when examining the houses in Ryuon.
 
 Fixed map collision for Reshel, Island Cave and Elsydeon cave.
+
+Fixed cursor bug where you press the Talk/Camp button while holding down a directional button.
