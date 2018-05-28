@@ -7,6 +7,8 @@ Phantasy Star IV with some randomized content
 
 - Random enemies
 
+- Random item drops
+
 - Some bug fixes
 
 - Faster text speed
