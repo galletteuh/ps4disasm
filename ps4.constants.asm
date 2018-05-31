@@ -2216,6 +2216,8 @@ Chest_Flags = ramaddr($FFFFF120)
 Temp_Event_Flags = ramaddr($FFFFF140)
 Town_Flags = ramaddr($FFFFF160)
 
+Shop_Data = ramaddr($FFFFF180)
+
 World_Index = ramaddr($FFFFF400)	; 0 = Motavia; 1 = Dezolis; 2 = Rykros; 3 = Zelan; 4 = Kuran; 5 = Air Castle
 Saved_Field_Map_Index_2 = ramaddr($FFFFF402)
 Saved_Field_Map_Index = ramaddr($FFFFF404)
