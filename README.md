@@ -9,6 +9,8 @@ Phantasy Star IV with some randomized content
 
 - Random item drops
 
+- Random shops
+
 - Some bug fixes
 
 - Faster text speed
