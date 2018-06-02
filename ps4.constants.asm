@@ -2218,6 +2218,7 @@ Temp_Event_Flags = ramaddr($FFFFF140)
 Town_Flags = ramaddr($FFFFF160)
 
 Shop_Data = ramaddr($FFFFF180)
+Tech_Learn_Counts = ramaddr($FFFFF2D8)	; holds how many times a technique has been learned; 1 byte per technique
 
 World_Index = ramaddr($FFFFF400)	; 0 = Motavia; 1 = Dezolis; 2 = Rykros; 3 = Zelan; 4 = Kuran; 5 = Air Castle
 Saved_Field_Map_Index_2 = ramaddr($FFFFF402)
