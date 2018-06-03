@@ -29,4 +29,4 @@ Fixed map collision for Reshel, Island Cave and Elsydeon cave.
 
 Fixed cursor bug where you press the Talk/Camp button while holding down a directional button.
 
-Added a check to disable collision for some NPC objects to prevent bugs and softlocks.
+Added a check to disable collision for some NPC objects to prevent bugs and softlocks. For example, the Aiedo NPC that runs away when you speak to him if Alys is in the party will no longer collide with walls and trees avoiding a softlock in the process.
