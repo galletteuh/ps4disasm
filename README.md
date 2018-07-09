@@ -30,3 +30,7 @@ Fixed map collision for Reshel, Island Cave and Elsydeon cave.
 Fixed cursor bug where you press the Talk/Camp button while holding down a directional button.
 
 In Aiedo, the blue-haired NPC who likes Alys will no longer cause a softlock when he runs away and collides with walls and trees.
+
+Fixed graphics and RAM corruption bug that happens when you press Cancel after making a selection on the Message speed, Battle speed, Buttons, Macro Skill list and Macro confirm windows.
+
+Fixed graphics glitch when you press Cancel in the Aiedo bakery shop list.
