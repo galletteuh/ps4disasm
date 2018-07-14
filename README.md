@@ -34,3 +34,5 @@ In Aiedo, the blue-haired NPC who likes Alys will no longer cause a softlock whe
 Fixed graphics and RAM corruption bug that happens when you press Cancel at a specific frame after making a selection on the Message speed, Battle speed, Buttons, Macro Skill list and Macro confirm windows.
 
 Fixed graphics glitch when you press Cancel in the Aiedo bakery shop list.
+
+Fixed tile in the Island Cave.
