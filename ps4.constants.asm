@@ -390,6 +390,7 @@ ItemID_RykrRing = id(Item_RykrRing)	; $9E
 ItemID_AlgoRing = id(Item_AlgoRing)	; $9F
 ItemID_MahlayRing = id(Item_MahlayRing)	; $A0
 ItemID_CrbnArmor = id(Item_CrbnArmor)	; $A1
+ItemID_LthrArmor = id(Item_LthrArmor)	; $A2
 
 
 ;  Weapon indexes (remapped in battle); some weapons have the same animation so they share the same ID
