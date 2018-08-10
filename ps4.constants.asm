@@ -393,7 +393,7 @@ ItemID_CrbnArmor = id(Item_CrbnArmor)	; $A1
 ItemID_LthrArmor = id(Item_LthrArmor)	; $A2
 ItemID_Mantle = id(Item_Mantle)	; $A3
 ItemID_GrptRobe = id(Item_GrptRobe)	; $A4
-ItemID_ZircMantl = id(Item_ZircMantl)	; $A5
+ItemID_AmberRobe = id(Item_AmberRobe)	; $A5
 ItemID_CrbnGear = id(Item_CrbnGear)	; $A6
 
 
