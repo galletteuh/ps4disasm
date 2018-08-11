@@ -346,7 +346,7 @@ ItemID_GuardClaw = id(Item_GuardClaw)	; $72
 ItemID_GuardArmor = id(Item_GuardArmor)	; $73
 ItemID_GuardRobe = id(Item_GuardRobe)	; $74
 ItemID_GuardMail = id(Item_GuardMail)	; $75
-ItemID_PsySuit = id(Item_PsySuit)	; $76
+ItemID_SteelAxe = id(Item_SteelAxe)	; $76
 ItemID_Elsydeon = id(Item_Elsydeon)	; $77
 ItemID_LacoAxe = id(Item_LacoAxe)	; $78
 ItemID_SonicBustr = id(Item_SonicBustr)	; $79
@@ -395,6 +395,7 @@ ItemID_Mantle = id(Item_Mantle)	; $A3
 ItemID_GrptRobe = id(Item_GrptRobe)	; $A4
 ItemID_AmberRobe = id(Item_AmberRobe)	; $A5
 ItemID_CrbnGear = id(Item_CrbnGear)	; $A6
+ItemID_PsySuit = id(Item_PsySuit)	; $A7
 
 
 ;  Weapon indexes (remapped in battle); some weapons have the same animation so they share the same ID
@@ -425,6 +426,7 @@ WeaponID_SilvRod = $A
 WeaponID_DreamRod = $A
 WeaponID_GuardRod = $B
 WeaponID_LacoRod = $B
+WeaponID_SteelAxe = $C
 WeaponID_TitnAxe = $C
 WeaponID_BroadAxe = $C
 WeaponID_StrugglAx = $C
