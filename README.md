@@ -30,7 +30,3 @@ https://github.com/lory90/ps4disasm/tree/bugfix
 - Feeve is included. Its purpose is to make characters more resistant to attacks that cause bad status effects such as paralyze and sleep
 
 - Blood Axe drains HP
-
-Get the ROM in the following link:
-
-https://www.dropbox.com/s/b1ux10462huustr/ps4_cp.bin?dl=0
