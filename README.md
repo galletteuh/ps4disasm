@@ -30,3 +30,7 @@ https://github.com/lory90/ps4disasm/tree/bugfix
 - Feeve is included; it raises defense against water attacks
 
 - Blood Axe drains HP
+
+Get the ROM in the following link:
+
+https://www.dropbox.com/s/y046s6oqfopuu56/ps4_cp.bin?dl=0
