@@ -13,7 +13,9 @@ Controls
 
 Changes
 
-- Bugfixes
+- Bugfixes. See ReadMe in the following link:
+
+https://github.com/lory90/ps4disasm/tree/bugfix
 
 - Treasure chests additions/edits
 
@@ -22,3 +24,14 @@ Changes
 - Tech/Skill learn edits
 
 - Added new weapons and armor
+
+- Now Magic Defense appears in the stats list
+
+- Feeve is included; it raises defense against water attacks
+
+- Blood Axe drains HP
+
+
+Get the ROM in the following link:
+
+https://www.dropbox.com/s/y046s6oqfopuu56/ps4_cp.bin?dl=0
