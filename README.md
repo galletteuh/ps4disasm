@@ -43,6 +43,6 @@ Shield element glitch fix.
 
 Fixed empty dialogue boxes when the game automatically teleports you to Piata before finishing the first dungeon.
 
-The Psy-Robe now protects against psychic attacks like its siblings.
+The Psy-Robe now grants protection against psychic attacks like the other Psy gear.
 
 Fixed joypad input carrying over after battles.
