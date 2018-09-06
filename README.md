@@ -27,6 +27,4 @@ https://github.com/lory90/ps4disasm/tree/bugfix
 
 - Now Magic Defense appears in the stats list
 
-- Feeve is included. Its purpose is to make characters more resistant to attacks that cause bad status effects such as paralyze and sleep
-
 - Blood Axe drains HP
