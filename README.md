@@ -36,3 +36,13 @@ Fixed graphics and RAM corruption bug that happens when you press Cancel at a sp
 Fixed graphics glitch when you press Cancel in the Aiedo bakery shop list.
 
 Fixed tile in the Island Cave.
+
+Physical resistance glitch fix.
+
+Shield element glitch fix.
+
+Fixed empty dialogue boxes when the game automatically teleports you to Piata before finishing the first dungeon.
+
+The Psy-Robe now protects against psychic attacks like its siblings.
+
+Fixed joypad input carrying over after battles.
