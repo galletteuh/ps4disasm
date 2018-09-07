@@ -23,6 +23,8 @@ When you go into the menu immediately after opening the chests containing the Ca
 
 Fixed a couple of typos in the item descriptions.
 
+Fixed up some menu lines.
+
 Chaz will no longer say "This is terrible!" when examining the houses in Ryuon.
 
 Fixed map collision for Reshel, Island Cave and Elsydeon cave.
