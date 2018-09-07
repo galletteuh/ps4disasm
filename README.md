@@ -50,3 +50,5 @@ The Psy-Robe now grants protection against psychic attacks like the other Psy ge
 Fixed joypad input carrying over after battles.
 
 The Igglanova was given status immunities like the other bosses.
+
+Fixed up message that shows up when the whole party dies by poison on the field.
