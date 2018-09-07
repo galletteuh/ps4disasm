@@ -48,3 +48,5 @@ Fixed empty dialogue boxes when the game automatically teleports you to Piata be
 The Psy-Robe now grants protection against psychic attacks like the other Psy gear.
 
 Fixed joypad input carrying over after battles.
+
+The Igglanova was given status immunities like the other bosses.
