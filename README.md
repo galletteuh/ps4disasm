@@ -52,3 +52,7 @@ Fixed joypad input carrying over after battles.
 The Igglanova was given status immunities like the other bosses.
 
 Fixed up message that shows up when the whole party dies by poison on the field.
+
+Raja can no longer equip the Psycho Wand so you won't end up losing it when he leaves the party.
+
+Fixed status healing items/techs that restore agility and dexterity to their original values even if characters are not afflicted by those status effects.
