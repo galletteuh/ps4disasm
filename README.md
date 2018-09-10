@@ -19,7 +19,7 @@ Fixed Wren usage number for Posibolt at level 91.
 
 Stats are now updated when Chaz equips the Elsydeon.
 
-When you go into the menu immediately after opening the chests containing the Canceller and Rings in the Rykross towers, the event flags needed to trigger subsequent cutscenes won't be set. This has been addressed so it no longer happens.
+When you go into the menu immediately after opening the chests containing the Canceller and Rings in the Rykros towers, the event flags needed to trigger subsequent cutscenes won't be set. This has been addressed so it no longer happens.
 
 Fixed a couple of typos in the item descriptions.
 
