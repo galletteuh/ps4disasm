@@ -62,3 +62,5 @@ Fixed Telepipe and Escapipe being thrown away upon use in battle.
 Fixed teleport bug for the first screen in Zelan and Kuran.
 
 Fixed characters outside the party gaining only one level instead of a level number based on their EXP.
+
+Fixed shield element carrying over to weapons for Skills
