@@ -2,106 +2,108 @@
 	dc.b	$FF
 
 ; $1
-	dc.b	"There's nothing to fear from"
+	dc.b	"Il n'y a rien à craindre de la"
 	dc.b	$FC
-	dc.b	"the hand of the Darkness!"
+	dc.b	"main de la Noirceur!"
 	dc.b	$FD
-	dc.b	"Oh? So you are the people sent"
+	dc.b	"Oh? C'est donc vous les gens"
 	dc.b	$FC
-	dc.b	"here by Le Roof."
+	dc.b	"que Le Roof m'envoie."
 	dc.b	$FD
-	dc.b	"Go ahead, try and defeat me."
+	dc.b	"Allez-y, essayez de me vaincre."
 	dc.b	$FC
-	dc.b	"Prove that you've got"
+	dc.b	"Prouvez-moi que vous avez ce"
 	dc.b	$FD
-	dc.b	"the qualifications to be"
+	dc.b	"qu'il faut pour être des"
 	dc.b	$FC
-	dc.b	"Protectors!"
+	dc.b	"Protecteurs!"
 	dc.b	$FF
 
 ; $2
-	dc.b	"You've done well!"
+	dc.b	"Joli travail!"
 	dc.b	$FD
-	dc.b	"Go, take these objects which"
+	dc.b	"Allez, prenez ces objets comme"
 	dc.b	$FC
-	dc.b	"are the proof you've met and"
+	dc.b	"preuve que vous m'avez fait face"
 	dc.b	$FD
-	dc.b	"passed me."
+	dc.b	"et terrassé."
 	dc.b	$FF
 
 ; $3
-	dc.b	"Ah, you've finally come!"
+	dc.b	"Ah, vous voilà enfin!"
 	dc.b	$FD
-	dc.b	"They come and they come,"
+	dc.b	"Multes personnes viennent,"
 	dc.b	$FC
-	dc.b	"but they're all sissies."
+	dc.b	"mais elles sont toutes des"
 	dc.b	$FD
-	dc.b	"I've been getting kind of bored!"
-	dc.b	$FD
-	dc.b	"If you have passed Le Roof's"
+	dc.b	"mauviettes. Je commençais à"
 	dc.b	$FC
-	dc.b	"scrutiny,"
+	dc.b	"m'ennuyer!"
 	dc.b	$FD
-	dc.b	"then try and take me if you can!"
+	dc.b	"Comme vous avez réussi l'examen"
+	dc.b	$FC
+	dc.b	"de Le Roof,"
+	dc.b	$FD
+	dc.b	"essayez de me battre...si vous"
+	dc.b	$FC
+	dc.b	"le pouvez!"
 	dc.b	$FF
 
 ; $4
-	dc.b	"You're better than I thought."
+	dc.b	"Vous êtes plus forts que je ne"
 	dc.b	$FC
-	dc.b	"That's comforting."
+	dc.b	"le pensais. Ça me rassure."
 	dc.b	$FD
-	dc.b	"Go ahead and take these objects."
+	dc.b	"Allez, prenez ces objets."
 	dc.b	$FC
-	dc.b	"They are the proof you need."
+	dc.b	"Ils sont la preuve que vous"
+	dc.b	$FD
+	dc.b	"aurez à présenter."
 	dc.b	$FF
 
 ; $5
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"I hear a voice coming from"
-	dc.b	$FC
-	dc.b	"somewhere..."
+	dc.b	"J'entends une voix..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$00
-	dc.b	"Who dares to enter"
+	dc.b	"Qui ôse entrer dans la Tour de"
 	dc.b	$FC
-	dc.b	"The Anger Tower..."
+	dc.b	"la Colère..."
 	dc.b	$FD
-	dc.b	"Begone!"
+	dc.b	"Disparaissez!"
 	dc.b	$FF
 
 ; $6
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Elsydeon is shining!"
+	dc.b	"Elsydeon brille de mille feux!"
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"A voice is reverberating"
-	dc.b	$FC
-	dc.b	"in my head..."
+	dc.b	"Il y a une voix dans ma tête..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$00
-	dc.b	"Oh Protectors of Algo..."
+	dc.b	"Oh, Protecteurs d'Algo..."
 	dc.b	$FD
-	dc.b	"The Anger Tower welcomes"
+	dc.b	"La Tour de la Colère vous"
 	dc.b	$FC
-	dc.b	"you gladly."
+	dc.b	"accueille avec plaisir."
 	dc.b	$FF
 
 ; $7
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"What? Alys..."
+	dc.b	"Comment? Alys..."
 	dc.b	$FC
-	dc.b	"You're here on Rykros?"
+	dc.b	"Tu es ici? Sur Rykros?"
 	dc.b	$FD
 	dc.b	"Alys? Alys!"
 	dc.b	$FD
-	dc.b	"Hey, answer me,"
+	dc.b	"Hé! Réponds-moi!"
 	dc.b	$FC
 	dc.b	"Alys!"
 	dc.b	$FF
@@ -109,7 +111,7 @@
 ; $8
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Yikes! Alys?"
+	dc.b	"Aïe! Alys?"
 	dc.b	$FF
 
 ; $9
@@ -123,123 +125,123 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$00
-	dc.b	"Heh, heh, heh..."
+	dc.b	"Hé, hé, hé..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Who's that?"
+	dc.b	"Qui est-ce?"
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$23
-	dc.b	"Well, well, 'Protector,'"
+	dc.b	"Tiens, tiens... 'Protecteur',"
 	dc.b	$FC
-	dc.b	"what a weakling you are."
+	dc.b	"tu dis? Quelle mauviette!"
 	dc.b	$FD
-	dc.b	"So you wail and lament"
+	dc.b	"Tu pleures, même si tu sais que"
 	dc.b	$FC
-	dc.b	"for something you know to be"
-	dc.b	$FD
-	dc.b	"an illusion."
+	dc.b	"ce n'est qu'une illusion."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"An illusion?"
+	dc.b	"Une illusion?"
 	dc.b	$FD
-	dc.b	"Is that right...you..."
-	dc.b	$FC
-	dc.b	"you...!"
+	dc.b	"Espèce de...de..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$23
-	dc.b	"Ah, your anger, your hatred,"
+	dc.b	"Ah, ta colère, ta haine,"
 	dc.b	$FC
-	dc.b	"it's quite a show of your"
+	dc.b	"une démonstration de ta force"
 	dc.b	$FD
-	dc.b	"force of character."
+	dc.b	"de caractère."
 	dc.b	$FD
-	dc.b	"Would you like to be"
+	dc.b	"N'aimerais-tu pas pouvoir"
 	dc.b	$FC
-	dc.b	"able to wholly transform those"
+	dc.b	"transformer tous ces sentiments"
 	dc.b	$FD
-	dc.b	"feelings into strength?"
+	dc.b	"en force brute?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Huh?"
+	dc.b	"Hein?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$23
-	dc.b	"There's a technique to transform"
+	dc.b	"Il existe une technique qui"
 	dc.b	$FC
-	dc.b	"emotions of anger and hatred"
+	dc.b	"transforme les émotions de"
 	dc.b	$FD
-	dc.b	"into powers of destruction."
+	dc.b	"colère et de haine en force"
+	dc.b	$FC
+	dc.b	"destructrice."
 	dc.b	$FD
-	dc.b	"Do you want to know about it?"
+	dc.b	"Tu veux l'apprendre?"
 	dc.b	$F5
 	dc.b	$00, $01
 	dc.b	$F4
 	dc.b	$23
-	dc.b	"Hmm, I see..."
+	dc.b	"Hum, je vois..."
 	dc.b	$FC
-	dc.b	"You say you want to know..."
+	dc.b	"Tu dis vouloir savoir..."
 	dc.b	$FD
-	dc.b	"If that's the case,"
+	dc.b	"Si tel est le cas, démontre-moi"
 	dc.b	$FC
-	dc.b	"show your mastery of the art"
+	dc.b	"la maîtrise de ton art par"
 	dc.b	$FD
-	dc.b	"with your body!"
+	dc.b	"ton corps!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"What?"
+	dc.b	"Comment?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$23
-	dc.b	"Don't you understand the true"
+	dc.b	"Ne comprends-tu pas la vrai"
 	dc.b	$FC
-	dc.b	"meaning of anger and hatred?"
+	dc.b	"signification de la colère et"
 	dc.b	$FD
-	dc.b	"It's ridiculous that a fellow"
+	dc.b	"de la haine?"
+	dc.b	$FD
+	dc.b	"Quelle prétention pour un gars"
 	dc.b	$FC
-	dc.b	"like you could consider himself"
+	dc.b	"comme toi de penser qu'il serait"
 	dc.b	$FD
-	dc.b	"worthy to wield Elsydeon!"
+	dc.b	"digne de manier Elsydeon!"
 	dc.b	$FF
 
 ; $A
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Don't mess with me!"
+	dc.b	"Ne te fiche pas de moi!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$23
-	dc.b	"Huh...why is that?"
+	dc.b	"Euh...et pourquoi donc?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Even if I won using such a"
+	dc.b	"Même si je gagnais grâce à ce"
 	dc.b	$FC
-	dc.b	"power, it would be meaningless!"
+	dc.b	"pouvoir, à quoi bon?"
 	dc.b	$FD
-	dc.b	"It would only make us"
+	dc.b	"Cela ferait de moi une personne"
 	dc.b	$FC
-	dc.b	"the same as the Darkness!"
+	dc.b	"guère mieux que la Noirceur!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$23
-	dc.b	"I see...you've fought the"
+	dc.b	"Je vois...tu as combattu"
 	dc.b	$FC
-	dc.b	"illusion and yet you haven't"
+	dc.b	"l'illusion et malgré cela, tu"
 	dc.b	$FD
-	dc.b	"lost sight of yourself."
+	dc.b	"n'es pas devenu un autre."
 	dc.b	$FD
-	dc.b	"All right, I shall trust you"
+	dc.b	"Très bien, je te fais confiance."
 	dc.b	$FC
-	dc.b	"with the technique!"
+	dc.b	"Je t'apprendrai la technique!"
 	dc.b	$FD
-	dc.b	"The forbidden technique"
+	dc.b	"La technique interdite..."
 	dc.b	$FC
 	dc.b	"...Megid!"
 	dc.b	$FD
@@ -247,15 +249,15 @@
 	dc.b	$01
 	dc.b	"'Megid'..."
 	dc.b	$FC
-	dc.b	"The forbidden technique?"
+	dc.b	"La technique interdite?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$23
-	dc.b	"There's nothing to be afraid of."
+	dc.b	"Il n'y a rien à craindre."
 	dc.b	$FD
-	dc.b	"It's necessary to feel anger and"
+	dc.b	"Les sentiments de colère et de"
 	dc.b	$FC
-	dc.b	"hatred for humans to be human."
+	dc.b	"haine font partie de l'humain."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
@@ -263,15 +265,15 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$23
-	dc.b	"There shouldn't be any danger"
+	dc.b	"Tu ne devrais pas avoir à"
 	dc.b	$FC
-	dc.b	"that you will be corrupted by"
+	dc.b	"craindre d'être corrompu par la"
 	dc.b	$FD
-	dc.b	"the power of Megid."
+	dc.b	"puissance de Megid."
 	dc.b	$FD
-	dc.b	"Just don't forget your true"
+	dc.b	"Seulement, ne t'oublie pas"
 	dc.b	$FC
-	dc.b	"self."
+	dc.b	"toi-même."
 	dc.b	$FF
 
 ; $B

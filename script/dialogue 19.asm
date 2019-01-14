@@ -1,369 +1,365 @@
 ; 0
-	dc.b	"At last we can breathe easy."
+	dc.b	"Finalement, nous pouvons pousser"
 	dc.b	$FC
-	dc.b	"We're going to build Reshel"
+	dc.b	"un soupir de soulagement! Nous"
 	dc.b	$FD
-	dc.b	"back to its original splendor!"
+	dc.b	"redonnerons à Reshel sa"
 	dc.b	$FC
-	dc.b	"No, even better than that!"
+	dc.b	"splendeur d'origine! Non,"
+	dc.b	$FD
+	dc.b	"plutôt, elle sera encore mieux!"
 	dc.b	$FF
 
 ; $1
-	dc.b	"I've heard the armor store is"
+	dc.b	"J'ai entendu dire que"
 	dc.b	$FC
-	dc.b	"already open for business."
+	dc.b	"l'armurerie est déjà rouverte."
 	dc.b	$FD
-	dc.b	"I better get going myself!"
+	dc.b	"Je ferais mieux d'y faire un"
+	dc.b	$FC
+	dc.b	"tour!"
 	dc.b	$FF
 
 ; $2
-	dc.b	"There's an endless number of"
+	dc.b	"Il y a beaucoup de souvenirs"
 	dc.b	$FC
-	dc.b	"good and bad memories, but..."
+	dc.b	"ici, bons et mauvais..."
 	dc.b	$FD
-	dc.b	"Somehow it's hard to abandon a"
+	dc.b	"Mais c'est dur de quitter sa"
 	dc.b	$FC
-	dc.b	"town where you lived your entire"
-	dc.b	$FD
-	dc.b	"life."
+	dc.b	"ville natale."
 	dc.b	$FF
 
 ; $3
-	dc.b	"Are you sure that everything is"
+	dc.b	"Vous êtes certains que tout ira"
 	dc.b	$FC
-	dc.b	"all right now? "
+	dc.b	"bien maintenant?"
 	dc.b	$FD
-	dc.b	"There better not be zombies"
+	dc.b	"J'espère qu'il n'y aura plus de"
 	dc.b	$FC
-	dc.b	"springing out from"
-	dc.b	$FD
-	dc.b	"everywhere anymore!"
+	dc.b	"zombis sortant de toute part!"
 	dc.b	$FF
 
 ; $4
-	dc.b	"If we work hard, those people"
+	dc.b	"Vous verrez! Les gens qui ont"
 	dc.b	$FC
-	dc.b	"who abandoned this town will"
+	dc.b	"abandonné la ville reviendront"
 	dc.b	$FD
-	dc.b	"come back. You'll see!"
+	dc.b	"si on travaille dur."
 	dc.b	$FF
 
 ; $5
-	dc.b	"If I'm going to be open"
+	dc.b	"Si je veux attirer des clients"
 	dc.b	$FC
-	dc.b	"for business in a newly"
+	dc.b	"dans ma boutique nouvellement"
 	dc.b	$FD
-	dc.b	"remodeled store,"
+	dc.b	"rénovée, il vaudrait mieux avoir"
 	dc.b	$FC
-	dc.b	"I better have a tempting sale."
+	dc.b	"des soldes compétitives."
 	dc.b	$FF
 
 ; $6
-	dc.b	"Daddy has gone over next door"
+	dc.b	"Papa est parti chez le voisin"
 	dc.b	$FC
-	dc.b	"to help out."
+	dc.b	"donner un coup de main."
 	dc.b	$FD
-	dc.b	"He told me to be good"
+	dc.b	"Il m'a demandé d'être sage"
 	dc.b	$FC
-	dc.b	"and just wait."
+	dc.b	"et d'attendre qu'il revienne."
 	dc.b	$FF
 
 ; $7
-	dc.b	"This is the town of Reshel."
+	dc.b	"Vous êtes ici à Reshel."
 	dc.b	$FC
-	dc.b	"I'm a fellow Parmanian"
+	dc.b	"Bienvenue à mes frères"
 	dc.b	$FD
-	dc.b	"countryman. Welcome!"
+	dc.b	"Parmaniens!"
 	dc.b	$FF
 
 ; $8
-	dc.b	"My equipment store is"
+	dc.b	"Ma boutique d'outils est aussi"
 	dc.b	$FC
-	dc.b	"newly remodeled, too."
+	dc.b	"rénovée récemment."
 	dc.b	$FD
-	dc.b	" Do come by some time!"
+	dc.b	"Venez-donc y faire un tour!"
 	dc.b	$FF
 
 ; $9
-	dc.b	"We're going to make"
+	dc.b	"Nous remplirons la nouvelle"
 	dc.b	$FC
-	dc.b	"the new Reshel be full of"
+	dc.b	"ville de Reshel de mémoires"
 	dc.b	$FD
-	dc.b	"good memories,you'll see!"
+	dc.b	"heureuses! Vous verrez!"
 	dc.b	$FF
 
 ; $A
-	dc.b	"It looks like we're really"
+	dc.b	"On dirait que nous sommes"
 	dc.b	$FC
-	dc.b	"free from any problems now!"
+	dc.b	"maintenant libres de problèmes!"
 	dc.b	$FF
 
 ; $B
-	dc.b	"Those people who left town"
+	dc.b	"Les gens qui ont quitté la ville"
 	dc.b	$FC
-	dc.b	"are gradually returning."
+	dc.b	"reviennent peu à peu."
 	dc.b	$FF
 
 ; $C
-	dc.b	"Amazing how the condition of"
+	dc.b	"C'est fantastique! La ville de"
 	dc.b	$FC
-	dc.b	"this town of Reshel,"
+	dc.b	"Reshel était en ruine. Voyez à"
 	dc.b	$FD
-	dc.b	"which was in ruins,"
-	dc.b	$FC
-	dc.b	"was restored in such a"
-	dc.b	$FD
-	dc.b	"short period of time!"
+	dc.b	"quelle vitesse elle se relève!"
 	dc.b	$FF
 
 ; $D
-	dc.b	"I recently moved here, but..."
+	dc.b	"Je viens d'emménager ici..."
+	dc.b	$FD
+	dc.b	"Est-ce qu'il s'est passé"
 	dc.b	$FC
-	dc.b	"did something happen here?"
+	dc.b	"d'étranges choses récemment?"
 	dc.b	$FF
 
 ; $E
-	dc.b	"The weather, the look of"
-	dc.b	$FC
-	dc.b	"the town,everything is finally"
+	dc.b	"Tout est comme cela doit être:"
 	dc.b	$FD
-	dc.b	"like it used to be."
+	dc.b	"le climat, ainsi que l'apparence"
+	dc.b	$FC
+	dc.b	"de notre ville."
 	dc.b	$FF
 
 ; $F
-	dc.b	"Finally, business seems"
+	dc.b	"Finalement! Les affaires"
 	dc.b	$FC
-	dc.b	"to be picking up."
+	dc.b	"semblent vouloir reprendre."
 	dc.b	$FF
 
 ; $10
-	dc.b	"Daddy's finished helping out,"
+	dc.b	"Papa a fini d'aider les voisins,"
 	dc.b	$FC
-	dc.b	"but now he's loafing around."
+	dc.b	"mais là, il ne fait que traîner."
 	dc.b	$FD
-	dc.b	"He told me to be quiet and "
+	dc.b	"Il m'a dit de rester tranquille"
 	dc.b	$FC
-	dc.b	"do what grown-ups tell me to do."
+	dc.b	"et de faire ce qu'on me dit."
 	dc.b	$FF
 
 ; $11
-	dc.b	"Hey you, look how messy you are."
+	dc.b	"Hé, toi! Tu salis tout!"
 	dc.b	$FC
-	dc.b	"Your shoes are covered with mud!"
+	dc.b	"Tes souliers sont plein de boue!"
 	dc.b	$FD
-	dc.b	"I've just made this store as"
+	dc.b	"Je viens juste de rénover tout"
 	dc.b	$FC
-	dc.b	"good as new, don't get it dirty!"
+	dc.b	"ici, j'aimerais garder ça"
+	dc.b	$FD
+	dc.b	"propre!"
 	dc.b	$FF
 
 ; $12
-	dc.b	"I must say it's wonderful"
+	dc.b	"Je suis très heureuse"
 	dc.b	$FC
-	dc.b	"to have a new house!"
+	dc.b	"d'avoir une maison toute neuve!"
 	dc.b	$FD
-	dc.b	"I'd better use"
+	dc.b	"Il faut que j'utilise mon"
 	dc.b	$FC
-	dc.b	"some bug spray now"
+	dc.b	"insecticide pour pas que les"
 	dc.b	$FD
-	dc.b	"so we won't be infested!"
+	dc.b	"insectes nous envahissent!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Argh! Don't point that bug spray"
+	dc.b	"Argh! Aspergez les insectes, pas"
 	dc.b	$FC
-	dc.b	"at me."
+	dc.b	"moi!"
 	dc.b	$FF
 
 ; $13
-	dc.b	"And I had just started to make"
+	dc.b	"Zut, je venais juste de me faire"
 	dc.b	$FC
-	dc.b	"friends where I had moved from.."
+	dc.b	"des nouveaux amis où on avait"
+	dc.b	$FD
+	dc.b	"déménagé..."
 	dc.b	$FF
 
 ; $14
-	dc.b	"Oh dear. I'm practically broke,"
+	dc.b	"Oh là là. Je suis presque"
 	dc.b	$FC
-	dc.b	"what with moving twice."
+	dc.b	"ruiné à cause de tous ces"
 	dc.b	$FD
-	dc.b	"But the future looks bright"
+	dc.b	"déménagements. Mais l'avenir"
 	dc.b	$FC
-	dc.b	"and promising!"
+	dc.b	"est prometteur!"
 	dc.b	$FD
-	dc.b	"Just you wait and see!"
-	dc.b	$FD
-	dc.b	"If it's a matter of money,"
+	dc.b	"Tu verras! Si c'est l'argent qui"
 	dc.b	$FC
-	dc.b	"I'll show you."
+	dc.b	"compte, j'en aurai autant que"
 	dc.b	$FD
-	dc.b	"I'll earn as much as I want!"
+	dc.b	"je voudrai!"
 	dc.b	$FF
 
 ; $15
-	dc.b	"It's quite a surprise that he"
+	dc.b	"C'est surprenant de l'entendre"
 	dc.b	$FC
-	dc.b	"would say such a thing."
+	dc.b	"parler ainsi."
 	dc.b	$FD
-	dc.b	"I thought he was such a phony,"
+	dc.b	"Je pensais qu'il n'était qu'un"
 	dc.b	$FC
-	dc.b	"but now I've changed my mind"
+	dc.b	"guignol, mais j'ai changé"
 	dc.b	$FD
-	dc.b	"about him!"
+	dc.b	"d'idée à son sujet!"
 	dc.b	$FF
 
 ; $16
 	dc.b	$FA
 	dc.b	$A1, $01
-	dc.b	"This is the town of Meese."
+	dc.b	"Ici, c'est la ville de Meese."
 	dc.b	$FD
-	dc.b	"There's a strange illness"
+	dc.b	"Nous sommes en difficulté à"
 	dc.b	$FC
-	dc.b	"going around and"
+	dc.b	"cause d'une étrange maladie qui"
 	dc.b	$FD
-	dc.b	"we're in a terrible state."
+	dc.b	"se propage dans la ville."
 	dc.b	$FF
 
 ; $17
-	dc.b	"This is the town of Meese."
+	dc.b	"Ici, c'est la ville de Meese."
 	dc.b	$FD
-	dc.b	"The people who were ill"
+	dc.b	"Les gens malades commencent à"
 	dc.b	$FC
-	dc.b	"are getting better."
+	dc.b	"se rétablir."
 	dc.b	$FF
 
 ; $18
 	dc.b	$FA
 	dc.b	$A1, $01
-	dc.b	"There is a strange illness"
+	dc.b	"Il y a une maladie très bizarre"
 	dc.b	$FC
-	dc.b	"going around... "
+	dc.b	"qui se propage en ce moment..."
 	dc.b	$FD
-	dc.b	"You get a really high fever"
+	dc.b	"Les malades font beaucoup de"
 	dc.b	$FC
-	dc.b	"and usually die within a month."
+	dc.b	"fièvre et meurent en un mois."
 	dc.b	$FD
-	dc.b	"On top of that...the dead bodies"
+	dc.b	"En plus, les morts ressuscitent,"
 	dc.b	$FC
-	dc.b	"revive as zombies!"
+	dc.b	"mais deviennent des zombis!"
 	dc.b	$FD
-	dc.b	"It's very scary!"
+	dc.b	"C'est vraiment terrifiant!"
 	dc.b	$FF
 
 ; $19
-	dc.b	"Suddenly, the fever of the"
+	dc.b	"Tout-à-coup, les malades ont"
 	dc.b	$FC
-	dc.b	"patients started going down."
+	dc.b	"cessé de faire de la fièvre."
 	dc.b	$FF
 
 ; $1A
 	dc.b	$FA
 	dc.b	$A1, $01
-	dc.b	"There was a town called Reshel"
+	dc.b	"Il y avait une ville, Reshel,"
 	dc.b	$FC
-	dc.b	"west of here, but... "
+	dc.b	"à l'ouest..."
 	dc.b	$FD
-	dc.b	"Apparently it's been totally"
+	dc.b	"Il semble qu'elle ait été"
 	dc.b	$FC
-	dc.b	"destroyed by an illness!"
+	dc.b	"décimée par une maladie!"
 	dc.b	$FD
-	dc.b	"I hear it's a zombie town now."
-	dc.b	$FD
-	dc.b	"We've got to take this matter"
+	dc.b	"On dit que c'est une ville"
 	dc.b	$FC
-	dc.b	"seriously here!"
+	dc.b	"morte-vivante depuis."
+	dc.b	$FD
+	dc.b	"Il faut prendre ça au sérieux"
+	dc.b	$FC
+	dc.b	"ici!"
 	dc.b	$FF
 
 ; $1B
-	dc.b	"I heard"
+	dc.b	"Il semble que les zombis ont"
 	dc.b	$FC
-	dc.b	"the zombies have disappeared!"
+	dc.b	"disparus, et Reshel se"
 	dc.b	$FD
-	dc.b	"Reshel has started to rebuild."
+	dc.b	"reconstruit peu à peu!"
 	dc.b	$FF
 
 ; $1C
 	dc.b	$FA
 	dc.b	$A1, $01
-	dc.b	"Some people have escaped from"
+	dc.b	"Certains ont fuit Reshel, mais"
 	dc.b	$FC
-	dc.b	"Reshel, but it's not like"
+	dc.b	"nous ne sommes pas nécessaire-"
 	dc.b	$FD
-	dc.b	"it's safe here either!"
+	dc.b	"ment en sécurité ici!"
 	dc.b	$FF
 
 ; $1D
-	dc.b	"The people that escaped from"
+	dc.b	"Ceux qui avaient fuit Reshel"
 	dc.b	$FC
-	dc.b	"Reshel have gone back."
+	dc.b	"sont retournés chez eux."
 	dc.b	$FD
-	dc.b	"They said they're going to"
+	dc.b	"Ils ont dit qu'ils allaient tout"
 	dc.b	$FC
-	dc.b	"start over again. "
+	dc.b	"reprendre à zéro."
 	dc.b	$FF
 
 ; $1E
 	dc.b	$FA
 	dc.b	$A1, $01
-	dc.b	"Z...z...zombies are"
+	dc.b	"L...l...les zombies ont peur"
 	dc.b	$FC
-	dc.b	"supposed to fear fire, right?"
+	dc.b	"du feu, pas vrai?"
 	dc.b	$FD
-	dc.b	"So they won't come and attack us"
+	dc.b	"Donc, ils ne viendront pas nous"
 	dc.b	$FC
-	dc.b	"if we make a fire right"
+	dc.b	"attaquer si on fait un feu au"
 	dc.b	$FD
-	dc.b	"in the middle of town like this,"
-	dc.b	$FC
-	dc.b	"right?"
+	dc.b	"milieu de la ville, pas vrai?"
 	dc.b	$FF
 
 ; $1F
-	dc.b	"There won't be any more zombies,"
+	dc.b	"Il n'y aura plus de zombis,"
 	dc.b	$FC
-	dc.b	"right?"
+	dc.b	"pas vrai?"
 	dc.b	$FD
-	dc.b	"Then put those fires out! Out!"
+	dc.b	"Alors éteignons ces feux! Vite!"
 	dc.b	$FF
 
 ; $20
-	dc.b	"This is"
+	dc.b	"Ici, c'est le triage des"
 	dc.b	$FC
-	dc.b	"the patient admission area."
+	dc.b	"patients. C'était une auberge"
 	dc.b	$FD
-	dc.b	"It used to be the inn,"
+	dc.b	"avant, mais l'aubergiste en a"
 	dc.b	$FC
-	dc.b	"but the innkeeper has made it"
+	dc.b	"fait une clinique ouverte à"
 	dc.b	$FD
-	dc.b	"a public clinic out of"
-	dc.b	$FC
-	dc.b	"the goodness of his heart."
+	dc.b	"tous par bonté de coeur."
 	dc.b	$FF
 
 ; $21
 	dc.b	$FA
 	dc.b	$A1, $01
-	dc.b	"Over half the people of"
+	dc.b	"Plus de la moitié des habitants"
 	dc.b	$FC
-	dc.b	"this town have been stricken"
-	dc.b	$FD
-	dc.b	"with the illness."
+	dc.b	"de cette ville sont malades."
 	dc.b	$FF
 
 ; $22
-	dc.b	"I'm so glad that everyone"
+	dc.b	"Je suis si content que tout le"
 	dc.b	$FC
-	dc.b	"is getting better."
+	dc.b	"monde se porte mieux."
 	dc.b	$FF
 
 ; $23
-	dc.b	"Did you see the cemetery?"
+	dc.b	"Vous avez vu le cimetière?"
 	dc.b	$FD
-	dc.b	"I feel sorry for them,"
+	dc.b	"C'est vraiment horrible, mais"
 	dc.b	$FC
-	dc.b	"but we had to burn and bury"
+	dc.b	"nous avons dû brûler et enterrer"
 	dc.b	$FD
-	dc.b	"the bodies of all the people"
+	dc.b	"les dépouilles de ceux qui sont"
 	dc.b	$FC
-	dc.b	"who became zombies."
+	dc.b	"devenus des Zombis."
 	dc.b	$FF
 
 ; $24
@@ -371,32 +367,28 @@
 	dc.b	$A1, $02
 	dc.b	$FA
 	dc.b	$95, $01
-	dc.b	"There's some 'Esper' who's come"
+	dc.b	"Un 'Esper' est venu ici? C'est"
 	dc.b	$FC
-	dc.b	"here?"
-	dc.b	$FD
-	dc.b	"Sounds kind of suspicious!"
+	dc.b	"louche!"
 	dc.b	$FF
 
 ; $25
-	dc.b	"There's some 'Esper' who's come"
+	dc.b	"Un 'Esper' est venu ici? C'est"
 	dc.b	$FC
-	dc.b	"here?"
-	dc.b	$FD
-	dc.b	"Sounds kind of suspicious!"
+	dc.b	"louche!"
 	dc.b	$FD
 	dc.b	" "
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"How dare you say that!"
+	dc.b	"Comment oses-tu dire ça!"
 	dc.b	$FF
 
 ; $26
-	dc.b	"The ill are recovering."
+	dc.b	"Les malades se rétablissent."
 	dc.b	$FC
-	dc.b	"I wonder if it's all due to"
+	dc.b	"Je me demande si c'est grâce à"
 	dc.b	$FD
-	dc.b	"those Esper people?"
+	dc.b	"ces 'Espers?'"
 	dc.b	$FF
 
 ; $27
@@ -404,47 +396,43 @@
 	dc.b	$A1, $02
 	dc.b	$FA
 	dc.b	$95, $01
-	dc.b	"The owner of this equipment"
+	dc.b	"Le propriétaire de cette"
 	dc.b	$FC
-	dc.b	"store has been stricken by"
+	dc.b	"boutique d'outils a été terrassé"
 	dc.b	$FD
-	dc.b	"the illness and has closed shop."
+	dc.b	"par la maladie et a dû fermer."
 	dc.b	$FD
-	dc.b	"He used to sell"
+	dc.b	"Il vendait une sorte de parfum"
 	dc.b	$FC
-	dc.b	"a strange-smelling perfume"
-	dc.b	$FD
-	dc.b	"called something or other."
+	dc.b	"dont le nom m'échappe."
 	dc.b	$FF
 
 ; $28
-	dc.b	"The owner of this equipment"
+	dc.b	"Le propriétaire de cette"
 	dc.b	$FC
-	dc.b	"store has been stricken by"
+	dc.b	"boutique d'outils a été terrassé"
 	dc.b	$FD
-	dc.b	"the illness and has closed shop."
+	dc.b	"par la maladie et a dû fermer."
 	dc.b	$FD
-	dc.b	"He used to sell"
+	dc.b	"Il vendait une sorte de parfum"
 	dc.b	$FC
-	dc.b	"a strange-smelling perfume"
-	dc.b	$FD
-	dc.b	"called something or other."
+	dc.b	"dont le nom m'échappe."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"Ooo, perfume! That's nice."
+	dc.b	"Oh, du parfum! C'est chouette."
 	dc.b	$FF
 
 ; $29
-	dc.b	"It's great that the"
+	dc.b	"Je suis content que la boutique"
 	dc.b	$FC
-	dc.b	"equipment store is open again,"
+	dc.b	"d'outils soit de nouveau"
 	dc.b	$FD
-	dc.b	"but that perfume sure is"
+	dc.b	"ouverte, mais ces parfums"
 	dc.b	$FC
-	dc.b	"expensive!"
+	dc.b	"coûtent vraiment cher!"
 	dc.b	$FF
 
 ; $2A
-	dc.b	"Yippee!  Yippee!"
+	dc.b	"Youpi! Youpi!"
 	dc.b	$FF

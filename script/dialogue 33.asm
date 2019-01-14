@@ -24,75 +24,75 @@
 ; $1
 	dc.b	$F4
 	dc.b	$0E
-	dc.b	"Oh Hahn, don't bother"
+	dc.b	"Eh, Hahn, n'embête pas"
 	dc.b	$FC
-	dc.b	"these people."
+	dc.b	"ces gens."
 	dc.b	$FF
 
 ; $2
 	dc.b	$F4
 	dc.b	$0E
-	dc.b	"...are you going, Hahn?"
+	dc.b	"...tu vas aller voir, Hahn?"
 	dc.b	$FF
 
 ; $3
 	dc.b	$F4
 	dc.b	$0E
-	dc.b	"What! Holt again!?"
+	dc.b	"Quoi! Encore Holt!?"
 	dc.b	$FD
-	dc.b	"Hahn, it might be better not to"
+	dc.b	"Hahn, il est sûrement préférable"
 	dc.b	$FC
-	dc.b	"get involved any further."
+	dc.b	"de ne plus s'en mêler."
 	dc.b	$FF
 
 ; $4
 	dc.b	$F4
 	dc.b	$0E
-	dc.b	"Don't mention the danger this"
+	dc.b	"N'ébruitez pas les problèmes de"
 	dc.b	$FC
-	dc.b	"planet is in."
+	dc.b	"notre planète."
 	dc.b	$FD
-	dc.b	"We don't want to incite the"
+	dc.b	"Nous ne voulons pas affoler"
 	dc.b	$FC
-	dc.b	"public."
+	dc.b	"la population."
 	dc.b	$FF
 
 ; $5
 	dc.b	$F4
 	dc.b	$0E
-	dc.b	"I just don't want to get"
+	dc.b	"Pas question que je m'en"
 	dc.b	$FC
-	dc.b	"involved."
+	dc.b	"mêle."
 	dc.b	$FD
-	dc.b	"Please don't come here"
+	dc.b	"Partez et cessez de"
 	dc.b	$FC
-	dc.b	"again."
+	dc.b	"venir ici."
 	dc.b	$FF
 
 ; $6
 	dc.b	$F4
 	dc.b	$0E
-	dc.b	"Not get involved?"
+	dc.b	"Pas de nos affaires?"
 	dc.b	$FC
-	dc.b	"That's a joke!"
+	dc.b	"Vous voulez rire!"
 	dc.b	$FD
-	dc.b	"At this point,"
+	dc.b	"Vu les circonstances, je ne"
 	dc.b	$FC
-	dc.b	"I just can't turn a blind eye!"
+	dc.b	"peux pas ignorer tout ça!"
 	dc.b	$FF
 
 ; $7
 	dc.b	$F4
 	dc.b	$0E
-	dc.b	"Not get involved?"
+	dc.b	"Pas de nos affaires?"
 	dc.b	$FC
-	dc.b	"That's a joke!"
+	dc.b	"Vous voulez rire!"
 	dc.b	$FD
-	dc.b	"At this point,"
+	dc.b	"Vu les circonstances, je ne"
 	dc.b	$FC
-	dc.b	"I just can't turn a blind eye!"
+	dc.b	"peux pas ignorer tout ça!"
 	dc.b	$FD
-	dc.b	"I'm counting on you, Hahn!"
+	dc.b	"Je compte sur toi, Hahn!"
 	dc.b	$FF
 
 ; $8
@@ -104,31 +104,31 @@
 	dc.b	$63, $01
 	dc.b	$F4
 	dc.b	$0D
-	dc.b	"We've got to do something,"
+	dc.b	"Il faut faire quelque chose,"
 	dc.b	$FC
-	dc.b	"but keep it under your hat!"
+	dc.b	"mais restez discrets!"
 	dc.b	$FF
 
 ; $9
 	dc.b	$F4
 	dc.b	$0D
-	dc.b	"Hahn... I want to help you"
+	dc.b	"Hahn... J'aimerais beaucoup"
 	dc.b	$FC
-	dc.b	"somehow but..."
+	dc.b	"t'aider, mais, tu sais..."
 	dc.b	$FF
 
 ; $A
 	dc.b	$F4
 	dc.b	$0D
-	dc.b	"What on earth is going on!?"
+	dc.b	"Que diable se passe-t-il ici!?"
 	dc.b	$FF
 
 ; $B
 	dc.b	$F4
 	dc.b	$0D
-	dc.b	"Hahn, I'm leaving"
+	dc.b	"Hahn, je m'en remet"
 	dc.b	$FC
-	dc.b	"it all in your hands."
+	dc.b	"entièrement à toi."
 	dc.b	$FF
 
 ; $C
@@ -138,49 +138,53 @@
 	dc.b	$C2, $02
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Hey, everybody."
+	dc.b	"Bonjour à tous!"
 	dc.b	$FC
-	dc.b	"Long time no see!"
+	dc.b	"Ça fait un bail!"
 	dc.b	$FD
-	dc.b	"But...it won't work..."
+	dc.b	"Mais... c'est sans espoir..."
 	dc.b	$FD
-	dc.b	"The upper management of this"
+	dc.b	"Les administrateurs de cette"
 	dc.b	$FC
-	dc.b	"academy is hard-headed."
+	dc.b	"académie sont bornés."
 	dc.b	$FD
-	dc.b	"They're such cowards."
+	dc.b	"Quels pleutres!"
+	dc.b	$FD
+	dc.b	"Ils ne bougeront pas le petit"
 	dc.b	$FC
-	dc.b	"They won't do anything for us."
+	dc.b	"doigt."
 	dc.b	$FF
 
 ; $D
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Hmmm...a historian...."
+	dc.b	"Hum... un historien..."
 	dc.b	$FC
-	dc.b	"I don't know this face."
+	dc.b	"Sa tête ne me revient pas."
 	dc.b	$FF
 
 ; $E
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Long time no see, everyone!"
+	dc.b	"Ça fait un bail!"
 	dc.b	$FC
-	dc.b	"But it won't work..."
+	dc.b	"Mais... c'est sans espoir..."
 	dc.b	$FD
-	dc.b	"The upper management of"
+	dc.b	"Les administrateurs de cette"
 	dc.b	$FC
-	dc.b	"this academy is hard-headed."
+	dc.b	"académie sont bornés."
 	dc.b	$FD
-	dc.b	"They're such cowards."
+	dc.b	"Quels pleutres!"
+	dc.b	$FD
+	dc.b	"Ils ne bougeront pas le petit"
 	dc.b	$FC
-	dc.b	"They won't do anything for us."
+	dc.b	"doigt."
 	dc.b	$FF
 
 ; $F
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Wh..What's this...?!"
+	dc.b	"Que...Quoi?!"
 	dc.b	$FF
 
 ; $10
@@ -189,158 +193,158 @@
 	dc.b	$F3
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Ahh! I wonder what kind of"
+	dc.b	"Hum! Je me demande de quoi"
 	dc.b	$FC
-	dc.b	"person this hunter is that"
+	dc.b	"a l'air le chasseur que le"
 	dc.b	$FD
-	dc.b	"the principal commissioned?"
+	dc.b	"directeur a retenu?"
 	dc.b	$FD
-	dc.b	"It would be nice if he's a"
+	dc.b	"J'espère que c'est quelqu'un"
 	dc.b	$FC
-	dc.b	"dependable type of guy..."
+	dc.b	"de fiable..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"...He's not listening to"
+	dc.b	"...Il n'écoute rien de ce que"
 	dc.b	$FC
-	dc.b	"anything people are saying."
+	dc.b	"les gens disent."
 	dc.b	$FF
 
 ; $11
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"What? You're the hunters?"
+	dc.b	"Hein, vous êtes les chasseurs?"
 	dc.b	$FC
-	dc.b	"Really?"
+	dc.b	"Sans rire?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"You don't think we can do the"
+	dc.b	"Quoi, on a l'air trop minable"
 	dc.b	$FC
-	dc.b	"job?"
+	dc.b	"pour ce travail?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"No, no, not at all!"
+	dc.b	"Euh, non, non, pas du tout!"
 	dc.b	$FC
-	dc.b	"I didn't mean that!"
+	dc.b	"Ce... Ce n'est pas ce que je..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Since we have the principal's"
+	dc.b	"Laisse-nous passer. Nous avons"
 	dc.b	$FC
-	dc.b	"permission, let us pass."
+	dc.b	"l'autorisation du directeur."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Wait!"
+	dc.b	"Une minute!"
 	dc.b	$FC
-	dc.b	"Take me with you!"
+	dc.b	"Emmenez-moi avec vous!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Hmm. And why should we?"
+	dc.b	"Voyez-vous ça. Et pourquoi donc?"
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$0004
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"My name is Hahn."
+	dc.b	"Je m'appelle Hahn."
 	dc.b	$FD
-	dc.b	"I am an assistant at this"
+	dc.b	"Je suis un adjoint dans cette"
 	dc.b	$FC
-	dc.b	"academy."
+	dc.b	"académie."
 	dc.b	$FD
-	dc.b	"I work for professor Holt,"
+	dc.b	"Je travaille avec le professeur"
 	dc.b	$FC
-	dc.b	"who has gone to investigate"
+	dc.b	"Holt. Il est parti enquêter"
 	dc.b	$FD
-	dc.b	"Birth Valley for his research."
-	dc.b	$FD
-	dc.b	"We haven't heard from him since."
-	dc.b	$FD
-	dc.b	"So, now I am searching for"
+	dc.b	"dans la Vallée de l'Éclosion"
 	dc.b	$FC
-	dc.b	"the professor's whereabouts!"
+	dc.b	"pour son projet de recherche."
+	dc.b	$FD
+	dc.b	"Nous sommes sans nouvelles"
+	dc.b	$FC
+	dc.b	"depuis."
+	dc.b	$FD
+	dc.b	"Alors, je cherche des indices"
+	dc.b	$FC
+	dc.b	"pour le retrouver!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Birth Valley..."
+	dc.b	"La Vallée de l'Éclosion..."
 	dc.b	$FC
-	dc.b	"that's that mysterious place"
+	dc.b	"c'est l'endroit mystérieux qu'on"
 	dc.b	$FD
-	dc.b	"that has been called"
+	dc.b	"appelle la vallée sacrée"
 	dc.b	$FC
-	dc.b	"the sacred valley of life."
+	dc.b	"de la vie."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"But what's the connection"
+	dc.b	"Mais quel rapport entre cette"
 	dc.b	$FC
-	dc.b	"between the valley and this"
+	dc.b	"vallée et l'actuelle épidémie"
 	dc.b	$FD
-	dc.b	"current monster scare?"
+	dc.b	"de monstres?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"After the investigation team,"
+	dc.b	"Suite à la disparition de"
 	dc.b	$FC
-	dc.b	"led by the professor, was"
+	dc.b	"l'équipe de chercheurs menée par"
 	dc.b	$FD
-	dc.b	"reported missing, the principal"
+	dc.b	"le professeur, le directeur"
 	dc.b	$FC
-	dc.b	"barred everyone from entering"
+	dc.b	"interdit à quiconque l'accès à"
 	dc.b	$FD
-	dc.b	"Birth Valley!"
+	dc.b	"la Vallée de l'Éclosion!"
 	dc.b	$FD
-	dc.b	"We're trying to get information"
+	dc.b	"Depuis, nous nous enquérons"
 	dc.b	$FC
-	dc.b	"as to what's going on, but "
+	dc.b	"incessamment de la situation,"
 	dc.b	$FD
-	dc.b	"he keeps evading the issue."
+	dc.b	"mais il demeure évasif."
 	dc.b	$FD
-	dc.b	"And then this monster scare"
+	dc.b	"Et comme par hasard, cette"
 	dc.b	$FC
-	dc.b	"begins!"
+	dc.b	"épidémie de monstres se déclare!"
 	dc.b	$FD
-	dc.b	"I'll bet anything that"
+	dc.b	"Je vous parie qu'il y a un"
 	dc.b	$FC
-	dc.b	"there is some sort of connection"
-	dc.b	$FD
-	dc.b	"between these incidents."
+	dc.b	"lien entre tous ces événements."
 	dc.b	$FD
 	dc.b	$F2, $01
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Well it's true that"
+	dc.b	"J'admets que le comportement"
 	dc.b	$FC
-	dc.b	"there is something fishy"
-	dc.b	$FD
-	dc.b	"about the principal's behavior."
+	dc.b	"du directeur est très suspect..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Given the circumstances,"
+	dc.b	"Étant donné les circonstances,"
 	dc.b	$FC
-	dc.b	"I feel compelled to investigate"
+	dc.b	"je me sens contraint d'examiner"
 	dc.b	$FD
-	dc.b	"the basement myself."
+	dc.b	"le sous-sol moi-même."
 	dc.b	$FD
-	dc.b	"But come to think of it,"
+	dc.b	"Mais à bien y penser, cela"
 	dc.b	$FC
-	dc.b	"it is a bit dangerous..."
+	dc.b	"semble quelque peu risqué..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"So you were just waiting"
+	dc.b	"Bon, alors tu attendais qu'on"
 	dc.b	$FC
-	dc.b	"for us to arrive?"
+	dc.b	"se manifeste?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Well, ah, yes."
+	dc.b	"Euh, bien... oui."
 	dc.b	$FC
-	dc.b	"You catch on quick!"
+	dc.b	"Vous êtes perspicace!"
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$0005
@@ -350,319 +354,333 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"What?"
+	dc.b	"Plaît-il?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"We'll take you with us"
+	dc.b	"Nous t'escorterons"
 	dc.b	$FC
-	dc.b	"for 100 meseta."
+	dc.b	"au prix de 100 meseta."
 	dc.b	$FD
-	dc.b	"I hope you weren't thinking of"
+	dc.b	"J'espère que tu ne pensais"
 	dc.b	$FC
-	dc.b	"asking to tag along with us"
+	dc.b	"pas pouvoir nous accompagner"
 	dc.b	$FD
-	dc.b	"for free?"
+	dc.b	"et être dans nos pattes gratis?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Er...I can't get that kind of"
+	dc.b	"Euh... Je ne crois pas que le"
 	dc.b	$FC
-	dc.b	"money from the principal..."
+	dc.b	"directeur me cède tel montant..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"That's not my problem."
+	dc.b	"Pas vraiment mon problème."
 	dc.b	$FC
-	dc.b	"Now, what are you going to do?"
+	dc.b	"Alors, tu décides?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"...OK, I'll pay...."
+	dc.b	"...D'accord, marché conclu...."
 	dc.b	$FF
 
 ; $12
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"We did it!"
+	dc.b	"Victoire!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Chaz! You need more practice."
+	dc.b	"Chaz! Tu as besoin de plus"
 	dc.b	$FC
-	dc.b	"Your swing is too slow!"
+	dc.b	"d'entraînement! C'est trop lent!"
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"What? But we destroyed the"
+	dc.b	"Hein? Mais on a détruit le"
 	dc.b	$FC
-	dc.b	"monster..."
+	dc.b	"monstre..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"With my help..."
+	dc.b	"Pas sans mon aide..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Sorry."
+	dc.b	"...Désolé."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Now, Hahn?"
+	dc.b	"Bon. Hahn?"
 	dc.b	$FC
-	dc.b	"Come over here."
+	dc.b	"Viens ici."
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"What?"
+	dc.b	"Oui?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"What are these glass containers"
+	dc.b	"À quoi servent ces tubes"
 	dc.b	$FC
-	dc.b	"for?"
+	dc.b	"de verre?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"These..."
+	dc.b	"Ce sont..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Hey, are you by any chance"
+	dc.b	"Dites donc, est-ce que vous"
 	dc.b	$FC
-	dc.b	"breeding monsters here?"
+	dc.b	"cultivez des monstres ici?"
 	dc.b	$FD
-	dc.b	"If that's the case,"
-	dc.b	$FD
-	dc.b	"this monster business is"
+	dc.b	"Si c'est le cas, tous ces trucs"
 	dc.b	$FC
-	dc.b	"no mystery after all!"
+	dc.b	"à propos des monstres, ce n'est"
+	dc.b	$FD
+	dc.b	"pas très mystérieux!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"I...I don't know anything!"
+	dc.b	"Je...J'y suis pour rien!"
 	dc.b	$FD
-	dc.b	"It's the first time I've been"
+	dc.b	"C'est la première fois que"
 	dc.b	$FC
-	dc.b	"in this room!"
+	dc.b	"je pénètre dans ce local!"
 	dc.b	$FD
-	dc.b	"I've only just learned that such"
+	dc.b	"Je ne savais même pas qu'il y"
 	dc.b	$FC
-	dc.b	"a thing exists at the academy!"
+	dc.b	"avait de tels appareils"
+	dc.b	$FD
+	dc.b	"entre les murs de l'académie!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Umm...."
+	dc.b	"Mouais...."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Really, it's the truth!"
+	dc.b	"C'est la vérité, je le jure!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"I believe you... for now."
+	dc.b	"Je te crois... pour l'instant."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"The principal must know"
+	dc.b	"Le directeur devait connaître"
 	dc.b	$FC
-	dc.b	"about these containers!"
+	dc.b	"l'existence de ces tubes!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"He must also know the"
+	dc.b	"Il doit aussi connaître le lien"
 	dc.b	$FC
-	dc.b	"connection between this"
+	dc.b	"entre ces trucs et la"
 	dc.b	$FD
-	dc.b	"and the disappearance of"
-	dc.b	$FC
-	dc.b	"Professor Holt."
+	dc.b	"disparition du professeur Holt."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Yes, let's see the principal"
+	dc.b	"Je crois qu'une petite visite"
 	dc.b	$FC
-	dc.b	"again. C'mon Chaz!"
+	dc.b	"chez le directeur s'impose."
+	dc.b	$FD
+	dc.b	"Allons, viens, Chaz!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Hey!"
+	dc.b	"Hé!"
 	dc.b	$FC
-	dc.b	"Don't leave me here!"
+	dc.b	"Ne me laissez pas seul ici!"
 	dc.b	$FF
 
 ; $13
 	dc.b	$F4
 	dc.b	$0E
-	dc.b	"Wh...what's wrong?"
+	dc.b	"Que...Qui a-t-il?"
 	dc.b	$FC
-	dc.b	"You seem upset."
+	dc.b	"Vous semblez contrariés."
 	dc.b	$FD
-	dc.b	"Were you able to"
+	dc.b	"Avez-vous pu vaincre tous"
 	dc.b	$FC
-	dc.b	"defeat those monsters?"
+	dc.b	"ces monstres?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Yes, but there is something"
+	dc.b	"Oui, mais il y a des choses que"
 	dc.b	$FC
-	dc.b	"I want to ask you."
+	dc.b	"nous voulons mettre au clair."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0E
-	dc.b	"What?"
+	dc.b	"Quoi donc?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Is it just my imagination that"
+	dc.b	"Était-ce mon imagination, ou"
 	dc.b	$FC
-	dc.b	"I saw some strange things"
+	dc.b	"j'ai vu des choses bizarres"
 	dc.b	$FD
-	dc.b	"in the basement?"
+	dc.b	"au sous-sol?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0E
-	dc.b	"Ah..."
+	dc.b	"Euh..."
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$0006
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Stop beating around the bush."
-	dc.b	$FD
-	dc.b	"Someone keeping information"
+	dc.b	"Cessez de me faire perdre mon"
 	dc.b	$FC
-	dc.b	"from me is the sixth most"
+	dc.b	"temps. Me cacher des faits,"
 	dc.b	$FD
-	dc.b	"dangerous thing in this world!"
+	dc.b	"c'est la sixième chose la plus"
+	dc.b	$FC
+	dc.b	"périlleuse au monde!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0E
-	dc.b	"All right already..."
+	dc.b	"D'accord! D'accord..."
 	dc.b	$FD
-	dc.b	"I'll tell you what I know."
+	dc.b	"Je vais tout vous dire."
 	dc.b	$FD
-	dc.b	"You are aware of the recent"
+	dc.b	"Vous êtes au courant de"
 	dc.b	$FC
-	dc.b	"outbreak of a new breed of"
+	dc.b	"l'épidémie récente d'un nouveau"
 	dc.b	$FD
-	dc.b	"monster?"
+	dc.b	"type de monstre?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Oh yes. Thanks to the outbreak"
+	dc.b	"Oh que oui! Grâce à ça, je"
 	dc.b	$FC
-	dc.b	"I'm not hurting for work."
+	dc.b	"ne manque pas de boulot."
 	dc.b	$FD
 	dc.b	$F2, $01
 	dc.b	$F2, $06
 	dc.b	$F4
 	dc.b	$0E
-	dc.b	"Three months ago, Holt"
+	dc.b	"Il y a trois mois, Holt a"
 	dc.b	$FC
-	dc.b	"identified Birth Valley as"
+	dc.b	"confirmé que la Vallée de"
 	dc.b	$FD
-	dc.b	"the origin of the outbreak,"
+	dc.b	"l'Éclosion est le point"
 	dc.b	$FC
-	dc.b	"and he went to investigate..."
+	dc.b	"d'origine de l'épidémie, et"
 	dc.b	$FD
-	dc.b	"He says he discovered the"
+	dc.b	"il est parti enquêter..."
 	dc.b	$FC
-	dc.b	"remains of an ancient and"
+	dc.b	"Il prétendait avoir découvert"
 	dc.b	$FD
-	dc.b	"advanced civilization!"
-	dc.b	$FD
-	dc.b	"The investigation team brought"
+	dc.b	"les vestiges d'une civilisation"
 	dc.b	$FC
-	dc.b	"back the monster breeding"
+	dc.b	"plus avancée que la nôtre!"
 	dc.b	$FD
-	dc.b	"capsules, and immediately set"
+	dc.b	"L'équipe de chercheurs a ramené"
 	dc.b	$FC
-	dc.b	"forth on their second"
+	dc.b	"des tubes d'éclosion pour"
 	dc.b	$FD
-	dc.b	"investigative mission."
+	dc.b	"monstres, et est repartie"
 	dc.b	$FC
-	dc.b	"But..."
+	dc.b	"immédiatement pour une seconde"
+	dc.b	$FD
+	dc.b	"mission d'enquête."
+	dc.b	$FC
+	dc.b	"Toutefois..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Not one of them came back..."
+	dc.b	"Aucun d'entre eux n'en est"
+	dc.b	$FC
+	dc.b	"revenu..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0E
-	dc.b	"Yes, that's right Hahn."
+	dc.b	"Oui, tout-à-fait, Hahn."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"And despite all this,"
+	dc.b	"Malgré cela, vous n'avez pas"
 	dc.b	$FC
-	dc.b	"you didn't send out a rescue"
+	dc.b	"cru bon de mettre sur pied"
 	dc.b	$FD
-	dc.b	"team and banned entry to"
+	dc.b	"une expédition de secours et"
 	dc.b	$FC
-	dc.b	"Birth Valley!"
+	dc.b	"de surcroît, vous avez interdit"
+	dc.b	$FD
+	dc.b	"l'accès à la Vallée de"
+	dc.b	$FC
+	dc.b	"l'Éclosion!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0E
-	dc.b	"No, no!"
+	dc.b	"Non, au contraire!"
 	dc.b	$FD
-	dc.b	"I...I was trying to send out"
+	dc.b	"Je...J'ai voulu monter une"
 	dc.b	$FC
-	dc.b	"a rescue team! But..."
+	dc.b	"équipe pour les secourir! Sauf"
+	dc.b	$FD
+	dc.b	"que, voyez vous..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Something happened?"
+	dc.b	"On vous en a empêché?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0E
-	dc.b	"At that moment,"
+	dc.b	"Soudainement, un homme qui"
 	dc.b	$FC
-	dc.b	"a man who called himself 'Zio'"
+	dc.b	"disait s'appeler 'Zio' est"
 	dc.b	$FD
-	dc.b	"appeared before my eyes..."
+	dc.b	"apparu devant moi..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Zio! I've heard of him."
+	dc.b	"Zio! Ça me dit quelque chose."
 	dc.b	$FC
-	dc.b	"That fake magician!"
+	dc.b	"Ce magicien de pacotille!"
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$0007
 	dc.b	$F4
 	dc.b	$13
-	dc.b	"Ah, my dear principal of"
+	dc.b	"Ah! Monsieur le directeur de"
 	dc.b	$FC
-	dc.b	"Motavia Academy,"
+	dc.b	"l'Académie Motavia,"
 	dc.b	$FD
-	dc.b	"how are you doing?"
+	dc.b	"comment vous portez-vous?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0E
-	dc.b	"Who.. Who are you!?"
+	dc.b	"Qui...Qui êtes-vous!?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$13
-	dc.b	"My name is Zio..."
+	dc.b	"Appelez-moi Zio..."
 	dc.b	$FC
-	dc.b	"Zio the black magician."
+	dc.b	"Zio le magicien noir."
 	dc.b	$FD
-	dc.b	"Do not intrude on Birth Valley."
+	dc.b	"Il vaut mieux ne pas s'immiscer"
+	dc.b	$FC
+	dc.b	"dans la Vallée de l'Éclosion."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0E
-	dc.b	"What do you mean!?"
+	dc.b	"Que signifie!?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$13
-	dc.b	"In the future,"
+	dc.b	"À partir de maintenant, si"
 	dc.b	$FC
-	dc.b	"if you ever let anyone set foot"
+	dc.b	"vous laissez quiconque mettre"
 	dc.b	$FD
-	dc.b	"in Birth Valley..."
+	dc.b	"les pieds dans la Vallée..."
 	dc.b	$FD
 	dc.b	$F2, $01
 	dc.b	$F2, $06
@@ -670,51 +688,53 @@
 	dc.w	$0008
 	dc.b	$F4
 	dc.b	$0E
-	dc.b	"Ahhh!"
+	dc.b	"Horreur!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$13
-	dc.b	"Let me make something clear..."
+	dc.b	"Comprenez-moi bien..."
 	dc.b	$FD
-	dc.b	"There is no need for you"
+	dc.b	"Il n'y a aucune raison de vous"
 	dc.b	$FC
-	dc.b	"to go to Birth Valley!"
+	dc.b	"aventurer là-bas!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"It's related to the research"
+	dc.b	"Ça a rapport avec l'équipe"
 	dc.b	$FC
-	dc.b	"team!"
+	dc.b	"de chercheurs!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"So that's why the Birth Valley"
+	dc.b	"Voilà pourquoi vous avez passé"
 	dc.b	$FC
-	dc.b	"situation wasn't announced,"
+	dc.b	"sous silence la situation dans"
 	dc.b	$FD
-	dc.b	"and also why you tried to keep"
+	dc.b	"la Vallée de l'Éclosion, et"
 	dc.b	$FC
-	dc.b	"a lid on the monster situation."
+	dc.b	"la raison pour laquelle vous"
 	dc.b	$FD
-	dc.b	"But...what is all this about?"
-	dc.b	$FD
-	dc.b	"Remains of an ancient advanced"
+	dc.b	"avez étouffé l'affaire des"
 	dc.b	$FC
-	dc.b	"civilization and Zio?"
+	dc.b	"monstres."
+	dc.b	$FD
+	dc.b	"Mais...que signifie tout ça?"
+	dc.b	$FD
+	dc.b	"Des vestiges d'une ancienne"
+	dc.b	$FC
+	dc.b	"civilisation avancée, et Zio?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"It seems like these are signs of"
-	dc.b	$FC
-	dc.b	"something to come."
+	dc.b	"Ce sont d'inquiétants présages."
 	dc.b	$FD
 	dc.b	$F2, $01
 	dc.b	$F2, $06
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"I need to help the professor!"
+	dc.b	"Il faut que je sauve le"
 	dc.b	$FC
-	dc.b	"I'm going to Birth Valley!"
+	dc.b	"professeur! J'irai à la Vallée!"
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$0009
@@ -722,31 +742,31 @@
 	dc.b	$02
 	dc.b	"Psst. Hahn."
 	dc.b	$FD
-	dc.b	"This is egg-laying season for"
+	dc.b	"Tu feras gaffe, c'est la saison"
 	dc.b	$FC
-	dc.b	"sand worms, so be careful."
+	dc.b	"de ponte des vers des sables."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Ah...Alys?"
+	dc.b	"Euh...Alys?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"We'll tag along for 300 meseta"
+	dc.b	"Nous t'accompagnerons pour 300"
 	dc.b	$FC
-	dc.b	"plus expenses."
+	dc.b	"meseta, dépenses non comprises."
 	dc.b	$FD
 	dc.b	$F2, $01
 	dc.b	$F2, $06
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Ah...deal!"
+	dc.b	"Euh...d'accord!"
 	dc.b	$FD
-	dc.b	"Birth Valley is to the"
+	dc.b	"La Vallée de l'Éclosion se"
 	dc.b	$FC
-	dc.b	"northeast!"
+	dc.b	"situe au nord-est!"
 	dc.b	$FD
-	dc.b	"Let's hurry!"
+	dc.b	"Dépêchons-nous!"
 	dc.b	$FF
 
 ; $14
@@ -771,101 +791,105 @@
 	dc.w	$0001
 	dc.b	$F4
 	dc.b	$0E
-	dc.b	"Welcome."
+	dc.b	"Bienvenue."
 	dc.b	$FD
-	dc.b	"I'm the principal of this"
+	dc.b	"Je suis le directeur de cette"
 	dc.b	$FC
-	dc.b	"academy."
+	dc.b	"académie."
 	dc.b	$FD
-	dc.b	"Let's see, you must be Alys,"
+	dc.b	"Vous devez êtes Alys, la"
 	dc.b	$FC
-	dc.b	"the hunter,"
+	dc.b	"chasseresse,"
 	dc.b	$FD
-	dc.b	"and you are her assistant, Chaz."
+	dc.b	"et vous, son assistant, Chaz."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Forgive me, but Chaz is a"
+	dc.b	"Je vous demande pardon, Chaz est"
 	dc.b	$FC
-	dc.b	"full-fledged partner of mine."
+	dc.b	"mon associé à part entière."
 	dc.b	$FD
-	dc.b	"Now, let's get down to business."
+	dc.b	"Bien, venons-en au fait."
 	dc.b	$FD
-	dc.b	"Describe the situation."
+	dc.b	"Décrivez-moi la problématique."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0E
-	dc.b	"Ah..."
+	dc.b	"Hum... Bon."
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$0002
-	dc.b	"About a month ago..."
+	dc.b	"Il y a environ un mois..."
 	dc.b	$FC
-	dc.b	"Mysterious monsters started to"
+	dc.b	"Des monstres étranges sont"
 	dc.b	$FD
-	dc.b	"appear within this academy!"
-	dc.b	$FD
-	dc.b	"It appears that they have made"
+	dc.b	"apparu entre les murs de"
 	dc.b	$FC
-	dc.b	"the basement their headquarters."
+	dc.b	"notre Académie!"
 	dc.b	$FD
-	dc.b	"I've since closed it off."
-	dc.b	$FD
-	dc.b	"So far no one's been hurt, but"
+	dc.b	"Il semblerait que leur base"
 	dc.b	$FC
-	dc.b	"who knows when they'll appear"
+	dc.b	"soit au sous-sol."
 	dc.b	$FD
-	dc.b	"again?"
+	dc.b	"Je l'ai donc condamné."
 	dc.b	$FD
-	dc.b	"Please, I beg you to destroy all"
+	dc.b	"Jusqu'ici, pas de blessés, mais"
 	dc.b	$FC
-	dc.b	"those creatures!"
+	dc.b	"allez savoir quand ils"
 	dc.b	$FD
-	dc.b	"Ah... I'd like to settle this"
-	dc.b	$FC
-	dc.b	"matter discreetly,"
+	dc.b	"reviendront?"
 	dc.b	$FD
-	dc.b	"I'm counting on your"
+	dc.b	"S'il-vous-plaît, je vous en"
 	dc.b	$FC
-	dc.b	"reputation, Alys."
+	dc.b	"conjure, éliminez ces horreurs!"
+	dc.b	$FD
+	dc.b	"Et... J'aimerais que vous"
+	dc.b	$FC
+	dc.b	"régliez le tout discrètement."
+	dc.b	$FD
+	dc.b	"Votre réputation vous précède et"
+	dc.b	$FC
+	dc.b	"je compte sur vous, Alys."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"No problem. You can rely on us."
+	dc.b	"Sans problème. Comptez sur nous."
 	dc.b	$FD
-	dc.b	"Although, it's strange that all"
+	dc.b	"Ceci dit, il est quand même"
 	dc.b	$FC
-	dc.b	"those monsters suddenly"
+	dc.b	"étrange que tous ces monstres"
 	dc.b	$FD
-	dc.b	"appeared in this academy."
+	dc.b	"soient apparus dans l'Académie."
 	dc.b	$FD
-	dc.b	"Usually monsters don't come into"
+	dc.b	"Habituellement, ils se tiennent"
 	dc.b	$FC
-	dc.b	"inhabited areas."
+	dc.b	"loin des endroits habités."
 	dc.b	$FD
-	dc.b	"Do you have any idea"
+	dc.b	"Vous n'avez aucune idée"
 	dc.b	$FC
-	dc.b	"how this happened?"
+	dc.b	"comment cela a pu commencer?"
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$0003
 	dc.b	$F4
 	dc.b	$0E
-	dc.b	"How would I know?"
+	dc.b	"Qu'est-ce que j'en sais?"
 	dc.b	$FD
-	dc.b	"Stop asking questions."
+	dc.b	"Ne posez pas tant de questions!"
 	dc.b	$FD
-	dc.b	"Just hurry and exterminate"
+	dc.b	"Cessez de tergiverser! Faites"
 	dc.b	$FC
-	dc.b	"those monsters!"
+	dc.b	"votre travail et tuez-les!"
 	dc.b	$FD
-	dc.b	"Don't forget, I'm paying you"
+	dc.b	"Je vous paie très cher, ne"
 	dc.b	$FC
-	dc.b	"dearly for your services!"
+	dc.b	"l'oubliez pas!"
 	dc.b	$FF
 
 ; $18
 	dc.b	$F4
 	dc.b	$0E
-	dc.b	"Good luck. I'm counting on you."
+	dc.b	"Bonne chance. Je compte sur"
+	dc.b	$FC
+	dc.b	"vous."
 	dc.b	$FF

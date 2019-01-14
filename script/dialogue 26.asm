@@ -3,322 +3,322 @@
 	dc.b	$65, $01
 	dc.b	"Zio?"
 	dc.b	$FD
-	dc.b	"I don't know who hired you,"
+	dc.b	"Je ne sais pas qui vous a"
 	dc.b	$FC
-	dc.b	"but don't even think about it!"
+	dc.b	"engagés, mais n'y pensez pas!"
 	dc.b	$FD
-	dc.b	"Even if you had an infinite"
+	dc.b	"Même si vous aviez un nombre"
 	dc.b	$FC
-	dc.b	"number of lives it wouldn't be"
+	dc.b	"infini de vies, ça ne serait pas"
 	dc.b	$FD
-	dc.b	"enough!"
+	dc.b	"suffisant!"
 	dc.b	$FF
 
 ; $1
 	dc.b	"Zio?"
 	dc.b	$FD
-	dc.b	"Come to think of it,"
+	dc.b	"À bien y penser, il y a un"
 	dc.b	$FD
-	dc.b	"I haven't heard much about"
+	dc.b	"moment que je n'ai plus entendu"
 	dc.b	$FC
-	dc.b	"him recently."
+	dc.b	"parler de lui."
 	dc.b	$FF
 
 ; $2
 	dc.b	$FA
 	dc.b	$65, $01
-	dc.b	"This is just between you and"
-	dc.b	$FC
-	dc.b	"me..."
+	dc.b	"Que cela reste entre nous..."
 	dc.b	$FD
-	dc.b	"The cave to the north of Aiedo"
+	dc.b	"La caverne au nord d'Aiedo mène"
 	dc.b	$FC
-	dc.b	"leads to the area beyond the"
+	dc.b	"à un endroit passé les collines."
 	dc.b	$FD
-	dc.b	"hills."
-	dc.b	$FD
-	dc.b	"No one who's ever gone into"
+	dc.b	"Personne qui n'est entré dans"
 	dc.b	$FC
-	dc.b	"the cave has come back alive!"
+	dc.b	"cette caverne n'en est revenu!"
 	dc.b	$FD
-	dc.b	"I wonder what is beyond that"
+	dc.b	"Je me demande ce qu'il y a de"
 	dc.b	$FC
-	dc.b	"cave?"
+	dc.b	"l'autre côté?"
 	dc.b	$FF
 
 ; $3
-	dc.b	"This is just between you and"
-	dc.b	$FC
-	dc.b	"me..."
+	dc.b	"Que cela reste entre nous..."
 	dc.b	$FD
-	dc.b	"I heard that some hunter or"
+	dc.b	"J'ai entendu dire qu'un chasseur"
 	dc.b	$FC
-	dc.b	"another has beaten Zio!"
+	dc.b	"a vaincu Zio!"
 	dc.b	$FD
-	dc.b	"Pretty awesome,"
+	dc.b	"Impressionnant, n'est-ce pas?"
 	dc.b	$FC
-	dc.b	"huh? I wonder who on earth"
+	dc.b	"Je me demande bien qui ça peut"
 	dc.b	$FD
-	dc.b	"this person could be!"
+	dc.b	"bien être!"
 	dc.b	$FF
 
 ; $4
-	dc.b	"Monsters have recently become"
+	dc.b	"Les monstres deviennent de plus"
 	dc.b	$FC
-	dc.b	"extremely strong, making combat"
+	dc.b	"en plus puissants, il est devenu"
 	dc.b	$FD
-	dc.b	"with them difficult."
+	dc.b	"difficile de les combattre."
 	dc.b	$FD
-	dc.b	"I'd better think about a new"
+	dc.b	"Je ferais mieux de vite me"
 	dc.b	$FC
-	dc.b	"profession pretty soon!"
+	dc.b	"recycler dans une autre"
+	dc.b	$FD
+	dc.b	"profession!"
 	dc.b	$FF
 
 ; $5
 	dc.b	$FA
 	dc.b	$65, $01
-	dc.b	"This town is relatively peaceful"
+	dc.b	"Grâce à nous, cette ville est"
 	dc.b	$FC
-	dc.b	"thanks to us..."
+	dc.b	"plutôt calme..."
 	dc.b	$FD
-	dc.b	"I hear that other towns are"
+	dc.b	"J'ai entendu dire que les autres"
 	dc.b	$FC
-	dc.b	"plagued with disasters."
+	dc.b	"villes vivent des désastres."
 	dc.b	$FD
-	dc.b	"In one case an entire town"
+	dc.b	"Il en a même une qui a été"
 	dc.b	$FC
-	dc.b	"burnt to the ground!"
+	dc.b	"réduite en cendres!"
 	dc.b	$FD
-	dc.b	"It's been said this is all"
+	dc.b	"Ce serait l'oeuvre de Zio."
 	dc.b	$FC
-	dc.b	"Zio's doing."
-	dc.b	$FD
-	dc.b	"I wonder if it's true?"
+	dc.b	"Je me demande si c'est vrai?"
 	dc.b	$FF
 
 ; $6
-	dc.b	"This town is relatively peaceful"
+	dc.b	"Grâce à nous, cette ville est"
 	dc.b	$FC
-	dc.b	"thanks to us..."
+	dc.b	"plutôt calme..."
 	dc.b	$FD
-	dc.b	"I hear that other town are"
+	dc.b	"J'ai entendu dire que les autres"
 	dc.b	$FC
-	dc.b	"plagued with disasters."
+	dc.b	"villes vivent des désastres."
 	dc.b	$FD
-	dc.b	"In one case an entire town"
+	dc.b	"Il en a même une qui a été"
 	dc.b	$FC
-	dc.b	"burnt to the ground!"
+	dc.b	"réduite en cendres!"
 	dc.b	$FF
 
 ; $7
 	dc.b	$FA
 	dc.b	$42, $01
-	dc.b	"Hey, Alys! You're still as"
+	dc.b	"Hé, Alys! Vous êtes toujours"
 	dc.b	$FC
-	dc.b	"attractive as ever."
+	dc.b	"aussi séduisante."
 	dc.b	$FD
-	dc.b	"Why don't you go out with me"
+	dc.b	"Pourquoi vous ne sortez pas"
 	dc.b	$FC
-	dc.b	"once in a while?"
+	dc.b	"avec moi de temps à autre?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Thanks. I'll consider it when"
+	dc.b	"Ouais. J'y penserai quand vous"
 	dc.b	$FC
-	dc.b	"you become more of a man."
+	dc.b	"serez moins minable."
 	dc.b	$FF
 
 ; $8
-	dc.b	"Alys sure is one attractive"
+	dc.b	"Alys est une femme vraiment"
 	dc.b	$FC
-	dc.b	"woman, but she won't give me"
+	dc.b	"séduisante, mais elle ne veut"
 	dc.b	$FD
-	dc.b	"the time of day."
+	dc.b	"rien savoir de moi."
 	dc.b	$FD
-	dc.b	"I guess she's got a man"
+	dc.b	"J'imagine qu'elle a déjà un"
 	dc.b	$FC
-	dc.b	"in her life..."
+	dc.b	"homme dans sa vie..."
 	dc.b	$FD
-	dc.b	"Come to think of it, I haven't"
+	dc.b	"J'y pense, je ne l'ai pas vue"
 	dc.b	$FC
-	dc.b	"seen her around lately."
+	dc.b	"depuis un moment."
 	dc.b	$FF
 
 ; $9
 	dc.b	$FA
 	dc.b	$65, $01
-	dc.b	"There's been a big army going in"
+	dc.b	"Une vaste armée entre et sort"
 	dc.b	$FC
-	dc.b	"and out of that cave up north."
+	dc.b	"constamment de la caverne au"
 	dc.b	$FD
-	dc.b	"It must be Zio's troops that"
+	dc.b	"nord. Ce doit être les soldats"
 	dc.b	$FC
-	dc.b	"we've been hearing about!"
+	dc.b	"de Zio dont on entend parler!"
 	dc.b	$FF
 
 ; $A
-	dc.b	"They say it's OK to use the"
+	dc.b	"J'ai entendu dire qu'on peut"
 	dc.b	$FC
-	dc.b	"passageway in the north now."
+	dc.b	"maintenant circuler dans le"
+	dc.b	$FD
+	dc.b	"passage au nord."
 	dc.b	$FF
 
 ; $B
-	dc.b	"My, my. Alys's quite a looker,"
+	dc.b	"Eh, bien! Alys est très jolie,"
 	dc.b	$FC
-	dc.b	"but aren't you a cutie pie too?"
+	dc.b	"mais tu sais que tu es mignonne?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Ahhhh! Ugh!"
+	dc.b	"Ahhhh! Dégoûtant!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Cut it out, you!"
+	dc.b	"Laisse-la tranquille, minable!"
 	dc.b	$FF
 
 ; $C
 	dc.b	$FA
 	dc.b	$42, $01
-	dc.b	"Hey, Alys!"
+	dc.b	"Hé, Alys! La même chose que"
 	dc.b	$FC
-	dc.b	"The usual?"
+	dc.b	"d'habitude?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Sorry. I just don't feel like it"
+	dc.b	"Désolée. Je n'en ai pas envie"
 	dc.b	$FC
-	dc.b	"today."
+	dc.b	"aujourd'hui."
 	dc.b	$FD
-	dc.b	"I'll see you some other time."
+	dc.b	"Je vous verrai une autre fois."
 	dc.b	$FF
 
 ; $D
-	dc.b	"Alys hasn't been coming in"
+	dc.b	"Il y a un temps qu'Alys n'est"
 	dc.b	$FC
-	dc.b	"recently."
+	dc.b	"pas venue."
 	dc.b	$FD
-	dc.b	"I wonder if she's on a prolonged"
+	dc.b	"Je me demande si elle est sur"
 	dc.b	$FC
-	dc.b	"job?"
+	dc.b	"une mission prolongée?"
 	dc.b	$FD
-	dc.b	"It's kind of lonely without her"
+	dc.b	"C'est ennuyant quand elle n'est"
 	dc.b	$FC
-	dc.b	"around!"
+	dc.b	"pas là!"
 	dc.b	$FF
 
 ; $E
 	dc.b	$F4
 	dc.b	$11
-	dc.b	"Are you insinuating that"
+	dc.b	"Êtes-vous en train d'insinuer"
 	dc.b	$FC
-	dc.b	"I'm purposely withholding"
+	dc.b	"que je dissimule de"
 	dc.b	$FD
-	dc.b	"information about the best jobs?"
-	dc.b	$FD
-	dc.b	"How dare you think that!"
-	dc.b	$FD
-	dc.b	"I swear by my good name that"
+	dc.b	"l'information sur les meilleures"
 	dc.b	$FC
-	dc.b	"that kind of thing absolutely"
+	dc.b	"missions?"
 	dc.b	$FD
-	dc.b	"never happens here!"
+	dc.b	"Comment osez-vous penser cela!"
 	dc.b	$FD
-	dc.b	"Now please go back to the"
+	dc.b	"Je jure sur ma réputation que"
 	dc.b	$FC
-	dc.b	"front area!"
+	dc.b	"ce genre de chose n'arrive"
+	dc.b	$FD
+	dc.b	"jamais ici!"
+	dc.b	$FD
+	dc.b	"Maintenant, veuillez retourner"
+	dc.b	$FC
+	dc.b	"de l'autre côté!"
 	dc.b	$FF
 
 ; $F
 	dc.b	$F4
 	dc.b	$11
-	dc.b	"Welcome!"
+	dc.b	"Bienvenue!"
 	dc.b	$FD
-	dc.b	"You have come to the Hunters'"
+	dc.b	"Vous êtes ici à la Guilde des"
 	dc.b	$FC
-	dc.b	"Guild where we enrich the lives"
+	dc.b	"Chasseurs, où nous enrichissons"
 	dc.b	$FD
-	dc.b	"of hunters!"
+	dc.b	"leur vie!"
 	dc.b	$FD
-	dc.b	"The enrollment area is over"
+	dc.b	"L'aire d'inscription est là-bas."
+	dc.b	$FD
+	dc.b	"Pour les chasseurs déjà"
 	dc.b	$FC
-	dc.b	"there!"
+	dc.b	"inscrits, je peux vous donner"
 	dc.b	$FD
-	dc.b	"For those of you hunters"
+	dc.b	"des informations sur les"
 	dc.b	$FC
-	dc.b	"who have already joined,"
+	dc.b	"missions disponibles."
 	dc.b	$FD
-	dc.b	"I'd like to give you information"
+	dc.b	"Les missions suivantes figurent"
 	dc.b	$FC
-	dc.b	"about available job listings."
-	dc.b	$FD
-	dc.b	"Currently listed are..."
+	dc.b	"actuellement sur la liste..."
 	dc.b	$FF
 
 ; $10
-	dc.b	"These are the jobs that are"
+	dc.b	"Ces missions sont présentement"
 	dc.b	$FC
-	dc.b	"currently offered."
+	dc.b	"disponibles."
 	dc.b	$FD
-	dc.b	"Any applicants?"
+	dc.b	"Qui est preneur?"
 	dc.b	$FF
 
 ; $11
-	dc.b	"Very funny."
+	dc.b	"Trêve d'humour."
 	dc.b	$FD
-	dc.b	"This incident has already been"
+	dc.b	"Cette mission a déjà été résolue"
 	dc.b	$FC
-	dc.b	"resolved by our hunters here."
+	dc.b	"par un de nos chasseurs."
 	dc.b	$FF
 
 ; $12
 	dc.b	$F4
 	dc.b	$11
-	dc.b	"I'm sorry to say that"
+	dc.b	"Je regrette, il n'y a pas de"
 	dc.b	$FC
-	dc.b	"there are no jobs yet."
+	dc.b	"mission disponible en ce moment."
 	dc.b	$FF
 
 ; $13
-	dc.b	"Please come again to the"
+	dc.b	"Revenez nous voir à la Guilde"
 	dc.b	$FC
-	dc.b	"Hunters' Guild where we enrich"
+	dc.b	"des Chasseurs, toujours prête à"
 	dc.b	$FD
-	dc.b	"the lives of hunters!"
+	dc.b	"enrichir leur vie!"
 	dc.b	$FF
 
 ; $14
 	dc.b	$FA
 	dc.b	$D9, $06
-	dc.b	"This is a request from a ranch"
+	dc.b	"Ceci est une sollicitation d'un"
 	dc.b	$FC
-	dc.b	"owner at the village of Mile."
+	dc.b	"propriétaire au village de Mile."
 	dc.b	$FD
-	dc.b	"'The sand worms at my ranch have"
+	dc.b	"'Les vers des sables de mon"
 	dc.b	$FC
-	dc.b	"become so big that I'm at my"
+	dc.b	"ranch ont tellement grandit que"
 	dc.b	$FD
-	dc.b	"wit's end."
+	dc.b	"je ne sais plus quoi faire."
 	dc.b	$FC
-	dc.b	"Please help me...'"
+	dc.b	"Aidez-moi...'"
 	dc.b	$FD
-	dc.b	"That is the message."
+	dc.b	"Cela complète le message."
 	dc.b	$FD
-	dc.b	"The fee offered is 5000 meseta."
+	dc.b	"Le cachet est de 5000 meseta."
 	dc.b	$FC
-	dc.b	"Will you take this job?"
+	dc.b	"Vous êtes preneur?"
 	dc.b	$F5
 	dc.b	$01, $00
-	dc.b	"I see."
+	dc.b	"Je vois."
 	dc.b	$FC
-	dc.b	"That is too bad."
+	dc.b	"Dommage."
 	dc.b	$FF
 
 ; $15
-	dc.b	"In that case,"
+	dc.b	"Alors, veuillez vous rendre à"
 	dc.b	$FC
-	dc.b	"please go to Mile and get more"
+	dc.b	"Mile pour obtenir tous les"
 	dc.b	$FD
-	dc.b	"details from the rancher."
+	dc.b	"détails du propriétaire du"
+	dc.b	$FC
+	dc.b	"ranch."
 	dc.b	$FF
 
 ; $16
@@ -326,115 +326,118 @@
 	dc.b	$1A, $01
 	dc.b	$F4
 	dc.b	$11
-	dc.b	"Just get going to Mile and get"
+	dc.b	"Allez à Mile pour les détails!"
 	dc.b	$FC
-	dc.b	"more details directly from the"
+	dc.b	"Demandez directement au"
 	dc.b	$FD
-	dc.b	"rancher!"
+	dc.b	"propriétaire du ranch!"
 	dc.b	$FF
 
 ; $17
 	dc.b	$F4
 	dc.b	$11
-	dc.b	"According to the regulations of"
+	dc.b	"Selon le règlement de la"
 	dc.b	$FC
-	dc.b	"the guild, you may not take on"
+	dc.b	"guilde, vous ne pouvez postuler"
 	dc.b	$FD
-	dc.b	"more than one job at a time."
+	dc.b	"que pour une mission à la fois."
 	dc.b	$FD
-	dc.b	"You have already taken on the"
+	dc.b	"Vous avez déjà postulé pour la"
 	dc.b	$FC
-	dc.b	"job from the ranch owner in"
+	dc.b	"mission de ce propriétaire de"
 	dc.b	$FD
-	dc.b	"Mile."
+	dc.b	"ranch à Mile."
 	dc.b	$FD
-	dc.b	"Come back when you've finished"
+	dc.b	"Revenez quand vous aurez"
 	dc.b	$FC
-	dc.b	"what you need to do!"
+	dc.b	"terminé votre travail!"
 	dc.b	$FF
 
 ; $18
 	dc.b	$F4
 	dc.b	$11
-	dc.b	"Good job."
+	dc.b	"Bon travail."
 	dc.b	$FD
-	dc.b	"Congratulations on dealing with"
+	dc.b	"Mes compliments pour vous être"
 	dc.b	$FC
-	dc.b	"the sand worms so effectively!"
+	dc.b	"occupé de ces vers des sables"
 	dc.b	$FD
-	dc.b	"Please accept your commission"
+	dc.b	"aussi efficacement!"
+	dc.b	$FD
+	dc.b	"Voici votre cachet de 5000"
 	dc.b	$FC
-	dc.b	"fee of 5000 meseta."
+	dc.b	"meseta."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"I'm glad we resolved the problem"
+	dc.b	"Heureusement on a pu résoudre ce"
 	dc.b	$FC
-	dc.b	"before anyone got hurt."
+	dc.b	"problème avant que quelqu'un"
 	dc.b	$FD
-	dc.b	"Too bad for the ranch owner"
+	dc.b	"soit blessé. Par contre, c'est"
 	dc.b	$FC
-	dc.b	"though."
+	dc.b	"dommage pour le propriétaire."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"But he seemed like a person who"
+	dc.b	"Je sais, mais il n'avait pas"
 	dc.b	$FC
-	dc.b	"would not be daunted for long."
+	dc.b	"l'air d'être trop découragé."
 	dc.b	$FD
-	dc.b	"I'm sure he'll prosper again."
+	dc.b	"Je suis sûre qu'il va bien s'en"
+	dc.b	$FC
+	dc.b	"tirer."
 	dc.b	$FF
 
 ; $19
-	dc.b	"Please come again to the"
+	dc.b	"Revenez nous voir à la Guilde"
 	dc.b	$FC
-	dc.b	"Hunters' Guild where we enrich"
+	dc.b	"des Chasseurs, toujours prête à"
 	dc.b	$FD
-	dc.b	"the lives of hunters!"
+	dc.b	"enrichir leur vie!"
 	dc.b	$FF
 
 ; $1A
-	dc.b	"This is a request from the house"
+	dc.b	"Ceci est une sollicitation"
 	dc.b	$FC
-	dc.b	"where Tinkerbell lives."
+	dc.b	"venant de la maison de"
 	dc.b	$FD
-	dc.b	"'Our household pet 'Rocky'"
+	dc.b	"Clochette."
+	dc.b	$FD
+	dc.b	"'Notre chien 'Rocky' a disparu."
 	dc.b	$FC
-	dc.b	"has disappeared."
-	dc.b	$FD
-	dc.b	"Please find him...'"
+	dc.b	"Trouvez-le s'il vous plaît...'"
 	dc.b	$FC
-	dc.b	"That is the message."
+	dc.b	"Ceci complète le message."
 	dc.b	$FD
-	dc.b	"This certainly doesn't seem to"
+	dc.b	"Ce travail n'est certainement"
 	dc.b	$FC
-	dc.b	"be the caliber of work for a"
+	dc.b	"pas le calibre habituel pour"
 	dc.b	$FD
-	dc.b	"hunter."
+	dc.b	"un chasseur."
 	dc.b	$FD
-	dc.b	"The fee offered is 2000 meseta."
+	dc.b	"Le cachet est de 2000 meseta."
 	dc.b	$FC
-	dc.b	"Will you take on this request?"
-	dc.b	$FD
+	dc.b	"Vous êtes preneur?"
 	dc.b	$F5
 	dc.b	$01, $00
-	dc.b	"I see."
+	dc.b	"Je vois."
 	dc.b	$FC
-	dc.b	"That is too bad."
+	dc.b	"Dommage."
 	dc.b	$FF
 
 ; $1B
-	dc.b	"In that case,"
+	dc.b	"Alors, veuillez vous rendre"
 	dc.b	$FD
-	dc.b	"please go to Tinkerbell's house"
+	dc.b	"à la maison de Clochette pour"
 	dc.b	$FC
-	dc.b	"and get more details directly"
+	dc.b	"obtenir tous les détails du"
 	dc.b	$FD
-	dc.b	"from the owner."
+	dc.b	"propriétaire."
 	dc.b	$FD
-	dc.b	"Tinkerbell's house is in the"
+	dc.b	"La maison de Clochette est"
 	dc.b	$FC
-	dc.b	"east section of Aiedo."
+	dc.b	"dans le quartier est d'Aiedo."
 	dc.b	$FF
 
 ; $1C
@@ -442,59 +445,63 @@
 	dc.b	$1F, $01
 	dc.b	$F4
 	dc.b	$11
-	dc.b	"Do hurry on to Tinkerbell's"
+	dc.b	"Allez à la maison de Clochette"
 	dc.b	$FC
-	dc.b	"house and get the details."
+	dc.b	"pour tous les détails."
 	dc.b	$FF
 
 ; $1D
 	dc.b	$F4
 	dc.b	$11
-	dc.b	"According to the regulations of"
+	dc.b	"Selon le règlement de la"
 	dc.b	$FC
-	dc.b	"the guild, you may not take on"
+	dc.b	"guilde, vous ne pouvez postuler"
 	dc.b	$FD
-	dc.b	"more than one job at a time."
+	dc.b	"que pour une mission à la fois."
 	dc.b	$FD
-	dc.b	"You have already taken on the"
+	dc.b	"Vous avez déjà postulé pour la"
 	dc.b	$FC
-	dc.b	"job from Tinkerbell's home."
+	dc.b	"mission de la maison de"
 	dc.b	$FD
-	dc.b	"Come back when you've finished"
+	dc.b	"Clochette."
+	dc.b	$FD
+	dc.b	"Revenez quand vous aurez"
 	dc.b	$FC
-	dc.b	"what you need to do!"
+	dc.b	"terminé votre travail!"
 	dc.b	$FF
 
 ; $1E
 	dc.b	$F4
 	dc.b	$11
-	dc.b	"Good job."
+	dc.b	"Bon travail."
 	dc.b	$FD
-	dc.b	"Congratulations on a job well"
+	dc.b	"Mes félicitations pour votre"
 	dc.b	$FC
-	dc.b	"done!"
+	dc.b	"travail bien fait!"
 	dc.b	$FD
-	dc.b	"Please accept your commission"
+	dc.b	"Voici votre cachet de 2000"
 	dc.b	$FC
-	dc.b	"fee of 2000 meseta."
+	dc.b	"meseta."
 	dc.b	$FD
-	dc.b	"Please come again to the"
+	dc.b	"Revenez nous voir à la Guilde"
 	dc.b	$FC
-	dc.b	"Hunters' Guild where we enrich"
+	dc.b	"des Chasseurs, toujours prête à"
 	dc.b	$FD
-	dc.b	"the lives of hunters!"
+	dc.b	"enrichir leur vie!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"That was one interesting dog!"
+	dc.b	"C'était vraiment un chien"
+	dc.b	$FC
+	dc.b	"particulier!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Perhaps... there's a trait that"
+	dc.b	"Peut-être...que c'est un trait"
 	dc.b	$FC
-	dc.b	"he has in common with you!"
+	dc.b	"que vous avez en commun!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Don't be ridiculous!"
+	dc.b	"Ne dis pas de sottises!"
 	dc.b	$FF

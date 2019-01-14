@@ -4,214 +4,218 @@
 ; $1
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"You...are you Wren?"
+	dc.b	"Vous...êtes Wren?"
 	dc.b	$FC
-	dc.b	"Wow, you're huge!"
+	dc.b	"Wow, vous êtes très grand!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"In verity,"
+	dc.b	"C'est exact,"
 	dc.b	$FC
 	dc.b	$F2, $00
 	dc.w	$0077
-	dc.b	"my name is Wren."
+	dc.b	"je me désigne Wren."
 	dc.b	$FD
-	dc.b	"This is the man-made satellite"
+	dc.b	"Bienvenue sur le satellite"
 	dc.b	$FC
-	dc.b	"Zelan, which has complete"
+	dc.b	"artificiel Zelan, qui contrôle"
 	dc.b	$FD
-	dc.b	"control over all the"
+	dc.b	"tous les systèmes de maintient"
 	dc.b	$FC
-	dc.b	"environmental systems for all"
+	dc.b	"environmental des planètes du"
 	dc.b	$FD
-	dc.b	"the planets in the Algo solar"
-	dc.b	$FC
-	dc.b	"system."
+	dc.b	"système solaire Algo."
 	dc.b	$FD
-	dc.b	"I am the android who manages"
+	dc.b	"Je suis l'androïde chargé"
 	dc.b	$FC
-	dc.b	"it all."
+	dc.b	"d'administrer tous ces systèmes."
 	dc.b	$FD
-	dc.b	"Rika, finally"
+	dc.b	"Rika, un plaisir de vous voir"
 	dc.b	$FC
-	dc.b	"we meet face to face."
+	dc.b	"finalement en chair et en os."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Yes, Wren! I didn't know that"
+	dc.b	"Oui, Wren! J'ignorais que vous"
 	dc.b	$FC
-	dc.b	"you were so tall!"
+	dc.b	"étiez si grand!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"And these other people?"
+	dc.b	"Et pouvez-vous me dire qui sont"
+	dc.b	$FC
+	dc.b	"ces gens qui vous accompagnent?"
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$0078
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"These are my friends Chaz and"
-	dc.b	$FC
-	dc.b	"Rune."
+	dc.b	"Ce sont mes amis Chaz et Rune."
 	dc.b	$FD
-	dc.b	"They're great pals!"
+	dc.b	"Ils sont de bons copains!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Who and who are great pals?"
+	dc.b	"Euh, qui et qui sont de bons"
+	dc.b	$FC
+	dc.b	"copains?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Whatever. Anyway,"
+	dc.b	"Ouais, ouais, bla bla bla. Bon,"
 	dc.b	$FC
-	dc.b	"glad to meet you."
+	dc.b	"ravi de vous rencontrer."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Demi told us that the reason"
+	dc.b	"Demi nous a dit que la source"
 	dc.b	$FC
-	dc.b	"the systems in Motavia are"
+	dc.b	"de la perte de contrôle des"
 	dc.b	$FD
-	dc.b	"out of control could be"
+	dc.b	"systèmes de Motavia se trouve"
 	dc.b	$FC
-	dc.b	"found here..."
+	dc.b	"ici..."
 	dc.b	$FD
-	dc.b	"We've come to try to cure the"
+	dc.b	"Nous sommes venus pour régler"
 	dc.b	$FC
-	dc.b	"problem, but from the looks"
+	dc.b	"ce problème, mais à première"
 	dc.b	$FD
-	dc.b	"of it, it doesn't seem likely."
+	dc.b	"vue, ça ne semble pas être"
+	dc.b	$FC
+	dc.b	"approprié."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"That's right. Zelan is not"
+	dc.b	"C'est exact. Zelan n'est pas en"
 	dc.b	$FC
-	dc.b	"causing the systems in"
+	dc.b	"cause de la perte de contrôle"
 	dc.b	$FD
-	dc.b	"Motavia to run out of control."
+	dc.b	"des systèmes environnementaux"
+	dc.b	$FC
+	dc.b	"de Motavia."
 	dc.b	$FD
-	dc.b	"We have no control at all."
+	dc.b	"Tout contrôle nous échappe."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"What does this all mean?"
+	dc.b	"Ce qui veut dire?"
 	dc.b	$FD
 	dc.b	$F2, $01
 	dc.b	$F2, $00
 	dc.w	$0079
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Presently, Zelan is"
+	dc.b	"Actuellement, Zelan n'est plus"
 	dc.b	$FC
-	dc.b	"losing power."
+	dc.b	"en mesure d'imposer ses ordres."
 	dc.b	$FD
-	dc.b	"It is the artificial satellite"
+	dc.b	"C'est donc le satellite"
 	dc.b	$FC
-	dc.b	"Kuran that is causing the"
+	dc.b	"artificiel Kuran qui est la"
 	dc.b	$FD
-	dc.b	"Motavian systems to run amok."
-	dc.b	$FD
-	dc.b	"Originally, Kuran was supposed"
+	dc.b	"cause de la perte de contrôle"
 	dc.b	$FC
-	dc.b	"to play a supportive role to"
+	dc.b	"des systèmes de Motavia."
 	dc.b	$FD
-	dc.b	"Zelan, but somebody has"
+	dc.b	"À l'origine, Kuran devait agir"
 	dc.b	$FC
-	dc.b	"occupied Kuran and usurped"
+	dc.b	"en support de Zelan, mais"
 	dc.b	$FD
-	dc.b	"our control."
+	dc.b	"quelque chose a envahi Kuran et"
+	dc.b	$FC
+	dc.b	"usurpé notre contrôle."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Is that so? Since Zelan is at"
+	dc.b	"Ah bon? Comme Zelan est au"
 	dc.b	$FC
-	dc.b	"the top of the chain of"
-	dc.b	$FD
-	dc.b	"command..."
+	dc.b	"sommet de la hiérarchie..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Demi must have determined"
+	dc.b	"Demi a du déduire que Zelan"
 	dc.b	$FC
-	dc.b	"that it was Zelan that had"
-	dc.b	$FD
-	dc.b	"gone awry!"
+	dc.b	"était la source du problème!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Zelan's telecommunication"
+	dc.b	"Les systèmes de communication"
 	dc.b	$FC
-	dc.b	"functions are paralyzed."
+	dc.b	"de Zelan sont hors d'usage."
 	dc.b	$FD
-	dc.b	"There isn't even"
+	dc.b	"Il n'y a donc aucun moyen même"
 	dc.b	$FC
-	dc.b	"a way to communicate."
+	dc.b	"d'envoyer un simple message."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"So that's why we were"
+	dc.b	"Alors c'est pour ça que les"
 	dc.b	$FC
-	dc.b	"incommunicado!"
+	dc.b	"communications étaient coupées!"
 	dc.b	$FD
-	dc.b	"I was so worried!"
+	dc.b	"J'étais si inquiète!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"So this means we have to"
+	dc.b	"Alors nous devons nous rendre"
 	dc.b	$FC
-	dc.b	"go to Kuran!"
+	dc.b	"à Kuran!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Chaz, if it is OK with you,"
+	dc.b	"Chaz, si cela vous convient,"
 	dc.b	$FC
-	dc.b	"may I accompany you?"
+	dc.b	"puis-je me joindre à vous?"
 	dc.b	$FD
-	dc.b	"Zelan is presently completely"
+	dc.b	"Zelan est complètement coupé"
 	dc.b	$FC
-	dc.b	"cut off from all the other"
+	dc.b	"de tous les autres systèmes."
 	dc.b	$FD
-	dc.b	"systems."
-	dc.b	$FD
-	dc.b	"It is impossible to do any"
+	dc.b	"Il m'est impossible de remettre"
 	dc.b	$FC
-	dc.b	"system restoration from here."
+	dc.b	"les systèmes en ordre à partir"
 	dc.b	$FD
-	dc.b	"I was hoping to go to Kuran"
+	dc.b	"d'ici."
+	dc.b	$FD
+	dc.b	"J'espérais pouvoir me rendre à"
 	dc.b	$FC
-	dc.b	"to get the situation under"
+	dc.b	"Kuran pour remédier à la"
 	dc.b	$FD
-	dc.b	"control."
+	dc.b	"situation."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Oh Wren, it would be so"
+	dc.b	"Ah! Wren, ce serait très"
 	dc.b	$FC
-	dc.b	"reassuring if you came with us!"
+	dc.b	"sécurisant de vous avoir à"
+	dc.b	$FD
+	dc.b	"nos côtés!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Wow...you have a lot of faith"
+	dc.b	"Wow...Tu as beaucoup d'estime"
 	dc.b	$FC
-	dc.b	"in Wren!"
+	dc.b	"pour Wren!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Oh, yes! Wren and"
+	dc.b	"Oh, oui! Wren et Seed ont tout"
 	dc.b	$FC
-	dc.b	"Seed were my teachers!"
+	dc.b	"deux été mes instructeurs!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"This current crisis was brought"
+	dc.b	"La crise actuelle est due à"
 	dc.b	$FC
-	dc.b	"about by my lack of power."
+	dc.b	"mon impuissance."
 	dc.b	$FD
-	dc.b	"I must take responsibility."
-	dc.b	$FD
-	dc.b	"It seems that Seed has left me"
+	dc.b	"Je dois en assumer la"
 	dc.b	$FC
-	dc.b	"responsible, too..."
+	dc.b	"responsabilité."
+	dc.b	$FD
+	dc.b	"Comme Seed m'a laissé cette"
+	dc.b	$FC
+	dc.b	"tâche à moi seul..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
@@ -222,251 +226,259 @@
 	dc.w	$0078
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Why don't we get a move on!"
+	dc.b	"Bon, qu'est-ce qu'on fait encore"
+	dc.b	$FC
+	dc.b	"planté là?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Stop trying to take charge,"
+	dc.b	"Arrête de te prendre pour le"
 	dc.b	$FC
-	dc.b	"Rune!"
+	dc.b	"chef, Rune!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"All right then, you take"
+	dc.b	"D'accord, alors pourquoi tu"
 	dc.b	$FC
-	dc.b	"charge - if you can."
+	dc.b	"n'essaie pas pour voir?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"What did you say?!"
+	dc.b	"Répète un peu?!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Rika...what's going on here?"
+	dc.b	"Rika...que signifie tout cela?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Oh, this happens all the time."
+	dc.b	"Oh, ils font ça sans cesse."
 	dc.b	$FF
 
 ; $2
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"What's going on?"
+	dc.b	"Qu'est-ce qui se passe?"
 	dc.b	$FC
-	dc.b	"Something feels wrong..."
+	dc.b	"Quelque chose semble anormal..."
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$007B
 	dc.b	$F2, $0A
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"There is an unidentified energy"
+	dc.b	"Je détecte une pulsation"
 	dc.b	$FC
-	dc.b	"reaction coming from the engine"
+	dc.b	"d'énergie non-identifiée ayant"
 	dc.b	$FD
-	dc.b	"room."
+	dc.b	"pour source la salle des"
+	dc.b	$FC
+	dc.b	"machines."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Problems in the engine room..."
+	dc.b	"Des problèmes dans la salle des"
 	dc.b	$FC
-	dc.b	"that's bad."
+	dc.b	"machines... pas bon."
 	dc.b	$FD
-	dc.b	"Well, let's go see what's going"
+	dc.b	"Bon, allons voir ce qui s'y"
 	dc.b	$FC
-	dc.b	"on!"
+	dc.b	"passe!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"I told you, stop taking charge!"
+	dc.b	"Je t'ai déjà dit, t'es pas le"
+	dc.b	$FC
+	dc.b	"chef!"
 	dc.b	$FD
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Yikes! Who...who are you!?"
+	dc.b	"Aïe! Qui...qui êtes-vous!?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$00
-	dc.b	"Oh my, I've been found out"
+	dc.b	"Eh bien, vous m'avez déjà"
 	dc.b	$FC
-	dc.b	"already."
+	dc.b	"découvert."
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$007F
-	dc.b	"Well, it doesn't matter now"
+	dc.b	"Bon, quelle importance si je"
 	dc.b	$FC
-	dc.b	"whether I sabotage the"
+	dc.b	"sabote vos moteurs ou je vous"
 	dc.b	$FD
-	dc.b	"engines or kill you right here!"
+	dc.b	"tue ici!"
 	dc.b	$FD
-	dc.b	"You're not getting to Kuran!"
+	dc.b	"Vous n'irez pas à Kuran!"
 	dc.b	$FF
 
 ; $3
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Yippee!"
+	dc.b	"Youpi!"
 	dc.b	$FC
-	dc.b	"It's great that we won..."
+	dc.b	"C'est bien d'avoir gagné..."
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$0081
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Well, we're really out of"
+	dc.b	"Bon, nous sommes vraiment dans"
 	dc.b	$FC
-	dc.b	"commission now."
+	dc.b	"le pétrin maintenant."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Rune! Couldn't you have"
+	dc.b	"Rune! Tu pouvais pas faire un"
 	dc.b	$FC
-	dc.b	"applied a little bit of"
-	dc.b	$FD
-	dc.b	"self-control?!"
+	dc.b	"peu plus attention?!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Shut up! You're in no position"
-	dc.b	$FC
-	dc.b	"to talk!"
+	dc.b	"La ferme! Tu peux bien parler!"
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$0082
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"We're off our intended"
+	dc.b	"Nous dévions de la trajectoire"
 	dc.b	$FC
-	dc.b	"flight-path."
+	dc.b	"désirée."
 	dc.b	$FD
-	dc.b	"It's impossible to get back in"
+	dc.b	"Impossible de rétablir un"
 	dc.b	$FC
-	dc.b	"that orbit!"
+	dc.b	"orbite!"
 	dc.b	$FD
-	dc.b	"We will be able to make a crash"
+	dc.b	"Nous sommes en mesure de faire"
 	dc.b	$FC
-	dc.b	"landing on Dezolis,"
+	dc.b	"un atterrisage en catastrophe"
 	dc.b	$FD
-	dc.b	"the third planet in the system."
+	dc.b	"sur Dezolis, la troisième"
+	dc.b	$FC
+	dc.b	"planète."
 	dc.b	$FD
-	dc.b	"Shall we try?"
+	dc.b	"Essayons-nous?"
 	dc.b	$F2, $02
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$0083
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"What do you mean 'shall we'?"
+	dc.b	"Que veux-tu dire, 'Essayons'?"
 	dc.b	$FC
-	dc.b	"We have no choice, do we?"
+	dc.b	"On a pas le choix, non?"
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$0084
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"This is true."
+	dc.b	"C'est exact."
+	dc.b	$FD
+	dc.b	"Procédure d'atterissage"
 	dc.b	$FC
-	dc.b	"One crash landing coming up."
+	dc.b	"d'urgence enclenchée."
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$0085
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Wheee! A crash landing! Cool!"
+	dc.b	"Youpi! Un atterrisage d'urgence!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"What are you saying! Hey. Hey!"
+	dc.b	"Hein? Qu'est-ce que tu dis!"
 	dc.b	$FC
-	dc.b	"Are you OK? Hey!"
+	dc.b	"Tout va bien chez toi? Hé!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Calm down, Chaz."
+	dc.b	"Restez calme, Chaz."
 	dc.b	$FD
-	dc.b	"You should endeavor not to let"
+	dc.b	"Il serait préférable de ne pas"
 	dc.b	$FC
-	dc.b	"your blood pressure become"
+	dc.b	"laisser votre pression"
 	dc.b	$FD
-	dc.b	"too high."
+	dc.b	"artérielle trop augmenter."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Relax."
+	dc.b	"Relaxe."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Why are you all looking so"
+	dc.b	"Comment pouvez-vous êtes tous"
 	dc.b	$FC
-	dc.b	"unconcerned?! Yikes!!!"
+	dc.b	"aussi calmes?! Aïe aïe aïe!!!"
 	dc.b	$FF
 
 ; $4
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"So this is the artificial"
+	dc.b	"Ainsi, voilà Kuran, le satellite"
 	dc.b	$FC
-	dc.b	"satellite Kuran that has sent"
+	dc.b	"artificiel qui a dérèglé tout"
 	dc.b	$FD
-	dc.b	"the entire planetary control"
+	dc.b	"le système de contrôle"
 	dc.b	$FC
-	dc.b	"system out of whack."
+	dc.b	"environmental de la planète."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$09
-	dc.b	"My head is out of whack!"
+	dc.b	"C'est ma tête qui est dérèglée!"
 	dc.b	$FC
-	dc.b	"Man am I dizzy!"
+	dc.b	"Je suis tout étourdi!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Come on, let's go!"
+	dc.b	"D'accord, allons-y!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Yes, we must hurry to the main"
+	dc.b	"Oui, nous devons nous presser"
 	dc.b	$FC
-	dc.b	"control center!"
+	dc.b	"de nous rendre au centre de"
+	dc.b	$FD
+	dc.b	"contrôle."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$09
-	dc.b	"You, you..."
+	dc.b	"Euh, vous..."
 	dc.b	$FF
 
 ; $5
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"So this is the main control"
+	dc.b	"Voici donc le centre de contrôle"
 	dc.b	$FC
-	dc.b	"center?"
+	dc.b	"principal?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"I shall search for the cause of"
+	dc.b	"Je vais tenter illico de trouver"
 	dc.b	$FC
-	dc.b	"the malfunction right away."
+	dc.b	"la source de la défaillance."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Wait! What's that?"
+	dc.b	"Attendez! C'est quoi ça?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"What? Where?"
+	dc.b	"Quoi? Où ça?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Over there! In the shadows!"
+	dc.b	"Là-bas! Dans la pénombre!"
 	dc.b	$FF
 
 ; $6
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"What on earth?"
+	dc.b	"Que diable? Cette sensation"
 	dc.b	$FC
-	dc.b	"This feeling of oppression...!"
+	dc.b	"suffocante...!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
@@ -474,71 +486,71 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Did you say Dark Force!?"
+	dc.b	"Tu as dit Dark Force!?"
 	dc.b	$FD
-	dc.b	"You mean the Dark Force who"
+	dc.b	"Tu veux dire la Dark Force qui"
 	dc.b	$FC
-	dc.b	"revived Zio as a god?"
+	dc.b	"a ressuscité Zio en dieu?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"It appears that Dark Force"
+	dc.b	"Il semble que Dark Force soit"
 	dc.b	$FC
-	dc.b	"is the cause of everything."
+	dc.b	"à la source de tous les"
 	dc.b	$FD
-	dc.b	"Let us remove it."
+	dc.b	"problèmes."
+	dc.b	$FD
+	dc.b	"Nous devons la supprimer."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Easier said than done."
+	dc.b	"Plus facile à dire qu'à faire."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"OK! I'm going for it!"
+	dc.b	"Bon! Moi, j'attaque!"
 	dc.b	$FF
 
 ; $7
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Did we...do it?"
+	dc.b	"Nous avons...gagné?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Yep!"
-	dc.b	$FC
-	dc.b	"We've won!"
+	dc.b	"Ouaip! On a gagné!"
 	dc.b	$FD
-	dc.b	"OK Wren!"
+	dc.b	"OK, Wren! Ramène Kuran à la"
 	dc.b	$FC
-	dc.b	"Get Kuran back to normal!"
+	dc.b	"normale!"
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$008F
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Roger!"
+	dc.b	"Bien reçu!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Hmph..."
+	dc.b	"Ouais..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Rune,"
+	dc.b	"Rune, je peux te demander"
 	dc.b	$FC
-	dc.b	"can I ask you something?"
+	dc.b	"quelque chose?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"What is it?"
+	dc.b	"Quoi donc?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"How did you know...that monster"
+	dc.b	"Comment pouvais tu savoir que..."
 	dc.b	$FC
-	dc.b	"was the Dark Force"
+	dc.b	"ce monstre était la Dark Force"
 	dc.b	$FD
-	dc.b	"Zio was talking about?"
+	dc.b	"dont Zio a parlé?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
@@ -547,27 +559,27 @@
 	dc.b	$F2, $02
 	dc.b	$F2, $00
 	dc.w	$0180
-	dc.b	"...er..."
+	dc.b	"...Euh..."
 	dc.b	$FC
-	dc.b	"I've seen it before."
+	dc.b	"Je l'ai déjà rencontrée."
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$0090
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"What? What do mean"
+	dc.b	"Quoi? Comment as-tu pu déjà"
 	dc.b	$FC
-	dc.b	"you've seen it before?!"
+	dc.b	"l'avoir rencontrée?!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"I'll tell you sometime..."
+	dc.b	"Je te conterai ça un jour..."
 	dc.b	$FC
-	dc.b	"Just wait until then, will you?"
+	dc.b	"Patiente un peu, veux-tu?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Well..."
+	dc.b	"Ouais..."
 	dc.b	$F9
 	dc.b	$3B
 
@@ -583,107 +595,105 @@
 
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"All functions have been"
+	dc.b	"Toutes les fonctions ont été"
 	dc.b	$FC
-	dc.b	"restored. Now all we have to"
+	dc.b	"rétablies. Tout ce qui nous"
 	dc.b	$FD
-	dc.b	"do is make some final"
+	dc.b	"reste à faire, ce sont des"
 	dc.b	$FC
-	dc.b	"adjustments at Zelan."
+	dc.b	"ajustements à partir de Zelan."
 	dc.b	$FD
-	dc.b	"What is the matter?"
+	dc.b	"Y a-t-il un dérangement?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Ah...nothing."
+	dc.b	"Euh...rien."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Let's go to Zelan!"
+	dc.b	"Direction Zelan!"
 	dc.b	$FF
 
 ; $8
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Everything is OK."
+	dc.b	"Tout est optimal."
 	dc.b	$FD
-	dc.b	"All the maintenance systems for"
+	dc.b	"Tous les systèmes de contrôle"
 	dc.b	$FC
-	dc.b	"the Algo environment are"
+	dc.b	"environnementaux du système Algo"
 	dc.b	$FD
-	dc.b	"working properly."
+	dc.b	"fonctionnent correctement."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Well, we've been through a lot,"
+	dc.b	"Bon, ça a été long et ardu, mais"
 	dc.b	$FC
-	dc.b	"but I guess we've solved"
-	dc.b	$FD
-	dc.b	"everything."
+	dc.b	"on a finalement tout arrangé."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
 	dc.b	$F2, $03
 	dc.b	$9F
-	dc.b	"Wait!"
+	dc.b	"Attendez!"
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$0094
-	dc.b	"Look at that!"
+	dc.b	"Regardez ça!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"The snowstorm hasn't stopped?"
+	dc.b	"La tempête fait toujours rage?"
 	dc.b	$FD
-	dc.b	"Has the control system for"
+	dc.b	"Le contrôle environnemental de"
 	dc.b	$FC
-	dc.b	"Dezolis been restored?"
+	dc.b	"Dezolis est-il bien fonctionnel?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Yes. Everything is in"
+	dc.b	"Affirmatif. Tout fonctionne"
 	dc.b	$FC
-	dc.b	"working order."
+	dc.b	"parfaitement."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$09
-	dc.b	"I TOLD YOU! Didn't I tell you"
+	dc.b	"JE VOUS L'AI DIT! Je vous ai dit"
 	dc.b	$FC
-	dc.b	"that the Garuberk Tower was"
+	dc.b	"que la Tour Garuberk était à la"
 	dc.b	$FD
-	dc.b	"the cause?"
+	dc.b	"source du problème!"
 	dc.b	$FD
-	dc.b	"The demons that live in the"
+	dc.b	"Les démons qui vivent dans la"
 	dc.b	$FC
-	dc.b	"Garuberk Tower are creating"
+	dc.b	"Tour Garuberk sont responsables"
 	dc.b	$FD
-	dc.b	"the blizzard!"
+	dc.b	"de la tempête!"
 	dc.b	$FD
-	dc.b	"Why don't you listen to me once"
+	dc.b	"Pourquoi vous ne m'écoutez"
 	dc.b	$FC
-	dc.b	"in a while?!"
+	dc.b	"jamais?!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Er...ahem."
+	dc.b	"Euh...hum."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Anyway, this means there is"
+	dc.b	"Quoi qu'il en soit, ça confirme"
 	dc.b	$FC
-	dc.b	"some other cause for the"
+	dc.b	"qu'il y a une autre raison pour"
 	dc.b	$FD
-	dc.b	"snowstorm in Dezolis, right?"
+	dc.b	"laquelle la tempête fait rage."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"If the snowstorm continues"
+	dc.b	"Si cette tempête n'est pas"
 	dc.b	$FC
-	dc.b	"unabated, there is a danger"
+	dc.b	"maîtrisée, les populations"
 	dc.b	$FD
-	dc.b	"that the Parmanians and even"
+	dc.b	"Parmaniennes et Dezolisiennes"
 	dc.b	$FC
-	dc.b	"the Dezolisians will perish."
+	dc.b	"même pourraient disparaître."
 	dc.b	$FD
 	dc.b	$F2, $01
 	dc.b	$F9
@@ -703,85 +713,85 @@
 	dc.w	$0095
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"There's no use just sitting"
+	dc.b	"Bon, ça sert a rien de rester"
 	dc.b	$FC
-	dc.b	"around thinking!"
+	dc.b	"là à en débattre!"
 	dc.b	$FD
-	dc.b	"Let's go to Dezolis!"
+	dc.b	"Cap sur Dezolis!"
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$0096
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Yes!"
-	dc.b	$FC
-	dc.b	"I'll go too!"
+	dc.b	"D'accord! Je viens aussi!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"As the mission has not been"
+	dc.b	"Comme la mission n'est pas"
 	dc.b	$FC
-	dc.b	"accomplished, I shall continue"
+	dc.b	"terminée, je tiens à continuer"
 	dc.b	$FD
-	dc.b	"my responsibilities."
+	dc.b	"mon travail."
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$0097
 	dc.b	$F4
 	dc.b	$09
-	dc.b	"This is getting interesting!"
+	dc.b	"Ça commence à être excitant!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Hmmph...unless I go you won't"
+	dc.b	"Hmm...Tu ne pourras rien faire"
 	dc.b	$FC
-	dc.b	"be able to get anything done,"
+	dc.b	"sans mon aide,"
 	dc.b	$FD
-	dc.b	"eh, Chaz?"
+	dc.b	"hein, Chaz?"
 	dc.b	$FD
-	dc.b	"What with Dezolis in a wall of"
+	dc.b	"Mais avec ce mur de glace sur"
 	dc.b	$FC
-	dc.b	"ice we won't be able to move"
+	dc.b	"Dezolis, on ne peux pas aller"
 	dc.b	$FD
-	dc.b	"around freely."
+	dc.b	"et venir à notre guise."
 	dc.b	$FD
-	dc.b	"What shall we do?"
+	dc.b	"Que faire?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"If we use the Ice Digger we"
+	dc.b	"Nous pouvons utiliser le Croque"
 	dc.b	$FC
-	dc.b	"can break through walls of ice."
+	dc.b	"Glace pour traverser les murs"
+	dc.b	$FD
+	dc.b	"de glace."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Ice Digger?"
+	dc.b	"Le Croque Glace?"
 	dc.b	$FC
-	dc.b	"What's that?"
+	dc.b	"C'est quoi, ça?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"In planning for action on"
+	dc.b	"En prévision de la continuation"
 	dc.b	$FC
-	dc.b	"Dezolis I had an ice breaking"
+	dc.b	"de notre mission sur Dezolis,"
 	dc.b	$FD
-	dc.b	"car built."
+	dc.b	"j'ai fait fabriquer ce véhicule."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Why don't you tell us"
+	dc.b	"...Pourquoi tu ne nous dis"
 	dc.b	$FC
-	dc.b	"these things sooner?"
+	dc.b	"jamais ces choses là plus tôt?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"I shall load it onto"
+	dc.b	"Je vais le faire charger sur"
 	dc.b	$FC
-	dc.b	"the Landale."
+	dc.b	"le Landale."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"An unrelenting snowstorm..."
+	dc.b	"Une tempête incessante..."
 	dc.b	$FF
 
 ; $9
@@ -792,17 +802,17 @@
 ; $A
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Hello. What's this?"
+	dc.b	"Tiens, qu'est-ce que c'est?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"It's an internal weapon unit"
+	dc.b	"Il s'agit d'un module d'armement"
 	dc.b	$FC
-	dc.b	"for Androids."
+	dc.b	"interne pour androïdes."
 	dc.b	$FD
-	dc.b	"I surmise that it is a"
+	dc.b	"Je présume que nous sommes en"
 	dc.b	$FC
-	dc.b	"Hyper-Jammer."
+	dc.b	"présence de l'Hyper-Jammer."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
@@ -810,29 +820,29 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"It is a weapon that temporarily"
+	dc.b	"C'est une arme qui embrouille"
 	dc.b	$FC
-	dc.b	"scrambles the AI of machines"
+	dc.b	"temporairement l'IA des machines"
 	dc.b	$FD
-	dc.b	"with strong electromagnetic"
+	dc.b	"au moyen de fortes ondes"
 	dc.b	$FC
-	dc.b	"waves."
+	dc.b	"électromagnétiques."
 	dc.b	$FD
-	dc.b	"There seems to be no"
+	dc.b	"Les spécifications ne semblent"
 	dc.b	$FC
-	dc.b	"incompatibility in its"
+	dc.b	"pas présenter d'incompatibilité,"
 	dc.b	$FD
-	dc.b	"specification, so let's"
-	dc.b	$FC
-	dc.b	"install it."
+	dc.b	"je vais donc me l'implanter."
 	dc.b	$FD
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Device installed."
+	dc.b	"Module implanté."
+	dc.b	$FD
+	dc.b	"L'Hyper-Jammer peut maintenant"
 	dc.b	$FC
-	dc.b	"Hyper-Jammer can now be used."
+	dc.b	"être utilisé."
 	dc.b	$FF
 
 ; $B
@@ -841,19 +851,19 @@
 ; $C
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Wait a moment!"
+	dc.b	"Attendez un instant."
 	dc.b	$FD
-	dc.b	"Presently Kuran is in"
+	dc.b	"Actuellement, Kuran est en mode"
 	dc.b	$FC
-	dc.b	"Stealth mode."
+	dc.b	"camouflage."
 	dc.b	$FD
-	dc.b	"You will not be able to locate"
+	dc.b	"Il est impossible à localiser"
 	dc.b	$FC
-	dc.b	"it with the shuttle's radar."
+	dc.b	"à l'aide du radar de la navette."
 	dc.b	$FD
-	dc.b	"There is a 'Stealth Canceller'"
+	dc.b	"Nous avons un Brouilleur de"
 	dc.b	$FC
-	dc.b	"in the cargo room on the right."
+	dc.b	"Camouflage dans la soute de"
 	dc.b	$FD
-	dc.b	"I will go get it."
+	dc.b	"tribord. Je vais le chercher."
 	dc.b	$FF

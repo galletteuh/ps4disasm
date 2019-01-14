@@ -3,17 +3,19 @@
 	dc.b	$65, $01
 	dc.b	$FA
 	dc.b	$61, $01
-	dc.b	"Huh? You're strangers?"
+	dc.b	"Hein? Des étrangers?"
 	dc.b	$FD
-	dc.b	"You must have a strange sense of"
+	dc.b	"Pour vouloir visiter Monsen,"
 	dc.b	$FC
-	dc.b	"fun, to visit Monsen."
+	dc.b	"vous devez avoir des goûts"
+	dc.b	$FD
+	dc.b	"étranges."
 	dc.b	$FF
 
 ; $1
-	dc.b	"Ah, this town of Monsen has"
+	dc.b	"La ville de Monsen est devenue"
 	dc.b	$FC
-	dc.b	"become a peaceful town."
+	dc.b	"si paisible."
 	dc.b	$FF
 
 ; $2
@@ -21,43 +23,47 @@
 	dc.b	$65, $01
 	dc.b	$FA
 	dc.b	$61, $01
-	dc.b	"I wonder what was behind those"
+	dc.b	"Je me demande la cause de ces"
 	dc.b	$FC
-	dc.b	"earthquakes recently?"
+	dc.b	"tremblements de terre récents?"
 	dc.b	$FD
-	dc.b	"Maybe something bad"
+	dc.b	"Peut-être quelque chose de"
 	dc.b	$FC
-	dc.b	"is going to happen..."
+	dc.b	"fâcheux se prépare..."
 	dc.b	$FF
 
 ; $3
-	dc.b	"Ah, this town of Monsen has"
+	dc.b	"Ah, la ville de Monsen est"
 	dc.b	$FC
-	dc.b	"become a peaceful town."
+	dc.b	"devenue si paisible."
 	dc.b	$FF
 
 ; $4
-	dc.b	"That quicksand was just a small"
+	dc.b	"Les sables mouvants n'étaient"
 	dc.b	$FC
-	dc.b	"area, but now it's growing year"
+	dc.b	"pas très étendus au début, mais"
 	dc.b	$FD
-	dc.b	"by year."
-	dc.b	$FD
-	dc.b	"Presently, Monsen is a deserted"
+	dc.b	"ils prennent plus de place"
 	dc.b	$FC
-	dc.b	"island on land,"
+	dc.b	"chaque année."
 	dc.b	$FD
-	dc.b	"with no interaction with any"
+	dc.b	"Maintenant, Monsen est isolé"
 	dc.b	$FC
-	dc.b	"other community."
+	dc.b	"comme une île sur terre,"
+	dc.b	$FD
+	dc.b	"sans communication avec les"
+	dc.b	$FC
+	dc.b	"autres agglomérations."
 	dc.b	$FF
 
 ; $5
-	dc.b	"Have you seen the Ladea Tower?"
-	dc.b	$FD
-	dc.b	"It stands on the peninsula"
+	dc.b	"Vous avez remarqué la Tour"
 	dc.b	$FC
-	dc.b	"to the east."
+	dc.b	"Ladea?"
+	dc.b	$FD
+	dc.b	"Elle se dresse sur la péninsule"
+	dc.b	$FC
+	dc.b	"à l'est d'ici."
 	dc.b	$FF
 
 ; $6
@@ -65,25 +71,25 @@
 	dc.b	$65, $01
 	dc.b	$FA
 	dc.b	$61, $01
-	dc.b	"You're going to the peninsula?"
+	dc.b	"Ah, vous vous dirigez vers la"
 	dc.b	$FD
-	dc.b	"There's a village called Termi"
+	dc.b	"péninsule? Il y a un village"
 	dc.b	$FC
-	dc.b	"there, but..."
+	dc.b	"nommé Termi là-bas, mais..."
 	dc.b	$FD
-	dc.b	"Because of the quicksand we"
+	dc.b	"Avec ces sables mouvants, nous"
 	dc.b	$FC
-	dc.b	"haven't been able to get there."
+	dc.b	"ne pouvons pas nous y rendre."
 	dc.b	$FD
-	dc.b	"I wonder if they're OK?"
+	dc.b	"J'espère qu'ils vont bien."
 	dc.b	$FF
 
 ; $7
-	dc.b	"The earthquakes have subsided"
+	dc.b	"Les tremblements de terre ont"
 	dc.b	$FC
-	dc.b	"and it looks like the quicksand"
+	dc.b	"cessé, et on dirait que les"
 	dc.b	$FD
-	dc.b	"is getting smaller!"
+	dc.b	"sables mouvants s'atténuent!"
 	dc.b	$FF
 
 ; $8
@@ -91,23 +97,23 @@
 	dc.b	$65, $01
 	dc.b	$FA
 	dc.b	$61, $01
-	dc.b	"This store's business is booming"
+	dc.b	"Ce magasin fait des affaires"
 	dc.b	$FC
-	dc.b	"due to the earthquakes!"
+	dc.b	"en or avec ces séismes!"
 	dc.b	$FD
-	dc.b	"They're taking unfair advantage"
+	dc.b	"Ils profitent de la situation"
 	dc.b	$FC
-	dc.b	"of the situation and raising"
-	dc.b	$FD
-	dc.b	"their prices!"
+	dc.b	"pour augmenter leurs prix!"
 	dc.b	$FF
 
 ; $9
-	dc.b	"Now that the earthquakes have"
+	dc.b	"Avec ces séismes terminés, vous"
 	dc.b	$FC
-	dc.b	"subsided, I'll never again buy"
+	dc.b	"pouvez être certains que je"
 	dc.b	$FD
-	dc.b	"anything from this store!"
+	dc.b	"n'achèterai plus jamais quoi"
+	dc.b	$FC
+	dc.b	"que ce soit à ce magasin!"
 	dc.b	$FF
 
 ; $A
@@ -122,25 +128,25 @@
 	dc.b	$FF
 
 ; $B
-	dc.b	"Oh great,"
+	dc.b	"Ouais, fantastique,"
 	dc.b	$FD
-	dc.b	"you guys will do something about"
+	dc.b	"vous allez vous occuper de ces"
 	dc.b	$FC
-	dc.b	"the quakes? I appreciate it."
+	dc.b	"tremblements de terre? Super!"
 	dc.b	$FF
 
 ; $C
-	dc.b	"I wasn't able to get any peace"
+	dc.b	"Je n'étais jamais tranquille"
 	dc.b	$FC
-	dc.b	"of mind with all the"
+	dc.b	"à cause de tous ces séismes,"
 	dc.b	$FD
-	dc.b	"earthquakes, but how quiet it"
+	dc.b	"mais voyez comment tout est"
 	dc.b	$FC
-	dc.b	"is now!"
+	dc.b	"paisible, maintenant!"
 	dc.b	$FD
-	dc.b	"It's so quiet,"
+	dc.b	"Tout est si tranquille, c'est"
 	dc.b	$FC
-	dc.b	"it's almost eerie."
+	dc.b	"presque inquiétant."
 	dc.b	$FF
 
 ; $D
@@ -148,45 +154,45 @@
 	dc.b	$65, $01
 	dc.b	$FA
 	dc.b	$61, $01
-	dc.b	"With all these earthquakes,"
+	dc.b	"Avec tous ces tremblements de"
 	dc.b	$FC
-	dc.b	"we won't get any customers."
+	dc.b	"terre, nos clients vont nous"
 	dc.b	$FD
-	dc.b	"sigh."
+	dc.b	"déserter... Soupir."
 	dc.b	$FF
 
 ; $E
-	dc.b	"Maybe we'll finally get some"
+	dc.b	"Peut-être nous aurons quelques"
 	dc.b	$FC
-	dc.b	"customers now."
+	dc.b	"clients dorénavant."
 	dc.b	$FF
 
 ; $F
-	dc.b	"I'm a traveling hunter."
+	dc.b	"Je suis un chasseur nomade."
 	dc.b	$FD
-	dc.b	"What a mess with all the sand"
+	dc.b	"C'est un vrai désastre ici, avec"
 	dc.b	$FC
-	dc.b	"worms around here!"
+	dc.b	"tous ces vers des sables!"
 	dc.b	$FD
-	dc.b	"Just because they don't chase"
+	dc.b	"Ce n'est pas parce qu'ils ne"
 	dc.b	$FC
-	dc.b	"you if you run away from them,"
+	dc.b	"vous pourchassent pas si vous"
 	dc.b	$FD
-	dc.b	"don't get any ideas about trying"
+	dc.b	"fuyez qu'il est sage de les"
 	dc.b	$FC
-	dc.b	"to battle them!"
+	dc.b	"combattre!"
 	dc.b	$FF
 
 ; $10
-	dc.b	"With all these sand worms..."
-	dc.b	$FD
-	dc.b	"The parents will not let their"
+	dc.b	"Les parents ne laissent pas"
 	dc.b	$FC
-	dc.b	"children play outside..."
+	dc.b	"leurs enfants jouer dehors, avec"
 	dc.b	$FD
-	dc.b	"I guess they're just being"
+	dc.b	"tous ces vers des sables..."
+	dc.b	$FD
+	dc.b	"J'imagine qu'ils veulent juste"
 	dc.b	$FC
-	dc.b	"careful."
+	dc.b	"être prévenants."
 	dc.b	$FF
 
 ; $11
@@ -194,63 +200,63 @@
 	dc.b	$65, $01
 	dc.b	$FA
 	dc.b	$61, $01
-	dc.b	"Hey, did you see the house next"
+	dc.b	"Ah, vous avez vu la maison"
 	dc.b	$FC
-	dc.b	"door?"
+	dc.b	"voisine?"
 	dc.b	$FD
-	dc.b	"I'm scared to death every time"
+	dc.b	"Je suis terrifiée chaque fois"
 	dc.b	$FC
-	dc.b	"an earthquake occurs,"
+	dc.b	"que la terre tremble."
 	dc.b	$FD
-	dc.b	"thinking when this house is"
+	dc.b	"Si jamais ma maison finissait"
 	dc.b	$FC
-	dc.b	"going to be like that one!"
+	dc.b	"comme l'autre!"
 	dc.b	$FF
 
 ; $12
-	dc.b	"You say there'll be no more"
+	dc.b	"Vous dites qu'il n'y aura plus"
 	dc.b	$FC
-	dc.b	"earthquakes?"
+	dc.b	"de tremblements de terre?"
 	dc.b	$FD
-	dc.b	"I wonder if that's true?"
+	dc.b	"Ça restera à voir..."
 	dc.b	$FF
 
 ; $13
-	dc.b	"My son and his wife used to"
+	dc.b	"Mon fils et sa femme vivaient"
 	dc.b	$FC
-	dc.b	"live next door, but..."
+	dc.b	"juste à côté, malheureusement..."
 	dc.b	$FD
-	dc.b	"They've up and left this town,"
+	dc.b	"Ils ont levé l'ancre et quitté"
 	dc.b	$FC
-	dc.b	"just abandoning us."
+	dc.b	"la ville, sans nous."
 	dc.b	$FF
 
 ; $14
-	dc.b	"This is just between you and me."
+	dc.b	"Juste entre vous et moi..."
 	dc.b	$FD
-	dc.b	"My son's wife,"
+	dc.b	"Ma belle-fille, elle est"
 	dc.b	$FC
-	dc.b	"she's one depraved person!"
+	dc.b	"totalement dévergondée!"
 	dc.b	$FD
-	dc.b	"Actually, I'm quite relieved"
+	dc.b	"Au fond, je suis heureuse"
 	dc.b	$FC
-	dc.b	"that she's gone."
+	dc.b	"qu'elle soit partie."
 	dc.b	$FF
 
 ; $15
-	dc.b	"At that village Termi on the"
+	dc.b	"Au village de Termi, sur la"
 	dc.b	$FC
-	dc.b	"peninsula there,"
+	dc.b	"péninsule, là-bas, je crois"
 	dc.b	$FD
-	dc.b	"I believe they've enshrined some"
+	dc.b	"qu'ils adorent une héroïne"
 	dc.b	$FC
-	dc.b	"heroine of yore."
+	dc.b	"de la légende."
 	dc.b	$FD
-	dc.b	"Lemme see...A...Ali...Ali..."
+	dc.b	"Voyons...A...Ali...Ali..."
 	dc.b	$FD
-	dc.b	"I think they said her name was"
+	dc.b	"Je crois qu'ils m'ont dis"
 	dc.b	$FC
-	dc.b	"Alis?"
+	dc.b	"qu'elle s'appelait Alis?"
 	dc.b	$FF
 
 ; $16
@@ -258,21 +264,21 @@
 	dc.b	$65, $01
 	dc.b	$FA
 	dc.b	$61, $01
-	dc.b	"Ha, ha, ha. If the earthquake"
+	dc.b	"Ha, ha, ha! Si le séisme a"
 	dc.b	$FC
-	dc.b	"has broken your goods, "
+	dc.b	"abimé vos affaires, vous n'avez"
 	dc.b	$FD
-	dc.b	"buy your replacements at"
+	dc.b	"qu'à en acheter des neuves dans"
 	dc.b	$FC
-	dc.b	"this store! "
+	dc.b	"ma boutique!"
 	dc.b	$FF
 
 ; $17
-	dc.b	"Now that the earthquakes have"
+	dc.b	"Bah, avec les tremblements de"
 	dc.b	$FC
-	dc.b	"stopped, no one shops here"
+	dc.b	"terre qui ont cessé, plus"
 	dc.b	$FD
-	dc.b	"anymore."
+	dc.b	"personne n'achète ici."
 	dc.b	$FF
 
 ; $18
@@ -280,13 +286,13 @@
 	dc.b	$65, $01
 	dc.b	$FA
 	dc.b	$61, $01
-	dc.b	"I can't believe my husband is"
+	dc.b	"Je n'arrive pas à croire que"
 	dc.b	$FC
-	dc.b	"taking advantage of our friends!"
+	dc.b	"mon mari arnaque nos amis!"
 	dc.b	$FF
 
 ; $19
-	dc.b	"This must be divine punishment!"
+	dc.b	"C'est le châtiment de Dieu!"
 	dc.b	$FF
 
 ; $1A
@@ -302,31 +308,29 @@
 	dc.b	$2C, $02
 	dc.b	$FA
 	dc.b	$65, $01
-	dc.b	"There's a crack in the ground"
+	dc.b	"Il y a une crevasse juste"
 	dc.b	$FC
-	dc.b	"right in front of our house."
+	dc.b	"devant notre maison. J'ai peur"
 	dc.b	$FD
-	dc.b	"I'm afraid that the children"
-	dc.b	$FC
-	dc.b	"will fall into it."
+	dc.b	"que les enfants tombent dedans."
 	dc.b	$FF
 
 ; $1B
-	dc.b	"Oh no! My child was playing"
+	dc.b	"Oh non! Mon fils jouait dehors"
 	dc.b	$FC
-	dc.b	"outside and fell into the crack!"
+	dc.b	"et est tombé dans la crevasse!"
 	dc.b	$FD
-	dc.b	"Ther've been some eerie"
+	dc.b	"Il y a plein de sons étranges"
 	dc.b	$FC
-	dc.b	"groaning sounds coming from"
+	dc.b	"venant de cette crevasse!"
 	dc.b	$FD
-	dc.b	"the crack recently!"
-	dc.b	$FD
-	dc.b	"So I went to the Guild for"
+	dc.b	"Alors je suis allée voir la"
 	dc.b	$FC
-	dc.b	"assistance, but the hunter"
+	dc.b	"Guilde pour qu'ils m'aident,"
 	dc.b	$FD
-	dc.b	"hasn't come yet!"
+	dc.b	"mais le chasseur n'est toujours"
+	dc.b	$FC
+	dc.b	"pas venu!"
 	dc.b	$FF
 
 ; $1C
@@ -335,9 +339,9 @@
 	dc.b	$FF
 
 ; $1D
-	dc.b	"Please! Rescue my son!"
+	dc.b	"Je vous en prie! Sauvez mon"
 	dc.b	$FC
-	dc.b	"Please!"
+	dc.b	"fils! Je vous en conjure!"
 	dc.b	$FF
 
 ; $1E
@@ -346,25 +350,27 @@
 	dc.b	$FF
 
 ; $1F
-	dc.b	"I've sent your commission fee to"
+	dc.b	"J'ai envoyé votre cachet à la"
 	dc.b	$FC
-	dc.b	"the Guild."
+	dc.b	"Guilde."
 	dc.b	$FD
-	dc.b	"Please pick it up there!"
+	dc.b	"S'il-vous-plaît, passez le"
+	dc.b	$FC
+	dc.b	"prendre là-bas!"
 	dc.b	$FF
 
 ; $20
-	dc.b	"Thank you for your help."
+	dc.b	"Merci pour votre aide. Depuis"
 	dc.b	$FC
-	dc.b	"Since that incident, I always"
+	dc.b	"cet incident, je garde mon fils"
 	dc.b	$FD
-	dc.b	"keep my child close at hand."
+	dc.b	"à mes côtés."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It's debatable if that's a good"
+	dc.b	"Je crois que cette solution est"
 	dc.b	$FC
-	dc.b	"solution."
+	dc.b	"assez discutable."
 	dc.b	$FF
 
 ; $21
@@ -372,60 +378,64 @@
 	dc.b	$3D, $02
 	dc.b	$FA
 	dc.b	$2F, $01
-	dc.b	"I wonder if you can get to the"
+	dc.b	"Je me demande si on peut"
 	dc.b	$FC
-	dc.b	"other side of the planet if you"
+	dc.b	"traverser de l'autre côté de la"
 	dc.b	$FD
-	dc.b	"fall into that crack?"
+	dc.b	"planète en tombant dans cette"
+	dc.b	$FC
+	dc.b	"crevasse?"
 	dc.b	$FF
 
 ; $22
 	dc.b	$F4
 	dc.b	$25
-	dc.b	"I wanted to go and see the other"
+	dc.b	"Je voulais traverser de l'autre"
 	dc.b	$FC
-	dc.b	"side of the planet,"
+	dc.b	"côté de la planète, alors je"
 	dc.b	$FD
-	dc.b	"so I went into the valley."
+	dc.b	"suis allé dans la vallée. Mais"
 	dc.b	$FD
-	dc.b	"But it didn't take me to"
+	dc.b	"ça débouchait nulle part! Quelle"
 	dc.b	$FC
-	dc.b	"the other side! No fun!"
+	dc.b	"déception!"
 	dc.b	$FF
 
 ; $23
 	dc.b	$F4
 	dc.b	$25
-	dc.b	"Mommy says I'm not to go outside"
+	dc.b	"Maman dit que je ne devrais plus"
 	dc.b	$FC
-	dc.b	"too much! This is not fun."
+	dc.b	"aller dehors! Je m'ennuie."
 	dc.b	$FF
 
 ; $24
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Wh...what's this?"
+	dc.b	"Que...Qu'est-ce que c'est?"
 	dc.b	$FD
-	dc.b	"There's an underground cave like"
+	dc.b	"Il y a une telle caverne sous"
 	dc.b	$FC
-	dc.b	"this in Monsen?"
+	dc.b	"Monsen?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"I wonder where on earth"
+	dc.b	"Je me demande où diable Tallas"
 	dc.b	$FC
-	dc.b	"Tallas has gotten to?"
+	dc.b	"se cache?"
 	dc.b	$FF
 
 ; $25
 	dc.b	$F3
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"A child's shoes!"
+	dc.b	"Des souliers d'enfant!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"I wonder if they're Tallas'?"
+	dc.b	"Je me demande si ce sont ceux"
+	dc.b	$FC
+	dc.b	"Tallas?"
 	dc.b	$FF
 
 ; $26
@@ -438,47 +448,45 @@
 	dc.b	$9E
 	dc.b	$F4
 	dc.b	$25
-	dc.b	"Yawn...Huh? Where is this?"
-	dc.b	$FD
-	dc.b	"Is this the other side of the"
+	dc.b	"Baille...Hein? Où suis-je? C'est"
 	dc.b	$FC
-	dc.b	"planet?"
+	dc.b	"de l'autre côté de la planète?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Yikes!"
+	dc.b	"Quoi!"
 	dc.b	$FC
-	dc.b	"Were you really eaten?"
+	dc.b	"Ce truc t'avait vraiment mangé?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Thank goodness!"
+	dc.b	"Le ciel soit loué!"
 	dc.b	$FC
-	dc.b	"You seem to be all right."
+	dc.b	"Tu semble indemne."
 	dc.b	$FD
-	dc.b	"You would've been digested had"
+	dc.b	"Ce truc t'aurais digéré si nous"
 	dc.b	$FC
-	dc.b	"we not come along in time."
+	dc.b	"n'étions pas intervenus."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$25
-	dc.b	"Oh yeah, that's right."
-	dc.b	$FD
-	dc.b	"I was attacked by some weird"
+	dc.b	"Ah oui, c'est vrai! Une limace"
 	dc.b	$FC
-	dc.b	"slug."
+	dc.b	"bizarre m'a attaquée."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"You know, we saved your life."
+	dc.b	"Heu, tu sais, on t'a sauvé la"
+	dc.b	$FC
+	dc.b	"vie..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$25
-	dc.b	"Oh. Thanks, mister!"
+	dc.b	"Ah, oui. Merci, monsieur!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Anytime."
+	dc.b	"Ouais, de rien."
 	dc.b	$FF
 
 ; $28
@@ -496,118 +504,116 @@
 	dc.b	$FF
 
 ; $2A
-	dc.b	"Woof woof!"
+	dc.b	"Ouah ouah!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Here boy!"
+	dc.b	"Viens, pitou!"
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$01
 	dc.b	"Ah!"
 	dc.b	$FC
-	dc.b	"Wait!"
+	dc.b	"Au pied!"
 	dc.b	$FF
 
 ; $2B
-	dc.b	"whimper."
+	dc.b	"pleurniche."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Good boy, good boy."
+	dc.b	"Bon chien, bon chien."
 	dc.b	$FD
-	dc.b	"Here's your favorite food,"
+	dc.b	"Tiens, voici ton mets favori,"
 	dc.b	$FC
-	dc.b	"a piece of shortcake."
+	dc.b	"du gâteau."
 	dc.b	$FD
-	dc.b	"Here's our chance."
+	dc.b	"Voilà notre chance."
 	dc.b	$FC
-	dc.b	"Let's take him back to Aiedo!"
+	dc.b	"Ramenons-le à Aiedo!"
 	dc.b	$FF
 
 ; $2C
-	dc.b	"Woof woof!"
+	dc.b	"Ouah ouah!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"This scraggly little dog must be"
+	dc.b	"Ce petit chien miteux doit être"
 	dc.b	$FC
 	dc.b	"Rocky!"
 	dc.b	$FF
 
 ; $2D
-	dc.b	"Are you a hunter? "
+	dc.b	"Vous êtes un chasseur?"
 	dc.b	$FC
-	dc.b	"Oh, I've been waiting for you!"
+	dc.b	"Bien, je vous attendais!"
 	dc.b	$FD
-	dc.b	"You see, I let my son, Tallas,"
+	dc.b	"Voyez-vous, mon fils Tallas"
 	dc.b	$FC
-	dc.b	"play outside, but he simply"
+	dc.b	"jouait dehors, mais il a"
 	dc.b	$FD
-	dc.b	"disappeared."
+	dc.b	"soudainement disparu."
 	dc.b	$FD
-	dc.b	"I've asked around, and I've been"
+	dc.b	"J'ai demandé aux voisins, et ils"
 	dc.b	$FC
-	dc.b	"told that he fell into the crack"
+	dc.b	"m'ont dit qu'il est tombé dans"
 	dc.b	$FD
-	dc.b	"in front of our house!"
+	dc.b	"la crevasse devant la maison!"
 	dc.b	$FD
-	dc.b	"Since then, I haven't been able"
+	dc.b	"Depuis, je ne peux rien faire."
+	dc.b	$FD
+	dc.b	"C'est sûr que je veux le"
 	dc.b	$FC
-	dc.b	"to do anything."
+	dc.b	"secourir, mais il y a de drôles"
 	dc.b	$FD
-	dc.b	"Of course I want to rescue him,"
+	dc.b	"de grondements qui viennent de"
 	dc.b	$FC
-	dc.b	"but creepy groaning sounds"
+	dc.b	"la crevasse!"
 	dc.b	$FD
-	dc.b	"have been coming out of the"
+	dc.b	"Je vous en prie! Sauvez mon"
 	dc.b	$FC
-	dc.b	"crack!"
-	dc.b	$FD
-	dc.b	"Oh please!"
-	dc.b	$FC
-	dc.b	"Rescue my son!"
+	dc.b	"fils!"
 	dc.b	$FF
 
 ; $2E
-	dc.b	"Thank you so much! To tell you"
+	dc.b	"Merci de tout coeur! En toute"
 	dc.b	$FC
-	dc.b	"the truth, I had lost hope."
+	dc.b	"vérité, j'avais perdu espoir."
 	dc.b	$FD
-	dc.b	"I'm so glad he's safe!"
-	dc.b	$FD
-	dc.b	"I mustn't let him out of"
+	dc.b	"Je suis si contente qu'il soit"
 	dc.b	$FC
-	dc.b	"my sight again."
+	dc.b	"sain et sauf!"
 	dc.b	$FD
-	dc.b	"I shall send the agreed upon"
+	dc.b	"Je ne le lâcherai plus d'une"
 	dc.b	$FC
-	dc.b	"commission fee to the Guild."
+	dc.b	"semelle."
+	dc.b	$FD
+	dc.b	"J'enverrai votre cachet à la"
+	dc.b	$FC
+	dc.b	"Guilde."
 	dc.b	$FF
 
 ; $2F
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Arrgh! What on earth is this?"
+	dc.b	"Ahh! C'est quoi, ce truc?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Oh no, Chaz, Tallas..."
+	dc.b	"Oh non, Chaz, Tallas..."
 	dc.b	$FC
-	dc.b	"This monster couldn't have..."
+	dc.b	"Ce monstre n'a pas..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Cut it out,"
-	dc.b	$FD
-	dc.b	"it's bad luck to even think such"
+	dc.b	"Arrête, c'est de malchance de"
 	dc.b	$FC
-	dc.b	"a thing!"
+	dc.b	"même y penser!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"It's coming for us!"
+	dc.b	"Il en a après nous!"
 	dc.b	$FF
 
 ; $30
@@ -659,124 +665,122 @@
 	dc.b	$FF
 
 ; $40
-	dc.b	"Th...there've been earthquakes"
+	dc.b	"Il...il y a des tremblements"
 	dc.b	$FC
-	dc.b	"recently..."
+	dc.b	"de terre dernièrement..."
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$05
 	dc.b	"Ahhhhh!"
 	dc.b	$FC
-	dc.b	"Help!"
+	dc.b	"À l'aide!"
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Yikes!"
+	dc.b	"Wow!"
 	dc.b	$FC
-	dc.b	"Wh...what's wrong, Gryz!"
+	dc.b	"Que...Qu'est-ce que tu as, Gryz?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Oh, I get it!"
+	dc.b	"Ah, je comprends!"
 	dc.b	$FD
-	dc.b	"Gryz's afraid of earthquakes,"
+	dc.b	"Gryz a peur des séismes,"
 	dc.b	$FC
-	dc.b	"aren't you, Gryz?"
+	dc.b	"n'est-ce pas, Gryz?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Huh? Is that true?"
+	dc.b	"Hein? Sans rire?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$05
-	dc.b	"What if I am afraid?"
+	dc.b	"Et alors, qu'est-ce que ça peut"
 	dc.b	$FC
-	dc.b	"I can't help it!"
+	dc.b	"faire? J'y peux rien!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
 	dc.b	"Ha, ha, ha!"
 	dc.b	$FC
-	dc.b	"What a coward!"
+	dc.b	"Quelle mauviette!"
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$05
-	dc.b	"Oh, shut up!"
+	dc.b	"Ah, la ferme!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"At any rate,"
+	dc.b	"Quoi qu'il en soit, des séismes"
 	dc.b	$FC
-	dc.b	"with earthquakes happening so"
+	dc.b	"aussi fréquents, c'est vraiment"
 	dc.b	$FD
-	dc.b	"often like this, it's a real"
-	dc.b	$FC
-	dc.b	"problem."
+	dc.b	"un problème."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$07
-	dc.b	"I'm sure that the Plate System"
+	dc.b	"Je suis certaine que c'est à"
 	dc.b	$FC
-	dc.b	"is the cause of all this!"
+	dc.b	"cause du Système Tectonique!"
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Plate System?"
+	dc.b	"Le Système Tectonique?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$07
-	dc.b	"It's a system located just north"
+	dc.b	"Il s'agit d'un système juste au"
 	dc.b	$FC
-	dc.b	"of here which controls the"
+	dc.b	"nord d'ici qui contrôle les"
 	dc.b	$FD
-	dc.b	"tectonic plates of Motavia's"
+	dc.b	"plaques tectoniques de la croûte"
 	dc.b	$FC
-	dc.b	"surface."
+	dc.b	"de Motavia."
 	dc.b	$FD
-	dc.b	"I'm sure that system is"
+	dc.b	"Je suis persuadée que ce système"
 	dc.b	$FC
-	dc.b	"malfunctioning!"
+	dc.b	"est détraqué!"
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$05
-	dc.b	"Well, if that's the case,"
+	dc.b	"Bon, si c'est le cas, il faut"
 	dc.b	$FC
-	dc.b	"let's shut it down!"
+	dc.b	"l'éteindre!"
 	dc.b	$F7
 
-	dc.b	"What? You're going to stop"
+	dc.b	"Hein? Vous allez faire cesser"
 	dc.b	$FC
-	dc.b	"these earthquakes?"
+	dc.b	"les tremblements de terre?"
 	dc.b	$F7
 
-	dc.b	"Oh, thank you very much!"
+	dc.b	"Oh, merci de tout coeur!"
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"What? Er..."
+	dc.b	"Hein? Euh... C'est qu'on a"
 	dc.b	$FC
-	dc.b	"we're kind of busy..."
+	dc.b	"beaucoup à faire..."
 	dc.b	$F7
 
-	dc.b	"Please. You must stop these"
+	dc.b	"Je vous en prie. Vous devez"
 	dc.b	$FC
-	dc.b	"quakes."
+	dc.b	"faire cesser ces séismes."
 	dc.b	$FD
-	dc.b	"Please."
+	dc.b	"S'il-vous-plaît."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"But..."
+	dc.b	"Mais..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$00
-	dc.b	"Thanks!"
+	dc.b	"Merci!"
 	dc.b	$FF
 
 ; $41
@@ -866,13 +870,13 @@
 	dc.b	$FF
 
 ; $5D
-	dc.b	"Woof woof!"
+	dc.b	"Ouah ouah!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"What a trouble maker..."
+	dc.b	"Quel fauteur de trouble..."
 	dc.b	$FC
-	dc.b	"I'll get you this time!"
+	dc.b	"Cette fois-ci, je t'aurai!"
 	dc.b	$F7
 
 	dc.b	$F4
@@ -883,17 +887,17 @@
 	dc.b	$FF
 
 ; $5E
-	dc.b	"whimper"
+	dc.b	"Pleurniche."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Good boy, good boy."
+	dc.b	"Bon chien, bon chien."
 	dc.b	$FC
-	dc.b	"Here's your favorite food,"
+	dc.b	"Voilà ton mets favori, un"
 	dc.b	$FD
-	dc.b	"a piece of shortcake."
+	dc.b	"morceau de gâteau."
 	dc.b	$FD
-	dc.b	"Here's our chance. Let's take"
+	dc.b	"C'est notre chance. Ramenons-le"
 	dc.b	$FC
-	dc.b	"him back to Aiedo!"
+	dc.b	"à Aiedo!"
 	dc.b	$FF

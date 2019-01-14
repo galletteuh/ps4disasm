@@ -3,21 +3,23 @@
 	dc.b	$9B, $02
 	dc.b	$FA
 	dc.b	$98, $01
-	dc.b	"Welcome to the Gumbious Temple."
+	dc.b	"Bienvenue au Temple Gumbious."
+	dc.b	$FD
+	dc.b	"Même les Parmaniens sont les"
 	dc.b	$FC
-	dc.b	"We even welcome Parmanians."
+	dc.b	"bienvenus."
 	dc.b	$FF
 
 ; $1
-	dc.b	"I want to say 'welcome' but"
+	dc.b	"J'aimerai vous souhaiter la"
 	dc.b	$FC
-	dc.b	"the Eclipse Torch is..."
+	dc.b	"bienvenue, mais le Flambeau..."
 	dc.b	$FF
 
 ; $2
-	dc.b	"Oh, you have recovered"
+	dc.b	"Ah, vous avez récupéré le"
 	dc.b	$FC
-	dc.b	"the Eclipse Torch!"
+	dc.b	"Flambeau de l'Éclipse!"
 	dc.b	$FF
 
 ; $3
@@ -25,33 +27,35 @@
 	dc.b	$9B, $02
 	dc.b	$FA
 	dc.b	$98, $01
-	dc.b	"How rare to see a Parmanian."
+	dc.b	"On ne voit pas beaucoup de"
 	dc.b	$FC
-	dc.b	"Are you here sight-seeing?"
+	dc.b	"Parmaniens ici. Vous faites du"
+	dc.b	$FD
+	dc.b	"tourisme?"
 	dc.b	$FF
 
 ; $4
-	dc.b	"Oh, what a shall we do?"
+	dc.b	"Ah, qu'allons-nous faire?"
 	dc.b	$FC
-	dc.b	"The Eclipse Torch is..."
+	dc.b	"Le Flambeau de l'Éclipse a..."
 	dc.b	$FF
 
 ; $5
-	dc.b	"Oh, thank goodness."
+	dc.b	"Ah, Dieu soit loué."
 	dc.b	$FF
 
 ; $6
-	dc.b	"This is a sacred Dezolisian"
+	dc.b	"Ceci est un endroit sacré pour"
 	dc.b	$FC
-	dc.b	"area."
+	dc.b	"les Dezolisiens."
 	dc.b	$FD
-	dc.b	"Usually many people come to"
+	dc.b	"Habituellement beaucoup de gens"
 	dc.b	$FC
-	dc.b	"visit, but recently there's"
+	dc.b	"le visitent, mais avec cette"
 	dc.b	$FD
-	dc.b	"been a snowstorm and visitors"
+	dc.b	"tempête, peu de gens peuvent"
 	dc.b	$FC
-	dc.b	"are few and far between."
+	dc.b	"y venir."
 	dc.b	$FF
 
 ; $7
@@ -59,27 +63,27 @@
 	dc.b	$9B, $02
 	dc.b	$FA
 	dc.b	$98, $01
-	dc.b	"This holy flame of ours"
+	dc.b	"Notre flamme sacrée est vraiment"
 	dc.b	$FC
-	dc.b	"is truly beautiful!"
+	dc.b	"magnifique!"
 	dc.b	$FF
 
 ; $8
-	dc.b	"Oh, what shall we do?"
+	dc.b	"Ah, qu'allons-nous faire?"
 	dc.b	$FF
 
 ; $9
-	dc.b	"Now I feel safe."
+	dc.b	"Je me sens en sécurité,"
 	dc.b	$FC
-	dc.b	"Thank you very much."
+	dc.b	"maintenant. Je vous remercie."
 	dc.b	$FF
 
 ; $A
-	dc.b	"They say there used to be"
+	dc.b	"On dit qu'une tour appelée la"
 	dc.b	$FC
-	dc.b	"a tower called 'Corona'"
+	dc.b	"'Tour Corona' était érigée ici"
 	dc.b	$FD
-	dc.b	"that stood here in the past."
+	dc.b	"jadis."
 	dc.b	$FF
 
 ; $B
@@ -87,33 +91,37 @@
 	dc.b	$9B, $02
 	dc.b	$FA
 	dc.b	$98, $01
-	dc.b	"Here at Gumbious Temple,"
+	dc.b	"Le Temple Gumbious n'est pas"
 	dc.b	$FC
-	dc.b	"we not only guard the Eclipse"
+	dc.b	"uniquement l'endroit où l'on"
 	dc.b	$FD
-	dc.b	"Torch, the symbol of the"
+	dc.b	"préserve le Flambeau de"
 	dc.b	$FC
-	dc.b	"Dezolisian belief, but also we"
+	dc.b	"l'Éclipse, le symbole des"
 	dc.b	$FD
-	dc.b	"are the central government."
+	dc.b	"croyances Dezolisiennes. Nous"
+	dc.b	$FC
+	dc.b	"sommes aussi le siège"
+	dc.b	$FD
+	dc.b	"du gouvernement."
 	dc.b	$FF
 
 ; $C
-	dc.b	"The holy flame gives us"
+	dc.b	"La flamme sacrée nous apporte la"
 	dc.b	$FC
-	dc.b	"strength."
+	dc.b	"force."
 	dc.b	$FD
-	dc.b	"That it is lost is..."
+	dc.b	"L'avoir perdue, c'est..."
 	dc.b	$FF
 
 ; $D
-	dc.b	"You're going to bring our flame"
+	dc.b	"Vous voulez aller récupérer"
 	dc.b	$FC
-	dc.b	"back?"
+	dc.b	"notre flamme sacrée?"
 	dc.b	$FD
-	dc.b	"You must never handle it with"
+	dc.b	"Prenez garde de toujours la"
 	dc.b	$FC
-	dc.b	"disrespect."
+	dc.b	"manipuler avec respect."
 	dc.b	$FF
 
 ; $E
@@ -121,33 +129,33 @@
 	dc.b	$9B, $02
 	dc.b	$FA
 	dc.b	$98, $01
-	dc.b	"The Eclipse Torch is a holy"
+	dc.b	"Le Flambeau de l'Éclipse est"
 	dc.b	$FC
-	dc.b	"flame."
+	dc.b	"notre flamme sacrée."
 	dc.b	$FD
-	dc.b	"The legend states that it emits"
+	dc.b	"Selon la légende, elle emet une"
 	dc.b	$FC
-	dc.b	"a burning light that reduces any"
+	dc.b	"lumière qui brûle toute chose"
 	dc.b	$FD
-	dc.b	"object unworthy of this world"
+	dc.b	"indigne de notre monde en"
 	dc.b	$FC
-	dc.b	"to ashes."
+	dc.b	"cendres."
 	dc.b	$FF
 
 ; $F
-	dc.b	"Oh horrors!"
+	dc.b	"Quelle horreur!"
 	dc.b	$FC
-	dc.b	"Our holy flame has been stolen!"
+	dc.b	"Notre flamme sacrée a été volée!"
 	dc.b	$FF
 
 ; $10
-	dc.b	"My dear Parmanian,"
+	dc.b	"Mon cher Parmanien, si vraiment"
 	dc.b	$FC
-	dc.b	"if you say you'll get our"
+	dc.b	"tu as promis de récupérer notre"
 	dc.b	$FD
-	dc.b	"treasure, please follow through"
+	dc.b	"trésor, veuillez ne pas déroger"
 	dc.b	$FC
-	dc.b	"on your promise."
+	dc.b	"à cette promesse."
 	dc.b	$FF
 
 ; $11
@@ -155,35 +163,37 @@
 	dc.b	$9B, $02
 	dc.b	$FA
 	dc.b	$98, $01
-	dc.b	"'One day, the flame of"
+	dc.b	"'Un jour, la flamme du Flambeau"
 	dc.b	$FC
-	dc.b	"the Eclipse Torch will reduce"
+	dc.b	"de l'Éclipse réduira en cendres"
 	dc.b	$FD
-	dc.b	"to ashes all that is unclean.'"
+	dc.b	"tout ce qui est impur.'"
 	dc.b	$FD
-	dc.b	"That is the legend of"
+	dc.b	"C'est la légende du Flambeau de"
 	dc.b	$FC
-	dc.b	"the Eclipse Torch."
+	dc.b	"l'Éclipse."
 	dc.b	$FF
 
 ; $12
-	dc.b	"'One day, the flame of"
+	dc.b	"'Un jour, la flamme du Flambeau"
 	dc.b	$FC
-	dc.b	"the Eclipse Torch will reduce"
+	dc.b	"de l'Éclipse réduira en cendres"
 	dc.b	$FD
-	dc.b	"all that is unclean to ashes.'"
+	dc.b	"tout ce qui est impur.'"
 	dc.b	$FD
-	dc.b	"I wonder if this legend is true?"
+	dc.b	"Je me demande si la légende dit"
+	dc.b	$FC
+	dc.b	"vrai?"
 	dc.b	$FF
 
 ; $13
-	dc.b	"'One day, the flame of"
+	dc.b	"'Un jour, la flamme du Flambeau"
 	dc.b	$FC
-	dc.b	"the Eclipse Torch will reduce"
+	dc.b	"de l'Éclipse réduira en cendres"
 	dc.b	$FD
-	dc.b	"all that is unclean to ashes.'"
+	dc.b	"tout ce qui est impur.'"
 	dc.b	$FD
-	dc.b	"That time may be now."
+	dc.b	"Ce jour est peut-être arrivé."
 	dc.b	$FF
 
 ; $14
@@ -191,37 +201,45 @@
 	dc.b	$9B, $02
 	dc.b	$FA
 	dc.b	$98, $01
-	dc.b	"I once got terribly frostbitten."
-	dc.b	$FD
-	dc.b	"But the light of the Eclipse"
+	dc.b	"J'ai un jour subi de terribles"
 	dc.b	$FC
-	dc.b	"Torch cured me in moments!"
+	dc.b	"engelures!"
 	dc.b	$FD
-	dc.b	"That is truly a holy flame."
+	dc.b	"Mais la lumière du Flambeau de"
+	dc.b	$FC
+	dc.b	"l'Éclipse m'a guérie en quelques"
+	dc.b	$FD
+	dc.b	"instants! C'est vraiment une"
+	dc.b	$FC
+	dc.b	"flamme divine."
 	dc.b	$FF
 
 ; $15
-	dc.b	"That light must never be lost."
-	dc.b	$FD
-	dc.b	"Please, my dear Parmanian."
+	dc.b	"La lumière ne doit pas être"
 	dc.b	$FC
-	dc.b	"Bring back our holy flame!"
+	dc.b	"perdue."
+	dc.b	$FD
+	dc.b	"Je vous en prie, cher Parmanien,"
+	dc.b	$FC
+	dc.b	"ramenez notre flamme sacrée!"
 	dc.b	$FF
 
 ; $16
-	dc.b	"Ah, I'm sure we can trust"
+	dc.b	"Je suis certain que nous pouvons"
 	dc.b	$FC
-	dc.b	"people like you with"
+	dc.b	"faire confiance à des gens tels"
 	dc.b	$FD
-	dc.b	"the holy flame."
+	dc.b	"que vous pour prendre soin de"
+	dc.b	$FC
+	dc.b	"la flamme sacrée."
 	dc.b	$FF
 
 ; $17
-	dc.b	"You may not go beyond this"
+	dc.b	"Vous ne pouvez pas dépasser"
 	dc.b	$FC
-	dc.b	"point."
+	dc.b	"cette ligne."
 	dc.b	$FD
-	dc.b	"Please go back."
+	dc.b	"Veuillez rebrousser le chemin."
 	dc.b	$FF
 
 ; $18
@@ -229,23 +247,25 @@
 	dc.b	$9B, $02
 	dc.b	$FA
 	dc.b	$98, $01
-	dc.b	"I'm so grateful."
+	dc.b	"Je suis si heureux."
 	dc.b	$FD
-	dc.b	"It's so wonderful to be able to"
+	dc.b	"C'est si merveilleux de pouvoir"
 	dc.b	$FC
-	dc.b	"worship the flame of"
+	dc.b	"adorer la flamme du Flambeau de"
 	dc.b	$FD
-	dc.b	"the Eclipse Torch again!"
+	dc.b	"l'Éclipse de nouveau!"
 	dc.b	$FF
 
 ; $19
-	dc.b	"Waaaaaaaaaaaaa."
+	dc.b	"Ouiiiiiiiiin."
 	dc.b	$FF
 
 ; $1A
-	dc.b	"Oh, you have retrieved the"
+	dc.b	"Ah, vous avez récupéré le"
 	dc.b	$FC
-	dc.b	"Eclipse Torch. That's wonderful."
+	dc.b	"Flambeau de l'Éclipse."
+	dc.b	$FD
+	dc.b	"C'est merveilleux!"
 	dc.b	$FF
 
 ; $1B
@@ -253,33 +273,35 @@
 	dc.b	$9B, $02
 	dc.b	$FA
 	dc.b	$98, $01
-	dc.b	"The more I look at it the more"
+	dc.b	"Sa lumière me réconforte de plus"
 	dc.b	$FC
-	dc.b	"refreshing the light is."
+	dc.b	"en plus quand je la regarde."
 	dc.b	$FD
-	dc.b	"I feel as if my heart is being"
+	dc.b	"On dirait que mon coeur est"
 	dc.b	$FC
-	dc.b	"cleansed!"
+	dc.b	"purifié!"
 	dc.b	$FF
 
 ; $1C
-	dc.b	"Wh...what total disrespect to"
+	dc.b	"Quel...quel outrage d'avoir"
 	dc.b	$FC
-	dc.b	"steal the Eclipse Torch so"
+	dc.b	"volé le Flambeau de l'Éclipse"
 	dc.b	$FD
-	dc.b	"openly!"
+	dc.b	"si librement!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"You're unsteady, sir."
+	dc.b	"Vous vacillez, monsieur."
 	dc.b	$FC
-	dc.b	"Here, pull yourself together."
+	dc.b	"Allez, ressaisissez-vous."
 	dc.b	$FF
 
 ; $1D
-	dc.b	"Oh, hurry and finish whatever"
+	dc.b	"Dépêchez-vous de faire ce que"
 	dc.b	$FC
-	dc.b	"you need to do and give it back."
+	dc.b	"vous avez à faire et de le"
+	dc.b	$FD
+	dc.b	"ramener!"
 	dc.b	$FF
 
 ; $1E
@@ -287,21 +309,23 @@
 	dc.b	$9B, $02
 	dc.b	$FA
 	dc.b	$98, $01
-	dc.b	"Not even the most precious jewel"
+	dc.b	"Même les joyaux les plus"
 	dc.b	$FC
-	dc.b	"could emit such a divine light."
+	dc.b	"précieux n'émettent une lumière"
+	dc.b	$FD
+	dc.b	"aussi divine."
 	dc.b	$FF
 
 ; $1F
-	dc.b	"The treasure of all Dezolisians"
+	dc.b	"Le trésor de tous les"
 	dc.b	$FC
-	dc.b	"has been stolen!"
+	dc.b	"Dezolisien a été dérobé!"
 	dc.b	$FD
-	dc.b	"What should we do?"
+	dc.b	"Que pouvons-nous faire?"
 	dc.b	$FF
 
 ; $20
-	dc.b	"I'm glad it turned out well."
+	dc.b	"Tout est bien qui finit bien."
 	dc.b	$FF
 
 ; $21
@@ -309,27 +333,27 @@
 	dc.b	$9B, $02
 	dc.b	$FA
 	dc.b	$98, $01
-	dc.b	"I'm a trained monk."
+	dc.b	"Je suis un moine qualifié."
 	dc.b	$FD
-	dc.b	"Every time I step into this"
+	dc.b	"Chaque fois que j'entre ici,"
 	dc.b	$FC
-	dc.b	"place I feel stronger."
+	dc.b	"je me sens plus fort."
 	dc.b	$FF
 
 ; $22
-	dc.b	"Oh, that such a thing could"
+	dc.b	"Comment une telle chose a pu"
 	dc.b	$FC
-	dc.b	"happen because of my"
+	dc.b	"arriver? Est-ce à cause de mon"
 	dc.b	$FD
-	dc.b	"inattentiveness!"
+	dc.b	"manque d'attention?"
 	dc.b	$FF
 
 ; $23
-	dc.b	"I'm so relieved."
+	dc.b	"Je suis si soulagé."
 	dc.b	$FD
-	dc.b	"Now I can get back to my"
+	dc.b	"Je peux maintenant reprendre mon"
 	dc.b	$FC
-	dc.b	"training with peace of mind."
+	dc.b	"entraînement l'esprit en paix."
 	dc.b	$FF
 
 ; $24
@@ -339,17 +363,17 @@
 	dc.b	$97, $11
 	dc.b	$F4
 	dc.b	$1A
-	dc.b	"Welcome, welcome."
+	dc.b	"Bienvenue à vous!"
 	dc.b	$FD
-	dc.b	"We welcome any visitor"
+	dc.b	"Tous les visteurs sont les"
 	dc.b	$FC
-	dc.b	"to the temple."
+	dc.b	"bienvenues au temple."
 	dc.b	$FF
 
 ; $25
 	dc.b	$F4
 	dc.b	$1A
-	dc.b	"I wish you well!"
+	dc.b	"Je vous souhaite le meilleur!"
 	dc.b	$FF
 
 ; $26
@@ -406,5 +430,7 @@
 	dc.b	$F3
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"So this is the Eclipse Torch?"
+	dc.b	"Alors voilà le Flambeau de"
+	dc.b	$FC
+	dc.b	"l'Éclipse?"
 	dc.b	$FF

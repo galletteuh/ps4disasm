@@ -1,0 +1,44 @@
+The French translators, Benoit Goudreault-Emond and Anthony Gallet, 
+would like to extend thanks to the following people:
+
+- Michał Ziąbkowski (mziab@o2.pl) for his very precious help as the
+  Polish translator.  He provided several hints on font encoding
+  which let me easily add accents, and some warnings about which
+  parts of the dialog might crash due to memory limitations. Also
+  a great person all around, checking his old notes from years ago
+  just to help a random Internet stranger.  Many thanks, Michał!
+
+- Lorenzo (lory2004@gmail.com) for disassembling the PS4 code in
+  the first place.  I don't think I would've dared undertaking this
+  effort had the symbolic disassembly not been available.  I do know
+  M68K assembly, but having to place breakpoints, look at trace logs,
+  and whatnot is a bit too time-consuming for parents of school-age
+  children.  He also told me the font was 8x16 which did point me
+  in the right direction.
+
+- Benoit's daughter, Stéphanie, for bugging him incessantly about 
+  the project, but also for beta testing parts of it.
+
+If the translators have forgotten anybody, you may contact Benoit and
+request to be added to this file at bgoudreaultemond@gmail.com
+
+French Translation task list:
+
+- Fix width of "cannot flee" message window - DONE
+- Add credits screens for translation - DONE
+- Fix intro scroll length so people can read the last line - DONE
+- Fix the "PRESS START BUTTON" text at title screen DONE
+- Munge the font for the credits so we can an apostrophe and
+  can properly translate that for "Merci d'avoir joué" (thank you
+  for playing) - DONE
+- Make some modifications optional: - DONE
+  - Raja's friend Quebec accent, not everybody knows how to decode
+    that kind of French :)
+  - Changes to credits
+  - Font changes other than raw accents or missing letters
+
+French Translation WONTDO:
+
+- With changed credits, music will end before end of credits. I'm
+  keeping this because it's not too bad, and I know nothing of the
+  sound driver.

@@ -2,151 +2,151 @@
 	dc.b	$FF
 
 ; $1
-	dc.b	"Did you see the quicksand?"
+	dc.b	"Vous avez vu les sables"
 	dc.b	$FC
-	dc.b	"It's spreading and spreading!"
+	dc.b	"mouvants? Ils s'étendent vite!"
 	dc.b	$FD
-	dc.b	"How long is this town going to"
+	dc.b	"Combien de temps notre ville"
 	dc.b	$FC
-	dc.b	"last?"
+	dc.b	"pourra-t-elle tenir?"
 	dc.b	$FF
 
 ; $2
-	dc.b	"In the past, the land around"
+	dc.b	"Auparavant, les champs de la"
 	dc.b	$FC
-	dc.b	"here was pretty fertile and"
+	dc.b	"région étaient fertiles et"
 	dc.b	$FD
-	dc.b	"there was a lot of farming"
+	dc.b	"il y avait beaucoup d'agri-"
 	dc.b	$FC
-	dc.b	"going on."
+	dc.b	"culture."
 	dc.b	$FD
-	dc.b	"But now, the wells and fields"
+	dc.b	"Mais de nos jours, les puits"
 	dc.b	$FC
-	dc.b	"have all withered away..."
+	dc.b	"et les champs sont à sec..."
 	dc.b	$FF
 
 ; $3
 	dc.b	$FA
 	dc.b	$33, $01
-	dc.b	"You're looking for Birth Valley?"
-	dc.b	$FD
-	dc.b	"Then go to a village called"
+	dc.b	"Vous cherchez la Vallée de"
 	dc.b	$FC
-	dc.b	"Zema."
+	dc.b	"l'Éclosion?"
 	dc.b	$FD
-	dc.b	"Zema is northeast of here."
+	dc.b	"Vous devez vous rendre au"
 	dc.b	$FC
-	dc.b	"But..."
+	dc.b	"village de Zema."
 	dc.b	$FD
-	dc.b	"Recently, it's been rumored that"
+	dc.b	"Zema est au nord-est, mais..."
+	dc.b	$FD
+	dc.b	"Dernièrement, des rumeurs disent"
 	dc.b	$FC
-	dc.b	"there's no sign of any people."
+	dc.b	"que ce serait une ville fantôme."
 	dc.b	$FD
-	dc.b	"Maybe they all fled at night?"
+	dc.b	"Peut-être sont-ils tous partis"
+	dc.b	$FC
+	dc.b	"durant la nuit?"
 	dc.b	$FF
 
 ; $4
-	dc.b	"You're looking for Birth Valley?"
-	dc.b	$FD
-	dc.b	"Then go to a village called"
+	dc.b	"Vous cherchez la Vallée de"
 	dc.b	$FC
-	dc.b	"Zema."
+	dc.b	"l'Éclosion?"
 	dc.b	$FD
-	dc.b	"Apparently, the people there"
+	dc.b	"Vous devez vous rendre au"
 	dc.b	$FC
-	dc.b	"have returned."
+	dc.b	"village de Zema."
+	dc.b	$FD
+	dc.b	"On dit que les gens du village"
+	dc.b	$FC
+	dc.b	"sont de retour."
 	dc.b	$FF
 
 ; $5
 	dc.b	$FA
 	dc.b	$65, $01
-	dc.b	"It's said a strange religion is"
+	dc.b	"J'ai entendu parler d'une secte"
 	dc.b	$FC
-	dc.b	"becoming popular."
+	dc.b	"bizarre qui devient prisée."
 	dc.b	$FD
-	dc.b	"They say it's being spread by"
+	dc.b	"Un homme en noir en serait à"
 	dc.b	$FC
-	dc.b	"a man dressed in black!"
+	dc.b	"l'origine!"
 	dc.b	$FD
-	dc.b	"What did they say"
-	dc.b	$FC
-	dc.b	"his name was..."
+	dc.b	"Il s'appelait comment déjà..."
 	dc.b	$FD
-	dc.b	"Oh yes, Zio. Yeah, I believe"
+	dc.b	"Ah, oui, Zio. Ouais, on m'a"
 	dc.b	$FC
-	dc.b	"they said his name was Zio."
+	dc.b	"dit qu'il s'appelle Zio."
 	dc.b	$FF
 
 ; $6
-	dc.b	"Recently, I haven't heard much"
+	dc.b	"Dernièrement, on ne parle plus"
 	dc.b	$FC
-	dc.b	"about that religion"
+	dc.b	"de cette secte dont je vous"
 	dc.b	$FD
-	dc.b	"I was telling you about."
+	dc.b	"avais parlé."
 	dc.b	$FD
-	dc.b	"The young people"
+	dc.b	"Les jeunes de nos jours sont"
 	dc.b	$FC
-	dc.b	"these days are so fickle!"
+	dc.b	"tellement volages!"
 	dc.b	$FF
 
 ; $7
 	dc.b	$FA
 	dc.b	$65, $01
-	dc.b	"See that castle beyond"
+	dc.b	"Vous voyez le château, là-bas,"
 	dc.b	$FC
-	dc.b	"the quicksand?"
+	dc.b	"passé les sables mouvants?"
 	dc.b	$FD
-	dc.b	"I could've sworn that one night"
+	dc.b	"J'aurais juré qu'il est apparu"
 	dc.b	$FC
-	dc.b	"there was nothing and the next"
+	dc.b	"d'un coup durant la nuit!"
 	dc.b	$FD
-	dc.b	"day there it was."
-	dc.b	$FD
-	dc.b	"It must've been my imagination,"
+	dc.b	"Ça doit être mon imagination,"
 	dc.b	$FC
-	dc.b	"don't you think?"
+	dc.b	"n'est-ce-pas?"
 	dc.b	$FF
 
 ; $8
-	dc.b	"See that castle beyond"
+	dc.b	"Vous vous rappelez le château"
 	dc.b	$FC
-	dc.b	"the quicksand?"
+	dc.b	"passé les sables mouvants?"
 	dc.b	$FD
-	dc.b	"I swear that one evening it was"
+	dc.b	"Je vous jure qu'il était là un"
 	dc.b	$FC
-	dc.b	"there, and the next it was gone."
+	dc.b	"moment, et le lendemain, pouf!"
 	dc.b	$FD
-	dc.b	"It...it must've been my"
+	dc.b	"Ça...Ça doit être toujours mon"
 	dc.b	$FC
-	dc.b	"imagination, right?"
+	dc.b	"imagination, non?"
 	dc.b	$FF
 
 ; $9
-	dc.b	"I sweep and I sweep,"
+	dc.b	"Je balaie, je balaie, mais"
 	dc.b	$FC
-	dc.b	"but the sand keeps blowing."
+	dc.b	"le sable revient toujours!"
 	dc.b	$FD
-	dc.b	"I'm sick and tired of this!"
+	dc.b	"J'en ai vraiment marre!"
 	dc.b	$FF
 
 ; $A
 	dc.b	$FA
 	dc.b	$33, $01
-	dc.b	"I heard that Zema has been"
+	dc.b	"J'ai entendu dire que Zema a"
 	dc.b	$FC
-	dc.b	"destroyed!"
+	dc.b	"été détruit!"
 	dc.b	$FD
-	dc.b	"Someone must go and make sure."
+	dc.b	"Quelqu'un doit aller voir."
 	dc.b	$FD
-	dc.b	"I, uh, I'm too busy,"
+	dc.b	"Moi, euh! Je suis trop occupé,"
 	dc.b	$FC
-	dc.b	"so I can't go."
+	dc.b	"alors je passe mon tour."
 	dc.b	$FF
 
 ; $B
-	dc.b	"Zema has been restored!!!"
+	dc.b	"Zema est rétabli!!!"
 	dc.b	$FD
-	dc.b	"Is this true? Really?"
+	dc.b	"C'est vrai? Sans rire?"
 	dc.b	$FF
 
 ; $C
@@ -179,39 +179,39 @@
 	dc.b	$18, $01
 	dc.b	$FA
 	dc.b	$35, $01
-	dc.b	"This is the village of Mile."
+	dc.b	"Ici, c'est le village de Mile."
 	dc.b	$FD
-	dc.b	"And this is our newly built"
+	dc.b	"Et là, c'est notre ranch de"
 	dc.b	$FC
-	dc.b	"sand worm ranch."
+	dc.b	"vers des sables tout neuf."
 	dc.b	$FD
-	dc.b	"What do you think?"
+	dc.b	"Qu'en pensez-vous?"
 	dc.b	$FC
-	dc.b	"Isn't it great?"
+	dc.b	"Magnifique, n'est-ce pas?"
 	dc.b	$FD
-	dc.b	"This will attract a lot of"
+	dc.b	"Ça va sûrement attirer beaucoup"
 	dc.b	$FC
-	dc.b	"tourists!"
+	dc.b	"de touristes!"
 	dc.b	$FF
 
 ; $12
-	dc.b	"This is the village of Mile."
+	dc.b	"Ici, c'est le village de Mile."
 	dc.b	$FD
-	dc.b	"And this is our sand worm ranch,"
+	dc.b	"Et là, c'est notre ranch de"
 	dc.b	$FC
-	dc.b	"but..."
+	dc.b	"vers des sables, mais..."
 	dc.b	$FD
-	dc.b	"Maybe we've fed them too much."
+	dc.b	"Peut-être qu'on leur a donné"
 	dc.b	$FC
-	dc.b	"They've become pretty big!"
+	dc.b	"trop à manger, ils sont énormes!"
 	dc.b	$FD
-	dc.b	"In fact, they're kind of"
+	dc.b	"À vrai dire, ils ne sont"
 	dc.b	$FC
-	dc.b	"unlovable now."
+	dc.b	"plus vraiment attirants."
 	dc.b	$FD
-	dc.b	"What do you think"
+	dc.b	"Que pensez-vous que nous"
 	dc.b	$FC
-	dc.b	"we should do?"
+	dc.b	"devrions faire?"
 	dc.b	$FF
 
 ; $13
@@ -220,9 +220,9 @@
 	dc.b	$FF
 
 ; $14
-	dc.b	"H...hurry,"
+	dc.b	"Vi...Vite!"
 	dc.b	$FC
-	dc.b	"do something about it!"
+	dc.b	"Faites quelque chose!"
 	dc.b	$FF
 
 ; $15
@@ -231,25 +231,27 @@
 	dc.b	$FF
 
 ; $16
-	dc.b	"Thank you."
+	dc.b	"Merci."
 	dc.b	$FD
-	dc.b	"You can pick up your"
+	dc.b	"Vous pourrez obtenir votre"
 	dc.b	$FC
-	dc.b	"compensation at the guild."
+	dc.b	"cachet à la guilde."
 	dc.b	$FF
 
 ; $17
-	dc.b	"This is Mile...hey, it's you."
-	dc.b	$FD
-	dc.b	"Thanks for your assistance"
+	dc.b	"Ici, c'est Mile...Hé, c'est"
 	dc.b	$FC
-	dc.b	"the other day."
+	dc.b	"vous!"
 	dc.b	$FD
-	dc.b	"I'm in the process of figuring"
+	dc.b	"Merci de toute votre aide"
 	dc.b	$FC
-	dc.b	"out what to do next."
+	dc.b	"l'autre fois."
 	dc.b	$FD
-	dc.b	"I do look forward to it!"
+	dc.b	"Je suis en train de penser à"
+	dc.b	$FC
+	dc.b	"ce que je dois faire maintenant."
+	dc.b	$FD
+	dc.b	"J'ai hâte au prochain défi!"
 	dc.b	$FF
 
 ; $18
@@ -259,51 +261,53 @@
 	dc.b	$19, $02
 	dc.b	$FA
 	dc.b	$35, $01
-	dc.b	"My husband built a sand worm"
+	dc.b	"Mon mari a construit un ranch"
 	dc.b	$FC
-	dc.b	"ranch with what little money"
+	dc.b	"de vers des sables avec le"
 	dc.b	$FD
-	dc.b	"he had, but who on earth would"
+	dc.b	"restant de ses économies, mais"
 	dc.b	$FC
-	dc.b	"come to see something like that."
+	dc.b	"qui diable se déplacerait pour"
+	dc.b	$FD
+	dc.b	"voir une telle chose?"
 	dc.b	$FF
 
 ; $19
-	dc.b	"Our sand worms on the ranch"
+	dc.b	"Nos vers des sables sont"
 	dc.b	$FC
-	dc.b	"have become so huge they're"
+	dc.b	"devenus tellement gros qu'ils"
 	dc.b	$FD
-	dc.b	"kind of creepy."
+	dc.b	"sont plutôt effrayants."
 	dc.b	$FF
 
 ; $1A
-	dc.b	"Mr. Hunter,"
+	dc.b	"M. le Chasseur, je vous"
 	dc.b	$FC
-	dc.b	"I thank you and wish you well"
+	dc.b	"remercie et vous souhaite"
 	dc.b	$FD
-	dc.b	"regarding my sand worm problem."
+	dc.b	"le meilleur suite à votre aide."
 	dc.b	$FF
 
 ; $1B
-	dc.b	"If we left it the way it was,"
+	dc.b	"Si nous avions laissé aller les"
 	dc.b	$FC
-	dc.b	"it would've become a real"
+	dc.b	"choses, ça aurait été un vrai"
 	dc.b	$FD
-	dc.b	"problem."
+	dc.b	"problème."
 	dc.b	$FD
-	dc.b	"And at that point,"
+	dc.b	"Et à ce stade, il aurait été"
 	dc.b	$FC
-	dc.b	"it would have been too late."
+	dc.b	"trop tard."
 	dc.b	$FD
-	dc.b	"It may have been a little cruel"
+	dc.b	"C'était peut-être un peu cruel"
 	dc.b	$FC
-	dc.b	"to the sand worms, but it was"
+	dc.b	"envers les vers des sables,"
 	dc.b	$FD
-	dc.b	"the right thing to do."
+	dc.b	"mais c'était la chose à faire."
 	dc.b	$FD
-	dc.b	"Mr. Hunter,"
+	dc.b	"M. le Chasseur, merci de"
 	dc.b	$FC
-	dc.b	"thank you for your help."
+	dc.b	"votre aide."
 	dc.b	$FF
 
 ; $1C
@@ -313,99 +317,99 @@
 	dc.b	$19, $02
 	dc.b	$FA
 	dc.b	$35, $01
-	dc.b	"I'm the only daughter of the"
+	dc.b	"Je suis la fille unique de"
 	dc.b	$FC
-	dc.b	"innkeeper. Even if I can't do"
+	dc.b	"l'aubergiste. Même si je ne peux"
 	dc.b	$FD
-	dc.b	"much, I must work and help all"
+	dc.b	"pas faire grand-chose, je dois"
 	dc.b	$FC
-	dc.b	"I can."
+	dc.b	"travailler et faire"
+	dc.b	$FD
+	dc.b	"ce que je peux."
 	dc.b	$FF
 
 ; $1D
-	dc.b	"When they were small,"
+	dc.b	"Quand ils étaient jeunes, ils"
 	dc.b	$FC
-	dc.b	"they were kind of cute..."
+	dc.b	"étaient mignons..."
 	dc.b	$FD
-	dc.b	"But now, those sand worms,"
+	dc.b	"Mais maintenant, ces vers"
 	dc.b	$FC
-	dc.b	"they're scary."
+	dc.b	"des sables, ils font peur."
 	dc.b	$FF
 
 ; $1E
-	dc.b	"Could you do something about"
+	dc.b	"Pouvez-vous prendre des mesures"
 	dc.b	$FC
-	dc.b	"those sand worms on the ranch?"
+	dc.b	"à propos de ces vers des sables?"
 	dc.b	$FF
 
 ; $1F
-	dc.b	"My father..."
+	dc.b	"Mon père..."
 	dc.b	$FD
-	dc.b	"another of his ventures has"
+	dc.b	"Une autre de ses idées farfelues"
 	dc.b	$FC
-	dc.b	"failed."
+	dc.b	"a échoué."
 	dc.b	$FD
-	dc.b	"The reason why my father can"
+	dc.b	"Il peut faire ce qu'il veut"
 	dc.b	$FC
-	dc.b	"do as he likes is all thanks"
+	dc.b	"grâce à ma mère, qui tient"
 	dc.b	$FD
-	dc.b	"to my mother keeping the inn"
+	dc.b	"l'auberge."
+	dc.b	$FD
+	dc.b	"Malgré tout, je les aimes tous"
 	dc.b	$FC
-	dc.b	"business going."
+	dc.b	"les deux, ma merveilleuse mère"
 	dc.b	$FD
-	dc.b	"But, I do love both of them,"
+	dc.b	"et mon père qui n'abandonne"
 	dc.b	$FC
-	dc.b	"my wonderful mother and my"
-	dc.b	$FD
-	dc.b	"father who doesn't lose heart."
+	dc.b	"jamais."
 	dc.b	$FF
 
 ; $20
-	dc.b	"Are you the hunters from"
+	dc.b	"Vous êtes les Chasseurs de la"
 	dc.b	$FC
-	dc.b	"the guild?"
+	dc.b	"guilde?"
 	dc.b	$FD
-	dc.b	"The sand worms I've raised"
+	dc.b	"Les vers des sables que j'ai"
 	dc.b	$FC
-	dc.b	"in this ranch have grown so big,"
+	dc.b	"élevé ont tellement grandit, la"
 	dc.b	$FD
-	dc.b	"the situation is out of hand!"
+	dc.b	"situation est hors de contrôle!"
 	dc.b	$FD
-	dc.b	"P...please!"
+	dc.b	"S'il...s'il vous plaît!"
 	dc.b	$FC
-	dc.b	"Can you do something about it?"
+	dc.b	"Pouvez-vous faire quelque chose?"
 	dc.b	$FD
-	dc.b	"I won't complain,"
+	dc.b	"Quelle que soit l'issue, je"
 	dc.b	$FC
-	dc.b	"whatever the outcome is!"
+	dc.b	"ne m'en plaindrai pas!"
 	dc.b	$FF
 
 ; $21
-	dc.b	"Sigh. And I was finally "
+	dc.b	"Soupir. Et moi qui avait fina-"
 	dc.b	$FC
-	dc.b	"able to feed those sand worms"
+	dc.b	"lement trouvé comment les"
 	dc.b	$FD
-	dc.b	"successfully..."
+	dc.b	"nourrir..."
 	dc.b	$FD
-	dc.b	"The ranch...my dream..."
+	dc.b	"Le ranch...Mon rêve..."
 	dc.b	$FD
-	dc.b	"Sigh."
+	dc.b	"Soupir."
 	dc.b	$FD
-	dc.b	"Thank you."
+	dc.b	"Merci."
 	dc.b	$FD
-	dc.b	"There's no use lamenting about"
+	dc.b	"Inutile de me lamenter."
+	dc.b	$FD
+	dc.b	"Je ferais mieux de recommencer"
 	dc.b	$FC
-	dc.b	"the past."
+	dc.b	"à zéro avec un nouveau projet."
 	dc.b	$FD
-	dc.b	"I should make a clean break"
+	dc.b	"J'enverrai votre cachet à la"
 	dc.b	$FC
-	dc.b	"and go on to the next thing."
+	dc.b	"guilde,"
 	dc.b	$FD
-	dc.b	"I'll send your compensation"
-	dc.b	$FC
-	dc.b	"to the guild,"
-	dc.b	$FD
-	dc.b	"so please pick it up there."
+	dc.b	"n'oubliez pas de le prendre."
 	dc.b	$FF
 
 ; $22
@@ -605,29 +609,31 @@
 
 ; $63
 	dc.b	$F3
-	dc.b	"Ahhh...the monsters"
+	dc.b	"Ahhh! Les monstres des"
 	dc.b	$FC
-	dc.b	"from the depths are..."
+	dc.b	"profondeurs sont..."
 	dc.b	$FF
 
 ; $64
 	dc.b	$F3
-	dc.b	"Professor Holt has gone into the"
+	dc.b	"Le professeur Holt s'est engagé"
 	dc.b	$FC
-	dc.b	"depths and has not returned..."
+	dc.b	"dans les profondeurs et n'est"
 	dc.b	$FD
-	dc.b	"Maybe...it's too late..."
+	dc.b	"pas revenu..."
+	dc.b	$FC
+	dc.b	"Il est peut-être...trop tard..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"No...!"
+	dc.b	"Non...!"
 	dc.b	$FF
 
 ; $65
 	dc.b	$F3
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"They've been turned into stone!"
+	dc.b	"Ils ont été pétrifiés!"
 	dc.b	$FF
 
 ; $66
@@ -647,88 +653,84 @@
 	dc.w	$000C
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Oh! Professor Holt!"
+	dc.b	"Oh! Professeur Holt!"
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$000D
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"What on earth?"
+	dc.b	"Que diable?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"An ancient curse?"
+	dc.b	"Un maléfice ancien?"
 	dc.b	$FD
-	dc.b	"I can't believe someone is able"
+	dc.b	"Je croyais impossible de lancer"
 	dc.b	$FC
-	dc.b	"to cast such a spell in this"
-	dc.b	$FD
-	dc.b	"day and age!"
+	dc.b	"de tels sorts de nos jours!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Isn't there any way to restore"
+	dc.b	"N'y a-t-il aucun moyen de les"
 	dc.b	$FC
-	dc.b	"them?"
+	dc.b	"libérer?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"I've heard that a medicine"
+	dc.b	"J'ai entendu parler d'un remède"
 	dc.b	$FC
-	dc.b	"called 'Alshline'"
+	dc.b	"appelé 'Alshline', qui peut"
 	dc.b	$FD
-	dc.b	"is able to turn stone back"
-	dc.b	$FC
-	dc.b	"to flesh."
+	dc.b	"annuler la pétrification."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Where can we find it?"
+	dc.b	"Où peut-on le trouver?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"I heard about it some time ago"
+	dc.b	"Il semble me rappeler que"
 	dc.b	$FC
-	dc.b	"in a Motavian village..."
+	dc.b	"c'était chez les Motaviens..."
 	dc.b	$FD
-	dc.b	"But, we're talking"
+	dc.b	"Ceci dit, cela fait très"
 	dc.b	$FC
-	dc.b	"some time ago."
+	dc.b	"longtemps qu'on me l'a dit."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Which Motavian village?"
+	dc.b	"Dans quel village Motavien?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"It's the village of Molcum,"
+	dc.b	"Le village de Molcum, loin"
 	dc.b	$FC
-	dc.b	"which is far south of here."
+	dc.b	"au sud."
 	dc.b	$FD
 	dc.b	$F2, $01
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"All right, then."
+	dc.b	"Parfait."
 	dc.b	$FC
-	dc.b	"Let's get going!"
+	dc.b	"Allons-y!"
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$000E
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Let's see..."
+	dc.b	"Voyons voir..."
 	dc.b	$FC
-	dc.b	"if you're going to Molcum..."
+	dc.b	"Si tu vas à Molcum..."
 	dc.b	$FD
-	dc.b	"I'll make you a deal -- just"
+	dc.b	"Je vais te faire un prix --"
 	dc.b	$FC
-	dc.b	"500 meseta."
+	dc.b	"seulement 500 meseta."
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$000F
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"You devil."
+	dc.b	"Soupir. C'est du vol."
 	dc.b	$F9
 	dc.b	$3B
 
@@ -739,101 +741,95 @@
 	dc.w	$0023
 	dc.b	$F4
 	dc.b	$0D
-	dc.b	"Oh? Why, it's you, Hahn!"
+	dc.b	"Hé? Mais c'est Hahn!"
 	dc.b	$FC
-	dc.b	"By golly, this is some place!"
+	dc.b	"Nom d'une pipe, quel endroit!"
 	dc.b	$FD
-	dc.b	"There are just tons of relics"
+	dc.b	"C'est plein de vestiges d'une"
 	dc.b	$FC
-	dc.b	"from an earlier civilization"
+	dc.b	"ancienne civilisation."
 	dc.b	$FD
-	dc.b	"all over the place."
-	dc.b	$FD
-	dc.b	"You've come at the right time."
+	dc.b	"Tu tombes à pic!"
 	dc.b	$FC
-	dc.b	"You too..."
+	dc.b	"Vous aussi..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Professor Holt! This is no time"
+	dc.b	"Professeur Holt! Ce n'est pas"
 	dc.b	$FC
-	dc.b	"for that kind of thing!"
+	dc.b	"le moment!"
 	dc.b	$FD
-	dc.b	"Do you know you were "
+	dc.b	"Vous êtes-vous rendu compte que"
 	dc.b	$FC
-	dc.b	"turned into stone by Zio?"
+	dc.b	"vous étiez pétrifié par Zio?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0D
-	dc.b	"Hmm? Oh, really?"
+	dc.b	"Hum? Ah, oui?"
 	dc.b	$FD
-	dc.b	"Well, here I am now, as good"
+	dc.b	"Eh bien, me voici, frais comme"
 	dc.b	$FC
-	dc.b	"as new, so not to worry!"
+	dc.b	"une rose, alors pas de souci!"
 	dc.b	$FD
-	dc.b	"All right. Let's reopen the"
+	dc.b	"Parfait. Recommençons nos"
 	dc.b	$FC
-	dc.b	"investigation immediately."
+	dc.b	"recherches tout de suite."
 	dc.b	$FD
 	dc.b	"Hahn!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Yes sir!"
+	dc.b	"Oui monsieur!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0D
-	dc.b	"Go back to the academy."
+	dc.b	"Retourne à l'Académie."
 	dc.b	$FD
-	dc.b	"Give them a report on"
+	dc.b	"Fait-leur un rapport sur"
 	dc.b	$FC
-	dc.b	"the state of affairs here."
+	dc.b	"l'état des lieux."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Er...yes sir."
+	dc.b	"Heu...oui, monsieur."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0D
-	dc.b	"Good! We're off further"
+	dc.b	"Très bien! En avant, plus loin"
 	dc.b	$FC
-	dc.b	"into Birth Valley!!"
+	dc.b	"dans la Vallée de l'Éclosion!!"
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$0024
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"What a strange old man."
+	dc.b	"Quel étrange personnage."
 	dc.b	$FD
-	dc.b	"Oh well, at least we've settled"
+	dc.b	"Enfin, au moins nous avons"
 	dc.b	$FC
-	dc.b	"one problem."
+	dc.b	"réglé un problème."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"I'm so sorry...he didn't even"
+	dc.b	"Je suis profondément désolé..."
 	dc.b	$FC
-	dc.b	"say a word of thanks."
+	dc.b	"il ne vous a même pas remerciés."
 	dc.b	$FD
-	dc.b	"Well, he's just that kind of"
-	dc.b	$FC
-	dc.b	"guy."
+	dc.b	"Enfin, il est comme il est."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Oh, don't worry about that,"
-	dc.b	$FC
-	dc.b	"Hahn!"
+	dc.b	"Oh, ne vous en faites pas, Hahn!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Well, I'm kind of tired after"
+	dc.b	"Bon, je suis un peu fatiguée"
 	dc.b	$FC
-	dc.b	"getting this job done."
+	dc.b	"après tout ce travail."
 	dc.b	$FD
-	dc.b	"Let's take it easy today,"
+	dc.b	"Détendons-nous aujourd'hui,"
 	dc.b	$FC
-	dc.b	"eh, Chaz?"
+	dc.b	"d'accord, Chaz?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
@@ -844,37 +840,35 @@
 	dc.w	$0027
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"I'm going to return to the"
-	dc.b	$FC
-	dc.b	"academy."
+	dc.b	"Je vais retourner à l'Académie."
 	dc.b	$FD
-	dc.b	"I've got to report about"
+	dc.b	"Je dois faire rapport sur les"
 	dc.b	$FC
-	dc.b	"what's been happening 'til now."
+	dc.b	"évènements."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"OK. What about Gryz?"
+	dc.b	"OK. Et que fait-on de Gryz?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$05
-	dc.b	"You talking about me?"
+	dc.b	"Plaît-il?"
 	dc.b	$FD
-	dc.b	"I'm going off to conquer Zio..."
+	dc.b	"Je vais détruire Zio..."
 	dc.b	$FC
-	dc.b	"even if that means me alone!"
+	dc.b	"Même si je dois le faire seul!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Let's not be so rash!"
+	dc.b	"Ne soyez pas si impatient!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$05
-	dc.b	"I don't care whether it's rash"
+	dc.b	"Je me fiche de savoir si c'est"
 	dc.b	$FC
-	dc.b	"or not."
+	dc.b	"de l'impatience ou pas."
 	dc.b	$FD
-	dc.b	"I've already made up my mind!"
+	dc.b	"Ma décision est prise!"
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$0028
@@ -885,17 +879,13 @@
 	dc.w	$0029
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"...We've come to a good break"
+	dc.b	"...Avec ce travail complété,"
 	dc.b	$FC
-	dc.b	"point what with one job done..."
+	dc.b	"c'est un bon point d'arrêt..."
 	dc.b	$FD
-	dc.b	"Normally, at this junction we"
+	dc.b	"Il serait sage de retourner"
 	dc.b	$FC
-	dc.b	"would go back to the town of"
-	dc.b	$FD
-	dc.b	"Aiedo where the guild is"
-	dc.b	$FC
-	dc.b	"located."
+	dc.b	"à la guilde, à Aiedo."
 	dc.b	$FD
 	dc.b	$F2, $03
 	dc.b	$FE
@@ -909,11 +899,11 @@
 	dc.b	$A9
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"What was that?"
+	dc.b	"C'est quoi ça?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Someone's screaming!"
+	dc.b	"Quelqu'un a crié!"
 	dc.b	$FF
 
 ; $68
@@ -921,17 +911,17 @@
 	dc.w	$002B
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"How are we going to get in with"
+	dc.b	"Comment entrer avec cette"
 	dc.b	$FC
-	dc.b	"that creature blocking the way."
+	dc.b	"créature dans le chemin?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"We'll have to destroy it."
+	dc.b	"Il faut la tuer."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Now?!"
+	dc.b	"Maintenant?!"
 	dc.b	$FF
 
 ; $69
@@ -939,53 +929,51 @@
 	dc.w	$002C
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Hmm...How is it now, Alys?"
+	dc.b	"Alors, comment c'était cette"
+	dc.b	$FC
+	dc.b	"fois-ci, Alys?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Well, it's a little"
-	dc.b	$FC
-	dc.b	"better now."
+	dc.b	"Il y a une amélioration."
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$002D
 	dc.b	$F4
 	dc.b	$00
-	dc.b	"It's a curse!"
+	dc.b	"C'est une malédiction!"
 	dc.b	$FC
-	dc.b	"It's because we've violated the"
+	dc.b	"Nous avons profané un lieu"
 	dc.b	$FD
-	dc.b	"sacred area that something like"
-	dc.b	$FC
-	dc.b	"this is happening!!"
+	dc.b	"sacré, et voilà le résultat!"
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$002E
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"...A curse...I wonder what's"
+	dc.b	"...Une malédiction...Qu'y a-t-il"
 	dc.b	$FC
-	dc.b	"further inside?"
+	dc.b	"à l'intérieur?"
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$002F
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"What's going on!"
+	dc.b	"Que faire? Le professeur est"
 	dc.b	$FC
-	dc.b	"The professor is still in there!"
+	dc.b	"toujours à l'intérieur!"
 	dc.b	$FD
 	dc.b	"...Ah..."
 	dc.b	$FD
-	dc.b	"Er...Alys?"
+	dc.b	"Heu...Alys?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"I'll keep it to 1000 meseta."
+	dc.b	"Disons 1000 mesetas."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"...M...my wedding fund..."
+	dc.b	"...M...ma caisse de noces..."
 	dc.b	$FF
 
 ; $6A
@@ -999,7 +987,7 @@
 	dc.b	$F3
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It's sealed off by a rock..."
+	dc.b	"Bloqué par un rocher..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
@@ -1015,11 +1003,11 @@
 ; $6E
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Professor Holt..."
+	dc.b	"Professeur Holt..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"C'mon, stop dawdling."
+	dc.b	"Allez, assez lambiné."
 	dc.b	$FC
-	dc.b	"We're going to Molcum!"
+	dc.b	"En route pour Molcum!"
 	dc.b	$FF

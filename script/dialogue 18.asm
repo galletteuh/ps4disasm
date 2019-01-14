@@ -130,141 +130,141 @@
 ; $2B
 	dc.b	$FA
 	dc.b	$A1, $01
-	dc.b	"Never mind me, I just won't let"
+	dc.b	"Ne prêtez pas attention à moi,"
 	dc.b	$FC
-	dc.b	"this child become ill!"
+	dc.b	"je veux juste empêcher cet"
+	dc.b	$FD
+	dc.b	"enfant de tomber malade..."
 	dc.b	$FF
 
 ; $2C
-	dc.b	"It was heart-breaking to"
+	dc.b	"C'était dûr de voir mon enfant"
 	dc.b	$FC
-	dc.b	"see my child looking so bored..."
+	dc.b	"s'ennuyer autant... Mais tout"
 	dc.b	$FD
-	dc.b	"But now,"
-	dc.b	$FC
-	dc.b	"it's all OK, right?"
+	dc.b	"était pour le mieux, non?"
 	dc.b	$FF
 
 ; $2D
-	dc.b	"Hey, why can't I go outside?"
+	dc.b	"Hé, pourquoi je ne peux pas"
+	dc.b	$FC
+	dc.b	"jouer dehors?!"
 	dc.b	$FF
 
 ; $2E
-	dc.b	"Oh, what an illness it was!"
+	dc.b	"Wow, j'étais vraiment malade!"
 	dc.b	$FC
-	dc.b	"I thought for sure"
-	dc.b	$FD
-	dc.b	"I was going to die."
+	dc.b	"J'étais certain d'y rester."
 	dc.b	$FF
 
 ; $2F
 	dc.b	$FA
 	dc.b	$A1, $01
-	dc.b	"With the inn being "
+	dc.b	"L'auberge a été convertie en"
 	dc.b	$FC
-	dc.b	"the clinic right now,"
+	dc.b	"clinique à cause de la maladie."
 	dc.b	$FD
-	dc.b	"our place is the temporary inn."
-	dc.b	$FD
-	dc.b	"Right now,"
+	dc.b	"Entretemps, notre maison sert"
 	dc.b	$FC
-	dc.b	"we've got a lot of people"
+	dc.b	"d'auberge temporaire."
 	dc.b	$FD
-	dc.b	"who have escaped from Reshel."
+	dc.b	"En ce moment, nous hébergons des"
+	dc.b	$FC
+	dc.b	"gens qui ont fui Reshel."
 	dc.b	$FF
 
 ; $30
-	dc.b	"Ah, finally, I can quit this"
+	dc.b	"Ah enfin! Je peux cesser"
 	dc.b	$FC
-	dc.b	"work I'm so unused to."
+	dc.b	"ce travail inhabituel."
 	dc.b	$FF
 
 ; $31
-	dc.b	"I'm a refugee from Reshel."
-	dc.b	$FD
-	dc.b	"That person became..."
+	dc.b	"Je suis un réfugié de"
 	dc.b	$FC
-	dc.b	"Oh, it was scary!"
+	dc.b	"Reshel. Il est devenu... ah,"
+	dc.b	$FD
+	dc.b	"j'ai eu très peur!"
 	dc.b	$FF
 
 ; $32
-	dc.b	"I'm fed up with scary places."
+	dc.b	"J'en ai marre des endroits"
 	dc.b	$FC
-	dc.b	"I've got to run even farther."
+	dc.b	"terrifiants. Je vais m'enfuir"
+	dc.b	$FD
+	dc.b	"encore plus loin!"
 	dc.b	$FF
 
 ; $33
-	dc.b	"I just can't abandon Reshel,"
+	dc.b	"Je ne peux pas abandonner"
 	dc.b	$FC
-	dc.b	"the town I was born in"
+	dc.b	"Reshel, ma ville natale!"
 	dc.b	$FD
-	dc.b	"and grew up in!"
-	dc.b	$FD
-	dc.b	"I'm sure they'll find"
+	dc.b	"Je suis sûr qu'ils finiront par"
 	dc.b	$FC
-	dc.b	"some medicine for the illness"
+	dc.b	"trouver un remède contre la"
 	dc.b	$FD
-	dc.b	"and the town will be"
+	dc.b	"maladie et que tout redeviendra"
 	dc.b	$FC
-	dc.b	"back to normal!"
+	dc.b	"comme avant!"
 	dc.b	$FF
 
 ; $34
 	dc.b	$FA
 	dc.b	$A1, $01
-	dc.b	"This place is actually a large"
+	dc.b	"Cette grande auberge est bien"
 	dc.b	$FC
-	dc.b	"inn renowned throughout Dezolis."
+	dc.b	"connue de tout Dezolis. Mais"
 	dc.b	$FD
-	dc.b	"But because there are so many"
+	dc.b	"l'aubergiste nous laisse"
 	dc.b	$FC
-	dc.b	"ill, the innkeeper is letting us"
+	dc.b	"l'utiliser pour les trop"
 	dc.b	$FD
-	dc.b	"use it."
+	dc.b	"nombreux malades."
 	dc.b	$FD
-	dc.b	"Such a wonderfully"
+	dc.b	"Il est un individu qui a"
 	dc.b	$FC
-	dc.b	"warm-hearted person!"
+	dc.b	"tellement bon coeur!"
 	dc.b	$FD
-	dc.b	"I'd say"
+	dc.b	"Il va vraiment au delà de"
 	dc.b	$FC
-	dc.b	"it's beyond the call of duty!"
+	dc.b	"toute attente!"
 	dc.b	$FF
 
 ; $35
-	dc.b	"I don't know what happened,"
+	dc.b	"Je ne sais pas ni pourquoi, ni"
 	dc.b	$FC
-	dc.b	"but everyone seems to be"
+	dc.b	"comment, mais tout le monde"
 	dc.b	$FD
-	dc.b	"on the road to recovery."
+	dc.b	"semble en voie de guérison."
 	dc.b	$FF
 
 ; $36
 	dc.b	$FA
 	dc.b	$A1, $01
-	dc.b	"No medicine seems to cure"
+	dc.b	"Aucun remède n'est efficace"
 	dc.b	$FC
-	dc.b	"this strange illness."
+	dc.b	"contre cette étrange maladie."
 	dc.b	$FD
-	dc.b	"At this point,"
+	dc.b	"Pour le moment, rien à faire à"
 	dc.b	$FC
-	dc.b	"the only thing to do is"
+	dc.b	"part leur insuffler de l'énergie"
 	dc.b	$FD
-	dc.b	"inject life energy into them to"
+	dc.b	"vitale pour les maintenir"
 	dc.b	$FC
-	dc.b	"prolong their lives a little..."
+	dc.b	"en vie..."
 	dc.b	$FD
-	dc.b	"That's why all these people from"
+	dc.b	"C'est pourquoi tous ces Espers"
 	dc.b	$FC
-	dc.b	"Esper have come."
+	dc.b	"sont venus ici."
 	dc.b	$FF
 
 ; $37
-	dc.b	"Everybody's getting better"
+	dc.b	"Tous se portent mieux,"
 	dc.b	$FC
-	dc.b	"without waiting for the medicine"
+	dc.b	"sans qu'on aie eu à préparer"
 	dc.b	$FD
-	dc.b	"to be made! I'm so glad!"
+	dc.b	"de remède! Je suis si heureux!"
 	dc.b	$FF
 
 ; $38
@@ -274,47 +274,39 @@
 	dc.b	$95, $02
 	dc.b	$FA
 	dc.b	$94, $01
-	dc.b	"We're the 'Espers' that you all"
+	dc.b	"Nous sommes les 'Espers' dont"
 	dc.b	$FC
-	dc.b	"have been talking about."
+	dc.b	"tout le monde parle."
 	dc.b	$FD
-	dc.b	"We have come from"
+	dc.b	"Nous habitons le 'Manoir Esper'"
 	dc.b	$FC
-	dc.b	"the 'Esper Mansion'"
-	dc.b	$FD
-	dc.b	"southeast of here."
+	dc.b	"au sud-est d'ici."
 	dc.b	$FF
 
 ; $39
-	dc.b	"Please help"
-	dc.b	$FC
-	dc.b	"Kyra!"
+	dc.b	"Aidez Kyra, je vous en prie!"
 	dc.b	$FF
 
 ; $3A
-	dc.b	"Oh it's you, Kyra!"
-	dc.b	$FC
-	dc.b	"You're safe!"
+	dc.b	"Ah, Kyra! Tu es indemne!"
 	dc.b	$FF
 
 ; $3B
-	dc.b	"It's good that"
+	dc.b	"C'est bien que la maladie soit"
 	dc.b	$FC
-	dc.b	"the illness is gone, but..."
+	dc.b	"disparue, mais..."
 	dc.b	$FF
 
 ; $3C
 	dc.b	$FA
 	dc.b	$A1, $01
-	dc.b	"Oooooo "
+	dc.b	"Ooooooh"
 	dc.b	$FC
-	dc.b	"I'm in pain... "
+	dc.b	"J'ai tellement mal... "
 	dc.b	$FF
 
 ; $3D
-	dc.b	"My condition has improved"
-	dc.b	$FC
-	dc.b	"considerably."
+	dc.b	"Je me sens beaucoup mieux!"
 	dc.b	$FF
 
 ; $3E
@@ -324,31 +316,29 @@
 	dc.b	$95, $02
 	dc.b	$FA
 	dc.b	$94, $01
-	dc.b	"We could only help "
+	dc.b	"Si seulement nous pouvions"
 	dc.b	$FC
-	dc.b	"in this small way... "
+	dc.b	"faire quelque chose..."
 	dc.b	$FF
 
 ; $3F
-	dc.b	"Please help "
-	dc.b	$FC
-	dc.b	"Kyra!"
+	dc.b	"Aidez Kyra, je vous en prie!"
 	dc.b	$FF
 
 ; $40
-	dc.b	"I'm sorry Kyra is"
+	dc.b	"Je m'excuse, Kyra est un peu"
 	dc.b	$FC
-	dc.b	"so saucy, but... "
+	dc.b	"effrontée... "
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"Well, excuse me!"
+	dc.b	"Hé! Je suis juste ici!"
 	dc.b	$FF
 
 ; $41
-	dc.b	"...You mean that evil tower"
+	dc.b	"...Vous dites que cette tour"
 	dc.b	$FC
-	dc.b	"has been destroyed?"
+	dc.b	"maléfique a été détruite?"
 	dc.b	$FF
 
 ; $42
@@ -358,33 +348,31 @@
 	dc.b	$95, $02
 	dc.b	$FA
 	dc.b	$94, $01
-	dc.b	"To give others life energy means"
+	dc.b	"Donner de l'énergie vitale aux"
 	dc.b	$FC
-	dc.b	"the taking of life energy"
+	dc.b	"autres signifie que nous en"
 	dc.b	$FD
-	dc.b	"from ourselves, but..."
+	dc.b	"prenons à nous même, mais..."
 	dc.b	$FF
 
 ; $43
-	dc.b	"Please help"
-	dc.b	$FC
-	dc.b	"Kyra!"
+	dc.b	"Aidez Kyra, je vous en prie!"
 	dc.b	$FF
 
 ; $44
-	dc.b	"I'm sorry Kyra is"
+	dc.b	"Je m'excuse, Kyra est comme un"
 	dc.b	$FC
-	dc.b	"such a tomboy, but... "
+	dc.b	"garçon manqué..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"And what's wrong with that!"
+	dc.b	"Et c'est une mauvaise chose?"
 	dc.b	$FF
 
 ; $45
-	dc.b	"Whew. To the tell truth,"
+	dc.b	"Ouf. Pour tout vous dire, je"
 	dc.b	$FC
-	dc.b	"I'm quite relieved."
+	dc.b	"suis vraiment soulagé."
 	dc.b	$FF
 
 ; $46
@@ -394,35 +382,33 @@
 	dc.b	$95, $02
 	dc.b	$FA
 	dc.b	$94, $01
-	dc.b	"We're in pain, but the patients"
+	dc.b	"C'est douloureux pour nous, mais"
 	dc.b	$FC
-	dc.b	"are in even more pain."
+	dc.b	"les malades ont encore plus mal."
 	dc.b	$FD
-	dc.b	"We've got to work harder."
+	dc.b	"Il faut redoubler d'effort."
 	dc.b	$FF
 
 ; $47
-	dc.b	"Please help"
-	dc.b	$FC
-	dc.b	"Kyra!"
+	dc.b	"Aidez Kyra, je vous en prie!"
 	dc.b	$FF
 
 ; $48
-	dc.b	"I'm sorry Kyra is"
+	dc.b	"Je m'excuse, Kyra est si"
 	dc.b	$FC
-	dc.b	"such an unruly girl, but..."
+	dc.b	"indisciplinée..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"And what is that supposed to"
+	dc.b	"Et que veux-tu dire par là?"
 	dc.b	$FC
-	dc.b	"mean? You twit!"
+	dc.b	"Espèce de cornichon!"
 	dc.b	$FF
 
 ; $49
-	dc.b	"Whatever,"
+	dc.b	"Quoi qu'il en soit, il faut"
 	dc.b	$FC
-	dc.b	"it's cause for celebration."
+	dc.b	"fêter ça!"
 	dc.b	$FF
 
 ; $4A
@@ -435,33 +421,29 @@
 	dc.b	$F3
 	dc.b	"Whaaaaaaaaaaaaaaam!"
 	dc.b	$FD
-	dc.b	"This patient needs life energy!"
+	dc.b	"Ce patient manque d'énergie"
 	dc.b	$FC
-	dc.b	"Whaaaaaaaaaaaaaaaaaaaaaaaaam!!"
+	dc.b	"vitale! Whaaaaaaaaaaaaaaaaaaam!!"
 	dc.b	$FF
 
 ; $4B
-	dc.b	"Please help "
-	dc.b	$FC
-	dc.b	"Kyra!"
+	dc.b	"Aidez Kyra, je vous en conjure!"
 	dc.b	$FF
 
 ; $4C
-	dc.b	"I'm sorry Kyra is"
+	dc.b	"Je m'excuse du fait que Kyra"
 	dc.b	$FC
-	dc.b	"such an imprudent girl, but..."
+	dc.b	"soit si imprudente..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"Hmmph!"
-	dc.b	$FC
-	dc.b	"Oh, cut it out!"
+	dc.b	"Hum! D'accord, ça suffit!"
 	dc.b	$FF
 
 ; $4D
 	dc.b	"...Ohhh..."
 	dc.b	$FD
-	dc.b	"I'm out of energy..."
+	dc.b	"Je suis vidé d'énergie..."
 	dc.b	$FF
 
 ; $4E
@@ -469,59 +451,57 @@
 	dc.b	$A1, $02
 	dc.b	$FA
 	dc.b	$94, $01
-	dc.b	"We're the other shift."
+	dc.b	"Nous sommes prochaines de garde."
 	dc.b	$FF
 
 ; $4F
-	dc.b	"Finally."
-	dc.b	$FC
-	dc.b	"I'm on break."
+	dc.b	"Finalement, la pause."
 	dc.b	$FF
 
 ; $50
-	dc.b	"Kyra has come home."
-	dc.b	$FC
-	dc.b	"Oh joy!"
+	dc.b	"Kyra est revenue. Quelle joie!"
 	dc.b	$FF
 
 ; $51
 	dc.b	$FA
 	dc.b	$A1, $01
-	dc.b	"I'm the innkeeper."
+	dc.b	"Je suis l'aubergiste. Pour être"
 	dc.b	$FC
-	dc.b	"To tell the truth I didn't want"
+	dc.b	"franc, je ne voulais pas céder"
 	dc.b	$FD
-	dc.b	"our place to be used, but..."
+	dc.b	"l'auberge pour ceci..."
 	dc.b	$FD
-	dc.b	"With all those empty rooms,"
+	dc.b	"Mais les citadins m'auraient"
 	dc.b	$FC
-	dc.b	"the townspeople would have"
+	dc.b	"regardé de travers si j'avais"
 	dc.b	$FD
-	dc.b	"looked at me reproachfully!"
-	dc.b	$FD
-	dc.b	"How upsetting..."
+	dc.b	"laissé toutes ces chambres"
 	dc.b	$FC
-	dc.b	"Darn!"
+	dc.b	"vides..."
+	dc.b	$FD
+	dc.b	"C'est pénible..."
+	dc.b	$FC
+	dc.b	"Zut!"
 	dc.b	$FF
 
 ; $52
-	dc.b	"Maybe I should seriously"
+	dc.b	"Je devrais peut-être penser"
 	dc.b	$FC
-	dc.b	"consider opening a hospital."
+	dc.b	"à en faire un hôpital."
 	dc.b	$FF
 
 ; $53
 	dc.b	$FA
 	dc.b	$A1, $01
-	dc.b	"Yes, maybe we should just"
+	dc.b	"Ouais, peut-être on devrait"
 	dc.b	$FC
-	dc.b	"make it a hospital."
+	dc.b	"simplement en faire un hôpital."
 	dc.b	$FF
 
 ; $54
-	dc.b	"I'll admit it, I've always"
+	dc.b	"Je dois avouer que j'ai toujours"
 	dc.b	$FC
-	dc.b	"dreamed of being a nurse!"
+	dc.b	"rêvé être une infirmière!"
 	dc.b	$FF
 
 ; $55
@@ -531,27 +511,29 @@
 	dc.b	$95, $02
 	dc.b	$FA
 	dc.b	$94, $01
-	dc.b	"There are many more who"
+	dc.b	"Il y a d'autres gens avec"
 	dc.b	$FC
-	dc.b	"have power like ours"
+	dc.b	"de tels pouvoirs au Manoir"
 	dc.b	$FD
-	dc.b	"in the Esper Mansion."
+	dc.b	"Esper."
 	dc.b	$FF
 
 ; $56
-	dc.b	"I trust you to save Kyra."
+	dc.b	"Je compte sur vous pour sauver"
+	dc.b	$FC
+	dc.b	"Kyra."
 	dc.b	$FF
 
 ; $57
-	dc.b	"Now, Kyra,"
+	dc.b	"Bon, Kyra, ne soit pas trop"
 	dc.b	$FC
-	dc.b	"don't do anything reckless."
+	dc.b	"téméraire."
 	dc.b	$FF
 
 ; $58
-	dc.b	"Kyra has come home safe and"
+	dc.b	"Kyra est revenue saine et"
 	dc.b	$FC
-	dc.b	"sound. It's all thanks to you."
+	dc.b	"sauve. Et c'est grâce à vous."
 	dc.b	$FF
 
 ; $59
@@ -563,125 +545,125 @@
 	dc.b	$94, $01
 	dc.b	$F4
 	dc.b	$17
-	dc.b	"This strange illness broke out"
+	dc.b	"Cette maladie étrange s'est"
 	dc.b	$FC
-	dc.b	"right after the Garuberk"
+	dc.b	"déclarée juste après que la Tour"
 	dc.b	$FD
-	dc.b	"Tower appeared."
+	dc.b	"Garuberk soit apparue."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$09
-	dc.b	"See, just as I told you."
+	dc.b	"Vous voyez, je me tue à vous le"
 	dc.b	$FC
-	dc.b	"That tower must be the cause."
+	dc.b	"dire. C'est à cause de cette"
+	dc.b	$FD
+	dc.b	"tour!"
 	dc.b	$FF
 
 ; $5A
 	dc.b	$F4
 	dc.b	$17
-	dc.b	"Kyra is such a daredevil..."
+	dc.b	"Kyra est tellement casse-cou..."
 	dc.b	$FF
 
 ; $5B
 	dc.b	$F4
 	dc.b	$17
-	dc.b	"Everyone,"
-	dc.b	$FC
-	dc.b	"I entrust Kyra to you."
+	dc.b	"Je vous confie Kyra, vous tous."
 	dc.b	$FF
 
 ; $5C
 	dc.b	$F4
 	dc.b	$17
-	dc.b	"I'm glad that Kyra is safe and"
+	dc.b	"Je suis content que Kyra soit"
 	dc.b	$FC
-	dc.b	"sound. Though she's so wild,"
+	dc.b	"saine et sauve. Même si elle"
 	dc.b	$FD
-	dc.b	"she's everyone's idol!"
+	dc.b	"est vraiment rebelle, nous"
+	dc.b	$FC
+	dc.b	"l'admirons beaucoup!"
 	dc.b	$FF
 
 ; $5D
 	dc.b	$F4
 	dc.b	$09
-	dc.b	"Yes, yes..."
+	dc.b	"Oui, d'accord..."
 	dc.b	$FC
-	dc.b	"It was bad luck..."
+	dc.b	"C'était de la malchance..."
 	dc.b	$FD
-	dc.b	"But with those nurses there,"
+	dc.b	"Ceci dit, avec ces infirmières,"
 	dc.b	$FC
-	dc.b	"maybe the worst of times will"
+	dc.b	"peut-être le pire des temps"
 	dc.b	$FD
-	dc.b	"also be the best of times..."
+	dc.b	"deviendra le meilleur des temps!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"You just won't give up,"
-	dc.b	$FC
-	dc.b	"will you!"
+	dc.b	"Toi, tu n'arrête jamais, hein?"
 	dc.b	$FF
 
 ; $5E
 	dc.b	$F4
 	dc.b	$09
-	dc.b	"Ooooooo...."
+	dc.b	"Oooooooh...."
 	dc.b	$FC
-	dc.b	"Oooo...!"
+	dc.b	"Ooooh...!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"You just won't give up,"
-	dc.b	$FC
-	dc.b	"will you?"
+	dc.b	"Tiens bon!"
 	dc.b	$FF
 
 ; $5F
 	dc.b	$F4
 	dc.b	$09
-	dc.b	"I'm in pain..."
+	dc.b	"J'ai mal..."
 	dc.b	$FC
-	dc.b	"OK, I give up!"
+	dc.b	"OK, j'abandonne!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"You just won't give up,"
-	dc.b	$FC
-	dc.b	"will you!"
+	dc.b	"Ah, non, n'abandonne pas!"
 	dc.b	$FF
 
 ; $60
 	dc.b	$F4
 	dc.b	$09
-	dc.b	"I'm feeling better, but I still"
+	dc.b	"Je me sens mieux, mais j'ai"
 	dc.b	$FC
-	dc.b	"need a lot more time in bed..."
+	dc.b	"encore besoin d'être au lit..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"I see you haven't changed,"
+	dc.b	"Je vois que tu ne changes"
 	dc.b	$FC
-	dc.b	"Raja!"
+	dc.b	"jamais, Raja!"
 	dc.b	$FF
 
 ; $61
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"This person,"
+	dc.b	"Ce bonhomme, je crois qu'il"
 	dc.b	$FC
-	dc.b	"they say his name is Raja?"
+	dc.b	"s'appelle Raja?"
 	dc.b	$FD
-	dc.b	"It's great that he's getting"
+	dc.b	"C'est bien qu'il se rétablisse,"
 	dc.b	$FC
-	dc.b	"better, but..."
+	dc.b	"ceci dit..."
 	dc.b	$FD
-	dc.b	"He keeps telling these stupid"
+	dc.b	"Il ne cesse de raconter des"
 	dc.b	$FC
-	dc.b	"jokes."
+	dc.b	"farces extrèmement mauvaises."
 	dc.b	$FD
-	dc.b	"How do you put up with him?"
+	dc.b	"Comment faites-vous pour le"
+	dc.b	$FC
+	dc.b	"supporter?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"I'm not his guardian!"
+	dc.b	"Je ne suis pas responsable"
+	dc.b	$FC
+	dc.b	"de lui!"
 	dc.b	$FF
 
 ; $62
@@ -689,48 +671,44 @@
 	dc.b	$01
 	dc.b	"Raja..."
 	dc.b	$FC
-	dc.b	"Quit joking around!"
+	dc.b	"Arrête de faire le pitre!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Chaz! This is no joke!"
+	dc.b	"Chaz! Ce n'est pas une farce!"
 	dc.b	$FC
-	dc.b	"He's got a tremendous fever!"
+	dc.b	"Il a une énorme fièvre!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Quickly!"
-	dc.b	$FC
-	dc.b	"We must carry him to a bed!"
+	dc.b	"Vite! Il faut le mettre au lit!"
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Even Raja has fallen sick..."
+	dc.b	"Même Raja tombe malade..."
 	dc.b	$FD
-	dc.b	"He'll die if we leave him"
+	dc.b	"Il mourra si nous le laissons"
 	dc.b	$FC
-	dc.b	"like this!"
+	dc.b	"comme ça!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Ha, ha, ha...I don't believe it."
+	dc.b	"Ha, ha, ha...J'en reviens pas."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"This isn't any laughing matter,"
-	dc.b	$FC
-	dc.b	"Chaz!"
+	dc.b	"Ce n'est pas drôle, Chaz!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"I'm sorry..."
+	dc.b	"C'est vrai, désolé..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Rika, you're aware"
+	dc.b	"Rika, tu la ressens aussi,"
 	dc.b	$FC
-	dc.b	"of it too, aren't you?"
+	dc.b	"n'est-ce pas?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
@@ -738,55 +716,53 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"I've sensed it ever since we"
+	dc.b	"Je l'ai ressentie dès que nous"
 	dc.b	$FC
-	dc.b	"came to Dezolis, but it feels"
+	dc.b	"nous sommes posés sur Dezolis,"
 	dc.b	$FD
-	dc.b	"particularly strong here!"
+	dc.b	"mais elle est plus forte ici!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Yes!"
+	dc.b	"C'est vrai!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"What is it?"
-	dc.b	$FC
-	dc.b	"What are you two talking about?"
+	dc.b	"Hein? Que voulez-vous dire?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Chaz, listen carefully..."
+	dc.b	"Chaz, écoute-moi attentivement."
 	dc.b	$FC
-	dc.b	"This feeling is the"
+	dc.b	"Cette sensation, c'est l'Onde"
 	dc.b	$FD
-	dc.b	"Black Energy Wave!"
+	dc.b	"d'Énergie Noire!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"The Black..."
+	dc.b	"L'Onde..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"It's probably...coming from"
+	dc.b	"Elle doit venir...de la Tour"
 	dc.b	$FC
-	dc.b	"The Garuberk Tower."
+	dc.b	"Garuberk."
 	dc.b	$FD
-	dc.b	"And it's pretty close!"
+	dc.b	"Et elle est très proche!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Darn!"
+	dc.b	"Tonnerre!"
 	dc.b	$FF
 
 ; $63
 	dc.b	$F4
 	dc.b	$17
-	dc.b	"Help! Help!"
+	dc.b	"À l'aide! À l'aide!"
 	dc.b	$FD
-	dc.b	"Kyra...Kyra has headed for"
+	dc.b	"Kyra...Kyra se dirige vers"
 	dc.b	$FC
-	dc.b	"The Garuberk Tower by herself!"
+	dc.b	"la Tour Garuberk toute seule!"
 	dc.b	$F7
 
 	dc.b	$F4
@@ -795,15 +771,15 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$17
-	dc.b	"She's a girl of exceptional"
+	dc.b	"Elle est une Esper d'un courage"
 	dc.b	$FC
-	dc.b	"courage from our group!"
+	dc.b	"exceptionnel!"
 	dc.b	$FD
-	dc.b	"But...this is too reckless!"
+	dc.b	"Mais...c'est trop risqué!"
 	dc.b	$FC
-	dc.b	"There is a forest of carnivorous"
+	dc.b	"La tour est entourée d'une"
 	dc.b	$FD
-	dc.b	"trees surrounding the tower!!"
+	dc.b	"forêt d'arbres carnivores!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
@@ -811,17 +787,19 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Right. We can't let her go"
+	dc.b	"Compris. Nous ne pouvons pas la"
 	dc.b	$FC
-	dc.b	"alone! Where is this forest?"
+	dc.b	"laisser y aller seule! Où est"
+	dc.b	$FD
+	dc.b	"cette forêt?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$17
-	dc.b	"It's northeast of town!"
+	dc.b	"Au nord-est de la ville!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"OK, let's go!"
+	dc.b	"D'accord, allons-y vite!"
 	dc.b	$FF
 
 ; $64

@@ -1,129 +1,135 @@
 ; 0
 	dc.b	$FA
 	dc.b	$42, $01
-	dc.b	"This is Aiedo, a fluid town."
-	dc.b	$FD
-	dc.b	"All kinds of things flow in and"
+	dc.b	"Vous êtes ici à Aiedo, une ville"
 	dc.b	$FC
-	dc.b	"out, from all over the place."
+	dc.b	"en mouvement."
 	dc.b	$FD
-	dc.b	"Why, if it isn't Alys."
+	dc.b	"Toutes sortes de marchandises"
 	dc.b	$FC
-	dc.b	"Welcome home!"
+	dc.b	"vont et viennent, de toute"
+	dc.b	$FD
+	dc.b	"provenance."
+	dc.b	$FD
+	dc.b	"Hé, si ce n'est pas Alys."
+	dc.b	$FC
+	dc.b	"Bon retour parmi nous!"
 	dc.b	$FF
 
 ; $1
-	dc.b	"This is Aiedo, --- a fluid town."
-	dc.b	$FD
-	dc.b	"All kinds of things flow in and"
+	dc.b	"Vous êtes ici à Aiedo, une ville"
 	dc.b	$FC
-	dc.b	"out, from all over the place."
+	dc.b	"en mouvement."
 	dc.b	$FD
-	dc.b	"Why, if it isn't Chaz."
-	dc.b	$FD
-	dc.b	"Where's Alys? Is anything wrong"
+	dc.b	"Toutes sortes de marchandises"
 	dc.b	$FC
-	dc.b	"with her?"
+	dc.b	"vont et viennent, de toute"
+	dc.b	$FD
+	dc.b	"provenance."
+	dc.b	$FD
+	dc.b	"Hé, Chaz!"
+	dc.b	$FD
+	dc.b	"Où est Alys? Il ne lui ai pas"
+	dc.b	$FC
+	dc.b	"arrivé quelque chose, j'espère?"
 	dc.b	$FF
 
 ; $2
-	dc.b	"I've come from Zema to peddle my"
+	dc.b	"Je suis venu de Zema pour"
 	dc.b	$FC
-	dc.b	"wares, but..."
+	dc.b	"vendre mes marchandises, mais..."
 	dc.b	$FD
-	dc.b	"Look at this town!"
+	dc.b	"Regardez-moi ça!"
 	dc.b	$FD
-	dc.b	"It's already got a pretty"
+	dc.b	"Ils ont déjà un marché très bien"
 	dc.b	$FC
-	dc.b	"impressive marketplace!"
+	dc.b	"fourni!"
 	dc.b	$FD
-	dc.b	"But I still have to sell the"
+	dc.b	"Malgré tout, je devrai vendre"
 	dc.b	$FC
-	dc.b	"wares I brought."
+	dc.b	"tout ce que j'ai amené."
 	dc.b	$FD
-	dc.b	"Otherwise, I'll be too"
+	dc.b	"Sinon, je n'oserai pas retourner"
 	dc.b	$FC
-	dc.b	"embarrassed to go home!"
+	dc.b	"chez moi, ce serait la honte!"
 	dc.b	$FF
 
 ; $3
 	dc.b	$FA
 	dc.b	$42, $01
-	dc.b	"I'd say that"
+	dc.b	"Je dirais que 'Alys Arracheuse"
 	dc.b	$FC
-	dc.b	"'Alys the Eight Stroke Sword'"
+	dc.b	"de Tripes' est la combattante"
 	dc.b	$FD
-	dc.b	"is the most skilled fighter"
-	dc.b	$FC
-	dc.b	"in these parts."
+	dc.b	"la plus habile aux alentours."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Didn't I tell you to quit"
+	dc.b	"Il me semble t'avoir déjà"
 	dc.b	$FC
-	dc.b	"calling me that?"
+	dc.b	"demandé de ne pas m'appeler"
 	dc.b	$FD
-	dc.b	"It's totally ridiculous!"
+	dc.b	"ainsi? C'est totalement"
+	dc.b	$FC
+	dc.b	"ridicule!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Yeah, it certainly is!"
+	dc.b	"Ouais, c'est vraiment ridicule!"
 	dc.b	$FD
-	dc.b	"Ooops! Alys,"
+	dc.b	"Ouille! Alys, pourquoi me"
 	dc.b	$FC
-	dc.b	"why are you hitting me?!"
+	dc.b	"frappez-vous?!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Hmmph!"
+	dc.b	"Hum!"
 	dc.b	$FF
 
 ; $4
-	dc.b	"I'd say that"
+	dc.b	"Je dirais que 'Alys Arracheuse"
 	dc.b	$FC
-	dc.b	"'Alys the Eight Stroke Sword'"
+	dc.b	"de Tripes' est la combattante"
 	dc.b	$FD
-	dc.b	"is the most skilled fighter"
+	dc.b	"la plus habile aux alentours."
+	dc.b	$FD
+	dc.b	"À bien y penser, je ne l'ai pas"
 	dc.b	$FC
-	dc.b	"in these parts."
+	dc.b	"vue dernièrement."
 	dc.b	$FD
-	dc.b	"Come to think of it, I haven't"
-	dc.b	$FC
-	dc.b	"seen her around lately."
-	dc.b	$FD
-	dc.b	"I wonder what happened to her?"
+	dc.b	"Je me demande ce qui se passe?"
 	dc.b	$FF
 
 ; $5
 	dc.b	$FA
 	dc.b	$42, $01
-	dc.b	"There are two weapons and armor"
+	dc.b	"Il y a deux magasins d'armes et"
 	dc.b	$FC
-	dc.b	"stores in this town."
+	dc.b	"armures dans notre ville."
 	dc.b	$FD
-	dc.b	"If you want good quality stuff"
+	dc.b	"Si vous voulez de la qualité,"
 	dc.b	$FC
-	dc.b	"you'd better go to the store"
+	dc.b	"il vaut mieux aller au magasin"
 	dc.b	$FD
-	dc.b	"near the Hunter's Guild."
+	dc.b	"près de la Guilde des Chasseurs."
 	dc.b	$FD
-	dc.b	"Oh, it's you, Alys."
+	dc.b	"Ah, Alys, c'est vous."
 	dc.b	$FD
-	dc.b	"I don't need to tell you"
+	dc.b	"Je n'ai pas besoin de vous"
 	dc.b	$FC
-	dc.b	"all this."
+	dc.b	"répéter ce que vous savez déjà."
 	dc.b	$FF
 
 ; $6
-	dc.b	"There are two weapons and armor"
+	dc.b	"Il y a deux magasins d'armes et"
 	dc.b	$FC
-	dc.b	"stores in this town."
+	dc.b	"armures dans notre ville."
 	dc.b	$FD
-	dc.b	"If you want good quality stuff"
+	dc.b	"Si vous voulez de la qualité,"
 	dc.b	$FC
-	dc.b	"you'd better go to the store"
+	dc.b	"il vaut mieux aller au magasin"
 	dc.b	$FD
-	dc.b	"near the Hunter's Guild."
+	dc.b	"près de la Guilde des Chasseurs."
 	dc.b	$FF
 
 ; $7
@@ -134,144 +140,146 @@
 	dc.b	$FF
 
 ; $8
-	dc.b	"Hi Chaz. Isn't Alys"
+	dc.b	"Hé, Chaz. Alys ne vous"
 	dc.b	$FC
-	dc.b	"with you today?"
+	dc.b	"accompagne pas aujourd'hui?"
 	dc.b	$FF
 
 ; $9
-	dc.b	"In the middle of town is"
+	dc.b	"Un marché se trouve au centre de"
 	dc.b	$FC
-	dc.b	"a market."
+	dc.b	"la ville."
 	dc.b	$FD
-	dc.b	"Behind it is the Hunters' Guild."
+	dc.b	"Juste derrière, c'est la Guilde"
 	dc.b	$FC
-	dc.b	"Isn't it a big town?"
+	dc.b	"des Chasseurs. C'est une grande"
+	dc.b	$FD
+	dc.b	"ville, n'est-ce pas?"
 	dc.b	$FF
 
 ; $A
-	dc.b	"This is the prison."
+	dc.b	"Ici, c'est la prison."
+	dc.b	$FD
+	dc.b	"Il vaut mieux ne pas trop"
 	dc.b	$FC
-	dc.b	"You'd better not get too close."
+	dc.b	"s'approcher."
 	dc.b	$FF
 
 ; $B
 	dc.b	$FA
 	dc.b	$42, $01
-	dc.b	"I'm a hunter, but I haven't been"
+	dc.b	"Je suis un chasseur, mais je"
 	dc.b	$FC
-	dc.b	"able to find work lately."
+	dc.b	"n'arrive pas à avoir de contrats"
 	dc.b	$FD
-	dc.b	"That's because there's some"
+	dc.b	"dernièrement. Tout ça à cause"
 	dc.b	$FC
-	dc.b	"woman called Alys who's getting"
+	dc.b	"d'une gonzesse appelée Alys qui"
 	dc.b	$FD
-	dc.b	"all the work."
+	dc.b	"râfle tous les jobs."
 	dc.b	$FD
-	dc.b	"Hey, well if it isn't Alys."
+	dc.b	"Quand on parle du loup..."
 	dc.b	$FD
-	dc.b	"Why don't you send some work"
+	dc.b	"Pourquoi tu ne m'en laisse pas"
 	dc.b	$FC
-	dc.b	"my way once in a while?"
+	dc.b	"pas un peu de temps à autre?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Don't talk rubbish!"
+	dc.b	"Ne dis pas d'âneries!"
 	dc.b	$FD
-	dc.b	"Work is not something that"
+	dc.b	"Les contrats, ce n'est pas"
 	dc.b	$FC
-	dc.b	"gets sent to you."
+	dc.b	"quelque chose qu'il faut"
 	dc.b	$FD
-	dc.b	"You have to go out and get it!"
+	dc.b	"attendre. Il faut y travailler!"
 	dc.b	$FF
 
 ; $C
-	dc.b	"I'm a hunter, but..."
-	dc.b	$FD
-	dc.b	"I haven't been able to find"
+	dc.b	"Je suis un chasseur, mais je"
 	dc.b	$FC
-	dc.b	"work lately."
+	dc.b	"n'arrive pas à avoir de contrats"
 	dc.b	$FD
-	dc.b	"That's because there's some"
+	dc.b	"dernièrement. Tout ça à cause"
 	dc.b	$FC
-	dc.b	"woman called Alys who's getting"
+	dc.b	"d'une gonzesse appelée Alys qui"
 	dc.b	$FD
-	dc.b	"all the work."
+	dc.b	"râfle tous les jobs."
 	dc.b	$FF
 
 ; $D
 	dc.b	$FA
 	dc.b	$42, $01
-	dc.b	"Hey there!"
+	dc.b	"Hé! Comment oses-tu me bousculer"
 	dc.b	$FC
-	dc.b	"How dare you bump into me and"
+	dc.b	"ainsi et passer outre sans me"
 	dc.b	$FD
-	dc.b	"pass on without a word?"
+	dc.b	"saluer?"
 	dc.b	$FD
-	dc.b	"Oh! It's you, Alys!"
+	dc.b	"Oh! Alys!"
 	dc.b	$FD
-	dc.b	"Oh dear,"
+	dc.b	"Oh, non, pardonne-moi d'avoir"
 	dc.b	$FC
-	dc.b	"please excuse my rudeness."
+	dc.b	"été impoli."
 	dc.b	$FF
 
 ; $E
-	dc.b	"Hey there!"
+	dc.b	"Hé! Comment oses-tu me bousculer"
 	dc.b	$FC
-	dc.b	"How dare you bump into me and"
+	dc.b	"ainsi et passer outre sans me"
 	dc.b	$FD
-	dc.b	"pass on without a word?"
+	dc.b	"saluer?"
 	dc.b	$FD
-	dc.b	"Oh, it's you, Chaz."
+	dc.b	"Ah, c'est toi, Chaz."
 	dc.b	$FD
-	dc.b	"Give my regards to Alys,"
+	dc.b	"Transmets mes salutation à"
 	dc.b	$FC
-	dc.b	"will you?"
+	dc.b	"Alys, d'accord?"
 	dc.b	$FF
 
 ; $F
-	dc.b	"There are a lot of hunters"
+	dc.b	"Il y a beaucoup de chasseurs"
 	dc.b	$FC
-	dc.b	"in this town so it's kind of"
+	dc.b	"en ville, alors c'est un peu"
 	dc.b	$FD
-	dc.b	"dangerous, but,"
+	dc.b	"risqué comme endroit."
 	dc.b	$FD
-	dc.b	"on the other hand, we're safe"
+	dc.b	"Par contre, si des monstres se"
 	dc.b	$FC
-	dc.b	"if any monsters appear."
+	dc.b	"pointent, nous n'avons rien à"
 	dc.b	$FD
-	dc.b	"There are some benefits to"
+	dc.b	"craindre. C'est le bon côté"
 	dc.b	$FC
-	dc.b	"having all these hunters here!"
+	dc.b	"d'avoir autant de chasseurs ici!"
 	dc.b	$FF
 
 ; $10
-	dc.b	"The fortune-teller named Mito"
+	dc.b	"Mito, la diseuse de bonne"
 	dc.b	$FC
-	dc.b	"is one of the best."
+	dc.b	"aventure, est excellente."
 	dc.b	$FD
-	dc.b	"Like last time,"
+	dc.b	"Par exemple, la dernière fois"
 	dc.b	$FC
-	dc.b	"she was right on the money about"
+	dc.b	"que j'ai fait appel à elle, elle"
 	dc.b	$FD
-	dc.b	"where my husband was stashing"
+	dc.b	"savait exactement où mon mari"
 	dc.b	$FC
-	dc.b	"his secret savings!"
+	dc.b	"cachait sa cagnotte secrète!"
 	dc.b	$FF
 
 ; $11
 	dc.b	$F3
-	dc.b	"Hmph..."
+	dc.b	"Hum..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Chaz, I don't think you should"
+	dc.b	"Chaz, je crois qu'il vaudrait"
 	dc.b	$FC
-	dc.b	"get in her way when she is"
+	dc.b	"mieux la laisser seule"
 	dc.b	$FD
-	dc.b	"paying her respects at the"
+	dc.b	"pendant qu'elle se recueille"
 	dc.b	$FC
-	dc.b	"grave."
+	dc.b	"sur cette tombe."
 	dc.b	$FF
 
 ; $12
@@ -403,60 +411,56 @@
 	dc.b	$FF
 
 ; $3C
-	dc.b	"Hey, Alys! You look just"
+	dc.b	"Hé, Alys! Vous êtes toujours"
 	dc.b	$FC
-	dc.b	"as beautiful as usual."
+	dc.b	"aussi magnifiquement belle."
 	dc.b	$FD
-	dc.b	"With your hair fluttering"
+	dc.b	"Avec vos cheveux qui flottent"
 	dc.b	$FC
-	dc.b	"in the wind..."
+	dc.b	"au vent..."
 	dc.b	$FD
-	dc.b	"You're one attractive woman!"
+	dc.b	"Vous êtes vraiment très"
 	dc.b	$FC
-	dc.b	"Well, see you later!"
+	dc.b	"attirante! Bon, à plus!"
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Wh...what was that all about?"
+	dc.b	"Heu...de quoi voulait-il parler?"
 	dc.b	$FC
-	dc.b	"What a geek!"
+	dc.b	"Quel minable!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$05
-	dc.b	"Maybe he's being forced"
+	dc.b	"Peut-être quelqu'un le force à"
 	dc.b	$FC
-	dc.b	"to say those things."
+	dc.b	"dire de telles choses."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Hey, you guys over there!"
+	dc.b	"Hé, les zozos!"
 	dc.b	$FC
-	dc.b	"What are you talking about?"
+	dc.b	"De quoi vous parlez?"
 	dc.b	$FF
 
 ; $3D
-	dc.b	"That's strange..."
+	dc.b	"C'est étrange..."
 	dc.b	$FD
-	dc.b	"I could have sworn that I put"
+	dc.b	"J'aurais pu jurer que je l'avais"
 	dc.b	$FC
-	dc.b	"it away in here..."
+	dc.b	"mise ici..."
 	dc.b	$FD
-	dc.b	"Hey!"
+	dc.b	"Hé!"
 	dc.b	$FC
-	dc.b	"My secret sav..."
+	dc.b	"Ma cagnotte secrê..."
 	dc.b	$FD
 	dc.b	$F7
 
-	dc.b	"Yikes!"
+	dc.b	"Ahhh!"
 	dc.b	$FD
-	dc.b	"What the heck are you guys doing"
-	dc.b	$FC
-	dc.b	"here?!"
+	dc.b	"Qu'est-ce que vous faites là!?"
 	dc.b	$FD
-	dc.b	"Don't you have the decency to"
-	dc.b	$FC
-	dc.b	"at least knock?!"
+	dc.b	"On frappe avant d'entrer!"
 	dc.b	$FF
 
 ; $3E
@@ -467,49 +471,49 @@
 	dc.b	$24, $02
 	dc.b	$FA
 	dc.b	$1F, $01
-	dc.b	"Our pet dog is"
-	dc.b	$FC
-	dc.b	"missing."
+	dc.b	"Notre chien manque à l'appel."
 	dc.b	$FD
-	dc.b	"We've searched this town"
+	dc.b	"Nous avons fouillé la ville de"
 	dc.b	$FC
-	dc.b	"from one end to the other."
+	dc.b	"fond en comble."
 	dc.b	$FD
-	dc.b	"It pains me to see the children"
+	dc.b	"Ça me fait de la peine de voir"
 	dc.b	$FC
-	dc.b	"so crestfallen."
+	dc.b	"ma fille aussi déprimée."
 	dc.b	$FF
 
 ; $40
-	dc.b	"Rocky is, well...tremendously"
+	dc.b	"Rocky, il est...eh bien, il est"
 	dc.b	$FC
-	dc.b	"stubborn and kind of fat."
+	dc.b	"vraiment très têtu et enveloppé."
 	dc.b	$FD
-	dc.b	"That's because"
+	dc.b	"Il aime beaucoup les trucs"
 	dc.b	$FC
-	dc.b	"he loves sweet things..."
+	dc.b	"sucrés..."
 	dc.b	$FD
-	dc.b	"No wonder he gets fat."
-	dc.b	$FD
-	dc.b	"...Would this constitute"
+	dc.b	"Ce n'est pas surprenant qu'il"
 	dc.b	$FC
-	dc.b	"some kind of clue?"
+	dc.b	"ait pris autant de poids."
+	dc.b	$FD
+	dc.b	"...Ce n'est pas vraiment un"
+	dc.b	$FC
+	dc.b	"indice utile, n'est-ce pas?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"No, no, please tell me every"
+	dc.b	"Si, si, dites-moi tous les"
 	dc.b	$FC
-	dc.b	"detail even if it may seem"
+	dc.b	"détails, même s'ils semblent"
 	dc.b	$FD
-	dc.b	"irrelevant."
+	dc.b	"sans importance."
 	dc.b	$FF
 
 ; $41
-	dc.b	"Thank you very much."
+	dc.b	"Merci de tout mon coeur!"
 	dc.b	$FD
-	dc.b	"See,"
+	dc.b	"Voyez comme ma fille est"
 	dc.b	$FC
-	dc.b	"my daughter is so happy."
+	dc.b	"heureuse!"
 	dc.b	$FF
 
 ; $42
@@ -523,37 +527,35 @@
 	dc.b	$1E, $02
 	dc.b	$FA
 	dc.b	$44, $01
-	dc.b	"I can't even go looking for him,"
+	dc.b	"Je ne peux même pas aller à sa"
 	dc.b	$FC
-	dc.b	"I'm so afraid."
+	dc.b	"recherche, j'ai trop peur."
 	dc.b	$FD
-	dc.b	"There are monsters roaming"
+	dc.b	"Il y a des monstres qui rôdent"
 	dc.b	$FC
-	dc.b	"outside the town."
+	dc.b	"autour de la ville."
 	dc.b	$FD
-	dc.b	"There's the option of asking for"
+	dc.b	"Je pourrais demander à la Guilde"
 	dc.b	$FC
-	dc.b	"help at the Hunters' Guild, but"
+	dc.b	"des Chasseurs, mais quel"
 	dc.b	$FD
-	dc.b	"would there be a hunter"
+	dc.b	"chasseur se donnerait du mal"
 	dc.b	$FC
-	dc.b	"who would go find a dog?"
+	dc.b	"pour trouver un vulgaire chien?"
 	dc.b	$FF
 
 ; $43
-	dc.b	"I had no choice."
+	dc.b	"Je n'avais plus le choix, j'ai"
 	dc.b	$FD
-	dc.b	"I went to the Hunters' Guild and"
+	dc.b	"contacté la Guilde des Chasseurs"
 	dc.b	$FC
-	dc.b	"asked fortheirr help."
+	dc.b	"et j'ai demandé leur aide."
 	dc.b	$FD
-	dc.b	"I'm sure only a hunter"
+	dc.b	"Je crois que seul un chasseur"
 	dc.b	$FC
-	dc.b	"who is really bored and has too"
+	dc.b	"qui n'a vraiment rien à faire"
 	dc.b	$FD
-	dc.b	"much spare time would undertake"
-	dc.b	$FC
-	dc.b	"dog searching."
+	dc.b	"sera prêt à remplire ce contrat."
 	dc.b	$FF
 
 ; $44
@@ -562,35 +564,31 @@
 	dc.b	$FF
 
 ; $45
-	dc.b	"I beseech you,"
-	dc.b	$FC
-	dc.b	"help us!"
+	dc.b	"Je vous en supplie, aidez-nous!"
 	dc.b	$FF
 
 ; $46
-	dc.b	"Oh,"
-	dc.b	$FC
-	dc.b	"thank you!"
+	dc.b	"Oh, merci, merci, merci!"
 	dc.b	$FD
-	dc.b	"Great job! Only to be expected"
+	dc.b	"Excellent travail! C'est ce"
 	dc.b	$FC
-	dc.b	"from a hunter!"
+	dc.b	"qu'on s'attend d'un Chasseur!"
 	dc.b	$FD
-	dc.b	"My daughter is overjoyed!"
+	dc.b	"Ma fille est très heureuse!"
 	dc.b	$FD
-	dc.b	"I'll send the agreed upon"
+	dc.b	"Je laisserai votre cachet à"
 	dc.b	$FC
-	dc.b	"commission to the guild."
+	dc.b	"la guilde."
 	dc.b	$FF
 
 ; $47
-	dc.b	"Thank you very much."
+	dc.b	"Merci encore."
 	dc.b	$FF
 
 ; $48
-	dc.b	"Thank you for what you did"
+	dc.b	"Merci encore pour votre aide"
 	dc.b	$FC
-	dc.b	"the other day."
+	dc.b	"l'autre jour."
 	dc.b	$FF
 
 ; $49
@@ -600,51 +598,53 @@
 	dc.b	$1F, $01
 	dc.b	"'Rocky'..."
 	dc.b	$FD
-	dc.b	"That's my dog's name."
+	dc.b	"Mon chien s'appelle comme ça."
 	dc.b	$FD
-	dc.b	"I wonder where he could have"
+	dc.b	"Où diable a-t-il pu aller se"
 	dc.b	$FC
-	dc.b	"gone off to?"
+	dc.b	"fourrer?"
 	dc.b	$FF
 
 ; $4A
-	dc.b	"Let me see, 'Rocky' has good"
+	dc.b	"Voyons, 'Rocky' est bien élevé"
 	dc.b	$FC
-	dc.b	"manners and is really cute!"
+	dc.b	"et il  est très mignon!"
 	dc.b	$FD
-	dc.b	"Mister, please bring back"
+	dc.b	"Monsieur, pouvez-vous me le"
 	dc.b	$FC
-	dc.b	"'Rocky' as soon as possible!"
+	dc.b	"ramener le plus vite possible?"
 	dc.b	$FD
-	dc.b	"Please!"
+	dc.b	"Je vous en prie!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"She, she called me mister..."
+	dc.b	"Elle...Elle m'a appelé Monsieur!"
 	dc.b	$FD
-	dc.b	"It's like some bad luck"
+	dc.b	"C'est comme si quelque chose de"
 	dc.b	$FC
-	dc.b	"is destined to occur..."
+	dc.b	"mauvais allait m'arriver..."
 	dc.b	$FF
 
 ; $4B
-	dc.b	"Yahoo! Yahoo! Rocky's back!"
+	dc.b	"Youpi! Youpi! Rocky est revenu!"
 	dc.b	$FC
-	dc.b	"Hooray, Hooray!"
+	dc.b	"Hourra, Hourra!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"No wonder he ran away."
+	dc.b	"Pas surprenant qu'il se soit"
+	dc.b	$FC
+	dc.b	"sauvé..."
 	dc.b	$FF
 
 ; $4C
-	dc.b	"Woof Woof!"
+	dc.b	"Ouah Ouah!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Do you like that kind of"
+	dc.b	"Aimes-tu vraiment être traité de"
 	dc.b	$FC
-	dc.b	"treatment?"
+	dc.b	"la sorte?"
 	dc.b	$FF
 
 ; $4D
@@ -658,17 +658,17 @@
 	dc.b	$7A, $02
 	dc.b	$FA
 	dc.b	$79, $01
-	dc.b	"Guarding a prison is no easy"
+	dc.b	"Être gardien de prison n'est pas"
 	dc.b	$FC
-	dc.b	"job."
+	dc.b	"facile."
 	dc.b	$FD
-	dc.b	"It's so boring."
+	dc.b	"C'est tellement ennuyant!"
 	dc.b	$FF
 
 ; $4E
-	dc.b	"A pair of girls?"
+	dc.b	"Deux filles?"
 	dc.b	$FC
-	dc.b	"Are you talking about those two?"
+	dc.b	"Vous voulez dire celles-là?"
 	dc.b	$FF
 
 ; $4F
@@ -677,102 +677,106 @@
 	dc.b	$FF
 
 ; $50
-	dc.b	"Those sisters?"
-	dc.b	$FD
-	dc.b	"They've got a ten-year sentence,"
+	dc.b	"Ces deux soeurs? Elles ont"
 	dc.b	$FC
-	dc.b	"so they say."
+	dc.b	"écopé d'une peine de dix ans,"
 	dc.b	$FD
-	dc.b	"Let them out?"
+	dc.b	"je crois."
+	dc.b	$FD
+	dc.b	"Les libérer?"
 	dc.b	$FC
-	dc.b	"No way!"
+	dc.b	"Pas question!"
 	dc.b	$FD
-	dc.b	"Well, if you post their bail"
-	dc.b	$FD
-	dc.b	"I don't see why I can't let them"
+	dc.b	"Eh bien, si vous payez leur"
 	dc.b	$FC
-	dc.b	"out."
+	dc.b	"caution, pas de problème."
 	dc.b	$FD
-	dc.b	"The amount?"
+	dc.b	"Combien? Leur caution s'élève"
 	dc.b	$FC
-	dc.b	"Their bail is at 50,000 meseta."
+	dc.b	"à 50 000 meseta."
 	dc.b	$FF
 
 ; $51
-	dc.b	"Their bail is at 50,000 meseta."
+	dc.b	"Leur caution s'élève à 50 000"
 	dc.b	$FC
-	dc.b	"Are you going to pay?"
+	dc.b	"meseta. Vous payez?"
 	dc.b	$F5
 	dc.b	$01, $00
-	dc.b	"I'm not surprised!"
+	dc.b	"Pas surprenant!"
 	dc.b	$FC
-	dc.b	"That's to be expected."
+	dc.b	"Je m'y attendais."
 	dc.b	$FF
 
 ; $52
 	dc.b	$FA
 	dc.b	$7F, $01
-	dc.b	"What!?"
+	dc.b	"Hein!?"
 	dc.b	$FD
-	dc.b	"You'll post their bail?"
+	dc.b	"Vous allez payer leur caution?"
 	dc.b	$FC
 	dc.b	"Wow!"
 	dc.b	$FD
-	dc.b	"Pretty magnanimous of you!"
-	dc.b	$FD
-	dc.b	"But look at you,"
+	dc.b	"C'est très généreux de votre"
 	dc.b	$FC
-	dc.b	"you ain't got the money."
+	dc.b	"part!"
+	dc.b	$FD
+	dc.b	"Mais vous plaisantez, vous"
+	dc.b	$FC
+	dc.b	"n'avez pas l'argent."
 	dc.b	$FF
 
 ; $53
-	dc.b	"What!?"
+	dc.b	"Hein!?"
 	dc.b	$FD
-	dc.b	"You'll post their bail?"
+	dc.b	"Vous allez payer leur caution?"
 	dc.b	$FC
 	dc.b	"Wow!"
 	dc.b	$FD
-	dc.b	"How magnanimous of you!"
-	dc.b	$FD
-	dc.b	"Yep, payment received in full!"
+	dc.b	"C'est très généreux de votre"
 	dc.b	$FC
-	dc.b	"I'll leave it unlocked so go"
+	dc.b	"part!"
 	dc.b	$FD
-	dc.b	"ahead and take them away!"
+	dc.b	"Ouaip, toute la somme est payée!"
+	dc.b	$FC
+	dc.b	"Je vais laisser la cellule"
+	dc.b	$FD
+	dc.b	"ouverte, vous pouvez aller les"
+	dc.b	$FC
+	dc.b	"chercher."
 	dc.b	$FF
 
 ; $54
-	dc.b	"It's unlocked."
+	dc.b	"C'est ouvert."
 	dc.b	$FC
-	dc.b	"Go ahead and take them away."
+	dc.b	"Allez-y, emmenez-les."
 	dc.b	$FF
 
 ; $55
-	dc.b	"Ho hum."
+	dc.b	"Ouais... c'est vraiment"
 	dc.b	$FC
-	dc.b	"Boring days are here again."
+	dc.b	"ennuyant ces temps-ci."
 	dc.b	$FD
-	dc.b	"I wasn't as bored when those"
+	dc.b	"C'était moins ennuyant quand"
 	dc.b	$FC
-	dc.b	"two girls where in here!"
+	dc.b	"ces deux filles étaient là!"
 	dc.b	$FF
 
 ; $56
 	dc.b	$FA
 	dc.b	$42, $01
-	dc.b	"Hey, Alys, you rotten...!"
+	dc.b	"Hé, Alys, espèce de...!"
 	dc.b	$FD
-	dc.b	"Thanks to you"
+	dc.b	"C'est à cause de toi que je"
 	dc.b	$FC
-	dc.b	"I've ended up in here!"
+	dc.b	"croupis ici!"
 	dc.b	$FF
 
 ; $57
-	dc.b	"Blast!"
+	dc.b	"Tonnerre!"
 	dc.b	$FD
-	dc.b	"I'll dig a hole"
+	dc.b	"Je creuserai un tunnel dans"
 	dc.b	$FC
-	dc.b	"in the floor!"
+	dc.b	"le sol!"
 	dc.b	$FF
 
 ; $58
@@ -782,11 +786,11 @@
 	dc.b	$7A, $02
 	dc.b	$FA
 	dc.b	$79, $01
-	dc.b	"We tried to escape during"
+	dc.b	"On a tenté de s'échapper pendant"
 	dc.b	$FC
-	dc.b	"the night,"
+	dc.b	"la nuit, mais ils nous ont"
 	dc.b	$FD
-	dc.b	"but we got caught."
+	dc.b	"ratrappés."
 	dc.b	$FF
 
 ; $59
@@ -795,9 +799,9 @@
 	dc.b	$FF
 
 ; $5A
-	dc.b	"I don't want to spend my"
+	dc.b	"Je ne veux pas passer ma"
 	dc.b	$FC
-	dc.b	"precious youth in this prison!"
+	dc.b	"tendre jeunesse en prison!"
 	dc.b	$FF
 
 ; $5B
@@ -808,69 +812,69 @@
 ; $5C
 	dc.b	$FA
 	dc.b	$79, $01
-	dc.b	"We're ex-convicts now."
+	dc.b	"Nous sommes des ex-détenues."
 	dc.b	$FC
-	dc.b	"No one will marry us now!"
+	dc.b	"Personne ne voudra nous épouser!"
 	dc.b	$FF
 
 ; $5D
-	dc.b	"Aaah. Help."
+	dc.b	"Aaah. Aidez moi!"
 	dc.b	$FC
-	dc.b	"Mommy."
+	dc.b	"Maman..."
 	dc.b	$FF
 
 ; $5E
-	dc.b	"What?"
+	dc.b	"Pardon? Vous êtes un Chasseur"
 	dc.b	$FC
-	dc.b	"You're a hunter from the guild!?"
+	dc.b	"de la Guilde!?"
 	dc.b	$FD
-	dc.b	"You sure must have a lot of"
+	dc.b	"Vous avez vraiment du temps à..."
 	dc.b	$FC
-	dc.b	"spare...no, no -- I'm so very"
+	dc.b	"non, non -- je suis très"
 	dc.b	$FD
-	dc.b	"thankful!"
+	dc.b	"reconnaisant!"
 	dc.b	$FD
-	dc.b	"The fact of the matter is that"
+	dc.b	"Pour résumer, Rocky, le chien de"
 	dc.b	$FC
-	dc.b	"Rocky, our daughter's dog,"
+	dc.b	"notre fille, manque à l'appel."
 	dc.b	$FD
-	dc.b	"is missing."
-	dc.b	$FD
-	dc.b	"We searched the town,"
+	dc.b	"Nous avons cherché dans toute la"
 	dc.b	$FC
-	dc.b	"but couldn't find him."
+	dc.b	"ville, sans succès."
 	dc.b	$FD
-	dc.b	"And outside the town with all"
+	dc.b	"Et hors de la ville, avec tous"
 	dc.b	$FC
-	dc.b	"those monsters..."
+	dc.b	"ces monstres..."
 	dc.b	$FD
-	dc.b	"That's why we went to the"
+	dc.b	"C'est pourquoi nous avons fait"
 	dc.b	$FC
-	dc.b	"Hunters' Guild."
+	dc.b	"appel à la Guilde des Chasseurs."
 	dc.b	$FD
-	dc.b	"I beseech you, help us!"
+	dc.b	"Je vous en conjure, aidez-nous!"
 	dc.b	$FF
 
 ; $5F
-	dc.b	"We came from far away to do some"
+	dc.b	"Nous sommes venues pour faire"
 	dc.b	$FC
-	dc.b	"shopping, but we got a little"
+	dc.b	"les magasins, mais nous avons"
 	dc.b	$FD
-	dc.b	"carried away."
-	dc.b	$FD
-	dc.b	"So much so that we couldn't pay"
+	dc.b	"manqué de retenue."
 	dc.b	$FC
-	dc.b	"for our rooms and we got caught."
+	dc.b	"Alors, on n'avait plus d'argent"
 	dc.b	$FD
-	dc.b	"What? You have a request from my"
+	dc.b	"pour payer la chambre, et on"
 	dc.b	$FC
-	dc.b	"parents in Uzo? Is that right?"
+	dc.b	"nous a arrêtées."
 	dc.b	$FD
-	dc.b	"But there's a watchman standing"
+	dc.b	"C'est vrai? Mes parents nous"
 	dc.b	$FC
-	dc.b	"guard all the time..."
+	dc.b	"demandent de Uzo? Sérieusement?"
 	dc.b	$FD
-	dc.b	"there's no way I can go home."
+	dc.b	"Mais avec le garde qui"
+	dc.b	$FC
+	dc.b	"surveille en permanence..."
+	dc.b	$FD
+	dc.b	"Comment retourner à la maison?"
 	dc.b	$FF
 
 ; $60
@@ -879,25 +883,27 @@
 	dc.b	$FF
 
 ; $61
-	dc.b	"What? You posted my bail?"
+	dc.b	"Vraiment? Vous avez payé la"
+	dc.b	$FC
+	dc.b	"caution?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Let's go."
+	dc.b	"Allons-y. Vos parents sont très"
 	dc.b	$FC
-	dc.b	"Your parents are real worried."
+	dc.b	"inquiets. Retournons tout de"
 	dc.b	$FD
-	dc.b	"We'd better hurry back to Uzo."
+	dc.b	"suite à Uzo."
 	dc.b	$FF
 
 ; $62
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It's a prison..."
+	dc.b	"C'est une cellule..."
 	dc.b	$FF
 
 ; $63
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It's a prison..."
+	dc.b	"C'est une cellule..."
 	dc.b	$FF

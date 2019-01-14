@@ -59,149 +59,147 @@
 	dc.b	$FF
 
 ; $14
-	dc.b	"This is the village of Torinco."
-	dc.b	$FD
-	dc.b	"It's a farming village famous"
+	dc.b	"Ici, c'est le village de"
 	dc.b	$FC
-	dc.b	"for its terraced fields."
+	dc.b	"Torinco."
+	dc.b	$FD
+	dc.b	"C'est un village agraire connu"
+	dc.b	$FC
+	dc.b	"pour ses champs en terrasse."
 	dc.b	$FF
 
 ; $15
 	dc.b	$FA
 	dc.b	$AF, $01
-	dc.b	"Our terraced fields are"
+	dc.b	"Nos champs en terrasse sont la"
 	dc.b	$FC
-	dc.b	"the pride of this village."
+	dc.b	"fierté du village."
 	dc.b	$FD
-	dc.b	"Look at what a wasteland"
+	dc.b	"Voyez comme ils sont maintenant"
 	dc.b	$FC
-	dc.b	"it is now."
+	dc.b	"en friche."
 	dc.b	$FD
-	dc.b	"A strange flock of birds flew"
+	dc.b	"Une nuée d'étranges oiseaux sont"
 	dc.b	$FC
-	dc.b	"from the northeast"
+	dc.b	"venus du nord-est et ont tout"
 	dc.b	$FD
-	dc.b	"and ate our fields!"
+	dc.b	"mangé!"
 	dc.b	$FF
 
 ; $16
-	dc.b	"Our terraced fields,"
+	dc.b	"Les champs en terrasse, la"
 	dc.b	$FC
-	dc.b	"the pride of this village,"
+	dc.b	"fierté du village, sont"
 	dc.b	$FD
-	dc.b	"have become wasteland."
+	dc.b	"maintenant en ruine."
 	dc.b	$FD
-	dc.b	"Those birds that ate our fields"
+	dc.b	"Au moins ces oiseaux qui"
 	dc.b	$FC
-	dc.b	"have stopped coming, though."
+	dc.b	"mangeaient tout sont partis."
 	dc.b	$FF
 
 ; $17
-	dc.b	"I'm good at making rafts"
+	dc.b	"Je suis habile à faire des"
 	dc.b	$FC
-	dc.b	"out of logs."
+	dc.b	"radeaux."
 	dc.b	$FD
-	dc.b	"I used to go to the mainland"
+	dc.b	"Je les utilisaient pour visiter"
 	dc.b	$FC
-	dc.b	"once in a while, but now"
+	dc.b	"le continent, mais de nos jours,"
 	dc.b	$FD
-	dc.b	"I'm too afraid of the monsters!"
+	dc.b	"j'ai trop peur des monstres!"
 	dc.b	$FF
 
 ; $18
-	dc.b	"Earthquakes, abnormal climate,"
+	dc.b	"Des séismes, un climat anormal,"
 	dc.b	$FC
-	dc.b	"outbreak of monsters..."
+	dc.b	"une épidémie de monstres..."
 	dc.b	$FD
-	dc.b	"For us here on an isolated"
+	dc.b	"Nous sommes coupés de tout sur"
 	dc.b	$FC
-	dc.b	"island, we can't tell what's"
+	dc.b	"l'île, nous ne comprenons pas ce"
 	dc.b	$FD
-	dc.b	"going in the world today."
+	dc.b	"qui se passe dans le monde."
 	dc.b	$FF
 
 ; $19
-	dc.b	"What? You've come from"
+	dc.b	"Comment? Vous venez du"
 	dc.b	$FC
-	dc.b	"the mainland?"
+	dc.b	"continent?"
 	dc.b	$FD
-	dc.b	"How unusual!"
+	dc.b	"Quelle surprise!"
 	dc.b	$FF
 
 ; $1A
 	dc.b	$FA
 	dc.b	$AF, $01
-	dc.b	"Working in the fields"
+	dc.b	"Le rude travail dans les champs"
 	dc.b	$FC
-	dc.b	"gives me backaches"
+	dc.b	"me donne mal au dos et abime"
 	dc.b	$FD
-	dc.b	"and makes my hands rough."
+	dc.b	"mes mains."
 	dc.b	$FD
-	dc.b	"But when I watch the crops"
+	dc.b	"Mais voir les récoltes pousser,"
 	dc.b	$FC
-	dc.b	"growing strong and green,"
+	dc.b	"ça fait disparaître toute"
 	dc.b	$FD
-	dc.b	"all my fatigue disappears!"
+	dc.b	"lassitude!"
 	dc.b	$FD
-	dc.b	"But these days,"
+	dc.b	"Mais de nos jours, ces oiseaux"
 	dc.b	$FC
-	dc.b	"we have those birds eating up"
+	dc.b	"mangent toutes les récoltes..."
 	dc.b	$FD
-	dc.b	"our fields...it's terrible!"
+	dc.b	"C'est affreux!"
 	dc.b	$FF
 
 ; $1B
-	dc.b	"Working in the fields"
+	dc.b	"Le rude travail dans les champs"
 	dc.b	$FC
-	dc.b	"gives me backaches"
+	dc.b	"me donne mal au dos et abime"
 	dc.b	$FD
-	dc.b	"and makes my hands rough."
+	dc.b	"mes mains."
 	dc.b	$FD
-	dc.b	"But when I watch the crops"
+	dc.b	"Mais voir les récoltes pousser,"
 	dc.b	$FC
-	dc.b	"growing strong and green,"
+	dc.b	"ça fait disparaître toute"
 	dc.b	$FD
-	dc.b	"all my fatigue disappears!"
+	dc.b	"lassitude!"
 	dc.b	$FF
 
 ; $1C
-	dc.b	"What's the 'mainland?'"
+	dc.b	"C'est quoi, le 'continent'?"
 	dc.b	$FC
-	dc.b	"Is it really such a great thing?"
+	dc.b	"C'est vraiment si bien que ça?"
 	dc.b	$FF
 
 ; $1D
 	dc.b	$FA
 	dc.b	$AA, $01
-	dc.b	"The son of those people"
+	dc.b	"Le fils de nos voisin est cloué"
 	dc.b	$FC
-	dc.b	"in the house over there has been"
+	dc.b	"au lit par sa maladie."
 	dc.b	$FD
-	dc.b	"sick in bed."
-	dc.b	$FD
-	dc.b	"Poor thing."
+	dc.b	"Je le plains."
 	dc.b	$FF
 
 ; $1E
-	dc.b	"The son of those people"
+	dc.b	"Le fils de nos voisin semble"
 	dc.b	$FC
-	dc.b	"in the house over there has"
+	dc.b	"être guéri maintenant."
 	dc.b	$FD
-	dc.b	"apparently recovered."
-	dc.b	$FD
-	dc.b	"I'm so glad!"
+	dc.b	"Quelle joie!"
 	dc.b	$FF
 
 ; $1F
-	dc.b	"What kind of clothes are"
+	dc.b	"Qu'est-ce qui est à la mode de"
 	dc.b	$FC
-	dc.b	"in style over on the mainland?"
+	dc.b	"nos jours sur le contient?"
 	dc.b	$FD
-	dc.b	"We get behind the times in terms"
+	dc.b	"Nous sommes tellement en"
 	dc.b	$FC
-	dc.b	"of fashion being cooped up"
+	dc.b	"décalage, isolés comme nous"
 	dc.b	$FD
-	dc.b	"in this village! Tell us!"
+	dc.b	"sommes ici! Dites-nous en plus!"
 	dc.b	$FF
 
 ; $20
@@ -209,91 +207,85 @@
 	dc.b	$AF, $02
 	dc.b	$FA
 	dc.b	$AE, $01
-	dc.b	"The person who lives in this"
+	dc.b	"L'homme qui vit dans cette"
 	dc.b	$FC
-	dc.b	"house is kind of strange."
+	dc.b	"maison est un peu bizarre."
 	dc.b	$FD
-	dc.b	"He likes those birds"
+	dc.b	"Il aime les oiseaux qui mangent"
 	dc.b	$FC
-	dc.b	"that eat our fields."
+	dc.b	"nos récoltes."
 	dc.b	$FD
-	dc.b	"Because of this,"
+	dc.b	"Il est mis à l'écart par les"
 	dc.b	$FC
-	dc.b	"he's being ostracized"
+	dc.b	"autres villageois à cause de"
 	dc.b	$FD
-	dc.b	"by the other villagers."
+	dc.b	"cela."
 	dc.b	$FF
 
 ; $21
-	dc.b	"Did you say the guy in the house"
+	dc.b	"Vous dite que l'homme qui habite"
 	dc.b	$FC
-	dc.b	"over there has commissioned"
+	dc.b	"dans cette maison a retenu la"
 	dc.b	$FD
-	dc.b	"the exterminatio"
+	dc.b	"guilde pour exterminer les"
 	dc.b	$FC
-	dc.b	"of the field-eating birds?"
+	dc.b	"oiseaux mangeurs de récoltes?"
 	dc.b	$FD
-	dc.b	"That's unbelievable!"
+	dc.b	"Je n'arrive pas à y croire!"
 	dc.b	$FD
-	dc.b	"He cared so much"
+	dc.b	"Il tenait tant à ces étranges"
 	dc.b	$FC
-	dc.b	"for those strange birds,"
+	dc.b	"volatiles, qu'il en était au"
 	dc.b	$FD
-	dc.b	"that it had come to the point"
+	dc.b	"point d'être renié par les"
 	dc.b	$FC
-	dc.b	"where he was ostracized"
-	dc.b	$FD
-	dc.b	"by the other villagers!"
+	dc.b	"autres villageois!"
 	dc.b	$FF
 
 ; $22
-	dc.b	"It looks like those birds have"
+	dc.b	"Il semblerait que les oiseaux"
 	dc.b	$FC
-	dc.b	"stopped coming to eat our"
+	dc.b	"qui dévoraient nos récoltes ne"
 	dc.b	$FD
-	dc.b	"fields."
+	dc.b	"viennent plus."
 	dc.b	$FD
-	dc.b	"I hear that's because the guy"
+	dc.b	"J'ai entendu dire que c'est"
 	dc.b	$FC
-	dc.b	"in the house over there"
+	dc.b	"grâce à l'homme qui habite ici."
 	dc.b	$FD
-	dc.b	"commissioned the Guild"
+	dc.b	"Il a retenu la guilde pour les"
 	dc.b	$FC
-	dc.b	"to exterminate them."
+	dc.b	"exterminer."
 	dc.b	$FD
-	dc.b	"I feel bad that we've been"
+	dc.b	"Je regrette que nous l'ayons"
 	dc.b	$FC
-	dc.b	"ostracizing him all this time!"
+	dc.b	"renié tout ce temps!"
 	dc.b	$FF
 
 ; $23
-	dc.b	"Our village used to have"
+	dc.b	"Notre village avait autrefois"
 	dc.b	$FC
-	dc.b	"abundant harvests of farm crops"
+	dc.b	"des récoltes abondantes de"
 	dc.b	$FD
-	dc.b	"and marine products."
+	dc.b	"cultures et de fruits de mer."
 	dc.b	$FD
-	dc.b	"We were proud of the fact"
+	dc.b	"Nous étions fiers d'être"
 	dc.b	$FC
-	dc.b	"that we were pretty much"
+	dc.b	"presque auto-suffisants quant"
 	dc.b	$FD
-	dc.b	"self-sufficient in terms"
+	dc.b	"à notre alimentation!"
+	dc.b	$FD
+	dc.b	"Mais dernièrement, impossible"
 	dc.b	$FC
-	dc.b	"of food supply!"
+	dc.b	"de pêcher à cause des monstres,"
 	dc.b	$FD
-	dc.b	"But recently,"
+	dc.b	"et les récoltes sont dévorées"
 	dc.b	$FC
-	dc.b	"we haven't been able to fish,"
+	dc.b	"par les oiseaux."
 	dc.b	$FD
-	dc.b	"what with the monsters,"
+	dc.b	"On arrive à peine à se nourrir."
 	dc.b	$FC
-	dc.b	"and the fields have been"
-	dc.b	$FD
-	dc.b	"eaten up by the birds."
-	dc.b	$FD
-	dc.b	"Now, we can barely find food"
-	dc.b	$FC
-	dc.b	"for ourselves. Boo hoo..."
+	dc.b	"Snif snif..."
 	dc.b	$FF
 
 ; $24
@@ -303,13 +295,13 @@
 	dc.b	$AE, $02
 	dc.b	$FA
 	dc.b	$AD, $01
-	dc.b	"Ohh..."
+	dc.b	"Ooh..."
 	dc.b	$FD
-	dc.b	"The fields are all eaten up!"
+	dc.b	"Les récoltes ont été dévorées!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Hmm..."
+	dc.b	"Mmm..."
 	dc.b	$FF
 
 ; $25
@@ -320,17 +312,17 @@
 ; $26
 	dc.b	$F4
 	dc.b	$27
-	dc.b	"Hmmph...at least"
+	dc.b	"Ouais...au moins, faites de"
 	dc.b	$FC
-	dc.b	"do your best!"
+	dc.b	"votre mieux!"
 	dc.b	$FF
 
 ; $27
 	dc.b	$F4
 	dc.b	$27
-	dc.b	"You guys..."
+	dc.b	"Vous tous... Je vous présente"
 	dc.b	$FC
-	dc.b	"I apologize for what I did."
+	dc.b	"mes excuses pour mes actes."
 	dc.b	$FF
 
 ; $28
@@ -344,21 +336,19 @@
 	dc.b	$A9, $02
 	dc.b	$FA
 	dc.b	$A8, $01
-	dc.b	"My son has become ill..."
+	dc.b	"Mon fils est tombé malade..."
 	dc.b	$FC
-	dc.b	"he is convinced that he won't"
+	dc.b	"Il est convaincu qu'il ne peut"
 	dc.b	$FD
-	dc.b	"be cured."
+	dc.b	"pas guérir."
 	dc.b	$FD
-	dc.b	"Actually,"
+	dc.b	"En fait, physiquement, il est"
 	dc.b	$FC
-	dc.b	"physically he is cured."
+	dc.b	"guéri. Ce doit être une de ces"
 	dc.b	$FD
-	dc.b	"It must be one of those"
+	dc.b	"supposées maladies"
 	dc.b	$FC
-	dc.b	"so-called psychological"
-	dc.b	$FD
-	dc.b	"illnesses."
+	dc.b	"psycho-somatiques."
 	dc.b	$FF
 
 ; $29
@@ -367,15 +357,15 @@
 	dc.b	$FF
 
 ; $2A
-	dc.b	"I ask this of you knowing full"
+	dc.b	"Je vous demande ceci en sachant"
 	dc.b	$FC
-	dc.b	"well how impertinent it is"
+	dc.b	"pertinemment comment c'est"
 	dc.b	$FD
-	dc.b	"to ask this of a hunter!"
+	dc.b	"insolent de vous le demander!"
 	dc.b	$FD
-	dc.b	"Please buy a souvenir"
+	dc.b	"S'il-vous-plaît, achetez un"
 	dc.b	$FC
-	dc.b	"from Termi for my son!"
+	dc.b	"souvenir de Termi pour mon fils!"
 	dc.b	$FF
 
 ; $2B
@@ -384,17 +374,17 @@
 	dc.b	$FF
 
 ; $2C
-	dc.b	"Thank you so much."
+	dc.b	"Merci de tout coeur."
 	dc.b	$FD
-	dc.b	"I will remit your commission"
+	dc.b	"Je verserai votre cachet à"
 	dc.b	$FC
-	dc.b	"fee to the Guild!"
+	dc.b	"la guilde!"
 	dc.b	$FF
 
 ; $2D
-	dc.b	"Thank you so much."
+	dc.b	"Merci de tout coeur."
 	dc.b	$FC
-	dc.b	"My son has recovered!"
+	dc.b	"Mon fils est rétabli!"
 	dc.b	$FF
 
 ; $2E
@@ -404,63 +394,55 @@
 	dc.b	$AA, $02
 	dc.b	$FA
 	dc.b	$A8, $01
-	dc.b	"Back in the days when"
+	dc.b	"Autrefois, quand il y avait"
 	dc.b	$FC
-	dc.b	"there weren't many monsters,"
+	dc.b	"moins de monstre, notre famille"
 	dc.b	$FD
-	dc.b	"there was a tourist town"
+	dc.b	"visitait une ville touristique"
 	dc.b	$FC
-	dc.b	"on the mainland..."
+	dc.b	"sur le continent..."
 	dc.b	$FD
-	dc.b	"Our family used to visit it."
-	dc.b	$FD
-	dc.b	"My son took to the place,"
+	dc.b	"Mon fils aimait beaucoup"
 	dc.b	$FC
-	dc.b	"and was very happy."
+	dc.b	"l'endroit et était heureux."
 	dc.b	$FD
-	dc.b	"I wish he would get back the"
+	dc.b	"Je souhaiterais qu'il retrouve"
 	dc.b	$FC
-	dc.b	"strength he had in those days."
+	dc.b	"la santé qu'il avait à l'époque."
 	dc.b	$FF
 
 ; $2F
-	dc.b	"The village of Termi,"
+	dc.b	"Notre famille visitait autrefois"
 	dc.b	$FC
-	dc.b	"where we used to take family"
+	dc.b	"le village de Termi...Mon fils"
 	dc.b	$FD
-	dc.b	"trips...my son took"
+	dc.b	"aimait beaucoup cet endroit."
+	dc.b	$FD
+	dc.b	"Il appréciait surtout la statue"
 	dc.b	$FC
-	dc.b	"to the place greatly."
+	dc.b	"de l'héroïne sur la colline."
 	dc.b	$FD
-	dc.b	"He was especially delighted"
+	dc.b	"Il disait, 'même si elle est une"
 	dc.b	$FC
-	dc.b	"to see the statue of the heroine"
+	dc.b	"femme, elle a l'air sympa,' et"
 	dc.b	$FD
-	dc.b	"on the hill."
-	dc.b	$FD
-	dc.b	"He said,"
+	dc.b	"il voulait devenir fort et"
 	dc.b	$FC
-	dc.b	"even though she's a woman,"
+	dc.b	"vaincre les méchants, lui aussi."
 	dc.b	$FD
-	dc.b	"she looks cool, and he wants"
-	dc.b	$FC
-	dc.b	"to be strong and conquer evil"
-	dc.b	$FD
-	dc.b	"people, too."
-	dc.b	$FD
-	dc.b	"But now this..."
+	dc.b	"Et maintenant ça..."
 	dc.b	$FF
 
 ; $30
-	dc.b	"Thank goodness!"
+	dc.b	"Dieu merci!"
 	dc.b	$FC
-	dc.b	"My son has recovered!"
+	dc.b	"Mon fils est guéri!"
 	dc.b	$FF
 
 ; $31
-	dc.b	"Thank you for what you did."
+	dc.b	"Merci de votre aide."
 	dc.b	$FC
-	dc.b	"My son has become quite well!"
+	dc.b	"Mon fils s'est bien rétabli!"
 	dc.b	$FF
 
 ; $32
@@ -471,16 +453,18 @@
 ; $33
 	dc.b	$F4
 	dc.b	$26
-	dc.b	"Wow! Look at this!"
-	dc.b	$FD
-	dc.b	"It's the Alis-Sword!"
+	dc.b	"Wow! Regardez-moi ça!"
 	dc.b	$FC
-	dc.b	"That heroine...we saw at Termi!"
+	dc.b	"C'est l'Épée-Alis!"
+	dc.b	$FD
+	dc.b	"Cette héroïne...je l'ai vue à"
+	dc.b	$FC
+	dc.b	"Termi!"
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Ready? Now watch."
+	dc.b	"Prêt? Regarde bien."
 	dc.b	$F7
 
 	dc.b	$F4
@@ -490,41 +474,35 @@
 
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"This sword is filled with the"
+	dc.b	"Cette épée est emplie de la"
 	dc.b	$FC
-	dc.b	"strength and courage"
+	dc.b	"force et du courage de l'héroïne"
 	dc.b	$FD
-	dc.b	"of the heroine Alis!"
+	dc.b	"Alis!"
 	dc.b	$FD
-	dc.b	"Here. It's for you."
+	dc.b	"Tiens. Elle est à toi."
 	dc.b	$FC
-	dc.b	"Now, you get better!"
+	dc.b	"Maintenant, guéris vite!"
 	dc.b	$FD
 	dc.b	$F2, $03
 	dc.b	$9E
 	dc.b	$F4
 	dc.b	$26
-	dc.b	"Oh yes!"
+	dc.b	"Oui! Merci! J'ai déjà"
 	dc.b	$FC
-	dc.b	"Thank you!"
-	dc.b	$FD
-	dc.b	"I feel like I'm"
-	dc.b	$FC
-	dc.b	"getting better already!"
+	dc.b	"l'impression de me sentir mieux!"
 	dc.b	$FF
 
 ; $34
-	dc.b	"I like the heroine,"
+	dc.b	"J'aime bien Alis l'héroïne, mais"
 	dc.b	$FC
-	dc.b	"Alis, but you looked cool,"
+	dc.b	"toi aussi, t'avais l'air cool,"
 	dc.b	$FD
-	dc.b	"just like a real hero yourself,"
+	dc.b	"comme un vrai héros, quand tu"
 	dc.b	$FC
-	dc.b	"when you were doing that!"
+	dc.b	"maniais l'épée!"
 	dc.b	$FD
-	dc.b	"I want to become strong"
-	dc.b	$FC
-	dc.b	"just like you!"
+	dc.b	"Je veux devenir fort, comme toi!"
 	dc.b	$FF
 
 ; $35
@@ -540,65 +518,65 @@
 	dc.b	$FF
 
 ; $39
-	dc.b	"Are you the hunters from"
+	dc.b	"Vous êtes les chasseurs de la"
 	dc.b	$FC
-	dc.b	"the Guild?"
+	dc.b	"guilde?"
 	dc.b	$FD
-	dc.b	"My name is Culvers."
+	dc.b	"Je m'appelle Culvers."
 	dc.b	$FD
-	dc.b	"My son has become ill...but"
+	dc.b	"Mon fils est tombé malade...mais"
 	dc.b	$FC
-	dc.b	"actually, the doctor said"
+	dc.b	"en fait, le docteur dit qu'il"
 	dc.b	$FD
-	dc.b	"that he has been cured."
+	dc.b	"est déjà guéri."
 	dc.b	$FD
-	dc.b	"But my son is convinced"
+	dc.b	"Mais mon fils reste convaincu"
 	dc.b	$FC
-	dc.b	"that he is going to die,"
+	dc.b	"qu'il ne peut guérir et qu'il"
 	dc.b	$FD
-	dc.b	"that he can't be cured."
+	dc.b	"va mourir."
 	dc.b	$FD
-	dc.b	"It's one of those so-called"
+	dc.b	"C'est une de ces supposées"
 	dc.b	$FC
-	dc.b	"psychological illnesses."
+	dc.b	"maladies psyco-somatiques."
 	dc.b	$FD
-	dc.b	"Back in the days when there"
+	dc.b	"À l'époque où il y avait moins"
 	dc.b	$FC
-	dc.b	"weren't many monsters,"
+	dc.b	"de monstres, notre famille"
 	dc.b	$FD
-	dc.b	"we used to take family trips"
+	dc.b	"visitait souvent Termi."
+	dc.b	$FD
+	dc.b	"Si seulement nous pouvions l'y"
 	dc.b	$FC
-	dc.b	"to Termi."
+	dc.b	"amener... mais c'est impossible."
 	dc.b	$FD
-	dc.b	"If we could only take him"
+	dc.b	"Si nous pouvions lui montrer"
 	dc.b	$FC
-	dc.b	"now... but that's not possible."
+	dc.b	"une chose reliée à Termi, peut-"
 	dc.b	$FD
-	dc.b	"If we showed him something"
+	dc.b	"être sa force reviendra."
+	dc.b	$FD
+	dc.b	"Je vous en prie, pourriez-vous"
 	dc.b	$FC
-	dc.b	"that is connected to Termi"
+	dc.b	"ramener quelque chose du magasin"
 	dc.b	$FD
-	dc.b	"it might get his strength back."
-	dc.b	$FD
-	dc.b	"Please, could you go and buy"
-	dc.b	$FC
-	dc.b	"something from the gift shop"
-	dc.b	$FD
-	dc.b	"at Termi?"
+	dc.b	"de souvenirs de Termi?"
 	dc.b	$FF
 
 ; $3A
-	dc.b	"Oh, it's a miracle!"
+	dc.b	"C'est un miracle! Mon fils est"
 	dc.b	$FC
-	dc.b	"My son has recovered!"
+	dc.b	"guéri!"
 	dc.b	$FD
-	dc.b	"It's all thanks to you!"
+	dc.b	"C'est grâce à vous! Vous êtes"
 	dc.b	$FC
-	dc.b	"You are the second hero!"
+	dc.b	"aussi un héros!"
 	dc.b	$FD
-	dc.b	"Thank you so much. I'll remit"
+	dc.b	"Merci de tout coeur. Je"
 	dc.b	$FC
-	dc.b	"your fee to the Guild!"
+	dc.b	"laisserai votre cachet à la"
+	dc.b	$FD
+	dc.b	"guilde."
 	dc.b	$FF
 
 ; $3B
@@ -606,45 +584,39 @@
 	dc.b	$26
 	dc.b	"Ohhhh..."
 	dc.b	$FD
-	dc.b	"I'm going to die."
+	dc.b	"Je vais mourir. Il me reste"
 	dc.b	$FC
-	dc.b	"I don't have long..."
+	dc.b	"pas beaucoup de temps..."
 	dc.b	$FF
 
 ; $3C
 	dc.b	$F4
 	dc.b	$27
-	dc.b	"Are you the hunters from the"
+	dc.b	"Vous êtes les chasseurs de la"
 	dc.b	$FC
-	dc.b	"Guild? I'm Sekreas."
+	dc.b	"Guilde? Je suis Sekreas."
 	dc.b	$FD
-	dc.b	"You've heard that a strange"
+	dc.b	"Vous avez entendu parler des"
 	dc.b	$FC
-	dc.b	"flock of birds has been eating"
+	dc.b	"drôles d'oiseaux qui dévorent"
 	dc.b	$FD
-	dc.b	"up these fields, right?"
+	dc.b	"les récoltes, n'est-ce pas?"
 	dc.b	$FD
-	dc.b	"Well, the fact is,"
+	dc.b	"Eh bien, je sais où le grand"
 	dc.b	$FC
-	dc.b	"I know the place where"
+	dc.b	"chef des oiseaux se cache."
 	dc.b	$FD
-	dc.b	"the head honcho bird is."
-	dc.b	$FD
-	dc.b	"What I want to ask you to do"
+	dc.b	"Alors, je vous demande de"
 	dc.b	$FC
-	dc.b	"is exterminate"
+	dc.b	"l'exterminer."
 	dc.b	$FD
-	dc.b	"the head honcho bird."
-	dc.b	$FD
-	dc.b	"That head honcho bird"
+	dc.b	"Vous le trouverez dans une"
 	dc.b	$FC
-	dc.b	"can be found in a cave"
+	dc.b	"caverne au nord-est d'ici."
 	dc.b	$FD
-	dc.b	"northeast of here."
-	dc.b	$FD
-	dc.b	"I beg of you, get that bird!"
+	dc.b	"Je vous en prie, tuez-le!"
 	dc.b	$FC
-	dc.b	"Protect our fields!"
+	dc.b	"Sauvez nos récoltes!"
 	dc.b	$FF
 
 ; $3D
@@ -655,7 +627,5 @@
 ; $3E
 	dc.b	$F4
 	dc.b	$26
-	dc.b	"I feel like I'm"
-	dc.b	$FC
-	dc.b	"getting some strength back!"
+	dc.b	"Je crois que ma force revient!"
 	dc.b	$FF

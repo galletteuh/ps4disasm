@@ -1,37 +1,37 @@
 ; 0
 	dc.b	$F4
 	dc.b	$09
-	dc.b	"Ah, you made it, Chaz."
+	dc.b	"Ah, te voilà, Chaz."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
 	dc.b	$F2, $00
 	dc.w	$00A6
-	dc.b	"Raja! Are you OK now?"
+	dc.b	"Raja! Tu vas bien maintenant?"
 	dc.b	$FC
-	dc.b	"And Kyra! You're here too!"
+	dc.b	"Et Kyra! Tu es là aussi!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$09
-	dc.b	"A minor sickness like that"
+	dc.b	"Une petit malaise comme ça"
 	dc.b	$FC
-	dc.b	"couldn't keep me in bed!"
+	dc.b	"n'allait pas me clouer au lit!"
 	dc.b	$FD
-	dc.b	"Take me with you!"
+	dc.b	"Je veux vous accompagner!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"There's reassurance in numbers."
+	dc.b	"L'union fait la force."
 	dc.b	$FD
-	dc.b	"Since I'm so reliable,"
+	dc.b	"Je vous accompagnerai, pour que"
 	dc.b	$FC
-	dc.b	"I'll accompany you!"
+	dc.b	"vous profitiez de ma fiabilité!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Raja and Kyra..."
+	dc.b	"Raja, Kyra..."
 	dc.b	$FC
-	dc.b	"Thank you!"
+	dc.b	"Merci!"
 	dc.b	$FF
 
 ; $1
@@ -39,137 +39,133 @@
 	dc.b	$01
 	dc.b	"Hahn! Gryz!"
 	dc.b	$FC
-	dc.b	"And Demi too!"
+	dc.b	"Et Demi!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Hey, Chaz!"
+	dc.b	"Hé, Chaz!"
 	dc.b	$FD
-	dc.b	"You seem to have become stronger"
+	dc.b	"Tu sembles avoir gagné en force"
 	dc.b	$FC
-	dc.b	"since we last met!"
+	dc.b	"depuis notre dernière rencontre!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$05
-	dc.b	"I was scolded by Pana,"
+	dc.b	"Pana m'a grondé, mais je suis"
 	dc.b	$FC
-	dc.b	"but I came anyway."
+	dc.b	"venu tout de même."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$07
-	dc.b	"The system is finally"
+	dc.b	"Le système est finalement"
 	dc.b	$FC
-	dc.b	"stabilized!"
+	dc.b	"devenu stable!"
 	dc.b	$FD
-	dc.b	"Now I can go with you!"
+	dc.b	"Je peux vous accompagner!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Everybody...everybody..."
+	dc.b	"Tous...vous tous..."
 	dc.b	$FC
-	dc.b	"Thank you so much!"
+	dc.b	"Merci, de tout coeur!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Demi, what is this disaster"
+	dc.b	"Demi, quel est cette catastrophe"
 	dc.b	$FC
-	dc.b	"you reported?"
+	dc.b	"dont vous nous avez informés?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$07
-	dc.b	"Well, a large hole suddenly"
+	dc.b	"Eh bien, un énorme trou s'est"
 	dc.b	$FC
-	dc.b	"opened north of Piata!"
+	dc.b	"ouvert au nord de Piata!"
 	dc.b	$FD
-	dc.b	"The life forms around that hole"
+	dc.b	"Toute forme de vie aux alentours"
 	dc.b	$FC
-	dc.b	"are dying, one after the other!"
+	dc.b	"se meurt, quelle qu'elle soit!"
 	dc.b	$FD
-	dc.b	"But there's no gas or radiation"
+	dc.b	"Mais je ne détecte aucun gaz"
 	dc.b	$FC
-	dc.b	"emissions coming from the hole."
+	dc.b	"ou radiations provenant de là."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
 	dc.b	$F2, $00
 	dc.w	$00A7
-	dc.b	"There is no need to verify it!"
+	dc.b	"Il n'y a rien à détecter!"
 	dc.b	$FD
-	dc.b	"We knew as soon as we arrived"
+	dc.b	"Nous en étions sûrs dès notre"
 	dc.b	$FC
-	dc.b	"in Motavia."
+	dc.b	"arrivée sur Motavia."
 	dc.b	$FD
-	dc.b	"It's all due to the"
+	dc.b	"C'est à cause de l'Onde"
 	dc.b	$FC
-	dc.b	"Black Energy Wave -- and"
+	dc.b	"d'Énergie Noire -- et elle est"
 	dc.b	$FD
-	dc.b	"a pretty strong one at that!"
+	dc.b	"très puissante cette fois!"
 	dc.b	$FD
-	dc.b	"It's The Profound Darkness."
+	dc.b	"C'est la Noirceur Profonde."
 	dc.b	$FD
-	dc.b	"He finally opened the door"
+	dc.b	"Elle a finalement réussi à créer"
 	dc.b	$FC
-	dc.b	"from the other dimension."
+	dc.b	"une brèche depuis sa dimension."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Chaz, let's go!"
+	dc.b	"Chaz, allons-y!"
 	dc.b	$FC
-	dc.b	"Isn't this the last battle?"
+	dc.b	"C'est l'ultime bataille, non?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"Really,"
+	dc.b	"Vraiment, vous avez besoin de"
 	dc.b	$FC
-	dc.b	"you guys need taking care of."
+	dc.b	"quelqu'un pour prendre soin de"
 	dc.b	$FD
-	dc.b	"I'll be your big sister and"
+	dc.b	"vous. Je serai la grande soeur"
 	dc.b	$FC
-	dc.b	"look after you!"
+	dc.b	"qui vous prendra en charge!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Well,"
+	dc.b	"Eh bien, comme vous êtes tous"
 	dc.b	$FC
-	dc.b	"seeing that we're all here,"
+	dc.b	"là, j'aimerais bien tous vous"
 	dc.b	$FD
-	dc.b	"I'd like all of you to go,"
-	dc.b	$FC
-	dc.b	"but..."
+	dc.b	"emmener avec moi, mais..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"There are only five 'Rings of"
+	dc.b	"Nous avons seulement cinq"
 	dc.b	$FC
-	dc.b	"Stars' to protect us from"
+	dc.b	"Anneaux Stellaires' pour nous"
 	dc.b	$FD
-	dc.b	"the power of the 'Darkness'!"
+	dc.b	"protéger des ténèbres!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"So that means we have to choose"
+	dc.b	"Alors nous ne pouvons choisir"
 	dc.b	$FC
-	dc.b	"one person to take.!"
+	dc.b	"qu'un seul d'entre vous!"
 	dc.b	$FF
 
 ; $2
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Chaz,"
-	dc.b	$FC
-	dc.b	"to tell you the truth,"
+	dc.b	"Chaz, j'ai un secret..."
 	dc.b	$FD
-	dc.b	"since that time I've been"
+	dc.b	"Depuis qu'on s'est vu, je me"
 	dc.b	$FC
-	dc.b	"secretly training!"
+	dc.b	"suis entraîné en secret!"
 	dc.b	$FD
-	dc.b	"So that I'd be able to"
+	dc.b	"Donc, je pourrai vous être"
 	dc.b	$FC
-	dc.b	"be of more help to you guys!"
+	dc.b	"d'un grand secours cette fois!"
 	dc.b	$FD
-	dc.b	"Please!"
+	dc.b	"Je t'en pris!"
 	dc.b	$FC
-	dc.b	"Take me with you!"
+	dc.b	"Laissez-moi vous accompagner!"
 	dc.b	$FF
 
 ; $3
@@ -180,44 +176,40 @@
 	dc.b	$06
 	dc.b	"Chaz,"
 	dc.b	$FC
-	dc.b	"are you going to take Hahn?"
+	dc.b	"est-ce que tu choisis Hahn?"
 	dc.b	$F5
 	dc.b	$00, $01
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Thank you! I'll do my best"
+	dc.b	"Merci! Je ferai de mon mieux"
 	dc.b	$FC
-	dc.b	"not to be a nuisance!"
+	dc.b	"pour ne pas être un boulet!"
 	dc.b	$FF
 
 ; $5
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"OK,"
+	dc.b	"D'accord, j'imagine que c'est"
 	dc.b	$FC
-	dc.b	"I guess it can't be helped..."
-	dc.b	$FD
-	dc.b	"Good luck!"
+	dc.b	"mieux ainsi... Bonne chance!"
 	dc.b	$FF
 
 ; $6
 	dc.b	$F4
 	dc.b	$05
-	dc.b	"Pana says it's pitiful that"
+	dc.b	"Pana dit que c'est pitoyable"
 	dc.b	$FC
-	dc.b	"you'd come back for her sake."
+	dc.b	"de revenir pour elle."
 	dc.b	$FD
-	dc.b	"That's what she says."
+	dc.b	"C'est ce qu'elle m'a dit."
 	dc.b	$FC
-	dc.b	"And she says you don't have to"
+	dc.b	"Et elle dit de ne pas souffrir"
 	dc.b	$FD
-	dc.b	"put up with things for her sake,"
-	dc.b	$FC
-	dc.b	"she's all right."
+	dc.b	"pour elle, elle se débrouillera."
 	dc.b	$FD
-	dc.b	"Chaz, let me make amends."
+	dc.b	"Chaz, laisse-moi me racheter."
 	dc.b	$FC
-	dc.b	"Let's go together!"
+	dc.b	"Allons-y ensemble!"
 	dc.b	$FF
 
 ; $7
@@ -228,42 +220,40 @@
 	dc.b	$06
 	dc.b	"Chaz,"
 	dc.b	$FC
-	dc.b	"are you going to take Gryz?"
+	dc.b	"est-ce que tu choisis Gryz?"
 	dc.b	$F5
 	dc.b	$00, $01
 	dc.b	$F4
 	dc.b	$05
-	dc.b	"All right!"
-	dc.b	$FD
-	dc.b	"This time I'll stay until"
+	dc.b	"Super! Cette fois-ci, je"
 	dc.b	$FC
-	dc.b	"the very end for sure!"
+	dc.b	"resterai jusqu'à la fin!"
 	dc.b	$FF
 
 ; $9
 	dc.b	$F4
 	dc.b	$05
-	dc.b	"That's too bad..."
-	dc.b	$FD
-	dc.b	"I'm counting on you for my part"
+	dc.b	"Dommage... Je compte sur toi"
 	dc.b	$FC
-	dc.b	"too!"
+	dc.b	"pour me remplacer!"
 	dc.b	$FF
 
 ; $A
 	dc.b	$F4
 	dc.b	$07
-	dc.b	"The systems in Motavia are"
+	dc.b	"Tous les systèmes de Motavia"
 	dc.b	$FC
-	dc.b	"completely functioning now!"
+	dc.b	"fonctionnent à la perfection!"
 	dc.b	$FD
-	dc.b	"I can accompany you"
+	dc.b	"Je peux vous accompagner sans"
 	dc.b	$FC
-	dc.b	"without any misgivings!"
+	dc.b	"arrière-pensée!"
 	dc.b	$FD
-	dc.b	"You can't have the person"
+	dc.b	"Il serait anormal que celle qui"
 	dc.b	$FC
-	dc.b	"in charge of Motavia not go!"
+	dc.b	"est responsable de Motavia reste"
+	dc.b	$FD
+	dc.b	"en retrait!"
 	dc.b	$FF
 
 ; $B
@@ -274,46 +264,48 @@
 	dc.b	$06
 	dc.b	"Chaz,"
 	dc.b	$FC
-	dc.b	"are you going to take Demi?"
+	dc.b	"est-ce que tu choisis Demi?"
 	dc.b	$F5
 	dc.b	$00, $01
 	dc.b	$F4
 	dc.b	$07
-	dc.b	"I'm ready. I'm up to it!"
+	dc.b	"Je suis prête. Fin prête!"
 	dc.b	$FC
-	dc.b	"Master, you just watch me!"
+	dc.b	"Maître, regardez-moi faire!"
 	dc.b	$FF
 
 ; $D
 	dc.b	$F4
 	dc.b	$07
-	dc.b	"Well...I understand."
+	dc.b	"D'accord... je comprends."
 	dc.b	$FD
-	dc.b	"I entrust everything to all of"
+	dc.b	"Je vous confie cette tâche sans"
 	dc.b	$FC
-	dc.b	"you!"
+	dc.b	"hésiter!"
 	dc.b	$FF
 
 ; $E
 	dc.b	$F4
 	dc.b	$09
-	dc.b	"A tour of Motavia has long been"
+	dc.b	"J'ai toujours rêvé de voir"
 	dc.b	$FC
-	dc.b	"my dream!"
+	dc.b	"Motavia!"
 	dc.b	$FD
-	dc.b	"I want to go and see all"
+	dc.b	"Je veux me promener et voir tous"
 	dc.b	$FC
-	dc.b	"the famous places..."
+	dc.b	"les endroits si célèbres..."
 	dc.b	$FD
-	dc.b	"I'd better hurry and clean"
+	dc.b	"Alors je ferais mieux de me"
 	dc.b	$FC
-	dc.b	"everything up!"
+	dc.b	"dépêcher de tout purifier!"
 	dc.b	$FD
-	dc.b	"How about it?"
+	dc.b	"Qu'en dis-tu?"
 	dc.b	$FD
-	dc.b	"If you take me you won't have"
+	dc.b	"Si je viens avec vous, tu"
 	dc.b	$FC
-	dc.b	"a moment of boredom! Ha, ha, ha!"
+	dc.b	"n'auras pas le temps"
+	dc.b	$FD
+	dc.b	"de t'ennuyer! Ha ha!"
 	dc.b	$FF
 
 ; $F
@@ -324,48 +316,46 @@
 	dc.b	$06
 	dc.b	"Chaz,"
 	dc.b	$FC
-	dc.b	"are you going to take Raja?"
+	dc.b	"est-ce que tu choisis Raja?"
 	dc.b	$F5
 	dc.b	$00, $01
 	dc.b	$F4
 	dc.b	$09
-	dc.b	"Just as I thought,"
+	dc.b	"Je savais que tu avais un goût"
 	dc.b	$FD
-	dc.b	"you're a pretty good judge of"
+	dc.b	"infaillible pour les gens"
 	dc.b	$FC
-	dc.b	"character. You'll go far!"
+	dc.b	"intelligents. Tu iras loin!"
 	dc.b	$FF
 
 ; $11
 	dc.b	$F4
 	dc.b	$09
-	dc.b	"...I see."
-	dc.b	$FD
-	dc.b	"Well, I'll be waiting for you,"
+	dc.b	"...Je vois. Bon, je vous"
 	dc.b	$FC
-	dc.b	"so get the job done quickly!"
+	dc.b	"attendrai ici, dépêchez-vous!"
 	dc.b	$FF
 
 ; $12
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"My buddies at Meese were kind"
+	dc.b	"Mes copains de Meese ont été"
 	dc.b	$FC
-	dc.b	"enough to tell me not to"
+	dc.b	"chouettes, ils m'ont dit de ne"
 	dc.b	$FD
-	dc.b	"worry about the future."
+	dc.b	"pas m'en faire."
 	dc.b	$FD
-	dc.b	"They told me to go. After all,"
+	dc.b	"Ils m'ont poussé à venir. Après"
 	dc.b	$FC
-	dc.b	"Chaz and everyone will be"
+	dc.b	"tout, Chaz, toi et tes amis"
 	dc.b	$FD
-	dc.b	"benefactors of Dezolis!"
+	dc.b	"avez fait beaucoup pour Dezolis!"
 	dc.b	$FD
-	dc.b	"Oh Chaz, take me along!"
+	dc.b	"Oh Chaz, choisis-moi!"
 	dc.b	$FD
-	dc.b	"Wouldn't I be of some help to"
+	dc.b	"Je serais d'une grande aide,"
 	dc.b	$FC
-	dc.b	"you?"
+	dc.b	"pas vrai?"
 	dc.b	$FF
 
 ; $13
@@ -376,115 +366,107 @@
 	dc.b	$06
 	dc.b	"Chaz,"
 	dc.b	$FC
-	dc.b	"are you going to take Kyra?"
+	dc.b	"est-ce que tu choisis Kyra?"
 	dc.b	$F5
 	dc.b	$00, $01
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"Right on! Just leave it up to"
+	dc.b	"Super! Tu peux te fier à ta"
 	dc.b	$FC
-	dc.b	"your big sister Kyra!"
+	dc.b	"grande soeur Kyra!"
 	dc.b	$FF
 
 ; $15
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"I see. I'll be waiting, Chaz."
+	dc.b	"Je vois. J'attendrai ici, Chaz."
 	dc.b	$FC
-	dc.b	"Be sure to come back!"
+	dc.b	"Revenez en un seul morceau!"
 	dc.b	$FF
 
 ; $16
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Are we going in the right"
-	dc.b	$FC
-	dc.b	"direction?"
+	dc.b	"C'est bien la bonne direction?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"We are on course."
+	dc.b	"Nous suivons la trajectoire."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Is it an island like"
+	dc.b	"Est-ce une île comme le Air"
 	dc.b	$FC
-	dc.b	"the Air-Castle,"
+	dc.b	"Castle, ou un satellite"
 	dc.b	$FD
-	dc.b	"or is it an artificial satellite"
+	dc.b	"artificiel, comme Zelan ou"
 	dc.b	$FC
-	dc.b	"like Zelan or Kuran?"
+	dc.b	"Kuran?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"If we keep to this course"
+	dc.b	"Si nous continuons sur cette"
 	dc.b	$FC
-	dc.b	"we will leave the Algo"
+	dc.b	"trajectoire, nous quitterons le"
 	dc.b	$FD
-	dc.b	"solar system!"
+	dc.b	"système solaire d'Algo!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"We have no choice"
+	dc.b	"Pas le choix, nous devons"
 	dc.b	$FC
-	dc.b	"but to keep going."
+	dc.b	"continuer."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Wow!"
-	dc.b	$FC
-	dc.b	"This is astounding!"
+	dc.b	"Wow! C'est... stupéfiant!"
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Hey!"
-	dc.b	$FC
-	dc.b	"It's the Aero-Prism again!"
+	dc.b	"Hé! L'Aero-Prisme!"
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Whew, you scared me."
+	dc.b	"Ah, tu m'as fait peur. Qu'est-ce"
 	dc.b	$FC
-	dc.b	"What happened?"
+	dc.b	"qu'il y a?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Chaz, look!"
+	dc.b	"Chaz, regarde!"
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"It's a planet."
+	dc.b	"Il s'agit d'une planète."
+	dc.b	$FD
+	dc.b	"Cette planète a surgi de nulle"
 	dc.b	$FC
-	dc.b	"A planet has suddenly appeared."
+	dc.b	"part."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"That can't be!"
-	dc.b	$FD
-	dc.b	"There's no indication"
+	dc.b	"Impossible! On ne voit rien sur"
 	dc.b	$FC
-	dc.b	"on the radar?!"
+	dc.b	"le radar?!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"It's not Motavia,"
+	dc.b	"Ce n'est pas Motavia, ce n'est"
 	dc.b	$FC
-	dc.b	"it's not Dezolis... and"
+	dc.b	"pas Dezolis... et bien sur, ce"
 	dc.b	$FD
-	dc.b	"of course it's not Parma."
+	dc.b	"ne peut être Parma."
 	dc.b	$FD
-	dc.b	"There is no such planet"
+	dc.b	"Il n'y aucune correspondance"
 	dc.b	$FC
-	dc.b	"in my database!"
+	dc.b	"dans ma base de données!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"This is..."
-	dc.b	$FC
-	dc.b	"This must be Rykros!"
+	dc.b	"Alors... ce doit être Rykros!"
 	dc.b	$FF
 
 ; $17
@@ -492,121 +474,117 @@
 	dc.w	$0186
 	dc.b	$F4
 	dc.b	$07
-	dc.b	"We have been awaiting you,"
+	dc.b	"Nous vous attendions, Maître"
 	dc.b	$FC
-	dc.b	"Master Wren."
+	dc.b	"Wren."
 	dc.b	$FD
-	dc.b	"Long time no see."
+	dc.b	"Heureuse de vous revoir."
 	dc.b	$FD
-	dc.b	"I'm glad that you're all looking"
+	dc.b	"Je me réjouis de vous voir"
 	dc.b	$FC
-	dc.b	"so well!"
-	dc.b	$FD
-	dc.b	$F4
-	dc.b	$08
-	dc.b	"Demi, what is the"
-	dc.b	$FC
-	dc.b	"condition of Motavia?"
-	dc.b	$FD
-	dc.b	$F4
-	dc.b	$07
-	dc.b	"All systems on hold."
-	dc.b	$FC
-	dc.b	"There are no abnormalities."
-	dc.b	$FD
-	dc.b	"Everything you requested"
-	dc.b	$FC
-	dc.b	"is already on stand-by."
+	dc.b	"tous en bonne condition!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"As always your preparations"
+	dc.b	"Demi, quelle est la situation"
 	dc.b	$FC
-	dc.b	"are impeccable, Demi."
+	dc.b	"sur Motavia?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$07
-	dc.b	"Oh! Thank you very much,"
+	dc.b	"Tous les systèmes sont en"
 	dc.b	$FC
-	dc.b	"Master Wren!"
+	dc.b	"attente. Aucune anomalie."
+	dc.b	$FD
+	dc.b	"Tout ce que vous avez demandé"
+	dc.b	$FC
+	dc.b	"attend vos instructions."
+	dc.b	$FD
+	dc.b	$F4
+	dc.b	$08
+	dc.b	"Comme toujours, vos préparatifs"
+	dc.b	$FC
+	dc.b	"sont irréprochables, Demi."
+	dc.b	$FD
+	dc.b	$F4
+	dc.b	$07
+	dc.b	"Oh! Je vous remercie, Maître"
+	dc.b	$FC
+	dc.b	"Wren!"
 	dc.b	$FD
 	dc.b	$F2, $01
 	dc.b	$F2, $00
 	dc.w	$0117
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"This is...incredible!"
+	dc.b	"Wow, c'est...incroyable!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$07
-	dc.b	"This is a Hydrofoil! We brought"
+	dc.b	"Ceci est un Hydroptère! Nous"
 	dc.b	$FC
-	dc.b	"it from the Machine Center."
+	dc.b	"l'avons amené du Centre des"
 	dc.b	$FD
-	dc.b	"It has been completely"
+	dc.b	"Machines. Il a été complètement"
 	dc.b	$FC
-	dc.b	"overhauled!"
+	dc.b	"remanié!"
 	dc.b	$FD
-	dc.b	"It's as good as new!"
+	dc.b	"Il est comme neuf!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"By using this, we can"
+	dc.b	"Ce véhicule nous permettera"
 	dc.b	$FC
-	dc.b	"move across water."
+	dc.b	"de traverser les plans d'eau."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"OK, Chaz,"
-	dc.b	$FD
-	dc.b	"let's get a move on and head for"
+	dc.b	"Bon, Chaz, dépêchons-nous"
 	dc.b	$FC
-	dc.b	"the Soldier's Temple!"
+	dc.b	"d'aller au Temple des Soldats!"
 	dc.b	$FD
 	dc.b	$F2, $01
 	dc.b	$F2, $00
 	dc.w	$0186
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Right! Demi,"
-	dc.b	$FC
-	dc.b	"are you ready yet?"
+	dc.b	"D'accord! Demi, es-tu prête?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$07
-	dc.b	"I'm sorry,"
+	dc.b	"Je suis profondément désolée,"
 	dc.b	$FD
-	dc.b	"but at this point I don't think"
+	dc.b	"mais à ce stade-ci, je ne peux"
 	dc.b	$FC
-	dc.b	"I can be of use to you."
+	dc.b	"vous être d'aucune aide."
 	dc.b	$FD
-	dc.b	"The restart of all the systems"
+	dc.b	"La réinitialisation des systèmes"
 	dc.b	$FC
-	dc.b	"in Motavia will take some time."
+	dc.b	"de Motavia prendra du temps."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Oh...that's a pity."
+	dc.b	"Oh...c'est bien dommage."
 	dc.b	$FC
-	dc.b	"But good luck to you, too."
+	dc.b	"Ceci dit, bonne chance à toi!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$07
-	dc.b	"Thank you, Rika..."
+	dc.b	"Je vous remercie, Rika..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"OK, let's head for"
+	dc.b	"Bon, direction, le Temple des"
 	dc.b	$FC
-	dc.b	"the Soldier's Temple!"
+	dc.b	"Soldats!"
 	dc.b	$FF
 
 ; $18
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Well then, let's go ahead and"
+	dc.b	"Donc, partons à la recherche du"
 	dc.b	$FC
-	dc.b	"search for the Air castle."
+	dc.b	"Air Castle."
 	dc.b	$FD
 	dc.b	$F2, $03
 	dc.b	$F8
@@ -615,19 +593,21 @@
 
 	dc.b	$F2, $03
 	dc.b	$FD
-	dc.b	"I'm getting something."
+	dc.b	"Il y a un signal."
 	dc.b	$FD
-	dc.b	"Although very slight,"
+	dc.b	"Celui-ci est très faible, mais"
 	dc.b	$FC
-	dc.b	"it is definitely something."
+	dc.b	"c'est définitivement un signal."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Can you get it on the screen?"
+	dc.b	"Pouvez-vous le mettre sur"
+	dc.b	$FC
+	dc.b	"l'écran?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"I will try."
+	dc.b	"Un instant."
 	dc.b	$FD
 	dc.b	$F2, $03
 	dc.b	$F8
@@ -643,29 +623,29 @@
 
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"That's it!"
+	dc.b	"Le voilà!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"That's the Air Castle alright!"
+	dc.b	"C'est bien le Air Castle!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It has a spooky atmosphere."
+	dc.b	"Il a l'air sinistre..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"Ooooh,"
+	dc.b	"Ooooh, est-ce que tu commences à"
 	dc.b	$FC
-	dc.b	"are you getting a little scared?"
+	dc.b	"avoir un peu peur?"
 	dc.b	$FD
-	dc.b	"Huh, Chaz?"
+	dc.b	"Hein, Chaz?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Don't...don't be ridiculous!"
+	dc.b	"Ne...ne dis pas de bêtises!"
 	dc.b	$FC
-	dc.b	"We're going in!"
+	dc.b	"Allons-y!"
 	dc.b	$FF
 
 ; $19

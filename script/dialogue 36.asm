@@ -1,15 +1,15 @@
 ; 0
 	dc.b	$F4
 	dc.b	$13
-	dc.b	"This...this can't be"
+	dc.b	"C'est...c'est impossible!"
 	dc.b	$FC
-	dc.b	"I'm supposed to be immortal!"
+	dc.b	"Je devais être immortel!"
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$006E
-	dc.b	"Oh, why..."
+	dc.b	"Pourquoi..."
 	dc.b	$FC
-	dc.b	"Why do you abandon me?"
+	dc.b	"Pourquoi m'abandonnes-tu?"
 	dc.b	$FD
 	dc.b	"Dark Fo...Aaaargh!"
 	dc.b	$F2, $03
@@ -34,9 +34,9 @@
 	dc.w	$006F
 	dc.b	$F4
 	dc.b	$05
-	dc.b	"We did it! We've defeated Zio!"
+	dc.b	"Nous avons réussi! Nous avons"
 	dc.b	$FC
-	dc.b	"Yahoooooooooo!"
+	dc.b	"battu Zio! Youpiiiii!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
@@ -46,25 +46,27 @@
 
 	dc.b	$F4
 	dc.b	$07
-	dc.b	"At this point we're not going"
+	dc.b	"À ce stade-ci, impossible"
 	dc.b	$FC
-	dc.b	"to be able to stop Nurvus by"
+	dc.b	"d'éteindre Nurvus de la façon"
 	dc.b	$FD
-	dc.b	"normal means."
+	dc.b	"usuelle."
 	dc.b	$FD
-	dc.b	"I am going to connect myself"
+	dc.b	"Je dois me connecter directement"
 	dc.b	$FC
-	dc.b	"directly to Nurvus' system and"
+	dc.b	"dans l'unité centrale de Nurvus"
 	dc.b	$FD
-	dc.b	"crack its security."
+	dc.b	"et pirater sa sécurité."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Connect directly?"
+	dc.b	"Te connecter directement?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$07
-	dc.b	"Yes, this is good-bye, Chaz."
+	dc.b	"Exact. Je dois vous dire adieu,"
+	dc.b	$FC
+	dc.b	"Chaz."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
@@ -72,170 +74,176 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$07
-	dc.b	"Good-bye everybody..."
+	dc.b	"Adieu à vous tous..."
 	dc.b	$FC
-	dc.b	"Thanks for everything."
+	dc.b	"Merci pour toute votre aide."
 	dc.b	$FD
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$07
-	dc.b	"Access main system..."
+	dc.b	"Accès au système principal..."
+	dc.b	$FD
+	dc.b	"Emission de l'interruption de"
 	dc.b	$FC
-	dc.b	"Issue top priority interrupt..."
+	dc.b	"priorité supérieure..."
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Has...has it stopped?"
+	dc.b	"Est-ce...est-ce terminé?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$07
-	dc.b	"The operation is a success."
+	dc.b	"L'opération est une réussite."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
 	dc.b	"Demi!"
 	dc.b	$FC
-	dc.b	"Where are you now?"
+	dc.b	"Où es tu, maintenant?"
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$07
-	dc.b	"I'm in Nurvus' control center."
-	dc.b	$FD
-	dc.b	"Right now, all the systems that"
+	dc.b	"Je suis située dans l'unité"
 	dc.b	$FC
-	dc.b	"have been maintaining Motavia"
+	dc.b	"centrale de Nurvus."
 	dc.b	$FD
-	dc.b	"are halted."
-	dc.b	$FD
-	dc.b	"Now there won't be any more"
+	dc.b	"Actuellement, tous les systèmes"
 	dc.b	$FC
-	dc.b	"disasters."
+	dc.b	"de maintenance environnementale"
+	dc.b	$FD
+	dc.b	"de Motavia sont éteints."
+	dc.b	$FD
+	dc.b	"Les désastres divers ont cessé."
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$0071
-	dc.b	"But with all the systems that"
+	dc.b	"Mais tôt ou tard, en l'absence"
 	dc.b	$FC
-	dc.b	"maintain the environment"
+	dc.b	"de ces systèmes de maintenance"
 	dc.b	$FD
-	dc.b	"halted, sooner or later the"
+	dc.b	"environnementale, la planète"
 	dc.b	$FC
-	dc.b	"entire planet will become"
+	dc.b	"entière deviendra dépourvue de"
 	dc.b	$FD
-	dc.b	"barren."
+	dc.b	"toute vie."
 	dc.b	$FD
-	dc.b	"We must work to restore the"
+	dc.b	"Nous devons rétablir les"
 	dc.b	$FC
-	dc.b	"functions of each system as"
+	dc.b	"fonctionnalités de chaque"
 	dc.b	$FD
-	dc.b	"soon as possible!"
+	dc.b	"système le plus rapidement"
+	dc.b	$FC
+	dc.b	"possible!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"To do that we'll have to do"
+	dc.b	"Pour accomplir cela, nous devons"
 	dc.b	$FC
-	dc.b	"something about Zelan."
+	dc.b	"nous attaquer au problème Zelan."
 	dc.b	$FD
 	dc.b	$F2, $01
 	dc.b	$F4
 	dc.b	$07
-	dc.b	"That's right. As long as the"
+	dc.b	"C'est exact. Aussi longtemps que"
 	dc.b	$FC
-	dc.b	"satellite is sending"
+	dc.b	"ce satellite envoie des signaux"
 	dc.b	$FD
-	dc.b	"abnormal signals, we cannot"
+	dc.b	"de commande erronés, le contrôle"
 	dc.b	$FC
-	dc.b	"control the system."
+	dc.b	"des systèmes nous échappera."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Chaz. Why don't we go?"
+	dc.b	"Chaz. Pourquoi ne pas nous en"
+	dc.b	$FC
+	dc.b	"charger?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"...OK!"
+	dc.b	"...D'accord!"
 	dc.b	$FC
-	dc.b	"Let's go to Zelan!"
+	dc.b	"Direction Zelan!"
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$004F
 	dc.b	$F4
 	dc.b	$05
-	dc.b	"But, this Zelan, isn't it"
+	dc.b	"Mais, Zelan n'est-il pas situé"
 	dc.b	$FC
-	dc.b	"located in outer space?"
+	dc.b	"dans l'espace?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$07
-	dc.b	"Don't worry. An emergency"
+	dc.b	"Soyez sans craintes. Il y a une"
 	dc.b	$FC
-	dc.b	"shuttle is available at Nurvus."
+	dc.b	"navette de secours dans Nurvus."
 	dc.b	$FD
-	dc.b	"It's being readied for you."
-	dc.b	$FD
-	dc.b	"I won't be able to leave here"
+	dc.b	"Elle est en préparation en"
 	dc.b	$FC
-	dc.b	"just now."
+	dc.b	"prévision de votre déplacement."
 	dc.b	$FD
-	dc.b	"I must stay and perform"
+	dc.b	"Malheureusement, je ne pourrai"
 	dc.b	$FC
-	dc.b	"maintenance on each of these"
+	dc.b	"vous accompagner."
 	dc.b	$FD
-	dc.b	"systems."
+	dc.b	"Je dois demeurer ici et"
+	dc.b	$FC
+	dc.b	"m'assurer du bon fonctionnement"
 	dc.b	$FD
-	dc.b	"At Zelan, you should find"
+	dc.b	"de chaque système."
+	dc.b	$FD
+	dc.b	"Une fois sur Zelan, vous verrez"
 	dc.b	$FC
 	dc.b	$F2, $00
 	dc.w	$0072
-	dc.b	"my master, Wren."
+	dc.b	"mon maître, Wren."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Wren? I know him!"
+	dc.b	"Wren? Je le connais!"
 	dc.b	$FD
-	dc.b	"When I was at the Bio-plant,"
+	dc.b	"Quand j'étais au Bio-labo, j'ai"
 	dc.b	$FC
-	dc.b	"I often telecommunicated with"
+	dc.b	"souvent communiqué avec lui!"
 	dc.b	$FD
-	dc.b	"him!"
-	dc.b	$FD
-	dc.b	"About half a year ago, I became"
+	dc.b	"Par contre, depuis il y a"
 	dc.b	$FC
-	dc.b	"unable to reach him on the"
+	dc.b	"environ six mois, j'ai été"
 	dc.b	$FD
-	dc.b	"communication circuits."
+	dc.b	"incapable de le joindre."
 	dc.b	$FC
-	dc.b	"I've been concerned!"
+	dc.b	"Je suis inquiète à son sujet!"
 	dc.b	$FD
-	dc.b	"Please Chaz, let's go find"
+	dc.b	"Je t'en prie, Chaz, allons"
 	dc.b	$FC
-	dc.b	"Wren at Zelan..."
+	dc.b	"trouver Wren sur Zelan..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$07
-	dc.b	"Well, good luck with Zelan"
+	dc.b	"Alors, bonne chance sur Zelan"
 	dc.b	$FC
-	dc.b	"everybody..."
+	dc.b	"à vous tous..."
 	dc.b	$FD
-	dc.b	"Be careful."
+	dc.b	"Soyez prudents."
 	dc.b	$FD
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$05
-	dc.b	"Chaz...I'm sorry, but..."
+	dc.b	"Chaz...Désolé, mais..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"I know, I know. You just can't"
+	dc.b	"Je sais, je sais. Tu ne peux pas"
 	dc.b	$FC
-	dc.b	"leave your little sister."
+	dc.b	"laisser ta petite soeur."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$05
-	dc.b	"Exactly. Sorry."
+	dc.b	"Oui, c'est ça. Désolé."
 	dc.b	$FF
 
 ; $1
@@ -271,23 +279,23 @@
 ; $B
 	dc.b	$F4
 	dc.b	$13
-	dc.b	"Well, well..."
+	dc.b	"Tiens, tiens..."
 	dc.b	$FD
-	dc.b	"You've made it here...it was to"
+	dc.b	"Vous avez réussi à vous rendre"
 	dc.b	$FC
-	dc.b	"be expected."
+	dc.b	"jusqu'ici...tel que prévu."
 	dc.b	$FD
-	dc.b	"You should be aware that one"
+	dc.b	"Vous devez savoir que si vous"
 	dc.b	$FC
-	dc.b	"step further is the road to"
+	dc.b	"faites un seul pas vers moi,"
 	dc.b	$FD
-	dc.b	"your death."
+	dc.b	"ce sera à votre perte."
 	dc.b	$FD
-	dc.b	"I won't let you escape this"
+	dc.b	"Je ne vous laisserai pas vous"
 	dc.b	$FC
-	dc.b	"time!"
+	dc.b	"enfuir deux fois!"
 	dc.b	$FD
-	dc.b	"Oh, reverent one!"
+	dc.b	"Oh, entité adorée!"
 	dc.b	$FC
-	dc.b	"Lend me power!"
+	dc.b	"Prête-moi ta force!"
 	dc.b	$FF

@@ -64,153 +64,147 @@
 ; $15
 	dc.b	$FA
 	dc.b	$65, $01
-	dc.b	"This place?"
+	dc.b	"Cet endroit?"
 	dc.b	$FC
-	dc.b	"This is the town of Kadary."
+	dc.b	"Ici, c'est la ville de Kadary."
 	dc.b	$FD
-	dc.b	"Have you come to visit"
+	dc.b	"Vous venez visiter l'Église"
 	dc.b	$FC
-	dc.b	"Zio's church as well?"
+	dc.b	"de Zio vous aussi?"
 	dc.b	$FF
 
 ; $16
-	dc.b	"This place?"
+	dc.b	"Cet endroit?"
 	dc.b	$FC
-	dc.b	"This is the town of Kadary."
+	dc.b	"Ici, c'est la ville de Kadary."
 	dc.b	$FD
-	dc.b	"Nobody comes to visit Zio's"
+	dc.b	"Personne ne viste plus l'Église"
 	dc.b	$FC
-	dc.b	"church any more."
+	dc.b	"de Zio."
 	dc.b	$FD
-	dc.b	"You didn't, did you?"
+	dc.b	"Vous non plus, n'est-ce pas?"
 	dc.b	$FF
 
 ; $17
 	dc.b	$FA
 	dc.b	$65, $01
-	dc.b	"A church that spreads the"
+	dc.b	"Une Église qui enseigne les"
 	dc.b	$FC
-	dc.b	"teachings of a man"
+	dc.b	"préceptes de Zio a été"
 	dc.b	$FD
-	dc.b	"named Zio was erected"
+	dc.b	"constuite dans cette ville."
+	dc.b	$FD
+	dc.b	"Les adeptes de toute part"
 	dc.b	$FC
-	dc.b	"in this town."
+	dc.b	"se rassemblent ici."
 	dc.b	$FD
-	dc.b	"Devotees come here from all"
+	dc.b	"Je ne veux pas dire ça trop"
 	dc.b	$FC
-	dc.b	"over the place."
+	dc.b	"fort, mais..."
 	dc.b	$FD
-	dc.b	"I don't want to say it in a"
-	dc.b	$FC
-	dc.b	"loud voice, but..."
-	dc.b	$FD
-	dc.b	"it sure is a big bother!"
+	dc.b	"c'est vraiment dérangeant!"
 	dc.b	$FF
 
 ; $18
-	dc.b	"Ah, I hear that Zio is"
-	dc.b	$FC
-	dc.b	"gone now."
+	dc.b	"On me dit que Zio n'est plus."
 	dc.b	$FD
-	dc.b	"Well, finally this town should"
+	dc.b	"Bon, la ville va finalement"
 	dc.b	$FC
-	dc.b	"get back to normal now."
+	dc.b	"revenir à la normale."
 	dc.b	$FF
 
 ; $19
 	dc.b	$FA
 	dc.b	$65, $01
-	dc.b	"Did you come by the path to"
+	dc.b	"Êtes-vous venus par le chemin"
 	dc.b	$FC
-	dc.b	"the north?"
+	dc.b	"au nord?"
 	dc.b	$FD
-	dc.b	"In that case,"
+	dc.b	"Alors, en passant, vous devez"
 	dc.b	$FC
-	dc.b	"you must have seen the town"
+	dc.b	"avoir vu ce village réduit"
 	dc.b	$FD
-	dc.b	"burnt to ruins on your way here?"
+	dc.b	"en cendres?"
 	dc.b	$FD
-	dc.b	"It's been said that was all due"
+	dc.b	"On dit que c'est à cause de"
 	dc.b	$FC
-	dc.b	"to Zio! I'm so afraid!"
+	dc.b	"Zio! J'ai tellement peur!"
 	dc.b	$FF
 
 ; $1A
-	dc.b	"Did you come by the path to"
+	dc.b	"Êtes-vous venus par le chemin"
 	dc.b	$FC
-	dc.b	"the north?"
+	dc.b	"au nord?"
 	dc.b	$FD
-	dc.b	"In that case,"
+	dc.b	"Alors, vous devez avoir passé"
 	dc.b	$FC
-	dc.b	"you must have seen that town"
+	dc.b	"par le village rasé par le feu"
 	dc.b	$FD
-	dc.b	"burnt to ruins on your way here."
+	dc.b	"sur votre chemin?"
 	dc.b	$FD
-	dc.b	"It's been said that was all due"
+	dc.b	"On dit que c'est à cause de"
 	dc.b	$FC
-	dc.b	"to Zio!"
+	dc.b	"Zio!"
 	dc.b	$FD
-	dc.b	"Perhaps"
+	dc.b	"Peut-être était-ce pour les"
 	dc.b	$FC
-	dc.b	"they were being punished."
+	dc.b	"punir."
 	dc.b	$FF
 
 ; $1B
 	dc.b	$FA
 	dc.b	$65, $02
-	dc.b	"Excuse me,"
+	dc.b	"Pardonnez-moi, puis-je vous"
 	dc.b	$FC
-	dc.b	"can I ask you something?"
+	dc.b	"poser une question?"
 	dc.b	$FD
-	dc.b	"Do you believe"
+	dc.b	"Est-ce que vous croyez dans"
 	dc.b	$FC
-	dc.b	"in Zio's teachings?"
+	dc.b	"les enseignements de Zio?"
 	dc.b	$F5
 	dc.b	$00, $01
-	dc.b	"Ah, a kindred spirit!"
+	dc.b	"Ah, une âme-soeur!"
 	dc.b	$FC
-	dc.b	"Glory be to the great Zio!"
+	dc.b	"Gloire au grand Zio!"
 	dc.b	$FD
-	dc.b	"Purge the souls of the fools!"
+	dc.b	"Nettoie l'esprit des incrédules!"
 	dc.b	$FF
 
 ; $1C
-	dc.b	"In that case,"
+	dc.b	"Dans ce cas, joignez-vous à"
 	dc.b	$FC
-	dc.b	"become one of us at once."
+	dc.b	"nous au plus vite."
 	dc.b	$FD
-	dc.b	"Otherwise,"
+	dc.b	"Sinon, nous devrons vous"
 	dc.b	$FC
-	dc.b	"you will be purged by us."
+	dc.b	"purifier."
 	dc.b	$FF
 
 ; $1D
-	dc.b	"Excuse me,"
+	dc.b	"Pardonnez-moi, puis-je vous"
 	dc.b	$FC
-	dc.b	"can I ask you something?"
+	dc.b	"poser une question?"
 	dc.b	$FD
-	dc.b	"Do you believe"
+	dc.b	"Est-ce que vous croyez dans"
 	dc.b	$FC
-	dc.b	"in Zio's teachings?"
+	dc.b	"les enseignements de Zio?"
 	dc.b	$F5
 	dc.b	$00, $01
-	dc.b	"Are you blind to your"
+	dc.b	"Vous êtes aveugles ou quoi?"
 	dc.b	$FC
-	dc.b	"surroundings?"
+	dc.b	"Regardez autour de vous!"
 	dc.b	$FD
-	dc.b	"Maybe it's time you cooled off."
+	dc.b	"Vous devriez vous ressaisir."
 	dc.b	$FF
 
 ; $1E
-	dc.b	"I'm glad that you see the truth!"
+	dc.b	"Bien, vous avez vu la lumière!"
 	dc.b	$FD
-	dc.b	"Something must have"
-	dc.b	$FC
-	dc.b	"happened to me!"
+	dc.b	"Je ne sais pas ce qui m'a pris!"
 	dc.b	$FF
 
 ; $1F
-	dc.b	"Oh...Zio, the holy one..."
+	dc.b	"Oh...Saint Zio..."
 	dc.b	$FF
 
 ; $20
@@ -221,125 +215,119 @@
 ; $21
 	dc.b	$FA
 	dc.b	$65, $01
-	dc.b	"Zio says that the end of this"
+	dc.b	"Zio a dit que la fin du monde"
 	dc.b	$FC
-	dc.b	"world is coming soon."
+	dc.b	"approche."
 	dc.b	$FD
-	dc.b	"I wonder if that's true?"
+	dc.b	"Je me demande s'il dit vrai?"
 	dc.b	$FF
 
 ; $22
-	dc.b	"The end of the world that Zio"
+	dc.b	"Zio parlait de la fin du"
 	dc.b	$FC
-	dc.b	"was talking about..."
+	dc.b	"monde..."
 	dc.b	$FD
-	dc.b	"Perhaps he was talking about"
+	dc.b	"Peut-être il l'a confondue avec"
 	dc.b	$FC
-	dc.b	"the end of himself?"
+	dc.b	"sa propre fin?"
 	dc.b	$FF
 
 ; $23
 	dc.b	$FA
 	dc.b	$65, $01
-	dc.b	"That inn in the back of"
+	dc.b	"Cette auberge au fond de la"
 	dc.b	$FC
-	dc.b	"the town..."
+	dc.b	"ville..."
 	dc.b	$FD
-	dc.b	"I used to frequent that place,"
+	dc.b	"Auparavant, j'aimais aller à"
 	dc.b	$FC
-	dc.b	"but recently,"
+	dc.b	"cet endroit, mais dernièrement,"
 	dc.b	$FD
-	dc.b	"I can't go in even if I wanted"
+	dc.b	"je ne pourrais y aller même si"
 	dc.b	$FC
-	dc.b	"to..."
+	dc.b	"je le voulais..."
 	dc.b	$FF
 
 ; $24
-	dc.b	"Ah, finally we can drink"
+	dc.b	"Ah, je peux finalement retourner"
 	dc.b	$FC
-	dc.b	"in the inn!"
+	dc.b	"boire à l'auberge!"
 	dc.b	$FF
 
 ; $25
-	dc.b	"Zio? I...I wonder what it's"
+	dc.b	"Zio? Je...je me demande que"
 	dc.b	$FC
-	dc.b	"all about?"
+	dc.b	"signifiait tout ça?"
 	dc.b	$FD
-	dc.b	"I hadn't really been going"
+	dc.b	"Je n'allais pas vraiment à"
 	dc.b	$FC
-	dc.b	"to church, hee, hee."
+	dc.b	"l'Église, non, pas du tout!"
 	dc.b	$FF
 
 ; $26
-	dc.b	"How pathetic, a full-grown"
+	dc.b	"C'est pathétique! Une personne"
 	dc.b	$FC
-	dc.b	"adult like you crying for Zio!"
+	dc.b	"mature qui réclame Zio!"
 	dc.b	$FD
-	dc.b	"You have to be able to respect"
+	dc.b	"Vous devez avoir du respect pour"
 	dc.b	$FC
-	dc.b	"yourself before you can respect"
+	dc.b	"vous-même avant de respecter les"
 	dc.b	$FD
-	dc.b	"others, so grow up!"
+	dc.b	"autres, ressaisissez-vous!"
 	dc.b	$FF
 
 ; $27
 	dc.b	$FA
 	dc.b	$65, $01
-	dc.b	"What is going on with those"
+	dc.b	"C'est quoi le problème de ces"
 	dc.b	$FC
-	dc.b	"guys going overboard"
+	dc.b	"gens qui exagèrent à propos de"
 	dc.b	$FD
-	dc.b	"with this Zio thing?"
+	dc.b	"ce Zio?"
 	dc.b	$FD
-	dc.b	"It just makes my skin"
-	dc.b	$FC
-	dc.b	"crawl!"
+	dc.b	"Ça me donne la chair de poule!"
 	dc.b	$FF
 
 ; $28
-	dc.b	"Thank goodness."
+	dc.b	"Le ciel soit loué! Les gens ont"
 	dc.b	$FC
-	dc.b	"It's quite a relief that"
+	dc.b	"finalement tous retrouvé leurs"
 	dc.b	$FD
-	dc.b	"everyone is getting back"
-	dc.b	$FC
-	dc.b	"their senses."
+	dc.b	"esprits."
 	dc.b	$FF
 
 ; $29
 	dc.b	$FA
 	dc.b	$65, $01
-	dc.b	"Our daughter has become a"
+	dc.b	"Notre fille est devenue une"
 	dc.b	$FC
-	dc.b	"follower of Zio"
+	dc.b	"dévote de Zio, et ne veut plus"
 	dc.b	$FD
-	dc.b	"and won't come home."
+	dc.b	"revenir à la maison."
 	dc.b	$FF
 
 ; $2A
-	dc.b	"At last, our daughter has come"
+	dc.b	"Enfin! Notre fille a elle aussi"
 	dc.b	$FC
-	dc.b	"to her senses, too!"
+	dc.b	"retrouvé ses esprits!"
 	dc.b	$FF
 
 ; $2B
 	dc.b	$FA
 	dc.b	$65, $01
-	dc.b	"If it is the fate of this planet"
+	dc.b	"Si tous sur cette planète vont"
 	dc.b	$FC
-	dc.b	"to die anyway,"
+	dc.b	"mourir bientôt, autant miser"
 	dc.b	$FD
-	dc.b	"we might as well pin all our"
+	dc.b	"tous nos espoirs sur cet homme."
 	dc.b	$FC
-	dc.b	"hopes on this one man."
-	dc.b	$FD
-	dc.b	"Don't you agree?"
+	dc.b	"N'est-ce pas?"
 	dc.b	$FF
 
 ; $2C
-	dc.b	"Are you saying just accept your"
+	dc.b	"Vous dites de nous résigner"
 	dc.b	$FC
-	dc.b	"fate...or...what?"
+	dc.b	"à notre sort...ou...quoi?"
 	dc.b	$FF
 
 ; $2D
@@ -347,43 +335,41 @@
 	dc.b	$FF
 
 ; $2E
-	dc.b	"This is a church where we"
+	dc.b	"Ceci est une église où nous"
 	dc.b	$FC
-	dc.b	"worship the great Zio."
+	dc.b	"adorons le grand Zio."
 	dc.b	$FD
-	dc.b	"Zio says he's going to cleanse"
+	dc.b	"Zio a dit qu'il purifiera cette"
 	dc.b	$FC
-	dc.b	"this soiled land with the fires"
+	dc.b	"terre souillée par le feu de"
 	dc.b	$FD
-	dc.b	"of destruction..."
+	dc.b	"la destruction..."
 	dc.b	$FD
-	dc.b	"And then, he's going to build a"
+	dc.b	"Ensuite, il construira une"
 	dc.b	$FC
-	dc.b	"utopian society populated with"
+	dc.b	"société paradisiaque avec seuls"
 	dc.b	$FD
-	dc.b	"only the finest citizens!"
+	dc.b	"les meilleurs citoyens!"
 	dc.b	$FD
-	dc.b	"How wonderful!"
+	dc.b	"Comme c'est magnifique!"
 	dc.b	$FC
-	dc.b	"The thought makes me tingle!"
+	dc.b	"Ça me donne des frissons!"
 	dc.b	$FF
 
 ; $2F
-	dc.b	"Those ignorant masses living"
+	dc.b	"Ces hordes ignorantes qui vivent"
 	dc.b	$FC
-	dc.b	"in idleness!"
+	dc.b	"dans l'oisiveté!"
 	dc.b	$FD
-	dc.b	"These are exactly the people"
+	dc.b	"Ce sont ces gens qui devraient"
 	dc.b	$FC
-	dc.b	"that should be purged at the"
-	dc.b	$FD
-	dc.b	"hands of Zio!"
+	dc.b	"être purifiés par Zio!"
 	dc.b	$FF
 
 ; $30
-	dc.b	"It's only we believers that"
+	dc.b	"Seuls les fidèles accompagneront"
 	dc.b	$FC
-	dc.b	"Zio will lead to the new world!"
+	dc.b	"Zio dans le monde nouveau!"
 	dc.b	$FF
 
 ; $31
@@ -393,33 +379,35 @@
 	dc.b	$FF
 
 ; $33
-	dc.b	"Only after the destruction can"
+	dc.b	"La création du nouveau monde ne"
 	dc.b	$FC
-	dc.b	"we create a new world!"
+	dc.b	"pourra se faire qu'au prix de"
+	dc.b	$FD
+	dc.b	"la destruction!"
 	dc.b	$FF
 
 ; $34
-	dc.b	"We, the believers of Zio,"
+	dc.b	"Nous, les fidèles de Zio, sommes"
 	dc.b	$FC
-	dc.b	"are the chosen people!"
+	dc.b	"le peuple élu!"
 	dc.b	$FF
 
 ; $35
-	dc.b	"That's Zio's fort which soars"
+	dc.b	"Juste à l'est de Kadary, le"
 	dc.b	$FC
-	dc.b	"just east of Kadary!"
+	dc.b	"fort de Zio nous surplombe."
 	dc.b	$FD
-	dc.b	"It is our symbol!"
+	dc.b	"C'est notre symbole! Le fort"
 	dc.b	$FC
-	dc.b	"It's our castle of hope!"
+	dc.b	"de l'espoir!"
 	dc.b	$FF
 
 ; $36
-	dc.b	"Zio is at his Fort where"
+	dc.b	"Zio est dans son fort, d'où il"
 	dc.b	$FC
-	dc.b	"he teaches and guides us."
+	dc.b	"nous enseigne et nous guide."
 	dc.b	$FD
-	dc.b	"How thankful we are to him."
+	dc.b	"Nous sommes très reconnaissants."
 	dc.b	$FF
 
 ; $37
@@ -435,178 +423,160 @@
 	dc.b	$06
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"We can't talk to him"
+	dc.b	"Impossible de lui parler, il"
 	dc.b	$FC
-	dc.b	"now that he's fainted."
+	dc.b	"s'est évanoui..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"This is scary."
+	dc.b	"C'est sinistre."
 	dc.b	$FF
 
 ; $39
-	dc.b	"Wh...what on earth have I"
-	dc.b	$FC
-	dc.b	"done?"
+	dc.b	"Que...que diable ai-je fait?"
 	dc.b	$FF
 
 ; $3A
-	dc.b	"Huh? You've got some guts to"
+	dc.b	"Hein? Tu es brave d'amener une"
 	dc.b	$FC
-	dc.b	"bring a woman to a place like"
+	dc.b	"femme à un tel endroit, n'est-ce"
 	dc.b	$FD
-	dc.b	"this, eh, Boys?"
+	dc.b	"pas, les gars?"
 	dc.b	$FF
 
 ; $3B
-	dc.b	"What's with you?"
+	dc.b	"Qu'est-ce qu'il vous prend?"
 	dc.b	$FC
-	dc.b	"How dare you eye me like that!"
+	dc.b	"Vous osez me dévisager ainsi!?"
 	dc.b	$FD
-	dc.b	"Don't you know that we are"
+	dc.b	"Vous ne savez donc pas que nous"
 	dc.b	$FC
-	dc.b	"Zio's subordinates?"
+	dc.b	"sommes les subalternes de Zio?"
 	dc.b	$FF
 
 ; $3C
-	dc.b	"If you follow Zio we can show"
+	dc.b	"Si vous croyez en Zio, nous pou-"
 	dc.b	$FC
-	dc.b	"you a good time, just like this!"
+	dc.b	"vons vous donner du bon temps!"
 	dc.b	$FF
 
 ; $3D
 	dc.b	$FA
 	dc.b	$65, $01
-	dc.b	"It's true that"
+	dc.b	"C'est vrai que je n'ai plus de"
 	dc.b	$FC
-	dc.b	"I don't have to worry about"
+	dc.b	"soucis financiers, mais je me"
 	dc.b	$FD
-	dc.b	"money to feed myself,"
+	dc.b	"suis sali les mains..."
+	dc.b	$FD
+	dc.b	"Je me demande si j'ai fait le"
 	dc.b	$FC
-	dc.b	"but my hands are definitely"
-	dc.b	$FD
-	dc.b	"becoming soiled..."
-	dc.b	$FD
-	dc.b	"I wonder if I'm doing the"
-	dc.b	$FC
-	dc.b	"right thing?"
+	dc.b	"bon choix?"
 	dc.b	$FF
 
 ; $3E
-	dc.b	"I've decided to work here"
+	dc.b	"Je travaillerai ici, à"
 	dc.b	$FC
-	dc.b	"so I can repay my tab,"
+	dc.b	"l'auberge, pour rembourser ma"
 	dc.b	$FD
-	dc.b	"at the inn,"
-	dc.b	$FC
-	dc.b	"I've accumulated!"
+	dc.b	"dette envers l'établissement."
 	dc.b	$FF
 
 ; $3F
 	dc.b	$FA
 	dc.b	$65, $01
-	dc.b	"I've just been running this"
+	dc.b	"Avant, c'était une auberge comme"
 	dc.b	$FC
-	dc.b	"place like a regular inn,"
+	dc.b	"les autres ici, mais un jour,"
 	dc.b	$FD
-	dc.b	"but one day,"
+	dc.b	"les soldats de Zio sont venus..."
 	dc.b	$FC
-	dc.b	"Zio's soldiers came..."
+	dc.b	"Ils m'ont ordonné de tout leur"
 	dc.b	$FD
-	dc.b	"They said to just put everything"
+	dc.b	"vendre à crédit, mais ils ne"
 	dc.b	$FC
-	dc.b	"on a running tab,"
-	dc.b	$FD
-	dc.b	"but they never pay up"
-	dc.b	$FC
-	dc.b	"...boo hoo..."
+	dc.b	"paient jamais...snif, snif..."
 	dc.b	$FF
 
 ; $40
-	dc.b	"Zio will be defeated!"
+	dc.b	"Zio est vaincu!"
 	dc.b	$FC
-	dc.b	"With that pronouncement,"
+	dc.b	"Une fois cela annoncé, tout le"
 	dc.b	$FD
-	dc.b	"everyone ran way."
+	dc.b	"monde a fui."
 	dc.b	$FD
-	dc.b	"They ran out on their tabs,"
+	dc.b	"Sans payer, bien sûr, mais je"
 	dc.b	$FC
-	dc.b	"but I'm relieved."
+	dc.b	"suis soulagé."
 	dc.b	$FD
-	dc.b	"There was one person"
+	dc.b	"Par contre, il reste une"
 	dc.b	$FC
-	dc.b	"I was impressed with though."
+	dc.b	"personne que j'admire."
 	dc.b	$FF
 
 ; $41
-	dc.b	"Oh my?"
+	dc.b	"Oh?"
 	dc.b	$FC
-	dc.b	"Such a little boy as a customer?"
+	dc.b	"Un si jeune homme comme client?"
 	dc.b	$FD
-	dc.b	"How adorable."
+	dc.b	"Comme c'est adorable."
 	dc.b	$FD
-	dc.b	"I'm going to give you some"
-	dc.b	$FC
-	dc.b	"great service."
+	dc.b	"Je prendrai bien soin de toi."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Huh? Wh..."
+	dc.b	"Hein? Que..."
 	dc.b	$FC
-	dc.b	"What are you talking about?"
+	dc.b	"Que voulez-vous dire?"
 	dc.b	$FF
 
 ; $42
 	dc.b	$FA
 	dc.b	$65, $01
-	dc.b	"I don't like that new church."
+	dc.b	"Je n'aime pas cette nouvelle"
 	dc.b	$FD
-	dc.b	"Zio's soldier stay the night"
+	dc.b	"religion. Les soldats de Zio"
 	dc.b	$FC
-	dc.b	"here, but I'm too afraid to"
+	dc.b	"restent la nuit, mais je n'ose"
 	dc.b	$FD
-	dc.b	"collect room charges from them."
+	dc.b	"pas leur réclamer mon dû."
 	dc.b	$FC
-	dc.b	"It's just too much!"
+	dc.b	"C'est insupportable!"
 	dc.b	$FF
 
 ; $43
-	dc.b	"All those people who came to"
+	dc.b	"Tous ces gens qui venaient pour"
 	dc.b	$FC
-	dc.b	"the church have finally left!"
+	dc.b	"l'Église sont finalement partis!"
 	dc.b	$FF
 
 ; $44
-	dc.b	"Among the believers of Zio,"
-	dc.b	$FD
-	dc.b	"there's a saying that goes"
+	dc.b	"Chez les fidèles de Zio, il y a"
 	dc.b	$FC
-	dc.b	"'The righteous do not ignore"
+	dc.b	"un dicton: 'Les justes n'éludent"
 	dc.b	$FD
-	dc.b	"Kadary.'"
-	dc.b	$FD
-	dc.b	"Kadary is a sacred area!"
+	dc.b	"pas Kadary.' Kadary est un lieu"
+	dc.b	$FC
+	dc.b	"sacré!"
 	dc.b	$FF
 
 ; $45
-	dc.b	"No one other than Zio can"
+	dc.b	"Seul Zio peut nous sauver des"
 	dc.b	$FC
-	dc.b	"save us from the uncleanliness"
-	dc.b	$FD
-	dc.b	"of Motavia!"
+	dc.b	"tares de Motavia!"
 	dc.b	$FD
 	dc.b	"Ahhh!"
 	dc.b	$FC
-	dc.b	"Glory be to you, Zio!"
+	dc.b	"Gloire à toi, Zio!"
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"He's fainted... "
+	dc.b	"Il s'est évanoui... "
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"How...how frightening."
+	dc.b	"C'est...c'est sinistre."
 	dc.b	$FF
 
 ; $46
@@ -619,13 +589,13 @@
 	dc.b	$FF
 
 ; $49
-	dc.b	"Oh, you guys, stop!"
+	dc.b	"Oh, je ne veux rien entendre!"
 	dc.b	$FC
-	dc.b	"Even if Zio is defeated,"
+	dc.b	"Même si Zio est vaincu, j'ai"
 	dc.b	$FD
-	dc.b	"I'll keep on believing in him!"
+	dc.b	"toujours foi en lui!"
 	dc.b	$FC
-	dc.b	"Oh...Zio, the holy one..."
+	dc.b	"Oh...Saint Zio..."
 	dc.b	$FF
 
 ; $4A
@@ -633,11 +603,13 @@
 	dc.b	$27, $01
 	dc.b	$FA
 	dc.b	$65, $01
-	dc.b	"I came here from"
+	dc.b	"J'ai fait tout le chemin de"
 	dc.b	$FC
-	dc.b	"the Motavia Academy."
+	dc.b	"l'Académie Motavia jusqu'ici."
 	dc.b	$FD
-	dc.b	"School work is so stupid!"
+	dc.b	"Les travaux scolaires, c'est"
+	dc.b	$FC
+	dc.b	"trop bête!"
 	dc.b	$FF
 
 ; $4B
@@ -648,31 +620,31 @@
 ; $4C
 	dc.b	$F4
 	dc.b	$24
-	dc.b	"Waaaa. Where is this?"
+	dc.b	"Ouiiin! Où suis-je?"
 	dc.b	$FC
-	dc.b	"I want to go back to Piata."
+	dc.b	"Je veux retourner à Piata!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Yes, let's go back to Piata!"
+	dc.b	"Oui, bonne idée, retournons-y!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$24
-	dc.b	"You'll take me back?"
+	dc.b	"Vous m'accompagnerez?"
 	dc.b	$FC
-	dc.b	"Th...thank...you"
+	dc.b	"Mer...Merci!"
 	dc.b	$FF
 
 ; $4D
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Hey, you!"
+	dc.b	"Hé, toi!"
 	dc.b	$FC
-	dc.b	"Are you all right!?"
+	dc.b	"Tout va bien!?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$24
-	dc.b	"I...am...hungry..."
+	dc.b	"J'ai...j'ai faim..."
 	dc.b	$FF
 
 ; $4E
@@ -683,27 +655,23 @@
 	dc.b	$FF
 
 ; $4F
-	dc.b	"Hey! You're holding a"
+	dc.b	"Hé! Vous avez du Perolymate!"
+	dc.b	$FD
+	dc.b	"Ça me rappelle des souvenirs!"
+	dc.b	$FD
+	dc.b	"C'est très nutritif! J'en"
 	dc.b	$FC
-	dc.b	"Perolymate!"
+	dc.b	"mangeais souvent, autrefois!"
 	dc.b	$FD
-	dc.b	"Does that bring back memories!"
-	dc.b	$FD
-	dc.b	"That has high nutritional value!"
-	dc.b	$FD
-	dc.b	"I used to eat those back in the"
+	dc.b	"Voyons voir, pourquoi ne pas"
 	dc.b	$FC
-	dc.b	"old days!"
-	dc.b	$FD
-	dc.b	"Lemme see,"
-	dc.b	$FC
-	dc.b	"let's give it to this girl!"
+	dc.b	"en donner à cette fille?"
 	dc.b	$FF
 
 ; $50
 	dc.b	$F4
 	dc.b	$24
-	dc.b	"groan, groan"
+	dc.b	"râle, râle"
 	dc.b	$FF
 
 ; $51
@@ -714,27 +682,29 @@
 ; $52
 	dc.b	$F4
 	dc.b	$24
-	dc.b	"Oh dear? How did I get"
+	dc.b	"Oh là là! Comment j'ai fait pour"
 	dc.b	$FC
-	dc.b	"here?"
+	dc.b	"arriver ici?"
 	dc.b	$FD
-	dc.b	"Where is this place?"
+	dc.b	"Où suis-je?"
 	dc.b	$FC
-	dc.b	"Waaa."
+	dc.b	"Ouiinnn!"
 	dc.b	$FF
 
 ; $53
-	dc.b	"Looks like she has been eating"
+	dc.b	"Je crois qu'elle est"
 	dc.b	$FC
-	dc.b	"irregularly. She is pretty weak."
+	dc.b	"sous-alimentée. Elle est très"
 	dc.b	$FD
-	dc.b	"She should be given something"
+	dc.b	"faible. Il faut lui donner"
 	dc.b	$FC
-	dc.b	"nutritious to eat."
+	dc.b	"quelque chose de nutritif."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Hmm, something nutritious..."
+	dc.b	"Hum, quelque chose de"
+	dc.b	$FC
+	dc.b	"nutritif..."
 	dc.b	$FF
 
 ; $54
@@ -742,17 +712,17 @@
 	dc.b	$24
 	dc.b	"Oh."
 	dc.b	$FC
-	dc.b	"What has happened to me?"
+	dc.b	"Que m'est t'il arrivé?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Thank goodness you've revived!"
+	dc.b	"Le ciel soit loué, vous allez"
 	dc.b	$FC
-	dc.b	"Now, let's go back to Piata."
+	dc.b	"bien! Retournons à Piata."
 	dc.b	$FF
 
 ; $55
-	dc.b	"How is it?"
+	dc.b	"Comment ça va?"
 	dc.b	$FF
 
 ; $56
@@ -762,11 +732,11 @@
 	dc.b	$FA
 	dc.b	$65, $01
 	dc.b	$F3
-	dc.b	"Why don't we"
+	dc.b	"Pourquoi ne quittons-nous"
 	dc.b	$FC
-	dc.b	"get out of this town?"
+	dc.b	"pas cette ville?"
 	dc.b	$FF
 
 ; $58
-	dc.b	"Yeh, you're right."
+	dc.b	"Ouais, tu as raison."
 	dc.b	$FF

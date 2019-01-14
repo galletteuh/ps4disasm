@@ -1,63 +1,63 @@
 ; 0
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It's a mystifying statue of"
+	dc.b	"C'est une statue plutôt"
 	dc.b	$FC
-	dc.b	"a woman. It's similar to the"
+	dc.b	"mystérieuse d'une femme. Elle"
 	dc.b	$FD
-	dc.b	"statue of a heroine"
+	dc.b	"ressemble à la statue de"
 	dc.b	$FC
-	dc.b	"I saw in Termi."
+	dc.b	"l'héroïne que j'ai vue à Termi."
 	dc.b	$FF
 
 ; $1
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"'The Mystery of Life Energy'."
+	dc.b	"'Mystères de l'Énergie Vitale.'"
 	dc.b	$FF
 
 ; $2
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"'ESP Ability and Ideology.' It's"
+	dc.b	"'Pouvoir et Pensée ESP.' C'est"
 	dc.b	$FC
-	dc.b	"too difficult to understand."
+	dc.b	"trop ardu pour le comprendre."
 	dc.b	$FF
 
 ; $3
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"'Dezolis  Its Light and"
+	dc.b	"'Dezolis Sa Lumière et Ses"
 	dc.b	$FC
-	dc.b	"Shadow'  Hmm..."
+	dc.b	"Ténèbres'  Hmm..."
 	dc.b	$FF
 
 ; $4
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It's a half-read book."
+	dc.b	"C'est un livre à moitié lu."
 	dc.b	$FD
-	dc.b	"It says 'Records of Great"
+	dc.b	"Le titre: 'Archives des"
 	dc.b	$FC
-	dc.b	"Predecessors'..."
+	dc.b	"Glorieux Ancêtres...'"
 	dc.b	$FF
 
 ; $5
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"'Technical Manual"
+	dc.b	"'Manuel Technique pour"
 	dc.b	$FC
-	dc.b	"for Artificial Hibernation'..."
+	dc.b	"l'Hibernation Artificielle...'"
 	dc.b	$FD
-	dc.b	"What's this? "
+	dc.b	"Qu'est-ce que ça peut bien être?"
 	dc.b	$FF
 
 ; $6
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"'Magic and Technique"
+	dc.b	"'Magie et Techniques:"
 	dc.b	$FD
-	dc.b	"Its Effect and Correlation'"
+	dc.b	"Effets et Concordance'"
 	dc.b	$FC
 	dc.b	"Hmm..."
 	dc.b	$FF
@@ -65,45 +65,45 @@
 ; $7
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"'Spirit and Matter'..."
+	dc.b	"'L'Esprit et la Matière'..."
 	dc.b	$FD
-	dc.b	"It's too difficult to"
+	dc.b	"C'est trop difficile à"
 	dc.b	$FC
-	dc.b	"understand."
+	dc.b	"comprendre."
 	dc.b	$FF
 
 ; $8
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"What's this?"
+	dc.b	"Qu'est-ce que c'est que ça?"
 	dc.b	$FC
-	dc.b	"It's written in an alphabet"
+	dc.b	"C'est un alphabet que je n'ai"
 	dc.b	$FD
-	dc.b	"I've never seen before."
+	dc.b	"jamais vu auparavant."
 	dc.b	$FF
 
 ; $9
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Telepathy Ball..."
+	dc.b	"Boule Télépathique..."
 	dc.b	$FC
-	dc.b	"Lutz's memory..."
+	dc.b	"Mémoire de Lutz..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"I've inherited it now..."
+	dc.b	"Elle m'a été léguée maintenant.."
 	dc.b	$FC
-	dc.b	"That's what it means."
+	dc.b	"C'est ce que ça signifie."
 	dc.b	$FF
 
 ; $A
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"The statue of flames..."
+	dc.b	"Une effigie d'une flamme..."
 	dc.b	$FD
-	dc.b	"Are you saying this is"
+	dc.b	"Sérieusement, c'est un objet"
 	dc.b	$FC
-	dc.b	"an object of worship?"
+	dc.b	"de culte?"
 	dc.b	$FF
 
 ; $B
@@ -111,209 +111,215 @@
 	dc.b	$98, $01
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"So this is the Eclipse Torch!"
+	dc.b	"Alors voici le Flambeau de"
+	dc.b	$FC
+	dc.b	"l'Éclipse!"
 	dc.b	$FF
 
 ; $C
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"The Eclipse Torch is gone."
+	dc.b	"Le Flambeau de l'Éclipse n'y est"
+	dc.b	$FC
+	dc.b	"plus."
 	dc.b	$FF
 
 ; $D
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It's a fireplace. Around here"
+	dc.b	"C'est un foyer. Il fait pas mal"
 	dc.b	$FC
-	dc.b	"it gets especially cold,"
+	dc.b	"froid par ici, alors c'est"
 	dc.b	$FD
-	dc.b	"so this is a welcome find!"
+	dc.b	"une bonne trouvaille!"
 	dc.b	$FF
 
 ; $E
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It's a Dezolisian kitchen."
+	dc.b	"C'est une cuisine Dezolisienne."
 	dc.b	$FC
-	dc.b	"Appears they like to keep"
+	dc.b	"On dirait qu'ils aiment garder"
 	dc.b	$FD
-	dc.b	"things clean."
+	dc.b	"leur maison propre."
 	dc.b	$FF
 
 ; $F
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It's not nice to open cabinets"
+	dc.b	"Ce n'est pas bien de fouiller"
 	dc.b	$FC
-	dc.b	"in other people's houses"
+	dc.b	"dans les armoires des gens sans"
 	dc.b	$FD
-	dc.b	"without their permission!"
+	dc.b	"leur demander la permission!"
 	dc.b	$FF
 
 ; $10
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"There are two fireplaces."
+	dc.b	"Il y a deux foyers."
+	dc.b	$FD
+	dc.b	"Ce doit être rudement froid"
 	dc.b	$FC
-	dc.b	"It must really get cold here."
+	dc.b	"par ici!"
 	dc.b	$FF
 
 ; $11
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"I wonder if they collect empty"
+	dc.b	"Je me demande s'ils aiment"
 	dc.b	$FC
-	dc.b	"bottles?"
+	dc.b	"collectionner les bouteilles"
+	dc.b	$FD
+	dc.b	"vides?"
 	dc.b	$FF
 
 ; $12
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Here are their dishes."
+	dc.b	"Ce sont leurs assiettes."
 	dc.b	$FC
-	dc.b	"They're surprisingly similar to"
+	dc.b	"Elles sont étonnament semblables"
 	dc.b	$FD
-	dc.b	"Parmanian dishes."
+	dc.b	"aux assiettes Parmaniennes."
 	dc.b	$FF
 
 ; $13
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"'Fire'..."
+	dc.b	"'Le Feu'..."
 	dc.b	$FC
-	dc.b	"What a book!"
+	dc.b	"Quel livre!"
 	dc.b	$FF
 
 ; $14
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It's a big mirror."
+	dc.b	"C'est un grand miroir."
 	dc.b	$FC
-	dc.b	"I guess Dezolisians are"
+	dc.b	"J'imagine que les Dezolisiens"
 	dc.b	$FD
-	dc.b	"self-conscious about their"
+	dc.b	"sont soucieux de leur"
 	dc.b	$FC
-	dc.b	"looks."
+	dc.b	"apparence."
 	dc.b	$FF
 
 ; $15
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"'Equipment Store Management'..."
+	dc.b	"'Gestion d'Inventaire'..."
 	dc.b	$FC
-	dc.b	"Ah, a pretty studious owner."
+	dc.b	"Ah, un propriétaire lettré."
 	dc.b	$FF
 
 ; $16
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"...it's written in an alphabet"
+	dc.b	"...c'est écrit avec un alphabet"
 	dc.b	$FC
-	dc.b	"I can't read."
+	dc.b	"que je ne peux pas lire."
 	dc.b	$FF
 
 ; $17
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"A statue of flame..."
+	dc.b	"Une effigie d'une flamme..."
 	dc.b	$FC
-	dc.b	"You call this an object of"
+	dc.b	"Sérieusement, c'est un objet"
 	dc.b	$FD
-	dc.b	"worship?"
+	dc.b	"de culte?"
 	dc.b	$FF
 
 ; $18
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"'Fear of Heights:"
+	dc.b	"'La Peur des Hauteurs"
 	dc.b	$FC
-	dc.b	"A Psychological Examination'..."
+	dc.b	"Étude Psychologique'..."
 	dc.b	$FD
-	dc.b	"Then why build a two-story"
+	dc.b	"Alors pourquoi construire une"
 	dc.b	$FC
-	dc.b	"house?"
+	dc.b	"maison à deux étages?"
 	dc.b	$FF
 
 ; $19
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"This is different from the"
+	dc.b	"Ce n'est pas la même chose qu'un"
 	dc.b	$FC
-	dc.b	"elegance of the Dezolisian watch"
+	dc.b	"feu de bivouac Dezolisien."
 	dc.b	$FD
-	dc.b	"fire."
-	dc.b	$FC
-	dc.b	"This is merely a torch light."
+	dc.b	"Ce n'est qu'une torche."
 	dc.b	$FF
 
 ; $1A
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"'Dezolisian Climate and Health"
+	dc.b	"'Rester en Santé dans le Climat"
 	dc.b	$FC
-	dc.b	"Maintenance'..."
+	dc.b	"Dezolisien...'"
 	dc.b	$FD
-	dc.b	"A pretty studious lady of"
+	dc.b	"La maîtresse des lieux semble"
 	dc.b	$FC
-	dc.b	"the house."
+	dc.b	"être plutôt studieuse."
 	dc.b	$FF
 
 ; $1B
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It's a fireplace."
+	dc.b	"C'est un foyer."
 	dc.b	$FC
-	dc.b	"It's nice and warm, oh joy!"
+	dc.b	"Il est bien chaud, quelle joie!"
 	dc.b	$FF
 
 ; $1C
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It's the kitchen."
+	dc.b	"C'est la cuisine."
 	dc.b	$FC
-	dc.b	"They keep it pretty clean."
+	dc.b	"Elle est bien propre."
 	dc.b	$FF
 
 ; $1D
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It's an account book."
+	dc.b	"C'est un livre de comptes."
 	dc.b	$FD
-	dc.b	"It's dangerous to leave"
+	dc.b	"C'est plutôt risqué de laisser"
 	dc.b	$FC
-	dc.b	"this out."
+	dc.b	"ça à la vue de tous."
 	dc.b	$FF
 
 ; $1E
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"'Hotel Management and Customer"
+	dc.b	"'Gestion Hôtellière et Service"
 	dc.b	$FC
-	dc.b	"Service'..."
+	dc.b	"à la Clientèle...'"
 	dc.b	$FD
-	dc.b	"A pretty studious husband."
+	dc.b	"Un mari bien studieux."
 	dc.b	$FF
 
 ; $1F
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"He's a hotel owner, so these"
+	dc.b	"Il est propriétaire d'hôtel,"
 	dc.b	$FC
-	dc.b	"must be his supplies."
+	dc.b	"alors ce sont ses provisions."
 	dc.b	$FF
 
 ; $20
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"This is the wreck of"
-	dc.b	$FC
-	dc.b	"the shuttle ship."
+	dc.b	"C'est l'épave de notre navette."
 	dc.b	$FD
-	dc.b	"I guess it'll never fly again."
+	dc.b	"J'imagine qu'elle ne volera"
+	dc.b	$FC
+	dc.b	"plus."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"By the way, it's your fault."
+	dc.b	"C'est ta faute, en passant."
 	dc.b	$FF
 
 ; $21
@@ -321,97 +327,97 @@
 	dc.b	$94, $01
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"What is this fire?"
+	dc.b	"Qu'est-ce que cette flamme?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$09
-	dc.b	"The Dezolisians believe in fire!"
+	dc.b	"Les Dezolisiens adorent le feu!"
 	dc.b	$FC
-	dc.b	"This watch fire is an object of"
+	dc.b	"Ce feu de bivouac est un objet"
 	dc.b	$FD
-	dc.b	"their worship."
+	dc.b	"de culte."
 	dc.b	$FF
 
 ; $22
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Hmm, the watch fire of"
+	dc.b	"Hmm, le feu de bivouac des"
 	dc.b	$FC
-	dc.b	"Dezolisians..."
+	dc.b	"Dezolisiens..."
 	dc.b	$FF
 
 ; $23
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It's a fireplace."
+	dc.b	"C'est un foyer."
 	dc.b	$FC
-	dc.b	"It's nice and warm, oh joy!"
+	dc.b	"Il est bien chaud, quelle joie!"
 	dc.b	$FF
 
 ; $24
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It's a Dezolisian kitchen."
+	dc.b	"C'est une cuisine Dezolisienne."
 	dc.b	$FC
-	dc.b	"Appears they like to keep"
+	dc.b	"Il semblent qu'ils aiment garder"
 	dc.b	$FD
-	dc.b	"things clean."
+	dc.b	"leur maison bien propre."
 	dc.b	$FF
 
 ; $25
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It's a big mirror."
+	dc.b	"C'est un grand miroir."
 	dc.b	$FC
-	dc.b	"I guess Dezolisians are also"
+	dc.b	"J'imagine que les Dezolisien"
 	dc.b	$FD
-	dc.b	"self-conscious about their"
+	dc.b	"sont aussi soucieux de leur"
 	dc.b	$FC
-	dc.b	"looks."
+	dc.b	"apparence."
 	dc.b	$FF
 
 ; $26
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Here are their dishes."
+	dc.b	"Ce sont des assiettes."
 	dc.b	$FD
-	dc.b	"They're surprisingly similar"
+	dc.b	"Elles sont étonnament semblables"
 	dc.b	$FC
-	dc.b	"to Parmanian dishes."
+	dc.b	"aux assiettes Parmaniennes."
 	dc.b	$FF
 
 ; $27
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It's a blueprint of a bar."
+	dc.b	"C'est le plan d'un bar."
 	dc.b	$FC
-	dc.b	"You shouldn't indiscriminately"
+	dc.b	"Il ne faut pas toucher à"
 	dc.b	$FD
-	dc.b	"touch things!"
+	dc.b	"n'importe quoi sans permission!"
 	dc.b	$FF
 
 ; $28
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It's not nice to open cabinets"
+	dc.b	"Ce n'est pas bien de fouiller"
 	dc.b	$FC
-	dc.b	"in other people's house"
+	dc.b	"dans les armoires des gens sans"
 	dc.b	$FD
-	dc.b	"without their permission!"
+	dc.b	"leur demander la permission!"
 	dc.b	$FF
 
 ; $29
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"These must be supplies."
+	dc.b	"Ce doit être des provisions."
 	dc.b	$FF
 
 ; $2A
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"'Those Who Protected Algo,"
+	dc.b	"'Ceux qui ont Préservé Algo,"
 	dc.b	$FC
-	dc.b	"Along with the Sacred Sword,"
+	dc.b	"Ainsi que l'Épée Sacrée,"
 	dc.b	$FD
 	dc.b	"Elsydeon'..."
 	dc.b	$FF
@@ -419,27 +425,25 @@
 ; $2B
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"This is different from the"
+	dc.b	"Ce n'est pas aussi élégant que"
 	dc.b	$FC
-	dc.b	"elegance of the Dezolisian watch"
+	dc.b	"le feu de bivouac Dezolisien."
 	dc.b	$FD
-	dc.b	"fire."
-	dc.b	$FC
-	dc.b	"This is merely a torch light."
+	dc.b	"Ce n'est qu'une torche."
 	dc.b	$FF
 
 ; $2C
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"They left some books out."
+	dc.b	"Ils n'ont pas rangé ces livres."
 	dc.b	$FF
 
 ; $2D
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It's a fireplace."
+	dc.b	"C'est un foyer."
 	dc.b	$FC
-	dc.b	"It's nice and warm, oh joy!"
+	dc.b	"Il est bien chaud, quelle joie!"
 	dc.b	$FF
 
 ; $2E
@@ -447,33 +451,33 @@
 	dc.b	$01
 	dc.b	"Wow!"
 	dc.b	$FC
-	dc.b	"Impressive furniture."
+	dc.b	"Quel mobilier remarquable."
 	dc.b	$FF
 
 ; $2F
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Here's a pretty worn book."
+	dc.b	"Voici un livre bien usé."
 	dc.b	$FD
-	dc.b	"Hmm, 'Reclamation of Dezolis'..."
+	dc.b	"'Revalorisation de Dezolis...'"
 	dc.b	$FF
 
 ; $30
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It's not nice to open cabinets"
+	dc.b	"Ce n'est pas bien de fouiller"
 	dc.b	$FC
-	dc.b	"in other people's houses"
+	dc.b	"dans les armoires des gens sans"
 	dc.b	$FD
-	dc.b	"without their permission!"
+	dc.b	"leur demander la permission!"
 	dc.b	$FF
 
 ; $31
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Here's a pretty worn book."
+	dc.b	"Voici un livre bien usé."
 	dc.b	$FC
-	dc.b	"Hmm, 'Living in Dezolis'..."
+	dc.b	"Hmm, 'La Vie sur Dezolis...'"
 	dc.b	$FF
 
 ; $32
@@ -481,15 +485,15 @@
 	dc.b	$94, $01
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"What's this fire?"
+	dc.b	"Qu'est-ce que cette flamme?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$09
-	dc.b	"The Dezolians believe in fire!"
+	dc.b	"Les Dezolisiens adorent le feu!"
 	dc.b	$FD
-	dc.b	"This watch fire is an object of"
+	dc.b	"Ce feu de bivouac est un objet"
 	dc.b	$FC
-	dc.b	"their worship."
+	dc.b	"de culte."
 	dc.b	$FF
 
 ; $33
@@ -497,93 +501,93 @@
 	dc.b	$01
 	dc.b	"Hmm,"
 	dc.b	$FC
-	dc.b	"the Dezolian's watch fire..."
+	dc.b	"le feu de bivouac Dezolisien..."
 	dc.b	$FF
 
 ; $34
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It has 'The Dezolian Penguin"
+	dc.b	"Il est écrit, 'Le Compendium du"
 	dc.b	$FC
-	dc.b	"Companion' written on it."
+	dc.b	"Pingouin Dezolisien.'"
 	dc.b	$FF
 
 ; $35
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It's not nice to open cabinets"
+	dc.b	"Ce n'est pas bien de fouiller"
 	dc.b	$FC
-	dc.b	"in other people's houses"
+	dc.b	"dans les armoires des gens sans"
 	dc.b	$FD
-	dc.b	"without their permission!"
+	dc.b	"leur demander la permission!"
 	dc.b	$FF
 
 ; $36
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It's a fireplace."
+	dc.b	"C'est un foyer."
 	dc.b	$FC
-	dc.b	"It's nice and warm, oh joy!"
+	dc.b	"Il est bien chaud, quelle joie!"
 	dc.b	$FF
 
 ; $37
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Here are their dishes. They're"
-	dc.b	$FC
-	dc.b	"surprisingly similar to"
+	dc.b	"Ce sont des assiettes."
 	dc.b	$FD
-	dc.b	"Parmanian dishes."
+	dc.b	"Elles sont étonnamment semblables"
+	dc.b	$FD
+	dc.b	"aux assiettes Parmaniennes."
 	dc.b	$FF
 
 ; $38
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It says 'A Travel Scribble"
+	dc.b	"C'est écrit 'Cahier de Voyage"
 	dc.b	$FC
-	dc.b	"Notebook  Feel Free to Write"
+	dc.b	"à Gribouiller  Écrivez-y ce que"
 	dc.b	$FD
-	dc.b	"Whatever You Want'..."
+	dc.b	"Vous Voulez...'"
 	dc.b	$FF
 
 ; $39
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It's a Dezolian kitchen."
+	dc.b	"C'est une cuisine Dezolisienne."
 	dc.b	$FC
-	dc.b	"Appears they like to keep"
+	dc.b	"Il semble qu'ils aiment garder"
 	dc.b	$FD
-	dc.b	"things clean."
+	dc.b	"leur maison propre."
 	dc.b	$FF
 
 ; $3A
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"There's a book sandwiched"
+	dc.b	"Il y a un livre entre les pages"
 	dc.b	$FC
-	dc.b	"inside another book."
+	dc.b	"d'un autre livre."
 	dc.b	$FD
-	dc.b	"Must be a book mark from the"
+	dc.b	"Peut-être le signet de la nuit"
 	dc.b	$FC
-	dc.b	"previous night."
+	dc.b	"précédente."
 	dc.b	$FF
 
 ; $3B
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It's a bunch of books."
+	dc.b	"Il y a un tas de livres."
 	dc.b	$FC
-	dc.b	"They sure seem to like to read."
+	dc.b	"Ils aiment beaucoup lire."
 	dc.b	$FF
 
 ; $3C
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Check completed. The systems"
+	dc.b	"Vérification complétée. Tous les"
 	dc.b	$FC
-	dc.b	"in Kuran are all functioning"
+	dc.b	"systèmes de Kuran fonctionnent"
 	dc.b	$FD
-	dc.b	"normally."
+	dc.b	"selon les paramètres normaux."
 	dc.b	$FF
 
 ; $3D
@@ -595,57 +599,57 @@
 	dc.b	$70, $01
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Is this the central area of"
+	dc.b	"Est-ce l'aire centrale de"
 	dc.b	$FC
 	dc.b	"Zelan?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"There don't seem to be any"
+	dc.b	"Il ne semble rien y avoir"
 	dc.b	$FC
-	dc.b	"abnormality in particular."
+	dc.b	"d'anormal."
 	dc.b	$FF
 
 ; $3E
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Kuran caused the disasters on"
+	dc.b	"La cause des calamités sur"
 	dc.b	$FC
-	dc.b	"Motavia."
+	dc.b	"sur Motavia vient de Kuran."
 	dc.b	$FD
-	dc.b	"Zelan's systems are all"
+	dc.b	"Tous les systèmes de Zelan"
 	dc.b	$FC
-	dc.b	"functioning normally."
+	dc.b	"fonctionnent correctement."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"So that was it?"
+	dc.b	"Alors c'était ça?"
 	dc.b	$FF
 
 ; $3F
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"The snowstorm in Dezolis is"
+	dc.b	"La tempête sur Dezolis ne se"
 	dc.b	$FC
-	dc.b	"not abating!"
+	dc.b	"calme pas!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"I believe there is another"
+	dc.b	"Il semblerait que le climat"
 	dc.b	$FC
-	dc.b	"cause for the abnormal climate"
+	dc.b	"atypique sur Dezolis soit"
 	dc.b	$FD
-	dc.b	"in Dezolis."
+	dc.b	"attribuable à une autre cause."
 	dc.b	$FF
 
 ; $40
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Check completed. The systems"
+	dc.b	"Vérification complétée. Tous les"
 	dc.b	$FC
-	dc.b	"in Zelan are all functioning"
+	dc.b	"systèmes de Kuran fonctionnent"
 	dc.b	$FD
-	dc.b	"normally."
+	dc.b	"selon les paramètres normaux."
 	dc.b	$FF
 
 ; $41
@@ -653,135 +657,139 @@
 	dc.b	$9E, $01
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"The climate control system"
+	dc.b	"Le système de contrôle"
 	dc.b	$FC
-	dc.b	"is functioning normally."
+	dc.b	"climatique fonctionne selon"
+	dc.b	$FD
+	dc.b	"les paramètres normaux."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Are you saying something else"
+	dc.b	"Cela veut dire que quelque chose"
 	dc.b	$FC
-	dc.b	"is causing the abnormalities in"
+	dc.b	"d'autre est la cause des"
 	dc.b	$FD
-	dc.b	"Dezolis?"
+	dc.b	"anomalies sur Dezolis?"
 	dc.b	$FF
 
 ; $42
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"The climate control system"
+	dc.b	"Le système de contrôle"
 	dc.b	$FC
-	dc.b	"is functioning normally."
+	dc.b	"climatique fonctionne selon"
+	dc.b	$FD
+	dc.b	"les paramètres normaux."
 	dc.b	$FF
 
 ; $43
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"The house is in the midst of"
+	dc.b	"Cette maison est en pleine"
 	dc.b	$FC
-	dc.b	"renovation."
+	dc.b	"rénovation."
 	dc.b	$FD
-	dc.b	"It looks like it'll be back to"
+	dc.b	"Il semblerait que les travaux"
 	dc.b	$FC
-	dc.b	"normal soon."
+	dc.b	"se termineront bientôt."
 	dc.b	$FF
 
 ; $44
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"This is just a plain old torch"
+	dc.b	"C'est juste une torche"
 	dc.b	$FC
-	dc.b	"light."
+	dc.b	"ordinaire."
 	dc.b	$FF
 
 ; $45
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It's a brand new kitchen!"
+	dc.b	"Une cuisine toute neuve!"
 	dc.b	$FF
 
 ; $46
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It's a shiny new fireplace!"
+	dc.b	"Un foyer tout neuf!"
 	dc.b	$FF
 
 ; $47
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It's a kitchen."
+	dc.b	"C'est une cuisine."
 	dc.b	$FD
-	dc.b	"Appears to be getting"
+	dc.b	"Elle semble commencer à être"
 	dc.b	$FC
-	dc.b	"a little dirty."
+	dc.b	"malpropre."
 	dc.b	$FF
 
 ; $48
-	dc.b	"The number of dishes have"
+	dc.b	"La quantité de vaisselle s'est"
 	dc.b	$FC
-	dc.b	"increased considerably!"
+	dc.b	"accrue considérablement!"
 	dc.b	$FF
 
 ; $49
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It's a fireplace."
+	dc.b	"C'est un foyer."
 	dc.b	$FD
-	dc.b	"Appears to be getting"
+	dc.b	"Il semble commencer à être"
 	dc.b	$FC
-	dc.b	"a little dirty."
+	dc.b	"malpropre."
 	dc.b	$FF
 
 ; $4A
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"A large bookshelf!"
+	dc.b	"Une grande étagère!"
 	dc.b	$FF
 
 ; $4B
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"The dishes are sqeeky clean!"
+	dc.b	"La vaisselle est super propre!"
 	dc.b	$FF
 
 ; $4C
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"The strength of a fire is"
+	dc.b	"Le feu est plus intense dans"
 	dc.b	$FC
-	dc.b	"stronger when it's in a new"
-	dc.b	$FD
-	dc.b	"fireplace."
+	dc.b	"un foyer tout neuf."
 	dc.b	$FF
 
 ; $4D
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"'Interior Designs to Attract"
+	dc.b	"'Décoration Intérieure pour"
 	dc.b	$FC
-	dc.b	"Customers'..."
+	dc.b	"Inciter les Clients...'"
 	dc.b	$FF
 
 ; $4E
-	dc.b	"It's a brand new bookshelf."
-	dc.b	$FC
-	dc.b	"Not many books on it yet."
+	dc.b	"Une étagère toute neuve."
+	dc.b	$FD
+	dc.b	"Il n'y a pas encore beaucoup"
+	dc.b	$FD
+	dc.b	"de livres."
 	dc.b	$FF
 
 ; $4F
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It's a big mirror. This too is"
+	dc.b	"Un grand miroir. Ça aussi, c'est"
 	dc.b	$FC
-	dc.b	"new, smooth, and shiny!"
+	dc.b	"neuf, poli et brillant!"
 	dc.b	$FF
 
 ; $50
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It feels good, what with"
+	dc.b	"C'est bien, quand les provisions"
 	dc.b	$FC
-	dc.b	"the supplies being new."
+	dc.b	"sont fraîches."
 	dc.b	$FF
 
 ; $51
@@ -789,21 +797,19 @@
 	dc.b	$9E, $01
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"There's a notice posted"
-	dc.b	$FC
-	dc.b	"on the door."
+	dc.b	"Il y a un écriteau sur la porte."
 	dc.b	$FD
-	dc.b	"Hmmm... 'Due to circumstances,"
+	dc.b	"Hmmm... 'Étant donné les circon-"
 	dc.b	$FC
-	dc.b	"we will be closed'"
+	dc.b	"stances, nous sommes fermés.'"
 	dc.b	$FF
 
 ; $52
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"The store is open!"
-	dc.b	$FC
-	dc.b	"I wonder if the owner"
+	dc.b	"La boutique est ouverte!"
 	dc.b	$FD
-	dc.b	"feels better?"
+	dc.b	"Je me demande si le propriétaire"
+	dc.b	$FC
+	dc.b	"va mieux?"
 	dc.b	$FF

@@ -1,151 +1,153 @@
 ; 0
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It's a ventilated case for"
+	dc.b	"C'est un boîtier aéré pour des"
 	dc.b	$FC
-	dc.b	"meteorological instruments."
+	dc.b	"appareils météorologiques."
 	dc.b	$FD
-	dc.b	"Sure makes you feel you're in"
+	dc.b	"Ça nous fait bien ressentir"
 	dc.b	$FC
-	dc.b	"a campus town."
+	dc.b	"que nous sommes dans"
+	dc.b	$FD
+	dc.b	"une ville universitaire."
 	dc.b	$FF
 
 ; $1
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It's a ventilated case for"
+	dc.b	"C'est un boîtier aéré pour des"
 	dc.b	$FC
-	dc.b	"meteorological instruments."
+	dc.b	"appareils météorologiques."
 	dc.b	$FD
-	dc.b	"The temperature right now is..."
+	dc.b	"La température actuelle est..."
 	dc.b	$FC
-	dc.b	"83 degrees."
+	dc.b	"28 degrés."
 	dc.b	$FF
 
 ; $2
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It's a ventilated case for"
+	dc.b	"C'est un boîtier aéré pour des"
 	dc.b	$FC
-	dc.b	"meteorological instruments."
+	dc.b	"appareils météorologiques."
 	dc.b	$FD
-	dc.b	"How many of them are there?"
+	dc.b	"Combien y-a-t'il de tels trucs?"
 	dc.b	$FF
 
 ; $3
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It's a ventilated case for"
+	dc.b	"C'est un boîtier aéré pour des"
 	dc.b	$FC
-	dc.b	"meteorological instruments."
+	dc.b	"appareils météorologiques."
 	dc.b	$FD
-	dc.b	"Wow, how unusual."
+	dc.b	"Wow, c'est très surprenant..."
 	dc.b	$FF
 
 ; $4
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"There's a notice posted here."
+	dc.b	"Il y a un écriteau."
 	dc.b	$FC
-	dc.b	"'No trespassing'"
+	dc.b	"'Entrée interdite.'"
 	dc.b	$FF
 
 ; $5
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"What an impressive fountain."
+	dc.b	"Quelle fontaine magnifique."
 	dc.b	$FF
 
 ; $6
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"There's a notice posted here."
+	dc.b	"Il y a un écriteau."
 	dc.b	$FC
-	dc.b	"'Do not play on the steps'"
+	dc.b	"'Ne pas jouer dans les marches.'"
 	dc.b	$FF
 
 ; $7
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"'The God of Learning -"
+	dc.b	"'Le Dieu de l'Apprentissage -"
 	dc.b	$FC
-	dc.b	"Doctor Lubetz'"
+	dc.b	"Docteur Lubetz'"
 	dc.b	$FD
-	dc.b	"Hmm... a person from two"
+	dc.b	"Hmm... une personne qui a vécue"
 	dc.b	$FC
-	dc.b	"thousand years ago."
+	dc.b	"il y a deux mille ans."
 	dc.b	$FF
 
 ; $8
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"What an oddly shaped jar!"
+	dc.b	"Quel pot inhabituel!"
 	dc.b	$FF
 
 ; $9
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"A very dusty 20 volume set of"
+	dc.b	"Une collection de 20 volumes"
 	dc.b	$FC
-	dc.b	"'Algoian History.'"
+	dc.b	"poussièreux: 'Histoire d'Algo'."
 	dc.b	$FF
 
 ; $A
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"The table is cluttered with"
+	dc.b	"Cette table est parsemée"
 	dc.b	$FC
-	dc.b	"papers."
+	dc.b	"d'articles."
 	dc.b	$FF
 
 ; $B
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It's a book about metal"
+	dc.b	"Un livre qui parle de techniques"
 	dc.b	$FC
-	dc.b	"polishing techniques."
+	dc.b	"de polissage du métal."
 	dc.b	$FF
 
 ; $C
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"A book titled 'Geology Today.'"
+	dc.b	"Un livre: 'La Géologie Moderne'."
 	dc.b	$FF
 
 ; $D
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"A book titled 'Literature of"
+	dc.b	"Un livre: 'La Littérature de"
 	dc.b	$FC
-	dc.b	"Parma.'"
+	dc.b	"Parma'."
 	dc.b	$FF
 
 ; $E
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"A book titled 'The Polyglot.'"
+	dc.b	"Un livre: 'Le Polyglotte'."
 	dc.b	$FF
 
 ; $F
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"There's even a fortune-telling"
+	dc.b	"Hein? Il y a même un livre de"
 	dc.b	$FC
-	dc.b	"book."
+	dc.b	"divination."
 	dc.b	$FF
 
 ; $10
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"A book titled 'Modernology.'"
+	dc.b	"Un livre: 'Modernologie'."
 	dc.b	$FF
 
 ; $11
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"The table is cluttered with"
+	dc.b	"Cette table est parsemée de"
 	dc.b	$FC
-	dc.b	"books."
+	dc.b	"livres."
 	dc.b	$FF
 
 ; $12
@@ -153,213 +155,219 @@
 	dc.b	$01
 	dc.b	"Wow!"
 	dc.b	$FC
-	dc.b	"What a view."
+	dc.b	"Quelle vue."
 	dc.b	$FF
 
 ; $13
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Here's a book titled"
+	dc.b	"Voici un livre avec pour titre"
 	dc.b	$FC
-	dc.b	"'Heavenly Phenomena.'"
+	dc.b	"'Phénomènes Célestes'."
 	dc.b	$FF
 
 ; $14
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Hmm...'Comets and Observing"
+	dc.b	"Hmm...'Les Comètes et leur"
 	dc.b	$FC
-	dc.b	"Them'"
+	dc.b	"Observation'"
 	dc.b	$FD
-	dc.b	"It's an astronomy book."
+	dc.b	"C'est un livre d'astronomie."
 	dc.b	$FF
 
 ; $15
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"I wonder if this is an"
+	dc.b	"Je me demande si c'est un"
 	dc.b	$FC
-	dc.b	"observation diary?"
+	dc.b	"journal d'observations?"
 	dc.b	$FF
 
 ; $16
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"The book case contains many"
+	dc.b	"Cette étagère contient de"
 	dc.b	$FC
-	dc.b	"chemistry books."
+	dc.b	"nombreux livres sur la chimie."
 	dc.b	$FF
 
 ; $17
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It's an engineering book."
+	dc.b	"C'est un livre sur l'ingénérie."
 	dc.b	$FF
 
 ; $18
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"The table is loaded with"
+	dc.b	"Cette table est pleine"
 	dc.b	$FC
-	dc.b	"chemistry apparatus."
+	dc.b	"d'équipements pour la chimie."
 	dc.b	$FF
 
 ; $19
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"You shouldn't be opening"
+	dc.b	"Ce n'est pas bien de fouiller"
 	dc.b	$FC
-	dc.b	"cabinets without permission."
+	dc.b	"dans les armoires des gens sans"
+	dc.b	$FD
+	dc.b	"leur demander la permission!"
 	dc.b	$FF
 
 ; $1A
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"The book is entitled"
+	dc.b	"Ce livre a pour titre"
 	dc.b	$FC
-	dc.b	"'Chemical Reagents.'"
+	dc.b	"'Agents de Réaction Chimiques'."
 	dc.b	$FF
 
 ; $1B
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"This is a very difficult"
+	dc.b	"C'est un livre de mathématiques"
 	dc.b	$FC
-	dc.b	"math book."
+	dc.b	"très ardu."
 	dc.b	$FF
 
 ; $1C
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"This is a horrid math book."
+	dc.b	"C'est un livre de mathématiques"
+	dc.b	$FC
+	dc.b	"totalement épouvantable."
 	dc.b	$FF
 
 ; $1D
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"These books must be important."
+	dc.b	"Ces livres doivent être"
 	dc.b	$FC
-	dc.b	"They're under lock and key."
+	dc.b	"précieux. Ils sont sous clé."
 	dc.b	$FF
 
 ; $1E
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"...The books are left out."
+	dc.b	"...Ces livres sont délaissés."
 	dc.b	$FF
 
 ; $1F
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It's an interesting archeology"
+	dc.b	"C'est un livre sur l'archéologie"
 	dc.b	$FC
-	dc.b	"book."
+	dc.b	"fort intéressant."
 	dc.b	$FF
 
 ; $20
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"This is a historical document."
+	dc.b	"Ceci est un document historique."
 	dc.b	$FF
 
 ; $21
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"The cabinet is locked."
+	dc.b	"Cette armoire est verrouillée."
 	dc.b	$FF
 
 ; $22
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Not one of these books is a"
+	dc.b	"Pas un seul de ces livres n'est"
 	dc.b	$FC
-	dc.b	"schoolbook."
+	dc.b	"un manuel scolaire."
 	dc.b	$FF
 
 ; $23
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It's a class schedule."
+	dc.b	"C'est un horaire de classe."
 	dc.b	$FC
-	dc.b	"It's rather light."
+	dc.b	"...Plutôt peu rempli."
 	dc.b	$FF
 
 ; $24
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"No schoolbooks here either."
-	dc.b	$FD
-	dc.b	"I wonder if this is normal for"
+	dc.b	"Pas de manuels scolaires ici"
 	dc.b	$FC
-	dc.b	"a student of the academy."
+	dc.b	"non plus. Je me demande si c'est"
+	dc.b	$FD
+	dc.b	"habituel chez les étudiants de"
+	dc.b	$FC
+	dc.b	"l'académie?"
 	dc.b	$FF
 
 ; $25
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Here's a report form..."
+	dc.b	"C'est un rapport..."
 	dc.b	$FC
-	dc.b	"it's blank."
+	dc.b	"il n'est pas rempli."
 	dc.b	$FF
 
 ; $26
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Here's the kitchen."
+	dc.b	"C'est la cuisine."
 	dc.b	$FC
-	dc.b	"Boy, it's dirty."
+	dc.b	"Elle est vraiment négligée!"
 	dc.b	$FF
 
 ; $27
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"The cabinet contains cleaning"
+	dc.b	"Cette armoire est remplie de"
 	dc.b	$FC
-	dc.b	"supplies."
+	dc.b	"produits nettoyants."
 	dc.b	$FF
 
 ; $28
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"A guest registration book."
+	dc.b	"Un registre des visiteurs."
 	dc.b	$FC
-	dc.b	"Should we sign in?"
+	dc.b	"Devrions-nous le signer?"
 	dc.b	$FF
 
 ; $29
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Wow, amazing!"
+	dc.b	"Wow, étonnant!"
 	dc.b	$FD
-	dc.b	"These are all infant-rearing"
+	dc.b	"Ce sont tous des livres sur"
 	dc.b	$FC
-	dc.b	"books."
+	dc.b	"l'élevage d'enfants."
 	dc.b	$FF
 
 ; $2A
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It's a kitchen."
+	dc.b	"C'est une cuisine."
 	dc.b	$FC
-	dc.b	"It's kept pretty clean."
+	dc.b	"Elle est plutôt propre."
 	dc.b	$FF
 
 ; $2B
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It's a fireplace."
+	dc.b	"C'est un foyer."
 	dc.b	$FC
-	dc.b	"There's no fire burning."
+	dc.b	"Aucun feu n'y brûle."
 	dc.b	$FF
 
 ; $2C
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Look at all this dust!"
+	dc.b	"Regardez-moi cette poussière!"
 	dc.b	$FD
-	dc.b	"I can't read the titles on"
+	dc.b	"Je n'arrive même pas à lire les"
 	dc.b	$FC
-	dc.b	"these books."
+	dc.b	"titres de ces livres."
 	dc.b	$FF
 
 ; $2D
@@ -367,77 +375,79 @@
 	dc.b	$0C, $01
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"What is this?"
+	dc.b	"Qu'est-ce que ça peut bien être?"
 	dc.b	$FF
 
 ; $2E
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"So it was a cultivation capsule"
+	dc.b	"Alors c'est une capsule de"
 	dc.b	$FC
-	dc.b	"for monsters..."
+	dc.b	"culture de monstres..."
 	dc.b	$FF
 
 ; $2F
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It's broken."
+	dc.b	"Elle est cassée."
 	dc.b	$FF
 
 ; $30
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It says 'The Big Sand Worm"
+	dc.b	"C'est écrit, 'Le Grand Ranch des"
 	dc.b	$FC
-	dc.b	"Ranch.'"
+	dc.b	"Vers des Sables'."
 	dc.b	$FF
 
 ; $31
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It's a jar."
+	dc.b	"C'est un pot."
 	dc.b	$FD
-	dc.b	"I wonder if it's used to store"
+	dc.b	"Je me demande si c'est pour"
 	dc.b	$FC
-	dc.b	"water?"
+	dc.b	"de l'eau?"
 	dc.b	$FF
 
 ; $32
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It's a jar."
+	dc.b	"C'est un pot."
 	dc.b	$FD
-	dc.b	"It looks like it's used to"
+	dc.b	"On dirait qu'il sert à stocker"
 	dc.b	$FC
-	dc.b	"store water from the well."
+	dc.b	"l'eau du puits."
 	dc.b	$FF
 
 ; $33
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It's a well. But it's dry..."
+	dc.b	"C'est un puits. À sec..."
 	dc.b	$FF
 
 ; $34
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It's a kitchen."
+	dc.b	"C'est une cuisine."
 	dc.b	$FC
-	dc.b	"It's kept pretty clean."
+	dc.b	"Elle est plutôt propre."
 	dc.b	$FF
 
 ; $35
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It's a fireplace."
+	dc.b	"C'est un foyer."
 	dc.b	$FC
-	dc.b	"There's no fire burning."
+	dc.b	"Aucun feu n'y brûle."
 	dc.b	$FF
 
 ; $36
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"The cabinet contains bed linen."
+	dc.b	"Cette armoire contient des"
+	dc.b	$FC
+	dc.b	"draps."
 	dc.b	$FF
 
 ; $37
@@ -445,55 +455,53 @@
 	dc.b	$35, $01
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Where on earth does this water"
+	dc.b	"D'où peut bien venir toute"
 	dc.b	$FC
-	dc.b	"come from?"
+	dc.b	"cette eau?"
 	dc.b	$FF
 
 ; $38
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"This is drainage from the"
+	dc.b	"C'est un écoulement venant du"
 	dc.b	$FC
-	dc.b	"Bio-plant."
+	dc.b	"Bio-laboratoire."
 	dc.b	$FF
 
 ; $39
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"I wonder what this is a statue"
+	dc.b	"Je me demande c'est une statue"
 	dc.b	$FC
-	dc.b	"of..."
+	dc.b	"de quoi au juste..."
 	dc.b	$FF
 
 ; $3A
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It looks like a street stall,"
-	dc.b	$FC
-	dc.b	"but..."
+	dc.b	"On dirait un étal, mais..."
 	dc.b	$FD
-	dc.b	"it doesn't look like they're"
+	dc.b	"Il ne semble pas ouvert à"
 	dc.b	$FC
-	dc.b	"open for business."
+	dc.b	"la clientèle."
 	dc.b	$FF
 
 ; $3B
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It's a bookshelf."
+	dc.b	"C'est une étagère."
 	dc.b	$FD
-	dc.b	"Gee, there are a lot of"
+	dc.b	"Wow, il y a un tas de livres"
 	dc.b	$FC
-	dc.b	"academic books."
+	dc.b	"théoriques."
 	dc.b	$FF
 
 ; $3C
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"The table is littered with"
+	dc.b	"Cette table est parsemée de"
 	dc.b	$FC
-	dc.b	"books."
+	dc.b	"livres."
 	dc.b	$FF
 
 ; $3D
@@ -501,27 +509,27 @@
 	dc.b	$33, $01
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"A diary is left out."
+	dc.b	"Un journal intime."
 	dc.b	$FC
-	dc.b	"Let me see..."
+	dc.b	"Voyons voir..."
 	dc.b	$FD
-	dc.b	"'For some reason,"
+	dc.b	"'Pour une raison étrange,"
 	dc.b	$FC
-	dc.b	"I have a bad premonition."
+	dc.b	"j'ai un mauvais pressentiment."
 	dc.b	$FD
-	dc.b	"I hope nothing comes of it...'"
+	dc.b	"J'espère que je me trompe...'"
 	dc.b	$FD
-	dc.b	"That's the last entry in the"
+	dc.b	"C'est la dernière page du"
 	dc.b	$FC
-	dc.b	"diary..."
+	dc.b	"journal..."
 	dc.b	$FF
 
 ; $3E
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"I think people should put away"
+	dc.b	"Je pense qu'on ne devrait pas"
 	dc.b	$FC
-	dc.b	"diaries."
+	dc.b	"laisser traîner un tel journal."
 	dc.b	$FF
 
 ; $3F
@@ -529,53 +537,55 @@
 	dc.b	$33, $01
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It's a kitchen..."
+	dc.b	"C'est une cuisine..."
 	dc.b	$FD
-	dc.b	"It looks like it hasn't been"
+	dc.b	"Elle n'a pas l'air d'avoir"
 	dc.b	$FC
-	dc.b	"used for days."
+	dc.b	"beaucoup servi récemment."
 	dc.b	$FF
 
 ; $40
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It's a kitchen."
+	dc.b	"C'est une cuisine."
 	dc.b	$FC
-	dc.b	"It's kept pretty clean."
+	dc.b	"Elle est plutôt propre."
 	dc.b	$FF
 
 ; $41
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"You shouldn't be opening"
+	dc.b	"Ce n'est pas bien de fouiller"
 	dc.b	$FC
-	dc.b	"cabinets without permission."
+	dc.b	"dans les armoires des gens sans"
+	dc.b	$FD
+	dc.b	"leur demander la permission!"
 	dc.b	$FF
 
 ; $42
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It's a large mirror."
+	dc.b	"C'est un grand miroir."
 	dc.b	$FC
-	dc.b	"It's polished nice and shiny."
+	dc.b	"Il est propre et brillant."
 	dc.b	$FF
 
 ; $43
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"'Lessons on How To Make"
+	dc.b	"'Comment Converser pour"
 	dc.b	$FC
-	dc.b	"Conversation That Grips"
+	dc.b	"Influencer et Inspirer les"
 	dc.b	$FD
-	dc.b	"People's Hearts '."
+	dc.b	"Gens'."
 	dc.b	$FF
 
 ; $44
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"'How to Close a Sale.'"
+	dc.b	"'Comment Conclure une Vente'."
 	dc.b	$FC
-	dc.b	"Quite a studious owner."
+	dc.b	"Un propriétaire studieux."
 	dc.b	$FF
 
 ; $45
@@ -583,129 +593,131 @@
 	dc.b	$33, $01
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It's locked from the inside..."
+	dc.b	"C'est verrouillé de"
+	dc.b	$FC
+	dc.b	"l'intérieur..."
 	dc.b	$FF
 
 ; $46
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"There doesn't seem to be"
-	dc.b	$FC
-	dc.b	"anything out of the ordinary."
+	dc.b	"Je ne vois rien de spécial."
 	dc.b	$FF
 
 ; $47
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"There's some writing here..."
+	dc.b	"Il y a un écriteau..."
 	dc.b	$FD
-	dc.b	"Sterilization Treatment"
+	dc.b	"Procédure de Désinfection"
 	dc.b	$FC
-	dc.b	"Completed."
+	dc.b	"Complétée."
 	dc.b	$FD
-	dc.b	"Please follow the line on the"
+	dc.b	"Veuillez suivre la ligne au"
 	dc.b	$FC
-	dc.b	"floor."
+	dc.b	"sol."
 	dc.b	$FF
 
 ; $48
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"There's some writing here..."
+	dc.b	"Il y a un écriteau..."
 	dc.b	$FD
-	dc.b	"'Elevator W3"
+	dc.b	"'Ascenseur W3"
 	dc.b	$FC
-	dc.b	" To the West Section'."
+	dc.b	"Vers la Section Ouest'."
 	dc.b	$FF
 
 ; $49
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"There's some writing here..."
+	dc.b	"Il y a un écriteau..."
 	dc.b	$FD
-	dc.b	"'Elevator E3"
+	dc.b	"'Ascenseur E3"
 	dc.b	$FC
-	dc.b	" To the Central Block'."
+	dc.b	"Vers le Bloc Central'."
 	dc.b	$FF
 
 ; $4A
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It's identical to the find"
+	dc.b	"C'est identique à ce qui a été"
 	dc.b	$FC
-	dc.b	"in the basement of the academy!"
+	dc.b	"trouvé au sous-sol de"
+	dc.b	$FD
+	dc.b	"l'académie!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"They must have transported"
+	dc.b	"Ils ont dû trouver ces trucs"
 	dc.b	$FC
-	dc.b	"those things from here..."
+	dc.b	"ici..."
 	dc.b	$FF
 
 ; $4B
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"There's some writing here..."
+	dc.b	"Il y a un écriteau..."
 	dc.b	$FD
-	dc.b	"'West Section  Unauthorized"
+	dc.b	"'Section Ouest, Entrée Interdite"
 	dc.b	$FC
-	dc.b	"Entry Prohibited Beyond"
+	dc.b	"au Personnel Non-Autorisé Passé"
 	dc.b	$FD
-	dc.b	"This Point'."
+	dc.b	"ce Point.'"
 	dc.b	$FF
 
 ; $4C
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It's completely sealed."
+	dc.b	"C'est complètement bloqué."
 	dc.b	$FD
-	dc.b	"I wonder if it collapsed from"
+	dc.b	"Je me demande si ça s'est"
 	dc.b	$FC
-	dc.b	"the earthquake or something?"
+	dc.b	"écroulé lors du séisme?"
 	dc.b	$FF
 
 ; $4D
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"This must be a floodgate."
+	dc.b	"Ce doit être une écluse."
 	dc.b	$FF
 
 ; $4E
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"'The History of Motavia'."
+	dc.b	"'L'Histoire de Motavia'."
 	dc.b	$FC
-	dc.b	"Wow, it sure looks difficult!"
+	dc.b	"Ça n'a pas l'air commode!"
 	dc.b	$FF
 
 ; $4F
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"'Spelling Made Easy'..."
+	dc.b	"'L'Orthographe pour les Nuls'..."
 	dc.b	$FF
 
 ; $50
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"'One Plus One Is'..."
+	dc.b	"'Un Plus Un Font...'"
 	dc.b	$FC
-	dc.b	"How cute!"
+	dc.b	"C'est mignon!"
 	dc.b	$FF
 
 ; $51
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Today's words of wisdom..."
+	dc.b	"La pensée du jour..."
 	dc.b	$FC
-	dc.b	"'One Good Conduct Per Day'."
+	dc.b	"'Une Bonne Action Par Jour'."
 	dc.b	$FF
 
 ; $52
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Wow, It's an authentic"
+	dc.b	"Wow, c'est un authentique"
 	dc.b	$FC
-	dc.b	"blackboard."
+	dc.b	"tableau noir!"
 	dc.b	$FF
 
 ; $53
@@ -713,119 +725,115 @@
 	dc.b	$42, $01
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"'On Duty Today  Gregson'"
+	dc.b	"'En Service  Gregson'"
 	dc.b	$FF
 
 ; $54
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"'On Duty Today  Hopkins'"
+	dc.b	"'En Service  Hopkins'"
 	dc.b	$FF
 
 ; $55
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It's a children's picture book."
+	dc.b	"C'est un livre pour enfants."
 	dc.b	$FD
-	dc.b	"'Spoiled Rabbit of the"
-	dc.b	$FC
-	dc.b	"Prairies'..."
+	dc.b	"'Le Lapin Gâté des Prairies'..."
 	dc.b	$FF
 
 ; $56
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Look at this picture book."
+	dc.b	"Regardez-moi ce livre illustré!"
 	dc.b	$FD
-	dc.b	"'The Eight Armed Ant and the"
+	dc.b	"'La Fourmi à Huit Bras et"
 	dc.b	$FC
-	dc.b	"Six-legged Spider'..."
+	dc.b	"l'Araignée à Six Jambes'..."
 	dc.b	$FF
 
 ; $57
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It's a children's picture book."
+	dc.b	"C'est un livre pour enfants."
 	dc.b	$FC
-	dc.b	"'The Golden Axe  Volume 3'..."
+	dc.b	"'Golden Axe, Volume 3'..."
 	dc.b	$FF
 
 ; $58
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Look at this picture book."
+	dc.b	"Regardez-moi ce livre illustré."
 	dc.b	$FC
-	dc.b	"'The Ceramic Soldiers'..."
+	dc.b	"'Les Soldats de Céramique'..."
 	dc.b	$FF
 
 ; $59
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It's a children's picture book."
+	dc.b	"C'est un livre pour enfants"
 	dc.b	$FC
-	dc.b	"'The Bare Queen'..."
+	dc.b	"'La Reine Dévoilée'..."
 	dc.b	$FF
 
 ; $5A
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Look at this picture book."
+	dc.b	"Regardez-moi ce livre illustré."
 	dc.b	$FC
-	dc.b	"'A Day with Ecco.'"
+	dc.b	"'Une Journée de la Vie d'Ecco'."
 	dc.b	$FF
 
 ; $5B
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Look at this picture book."
+	dc.b	"Regardez-moi ce livre illustré."
 	dc.b	$FD
-	dc.b	"'Biography of the Great"
+	dc.b	"'Biographie du Grand Professeur"
 	dc.b	$FC
-	dc.b	"Professor Lubetz'"
+	dc.b	"Lubetz'."
 	dc.b	$FF
 
 ; $5C
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It's a children's picture book."
+	dc.b	"C'est un livre pour enfant."
 	dc.b	$FC
-	dc.b	"'Run, Hedgehog, Run!'..."
+	dc.b	"'Cours, Sonic, Cours!'"
 	dc.b	$FF
 
 ; $5D
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It's a kitchen."
+	dc.b	"C'est une cuisine."
 	dc.b	$FC
-	dc.b	"Everything's put away neatly."
+	dc.b	"Tout est bien rangé."
 	dc.b	$FF
 
 ; $5E
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"The cups and plates"
+	dc.b	"Les tasses et assiettes sont"
 	dc.b	$FC
-	dc.b	"are neatly arranged in a row."
+	dc.b	"bien organisées en rangées."
 	dc.b	$FF
 
 ; $5F
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"This one here looks like a"
-	dc.b	$FC
-	dc.b	"difficult book."
+	dc.b	"Ce livre semble ardu."
 	dc.b	$FD
-	dc.b	"Hmm... 'Motavia: The Present and"
+	dc.b	"Hmm... 'Motavia, Présent et"
 	dc.b	$FC
-	dc.b	"Future'..."
+	dc.b	"Futur'..."
 	dc.b	$FF
 
 ; $60
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Hello, what's this...?"
+	dc.b	"Oh, que vois-je...?"
 	dc.b	$FD
-	dc.b	"'How to Love and To Be Loved'"
+	dc.b	"'Comment Aimer et Être Aimé'"
 	dc.b	$FC
 	dc.b	"...Wow!"
 	dc.b	$FF
@@ -833,15 +841,15 @@
 ; $61
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"What a gigantic mirror!"
+	dc.b	"Quel immense miroir!"
 	dc.b	$FF
 
 ; $62
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"What a gigantic mirror...Hey!"
+	dc.b	"Quel immense miroir...Hé!"
 	dc.b	$FD
-	dc.b	"Look, a picture of Hahn!"
+	dc.b	"Regardez, une photo de Hahn!"
 	dc.b	$FF
 
 ; $63
@@ -849,11 +857,11 @@
 	dc.b	$42, $01
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It's not a good idea to open"
+	dc.b	"Ce n'est pas recommandé d'ouvrir"
 	dc.b	$FC
-	dc.b	"other people's cabinets..."
+	dc.b	"les armoires des autres..."
 	dc.b	$FD
-	dc.b	"but...in this case..."
+	dc.b	"mais...dans ce cas-ci..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
@@ -861,33 +869,33 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Ah, you're no fun."
+	dc.b	"Ah, tu n'es pas marrante."
 	dc.b	$FF
 
 ; $64
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It's not a good idea to open"
+	dc.b	"Ce n'est pas recommandé d'ouvrir"
 	dc.b	$FC
-	dc.b	"other people's cabinets..."
+	dc.b	"les armoires des autres..."
 	dc.b	$FD
-	dc.b	"but...in this case..."
+	dc.b	"mais...dans ce cas-ci..."
 	dc.b	$FD
 	dc.b	$F4
-	dc.b	$06
+	dc.b	$02
 	dc.b	"Chaz!!!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Ah, you're no fun."
+	dc.b	"Ah, tu n'es pas marrante."
 	dc.b	$FF
 
 ; $65
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"The cupboard is full of orange"
+	dc.b	"Cette armoire est pleine de"
 	dc.b	$FC
-	dc.b	"soda."
+	dc.b	"boissons gazeuses à l'orange."
 	dc.b	$FF
 
 ; $66
@@ -895,45 +903,47 @@
 	dc.b	$01
 	dc.b	"Hmmm."
 	dc.b	$FD
-	dc.b	"Appears to be a book about"
+	dc.b	"On dirait un livre à propos des"
 	dc.b	$FC
-	dc.b	"raw materials for armor."
+	dc.b	"matériaux bruts pour armures."
 	dc.b	$FF
 
 ; $67
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"This is a pretty normal kitchen."
+	dc.b	"C'est une cuisine plutôt banale."
 	dc.b	$FF
 
 ; $68
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It's full of cooking books!"
+	dc.b	"Il y a plein de livres de"
+	dc.b	$FC
+	dc.b	"recettes!"
 	dc.b	$FF
 
 ; $69
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It's a kitchen."
+	dc.b	"C'est une cuisine."
 	dc.b	$FC
-	dc.b	"...It seems a little dirty."
+	dc.b	"...Elle est un peu négligée."
 	dc.b	$FF
 
 ; $6A
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"A crossword puzzle book?"
+	dc.b	"Un livre de mots croisés?"
 	dc.b	$FD
-	dc.b	"They must have a lot of free"
+	dc.b	"Ils ne doivent pas avoir"
 	dc.b	$FC
-	dc.b	"time on their hands..."
+	dc.b	"grand-chose à faire..."
 	dc.b	$FF
 
 ; $6B
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"These must be supplies."
+	dc.b	"Ce doit être des provisions."
 	dc.b	$FF
 
 ; $6C
@@ -941,9 +951,7 @@
 	dc.b	$42, $01
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"There doesn't seem to be"
-	dc.b	$FC
-	dc.b	"anything out of the ordinary."
+	dc.b	"Je ne vois rien d'anormal."
 	dc.b	$FF
 
 ; $6D
@@ -951,143 +959,143 @@
 	dc.b	$67, $01
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"There doesn't seem to be"
-	dc.b	$FC
-	dc.b	"anything out of the ordinary."
+	dc.b	"Je ne vois rien d'anormal."
 	dc.b	$FF
 
 ; $6E
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It looks like someone put"
+	dc.b	"Je crois que quelqu'un a"
 	dc.b	$FC
-	dc.b	"these flowers..."
+	dc.b	"déposé ces fleurs..."
 	dc.b	$FF
 
 ; $6F
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"This is terrible..."
+	dc.b	"C'est affreux..."
 	dc.b	$FF
 
 ; $70
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It's a well..."
+	dc.b	"C'est un puits..."
 	dc.b	$FF
 
 ; $71
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Looks like quite high quality"
+	dc.b	"On dirait des conseils de"
 	dc.b	$FC
-	dc.b	"stuff."
+	dc.b	"bonne qualité."
 	dc.b	$FD
-	dc.b	"After all,"
+	dc.b	"Il est un marchand de"
 	dc.b	$FC
-	dc.b	"he is an information dealer!"
+	dc.b	"d'information, après tout!"
 	dc.b	$FF
 
 ; $72
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Here's some generic soda."
+	dc.b	"Ce sont de banales boissons"
+	dc.b	$FC
+	dc.b	"gazeuses."
 	dc.b	$FF
 
 ; $73
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It's full of books about"
+	dc.b	"Il y a plein de livres sur"
 	dc.b	$FC
-	dc.b	"engineering!"
+	dc.b	"l'Ingénierie!"
 	dc.b	$FF
 
 ; $74
-	dc.b	"Oh? It's a Parmanian."
+	dc.b	"Oh? Un Parmanien."
 	dc.b	$FD
-	dc.b	"We don't have anything to sell"
-	dc.b	$FC
-	dc.b	"to you!"
+	dc.b	"Nous n'avons rien à vous vendre!"
 	dc.b	$FF
 
 ; $75
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It looks like they're closed"
+	dc.b	"On dirait qu'ils sont fermés"
 	dc.b	$FC
-	dc.b	"today..."
+	dc.b	"pour la journée..."
 	dc.b	$FF
 
 ; $76
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Wow! Look at all this junk."
+	dc.b	"Wow! Regardez-moi tout ce bazar."
 	dc.b	$FD
-	dc.b	"Are these actually articles"
+	dc.b	"Ce sont réellement des trucs"
 	dc.b	$FC
-	dc.b	"for sale?"
+	dc.b	"à vendre?"
 	dc.b	$FF
 
 ; $77
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"This shop owner is asleep."
+	dc.b	"Ce marchand est assoupi, alors"
 	dc.b	$FC
-	dc.b	"I won't wake him up."
+	dc.b	"je ne vais pas le réveiller."
 	dc.b	$FF
 
 ; $78
-	dc.b	"You Parmanians, why are you"
+	dc.b	"Pourquoi êtes-vous ici,"
 	dc.b	$FC
-	dc.b	"here? Go away, go away!"
+	dc.b	"Parmaniens? Allez-vous-en!"
 	dc.b	$FF
 
 ; $79
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"This looks like food..."
+	dc.b	"On dirait de la nourriture..."
 	dc.b	$FC
-	dc.b	"...I think."
+	dc.b	"...peut-être."
 	dc.b	$FF
 
 ; $7A
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"He's glaring at me..."
+	dc.b	"Il me fusille du regard..."
 	dc.b	$FC
-	dc.b	"Let's move on."
+	dc.b	"Allons voir ailleurs."
 	dc.b	$FF
 
 ; $7B
-	dc.b	"Hey. It's a Parmanian!"
+	dc.b	"Un Parmanien!"
 	dc.b	$FC
-	dc.b	"H...help."
+	dc.b	"À...À l'aide!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Don't worry,"
+	dc.b	"Soyez sans crainte, je ne vous"
 	dc.b	$FC
-	dc.b	"I'm not going to hurt you."
+	dc.b	"veux aucun mal."
 	dc.b	$FF
 
 ; $7C
-	dc.b	"Go away!"
+	dc.b	"Allez-vous-en!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"How rude."
+	dc.b	"Quel impoli."
 	dc.b	$FF
 
 ; $7D
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"The door is sealed tightly shut."
+	dc.b	"Cette porte est verrouillée"
+	dc.b	$FC
+	dc.b	"à double tour."
 	dc.b	$FF
 
 ; $7E
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Look how old and rusted this is."
+	dc.b	"Voyez comme elle est vielle et"
 	dc.b	$FC
-	dc.b	"It won't budge!"
+	dc.b	"rouillée. Rien à faire!"
 	dc.b	$FF

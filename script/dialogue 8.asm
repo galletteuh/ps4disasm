@@ -1,226 +1,228 @@
 ; 0
-	dc.b	"This is the town of Nalya,"
+	dc.b	"Vous êtes ici à Nalya, mais"
 	dc.b	$FC
-	dc.b	"but I don't think"
+	dc.b	"je ne crois pas qu'on puisse"
 	dc.b	$FD
-	dc.b	"it's inhabitable anymore."
+	dc.b	"y habiter maintenant."
 	dc.b	$FF
 
 ; $1
-	dc.b	"About three months ago"
-	dc.b	$FD
-	dc.b	"a large meteorite fell just"
+	dc.b	"Il y a trois mois, une grosse"
 	dc.b	$FC
-	dc.b	"outside of town..."
+	dc.b	"météorite est tombée près de"
 	dc.b	$FD
-	dc.b	"and look what has happened!"
+	dc.b	"la ville..."
 	dc.b	$FD
-	dc.b	"What in the world did we do"
+	dc.b	"Et voyez le résultat!"
+	dc.b	$FD
+	dc.b	"Qu'avons nous fait pour mériter"
 	dc.b	$FC
-	dc.b	"to deserve this?"
+	dc.b	"un tel sort?"
 	dc.b	$FF
 
 ; $2
-	dc.b	"This town may be doomed."
-	dc.b	$FD
-	dc.b	"It may be a smart idea to"
+	dc.b	"Notre ville est probablement"
 	dc.b	$FC
-	dc.b	"relocate as soon as possible"
+	dc.b	"fichue."
 	dc.b	$FD
-	dc.b	"to somewhere like Aiedo."
+	dc.b	"Probablement qu'il vaudrait"
+	dc.b	$FC
+	dc.b	"mieux déménager quelque part"
+	dc.b	$FD
+	dc.b	"comme Aiedo."
 	dc.b	$FF
 
 ; $3
-	dc.b	"This place was our home."
+	dc.b	"C'était notre maison..."
 	dc.b	$FD
-	dc.b	"Oh well,"
+	dc.b	"Oh, bien, on devrait s'estimer"
 	dc.b	$FC
-	dc.b	"it may be that just coming out"
-	dc.b	$FD
-	dc.b	"of it alive was a miracle."
+	dc.b	"chanceux d'être encore en vie."
 	dc.b	$FF
 
 ; $4
-	dc.b	"Hey, doesn't it look like"
+	dc.b	"Hé, on ne dirait pas qu'il y a"
 	dc.b	$FC
-	dc.b	"there's a machine in the middle"
+	dc.b	"une machine dans ce grand trou?"
 	dc.b	$FD
-	dc.b	"of that big hole?"
-	dc.b	$FD
-	dc.b	"We want to see what it is,"
+	dc.b	"Tous sont curieux d'aller voir,"
 	dc.b	$FC
-	dc.b	"but on the other hand,"
+	dc.b	"mais malheureusement, c'est un"
 	dc.b	$FD
-	dc.b	"it's kind of scary and no one"
+	dc.b	"peu effrayant et personne ne"
 	dc.b	$FC
-	dc.b	"dares go near it."
+	dc.b	"se porte volontaire."
 	dc.b	$FF
 
 ; $5
-	dc.b	"Rain leaks into the other room."
-	dc.b	$FD
-	dc.b	"That's why we're sleeping"
+	dc.b	"La pluie coule dans l'autre"
 	dc.b	$FC
-	dc.b	"in this room."
+	dc.b	"chambre."
+	dc.b	$FD
+	dc.b	"C'est pour ça que nous dormons"
+	dc.b	$FC
+	dc.b	"dans celle-ci."
 	dc.b	$FF
 
 ; $6
-	dc.b	"Mommy, the wind is cold!"
+	dc.b	"Maman! Le vent me gèle!"
 	dc.b	$FF
 
 ; $7
-	dc.b	"We don't have the money"
+	dc.b	"Nous n'avons pas l'argent pour"
 	dc.b	$FC
-	dc.b	"to fix the house..."
+	dc.b	"réparer la maison..."
 	dc.b	$FD
-	dc.b	"What shall we do?"
+	dc.b	"Qu'adviendra-t-il de nous?"
 	dc.b	$FF
 
 ; $8
-	dc.b	"I'm happy that this house"
+	dc.b	"Je suis heureux que cette maison"
 	dc.b	$FC
-	dc.b	"was miraculously saved, but"
+	dc.b	"ait été épargnée, mais on se"
 	dc.b	$FD
-	dc.b	"we get harassed every day."
+	dc.b	"fait constamment harceler."
 	dc.b	$FD
-	dc.b	"If this is the way"
+	dc.b	"Avoir su que ce serait ainsi,"
+	dc.b	$FD
+	dc.b	"j'aurais préféré que tout soit"
 	dc.b	$FC
-	dc.b	"it's going to be,"
-	dc.b	$FD
-	dc.b	"I'd rather it was all destroyed!"
+	dc.b	"détruit!"
 	dc.b	$FF
 
 ; $9
-	dc.b	"The lady across the street,"
+	dc.b	"La dame qui habite de l'autre"
 	dc.b	$FC
-	dc.b	"who used to be so kind, is now"
+	dc.b	"côté de la rue est constamment"
 	dc.b	$FD
-	dc.b	"ill-tempered all the time."
-	dc.b	$FD
-	dc.b	"I just can't trust anyone"
+	dc.b	"de mauvaise humeur, elle qui"
 	dc.b	$FC
-	dc.b	"anymore!"
+	dc.b	"était si gentille auparavant!"
+	dc.b	$FD
+	dc.b	"Je ne peux plus faire confiance"
+	dc.b	$FC
+	dc.b	"à quiconque de nos jours!"
 	dc.b	$FF
 
 ; $A
-	dc.b	"My friends don't talk to me"
-	dc.b	$FC
-	dc.b	"anymore."
+	dc.b	"Mes amis ne me parlent plus."
 	dc.b	$FD
-	dc.b	"I'm so lonely... Waaaaa..."
+	dc.b	"Je m'ennuie... Ouiiin..."
 	dc.b	$FF
 
 ; $B
-	dc.b	"The house was safe, but"
+	dc.b	"Cette maison fut épargnée, mais"
 	dc.b	$FC
-	dc.b	"considering what's coming,"
+	dc.b	"à voir ce qui risque d'arriver,"
 	dc.b	$FD
-	dc.b	"I have a feeling it would be"
+	dc.b	"j'ai l'impression qu'il vaudrait"
 	dc.b	$FC
-	dc.b	"better if we moved."
+	dc.b	"mieux déménager."
 	dc.b	$FF
 
 ; $C
-	dc.b	"I have no idea where we would"
+	dc.b	"Je ne sais pas où nous pourrions"
 	dc.b	$FC
-	dc.b	"go."
+	dc.b	"aller."
 	dc.b	$FD
-	dc.b	"It's so hard to leave a place"
+	dc.b	"C'est dûr de quitter l'endroit"
 	dc.b	$FC
-	dc.b	"where you've lived for so long."
+	dc.b	"où on a vécu si longtemps."
 	dc.b	$FF
 
 ; $D
-	dc.b	"Why was my house destroyed"
+	dc.b	"Pourquoi ma maison a été"
 	dc.b	$FC
-	dc.b	"and the house across"
+	dc.b	"détruite, et celle de l'autre"
 	dc.b	$FD
-	dc.b	"the street was not!"
+	dc.b	"côté de la rue, épargnée!?"
 	dc.b	$FD
-	dc.b	"It's not fair!"
+	dc.b	"C'est injuste!"
 	dc.b	$FC
-	dc.b	"Don't you agree?"
+	dc.b	"Vous ne croyez pas?"
 	dc.b	$FD
-	dc.b	"It makes me so mad!"
+	dc.b	"Ça me met en rogne!"
 	dc.b	$FF
 
 ; $E
-	dc.b	"Hey, hey,"
+	dc.b	"Hé, du calme, il vaut mieux"
 	dc.b	$FC
-	dc.b	"let's just accept our lot."
+	dc.b	"se résigner à notre sort."
 	dc.b	$FD
-	dc.b	"My wife didn't used to be"
+	dc.b	"Ma femme n'était pas comme"
 	dc.b	$FC
-	dc.b	"like this."
+	dc.b	"ça avant..."
 	dc.b	$FF
 
 ; $F
-	dc.b	"I can stop ignoring my friend"
+	dc.b	"Je peux voir mes amis de"
 	dc.b	$FC
-	dc.b	"now, can't I?"
+	dc.b	"nouveau, non?"
 	dc.b	$FD
-	dc.b	"I want to be friends and play"
+	dc.b	"Je veux être avec mes amis et"
 	dc.b	$FC
-	dc.b	"together again!"
+	dc.b	"qu'on joue ensemble!"
 	dc.b	$FF
 
 ; $10
-	dc.b	"You know, right after the"
+	dc.b	"Figurez-vous que suite à la"
 	dc.b	$FC
-	dc.b	"meteorite fell,"
+	dc.b	"chute de la météorite,"
 	dc.b	$FD
-	dc.b	"some kind of army came rushing"
+	dc.b	"une sorte d'armée s'est précipi-"
 	dc.b	$FC
-	dc.b	"across the bridge from the west."
+	dc.b	"tée sur le pont situé à l'ouest."
 	dc.b	$FD
-	dc.b	"And then, just when we had"
+	dc.b	"Ensuite, alors qu'on croyait"
 	dc.b	$FC
-	dc.b	"thought they returned to the"
+	dc.b	"qu'elle était partie à l'ouest,"
 	dc.b	$FD
-	dc.b	"west, we found the bridge"
+	dc.b	"nous avons découvert que le pont"
 	dc.b	$FC
-	dc.b	"destroyed."
+	dc.b	"était détruit."
 	dc.b	$FD
-	dc.b	"I wonder if they came from"
+	dc.b	"Je me demande s'ils venaient"
 	dc.b	$FC
-	dc.b	"Aiedo?"
+	dc.b	"d'Aiedo?"
 	dc.b	$FD
-	dc.b	"Who in the world were they!"
+	dc.b	"Qui diable étaient-ils!?"
 	dc.b	$FF
 
 ; $11
-	dc.b	"You're talking nonsense"
+	dc.b	"Tu recommence à dire des"
 	dc.b	$FC
-	dc.b	"again!"
+	dc.b	"âneries!"
 	dc.b	$FD
-	dc.b	"Has the meteorite made you"
+	dc.b	"Est-ce que la météorite t'as"
 	dc.b	$FC
-	dc.b	"dim-witted?"
+	dc.b	"rendu stupide?"
 	dc.b	$FF
 
 ; $12
-	dc.b	"Whew, thanks to the fact that"
+	dc.b	"Ouf, heureusement j'ai pu"
 	dc.b	$FC
-	dc.b	"I got my wares out early,"
+	dc.b	"sauver mes marchandises,"
 	dc.b	$FD
-	dc.b	"I'm still able to do business."
+	dc.b	"je suis toujours ouvert."
 	dc.b	$FF
 
 ; $13
 	dc.b	$F3
-	dc.b	"Just leave me alone."
+	dc.b	"Laissez-moi tranquille."
 	dc.b	$FF
 
 ; $14
-	dc.b	"There's a big town called Aiedo"
+	dc.b	"Il y a une grosse ville, Aiedo,"
 	dc.b	$FC
-	dc.b	"west of here, and my parent's"
+	dc.b	"juste à l'ouest, et mes parents"
 	dc.b	$FD
-	dc.b	"home is located there."
-	dc.b	$FD
-	dc.b	"So I've been telling hubbie"
+	dc.b	"ont une maison là-bas."
 	dc.b	$FC
-	dc.b	"we should go there for a while."
+	dc.b	"Alors je tente de convaincre"
+	dc.b	$FD
+	dc.b	"mon mari qu'on devrait y vivre"
+	dc.b	$FC
+	dc.b	"un temps."
 	dc.b	$FF
 
 ; $15
@@ -378,175 +380,173 @@
 ; $47
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"This...there're lights flashing."
+	dc.b	"Il y a des... lumières qui"
+	dc.b	$FC
+	dc.b	"clignotent."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"I know what it is."
+	dc.b	"Je sais ce que c'est."
 	dc.b	$FC
-	dc.b	"Move over, Chaz!"
+	dc.b	"Laissez-moi faire, Chaz!"
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Wow, pretty impressive."
+	dc.b	"Wow, je suis impressionné."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"It's a pretty hard security code"
+	dc.b	"C'est un code de sécurité"
 	dc.b	$FC
-	dc.b	"to break, but...there!"
+	dc.b	"assez difficile à pirater,"
 	dc.b	$FD
-	dc.b	"We can now access the main"
+	dc.b	"mais... voilà!"
+	dc.b	$FD
+	dc.b	"Maintenant nous pouvons accéder"
 	dc.b	$FC
-	dc.b	"computer's memory!"
+	dc.b	"aux mémoires de l'ordinateur!"
 	dc.b	$F7
 
 	dc.b	$F2, $00
 	dc.w	$003E
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"What's this?"
+	dc.b	"Qu'est-ce que c'est?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Look! It says that this is the"
+	dc.b	"Voyez! Ceci dit que nous sommes"
 	dc.b	$FC
-	dc.b	"space ship that escaped from"
+	dc.b	"dans un vaisseau qui a fui Parma"
 	dc.b	$FD
-	dc.b	"Parma a thousand years ago!"
+	dc.b	"il y a mille ans!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"What! Really?!"
+	dc.b	"Hein! C'est vrai?!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"But...Parma exploded"
+	dc.b	"Mais...il me semble que Parma a"
 	dc.b	$FC
-	dc.b	"a thousand years ago!?"
+	dc.b	"été détruite il y a mille ans!?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Oh, you know about that?"
+	dc.b	"Ah, vous êtes au courant?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Yes...I learned about it"
+	dc.b	"Oui...on me l'a dit alors que"
 	dc.b	$FC
-	dc.b	"at the academy."
+	dc.b	"j'étais à l'Académie."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Parma, the first planet of the"
+	dc.b	"Parma, la première planète du"
 	dc.b	$FC
-	dc.b	"Algo solar system,"
+	dc.b	"système solaire Algo,"
 	dc.b	$FD
-	dc.b	"was destroyed in AW 1284 when"
+	dc.b	"fut détruite en 1284 AW quand"
 	dc.b	$FC
-	dc.b	"the artificial satellite, Gaira,"
+	dc.b	"Gaira, un satellite artificiel,"
 	dc.b	$FD
-	dc.b	"crashed into it..."
+	dc.b	"l'a percutée..."
 	dc.b	$FD
-	dc.b	"Today, the only vestige of"
+	dc.b	"De nos jour, tout ce qu'il en"
 	dc.b	$FC
-	dc.b	"Parma is the asteroid belt."
+	dc.b	"reste, ce sont ces astéroïdes."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"But there were people"
-	dc.b	$FC
-	dc.b	"that were able to escape!"
+	dc.b	"Mais certains ont pu fuir!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"According to the records..."
+	dc.b	"D'après ces mémoires..."
 	dc.b	$FC
-	dc.b	"just before the explosion,"
+	dc.b	"Juste avant l'explosion, des"
 	dc.b	$FD
-	dc.b	"some people were able to"
+	dc.b	"gens sont arrivés à échapper"
 	dc.b	$FC
-	dc.b	"escape..."
+	dc.b	"à la catastrophe..."
 	dc.b	$FD
-	dc.b	"This space ship was damaged,"
+	dc.b	"Ce vaisseau fut endommagé, et"
 	dc.b	$FC
-	dc.b	"and became trapped in orbit"
+	dc.b	"fut capturé en orbite autour de"
 	dc.b	$FD
-	dc.b	"around Motavia."
+	dc.b	"Motavia."
 	dc.b	$FD
-	dc.b	"They floated around in space"
+	dc.b	"Il a flotté dans l'espace"
 	dc.b	$FC
-	dc.b	"until all the humans aboard"
+	dc.b	"et tous les humains à bord sont"
 	dc.b	$FD
-	dc.b	"died. But the computer was"
+	dc.b	"morts. Mais l'ordinateur a pu"
 	dc.b	$FC
-	dc.b	"able to sustain itself with"
+	dc.b	"rester en marche grâce à ses"
 	dc.b	$FD
-	dc.b	"its self-repairing mechanisms."
+	dc.b	"fonctions d'auto-réparation."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"They all...died?"
+	dc.b	"Ils...sont tous morts?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"According to the flight chart..."
+	dc.b	"D'après le plan de vol..."
+	dc.b	$FD
+	dc.b	"l'orbite a décliné graduellement"
 	dc.b	$FC
-	dc.b	"the orbit slowly decayed over"
+	dc.b	"durant ces derniers mille ans..."
 	dc.b	$FD
-	dc.b	"the last thousand years..."
-	dc.b	$FD
-	dc.b	"the ship finally crashed here!"
+	dc.b	"et le vaisseau s'est écrasé ici!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Then...that means all the"
+	dc.b	"Alors...tous les Parmaniens ont"
 	dc.b	$FC
-	dc.b	"Parmanians perished?!"
+	dc.b	"péri?!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Wait... This is not the only"
+	dc.b	"Attends... Ce n'était pas le"
 	dc.b	$FC
-	dc.b	"ship that escaped from Parma!"
+	dc.b	"seul vaisseau venant de Parma!"
 	dc.b	$FD
-	dc.b	"It seems that other similar"
+	dc.b	"Apparamment, d'autres vaisseaux"
 	dc.b	$FC
-	dc.b	"ships were able to escape"
+	dc.b	"semblables ont pu s'échapper."
 	dc.b	$FD
-	dc.b	"successfully."
-	dc.b	$FD
-	dc.b	"Most of them landed either in"
+	dc.b	"La plupart ont atterri sur"
 	dc.b	$FC
-	dc.b	"Motavia or Dezolis, but"
+	dc.b	"Motavia ou Dezolis, mais il"
 	dc.b	$FD
-	dc.b	"it looks like some of them went"
+	dc.b	"semble que certains se sont"
 	dc.b	$FC
-	dc.b	"right out of the Algo solar"
+	dc.b	"dirigés hors du système solaire."
 	dc.b	$FD
-	dc.b	"system."
-	dc.b	$FD
-	dc.b	"I can't get an accurate number,"
+	dc.b	"Je n'ai pas de chiffre exact,"
 	dc.b	$FC
-	dc.b	"but it looks like some tens of"
+	dc.b	"mais ce doit être de l'ordre"
 	dc.b	$FD
-	dc.b	"ships."
+	dc.b	"d'une dizaine de vaisseaux."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"...So they're still continuing"
+	dc.b	"...Donc ils sont toujours en"
 	dc.b	$FC
-	dc.b	"their flight..."
+	dc.b	"vol..."
 	dc.b	$FD
-	dc.b	"somewhere in the universe..."
+	dc.b	"quelque part dans le vide..."
 	dc.b	$FF
 
 ; $48
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"This must be a space ship"
+	dc.b	"Ce doit être un vaisseau qui"
 	dc.b	$FC
-	dc.b	"that escaped from Parma..."
+	dc.b	"a fui Parma..."
 	dc.b	$FF
 
 ; $49
@@ -590,9 +590,9 @@
 
 ; $56
 	dc.b	$F3
-	dc.b	"Don't be ridiculous!"
+	dc.b	"Ne dis pas d'âneries!"
 	dc.b	$FD
-	dc.b	"You think you can do something"
+	dc.b	"Tu crois que tu peux nous"
 	dc.b	$FC
-	dc.b	"like that after you've eloped?!"
+	dc.b	"demander ça après avoir fugué?!"
 	dc.b	$FF

@@ -160,19 +160,23 @@
 ; $35
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Gravity is normal and there is"
+	dc.b	"La force gravitationnelle est"
 	dc.b	$FC
-	dc.b	"a breathable atmosphere."
+	dc.b	"dans les normes, et il y a une"
 	dc.b	$FD
-	dc.b	"This is clearly an artificial"
+	dc.b	"atmosphère respirable. Il s'agit"
 	dc.b	$FC
-	dc.b	"condition."
+	dc.b	"manifestement de conditions"
+	dc.b	$FD
+	dc.b	"maintenues artificiellement."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"They seem to be expecting us."
+	dc.b	"On dirait que nous sommes"
 	dc.b	$FC
-	dc.b	"Huh!"
+	dc.b	"attendus..."
+	dc.b	$FC
+	dc.b	"Hein!"
 	dc.b	$FF
 
 ; $36
@@ -180,109 +184,111 @@
 	dc.b	$1D
 	dc.b	"Ha, ha, ha, ha!"
 	dc.b	$FD
-	dc.b	"You've come! However..."
+	dc.b	"Vous voilà! Malheureusement..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$1F
 	dc.b	"Ha, ha, ha, ha!"
 	dc.b	$FD
-	dc.b	"We have no use for anyone"
-	dc.b	$FC
-	dc.b	"but Lutz!"
+	dc.b	"Seul Lutz nous intéresse!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$1D
-	dc.b	"And we have only one use for"
+	dc.b	"Et nous n'avons qu'une chose à"
 	dc.b	$FC
-	dc.b	"him."
+	dc.b	"lui proposer."
 	dc.b	$FD
 	dc.b	"Ha, ha, ha, ha!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$1F
-	dc.b	"We will mutilate and kill him"
+	dc.b	"Le mutiler et le tuer de nos"
 	dc.b	$FC
-	dc.b	"with these very hands!"
+	dc.b	"propres mains!"
 	dc.b	$FF
 
 ; $37
 	dc.b	$F4
 	dc.b	$1C
-	dc.b	"You've finally come... Lutz!"
+	dc.b	"Alors, tu t'es décidé à"
+	dc.b	$FC
+	dc.b	"venir...Lutz!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"So it was Lashiec after all!"
+	dc.b	"Donc, il s'agissait bien de"
+	dc.b	$FC
+	dc.b	"Lashiec!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$1C
-	dc.b	"Heh, heh...I've waited..."
+	dc.b	"Ha ha ha...J'ai tant..."
 	dc.b	$FC
-	dc.b	"I've waited for this moment!"
+	dc.b	"J'ai tant attendu ce moment!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Lashiec! Why are you"
+	dc.b	"Lashiec! Pourquoi es-tu"
 	dc.b	$FC
-	dc.b	"reincarnated...like that?"
+	dc.b	"réincarné...en cette chose?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$1C
-	dc.b	"For revenge!"
+	dc.b	"Pour me venger!"
 	dc.b	$FD
-	dc.b	"Lutz, you...and all who are"
+	dc.b	"Lutz, toi...et tous tes"
 	dc.b	$FC
-	dc.b	"helping you...will suffer"
+	dc.b	"compagnons...vont pâtir de"
 	dc.b	$FD
-	dc.b	"endless pain!"
+	dc.b	"douleurs éternelles!"
 	dc.b	$FD
-	dc.b	"I'll kill you all!"
+	dc.b	"Je vais vous tuer, tous!"
 	dc.b	$FD
-	dc.b	"I'll make you like me, like..."
+	dc.b	"Vous deviendrez comme... moi!"
+	dc.b	$FD
+	dc.b	"Vous deviendrez vous aussi des"
 	dc.b	$FC
-	dc.b	"this!"
+	dc.b	"âmes damnées qui ne pourront"
 	dc.b	$FD
-	dc.b	"You too will become tortured"
-	dc.b	$FC
-	dc.b	"souls who can never leave my"
-	dc.b	$FD
-	dc.b	"castle!"
+	dc.b	"jamais quitter ce château!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"So that's why you "
+	dc.b	"Alors, c'est pour ça que tu"
 	dc.b	$FC
-	dc.b	"lured us here?"
+	dc.b	"nous a attiré ici?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$1C
-	dc.b	"Heh, heh...Oh joy!"
+	dc.b	"Ha ha ha...Quelle joie!"
 	dc.b	$FD
-	dc.b	"You have responded to my"
+	dc.b	"Vous avez répondu à mon"
 	dc.b	$FC
 	dc.b	"invitation..."
 	dc.b	$FD
-	dc.b	"I've waited two thousand years"
+	dc.b	"J'ai attendu deux mille ans"
 	dc.b	$FC
-	dc.b	"to cut your throats!"
+	dc.b	"pour avoir l'occasion de vous"
+	dc.b	$FD
+	dc.b	"trancher la gorge!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Here he comes!"
+	dc.b	"Il attaque!"
 	dc.b	$FF
 
 ; $38
 	dc.b	$F4
 	dc.b	$1C
-	dc.b	"Ahhhh! You fiend, Lutz!"
+	dc.b	"Ahhhh! Tu es un démon, Lutz!"
 	dc.b	$FD
-	dc.b	"You may have defeated me, but"
+	dc.b	"Tu m'as vaincu, mais tu ne"
 	dc.b	$FC
-	dc.b	"you'll never get..."
+	dc.b	"vaincra jamais..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"The Eclipse Torch?!"
+	dc.b	"Le Flambeau de l'Éclipse?!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
@@ -297,37 +303,37 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"We've done it!"
+	dc.b	"Nous y sommes arrivés!"
 	dc.b	$FD
-	dc.b	"We've retrieved the Eclipse"
+	dc.b	"Nous avons récupéré le Flambeau"
 	dc.b	$FC
-	dc.b	"Torch!"
+	dc.b	"de l'Éclipse!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$1C
-	dc.b	"I'm melting!"
+	dc.b	"Je fond! Je fond!!!"
 	dc.b	$FD
 	dc.b	$F2, $03
 	dc.b	$ED
 	dc.b	$F2, $00
 	dc.w	$0109
-	dc.b	"Once again, my body is"
+	dc.b	"Une fois encore, mon corps ce"
 	dc.b	$FC
-	dc.b	"dissolving!"
+	dc.b	"disloque!"
 	dc.b	$FD
-	dc.b	"But, even now, I will not die!"
-	dc.b	$FD
-	dc.b	"I will reincarnate over and"
+	dc.b	"Mais sachez que malgré cela,"
 	dc.b	$FC
-	dc.b	"over again."
+	dc.b	"je ne mourrai pas! Je me"
 	dc.b	$FD
-	dc.b	"I must work for Him!"
+	dc.b	"réincarnerai sans cesse."
 	dc.b	$FD
-	dc.b	"As long as He exists, I will"
+	dc.b	"Je dois accomplir Sa volonté!"
+	dc.b	$FD
+	dc.b	"Tant qu'Il vit, je demeurerai"
 	dc.b	$FC
-	dc.b	"continue to bring calamity to"
+	dc.b	"et apporterai le malheur dans"
 	dc.b	$FD
-	dc.b	"the future of Algo!"
+	dc.b	"tout Algo!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$00
@@ -373,19 +379,19 @@
 
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"The air castle is crumbling!"
+	dc.b	"Le Air Castle s'effondre!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"We've got to escape quickly!"
+	dc.b	"Il faut sortir d'ici, vite!"
 	dc.b	$FD
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"There will be a shock wave."
+	dc.b	"Une onde de choc va nous"
 	dc.b	$FC
-	dc.b	"Everybody! Prepare youselves!"
+	dc.b	"atteindre. Prenez garde!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
@@ -393,137 +399,139 @@
 	dc.w	$010B
 	dc.b	"Lashiec..."
 	dc.b	$FD
-	dc.b	"If you think about it, he's"
+	dc.b	"Quand on y pense, son sort est"
 	dc.b	$FC
-	dc.b	"pretty pathetic."
+	dc.b	"bien triste."
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$010C
-	dc.b	"He was seduced by an enormous"
+	dc.b	"Il fut séduit par un grand"
 	dc.b	$FC
-	dc.b	"power... and now he is"
+	dc.b	"pouvoir... mais il est devenu"
 	dc.b	$FD
-	dc.b	"but a puppet!"
+	dc.b	"un vulgaire pantin!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Enormous power?"
+	dc.b	"Un grand pouvoir?"
 	dc.b	$FD
-	dc.b	"Who is the 'He' Lashiec"
+	dc.b	"Qui était ce 'Il' dont Lashiec"
 	dc.b	$FC
-	dc.b	"mentioned?"
+	dc.b	"parlait?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Is it...Dark Force?"
+	dc.b	"Était-ce... Dark Force?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"He hasn't been destroyed yet?"
+	dc.b	"Nous ne l'avions pas détruite?"
 	dc.b	$FF
 
 ; $39
 	dc.b	$F4
 	dc.b	$1A
-	dc.b	"Ah, it's really"
+	dc.b	"Bien! C'est vraiment le"
 	dc.b	$FC
-	dc.b	"the Eclipse Torch!"
+	dc.b	"Flambeau de l'Éclipse!"
 	dc.b	$FD
-	dc.b	"What a feat that you've"
+	dc.b	"Vous avez accompli tout un"
 	dc.b	$FC
-	dc.b	"retrieved it!"
+	dc.b	"exploit en la retrouvant!"
 	dc.b	$FD
-	dc.b	"I have no qualms about lending"
+	dc.b	"Je n'ai pas de réserves à prêter"
 	dc.b	$FC
-	dc.b	"the torch to people such as you."
+	dc.b	"le Flambeau à des gens tels"
 	dc.b	$FD
-	dc.b	"Please use this holy flame to"
+	dc.b	"que vous."
+	dc.b	$FD
+	dc.b	"Utilisez la flamme sacrée pour"
 	dc.b	$FC
-	dc.b	"lead us from this evil road."
+	dc.b	"nous éloigner du chemin du mal."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"All right!"
-	dc.b	$FD
-	dc.b	"Let's hurry to the forest of"
+	dc.b	"Excellent! Dépêchons-nous vers"
 	dc.b	$FC
-	dc.b	"the carnivorous trees!"
+	dc.b	"cette forêt d'arbres carnivores!"
 	dc.b	$FF
 
 ; $3A
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"What's that?"
+	dc.b	"Qu'est-ce que c'est que ça?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Is that Dark Force?!"
+	dc.b	"C'est Dark Force?!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"It sure is!"
+	dc.b	"C'est elle, j'en suis sûr!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Comparing search data..."
-	dc.b	$FD
-	dc.b	"It is not similar to any"
+	dc.b	"Analyse comparative de données"
 	dc.b	$FC
-	dc.b	"object that was on Kuran."
+	dc.b	"historiques..."
+	dc.b	$FD
+	dc.b	"Ceci n'est pas comparable à"
+	dc.b	$FC
+	dc.b	"quelque objet situé sur Kuran."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"So there were two Dark Forces?"
+	dc.b	"Alors il y avait deux Dark"
+	dc.b	$FC
+	dc.b	"Forces?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Just as Raja said, this is"
+	dc.b	"C'est tel que Raja l'avait dit!"
 	dc.b	$FC
-	dc.b	"what has been creating havoc"
+	dc.b	"Voici ce qui cause tous ces"
 	dc.b	$FD
-	dc.b	"on Dezolis!"
+	dc.b	"ravages sur Dezolis!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Not just Dezolis."
+	dc.b	"Pas seulement sur Dezolis."
 	dc.b	$FD
-	dc.b	"He's messing with the entire"
+	dc.b	"Elle fiche la pagaille dans tout"
 	dc.b	$FC
-	dc.b	"Algo solar system!"
+	dc.b	"le système solaire d'Algo!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Dark Force senses our presence."
+	dc.b	"Dark Force perçoit notre"
 	dc.b	$FC
-	dc.b	"He is attacking!"
+	dc.b	"précence. Elle va nous attaquer!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Exactly what we were hoping"
+	dc.b	"C'est ce qu'on espérait!"
 	dc.b	$FC
-	dc.b	"for!"
-	dc.b	$FD
-	dc.b	"Let's go, everybody!"
+	dc.b	"Tout le monde, à l'assaut!"
 	dc.b	$FF
 
 ; $3B
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"We've done it, Chaz."
+	dc.b	"On a réussi, Chaz."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Yes..."
+	dc.b	"Oui..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"The storm...is over!"
+	dc.b	"La tempête...elle s'estompe!"
 	dc.b	$FD
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Look at the sky!"
+	dc.b	"Regardez! Le ciel!"
 	dc.b	$F9
 	dc.b	$77
 
@@ -535,180 +543,184 @@
 	dc.w	$0111
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It's beautiful..."
+	dc.b	"C'est magnifique..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"The Black Energy Wave has also"
+	dc.b	"L'Onde d'Énergie Noire s'est"
 	dc.b	$FC
-	dc.b	"stopped. I bet the patients of"
+	dc.b	"dissipée. Je parie que les"
 	dc.b	$FD
-	dc.b	"Meese are already recovering."
+	dc.b	"malades de Meese se portent"
+	dc.b	$FC
+	dc.b	"déjà mieux."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"It's finally over."
+	dc.b	"Finalement, c'est terminé."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Good."
+	dc.b	"Bien."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
 	dc.b	$F2, $00
 	dc.w	$0112
-	dc.b	"Thank you."
+	dc.b	"Merci beaucoup."
 	dc.b	$FD
-	dc.b	"It's because of your cooperation"
+	dc.b	"C'est grâce à vous tous que nous"
 	dc.b	$FC
-	dc.b	"that this was possible."
+	dc.b	"avons accompi cela."
 	dc.b	$FD
-	dc.b	"It was pretty presumptuous of"
+	dc.b	"J'ai été plutôt prétentieuse de"
 	dc.b	$FC
-	dc.b	"me to think that"
+	dc.b	"croire que je pouvais y arriver"
 	dc.b	$FD
-	dc.b	"I could do it alone!"
+	dc.b	"seule!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"No problem."
+	dc.b	"C'est sans importance. Je suis"
 	dc.b	$FC
-	dc.b	"I'm glad for you, Kyra!"
+	dc.b	"heureuse pour toi, Kyra!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"Now! I shall return to Meese."
+	dc.b	"Bon! Je dois retourner à Meese."
 	dc.b	$FD
-	dc.b	"There's still a lot of work"
+	dc.b	"J'ai beaucoup de pain sur la"
 	dc.b	$FC
-	dc.b	"ahead for me!"
+	dc.b	"planche!"
 	dc.b	$FD
-	dc.b	"So long, Chaz. You're quite a"
+	dc.b	"Au revoir, Chaz. Tu es un vrai"
 	dc.b	$FC
-	dc.b	"darling, just like a"
+	dc.b	"trésor, je te considère comme"
 	dc.b	$FD
-	dc.b	"baby brother!"
+	dc.b	"mon petit frère!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
 	dc.b	$F2, $00
 	dc.w	$0113
-	dc.b	"What!"
-	dc.b	$FC
-	dc.b	"Don't be ridiculous!"
+	dc.b	"Hein! Ne soit pas absurde!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"Hee, hee...that's what's so"
+	dc.b	"Ha ha ha! C'est pour ça que tu"
 	dc.b	$FC
-	dc.b	"endearing about you."
+	dc.b	"es si attendrissant."
 	dc.b	$FD
-	dc.b	"Good-bye, everybody!"
+	dc.b	"À bientôt, tout le monde!"
 	dc.b	$FC
-	dc.b	"Good-bye, Lutz!"
+	dc.b	"À bientôt, Lutz!"
 	dc.b	$FD
-	dc.b	"You were a little different"
+	dc.b	"Vous n'étiez pas tout à fait"
 	dc.b	$FC
-	dc.b	"from my expectations, but"
+	dc.b	"comme je l'imaginais, mais vous"
 	dc.b	$FD
-	dc.b	"you certainly did not bring"
+	dc.b	"avez amplement fait honneur"
 	dc.b	$FC
-	dc.b	"shame to your name!"
+	dc.b	"à votre nom!"
 	dc.b	$FD
-	dc.b	"We'll meet again soon."
+	dc.b	"Nous nous reverrons sous peu."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Huh? Oh, oh yes."
+	dc.b	"Hein? Euh, oui, bien sûr."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"So long!"
-	dc.b	$FC
-	dc.b	"See you later!"
+	dc.b	"Au revoir! À bientôt!"
 	dc.b	$FD
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"She's gone."
+	dc.b	"Elle est partie."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"She called me her baby brother."
+	dc.b	"Elle m'a traitée de petit frère."
 	dc.b	$FC
-	dc.b	"Am I that undependable?"
+	dc.b	"Suis-je si peu fiable?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Well, you have improved some,"
+	dc.b	"Eh bien, tu t'es un peu"
 	dc.b	$FC
-	dc.b	"but you're still a lot like me!"
+	dc.b	"amélioré, mais tu me ressemble"
+	dc.b	$FD
+	dc.b	"encore beaucoup!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
 	dc.b	$F2, $00
 	dc.w	$0114
-	dc.b	"Well, I can't compare with you."
+	dc.b	"Bah, je ne suis pas à ta"
 	dc.b	$FC
-	dc.b	"After all, you are Lutz!"
+	dc.b	"hauteur. Tu es Lutz, après tout!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
 	dc.b	$F2, $00
 	dc.w	$0115
-	dc.b	"You want to get whupped again?"
+	dc.b	"Tu veux que je te botte le"
+	dc.b	$FC
+	dc.b	"derrière de nouveau!?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"You guys never quit, do you!"
+	dc.b	"Vous n'en avez jamais assez,"
+	dc.b	$FC
+	dc.b	"vous deux!?"
 	dc.b	$FD
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"What was that?"
-	dc.b	$FD
-	dc.b	"It's Gumbious Temple!!"
+	dc.b	"Quoi? C'est le Temple Gumbious!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"What is going on?"
+	dc.b	"Comment est-ce possible? Nous"
 	dc.b	$FC
-	dc.b	"We've defeated Dark Force!"
+	dc.b	"avons vaincu Dark Force!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Let's go and see!"
+	dc.b	"Allons voir!"
 	dc.b	$FF
 
 ; $3C
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Oh no!"
+	dc.b	"Oh non!"
 	dc.b	$FC
-	dc.b	"This torch is a fake!"
+	dc.b	"Ce flambeau est un faux!"
 	dc.b	$FF
 
 ; $3D
 	dc.b	$F3
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"It's the rascals who stole"
+	dc.b	"Ce sont les gredins qui ont"
 	dc.b	$FC
-	dc.b	"the Eclipse Torch!"
+	dc.b	"volé le Flambeau de l'Éclipse!"
 	dc.b	$FD
-	dc.b	"They're illusions?"
+	dc.b	"Ils sont une illusion?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"It's not just any illusion..."
+	dc.b	"Ce n'est pas simplement une"
 	dc.b	$FC
-	dc.b	"There's an invisible barrier!"
+	dc.b	"illusion... Je perçois une"
+	dc.b	$FD
+	dc.b	"barrière invisible!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"So that means we've got to find"
+	dc.b	"Alors, il faudra trouver les"
 	dc.b	$FC
-	dc.b	"the real thing and defeat them!"
+	dc.b	"vrais et les détruires!"
 	dc.b	$FF

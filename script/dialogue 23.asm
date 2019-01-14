@@ -1,240 +1,232 @@
 ; 0
 	dc.b	$FA
 	dc.b	$A1, $01
-	dc.b	"Welcome to the town of Jut."
+	dc.b	"Bienvenue à la ville de Jut."
 	dc.b	$FD
-	dc.b	"Actually this is no time for"
+	dc.b	"Mais trêve de bavardage... Voyez"
 	dc.b	$FC
-	dc.b	"niceties. Look at this weather."
+	dc.b	"plutôt ce mauvais temps."
 	dc.b	$FF
 
 ; $1
-	dc.b	"Welcome to the town of Jut."
+	dc.b	"Bienvenue à la ville de Jut."
 	dc.b	$FD
-	dc.b	"Actually this is no time for"
+	dc.b	"Mais trêve de bavardage... Le"
 	dc.b	$FC
-	dc.b	"niceties! The temple is..."
+	dc.b	"temple a été..."
 	dc.b	$FF
 
 ; $2
 	dc.b	$FA
 	dc.b	$A1, $01
-	dc.b	"Everyone seems down-hearted."
+	dc.b	"Tous semblent abattus."
 	dc.b	$FD
-	dc.b	"What wimps to stay indoors"
+	dc.b	"Ils restent à l'intérieur à"
 	dc.b	$FC
-	dc.b	"just because of a little bit"
+	dc.b	"cause d'un petit peu de vent!"
 	dc.b	$FD
-	dc.b	"of wind like this."
+	dc.b	"Quelles mauviettes!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"But this region has especially"
+	dc.b	"Mais la tempête est particuliè-"
 	dc.b	$FC
-	dc.b	"harsh snow storms."
+	dc.b	"rement brutale par ici."
 	dc.b	$FD
-	dc.b	"I don't blame them."
+	dc.b	"Je les comprends."
 	dc.b	$FF
 
 ; $3
-	dc.b	"Oh no!"
+	dc.b	"Oh non!"
 	dc.b	$FF
 
 ; $4
 	dc.b	$FA
 	dc.b	$A1, $01
-	dc.b	"Oops!"
+	dc.b	"Oups!"
 	dc.b	$FD
-	dc.b	"It's so thrilling when the"
+	dc.b	"C'est si palpitant quand le"
 	dc.b	$FC
-	dc.b	"winds are just right."
+	dc.b	"vent est ainsi."
 	dc.b	$FD
-	dc.b	"You don't know whether you'll"
+	dc.b	"On ne sait jamais si on sera"
 	dc.b	$FC
-	dc.b	"be blown away or not!"
+	dc.b	"emporté ou pas!"
 	dc.b	$FF
 
 ; $5
-	dc.b	"There was a sound of a big"
+	dc.b	"Il y a eu une grosse explosion"
 	dc.b	$FC
-	dc.b	"explosion in the direction"
-	dc.b	$FD
-	dc.b	"of Gumbious Temple!!"
+	dc.b	"en direction du Temple Gumbious!"
 	dc.b	$FF
 
 ; $6
 	dc.b	$FA
 	dc.b	$A1, $01
-	dc.b	"This hat?"
+	dc.b	"Mon chapeau?"
 	dc.b	$FD
-	dc.b	"Actually, there's a string"
+	dc.b	"En fait, il a une bande à"
 	dc.b	$FC
-	dc.b	"inside it, so it won't get"
+	dc.b	"l'intérieur, comme ça, il ne"
 	dc.b	$FD
-	dc.b	"blown away."
+	dc.b	"s'envole pas."
 	dc.b	$FF
 
 ; $7
-	dc.b	"What is it? What is it?"
+	dc.b	"Que se passe-t-il?"
 	dc.b	$FD
-	dc.b	"What the heck "
-	dc.b	$FC
-	dc.b	"has happened!?"
+	dc.b	"Qu'est-ce qui vient d'arriver!?"
 	dc.b	$FF
 
 ; $8
 	dc.b	$FA
 	dc.b	$A1, $01
 	dc.b	$F3
-	dc.b	"Ooof."
+	dc.b	"Ouf."
 	dc.b	$FD
-	dc.b	"I can't move forward at all."
+	dc.b	"Je n'arrive pas à avancer."
 	dc.b	$FF
 
 ; $9
-	dc.b	"What the heck is going on"
+	dc.b	"Que diable se passe-t-il sur"
 	dc.b	$FC
-	dc.b	"with this planet?"
+	dc.b	"cette planète?"
 	dc.b	$FF
 
 ; $A
-	dc.b	"Is it true that Gumbious Temple"
+	dc.b	"Est-il vrai que le Temple"
 	dc.b	$FC
-	dc.b	"just vanished?"
+	dc.b	"Gumbious a disparu?"
 	dc.b	$FF
 
 ; $B
-	dc.b	"This is the end of the world!"
+	dc.b	"C'est la fin du monde!"
 	dc.b	$FD
-	dc.b	"Ahh! What am I to do!?"
+	dc.b	"Ahh! Que puis-je faire!?"
 	dc.b	$FF
 
 ; $C
-	dc.b	"Oh no, not the Gumbious Temple!"
+	dc.b	"Oh non, le Temple Gumbious!"
 	dc.b	$FC
-	dc.b	"It's the source of our strength!"
+	dc.b	"C'est la source de notre force!"
 	dc.b	$FF
 
 ; $D
-	dc.b	"I'm glad that the winds have"
+	dc.b	"C'est bien que le vent ait"
 	dc.b	$FC
-	dc.b	"died down, but..."
+	dc.b	"cessé, toutefois..."
 	dc.b	$FD
-	dc.b	"It sounded like there was a big"
+	dc.b	"On dirait qu'il y a eu une"
 	dc.b	$FC
-	dc.b	"explosion in the direction of"
+	dc.b	"explosion en direction du"
 	dc.b	$FD
-	dc.b	"the Gumbious Temple."
+	dc.b	"Temple Gumbious."
 	dc.b	$FF
 
 ; $E
-	dc.b	"It seems like some major crisis"
+	dc.b	"Nous sommes en présence d'une"
 	dc.b	$FC
-	dc.b	"has occurred!"
+	dc.b	"crise majeure!"
 	dc.b	$FD
-	dc.b	"What's going to happen to this"
+	dc.b	"Que va-t-il arriver à notre"
 	dc.b	$FC
-	dc.b	"planet?"
+	dc.b	"planète?"
 	dc.b	$FF
 
 ; $F
-	dc.b	"There was a tremendous sound of"
+	dc.b	"Il y a eu un grand bruit de"
 	dc.b	$FC
-	dc.b	"the earth rumbling!"
+	dc.b	"terre qui tremble!"
 	dc.b	$FD
-	dc.b	"What on earth was it?"
+	dc.b	"Que diable était-ce?"
 	dc.b	$FF
 
 ; $10
-	dc.b	"The Laconia weapons have"
+	dc.b	"Les armes en Laconia ont été"
 	dc.b	$FC
-	dc.b	"been purchased from Reshel."
+	dc.b	"achetée à Reshel."
 	dc.b	$FD
-	dc.b	"So what we have in stock is all"
+	dc.b	"Tout ce qui nous reste est dans"
 	dc.b	$FC
-	dc.b	"that there is."
+	dc.b	"notre stock."
 	dc.b	$FD
-	dc.b	"It's first come first served"
+	dc.b	"Premier arrivé, premier servi,"
 	dc.b	$FC
-	dc.b	"while supplies last!"
+	dc.b	"jusqu'à épuisement des stocks!"
 	dc.b	$FF
 
 ; $11
-	dc.b	"We do hunt, but Dezolisians are"
+	dc.b	"Les Dezolisien chassent, mais"
 	dc.b	$FC
-	dc.b	"essentially laid back."
+	dc.b	"nous sommes plûtot relaxe."
 	dc.b	$FD
-	dc.b	"Therefore weapon stores don't"
+	dc.b	"Les magasins d'armes ne font"
 	dc.b	$FC
-	dc.b	"do a lot of business."
+	dc.b	"donc pas de bonnes affaires."
 	dc.b	$FF
 
 ; $12
-	dc.b	"See that old building to"
+	dc.b	"Vous voyez ce vieil édifice au"
 	dc.b	$FC
-	dc.b	"the southwest?"
+	dc.b	"sud-ouest?"
 	dc.b	$FD
-	dc.b	"Apparently it's some ruin from"
+	dc.b	"On dit que c'est un vestige des"
 	dc.b	$FC
-	dc.b	"ages past."
+	dc.b	"temps anciens."
 	dc.b	$FD
-	dc.b	"I should go there some time."
-	dc.b	$FD
-	dc.b	"Maybe I'll stumble onto some"
+	dc.b	"Il faudrait que j'y aille un de"
 	dc.b	$FC
-	dc.b	"lucky find!"
+	dc.b	"ces jours."
+	dc.b	$FD
+	dc.b	"Peut-être j'y ferais une"
+	dc.b	$FC
+	dc.b	"trouvaille!"
 	dc.b	$FF
 
 ; $13
-	dc.b	"The building to the southwest?"
+	dc.b	"L'édifice au sud-ouest? Ne dites"
 	dc.b	$FC
-	dc.b	"Don't be silly."
+	dc.b	"pas de bêtises."
 	dc.b	$FD
-	dc.b	"There's a wall of ice around it"
+	dc.b	"Avec ce mur de glace qui"
 	dc.b	$FC
-	dc.b	"and you wouldn't be able to get"
-	dc.b	$FD
-	dc.b	"through!"
+	dc.b	"l'entoure, impossible d'y aller!"
 	dc.b	$FF
 
 ; $14
-	dc.b	"Oh my, a Parmanian guest,"
+	dc.b	"Ah, de la visite Parmanienne."
 	dc.b	$FC
-	dc.b	"how rare."
+	dc.b	"C'est rare."
 	dc.b	$FD
-	dc.b	"So is it that interesting to"
+	dc.b	"Vous trouvez ça si interessant"
 	dc.b	$FC
-	dc.b	"you to go see a Dezolisian"
-	dc.b	$FD
-	dc.b	"temple?"
+	dc.b	"de visiter un temple Dezolisien?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"I wonder if this person wants"
+	dc.b	"Je me demande s'il veut quelque"
 	dc.b	$FC
-	dc.b	"any business?"
+	dc.b	"chose?"
 	dc.b	$FF
 
 ; $15
 	dc.b	$FA
 	dc.b	$A1, $01
-	dc.b	"If you're talking about the"
+	dc.b	"Si vous voulez le Temple"
 	dc.b	$FC
-	dc.b	"Gumbious Temple, it's further"
+	dc.b	"Gumbious, c'est plus au nord."
 	dc.b	$FD
-	dc.b	"north."
-	dc.b	$FD
-	dc.b	"The building in the middle of"
+	dc.b	"L'édifice au centre de la ville,"
 	dc.b	$FC
-	dc.b	"town, now that's different."
+	dc.b	"ça, c'est autre chose."
 	dc.b	$FF
 
 ; $16
-	dc.b	"Talking about the Gumbious"
+	dc.b	"À propos du Temple Gumbious..."
 	dc.b	$FC
-	dc.b	"Temple, I hear it vanished."
+	dc.b	"J'ai entendu qu'il a disparu."
 	dc.b	$FD
-	dc.b	"Is that true?"
+	dc.b	"Est-ce vrai?"
 	dc.b	$FF
 
 ; $17
@@ -242,37 +234,33 @@
 	dc.b	$A1, $02
 	dc.b	$FA
 	dc.b	$94, $01
-	dc.b	"Talking about the temple, some"
+	dc.b	"À propos du temple, il y a un"
 	dc.b	$FC
-	dc.b	"time ago there was a man who"
+	dc.b	"moment, il y avait un homme qui"
 	dc.b	$FD
-	dc.b	"kept making stupid jokes all"
+	dc.b	"n'arrêtait pas de conter des"
 	dc.b	$FC
-	dc.b	"the time."
+	dc.b	"blagues stupides."
 	dc.b	$FD
-	dc.b	"I haven't seen him around"
+	dc.b	"Il y a un moment que je ne l'ai"
 	dc.b	$FC
-	dc.b	"recently, but I really liked"
+	dc.b	"vu, mais je l'aimais bien!"
 	dc.b	$FD
-	dc.b	"him!"
-	dc.b	$FD
-	dc.b	"Oh? Hey! You, I'm talking to"
+	dc.b	"Oh? Hé! Toi, je parle de toi!"
 	dc.b	$FC
-	dc.b	"you!"
-	dc.b	$FD
-	dc.b	"What's going on. Did you move?"
+	dc.b	"Tu as déménagé, ou quoi?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$09
-	dc.b	"Some of my jokes were such a hit"
+	dc.b	"Mes blagues étaient tellement"
 	dc.b	$FC
-	dc.b	"that I had to move on! Ha, ha!"
+	dc.b	"bonnes que j'ai dû partir! Haha!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"And that'll be happening pretty"
+	dc.b	"Ouais, et ça risque d'arriver"
 	dc.b	$FC
-	dc.b	"soon here, too."
+	dc.b	"de nouveau avec nous..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
@@ -280,181 +268,181 @@
 	dc.b	$FF
 
 ; $18
-	dc.b	"Talking about the temple, some"
+	dc.b	"À propos du temple, il y a un"
 	dc.b	$FC
-	dc.b	"time ago, there was a man who"
+	dc.b	"moment, il y avait un homme qui"
 	dc.b	$FD
-	dc.b	"kept making stupid jokes all"
+	dc.b	"n'arrêtait pas de conter des"
 	dc.b	$FC
-	dc.b	"the time."
+	dc.b	"blagues stupides."
 	dc.b	$FD
-	dc.b	"I haven't seen him around"
+	dc.b	"Il y a un moment que je ne l'ai"
 	dc.b	$FC
-	dc.b	"recently, but I really liked"
-	dc.b	$FD
-	dc.b	"him!"
+	dc.b	"vu, mais je l'aimais bien!"
 	dc.b	$FF
 
 ; $19
-	dc.b	"Have you heard the strange"
-	dc.b	$FC
-	dc.b	"rumor?"
+	dc.b	"Vous avez entendu la rumeur?"
 	dc.b	$FD
-	dc.b	"They say that the Gumbious"
+	dc.b	"Le Temple Gumbious aurait"
 	dc.b	$FC
-	dc.b	"Temple is gone. That's"
-	dc.b	$FD
-	dc.b	"impossible, don't you think?"
+	dc.b	"disparu! C'est impossible, non?"
 	dc.b	$FF
 
 ; $1A
 	dc.b	$FA
 	dc.b	$A1, $01
-	dc.b	"In the back room of the"
+	dc.b	"Dans l'arrière salle du Temple"
 	dc.b	$FC
-	dc.b	"Gumbious Temple, there's a"
+	dc.b	"Gumbious, il y a un grand"
 	dc.b	$FD
-	dc.b	"great Bishop that has lived"
+	dc.b	"archevêque qui vit depuis plus"
 	dc.b	$FC
-	dc.b	"for over a thousand years..."
+	dc.b	"de mille ans..."
 	dc.b	$FD
-	dc.b	"I haven't met him myself, but"
+	dc.b	"Je veux dire, je ne l'ai jamais"
 	dc.b	$FC
-	dc.b	"that's what they say."
+	dc.b	"rencontré, mais c'est la rumeur."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Uh huh...I have heard that"
+	dc.b	"Ouais...J'ai déjà entendu cette"
 	dc.b	$FC
-	dc.b	"being rumored..."
+	dc.b	"rumeur..."
 	dc.b	$FF
 
 ; $1B
-	dc.b	"Talking about the Gumbious"
+	dc.b	"À propos du Temple Gumbious..."
 	dc.b	$FC
-	dc.b	"Temple, I hear it vanished."
+	dc.b	"J'ai entendu qu'il a disparu."
 	dc.b	$FD
-	dc.b	"Is that true?"
+	dc.b	"Est-ce vrai?"
 	dc.b	$FF
 
 ; $1C
 	dc.b	$FA
 	dc.b	$A1, $01
-	dc.b	"With the Gumbious Temple"
+	dc.b	"J'ai pitié du temple au centre"
 	dc.b	$FC
-	dc.b	"being so close by,"
+	dc.b	"de la ville. Il se porte mal"
 	dc.b	$FD
-	dc.b	"I feel sorry for the temple"
+	dc.b	"à cause de la proximité du"
 	dc.b	$FC
-	dc.b	"in the middle of town."
+	dc.b	"Temple Gumbious."
 	dc.b	$FF
 
 ; $1D
-	dc.b	"What! The Gumbious Temple...!"
+	dc.b	"Comment! Le Temple Gumbious...!"
 	dc.b	$FC
-	dc.b	"You...have got to be kidding?"
+	dc.b	"C'est...une blague, non?"
 	dc.b	$FF
 
 ; $1E
-	dc.b	"With weather like this, even we"
+	dc.b	"Même nous Dezolisiens hésitons"
 	dc.b	$FC
-	dc.b	"are too afraid to go out."
+	dc.b	"à sortir lors d'une telle"
 	dc.b	$FD
-	dc.b	"Although there do seem to be"
+	dc.b	"tempête."
+	dc.b	$FD
+	dc.b	"Quoi qu'il semble que certains"
 	dc.b	$FC
-	dc.b	"some of us who are rather"
+	dc.b	"d'entre nous sont plutôt"
 	dc.b	$FD
-	dc.b	"frivolous!"
+	dc.b	"téméraires!"
 	dc.b	$FF
 
 ; $1F
 	dc.b	$FA
 	dc.b	$A1, $01
-	dc.b	"It's our pride that our house"
+	dc.b	"Nous sommes fiers d'avoir la"
 	dc.b	$FC
-	dc.b	"is the only two-story house in"
+	dc.b	"seule maison à étage de toute"
 	dc.b	$FD
-	dc.b	"the entire town!"
+	dc.b	"cette ville!"
 	dc.b	$FD
-	dc.b	"On the other hand, with this"
+	dc.b	"Par contre, avec ce vent, c'est"
 	dc.b	$FC
-	dc.b	"storm, it's kind of worrisome."
+	dc.b	"un peu préoccupant."
 	dc.b	$FD
-	dc.b	"I wonder if it will fall?"
+	dc.b	"Est-ce que tout tiendra?"
 	dc.b	$FF
 
 ; $20
-	dc.b	"This house has "
+	dc.b	"Cette maison a survécu, je"
 	dc.b	$FC
-	dc.b	"somehow or another survived."
+	dc.b	"ne sais comment."
 	dc.b	$FF
 
 ; $21
 	dc.b	$FA
 	dc.b	$A1, $01
-	dc.b	"It's shaking, it's shaking."
+	dc.b	"Ça vibre, ça tremble..."
 	dc.b	$FC
-	dc.b	"I'm getting seasick."
+	dc.b	"J'ai mal au coeur."
 	dc.b	$FF
 
 ; $22
-	dc.b	"What?"
+	dc.b	"Pardon?"
 	dc.b	$FD
-	dc.b	"It sounded like there was some"
+	dc.b	"Oui, il y avait du vacarme"
 	dc.b	$FC
-	dc.b	"commotion outside, but I don't"
+	dc.b	"à l'extérieur, mais je ne suis"
 	dc.b	$FD
-	dc.b	"know anything."
+	dc.b	"pas au courant."
 	dc.b	$FF
 
 ; $23
 	dc.b	$FA
 	dc.b	$A1, $01
-	dc.b	"You think you can just open"
+	dc.b	"Vous croyez pouvoir simplement"
 	dc.b	$FC
-	dc.b	"the door and walk in?"
+	dc.b	"ouvrir la porte et entrer?"
 	dc.b	$FD
-	dc.b	"Well I'll accept what you say"
+	dc.b	"Bon, parce que j'ai bon coeur,"
 	dc.b	$FC
-	dc.b	"and let you in."
+	dc.b	"je vous laisse entrer."
 	dc.b	$FD
-	dc.b	"But since you've opened the"
+	dc.b	"Mais comme vous êtes ceux qui"
 	dc.b	$FC
-	dc.b	"door, could you also close it?"
+	dc.b	"ont ouvert la porte, auriez-vous"
 	dc.b	$FD
-	dc.b	"It's cold outside!"
+	dc.b	"l'obligeance de la refermer?"
+	dc.b	$FC
+	dc.b	"Il fait froid dehors!"
 	dc.b	$FF
 
 ; $24
-	dc.b	"No way am I going to accept"
+	dc.b	"Non, je n'accepterai pas vos"
 	dc.b	$FC
-	dc.b	"your apology!"
+	dc.b	"excuses!"
 	dc.b	$FD
-	dc.b	"Don't you dare open that door"
+	dc.b	"Comment osez-vous ouvrir ma"
 	dc.b	$FC
-	dc.b	"and come in here again!"
+	dc.b	"porte et entrer chez moi ainsi"
+	dc.b	$FD
+	dc.b	"de nouveau!"
 	dc.b	$FF
 
 ; $25
 	dc.b	$FA
 	dc.b	$A1, $01
 	dc.b	$F3
-	dc.b	"Now calm down!"
+	dc.b	"Calme toi!"
 	dc.b	$FC
-	dc.b	"You're so short-tempered!"
+	dc.b	"Tu es trop colérique!"
 	dc.b	$FF
 
 ; $26
 	dc.b	$F3
-	dc.b	"Now calm down!"
+	dc.b	"Calme toi!"
 	dc.b	$FC
-	dc.b	"You're so short-tempered!"
+	dc.b	"Tu es trop colérique!"
 	dc.b	$FD
-	dc.b	"People won't trust a person"
+	dc.b	"Les gens à l'humeur changeante"
 	dc.b	$FC
-	dc.b	"who changes what they say from"
+	dc.b	"ne sont pas pris au sérieux"
 	dc.b	$FD
-	dc.b	"one day to another!"
+	dc.b	"par quiconque!"
 	dc.b	$FF
 
 ; $27
@@ -462,175 +450,167 @@
 	dc.b	$A1, $02
 	dc.b	$FA
 	dc.b	$95, $01
-	dc.b	"Supposedly there is this holy"
+	dc.b	"On dit qu'une flamme sacrée"
 	dc.b	$FC
-	dc.b	"flame at the Gumbious Temple"
+	dc.b	"brûle au Temple Gumbious et"
 	dc.b	$FD
-	dc.b	"that protects us."
+	dc.b	"nous protège."
 	dc.b	$FD
-	dc.b	"It's said that it has been"
+	dc.b	"On dit aussi qu'elle brûle sans"
 	dc.b	$FC
-	dc.b	"burning without fail for a"
+	dc.b	"interruption depuis des"
 	dc.b	$FD
-	dc.b	"thousand years."
+	dc.b	"millénaires."
 	dc.b	$FF
 
 ; $28
-	dc.b	"Supposedly there is this holy"
+	dc.b	"On dit qu'une flamme sacrée"
 	dc.b	$FC
-	dc.b	"flame at the Gumbious Temple"
+	dc.b	"brûle au Temple Gumbious et"
 	dc.b	$FD
-	dc.b	"that protects us."
+	dc.b	"nous protège."
 	dc.b	$FD
-	dc.b	"It's said that it has been"
+	dc.b	"On dit aussi qu'elle brûle sans"
 	dc.b	$FC
-	dc.b	"burning without fail for a"
+	dc.b	"interruption depuis des"
 	dc.b	$FD
-	dc.b	"thousand years."
+	dc.b	"millénaires."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
 	dc.b	"Wow!"
 	dc.b	$FC
-	dc.b	"How romantic!"
+	dc.b	"C'est romantique!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"I don't know about that."
+	dc.b	"Pas vraiment, d'après moi."
 	dc.b	$FC
-	dc.b	"It seems pretty eerie to me."
+	dc.b	"Ça me semble pluôt surnaturel."
 	dc.b	$FF
 
 ; $29
-	dc.b	"I wonder if the holy flame"
+	dc.b	"Je me demande si la flamme"
 	dc.b	$FC
-	dc.b	"is safe?"
+	dc.b	"sacrée est en sécurité?"
 	dc.b	$FF
 
 ; $2A
 	dc.b	$FA
 	dc.b	$A1, $01
-	dc.b	"A holy flame that's been"
+	dc.b	"Une flamme sacrée qui brûle"
 	dc.b	$FC
-	dc.b	"burning for a thousand years?"
+	dc.b	"depuis des millénaires?"
 	dc.b	$FD
-	dc.b	"...There isn't anything like"
+	dc.b	"...Ça n'existe pas."
 	dc.b	$FC
-	dc.b	"that."
-	dc.b	$FD
-	dc.b	"You shouldn't believe rumors."
+	dc.b	"Ne croyez pas tout ce qu'on dit."
 	dc.b	$FF
 
 ; $2B
-	dc.b	"The Gumbious Temple has"
-	dc.b	$FC
-	dc.b	"vanished?"
+	dc.b	"Le Temple Gumbious a disparu?"
 	dc.b	$FD
-	dc.b	"I told you, you shouldn't"
+	dc.b	"Je vous ai dit de ne pas croire"
 	dc.b	$FC
-	dc.b	"believe rumors."
+	dc.b	"tout ce qu'on dit."
 	dc.b	$FF
 
 ; $2C
 	dc.b	$FA
 	dc.b	$A1, $01
-	dc.b	"Sir, since the Gumbious Temple"
+	dc.b	"Sieurs, le Temple Gumbious est"
 	dc.b	$FC
-	dc.b	"is close by to the north..."
+	dc.b	"près d'ici, au nord..."
 	dc.b	$FD
-	dc.b	"No one comes to this temple."
+	dc.b	"Personne n'entre dans ce temple,"
 	dc.b	$FC
-	dc.b	"But, that's all right."
+	dc.b	"mais pour vous ça ira."
 	dc.b	$FD
-	dc.b	"There's one who has the faith."
+	dc.b	"Un fidèle vous accompagne."
 	dc.b	$FF
 
 ; $2D
-	dc.b	"The Gumbious Temple has"
-	dc.b	$FC
-	dc.b	"disappeared?!"
+	dc.b	"Le Temple Gumbious a disparu?"
 	dc.b	$FD
-	dc.b	"Dear me..."
+	dc.b	"Bonté divine..."
 	dc.b	$FD
-	dc.b	"We must not get flustered."
+	dc.b	"Cela ne doit pas nous ébranler."
 	dc.b	$FC
-	dc.b	"It is precisely a time like"
+	dc.b	"C'est dans ces moments que je"
 	dc.b	$FD
-	dc.b	"this that I must be strong and"
-	dc.b	$FC
-	dc.b	"reliable!"
+	dc.b	"dois être fort et solide!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"You must be a wonderful priest."
+	dc.b	"Vous devez être un merveilleux"
+	dc.b	$FC
+	dc.b	"prêtre."
 	dc.b	$FF
 
 ; $2E
 	dc.b	$FA
 	dc.b	$A1, $01
-	dc.b	"The head of the temple is"
+	dc.b	"Le temple est merveilleux, mais"
 	dc.b	$FC
-	dc.b	"wonderful, but the village"
+	dc.b	"la chapelle du village a aussi"
 	dc.b	$FD
-	dc.b	"shrine is also important."
+	dc.b	"son importance."
 	dc.b	$FF
 
 ; $2F
-	dc.b	"What on earth?"
+	dc.b	"Que diable?"
 	dc.b	$FF
 
 ; $30
 	dc.b	$FA
 	dc.b	$A1, $01
-	dc.b	"For us Dezolisians, we cannot"
+	dc.b	"La prière quotidienne est"
 	dc.b	$FC
-	dc.b	"fail to do our daily prayers."
+	dc.b	"primordiale pour nous"
+	dc.b	$FD
+	dc.b	"Dezolisiens."
 	dc.b	$FF
 
 ; $31
-	dc.b	"Gumbious Temple?"
+	dc.b	"Le Temple Gumbious?"
 	dc.b	$FD
-	dc.b	"Such a disrespectful thing"
+	dc.b	"Un tel sacriliège est"
 	dc.b	$FC
-	dc.b	"couldn't have happened."
+	dc.b	"inconcevable!"
 	dc.b	$FD
-	dc.b	"Waaaaa..."
+	dc.b	"Ouiiiin..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Calm down!"
-	dc.b	$FC
-	dc.b	"Pull yourself together!"
+	dc.b	"Calmez-vous! Ressaisissez-vous!"
 	dc.b	$FF
 
 ; $32
-	dc.b	"Things have been strange on"
+	dc.b	"Il se passe plein de choses"
 	dc.b	$FC
-	dc.b	"this planet recently!"
+	dc.b	"étranges sur cette planète!"
 	dc.b	$FD
-	dc.b	"What on earth is going to happen"
+	dc.b	"Que diable nous réserve"
 	dc.b	$FC
-	dc.b	"in the days to come?"
+	dc.b	"l'avenir?"
 	dc.b	$FF
 
 ; $33
-	dc.b	"The only thing we can do"
+	dc.b	"Tout ce qui nous reste à faire,"
 	dc.b	$FC
-	dc.b	"is to pray."
+	dc.b	"c'est de prier."
 	dc.b	$FD
-	dc.b	"It makes one kind of"
+	dc.b	"C'est plutôt déprimant...Quand"
 	dc.b	$FC
-	dc.b	"down-hearted...when you"
+	dc.b	"on réalise le peu d'influence"
 	dc.b	$FD
-	dc.b	"come to the realization of what"
+	dc.b	"que nous avons sur notre propre"
 	dc.b	$FC
-	dc.b	"a powerless existence we lead."
+	dc.b	"existence."
 	dc.b	$FF
 
 ; $34
-	dc.b	"Oh, that Dezolis"
-	dc.b	$FC
-	dc.b	"may be saved!"
+	dc.b	"Oh, puisse Dezolis être sauvée!"
 	dc.b	$FF
 
 ; $35
@@ -663,23 +643,25 @@
 ; $3E
 	dc.b	$FA
 	dc.b	$A1, $01
-	dc.b	"It's not that Dezolisians and"
+	dc.b	"Non, ce n'est pas que les"
 	dc.b	$FC
-	dc.b	"Parmanians don't get along..."
+	dc.b	"Dezolisiens et Parmaniens ne"
 	dc.b	$FD
-	dc.b	"It's just that they don't"
-	dc.b	$FC
-	dc.b	"co-exist because of their"
+	dc.b	"s'entendent pas..."
 	dc.b	$FD
-	dc.b	"different life styles stemming"
+	dc.b	"Nous ne nous mélangeons pas"
 	dc.b	$FC
-	dc.b	"from religious beliefs."
+	dc.b	"parce que nos modes de vie"
+	dc.b	$FD
+	dc.b	"diffèrent en raison de nos"
+	dc.b	$FC
+	dc.b	"croyances religieuses."
 	dc.b	$FF
 
 ; $3F
-	dc.b	"I'm sure you won't be able to"
+	dc.b	"Vous ne comprendrez jamais le"
 	dc.b	$FC
-	dc.b	"understand the shock we"
+	dc.b	"traumatisme que nous avons"
 	dc.b	$FD
-	dc.b	"sustained!"
+	dc.b	"subi!"
 	dc.b	$FF

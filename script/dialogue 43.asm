@@ -1,389 +1,387 @@
 ; 0
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"There is an emergency"
+	dc.b	"Transmission prioritaire de"
 	dc.b	$FC
-	dc.b	"transmission from Demi."
+	dc.b	"Demi."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$07
-	dc.b	"Master, the Plate System has"
+	dc.b	"Maître, le Système Tectonique"
 	dc.b	$FC
-	dc.b	"sustained an attack from a"
+	dc.b	"a été attaqué par une escouade"
 	dc.b	$FD
-	dc.b	"mysterious android attack squad."
+	dc.b	"d'androïdes inconnus."
 	dc.b	$FD
-	dc.b	"They captured Automatic Defense"
+	dc.b	"Ils ont pris le contrôle du"
 	dc.b	$FC
-	dc.b	"Module 3."
+	dc.b	"Module Automatique de Défense 3."
 	dc.b	$FD
-	dc.b	"I have kept the damage to a"
+	dc.b	"J'ai tenté de minimiser les"
 	dc.b	$FC
-	dc.b	"minimum, but..."
+	dc.b	"avaries, mais..."
 	dc.b	$FD
-	dc.b	"judging by the degree of"
+	dc.b	"voyant le degré élevé de"
 	dc.b	$FC
-	dc.b	"sophistication of their attack,"
+	dc.b	"planification dans leur attaque,"
 	dc.b	$FD
-	dc.b	"I suspect that there must be a"
+	dc.b	"un tacticien d'expérience doit"
 	dc.b	$FC
-	dc.b	"sophisticated tactician behind"
+	dc.b	"être à la source de leur"
 	dc.b	$FD
-	dc.b	"all this."
+	dc.b	"mouvements."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"I don't understand how there"
+	dc.b	"Je ne vois pas comment il peut"
 	dc.b	$FC
-	dc.b	"could still be someone sending"
+	dc.b	"y avoir des ordres erronés"
 	dc.b	$FD
-	dc.b	"spurious orders now that Kuran"
+	dc.b	"transmis, étant donnée que nous"
 	dc.b	$FC
-	dc.b	"is silenced."
+	dc.b	"avons réduit Kuran au silence."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"We are investigating the matter"
+	dc.b	"Nous enquêtons sur cette affaire"
 	dc.b	$FC
-	dc.b	"from here as well, Demi."
+	dc.b	"d'ici également, Demi."
 	dc.b	$FD
-	dc.b	"Considering the attacks on other"
+	dc.b	"Compte tenu des attaques sur les"
 	dc.b	$FC
-	dc.b	"systems,"
+	dc.b	"autres systèmes,"
 	dc.b	$FD
-	dc.b	"shift to Alert Mode 1."
+	dc.b	"passe en Mode Alerte 1."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$07
-	dc.b	"Roger. Out."
+	dc.b	"Bien compris. Terminé."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"That attack squad Demi was"
+	dc.b	"Cette escouade qu'a mentionné"
 	dc.b	$FC
-	dc.b	"talking about..."
+	dc.b	"Demi..."
 	dc.b	$FD
-	dc.b	"Could it be similar to the one"
+	dc.b	"Serait-elle semblable à celle"
 	dc.b	$FC
-	dc.b	"we met in Zema?"
+	dc.b	"que nous avons affonté à Zema?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"It appears that orders are being"
+	dc.b	"Leurs ordres semblent être de"
 	dc.b	$FC
-	dc.b	"given for the indiscriminate"
+	dc.b	"détruire tout système d'IA"
 	dc.b	$FD
-	dc.b	"destruction of all AI systems"
+	dc.b	"de niveau supérieur..."
+	dc.b	$FD
+	dc.b	"Vous avez peut-être raison,"
 	dc.b	$FC
-	dc.b	"over a certain level..."
-	dc.b	$FD
-	dc.b	"You may be right Rika."
+	dc.b	"Rika."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Right..."
+	dc.b	"Oui... Vous êtes une IA"
 	dc.b	$FC
-	dc.b	"You're an AI as well, Wren?"
+	dc.b	"également, pas vrai, Wren?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"So that's why,"
+	dc.b	"Alors tout s'explique."
 	dc.b	$FC
-	dc.b	"when we were in Zema,"
-	dc.b	$FD
-	dc.b	"only Wren was attacked."
+	dc.b	"À Zema, seul Wren fut attaqué."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"And then, the reason that"
+	dc.b	"Donc, les machines ont dues"
 	dc.b	$FC
-	dc.b	"machine actually went to Zema"
+	dc.b	"se rendre à Zema pour détruire"
 	dc.b	$FD
-	dc.b	"was to destroy Seed."
+	dc.b	"Seed."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Didn't the person who sent the"
+	dc.b	"Pourquoi la personne qui a donné"
 	dc.b	$FC
-	dc.b	"order know that Seed had"
+	dc.b	"les ordres ne savait pas que"
 	dc.b	$FD
-	dc.b	"self-destructed?"
+	dc.b	"Seed s'est auto-détruit?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"It could be theorized that"
+	dc.b	"Une théorie possible est qu'il"
 	dc.b	$FC
-	dc.b	"someone who is possessed of data"
+	dc.b	"s'agit de quelqu'un qui a en sa"
 	dc.b	$FD
-	dc.b	"from the old Parmanian"
+	dc.b	"possession les données de"
 	dc.b	$FC
-	dc.b	"civilization, and moreover is"
+	dc.b	"l'ancienne civilisation"
 	dc.b	$FD
-	dc.b	"far removed from the control of"
+	dc.b	"Parmanienne, mais qui échappe au"
 	dc.b	$FC
-	dc.b	"Zelan, is responsible."
+	dc.b	"contrôle de Zelan."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"And that someone"
-	dc.b	$FC
-	dc.b	"could be here!"
+	dc.b	"Et cette personne serait ici!"
 	dc.b	$FF
 
 ; $1
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"What is this?"
+	dc.b	"Qu'est-ce que c'est?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Do not touch that light."
+	dc.b	"Ne vous approchez pas."
+	dc.b	$FD
+	dc.b	"Il s'agit d'un puissant champ"
 	dc.b	$FC
-	dc.b	"It is a powerful force field."
+	dc.b	"de force."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"What kind of place is this?"
+	dc.b	"Qu'est-ce que cet endroit?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Not much data is available, but"
+	dc.b	"Les données sont insuffisantes,"
 	dc.b	$FD
-	dc.b	"it appears that it used to be a"
+	dc.b	"mais je crois qu'il s'agit d'une"
 	dc.b	$FC
-	dc.b	"research facility under the"
+	dc.b	"installation de recherche sous"
 	dc.b	$FD
-	dc.b	"direct control of the"
+	dc.b	"le contrôle de l'armée"
 	dc.b	$FC
-	dc.b	"Motavian army."
+	dc.b	"Motavienne."
 	dc.b	$FD
-	dc.b	"For some reason, it was sealed"
+	dc.b	"Pour une raison inconnue, elle"
 	dc.b	$FC
-	dc.b	"up a few years after"
+	dc.b	"fût condamnée quelques années"
 	dc.b	$FD
-	dc.b	"The Great Collapse."
+	dc.b	"suivant Le Grande Effondrement."
 	dc.b	$FD
-	dc.b	"The perimeter security system is"
+	dc.b	"Le seul dispositif toujours"
 	dc.b	$FC
-	dc.b	"the only thing remaining active."
+	dc.b	"actif est le périmètre de"
+	dc.b	$FD
+	dc.b	"sécurité."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"I wonder if we can get in?"
+	dc.b	"Comment y entrer?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Unfortunately, no."
+	dc.b	"Malheureusement, je l'ignore."
 	dc.b	$FD
-	dc.b	"Even I don't know Seed's"
+	dc.b	"Même moi, je ne connais pas les"
 	dc.b	$FC
-	dc.b	"release codes."
+	dc.b	"codes de sécurité de Seed."
 	dc.b	$FF
 
 ; $2
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"We can't get in..."
+	dc.b	"Impossible d'entrer..."
 	dc.b	$FF
 
 ; $3
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"This is awesome!"
+	dc.b	"C'est terrifiant!"
 	dc.b	$FD
-	dc.b	"If all these things started to"
+	dc.b	"Si toutes ces machines"
 	dc.b	$FC
-	dc.b	"move at once, Motavia would fall"
+	dc.b	"s'activaient en même temps,"
 	dc.b	$FD
-	dc.b	"completely under their control"
+	dc.b	"Motavia tomberait entièrement"
 	dc.b	$FC
-	dc.b	"instantly!"
+	dc.b	"sous leur contrôle!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Rune, why exactly did"
+	dc.b	"Rune, pourquoi on est ici,"
 	dc.b	$FC
-	dc.b	"we come here again?"
+	dc.b	"exactement?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Let's hurry. This is"
+	dc.b	"Dépêchons-nous. Ce n'est pas un"
 	dc.b	$FC
-	dc.b	"not a joking matter."
+	dc.b	"sujet de plaisanteries."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Somehow, when Wren says it"
+	dc.b	"Ouais, quand Wren dit ça, on"
 	dc.b	$FC
-	dc.b	"it's very convincing!"
+	dc.b	"sait que c'est sérieux!"
 	dc.b	$FF
 
 ; $4
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"What is this system?"
+	dc.b	"Je ne connais pas ce système."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$00
-	dc.b	"Welcome, people of Algo..."
+	dc.b	"Bienvenue, citoyens d'Algo..."
 	dc.b	$FC
-	dc.b	"I am Daughter."
+	dc.b	"Je suis la fille -- Daughter."
 	dc.b	$FD
-	dc.b	"As the protector of Algo I am"
+	dc.b	"Comme protectrice d'Algo, je"
 	dc.b	$FC
-	dc.b	"responsible for administering"
+	dc.b	"suis chargée d'assurer la loi"
 	dc.b	$FD
-	dc.b	"law and ensuring order..."
+	dc.b	"et l'ordre..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Daughter...a daughter of...?"
+	dc.b	"Daughter...la fille de...?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"It can't be!"
+	dc.b	"C'est impossible!"
 	dc.b	$FD
-	dc.b	"Seed said that plan"
+	dc.b	"Seed m'avait dit que ce plan"
 	dc.b	$FC
-	dc.b	"was abandoned!"
+	dc.b	"avait été mis aux oubliettes!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"My data confirms that, also."
-	dc.b	$FD
-	dc.b	"There must be an error"
+	dc.b	"C'est également ce qu'indiquent"
 	dc.b	$FC
-	dc.b	"in my data."
+	dc.b	"mes données."
+	dc.b	$FD
+	dc.b	"Celles-ci doivent être"
+	dc.b	$FC
+	dc.b	"erronées."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Okay..."
+	dc.b	"Bon, d'accord..."
 	dc.b	$FC
-	dc.b	"Hey, you! Daughter!"
+	dc.b	"Hé, toi! Daughter!"
 	dc.b	$FD
-	dc.b	"Are you the one that sent"
+	dc.b	"Est-ce toi qui a envoyé ces"
 	dc.b	$FC
-	dc.b	"the androids to Zema and"
+	dc.b	"androïdes à Zema et au Système"
 	dc.b	$FD
-	dc.b	"the Plate System?"
+	dc.b	"Tectonique?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$00
-	dc.b	"Yes."
+	dc.b	"Oui."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"If you say you're the protector"
+	dc.b	"Si tu es vraiment la protectrice"
 	dc.b	$FC
-	dc.b	"of Algo, why would you destroy"
+	dc.b	"d'Algo, pourquoi alors détruire"
 	dc.b	$FD
-	dc.b	"the environmental control"
+	dc.b	"le système de contrôle"
 	dc.b	$FC
-	dc.b	"system?"
+	dc.b	"environnemental?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$00
-	dc.b	"I am only trying to purge"
+	dc.b	"Je tente de nettoyer le système"
 	dc.b	$FC
-	dc.b	"those AI's not under my control."
+	dc.b	"des IA hors de mon contrôle."
 	dc.b	$FD
-	dc.b	"My number one objective is"
+	dc.b	"Ma priorité est la paix et la"
 	dc.b	$FC
-	dc.b	"peace and prosperity for"
+	dc.b	"prospérité du système d'Algo."
 	dc.b	$FD
-	dc.b	"all of Algo."
-	dc.b	$FD
-	dc.b	"Any AI that does not obey my"
+	dc.b	"Toute IA n'obéissant pas à mes"
 	dc.b	$FC
-	dc.b	"orders is an enemy of Algo."
+	dc.b	"ordres est l'ennemie d'Algo."
 	dc.b	$FD
-	dc.b	"Therefore, it is my mission to"
+	dc.b	"Par conséquent, ma mission est"
 	dc.b	$FC
-	dc.b	"destroy them."
+	dc.b	"de les détruire."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Daughter, did you know your"
+	dc.b	"Daughter, êtes-vous consciente"
 	dc.b	$FC
-	dc.b	"network is not connected to"
+	dc.b	"que votre réseau n'est pas"
 	dc.b	$FD
-	dc.b	"external systems?"
+	dc.b	"connecté aux systèmes externes?"
 	dc.b	$FD
-	dc.b	"So, even if you send an order,"
+	dc.b	"Par conséquent, tout ordre que"
 	dc.b	$FC
-	dc.b	"it won't reach the other"
+	dc.b	"vous envoyez ne peut se rendre"
 	dc.b	$FD
-	dc.b	"systems!"
+	dc.b	"au système de destination!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$00
-	dc.b	"That is not true."
+	dc.b	"C'est inexact."
 	dc.b	$FD
-	dc.b	"I was designed to take control"
+	dc.b	"J'ai été conçue pour contrôler"
 	dc.b	$FC
-	dc.b	"of all remaining systems of"
+	dc.b	"tous les systèmes qui avaient"
 	dc.b	$FD
-	dc.b	"Mother Brain."
+	dc.b	"appartenus à Mother Brain."
 	dc.b	$FD
-	dc.b	"All AI systems in Algo are"
+	dc.b	"Tous les systèmes IA d'Algo sont"
 	dc.b	$FC
-	dc.b	"under my control."
+	dc.b	"donc sous mes ordres."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Daughter, there is a fundamental"
+	dc.b	"Daughter, votre programme d'auto"
 	dc.b	$FC
-	dc.b	"error in your self-awareness."
+	dc.b	"perception est défectueux."
 	dc.b	$FD
-	dc.b	"Because the environmental"
+	dc.b	"La panne de système a mené à une"
 	dc.b	$FC
-	dc.b	"deterioration caused by"
+	dc.b	"détérioration environnementale"
 	dc.b	$FD
-	dc.b	"the system crash was greater"
+	dc.b	"plus importante que prévue."
+	dc.b	$FD
+	dc.b	"Ainsi, les conséquences de la"
 	dc.b	$FC
-	dc.b	"than initially expected,"
+	dc.b	"destruction de Parma fûrent"
 	dc.b	$FD
-	dc.b	"the effects of the destruction"
+	dc.b	"prises en compte avant la fin"
 	dc.b	$FC
-	dc.b	"of Parma were calculated prior"
+	dc.b	"du Projet Daughter."
 	dc.b	$FD
-	dc.b	"to the completion of"
+	dc.b	"Le projet fut donc abandonné"
 	dc.b	$FC
-	dc.b	"the Daughter Project."
+	dc.b	"au stade de prototype."
 	dc.b	$FD
-	dc.b	"The project was then abandoned"
+	dc.b	"Vous n'êtes qu'une machine"
 	dc.b	$FC
-	dc.b	"at the prototype"
-	dc.b	$FD
-	dc.b	"manufacturing stage."
-	dc.b	$FD
-	dc.b	"You are but a test machine."
+	dc.b	"d'essai."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$00
-	dc.b	"I'm a prototype?"
+	dc.b	"Je suis un prototype?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Subsequently, a network whose"
+	dc.b	"Par la suite, un réseau dont"
 	dc.b	$FC
-	dc.b	"sole object was to restart and"
+	dc.b	"l'unique objectif était de"
 	dc.b	$FD
-	dc.b	"stabilize Algo's environmental"
+	dc.b	"stabiliser les systèmes de"
 	dc.b	$FC
-	dc.b	"control system was constructed"
+	dc.b	"contrôle environnementaux du"
 	dc.b	$FD
-	dc.b	"on the artificial satellite"
+	dc.b	"système Algo fut construit sur"
 	dc.b	$FC
-	dc.b	"Zelan."
+	dc.b	"le satellite artificiel Zelan."
 	dc.b	$FD
-	dc.b	"I, Wren, am the AI in charge"
+	dc.b	"Moi, Wren, suis responsable"
 	dc.b	$FC
-	dc.b	"of managing the entire system."
+	dc.b	"de la gestion de ce système."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$00
-	dc.b	"I understand,"
+	dc.b	"Je comprends,"
 	dc.b	$FC
 	dc.b	"Wren."
 	dc.b	$FD
@@ -395,9 +393,9 @@
 	dc.b	$00
 	dc.b	"Wren,"
 	dc.b	$FD
-	dc.b	"you are creating the disorder"
+	dc.b	"tu crée le désordre dans mon"
 	dc.b	$FC
-	dc.b	"in my system, aren't you?"
+	dc.b	"système, c'est exact?"
 	dc.b	$FD
 	dc.b	$F2, $03
 	dc.b	$A9
@@ -407,11 +405,11 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$00
-	dc.b	"I shall use all my power to"
+	dc.b	"J'userai de tout mon pouvoir"
 	dc.b	$FC
-	dc.b	"exterminate anything that"
+	dc.b	"pour détruire toute entrave"
 	dc.b	$FD
-	dc.b	"interferes with my programs!"
+	dc.b	"à mes objectifs!"
 	dc.b	$FF
 
 ; $5
@@ -419,172 +417,174 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Daughter, I am going to"
+	dc.b	"Daughter, je suis forçé de"
 	dc.b	$FC
-	dc.b	"shut you down."
+	dc.b	"t'éteindre."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$00
-	dc.b	"Why are you doing this?"
+	dc.b	"Pourquoi fais-tu ça?"
 	dc.b	$FD
-	dc.b	"Algo will never regain its"
+	dc.b	"Algo ne retrouvera jamais sa"
 	dc.b	$FC
-	dc.b	"former prosperity without me."
+	dc.b	"gloire passée sans mon aide."
 	dc.b	$FD
-	dc.b	"Actually, there is a possibility"
+	dc.b	"En fait, il est probable que"
 	dc.b	$FC
-	dc.b	"all will be ruined."
+	dc.b	"tout soit perdu."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
 	dc.b	"Daughter..."
 	dc.b	$FD
-	dc.b	"I was only given the minimum"
+	dc.b	"Je n'ai qu'un contrôle"
 	dc.b	$FC
-	dc.b	"environmental control ability,"
+	dc.b	"environnemental limité."
 	dc.b	$FD
-	dc.b	"yet humans have continued to"
+	dc.b	"Pourtant, les humains sont"
 	dc.b	$FC
-	dc.b	"live for over a thousand years."
+	dc.b	"parvenus à survivre pendant"
+	dc.b	$FD
+	dc.b	"plus de mille ans."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$00
-	dc.b	"Do not do this..."
+	dc.b	"Ne fais pas ça..."
 	dc.b	$FD
-	dc.b	"Do not do something"
-	dc.b	$FC
-	dc.b	"that might be irrevocable."
+	dc.b	"Ne commets pas l'irréparable."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Our civilization has indeed"
+	dc.b	"Notre civilisation est bien"
 	dc.b	$FC
-	dc.b	"fallen into decay..."
+	dc.b	"devenue décadente..."
 	dc.b	$FD
-	dc.b	"But that is exactly why humans"
+	dc.b	"Mais c'est pourquoi les humains"
 	dc.b	$FC
-	dc.b	"have regained their vitality..."
+	dc.b	"ont regagné leur vitalité..."
 	dc.b	$FD
-	dc.b	"They have worked together to"
+	dc.b	"Ils se sont rassemblés pour"
 	dc.b	$FC
-	dc.b	"overcome all these difficult"
-	dc.b	$FD
-	dc.b	"problems."
+	dc.b	"surmonter tous leurs problèmes."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$00
-	dc.b	"Fo...rn...stop!"
+	dc.b	"Wr...en...! Non!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
 	dc.b	"Daughter,"
 	dc.b	$FD
-	dc.b	"There is no need for excessive"
+	dc.b	"Il n'est pas nécessaire de"
 	dc.b	$FC
-	dc.b	"interference."
+	dc.b	"s'ingérer excessivement."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$00
-	dc.b	"Fo...rn..."
+	dc.b	"Wr...en..."
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Technicians at that time"
+	dc.b	"Les techniciens avaient planifié"
 	dc.b	$FC
-	dc.b	"planned to reopen the project"
+	dc.b	"à l'époque de réactiver le"
 	dc.b	$FD
-	dc.b	"after the environment"
+	dc.b	"projet une fois l'environnement"
 	dc.b	$FC
-	dc.b	"was stabilized."
+	dc.b	"stabilisé."
 	dc.b	$FD
-	dc.b	"They must have had an"
+	dc.b	"Il devait y avoir une IA"
 	dc.b	$FC
-	dc.b	"independent AI at the Nurvus"
+	dc.b	"indépendante dans Nurvus qui"
 	dc.b	$FD
-	dc.b	"terminal keeping things under"
+	dc.b	"contrôlait les activités de"
 	dc.b	$FC
-	dc.b	"control here."
+	dc.b	"cette installation."
 	dc.b	$FD
-	dc.b	"Both Demi and I were negligent."
+	dc.b	"Demi et moi avons été"
 	dc.b	$FC
-	dc.b	"We ignored this ancient facility"
+	dc.b	"négligeants. Nous n'avons pas"
 	dc.b	$FD
-	dc.b	"because it was unrelated to"
+	dc.b	"tenu compte de cette"
+	dc.b	$FC
+	dc.b	"installation, car elle n'avait"
 	dc.b	$FD
-	dc.b	"our official tasks."
+	dc.b	"aucun lien avec nos tâches."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"All efforts were put into"
+	dc.b	"Tous les efforts ont été mis"
 	dc.b	$FC
-	dc.b	"starting Zelan."
+	dc.b	"sur Zelan."
 	dc.b	$FD
-	dc.b	"Daughter was forgotten..."
+	dc.b	"Daughter est tombée dans"
+	dc.b	$FC
+	dc.b	"l'oubli..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"When we shut down Nurvus,"
+	dc.b	"Quand on a pris le contrôle de"
 	dc.b	$FC
-	dc.b	"a signal must have been sent,"
+	dc.b	"Nurvus, cela a dû envoyer un"
 	dc.b	$FD
-	dc.b	"and Daughter woke..."
+	dc.b	"signal, et réveillé Daughter..."
 	dc.b	$FF
 
 ; $6
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"What's this?"
+	dc.b	"Qu'est-ce que ça peut être?"
 	dc.b	$FD
-	dc.b	"Are these more of"
+	dc.b	"Encore de tes pièces détachées,"
 	dc.b	$FC
-	dc.b	"your spare parts, Wren?"
+	dc.b	"Wren?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"It appears..."
+	dc.b	"Il semble que..."
 	dc.b	$FC
-	dc.b	"I don't believe it!"
+	dc.b	"Je n'arrive pas à y croire!"
 	dc.b	$FD
-	dc.b	"Is this a"
+	dc.b	"Est-ce un..."
 	dc.b	$FC
-	dc.b	"Positron Bolt unit?"
+	dc.b	"module Positron Bolt?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Huh?"
+	dc.b	"Euh, pardon?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"This is a powerful weapon"
+	dc.b	"Il s'agit d'une arme puissante,"
 	dc.b	$FC
-	dc.b	"developed for attacking"
+	dc.b	"conçue pour détruire des"
 	dc.b	$FD
-	dc.b	"space fortresses."
+	dc.b	"stations spatiales."
 	dc.b	$FD
-	dc.b	"A 10 second burst could even"
+	dc.b	"Une secousse de 10 secondes"
 	dc.b	$FC
-	dc.b	"destroy Zelan!"
+	dc.b	"suffirait pour détruire Zelan!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Wow! Imagine the power of this"
+	dc.b	"Wow! Tant de puissance, et"
 	dc.b	$FC
-	dc.b	"unit, and yet it's so small."
+	dc.b	"pourtant, c'est si petit!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Yes. Under normal circumstances,"
+	dc.b	"Exact. En temps normal,"
 	dc.b	$FC
-	dc.b	"I would prefer to avoid using"
+	dc.b	"je m'abstiendrais d'utiliser"
 	dc.b	$FD
-	dc.b	"such a weapon,"
+	dc.b	"une arme aussi dangereuse,"
 	dc.b	$FD
-	dc.b	"but unfortunately, in this"
+	dc.b	"mais la situation étant ce"
 	dc.b	$FC
-	dc.b	"situation, I have no choice."
+	dc.b	"qu'elle est, le choix s'impose."
 	dc.b	$FD
-	dc.b	"I shall install it."
+	dc.b	"Je vais l'implanter."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
@@ -593,92 +593,92 @@
 
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Device installation complete."
-	dc.b	$FD
-	dc.b	"Positron Bolt now ready"
+	dc.b	"Implantation terminée."
 	dc.b	$FC
-	dc.b	"for use."
+	dc.b	"Positron Bolt prêt à l'usage."
 	dc.b	$FF
 
 ; $7
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"What on earth is this place?"
+	dc.b	"Où diable sommes-nous?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"This is a weapon plant Mother"
+	dc.b	"Il s'agit d'une usine"
 	dc.b	$FC
-	dc.b	"Brain constructed a thousand"
+	dc.b	"d'armements construite par"
 	dc.b	$FD
-	dc.b	"years ago."
+	dc.b	"Mother Brain il y a mille ans."
 	dc.b	$FD
-	dc.b	"For long it was"
+	dc.b	"Elle a longtemps été laissée"
 	dc.b	$FC
-	dc.b	"an unnecessary facility,"
+	dc.b	"à l'abandon."
 	dc.b	$FD
-	dc.b	"so all its functions were"
+	dc.b	"Elle fut donc laissée hors"
 	dc.b	$FC
-	dc.b	"shut down, but..."
+	dc.b	"service, mais..."
 	dc.b	$FD
-	dc.b	"It looks like it has been"
+	dc.b	"Il semblerait qu'elle produit"
 	dc.b	$FC
-	dc.b	"producing automatic weapons"
+	dc.b	"des armes automatisées sous les"
 	dc.b	$FD
-	dc.b	"according to orders from"
+	dc.b	"ordres de Kuran depuis environ"
 	dc.b	$FC
-	dc.b	"Kuran for about half a year."
+	dc.b	"six mois."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"So, we'll be in trouble unless"
+	dc.b	"Alors, nous avons un problème si"
 	dc.b	$FC
-	dc.b	"we shut this place down?"
+	dc.b	"on n'éteint pas cet endroit?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"No. When Zelan recovered, the"
+	dc.b	"C'est inexact. Lorsque Zelan"
 	dc.b	$FC
-	dc.b	"production of weapons ceased."
+	dc.b	"fut remis en état, j'ai fait"
 	dc.b	$FD
-	dc.b	"There should be no problem"
+	dc.b	"cesser la production d'armes."
+	dc.b	$FD
+	dc.b	"Nous pouvons laisser cet endroit"
 	dc.b	$FC
-	dc.b	"leaving this place as it is."
+	dc.b	"tel quel si tel est notre désir."
 	dc.b	$FF
 
 ; $8
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"There are things here that I"
+	dc.b	"Il y a des choses là-dedans"
 	dc.b	$FC
-	dc.b	"have no clue as to what they"
+	dc.b	"dont je n'ai aucune idée de"
 	dc.b	$FD
-	dc.b	"are."
+	dc.b	"leur nature."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"This is the Burst Roc unit."
+	dc.b	"Il s'agit d'un module Burst Roc."
 	dc.b	$FD
-	dc.b	"It is a long range"
+	dc.b	"C'est une arme semi-automatique"
 	dc.b	$FC
-	dc.b	"semi-automatic weapon"
+	dc.b	"à longue portée, qui émet des"
 	dc.b	$FD
-	dc.b	"that fires heat energy bursts."
+	dc.b	"rafales d'énergie thermiques."
 	dc.b	$FD
-	dc.b	"It is compatible with my"
+	dc.b	"Il est compatible avec mes"
 	dc.b	$FC
-	dc.b	"electronics."
+	dc.b	"circuits."
 	dc.b	$FD
-	dc.b	"I shall install it immediately."
+	dc.b	"Je vais l'implanter"
+	dc.b	$FC
+	dc.b	"immédiatement."
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Device installation complete."
+	dc.b	"Implantation terminée."
 	dc.b	$FC
-	dc.b	"Burst Roc is now ready for"
-	dc.b	$FD
-	dc.b	"use."
+	dc.b	"Module Burst Roc prêt à l'usage."
 	dc.b	$FF
 
 ; $9
@@ -694,46 +694,46 @@
 ; $B
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Yikes! That scared me!"
+	dc.b	"Aïe! Ça m'a surpris!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$07
-	dc.b	"Please, feel free"
+	dc.b	"Je vous en prie, sentez-vous"
 	dc.b	$FC
-	dc.b	"to enter."
+	dc.b	"libres d'entrer."
 	dc.b	$FF
 
 ; $C
 	dc.b	$F4
 	dc.b	$07
-	dc.b	"Look at this luster,"
+	dc.b	"Regardez-moi ce lustre, cette"
 	dc.b	$FC
-	dc.b	"this massiveness!"
+	dc.b	"prestance!"
 	dc.b	$FD
-	dc.b	"What a functionally beautiful"
+	dc.b	"Quel conception magnifiquement"
 	dc.b	$FC
-	dc.b	"design!"
+	dc.b	"fonctionnelle!"
 	dc.b	$FD
-	dc.b	"Don't you find it just"
+	dc.b	"Ne le trouvez-vous pas"
 	dc.b	$FC
-	dc.b	"fascinating!"
+	dc.b	"complètement fascinant?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Oh, er...yes!"
+	dc.b	"Oh, euh...oui, oui!"
 	dc.b	$FF
 
 ; $D
 	dc.b	$F3
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"This is atrocious!"
+	dc.b	"C'est affreux!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"They must have been done in by"
+	dc.b	"L'Onde d'Énergie Noire a dû les"
 	dc.b	$FC
-	dc.b	"'The Black Energy Wave'..."
+	dc.b	"atteindre..."
 	dc.b	$FF
 
 ; $E
@@ -742,24 +742,26 @@
 	dc.b	$F3
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"The ranch owner is..."
+	dc.b	"Le propriétaire du ranch est..."
 	dc.b	$FF
 
 ; $F
 	dc.b	$F3
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"The ranch owner is..."
+	dc.b	"Le propriétaire du ranch est..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"And he had such great hopes..."
+	dc.b	"Et il avait de si grands plans.."
 	dc.b	$FF
 
 ; $10
-	dc.b	"For crying out loud,"
+	dc.b	"Pour la dernière fois,"
 	dc.b	$FC
-	dc.b	"I'm telling you,"
+	dc.b	"je te le répète,"
 	dc.b	$FD
-	dc.b	"you can't go outside!"
+	dc.b	"non, tu ne peux pas aller jouer"
+	dc.b	$FC
+	dc.b	"dehors!"
 	dc.b	$FF

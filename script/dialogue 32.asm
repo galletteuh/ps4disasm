@@ -79,385 +79,391 @@
 ; $1A
 	dc.b	$F4
 	dc.b	$0A, $00
-	dc.b	"'Lutz' should know a way to"
+	dc.b	"'Lutz' devrait savoir comment"
 	dc.b	$FC
-	dc.b	"defeat the carnivorous trees!"
+	dc.b	"vaincre les arbres carnivores!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01, $02
-	dc.b	"Hmm...the chief of Esper."
+	dc.b	"Hmm...Le chef des Espers."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A, $00
-	dc.b	"I'll try to ask"
+	dc.b	"Je vais demander une audience"
 	dc.b	$FC
-	dc.b	"for an audience with 'Lutz!'"
+	dc.b	"avec 'Lutz'!"
 	dc.b	$FD
-	dc.b	"Let's go to the Esper"
-	dc.b	$FC
-	dc.b	"Mansion!"
+	dc.b	"Direction, le Manoir Esper!"
 	dc.b	$FD
-	dc.b	"It's southeast of the town of"
+	dc.b	"Elle est au sud-est de la ville"
 	dc.b	$FC
-	dc.b	"Meese!"
+	dc.b	"de Meese!"
 	dc.b	$FF
 
 ; $1B
 	dc.b	$F4
 	dc.b	$0A, $02
-	dc.b	"Let's hurry to the mansion."
+	dc.b	"Dépêchons-nous d'aller au"
 	dc.b	$FC
-	dc.b	"We should find Lutz there."
+	dc.b	"Manoir. On y trouvera Lutz."
 	dc.b	$FD
-	dc.b	"Oh...it's like a dream..."
+	dc.b	"Oh...pincez-moi, je rêve..."
 	dc.b	$FC
-	dc.b	"I'm going to meet Lutz..."
+	dc.b	"Je vais rencontrer Lutz..."
 	dc.b	$FD
-	dc.b	"What shall I do?"
+	dc.b	"Que faire, que faire?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01, $00
-	dc.b	"Er..."
+	dc.b	"Euh..."
 	dc.b	$FF
 
 ; $1C
 	dc.b	$F4
 	dc.b	$01, $00
-	dc.b	"So, Rune was Lutz!"
+	dc.b	"Alors, Rune était Lutz!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04, $01
-	dc.b	"We'll need the 'Eclipse Torch'"
+	dc.b	"Nous aurons besoin du Flambeau"
 	dc.b	$FC
-	dc.b	"to defeat the carnivorous tress!"
+	dc.b	"de l'Éclipse pour vaincre les"
 	dc.b	$FD
-	dc.b	"We'll have to hurry and head for"
+	dc.b	"arbres carnivores. Allons vite"
 	dc.b	$FC
-	dc.b	"'Gumbious Temple' west of the"
+	dc.b	"au 'Temple Gumbious', à l'ouest"
 	dc.b	$FD
-	dc.b	"Esper Mansion!"
+	dc.b	"du Manoir Esper!"
 	dc.b	$FD
-	dc.b	"Chaz! Stop walking so slow!"
+	dc.b	"Chaz! Marche plus vite!"
 	dc.b	$FC
-	dc.b	"Argh! You and your short legs!"
+	dc.b	"Argh! Toi et tes petites jambes!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A, $02
-	dc.b	"Waaa."
+	dc.b	"Ouiin..."
 	dc.b	$FD
-	dc.b	"This is upsetting the image"
+	dc.b	"Je suis désillusionnée de mon"
 	dc.b	$FC
-	dc.b	"I had of Lutz!"
+	dc.b	"image de Lutz!"
 	dc.b	$FF
 
 ; $1D
 	dc.b	$F4
 	dc.b	$06, $02
-	dc.b	"Someone has taken"
+	dc.b	"Quelqu'un a volé le Flambeau de"
 	dc.b	$FC
-	dc.b	"the Eclipse Torch!"
+	dc.b	"l'Éclipse!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01, $00
-	dc.b	"Who are those guys?"
+	dc.b	"Qui sont ces gaillards?"
 	dc.b	$FC
-	dc.b	"What's the 'Air Castle'?"
+	dc.b	"Qu'est-ce que le 'Air Castle'?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08, $01
-	dc.b	"At any rate, let me look at it"
+	dc.b	"En tout état de cause, allons"
 	dc.b	$FC
-	dc.b	"through the sensors of"
+	dc.b	"consulter les détecteurs du"
 	dc.b	$FD
-	dc.b	"the Landale."
+	dc.b	"Landale."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01, $00
-	dc.b	"Does that mean we should go back"
+	dc.b	"Alors nous devons retourner au"
 	dc.b	$FC
-	dc.b	"to the airport?"
+	dc.b	"spatioport?"
 	dc.b	$FF
 
 ; $1E
 	dc.b	$F4
 	dc.b	$01, $00
-	dc.b	"So, this is the Air Castle?"
+	dc.b	"Donc, voilà le Air Castle?"
 	dc.b	$FC
-	dc.b	"Looks foreboding!"
+	dc.b	"Il a l'air inquiétant!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A, $02
-	dc.b	"Oh. If you're scared, just walk"
+	dc.b	"Oh. Si tu as peur, reste"
 	dc.b	$FC
-	dc.b	"behind big sister Kyra!"
+	dc.b	"derrière ta grande soeur Kyra!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01, $00
-	dc.b	"Oh, be quiet!"
+	dc.b	"Oh, la ferme!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06, $01
-	dc.b	"giggle"
+	dc.b	"rires..."
 	dc.b	$FF
 
 ; $1F
 	dc.b	$F4
 	dc.b	$04, $01
-	dc.b	"We've beaten the trio."
+	dc.b	"Nous avons vaincu ces trois-là."
 	dc.b	$FC
-	dc.b	"Now all we have to do is to find"
+	dc.b	"Tout ce qui nous reste à faire,"
 	dc.b	$FD
-	dc.b	"the boss and retrieve"
+	dc.b	"c'est de trouver leur chef et"
 	dc.b	$FC
-	dc.b	"the Eclipse Torch!"
+	dc.b	"reprendre le Flambeau!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01, $00
-	dc.b	"What do you mean boss?"
+	dc.b	"Leur chef? Que veux-tu dire?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04, $01
-	dc.b	"Well..."
+	dc.b	"Eh bien..."
 	dc.b	$FF
 
 ; $20
 	dc.b	$F4
 	dc.b	$01, $00
-	dc.b	"We've finally retrieved"
+	dc.b	"Nous avons finalement récupéré"
 	dc.b	$FC
-	dc.b	"the Eclipse Torch!"
+	dc.b	"le Flambeau de l'Éclipse!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08, $02
-	dc.b	"You did well, Rika."
+	dc.b	"Vous vous êtes bien débrouillée,"
+	dc.b	$FC
+	dc.b	"Rika."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06, $01
-	dc.b	"Thank you, Wren."
+	dc.b	"Oh! Merci, maître Wren!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A, $02
-	dc.b	"Now we needn't be afraid of"
+	dc.b	"Maintenant, nous n'avons plus"
 	dc.b	$FC
-	dc.b	"those carnivorous trees"
+	dc.b	"rien à craindre de ces arbres"
 	dc.b	$FD
-	dc.b	"surrounding the Garuberk"
+	dc.b	"carnivores devant la Tour"
 	dc.b	$FC
-	dc.b	"Tower!"
+	dc.b	"Garuberk!"
 	dc.b	$FF
 
 ; $21
 	dc.b	$F4
 	dc.b	$04, $01
-	dc.b	"The holy light of the Eclipse"
+	dc.b	"La lumière sacrée du Flambeau de"
 	dc.b	$FC
-	dc.b	"Torch has burnt away"
+	dc.b	"l'Éclipse a consumé les arbres"
 	dc.b	$FD
-	dc.b	"the carnivorous trees."
+	dc.b	"carnivores."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01, $00
-	dc.b	"That means we can finally"
+	dc.b	"Alors on peut finalement entrer"
 	dc.b	$FC
-	dc.b	"enter the Garuberk Tower!"
+	dc.b	"dans la Tour Garuberk!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A, $02
-	dc.b	"All right! People of Meese,"
+	dc.b	"Parfait! Citoyens de Meese,"
 	dc.b	$FC
-	dc.b	"just you wait..."
+	dc.b	"vous verrez..."
 	dc.b	$FF
 
 ; $22
 	dc.b	$F4
 	dc.b	$01, $00
-	dc.b	"We've beaten Dark Force,"
+	dc.b	"Nous avons vaincu Dark Force,"
 	dc.b	$FD
-	dc.b	"so what on earth are those"
+	dc.b	"alors que signifient ces"
 	dc.b	$FC
-	dc.b	"pillars of fire?"
+	dc.b	"colonnes de feu?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06, $01
-	dc.b	"It's in the direction of"
+	dc.b	"C'est en direction du Temple"
 	dc.b	$FC
-	dc.b	"the Gumbious Temple!"
+	dc.b	"Gumbious!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04, $02
-	dc.b	"At any rate, let's go see!"
+	dc.b	"Quoi qu'il en soit, allons-y!"
 	dc.b	$FF
 
 ; $23
 	dc.b	$F4
 	dc.b	$04, $02
-	dc.b	"The 'Aero-Prism' that's supposed"
+	dc.b	"'L'Aero-Prisme' devrait pouvoir"
 	dc.b	$FC
-	dc.b	"to show the location of"
+	dc.b	"nous indiquer la direction vers"
 	dc.b	$FD
 	dc.b	"'Rykros'..."
 	dc.b	$FD
-	dc.b	"It's in the Soldiers' Temple'"
+	dc.b	"Il se trouve dans le Temple des"
 	dc.b	$FC
-	dc.b	"in Motavia!"
+	dc.b	"Soldats sur Motavia!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06, $01
-	dc.b	"Oh,"
-	dc.b	$FD
-	dc.b	"the temple on the small island"
+	dc.b	"Ah, le temple sur cette petite"
 	dc.b	$FC
-	dc.b	"we saw from the village of Krup."
+	dc.b	"île qu'on aperçoit à partir"
+	dc.b	$FD
+	dc.b	"du village de Krup."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01, $00
 	dc.b	"Rykros..."
 	dc.b	$FD
-	dc.b	"Hmm...the place where"
+	dc.b	"Hmm... l'endroit où nous"
 	dc.b	$FC
-	dc.b	"the answers to all"
+	dc.b	"trouverons la réponse à toutes"
 	dc.b	$FD
-	dc.b	"the secrets lie..."
+	dc.b	"les questions..."
 	dc.b	$FF
 
 ; $24
 	dc.b	$F4
 	dc.b	$01, $00
-	dc.b	"We've got a hold of"
+	dc.b	"Nous avons maintenant un"
 	dc.b	$FC
-	dc.b	"the Hydrofoil."
+	dc.b	"Hydroptère."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04, $02
-	dc.b	"This means, we can cross"
+	dc.b	"Alors, nous pouvons traverser"
 	dc.b	$FC
-	dc.b	"whatever we want,"
+	dc.b	"tout plan d'eau, que ce soit"
 	dc.b	$FD
-	dc.b	"be it an ocean or a lake!"
+	dc.b	"un océan ou un lac!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06, $01
-	dc.b	"Now we'll be able to get to"
+	dc.b	"Donc, nous pourrons aller au"
 	dc.b	$FC
-	dc.b	"the Soldiers' Temple from Krup."
+	dc.b	"Temple des Soldats à partir de"
+	dc.b	$FD
+	dc.b	"Krup."
 	dc.b	$FF
 
 ; $25
 	dc.b	$F4
 	dc.b	$01, $00
-	dc.b	"Oh, great."
+	dc.b	"Ouais, c'est super..."
 	dc.b	$FD
-	dc.b	"Now we've got some strange guy"
+	dc.b	"Il y a un gars bizarre qui"
 	dc.b	$FC
-	dc.b	"tagging along with us."
+	dc.b	"s'est collé à nous."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0B, $02
-	dc.b	"Oh, don't mind me."
+	dc.b	"Oh, faites comme si je n'étais"
+	dc.b	$FC
+	dc.b	"pas là."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04, $01
-	dc.b	"Chaz! Let's hurry to the temple."
+	dc.b	"Chaz! Allons vite au temple."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01, $00
-	dc.b	"Ah...yeah."
+	dc.b	"Ah...ouais."
 	dc.b	$FF
 
 ; $26
 	dc.b	$F4
 	dc.b	$04, $01
-	dc.b	"So this is the Aero-Prism."
+	dc.b	"Alors voilà l'Aero-Prism."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0B, $02
-	dc.b	"My...quite a curiosity."
+	dc.b	"Tiens...quel objet intrigant."
 	dc.b	$FC
-	dc.b	"May I take a look at it?"
+	dc.b	"Puis-je le voir de près?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01, $00
-	dc.b	"Oh, here..."
+	dc.b	"Euh, d'accord..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04, $01
-	dc.b	"No, don't, Chaz!"
+	dc.b	"Non, attends, Chaz!"
 	dc.b	$FD
-	dc.b	"Sorry about this, Seth, but this"
+	dc.b	"Désolé, Seth, mais cet objet"
 	dc.b	$FC
-	dc.b	"thing is very important to us."
+	dc.b	"est très précieux pour nous."
 	dc.b	$FD
-	dc.b	"We can't just have it handled"
+	dc.b	"Nous ne pouvons pas le passer"
 	dc.b	$FC
-	dc.b	"out of curiosity!"
+	dc.b	"à d'autres comme un bibelot!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0B, $02
-	dc.b	"Oh, forgive me."
+	dc.b	"Oh, pardonnez-moi."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06, $01
 	dc.b	"Oh, Chaz!"
 	dc.b	$FC
-	dc.b	"You're just too good-natured!"
+	dc.b	"Tu es trop accommodant!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01, $00
-	dc.b	"So, where is this secret of"
+	dc.b	"Bon, où se trouve le secret de"
 	dc.b	$FC
-	dc.b	"Rykros hidden?"
+	dc.b	"Rykros?"
 	dc.b	$FF
 
 ; $27
 	dc.b	$F4
 	dc.b	$06, $02
-	dc.b	"Seth, he is such a..."
+	dc.b	"Seth, il était aussi un..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04, $01
-	dc.b	"I'm becoming indifferent about"
+	dc.b	"Je commence à être blasé de"
 	dc.b	$FC
-	dc.b	"enemies."
+	dc.b	"tous ces ennemis."
 	dc.b	$FD
-	dc.b	"We can't just dawdle."
+	dc.b	"On n'a pas le temps de traîner."
 	dc.b	$FC
-	dc.b	"We've got to hurry to Rykros!"
+	dc.b	"Il faut aller vite sur Rykros!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01, $00
-	dc.b	"So what is this Rykros?"
+	dc.b	"Alors, c'est quoi, Rykros?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06, $02
-	dc.b	"We'll just have to go"
+	dc.b	"Nous devrons y aller pour le"
 	dc.b	$FC
-	dc.b	"and find out, Chaz!"
+	dc.b	"savoir, Chaz!"
 	dc.b	$FF
 
 ; $28
 	dc.b	$F4
 	dc.b	$06, $01
-	dc.b	"'The Courage Tower' and"
+	dc.b	"'La Tour du Courage' et"
 	dc.b	$FC
-	dc.b	"'The Strength Tower'..."
+	dc.b	"'La Tour de la Force'..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04, $02
-	dc.b	"We won't be able to hear what"
+	dc.b	"Le Roof ne nous dira rien tant"
 	dc.b	$FC
-	dc.b	"Le Roof has to say unless"
+	dc.b	"que nous n'aurons pas affronté"
 	dc.b	$FD
-	dc.b	"we meet the guards of these"
+	dc.b	"les gardiens de ces deux"
 	dc.b	$FC
-	dc.b	"two towers..."
+	dc.b	"tours..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01, $00
-	dc.b	"He said it was some kind of"
+	dc.b	"Il a dit que c'était une sorte"
 	dc.b	$FC
-	dc.b	"ritual..."
+	dc.b	"de rituel..."
 	dc.b	$FD
-	dc.b	"I wonder what that means?"
+	dc.b	"Je me demande ce qu'il voulait"
+	dc.b	$FC
+	dc.b	"dire?"
 	dc.b	$FF
 
 ; $29
@@ -465,253 +471,269 @@
 	dc.b	$01, $02
 	dc.b	"Rune..."
 	dc.b	$FD
-	dc.b	"what on earth are you saying"
+	dc.b	"que diable penses-tu que nous"
 	dc.b	$FC
-	dc.b	"is in the Esper Mansion?"
+	dc.b	"trouverons au Manoir Esper?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04, $00
-	dc.b	"Just be quiet and follow me!"
+	dc.b	"Tiens ta langue et suis-moi!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01, $02
-	dc.b	"sigh"
+	dc.b	"soupir"
 	dc.b	$FF
 
 ; $2A
 	dc.b	$F4
 	dc.b	$01, $00
-	dc.b	"'Meet Elsydeon...'"
+	dc.b	"'Fais Face à Elsydeon...'"
 	dc.b	$FC
-	dc.b	"I wonder what that means?"
+	dc.b	"Qu'est-ce que ça signifie?"
 	dc.b	$FF
 
 ; $2B
 	dc.b	$F4
 	dc.b	$01, $00
-	dc.b	"What on earth are you saying"
+	dc.b	"Que diable dis-tu qu'il est"
 	dc.b	$FC
-	dc.b	"has happened in Motavia?"
+	dc.b	"arrivé sur Motavia?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08, $02
-	dc.b	"The details are unclear."
+	dc.b	"Les détails sont incomplets."
 	dc.b	$FD
-	dc.b	"There is nothing other than"
+	dc.b	"Le message est dénué de tout"
 	dc.b	$FC
-	dc.b	"the message 'come immediately'.."
+	dc.b	"contenu autre que 'venez"
+	dc.b	$FD
+	dc.b	"immédiatement...'"
 	dc.b	$FF
 
 ; $2C
 	dc.b	$F4
 	dc.b	$01, $00
-	dc.b	"This is the final battle!"
+	dc.b	"C'est l'ultime bataille!"
 	dc.b	$FC
-	dc.b	"Let's go!"
+	dc.b	"Allons-y!"
 	dc.b	$FD
-	dc.b	"We must face The Profound"
+	dc.b	"Il faut faire face à la"
 	dc.b	$FC
-	dc.b	"Darkness!"
+	dc.b	"Noirceur Profonde!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06, $01
-	dc.b	"Yes, Chaz, let's go"
+	dc.b	"Oui, Chaz! Allons-y et"
 	dc.b	$FC
-	dc.b	"and do battle together!"
+	dc.b	"battons-nous tous ensemble!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08, $02
-	dc.b	"Operational checks complete."
-	dc.b	$FD
-	dc.b	"All systems are fully"
+	dc.b	"Vérification opérationnelle"
 	dc.b	$FC
-	dc.b	"functional."
+	dc.b	"terminée."
+	dc.b	$FD
+	dc.b	"Tous mes systèmes fonctionnent"
+	dc.b	$FC
+	dc.b	"à pleine capacité."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04, $01
-	dc.b	"So...let's go!"
+	dc.b	"Alors...allons-y!"
 	dc.b	$FF
 
 ; $2D
 	dc.b	$F4
 	dc.b	$01, $00
-	dc.b	"This is the final battle!"
+	dc.b	"C'est l'ultime bataille!"
 	dc.b	$FC
-	dc.b	"Let's go!"
+	dc.b	"Allons-y!"
 	dc.b	$FD
-	dc.b	"We must face The Profound"
+	dc.b	"Il faut faire face à la"
 	dc.b	$FC
-	dc.b	"Darkness!"
+	dc.b	"Noirceur Profonde!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06, $01
-	dc.b	"Yes, Chaz, let's go"
+	dc.b	"Oui, Chaz! Allons-y et"
 	dc.b	$FC
-	dc.b	"and do battle together!"
+	dc.b	"battons-nous tous ensemble!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08, $02
-	dc.b	"Operational checks complete."
-	dc.b	$FD
-	dc.b	"All systems are fully"
+	dc.b	"Vérification opérationnelle"
 	dc.b	$FC
-	dc.b	"functional."
+	dc.b	"terminée."
+	dc.b	$FD
+	dc.b	"Tous mes systèmes fonctionnent"
+	dc.b	$FC
+	dc.b	"à pleine capacité."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04, $01
-	dc.b	"So...let's go!"
+	dc.b	"Alors...allons-y!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03, $02
-	dc.b	"Now is the time that I can"
+	dc.b	"C'est le moment de mettre à"
 	dc.b	$FC
-	dc.b	"profit from my secret training!"
+	dc.b	"profit mon entraînement secret!"
 	dc.b	$FF
 
 ; $2E
 	dc.b	$F4
 	dc.b	$01, $00
-	dc.b	"This is the final battle!"
+	dc.b	"C'est l'ultime bataille!"
 	dc.b	$FC
-	dc.b	"Let's go!"
+	dc.b	"Allons-y!"
 	dc.b	$FD
-	dc.b	"We must face The Profound"
+	dc.b	"Il faut faire face à la"
 	dc.b	$FC
-	dc.b	"Darkness!"
+	dc.b	"Noirceur Profonde!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06, $01
-	dc.b	"Yes, Chaz, let's go"
+	dc.b	"Oui, Chaz! Allons-y et"
 	dc.b	$FC
-	dc.b	"and do battle together!"
+	dc.b	"battons-nous tous ensemble!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08, $02
-	dc.b	"Operational checks complete."
-	dc.b	$FD
-	dc.b	"All systems are fully"
+	dc.b	"Vérification opérationnelle"
 	dc.b	$FC
-	dc.b	"functional."
+	dc.b	"terminée."
+	dc.b	$FD
+	dc.b	"Tous mes systèmes fonctionnent"
+	dc.b	$FC
+	dc.b	"à pleine capacité."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04, $01
-	dc.b	"So...let's go!"
+	dc.b	"Alors...allons-y!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$05, $02
-	dc.b	"Just what we're hoping for!"
+	dc.b	"C'est tout ce que j'espérais!"
 	dc.b	$FF
 
 ; $2F
 	dc.b	$F4
 	dc.b	$01, $00
-	dc.b	"This is the final battle!"
+	dc.b	"C'est l'ultime bataille!"
 	dc.b	$FC
-	dc.b	"Let's go!"
+	dc.b	"Allons-y!"
 	dc.b	$FD
-	dc.b	"We must face The Profound"
+	dc.b	"Il faut faire face à la"
 	dc.b	$FC
-	dc.b	"Darkness!"
+	dc.b	"Noirceur Profonde!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06, $01
-	dc.b	"Yes, Chaz, let's go"
+	dc.b	"Oui, Chaz! Allons-y et"
 	dc.b	$FC
-	dc.b	"and do battle together!"
+	dc.b	"battons-nous tous ensemble!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08, $02
-	dc.b	"Operational checks complete."
-	dc.b	$FD
-	dc.b	"All systems are fully"
+	dc.b	"Vérification opérationnelle"
 	dc.b	$FC
-	dc.b	"functional."
+	dc.b	"terminée."
+	dc.b	$FD
+	dc.b	"Tous mes systèmes fonctionnent"
+	dc.b	$FC
+	dc.b	"à pleine capacité."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04, $01
-	dc.b	"So...let's go!"
+	dc.b	"Alors...allons-y!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$07, $02
-	dc.b	"Allow me to join you."
+	dc.b	"Permettez-moi de me joindre à"
 	dc.b	$FC
-	dc.b	"Let's go now!"
+	dc.b	"vous. Allons-y!"
 	dc.b	$FF
 
 ; $30
 	dc.b	$F4
 	dc.b	$01, $00
-	dc.b	"This is the final battle!"
+	dc.b	"C'est l'ultime bataille!"
 	dc.b	$FC
-	dc.b	"Let's go!"
+	dc.b	"Allons-y!"
 	dc.b	$FD
-	dc.b	"We must face The Profound"
+	dc.b	"Il faut faire face à la"
 	dc.b	$FC
-	dc.b	"Darkness!"
+	dc.b	"Noirceur Profonde!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06, $01
-	dc.b	"Yes, Chaz, let's go"
+	dc.b	"Oui, Chaz! Allons-y et"
 	dc.b	$FC
-	dc.b	"and do battle together!"
+	dc.b	"battons-nous tous ensemble!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08, $02
-	dc.b	"Operational checks complete."
-	dc.b	$FD
-	dc.b	"All systems are fully"
+	dc.b	"Vérification opérationnelle"
 	dc.b	$FC
-	dc.b	"functional."
+	dc.b	"terminée."
+	dc.b	$FD
+	dc.b	"Tous mes systèmes fonctionnent"
+	dc.b	$FC
+	dc.b	"à pleine capacité."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04, $01
-	dc.b	"So...let's go!"
+	dc.b	"Alors...allons-y!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$09, $02
-	dc.b	"I'll protect Algo -- and drink"
+	dc.b	"Je vais protéger Algo -- et"
 	dc.b	$FC
-	dc.b	"all I want! Ha ha!"
+	dc.b	"tout mon vin à boire! Ha ha!"
 	dc.b	$FF
 
 ; $31
 	dc.b	$F4
 	dc.b	$01, $00
-	dc.b	"This is the final battle!"
+	dc.b	"C'est l'ultime bataille!"
 	dc.b	$FC
-	dc.b	"Let's go!"
+	dc.b	"Allons-y!"
 	dc.b	$FD
-	dc.b	"We must face The Profound"
+	dc.b	"Il faut faire face à la"
 	dc.b	$FC
-	dc.b	"Darkness!"
+	dc.b	"Noirceur Profonde!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06, $01
-	dc.b	"Yes, Chaz, let's go"
+	dc.b	"Oui, Chaz! Allons-y et"
 	dc.b	$FC
-	dc.b	"and do battle together!"
+	dc.b	"battons-nous tous ensemble!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08, $02
-	dc.b	"Operation checks complete."
-	dc.b	$FD
-	dc.b	"All systems are fully"
+	dc.b	"Vérification opérationnelle"
 	dc.b	$FC
-	dc.b	"functional."
+	dc.b	"terminée."
+	dc.b	$FD
+	dc.b	"Tous mes systèmes fonctionnent"
+	dc.b	$FC
+	dc.b	"à pleine capacité."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04, $01
-	dc.b	"So...let's go!"
+	dc.b	"Alors...allons-y!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A, $02
-	dc.b	"I'm ready anytime you are!"
+	dc.b	"Je suis prête dès que vous"
+	dc.b	$FC
+	dc.b	"l'êtes!"
 	dc.b	$FF
 
 ; $32
 	dc.b	$F4
 	dc.b	$01, $00
-	dc.b	"What! Where is this?"
+	dc.b	"Hein! Où suis-je?"
 	dc.b	$FC
-	dc.b	"...Where is everybody!?"
+	dc.b	"...Où sont les autres!?"
 	dc.b	$FF

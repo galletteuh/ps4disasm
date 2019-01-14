@@ -5,27 +5,27 @@
 	dc.b	$34, $02
 	dc.b	$FA
 	dc.b	$0B, $01
-	dc.b	"Are you a hunter?"
+	dc.b	"Vous êtes un chasseur?"
 	dc.b	$FD
-	dc.b	"Are you here to exterminate"
+	dc.b	"Êtes-vous ici pour nous"
 	dc.b	$FC
-	dc.b	"the monsters?"
+	dc.b	"débarrasser des monstres?"
 	dc.b	$FF
 
 ; $1
-	dc.b	"Thank you very much!"
+	dc.b	"Merci beaucoup! Je me sens"
 	dc.b	$FC
-	dc.b	"I feel much safer now."
+	dc.b	"en sécurité maintenant."
 	dc.b	$FF
 
 ; $2
-	dc.b	"Thank you again"
+	dc.b	"Merci encore pour toute"
 	dc.b	$FC
-	dc.b	"for you assistance."
+	dc.b	"votre aide."
 	dc.b	$FF
 
 ; $3
-	dc.b	"What's going to happen now?"
+	dc.b	"Et maintenant, qu'arrivera-t-il?"
 	dc.b	$FF
 
 ; $4
@@ -35,29 +35,29 @@
 	dc.b	$34, $02
 	dc.b	$FA
 	dc.b	$0B, $01
-	dc.b	"About a month ago, monsters"
+	dc.b	"Depuis un mois, des monstres"
 	dc.b	$FC
-	dc.b	"began to appear in the basement."
+	dc.b	"rôdent dans le sous-sol."
 	dc.b	$FD
-	dc.b	"I'm so frightened, I can't"
+	dc.b	"J'ai peur, je n'arrive plus à"
 	dc.b	$FC
-	dc.b	"even think about my research!"
+	dc.b	"me concentrer sur mon travail!"
 	dc.b	$FF
 
 ; $5
-	dc.b	"Oh, you've completed the job!"
+	dc.b	"Ah, vous y êtes arrivés!"
 	dc.b	$FC
-	dc.b	"Thank you so much!"
+	dc.b	"Merci de tout coeur!"
 	dc.b	$FF
 
 ; $6
-	dc.b	"Thank you again for your"
+	dc.b	"Je vous remercie encore de"
 	dc.b	$FC
-	dc.b	"assistance."
+	dc.b	"nous avoir aidé."
 	dc.b	$FF
 
 ; $7
-	dc.b	"What's going to happen now?"
+	dc.b	"Et maintenant, qu'arrivera-t-il?"
 	dc.b	$FF
 
 ; $8
@@ -69,47 +69,47 @@
 	dc.b	$0B, $02
 	dc.b	$FA
 	dc.b	$08, $01
-	dc.b	"You're the hunter commissioned"
+	dc.b	"Tu es le Chasseur retenu par"
 	dc.b	$FC
-	dc.b	"by the principal?"
+	dc.b	"le directeur?"
 	dc.b	$FD
-	dc.b	"A kid like you?!"
+	dc.b	"Tu n'es qu'un jeune blanc-bec!"
 	dc.b	$FD
-	dc.b	"Are you going to be able to"
+	dc.b	"Tu crois vraiment que tu seras"
 	dc.b	$FC
-	dc.b	"handle it?"
+	dc.b	"à la hauteur?"
 	dc.b	$FF
 
 ; $9
-	dc.b	"Wow, hey gorgeous!"
+	dc.b	"Wow, allô beauté!"
 	dc.b	$FD
-	dc.b	"Why don't you go with me instead"
+	dc.b	"Laisse tomber ce jeunôt et"
 	dc.b	$FC
-	dc.b	"of that kid?"
+	dc.b	"prend-moi à la place!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Buzz off!!!"
+	dc.b	"Casse-toi, minable!!!"
 	dc.b	$FF
 
 ; $A
-	dc.b	"I can't believe that lady and"
+	dc.b	"Incroyable! Cette nana et ce"
 	dc.b	$FC
-	dc.b	"the kid defeated the monsters."
+	dc.b	"mioche ont pu tuer les monstres."
 	dc.b	$FD
-	dc.b	"Oops, ah, nothing."
+	dc.b	"Ah, euh, non, rien!"
 	dc.b	$FC
-	dc.b	"Nothing at all! Ha, ha!"
+	dc.b	"Je n'ai rien dit! Ha, ha!"
 	dc.b	$FF
 
 ; $B
-	dc.b	"You look familiar..."
+	dc.b	"Je vous ai déjà vus quelque"
 	dc.b	$FC
-	dc.b	"Who are you?"
+	dc.b	"part... Qui êtes-vous?"
 	dc.b	$FF
 
 ; $C
-	dc.b	"He...help!"
+	dc.b	"À...À l'aide!"
 	dc.b	$FF
 
 ; $D
@@ -117,51 +117,55 @@
 	dc.b	$DA, $02
 	dc.b	$FA
 	dc.b	$42, $01
-	dc.b	"Here at Motavia Academy,"
+	dc.b	"À l'Académie Motavia, nous"
 	dc.b	$FC
-	dc.b	"we search for the truth of the"
+	dc.b	"voulons percer les secrets de"
 	dc.b	$FD
-	dc.b	"universe."
+	dc.b	"l'univers."
 	dc.b	$FD
-	dc.b	"This is the largest research"
+	dc.b	"Ici se trouve la plus grande"
 	dc.b	$FC
-	dc.b	"facility on the entire planet."
+	dc.b	"institution de recherche au"
 	dc.b	$FD
-	dc.b	"What do you think?"
+	dc.b	"monde."
+	dc.b	$FD
+	dc.b	"Qu'est-ce que vous en pensez?"
 	dc.b	$FC
-	dc.b	"Isn't it grand?"
+	dc.b	"Magnifique, n'est-ce pas?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It looks like an interesting"
+	dc.b	"Quel endroit intéressant!"
 	dc.b	$FC
-	dc.b	"place, doesn't it, Alys?"
+	dc.b	"Pas vrai, Alys?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Really? It doesn't interest me"
+	dc.b	"Ouais? Je ne suis pas du tout"
 	dc.b	$FC
-	dc.b	"one bit."
+	dc.b	"intéressée."
 	dc.b	$FF
 
 ; $E
-	dc.b	"Here at Motavia Academy,"
+	dc.b	"À l'Académie Motavia, nous"
 	dc.b	$FC
-	dc.b	"we search for the truth of the"
+	dc.b	"voulons percer les secrets de"
 	dc.b	$FD
-	dc.b	"universe."
+	dc.b	"l'univers."
 	dc.b	$FD
-	dc.b	"This is the largest research"
+	dc.b	"Ici se trouve la plus grande"
 	dc.b	$FC
-	dc.b	"facility on the entire planet."
+	dc.b	"institution de recherche au"
 	dc.b	$FD
-	dc.b	"What do you think?"
+	dc.b	"monde."
+	dc.b	$FD
+	dc.b	"Qu'est-ce que vous en pensez?"
 	dc.b	$FC
-	dc.b	"Isn't it grand?"
+	dc.b	"Magnifique, n'est-ce pas?"
 	dc.b	$FF
 
 ; $F
-	dc.b	"What's that big hole!"
+	dc.b	"C'est quoi, ce gros trou!?"
 	dc.b	$FF
 
 ; $10
@@ -171,51 +175,51 @@
 	dc.b	$42, $02
 	dc.b	$FA
 	dc.b	$0A, $01
-	dc.b	"Huh? Do I know you?"
+	dc.b	"Hein? On se connaît?"
 	dc.b	$FD
-	dc.b	"Yikes!"
+	dc.b	"Hôlà!"
 	dc.b	$FD
-	dc.b	"What are you doing with such"
+	dc.b	"C'est quoi toutes ces armes"
 	dc.b	$FC
-	dc.b	"lethal weapons?"
+	dc.b	"mortelles?"
 	dc.b	$FD
-	dc.b	"Get out!"
+	dc.b	"Hors d'ici!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Hmmph! How rude!"
+	dc.b	"Quel impoli!"
 	dc.b	$FF
 
 ; $11
-	dc.b	"Hahn! What are you doing in the"
+	dc.b	"Hahn! Que fais-tu avec ces"
 	dc.b	$FC
-	dc.b	"company of those uncivilized"
-	dc.b	$FD
-	dc.b	"animals?"
+	dc.b	"créatures barbares?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"What a jerk!"
+	dc.b	"Quel abruti!"
 	dc.b	$FD
-	dc.b	"Maybe I'll have a little fun"
+	dc.b	"Peut-être que je vais m'amuser"
 	dc.b	$FC
-	dc.b	"with him."
+	dc.b	"un peu à ses dépends."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
 	dc.b	"Ahhh!"
 	dc.b	$FC
-	dc.b	"Please put that away!"
+	dc.b	"Rangez ça, s'il-vous-plaît!"
 	dc.b	$FF
 
 ; $12
-	dc.b	"Really, I didn't know Hahn"
+	dc.b	"Honnêtement, je suis surpris"
 	dc.b	$FC
-	dc.b	"knew such uncivilized people!"
+	dc.b	"que Hahn soit de mêche avec de"
+	dc.b	$FD
+	dc.b	"tels barbares!"
 	dc.b	$FF
 
 ; $13
-	dc.b	"He...help!"
+	dc.b	"À...À l'aide!"
 	dc.b	$FF
 
 ; $14
@@ -225,81 +229,87 @@
 	dc.b	$42, $02
 	dc.b	$FA
 	dc.b	$0A, $01
-	dc.b	"I'm studying history."
+	dc.b	"J'étudie l'histoire du monde."
 	dc.b	$FD
-	dc.b	"This planet has bad problems"
+	dc.b	"Cette planète a toujours eu de"
 	dc.b	$FC
-	dc.b	"from the beginning."
+	dc.b	"graves problèmes."
 	dc.b	$FD
-	dc.b	"Presently, we have an abnormal"
+	dc.b	"Actuellement, nous devons"
 	dc.b	$FC
-	dc.b	"climate, soil depletion, and"
+	dc.b	"conjuguer avec des changements"
 	dc.b	$FD
-	dc.b	"a decreasing birth rate!"
-	dc.b	$FD
-	dc.b	"It doesn't make for a promising"
+	dc.b	"climatiques, l'épuisement des"
 	dc.b	$FC
-	dc.b	"future."
+	dc.b	"sols, et une baisse de natalité!"
+	dc.b	$FD
+	dc.b	"Ce n'est pas signe d'un avenir"
+	dc.b	$FC
+	dc.b	"très prometteur."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"This guy is too depressing."
+	dc.b	"Ce gars-là est trop déprimant."
 	dc.b	$FC
-	dc.b	"Let's get out of here."
+	dc.b	"Allons voir ailleurs."
 	dc.b	$FF
 
 ; $15
-	dc.b	"I'm studying history."
+	dc.b	"J'étudie l'histoire du monde."
 	dc.b	$FD
-	dc.b	"This planet has had problems"
+	dc.b	"Cette planète a toujours eu de"
 	dc.b	$FC
-	dc.b	"since the beginning."
+	dc.b	"graves problèmes."
 	dc.b	$FD
-	dc.b	"Presently, we have an abnormal"
+	dc.b	"Actuellement, nous devons"
 	dc.b	$FC
-	dc.b	"climate, soil depletion, and"
+	dc.b	"conjuguer avec des changements"
 	dc.b	$FD
-	dc.b	"a decreasing birth rate!"
-	dc.b	$FD
-	dc.b	"It makes me pessimistic about"
+	dc.b	"climatiques, l'épuisement des"
 	dc.b	$FC
-	dc.b	"the future."
+	dc.b	"sols, et une baisse de natalité!"
+	dc.b	$FD
+	dc.b	"Je suis pessimiste quant à nos"
+	dc.b	$FC
+	dc.b	"perspectives d'avenir."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"This guy is too depressing."
+	dc.b	"Ce gars-là est trop déprimant."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"I don't blame him. Recently,"
+	dc.b	"Il n'a pas tort. Depuis peu,"
 	dc.b	$FC
-	dc.b	"the rate of environmental"
+	dc.b	"l'environnement se détériore"
 	dc.b	$FD
-	dc.b	"degradation has increased."
+	dc.b	"à une vitesse accélérée."
 	dc.b	$FF
 
 ; $16
-	dc.b	"I'm studying history."
+	dc.b	"J'étudie l'histoire du monde."
 	dc.b	$FD
-	dc.b	"This planet has had problems"
+	dc.b	"Cette planète a toujours eu de"
 	dc.b	$FC
-	dc.b	"since the beginning."
+	dc.b	"graves problèmes."
 	dc.b	$FD
-	dc.b	"Presently, we have an abnormal"
+	dc.b	"Actuellement, nous devons"
 	dc.b	$FC
-	dc.b	"climate, soil depletion, and"
+	dc.b	"conjuguer avec des changements"
 	dc.b	$FD
-	dc.b	"a decreasing birth rate..."
-	dc.b	$FD
-	dc.b	"It makes me pessimistic"
+	dc.b	"climatiques, l'épuisement des"
 	dc.b	$FC
-	dc.b	"about the future."
+	dc.b	"sols, et une baisse de natalité!"
+	dc.b	$FD
+	dc.b	"Je suis pessimiste quant à nos"
+	dc.b	$FC
+	dc.b	"perspectives d'avenir."
 	dc.b	$FF
 
 ; $17
-	dc.b	"I'm right. This planet is full"
+	dc.b	"Je vous l'affirme. Cette planète"
 	dc.b	$FC
-	dc.b	"of problems!"
+	dc.b	"regorge de problèmes!"
 	dc.b	$FF
 
 ; $18
@@ -309,45 +319,43 @@
 	dc.b	$0B, $02
 	dc.b	$FA
 	dc.b	$0A, $01
-	dc.b	"I'm so scared of the monsters."
+	dc.b	"J'ai très peur des monstres."
 	dc.b	$FC
-	dc.b	"There's nothing I'd like more"
+	dc.b	"Je voudrais vraiment quitter"
 	dc.b	$FD
-	dc.b	"than to leave town."
+	dc.b	"la ville."
 	dc.b	$FC
-	dc.b	"But the principal won't allow"
-	dc.b	$FD
-	dc.b	"it."
+	dc.b	"Mais le directeur l'a interdit."
 	dc.b	$FF
 
 ; $19
-	dc.b	"I'm so scared of the monsters."
+	dc.b	"J'ai tellement peur des"
 	dc.b	$FC
-	dc.b	"There's nothing I'd like more"
+	dc.b	"monstres. Je voudrais pourvoir"
 	dc.b	$FD
-	dc.b	"than to get out of here, but"
+	dc.b	"partir d'ici, mais comme le"
 	dc.b	$FC
-	dc.b	"since the principal feigns"
+	dc.b	"directeur ne veut pas ébruiter"
 	dc.b	$FD
-	dc.b	"ignorance before the citizens,"
+	dc.b	"l'affaire, nous sommes tenus"
 	dc.b	$FC
-	dc.b	"we've got to stay quiet."
+	dc.b	"de garder le silence."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Well, you're certainly trying"
+	dc.b	"Ouais, on voit bien que vous"
 	dc.b	$FC
-	dc.b	"hard to keep up appearances."
+	dc.b	"voulez sauver les apparences."
 	dc.b	$FF
 
 ; $1A
-	dc.b	"You've exterminated the"
+	dc.b	"Vous avez tué tous les monstres?"
 	dc.b	$FC
-	dc.b	"monsters? What a relief."
+	dc.b	"Ouf! Quel soulagement!"
 	dc.b	$FF
 
 ; $1B
-	dc.b	"Oh, such a thing!"
+	dc.b	"Ah là là! Quelle galère!"
 	dc.b	$FF
 
 ; $1C
@@ -355,31 +363,31 @@
 	dc.b	$DA, $02
 	dc.b	$FA
 	dc.b	$0C, $01
-	dc.b	"If you're looking for the"
+	dc.b	"Si vous cherchez le bureau du"
 	dc.b	$FC
-	dc.b	"principal's room, it's way in"
+	dc.b	"directeur, c'est là-bas, tout"
 	dc.b	$FD
-	dc.b	"the back."
+	dc.b	"au fond."
 	dc.b	$FD
-	dc.b	"But recently, he's been acting"
+	dc.b	"Mais dernièrement, il semble"
 	dc.b	$FC
-	dc.b	"strangely."
+	dc.b	"un peu bizarre."
 	dc.b	$FD
-	dc.b	"I think he's scared of"
+	dc.b	"On dirait qu'il a peur de"
 	dc.b	$FC
-	dc.b	"something."
+	dc.b	"quelque chose."
 	dc.b	$FF
 
 ; $1D
-	dc.b	"If you're looking for the"
+	dc.b	"Si vous cherchez le bureau du"
 	dc.b	$FC
-	dc.b	"principal's room, it's way in"
+	dc.b	"directeur, c'est là bas, tout"
 	dc.b	$FD
-	dc.b	"the back."
+	dc.b	"au fond."
 	dc.b	$FF
 
 ; $1E
-	dc.b	"Oh, such a thing!"
+	dc.b	"Ah là là! Quelle galère!"
 	dc.b	$FF
 
 ; $1F
@@ -387,101 +395,99 @@
 	dc.b	$DA, $02
 	dc.b	$FA
 	dc.b	$42, $01
-	dc.b	"For the last year there have"
+	dc.b	"Depuis un an, il y a des"
 	dc.b	$FC
-	dc.b	"been violent changes in the"
+	dc.b	"mouvements soudains dans les"
 	dc.b	$FD
-	dc.b	"planet's crust, as well as an"
+	dc.b	"plaques tectoniques, ainsi"
 	dc.b	$FC
-	dc.b	"abnormal outbreak of monsters!"
+	dc.b	"qu'une resurgence de monstres!"
 	dc.b	$FD
-	dc.b	"At this rate,"
+	dc.b	"Si ça continue comme ça, notre"
 	dc.b	$FC
-	dc.b	"the planet will be doomed..."
+	dc.b	"planète est foutue..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Hey, it's not going to do any"
+	dc.b	"Hé, ça ne sert a rien de passer"
 	dc.b	$FC
-	dc.b	"good just moaning about it!"
+	dc.b	"son temps à s'en lamenter!"
 	dc.b	$FF
 
 ; $20
-	dc.b	"For the last half year, there"
+	dc.b	"Depuis un an, il y a des"
 	dc.b	$FC
-	dc.b	"have been violent changes in the"
+	dc.b	"mouvements soudains dans les"
 	dc.b	$FD
-	dc.b	"planet's crust. There has also"
+	dc.b	"plaques tectoniques, ainsi"
 	dc.b	$FC
-	dc.b	"been an abnormal outbreak of"
+	dc.b	"qu'une resurgence de monstres!"
 	dc.b	$FD
-	dc.b	"monsters!"
-	dc.b	$FD
-	dc.b	"At this rate,"
+	dc.b	"Si ça continue comme ça, notre"
 	dc.b	$FC
-	dc.b	"this planet will be doomed..."
+	dc.b	"planète est foutue..."
 	dc.b	$FF
 
 ; $21
-	dc.b	"See! We're doomed..."
+	dc.b	"Vous voyez? On est foutus..."
 	dc.b	$FF
 
 ; $22
 	dc.b	$FA
 	dc.b	$DA, $01
-	dc.b	"A thousand years ago,"
+	dc.b	"Il y a mille ans, notre"
 	dc.b	$FC
-	dc.b	"our society was thrown into"
+	dc.b	"civilisation a été bouleversée"
 	dc.b	$FD
-	dc.b	"confusion by the destruction of"
+	dc.b	"par la destruction de Mother"
 	dc.b	$FC
-	dc.b	"Mother Brain. After that,"
+	dc.b	"Brain. De plus, suite à"
 	dc.b	$FD
-	dc.b	"Motavia sustained a direct hit"
+	dc.b	"l'explosion de la planète Parma,"
 	dc.b	$FC
-	dc.b	"by a fragment of the exploding"
+	dc.b	"un fragment est tombé droit sur"
 	dc.b	$FD
-	dc.b	"planet Parma."
+	dc.b	"notre planète, Motavia."
 	dc.b	$FD
-	dc.b	"Our civilization was almost"
+	dc.b	"Notre société a failli être"
 	dc.b	$FC
-	dc.b	"destroyed."
+	dc.b	"détruite."
 	dc.b	$FD
-	dc.b	"We call this"
+	dc.b	"Nous appellons cette époque"
 	dc.b	$FC
-	dc.b	"'The Great Collapse.'"
+	dc.b	"'Le Grand Effondrement.'"
 	dc.b	$FD
-	dc.b	"...Oh. I didn't realize you"
+	dc.b	"...Pardon. Je croyais que"
 	dc.b	$FC
-	dc.b	"weren't students."
+	dc.b	"vous étiez des étudiants."
 	dc.b	$FF
 
 ; $23
-	dc.b	"There sure are many kinds of"
+	dc.b	"Ouais, il y a tellement de"
 	dc.b	$FC
-	dc.b	"universes!"
+	dc.b	"mondes différents!"
 	dc.b	$FF
 
 ; $24
 	dc.b	$FA
 	dc.b	$DA, $01
-	dc.b	"Once, there were three planets"
+	dc.b	"Jadis, il y avait trois planètes"
 	dc.b	$FC
-	dc.b	"in the Algo solar system, but"
+	dc.b	"dans le système solaire d'Algo."
 	dc.b	$FD
-	dc.b	"during The Great Collapse,"
+	dc.b	"Durant Le Grand Effondrement,"
 	dc.b	$FC
-	dc.b	"the planet Parma was lost."
+	dc.b	"la planète Parma fut détruite."
 	dc.b	$FD
-	dc.b	"Now only Dezolis and this"
+	dc.b	"Maintenant, seuls Dezolis et"
 	dc.b	$FC
-	dc.b	"planet remain."
+	dc.b	"cette planète demeurent."
 	dc.b	$FF
 
 ; $25
-	dc.b	"I can't believe there could be"
+	dc.b	"Je n'arrive pas à croire qu'une"
 	dc.b	$FC
-	dc.b	"such a crazy thing..."
+	dc.b	"telle chose arrive..."
 	dc.b	$FF
 
 ; $26
@@ -489,95 +495,95 @@
 	dc.b	$DA, $02
 	dc.b	$FA
 	dc.b	$65, $01
-	dc.b	"Apparently, a thousand years ago"
+	dc.b	"Il parait qu'il y a mille ans,"
 	dc.b	$FC
-	dc.b	"there were ships that could"
+	dc.b	"nous avions des vaisseaux qui"
 	dc.b	$FD
-	dc.b	"travel through space."
+	dc.b	"pouvaient voyager dans l'espace."
 	dc.b	$FD
-	dc.b	"Today, the only thing we can do"
+	dc.b	"De nos jour, nous devons nous"
 	dc.b	$FC
-	dc.b	"is view Dezolis through a"
+	dc.b	"contenter d'observer Dezolis"
 	dc.b	$FD
-	dc.b	"telescope."
+	dc.b	"avec un téléscope."
 	dc.b	$FD
-	dc.b	"Ah! Just once, I would love"
+	dc.b	"Oh! J'aimerais tant aller sur"
 	dc.b	$FC
-	dc.b	"to go to Dezolis!"
+	dc.b	"Dezolis, juste une fois!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"It sounds like a dream."
+	dc.b	"Une idée irréelle."
 	dc.b	$FC
-	dc.b	"Traveling to another planet."
+	dc.b	"Voyager sur un autre monde."
 	dc.b	$FF
 
 ; $27
-	dc.b	"Apparently, a thousand years ago"
+	dc.b	"Il parait qu'il y a mille ans,"
 	dc.b	$FC
-	dc.b	"there were ships that could"
+	dc.b	"nous avions des vaisseaux qui"
 	dc.b	$FD
-	dc.b	"travel through space."
+	dc.b	"pouvaient voyager dans l'espace."
 	dc.b	$FD
-	dc.b	"Today, the only thing we can do"
+	dc.b	"De nos jour, nous devons nous"
 	dc.b	$FC
-	dc.b	"is view Dezolis through a"
+	dc.b	"contenter d'observer Dezolis"
 	dc.b	$FD
-	dc.b	"telescope."
+	dc.b	"avec un téléscope."
 	dc.b	$FD
-	dc.b	"Ah! Just once, I would love"
+	dc.b	"Oh! J'aimerais tant aller sur"
 	dc.b	$FC
-	dc.b	"to go to Dezolis!"
+	dc.b	"Dezolis, juste une fois!"
 	dc.b	$FF
 
 ; $28
-	dc.b	"What we've got to deal with"
+	dc.b	"Pour le moment, nous devrions"
 	dc.b	$FC
-	dc.b	"right now is not outer space"
+	dc.b	"nous préoccuper de cet énorme"
 	dc.b	$FD
-	dc.b	"but this hole in the ground!"
+	dc.b	"trou, pas de l'espace sidéral!"
 	dc.b	$FF
 
 ; $29
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Chaz, where have you been?"
+	dc.b	"Chaz, où diable étais-tu?"
 	dc.b	$FC
-	dc.b	"C'mon, let's go!"
+	dc.b	"Allez, grouille!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"But..."
+	dc.b	"M'enfin, Alys..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"We have to see the principal"
+	dc.b	"Nous devons rencontrer le"
 	dc.b	$FC
-	dc.b	"and get the details about this"
+	dc.b	"directeur pour connaître les"
 	dc.b	$FD
-	dc.b	"commission."
+	dc.b	"détails de la mission."
 	dc.b	$FF
 
 ; $2A
 	dc.b	$FA
 	dc.b	$DA, $01
-	dc.b	"Oh my?"
+	dc.b	"Ça alors!"
 	dc.b	$FC
-	dc.b	"A customer!"
+	dc.b	"Un client!"
 	dc.b	$FD
-	dc.b	"Oh, excuse me. You see, this"
+	dc.b	"Pardonnez-moi! Voyez-vous, ici"
 	dc.b	$FC
-	dc.b	"is a university town, so there"
+	dc.b	"nous sommes dans une ville"
 	dc.b	$FD
-	dc.b	"really isn't much need for"
+	dc.b	"universitaire, donc nous n'avons"
 	dc.b	$FC
-	dc.b	"an inn."
+	dc.b	"pas vraiment besoin d'auberge."
 	dc.b	$FF
 
 ; $2B
-	dc.b	"Forget about inns! We've got"
+	dc.b	"Oubliez les auberges! Il y a"
 	dc.b	$FC
-	dc.b	"more serious matters, don't we?"
+	dc.b	"plus grave en ce moment, non?"
 	dc.b	$FF
 
 ; $2C
@@ -585,23 +591,23 @@
 	dc.b	$DA, $02
 	dc.b	$FA
 	dc.b	$0C, $01
-	dc.b	"We've been telling him not to"
+	dc.b	"Nous lui interdisons de sortir"
 	dc.b	$FC
-	dc.b	"go outside after dark because of"
+	dc.b	"la nuit à cause de ces"
 	dc.b	$FD
-	dc.b	"the scary monsters, but... "
+	dc.b	"horribles monstres, sauf que..."
 	dc.b	$FF
 
 ; $2D
-	dc.b	"Now, I can let my children go"
+	dc.b	"Ouf! Maintenant, mes enfants"
 	dc.b	$FC
-	dc.b	"out to play."
+	dc.b	"peuvent aller jouer dehors."
 	dc.b	$FF
 
 ; $2E
-	dc.b	"What? What are you talking"
+	dc.b	"Pardon? Mais que veux-tu"
 	dc.b	$FC
-	dc.b	"about?"
+	dc.b	"dire par là?"
 	dc.b	$FF
 
 ; $2F
@@ -609,25 +615,27 @@
 	dc.b	$DA, $02
 	dc.b	$FA
 	dc.b	$0C, $01
-	dc.b	"It's only for a bit."
+	dc.b	"Juste un peu!"
 	dc.b	$FC
-	dc.b	"It'll be OK!"
+	dc.b	"Allez, sois gentille!"
 	dc.b	$FD
-	dc.b	"You worry too much, Mommy."
+	dc.b	"Tu t'en fais pour rien, maman!"
 	dc.b	$FF
 
 ; $30
-	dc.b	"Now that no monsters come out,"
+	dc.b	"Ce n'est plus aussi amusant"
 	dc.b	$FC
-	dc.b	"it's no fun to sneak out in the"
+	dc.b	"de sortir en cachette pendant"
 	dc.b	$FD
-	dc.b	"middle of the night!"
+	dc.b	"la nuit depuis qu'il n'y a"
+	dc.b	$FC
+	dc.b	"plus de monstres dehors!"
 	dc.b	$FF
 
 ; $31
-	dc.b	"Did something happen?"
+	dc.b	"Il est arrivé quelque chose?"
 	dc.b	$FC
-	dc.b	"Come on, tell me!"
+	dc.b	"Allez! Dis-moi!"
 	dc.b	$FF
 
 ; $32
@@ -669,31 +677,31 @@
 ; $3E
 	dc.b	$FA
 	dc.b	$DA, $01
-	dc.b	"The academy students are so"
+	dc.b	"Les étudiants de l'Académie sont"
 	dc.b	$FC
-	dc.b	"noisy day in and day out!"
+	dc.b	"bruyants jour comme nuit!"
 	dc.b	$FD
-	dc.b	"Like the other day, when a group"
+	dc.b	"Tenez, l'autre jour, une bande"
 	dc.b	$FC
-	dc.b	"of them jumped into that"
+	dc.b	"d'entre eux ont sauté dans"
 	dc.b	$FD
-	dc.b	"fountain, what a scene!"
+	dc.b	"la fontaine, quelle histoire!"
 	dc.b	$FD
-	dc.b	"Don't they think about being"
+	dc.b	"Ils ne pensent donc qu'à"
 	dc.b	$FC
-	dc.b	"considerate to others?"
+	dc.b	"eux-mêmes?"
 	dc.b	$FD
-	dc.b	"I wish something could be done"
+	dc.b	"J'aimerais bien que quelqu'un"
 	dc.b	$FC
-	dc.b	"about them..."
+	dc.b	"puisse mettre fin à tout cela..."
 	dc.b	$FF
 
 ; $3F
-	dc.b	"Wh...what should we do?"
+	dc.b	"Que...Que faire?"
 	dc.b	$FC
-	dc.b	"I want to escape, but I have"
+	dc.b	"Je veux m'enfuir, mais je n'ai"
 	dc.b	$FD
-	dc.b	"nowhere to go..."
+	dc.b	"nulle part où aller..."
 	dc.b	$FF
 
 ; $40
@@ -834,35 +842,35 @@
 ; $6D
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Oops! I wandered around and now"
+	dc.b	"Oups! J'ai trop flâné, et"
 	dc.b	$FC
-	dc.b	"I've gotten separated from Alys."
+	dc.b    "maintenant j'ai perdu Alys."
 	dc.b	$FD
-	dc.b	"I've got to find her..."
+	dc.b	"Je dois la retrouver..."
 	dc.b	$FF
 
 ; $6E
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Something smells fishy here."
+	dc.b	"Quelle drôle de réaction."
 	dc.b	$FD
-	dc.b	"That principal was hiding"
+	dc.b	"Ce directeur cache sûrement"
 	dc.b	$FC
-	dc.b	"something."
+	dc.b	"quelque chose."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Maybe he's afraid"
+	dc.b	"Peut-être a-t-il peur des"
 	dc.b	$FC
-	dc.b	"of the monsters?"
+	dc.b	"monstres?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"I think there's more to it than"
+	dc.b	"Je penses que ce n'est pas"
 	dc.b	$FC
-	dc.b	"that."
+	dc.b	"uniquement ça."
 	dc.b	$FD
-	dc.b	"Things are starting to get"
+	dc.b	"Ça commence à être passionant,"
 	dc.b	$FC
-	dc.b	"interesting!"
+	dc.b	"cette affaire!"
 	dc.b	$FF

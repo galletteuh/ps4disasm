@@ -3,39 +3,43 @@
 	dc.b	$DE, $02
 	dc.b	$FA
 	dc.b	$94, $01
-	dc.b	"This is Ryuon."
+	dc.b	"Cette ville s'appelle Ryuon."
 	dc.b	$FD
-	dc.b	"If you want to have fun,"
+	dc.b	"Si vous voulez vous amuser,"
 	dc.b	$FC
-	dc.b	"this is the town!"
+	dc.b	"vous êtes au bon endroit!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$09
-	dc.b	"I just can't avoid this town"
+	dc.b	"Je ne peux m'empêcher de passer"
 	dc.b	$FC
-	dc.b	"when I'm passing by, ha ha!"
+	dc.b	"ici quand je suis dans le coin,"
+	dc.b	$FD
+	dc.b	"ha ha ha!"
 	dc.b	$FF
 
 ; $1
-	dc.b	"This is Ryuon."
+	dc.b	"Cette ville s'appelle Ryuon."
 	dc.b	$FD
-	dc.b	"If you want to have fun,"
+	dc.b	"Si vous voulez vous amuser,"
 	dc.b	$FC
-	dc.b	"this is the town!"
+	dc.b	"vous êtes au bon endroit!"
 	dc.b	$FF
 
 ; $2
-	dc.b	"This is Ryuon."
+	dc.b	"Cette ville s'appelle Ryuon."
 	dc.b	$FD
-	dc.b	"If you want to have fun,"
+	dc.b	"Si vous voulez vous amuser,"
 	dc.b	$FC
-	dc.b	"this is the town!"
+	dc.b	"vous êtes au bon endroit!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$09
-	dc.b	"I just can't avoid this town"
+	dc.b	"Je ne peux m'empêcher de passer"
 	dc.b	$FC
-	dc.b	"when I'm passing by, ha ha!"
+	dc.b	"ici quand je suis dans le coin,"
+	dc.b	$FD
+	dc.b	"ha ha ha!"
 	dc.b	$FF
 
 ; $3
@@ -43,63 +47,63 @@
 	dc.b	$DE, $02
 	dc.b	$FA
 	dc.b	$94, $01
-	dc.b	"In the temple to the south,"
+	dc.b	"Il y a un merveilleux prêtre"
 	dc.b	$FC
-	dc.b	"there's a highly virtuous and"
+	dc.b	"très pieux qui habite dans le"
 	dc.b	$FD
-	dc.b	"wonderful priest named Raja."
+	dc.b	"temple au sud d'ici."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Highly virtuous? Wonderful?"
+	dc.b	"Merveilleux? Pieux? Ouais,"
 	dc.b	$FC
-	dc.b	"Yeah, right."
+	dc.b	"c'est ça."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"I don't think they know you"
+	dc.b	"Je ne pense pas qu'ils te"
 	dc.b	$FC
-	dc.b	"very well Raja."
+	dc.b	"connaissent très bien."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$09
-	dc.b	"What? I'm virtous and wonderful,"
+	dc.b	"Quoi? Je suis merveilleux et"
 	dc.b	$FC
-	dc.b	"right?"
+	dc.b	"très pieux, non?"
 	dc.b	$FF
 
 ; $4
-	dc.b	"In the temple to the south,"
+	dc.b	"Il y a un merveilleux prêtre"
 	dc.b	$FC
-	dc.b	"there's a highly virtuous and"
+	dc.b	"très pieux qui habite dans le"
 	dc.b	$FD
-	dc.b	"wonderful priest named Raja."
+	dc.b	"temple au sud d'ici."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Excuse me, but I just can't"
+	dc.b	"Je vous demande pardon, mais"
 	dc.b	$FC
-	dc.b	"see him as being highly"
+	dc.b	"je n'arrive pas à l'imaginer"
 	dc.b	$FD
-	dc.b	"virtuous... "
+	dc.b	"comme étant très pieux... "
 	dc.b	$FF
 
 ; $5
-	dc.b	"In the temple to the south,"
+	dc.b	"Il y a un merveilleux prêtre"
 	dc.b	$FC
-	dc.b	"there's a highly virtuous and"
+	dc.b	"très pieux qui habite dans le"
 	dc.b	$FD
-	dc.b	"wonderful priest named Raja."
+	dc.b	"temple au sud d'ici."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"I have heard that"
+	dc.b	"J'avais entendu dire que les"
 	dc.b	$FC
-	dc.b	"Dezolisians are liars but..."
+	dc.b	"Dezolisiens étaient menteurs..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$09
-	dc.b	"That's just old nonsense!"
+	dc.b	"Bah! Ce sont des médisances!"
 	dc.b	$FF
 
 ; $6
@@ -113,115 +117,103 @@
 	dc.b	$95, $02
 	dc.b	$FA
 	dc.b	$94, $01
-	dc.b	"I've seen Parmanians from time"
+	dc.b	"J'ai vu des Parmaniens de temps"
 	dc.b	$FC
-	dc.b	"to time, but this is the first"
+	dc.b	"à autre, mais jamais une fille"
 	dc.b	$FD
-	dc.b	"time I've seen a girl"
-	dc.b	$FC
-	dc.b	"with horns!"
+	dc.b	"avec des cornes!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Oh! How dare you!!!"
+	dc.b	"Oh! Quel culôt!!!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$09
-	dc.b	"Ha, ha! I told you,"
+	dc.b	"Ha, ha! Je te l'avais dit,"
 	dc.b	$FD
-	dc.b	"to normal people,"
+	dc.b	"pour le commun des mortels,"
 	dc.b	$FC
-	dc.b	"they look like horns!"
+	dc.b	"ça ressemble à des cornes!"
 	dc.b	$FF
 
 ; $7
-	dc.b	"I've seen Parmanians from time"
+	dc.b	"J'ai vu des Parmaniens de temps"
 	dc.b	$FC
-	dc.b	"to time, but this is the first"
+	dc.b	"à autre, mais jamais une fille"
 	dc.b	$FD
-	dc.b	"time I've seen a girl"
-	dc.b	$FC
-	dc.b	"with horns!"
+	dc.b	"avec des cornes!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Aghh! How dare you!!!"
+	dc.b	"Aghh! Quel culôt!!!"
 	dc.b	$FF
 
 ; $8
-	dc.b	"I've seen Parmanians from time"
+	dc.b	"J'ai vu des Parmaniens de temps"
 	dc.b	$FC
-	dc.b	"to time, but this is the first"
+	dc.b	"à autre, mais jamais une fille"
 	dc.b	$FD
-	dc.b	"time I've seen a girl"
-	dc.b	$FC
-	dc.b	"with horns!"
+	dc.b	"avec des cornes!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"How dare you!"
+	dc.b	"Quel culôt!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"Hee, hee... "
+	dc.b	"Ha ha ha!"
 	dc.b	$FC
-	dc.b	"Calm down. They look cute."
+	dc.b	"Calme-toi. Elles sont jolies."
 	dc.b	$FF
 
 ; $9
-	dc.b	"I've seen Parmanians from time"
+	dc.b	"J'ai vu des Parmaniens de temps"
 	dc.b	$FC
-	dc.b	"to time, but this is the first"
+	dc.b	"à autre, mais jamais une fille"
 	dc.b	$FD
-	dc.b	"time I've seen a girl"
-	dc.b	$FC
-	dc.b	"with horns!"
+	dc.b	"avec des cornes!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"How dare you!"
+	dc.b	"Quel culôt!"
 	dc.b	$FF
 
 ; $A
-	dc.b	"I've seen Parmanians from time"
+	dc.b	"J'ai vu des Parmaniens de temps"
 	dc.b	$FC
-	dc.b	"to time, but this is the first"
+	dc.b	"à autre, mais jamais une fille"
 	dc.b	$FD
-	dc.b	"time I've seen a girl"
-	dc.b	$FC
-	dc.b	"with horns!"
+	dc.b	"avec des cornes!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"How dare you!"
+	dc.b	"Quel culôt!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$09
-	dc.b	"Ha, ha! I told you,"
-	dc.b	$FC
-	dc.b	"to normal people,"
+	dc.b	"Ha, ha! Je te l'avais dit,"
 	dc.b	$FD
-	dc.b	"they look like horns!"
+	dc.b	"pour le commun des mortels,"
+	dc.b	$FC
+	dc.b	"ça ressemble à des cornes!"
 	dc.b	$FF
 
 ; $B
-	dc.b	"I've seen Parmanians from time"
+	dc.b	"J'ai vu des Parmaniens de temps"
 	dc.b	$FC
-	dc.b	"to time, but this is the first"
+	dc.b	"à autre, mais jamais une fille"
 	dc.b	$FD
-	dc.b	"time I've seen a girl"
-	dc.b	$FC
-	dc.b	"with horns!"
+	dc.b	"avec des cornes!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"How dare you!"
+	dc.b	"Quel culôt!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"Hee, hee... "
+	dc.b	"Ha ha ha!"
 	dc.b	$FC
-	dc.b	"Calm down. They look cute. "
+	dc.b	"Calme-toi. Elles sont jolies."
 	dc.b	$FF
 
 ; $C
@@ -229,65 +221,63 @@
 	dc.b	$DE, $02
 	dc.b	$FA
 	dc.b	$94, $01
-	dc.b	"Oh, Raja the great one!"
+	dc.b	"Oh, très vénéré Raja! Vous avez"
 	dc.b	$FC
-	dc.b	"You are certainly with some"
+	dc.b	"des compagnons de voyage très"
 	dc.b	$FD
-	dc.b	"strange traveling companions"
-	dc.b	$FC
-	dc.b	"this time!"
+	dc.b	"étranges aujourd'hui!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Raja is our strange"
+	dc.b	"Raja est notre étrange compagnon"
 	dc.b	$FC
-	dc.b	"traveling companion!"
+	dc.b	"de voyage..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$09
-	dc.b	"How could you say something"
+	dc.b	"Pourquoi dis-tu des choses"
 	dc.b	$FC
-	dc.b	"like that?"
+	dc.b	"aussi blessantes?"
 	dc.b	$FD
-	dc.b	"I thought we were friends."
+	dc.b	"Je nous croyais amis."
 	dc.b	$FF
 
 ; $D
-	dc.b	"Oh? Ah, you're Raja's"
+	dc.b	"Oh? Ah, vous êtes les compagnons"
 	dc.b	$FC
-	dc.b	"traveling companions."
+	dc.b	"de voyage étranges de Raja."
 	dc.b	$FD
-	dc.b	"Where is the great Raja?"
+	dc.b	"D'ailleurs, où est le très"
+	dc.b	$FC
+	dc.b	"vénéré Raja?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"I tell you, Raja is"
+	dc.b	"Je vous le répète, Raja est"
 	dc.b	$FC
-	dc.b	"our traveling companion!"
+	dc.b	"notre étrange compagnon!"
 	dc.b	$FF
 
 ; $E
-	dc.b	"Oh, Raja the great one!"
+	dc.b	"Oh, très vénéré Raja! Vous avez"
 	dc.b	$FC
-	dc.b	"You certainly are"
+	dc.b	"des compagnons de voyage très"
 	dc.b	$FD
-	dc.b	"with some strange traveling"
-	dc.b	$FC
-	dc.b	"companions this time!"
+	dc.b	"étranges aujourd'hui!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Raja is our strange traveling"
+	dc.b	"Raja est notre étrange compagnon"
 	dc.b	$FC
-	dc.b	"companion!"
+	dc.b	"de voyage..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$09
-	dc.b	"How could you say something"
+	dc.b	"Pourquoi dis-tu des choses"
 	dc.b	$FC
-	dc.b	"like that?"
+	dc.b	"aussi blessantes?"
 	dc.b	$FD
-	dc.b	"I thought we were friends. "
+	dc.b	"Je nous croyais amis."
 	dc.b	$FF
 
 ; $F
@@ -295,71 +285,63 @@
 	dc.b	$DE, $02
 	dc.b	$FA
 	dc.b	$94, $01
-	dc.b	"The owner of the bar is named"
+	dc.b	"Le propriétaire de cette taverne"
 	dc.b	$FC
-	dc.b	"Gyuna and he knows the most"
+	dc.b	"s'appelle Gyuna et est au"
 	dc.b	$FD
-	dc.b	"about the situation around"
-	dc.b	$FC
-	dc.b	"these parts."
+	dc.b	"courant des dernière nouvelles."
 	dc.b	$FD
-	dc.b	"If you want to know something"
+	dc.b	"Si vous avez besoin d'infos sur"
 	dc.b	$FC
-	dc.b	"that's where you should go."
+	dc.b	"quelque chose, demandez-lui."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$09
-	dc.b	"Two fists is... "
-	dc.b	$FC
-	dc.b	"the best situation!"
+	dc.b	"Une tête vaut mieux que deux!"
 	dc.b	$FF
 
 ; $10
-	dc.b	"The owner of the bar is named"
+	dc.b	"Le propriétaire de cette taverne"
 	dc.b	$FC
-	dc.b	"Gyuna and he knows the most"
+	dc.b	"s'appelle Gyuna et est au"
 	dc.b	$FD
-	dc.b	"about the situation around"
-	dc.b	$FC
-	dc.b	"these parts. "
+	dc.b	"courant des dernière nouvelles."
 	dc.b	$FD
-	dc.b	"If you want to know something"
+	dc.b	"Si vous avez besoin d'infos sur"
 	dc.b	$FC
-	dc.b	"that's where you should go."
+	dc.b	"quelque chose, demandez-lui."
 	dc.b	$FF
 
 ; $11
-	dc.b	"The owner of the bar is named"
+	dc.b	"Le propriétaire de cette taverne"
 	dc.b	$FC
-	dc.b	"Gyuna and he knows the most"
+	dc.b	"s'appelle Gyuna et est au"
 	dc.b	$FD
-	dc.b	"about the situation around"
-	dc.b	$FC
-	dc.b	"these parts."
+	dc.b	"courant des dernière nouvelles."
 	dc.b	$FD
-	dc.b	"If you want to know something"
+	dc.b	"Si vous avez besoin d'infos sur"
 	dc.b	$FC
-	dc.b	"that's where you should go."
+	dc.b	"quelque chose, demandez-lui."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$09
-	dc.b	"Two squared is..."
+	dc.b	"Il faut une tête au lieu de"
 	dc.b	$FC
-	dc.b	"the situation!"
+	dc.b	"deux!"
 	dc.b	$FF
 
 ; $12
 	dc.b	$FA
 	dc.b	$A1, $01
-	dc.b	"Can't something be done"
+	dc.b	"Il n'y a rien à faire pour"
 	dc.b	$FC
-	dc.b	"about this snow storm?"
+	dc.b	"calmer cette tempête de neige?"
 	dc.b	$FF
 
 ; $13
-	dc.b	"The snow storm has subsided!"
+	dc.b	"La tempête s'est calmée! Quel"
 	dc.b	$FC
-	dc.b	"Thank goodness!"
+	dc.b	"soulagement!"
 	dc.b	$FF
 
 ; $14
@@ -367,73 +349,65 @@
 	dc.b	$DC, $02
 	dc.b	$FA
 	dc.b	$94, $01
-	dc.b	"Oh, you're a Parmanian."
+	dc.b	"Ah, vous êtes un Parmanien."
 	dc.b	$FC
-	dc.b	"Are you from the town of Tyler?"
+	dc.b	"Vous venez de la ville de Tyler?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$09
-	dc.b	"It looks like they've flapped"
+	dc.b	"Oh, non, ils ont volé de leurs"
 	dc.b	$FC
-	dc.b	"all the way here from Motavia."
+	dc.b	"propres ailes depuis Motavia."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
 	dc.b	"Arrgh!"
 	dc.b	$FD
-	dc.b	"Will you cut it out,"
+	dc.b	"Ce n'est pas bientôt fini,"
 	dc.b	$FC
-	dc.b	"you old fart?!"
+	dc.b	"vieux croûton?!"
 	dc.b	$FF
 
 ; $15
-	dc.b	"Oh, you're a Parmanian."
+	dc.b	"Ah, vous êtes un Parmanien."
 	dc.b	$FC
-	dc.b	"Are you from the town of Tyler?"
+	dc.b	"Vous venez de la ville de Tyler?"
 	dc.b	$FF
 
 ; $16
-	dc.b	"Oh, you're a Parmanian."
+	dc.b	"Ah, vous êtes un Parmanien."
 	dc.b	$FC
-	dc.b	"Are you from the town of Tyler?"
+	dc.b	"Vous venez de la ville de Tyler?"
 	dc.b	$FD
-	dc.b	"It looks like there are some"
+	dc.b	"Il y a aussi des drôles de types"
 	dc.b	$FC
-	dc.b	"unfamiliar types with you,"
-	dc.b	$FD
-	dc.b	"too... "
+	dc.b	"qui vous accompagnent..."
 	dc.b	$FF
 
 ; $17
 	dc.b	$FA
 	dc.b	$A1, $01
-	dc.b	"The Garuberk Tower"
+	dc.b	"La Tour Garuberk est supposément"
 	dc.b	$FC
-	dc.b	"is supposed to exist somewhere"
+	dc.b	"quelque part sur Dezolis..."
 	dc.b	$FD
-	dc.b	"in Dezolis... "
-	dc.b	$FD
-	dc.b	"It is said that it was built"
+	dc.b	"On dit qu'elle s'est érigée"
 	dc.b	$FC
-	dc.b	"overnight."
+	dc.b	"en une seule nuit."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Built overnight..."
-	dc.b	$FD
-	dc.b	"I seem to have heard"
+	dc.b	"En une seule nuit... Cela"
 	dc.b	$FC
-	dc.b	"this story before!"
+	dc.b	"me semble plutôt familier!"
 	dc.b	$FF
 
 ; $18
-	dc.b	"I just heard a rumor that"
+	dc.b	"Je viens d'entendre une rumeur"
 	dc.b	$FC
-	dc.b	"I even hesitate to say aloud..."
+	dc.b	"que je n'ose pas répéter..."
 	dc.b	$FD
-	dc.b	"It couldn't possibly be true,"
-	dc.b	$FC
-	dc.b	"could it!"
+	dc.b	"Ça ne peut pas être vrai, non?"
 	dc.b	$FF
 
 ; $19
@@ -441,105 +415,105 @@
 	dc.b	$9D, $02
 	dc.b	$FA
 	dc.b	$94, $01
-	dc.b	"There are many Parmanian towns"
+	dc.b	"Il y a plusieurs villes"
 	dc.b	$FC
-	dc.b	"in Dezolis and the town of"
+	dc.b	"Parmaniennes sur Dezolis, dont"
 	dc.b	$FD
-	dc.b	"Tyler to the northwest is"
+	dc.b	"la ville de Tyler, au nord"
 	dc.b	$FC
-	dc.b	"one of them."
+	dc.b	"ouest."
 	dc.b	$FD
-	dc.b	"This cold weather we're having"
+	dc.b	"Ce froid intense est très dûr,"
 	dc.b	$FC
-	dc.b	"now is hard even for us."
+	dc.b	"même pour nous."
 	dc.b	$FD
-	dc.b	"I hate to think how horrible"
+	dc.b	"J'ai pitié des Parmaniens, ce"
 	dc.b	$FC
-	dc.b	"it is for the Parmanians."
+	dc.b	"doit être horrible pour eux."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$09
-	dc.b	"It's hard for them,"
+	dc.b	"C'est dûr pour eux, mais ils"
 	dc.b	$FC
-	dc.b	"but they'll survive!"
+	dc.b	"survivrons!"
 	dc.b	$FF
 
 ; $1A
-	dc.b	"There are many Parmanian towns"
+	dc.b	"Il y a plusieurs villes"
 	dc.b	$FC
-	dc.b	"in Dezolis and the town of"
+	dc.b	"Parmaniennes sur Dezolis, dont"
 	dc.b	$FD
-	dc.b	"Tyler to the northwest is one"
+	dc.b	"la ville de Tyler, au nord"
 	dc.b	$FC
-	dc.b	"of them."
+	dc.b	"ouest."
 	dc.b	$FD
-	dc.b	"This cold weather we're having"
+	dc.b	"Ce froid intense est très dûr,"
 	dc.b	$FC
-	dc.b	"now is hard even for us."
+	dc.b	"même pour nous."
 	dc.b	$FD
-	dc.b	"I hate to think how horrible"
+	dc.b	"J'ai pitié des Parmaniens, ce"
 	dc.b	$FC
-	dc.b	"it is for the Parmanians."
+	dc.b	"doit être horrible pour eux."
 	dc.b	$FF
 
 ; $1B
-	dc.b	"It seems like"
-	dc.b	$FC
-	dc.b	"it's getting warmer!"
+	dc.b	"On dirait que ça se réchauffe!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"I still think it's cold."
+	dc.b	"Mouais, je trouve qu'il fait"
+	dc.b	$FC
+	dc.b	"encore très froid."
 	dc.b	$FF
 
 ; $1C
 	dc.b	$FA
 	dc.b	$9D, $01
-	dc.b	"Gumbious Temple is"
+	dc.b	"Le Temple Gumbious est la fierté"
 	dc.b	$FC
-	dc.b	"Dezolisians' source of pride."
+	dc.b	"des Dezolisiens. C'est le centre"
 	dc.b	$FD
-	dc.b	"It's the center of Dezolis,"
+	dc.b	"de Dezolis, et c'est un appui"
 	dc.b	$FC
-	dc.b	"and it's the pillar of support"
+	dc.b	"moral d'importance pour les"
 	dc.b	$FD
-	dc.b	"for the hearts of Dezolisians!"
+	dc.b	"Dezolisiens!"
 	dc.b	$FF
 
 ; $1D
-	dc.b	"Ah, the snow storm is"
+	dc.b	"Ahh! La tempête de neige est"
 	dc.b	$FC
-	dc.b	"finally over."
+	dc.b	"finalement terminée."
 	dc.b	$FD
-	dc.b	"Now we can visit the great"
+	dc.b	"Maintenant, nous pourrons"
 	dc.b	$FC
-	dc.b	"temple to pray again!"
+	dc.b	"visiter le temple et prier!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Umm... "
+	dc.b	"Euh, eh bien... "
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Don't say anything, Chaz."
+	dc.b	"Pas un mot de ça, Chaz."
 	dc.b	$FF
 
 ; $1E
 	dc.b	$FA
 	dc.b	$9D, $01
-	dc.b	"Hmm. I've just finished"
+	dc.b	"Mmm. Je viens de terminer de"
 	dc.b	$FC
-	dc.b	"shoveling away the snow."
+	dc.b	"pelleter la neige."
 	dc.b	$FF
 
 ; $1F
-	dc.b	"Hmm. I've just finished"
+	dc.b	"Mmm. Je viens de terminer de"
 	dc.b	$FC
-	dc.b	"shoveling away the snow."
+	dc.b	"pelleter la neige."
 	dc.b	$FD
-	dc.b	"Shoveling snow every day"
+	dc.b	"Pelleter, c'est mon travail"
 	dc.b	$FC
-	dc.b	"is my job!"
+	dc.b	"quotidien!"
 	dc.b	$FF
 
 ; $20
@@ -547,87 +521,87 @@
 	dc.b	$A1, $03
 	dc.b	$FA
 	dc.b	$94, $02
-	dc.b	"What with this snow storm,"
+	dc.b	"Les moyens de transports hors"
 	dc.b	$FC
-	dc.b	"the ability to travel in and"
+	dc.b	"de la ville ne sont pas fiables"
 	dc.b	$FD
-	dc.b	"out of town is unreliable."
+	dc.b	"à cause de toute cette neige."
 	dc.b	$FD
-	dc.b	"There are many places where"
+	dc.b	"La glace bloque les routes"
 	dc.b	$FC
-	dc.b	"the roads are obstructed by ice!"
+	dc.b	"à plusieurs endroits."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$09
-	dc.b	"On winter nights, we huddle so"
+	dc.b	"La nuit, nous nous blotissons"
 	dc.b	$FC
-	dc.b	"tight, saying ice is really"
+	dc.b	"sans bruit, et nous répétons que"
 	dc.b	$FD
-	dc.b	"nice... How's that!?"
+	dc.b	"la grâce est dans la glace..."
+	dc.b	$FC
+	dc.b	"Pas mal, non?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"I give up!"
+	dc.b	"J'abandonne..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$09
-	dc.b	"Hah! "
+	dc.b	"Ha ha ha!"
 	dc.b	$FF
 
 ; $21
-	dc.b	"What with this snow storm,"
+	dc.b	"Les moyens de transports hors"
 	dc.b	$FC
-	dc.b	"the ability to travel in and"
+	dc.b	"de la ville ne sont pas fiables"
 	dc.b	$FD
-	dc.b	"out of town is unreliable."
+	dc.b	"à cause de toute cette neige."
 	dc.b	$FD
-	dc.b	"There are many places where"
+	dc.b	"La glace bloque les routes"
 	dc.b	$FC
-	dc.b	"the roads are blocked by ice!"
+	dc.b	"à plusieurs endroits."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$09
-	dc.b	"Snow is the best Blow, for then"
+	dc.b	"La neige blanche, favorise le"
 	dc.b	$FC
-	dc.b	"affections grow."
+	dc.b	"frottage des hanches."
 	dc.b	$FD
-	dc.b	"Then we huddle so tight, on long"
+	dc.b	"Nous nous blotissons sans bruit"
 	dc.b	$FC
-	dc.b	"winter nights, saying Ice Is"
+	dc.b	"toute la nuit, en répêtant que"
 	dc.b	$FD
-	dc.b	"Really Quite Nice..."
+	dc.b	"la glace amène rapidement la"
 	dc.b	$FC
-	dc.b	"How's that!?"
+	dc.b	"grâce... Encore mieux, non?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"...all right, all right!"
+	dc.b	"...D'accord, d'accord!"
 	dc.b	$FC
-	dc.b	"I give up. I give up!"
+	dc.b	"J'ai dit que j'abandonne!"
 	dc.b	$FF
 
 ; $22
-	dc.b	"What with this sudden snow"
+	dc.b	"Les moyens de transports hors"
 	dc.b	$FC
-	dc.b	"storm, the ability to travel"
+	dc.b	"de la ville ne sont pas fiables"
 	dc.b	$FD
-	dc.b	"in and out of town tends to be"
+	dc.b	"à cause de toute cette neige."
+	dc.b	$FD
+	dc.b	"La glace bloque les routes"
 	dc.b	$FC
-	dc.b	"unreliable."
-	dc.b	$FD
-	dc.b	"There seems to be many places"
-	dc.b	$FC
-	dc.b	"where the roads are obstructed"
-	dc.b	$FD
-	dc.b	"by ice!"
+	dc.b	"à plusieurs endroits."
 	dc.b	$FF
 
 ; $23
-	dc.b	"The snow storm has stopped."
-	dc.b	$FD
-	dc.b	"Now we should be able to travel"
+	dc.b	"La tempête de neige s'est"
 	dc.b	$FC
-	dc.b	"to and from other towns again."
+	dc.b	"calmée."
+	dc.b	$FD
+	dc.b	"Nous pourrons de nouveau"
+	dc.b	$FC
+	dc.b	"voyager entre les villes."
 	dc.b	$FF
 
 ; $24
@@ -635,57 +609,57 @@
 	dc.b	$DE, $01
 	dc.b	$FA
 	dc.b	$94, $01
-	dc.b	"Oh, great Raja!"
+	dc.b	"Oh, vénérable Raja!"
 	dc.b	$FD
-	dc.b	"Thank you for amusing us with"
+	dc.b	"Merci à vous de nous éclairer"
 	dc.b	$FC
-	dc.b	"your funny wit."
+	dc.b	"de votre humour délectable."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"...I just feel that"
+	dc.b	"...J'ai l'impression d'être"
 	dc.b	$FD
-	dc.b	"I can't keep up with the"
+	dc.b	"incapable de déchiffrer le sens"
 	dc.b	$FC
-	dc.b	"Dezolisian sense of humor..."
+	dc.b	"de l'humour Dezolisien..."
 	dc.b	$FF
 
 ; $25
-	dc.b	"Oh, great Raja, that such"
+	dc.b	"Oh, vénérable Raja! La présence"
 	dc.b	$FC
-	dc.b	"a wonderful high priest"
+	dc.b	"d'un grand-prêtre merveilleux"
 	dc.b	$FD
-	dc.b	"would travel to such a remote"
+	dc.b	"tel que vous dans notre humble"
 	dc.b	$FC
-	dc.b	"region..."
+	dc.b	"patelin..."
 	dc.b	$FD
-	dc.b	"It seems like such as waste."
+	dc.b	"Semble un tel gâchis."
 	dc.b	$FF
 
 ; $26
-	dc.b	"Oh, great Raja!"
-	dc.b	$FC
-	dc.b	"Thank you for amusing us with"
+	dc.b	"Oh, vénérable Raja!"
 	dc.b	$FD
-	dc.b	"your funny whit."
+	dc.b	"Merci à vous de nous éclairer"
+	dc.b	$FC
+	dc.b	"de votre humour délectable."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"...I just feel that I can't"
-	dc.b	$FC
-	dc.b	"keep up with the Dezolisian sense"
+	dc.b	"...J'ai l'impression d'être"
 	dc.b	$FD
-	dc.b	"of humor..."
+	dc.b	"incapable de déchiffrer le sens"
+	dc.b	$FC
+	dc.b	"de l'humour Dezolisien..."
 	dc.b	$FF
 
 ; $27
-	dc.b	"It's so nice to sit by the"
+	dc.b	"Quel plaisir de s'asseoir devant"
 	dc.b	$FC
-	dc.b	"fire and listen to Gyuna's"
+	dc.b	"le feu et de s'abreuver des"
 	dc.b	$FD
-	dc.b	"stories..."
+	dc.b	"paroles de Gyuna..."
 	dc.b	$FD
-	dc.b	"The inn is our source of"
+	dc.b	"Cette auberge est notre lieu"
 	dc.b	$FC
-	dc.b	"relaxation."
+	dc.b	"de détente."
 	dc.b	$FF

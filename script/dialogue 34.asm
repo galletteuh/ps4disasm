@@ -3,33 +3,35 @@
 	dc.w	$0030
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Professor!"
+	dc.b	"Professeur!"
 	dc.b	$FC
-	dc.b	"Thank goodness you're safe!"
+	dc.b	"Dieu merci vous êtes sauf!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0D
-	dc.b	"Oh, it's you, Hahn! You came to"
+	dc.b	"Ah, c'est toi, Hahn! Tu es venu"
 	dc.b	$FC
-	dc.b	"rescue me! Good job!"
+	dc.b	"à ma rescousse? Beau travail!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Well, it seems pretty safe here,"
-	dc.b	$FD
-	dc.b	"but, how on earth were you able"
+	dc.b	"Bon, ça n'a pas l'air trop"
 	dc.b	$FC
-	dc.b	"to escape on your own?"
+	dc.b	"dangereux ici, mais comment êtes"
+	dc.b	$FD
+	dc.b	"vous parvenu à vous en sortir"
+	dc.b	$FC
+	dc.b	"sans aide?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0D
-	dc.b	"Well, you see, this person here"
+	dc.b	"Eh bien, vous voyez, cette"
 	dc.b	$FC
-	dc.b	"came to my rescue."
+	dc.b	"jeune fille ici m'a secouru."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Who?"
+	dc.b	"Qui donc?"
 	dc.b	$FD
 	dc.b	$F2, $03
 	dc.b	$92
@@ -37,23 +39,25 @@
 	dc.w	$0031
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Welcome, everybody."
-	dc.b	$FC
-	dc.b	"I'm glad to have you here."
+	dc.b	"Bienvenue à tous."
+	dc.b	$FD
+	dc.b	"Ravie de faire votre"
+	dc.b	$FC 
+	dc.b	"connaissance."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"What?!"
+	dc.b	"Comment?!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Who are you?"
+	dc.b	"Qui es-tu?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"My name is Rika."
+	dc.b	"Je m'appelle Rika."
 	dc.b	$FC
-	dc.b	"Pleased to meet you."
+	dc.b	"Enchantée."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
@@ -61,296 +65,298 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Those ears... What on earth"
+	dc.b	"Ces oreilles... de quelle espèce"
 	dc.b	$FC
-	dc.b	"are you?"
+	dc.b	"es-tu?"
 	dc.b	$FD
-	dc.b	"And what is this place!?"
+	dc.b	"Et quel est cet endroit!?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"This is the Bio-plant."
+	dc.b	"Ceci est le Bio-laboratoire."
 	dc.b	$FD
-	dc.b	"It's a research facility for"
+	dc.b	"C'est un centre de recherche"
 	dc.b	$FC
-	dc.b	"bio engineering created by a"
+	dc.b	"de bio-ingénérie créé par la"
 	dc.b	$FD
-	dc.b	"thousand year-old civilization."
+	dc.b	"civilisation d'il y a mille ans."
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$0032
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Th...this is from an ancient"
+	dc.b	"C'est...c'est un vestige de"
 	dc.b	$FC
-	dc.b	"advanced civilization!"
+	dc.b	"l'ancienne civilisation avancée!"
 	dc.b	$FD
-	dc.b	"Is it still operational?"
+	dc.b	"Il fonctionne encore?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Oh, yes."
+	dc.b	"Bien sûr."
 	dc.b	$FD
-	dc.b	"What's more, this isn't the"
+	dc.b	"De plus, ce n'est pas le seul."
+	dc.b	$FD
+	dc.b	"Plusieurs autres systèmes"
 	dc.b	$FC
-	dc.b	"only one."
+	dc.b	"similaires sont toujours"
 	dc.b	$FD
-	dc.b	"There are many such systems that"
+	dc.b	"fonctionnels."
+	dc.b	$FD
+	dc.b	"Et c'est grâce à ces systèmes,"
 	dc.b	$FC
-	dc.b	"have maintained their"
+	dc.b	"qui contrôlent le climat, les"
 	dc.b	$FD
-	dc.b	"functionality."
-	dc.b	$FD
-	dc.b	"And it's thanks to these"
+	dc.b	"sol et l'écologie de Motavia,"
 	dc.b	$FC
-	dc.b	"systems which control Motavia's"
+	dc.b	"que la vie a pu échapper à la"
 	dc.b	$FD
-	dc.b	"climate, soil, and ecology"
+	dc.b	"destruction totale après le"
 	dc.b	$FC
-	dc.b	"systems that the human race was"
-	dc.b	$FD
-	dc.b	"able to avoid total destruction"
-	dc.b	$FC
-	dc.b	"after the 'Great Collapse.'"
+	dc.b	"'Grand Effondrement'."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Really? Is that true?"
+	dc.b	"Vraiment? C'est la vérité?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0D
-	dc.b	"If that's the case, how come"
+	dc.b	"Si c'est le cas, pourquoi"
 	dc.b	$FC
-	dc.b	"this recent environmental"
+	dc.b	"cette détérioration environne-"
 	dc.b	$FD
-	dc.b	"destruction is taking place?"
+	dc.b	"mentale récente se manifeste?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Even though the control system"
+	dc.b	"Même fonctionnel, le système de"
 	dc.b	$FC
-	dc.b	"is still functioning, it can"
+	dc.b	"contrôle arrive à peine à"
 	dc.b	$FD
-	dc.b	"barely maintain the"
+	dc.b	"maintenir des conditions"
 	dc.b	$FC
-	dc.b	"minimal conditions for your"
+	dc.b	"minimales pour la préservation"
 	dc.b	$FD
-	dc.b	"existence."
+	dc.b	"de la vie."
 	dc.b	$FD
-	dc.b	"Even now this system is"
+	dc.b	"De plus, ces systèmes ont"
 	dc.b	$FC
-	dc.b	"starting to run out of control!"
+	dc.b	"commencé à dérailler!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Chaz....do you understand?"
+	dc.b	"Chaz....tu comprends?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"What? Well...ah..."
+	dc.b	"Comment? Ah... Euh..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Then, does that mean the recent"
+	dc.b	"Alors, est-ce que ça signifie"
 	dc.b	$FC
-	dc.b	"increase of Bio-monsters is"
+	dc.b	"que l'épidémie de bio-monstres"
 	dc.b	$FD
-	dc.b	"coming from here?"
+	dc.b	"provient d'ici?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Yes, unfortunately so."
+	dc.b	"...Malheureusement, oui."
 	dc.b	$FD
-	dc.b	"...If you want to know more,"
+	dc.b	"...Si vous voulez en savoir"
 	dc.b	$FC
-	dc.b	"talk to 'Seed'."
+	dc.b	"plus, adressez-vous à 'Seed'."
 	dc.b	$FD
-	dc.b	"He's over there."
+	dc.b	"Il est juste ici."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"'Seed'?"
+	dc.b	"'Seed?'"
 	dc.b	$FF
 
 ; $1
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"So, where's this person called"
-	dc.b	$FC
-	dc.b	"Seed?"
+	dc.b	"Alors, où se trouve ce Seed?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"He's right in front of you."
+	dc.b	"Il est juste devant vous."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"What's going on?"
+	dc.b	"Où exactement?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$00
-	dc.b	"I am 'Seed', the control"
+	dc.b	"Je suis 'Seed', l'ordinateur de"
 	dc.b	$FC
-	dc.b	"computer for this Bio-plant."
+	dc.b	"contrôle de ce Bio-labo."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Wow! An artificial intelligence!"
+	dc.b	"Wow! Une intelligence"
+	dc.b	$FC
+	dc.b	"artificielle!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0D
-	dc.b	"I...I can't believe it!"
+	dc.b	"In...Incroyable!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$00
-	dc.b	"That's right, this is no"
+	dc.b	"Vous avez raison, le bio-labo"
 	dc.b	$FC
-	dc.b	"exception."
+	dc.b	"n'y a pas échappé."
 	dc.b	$FD
-	dc.b	"Check my status here."
+	dc.b	"Vous pouvez voir mon état ici."
 	dc.b	$FC
-	dc.b	"The system is beyond my control."
+	dc.b	"Le système est hors de mon"
 	dc.b	$FD
-	dc.b	"It is continuously breeding"
+	dc.b	"contrôle. Continuellement, il"
 	dc.b	$FC
-	dc.b	"harmful monsters."
+	dc.b	"donne naissance à de dangereux"
+	dc.b	$FD
+	dc.b	"monstres."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Just as I thought."
+	dc.b	"Tel que je l'avais deviné."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$00
-	dc.b	"If we leave each of these"
+	dc.b	"Si tous ces systèmes continuent"
 	dc.b	$FC
-	dc.b	"systems running out of"
+	dc.b	"à dérailler... en plus de"
 	dc.b	$FD
-	dc.b	"control... along with the"
+	dc.b	"l'épidémie de monstres, nous"
 	dc.b	$FC
-	dc.b	"monster problem, we will have"
+	dc.b	"aurons des anomalies climatiques"
 	dc.b	$FD
-	dc.b	"abnormal climate conditions and"
+	dc.b	"et des changements violents"
 	dc.b	$FC
-	dc.b	"violent changes in the planet's"
+	dc.b	"de la surface de la planète."
 	dc.b	$FD
-	dc.b	"surface."
-	dc.b	$FD
-	dc.b	"Motavia will be destroyed!"
+	dc.b	"Motavia sera détruite!"
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"What shall we do?"
+	dc.b	"Que pouvons-nous faire?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"The only thing we can do is"
+	dc.b	"La seule chose à faire est de"
 	dc.b	$FC
-	dc.b	"shut down the system!"
+	dc.b	"désactiver tout le système!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"But stopping the system itself"
+	dc.b	"Mais la désactivation elle-même"
 	dc.b	$FC
-	dc.b	"will cause problems."
+	dc.b	"amènera ses problèmes."
 	dc.b	$FD
-	dc.b	"We won't be able to maintain"
+	dc.b	"Nous ne pourrons pas préserver"
 	dc.b	$FC
-	dc.b	"the ecosystem!"
+	dc.b	"notre écosystème!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$05
-	dc.b	"That's better than the system"
+	dc.b	"C'est mieux que d'avoir un"
 	dc.b	$FC
-	dc.b	"ruining everything!"
+	dc.b	"système qui détruit tout!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"But, these systems are spread"
+	dc.b	"Mais ces systèmes sont"
 	dc.b	$FC
-	dc.b	"out all over the place!"
+	dc.b	"éparpillés aux quatre coins de"
+	dc.b	$FD
+	dc.b	"la planète!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Don't worry. All we have to do"
+	dc.b	"Aucun souci. Tout ce que nous"
 	dc.b	$FC
-	dc.b	"is to shut down the plant"
+	dc.b	"avons à faire, c'est désactiver"
 	dc.b	$FD
-	dc.b	"'Nurvus' which supplies energy"
+	dc.b	"'Nurvus', l'installation qui"
 	dc.b	$FC
-	dc.b	"to each system."
+	dc.b	"fournit l'énergie aux autres."
 	dc.b	$FD
-	dc.b	"That will shut them all down."
+	dc.b	"Toutes les installations seront"
+	dc.b	$FC
+	dc.b	"mises hors service."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$00
-	dc.b	"First, please rescue the"
+	dc.b	"D'abord, veuillez porter secours"
 	dc.b	$FC
-	dc.b	"control android 'Demi.'"
+	dc.b	"à 'Demi', l'androïde-contrôle."
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$0035
-	dc.b	"She's the only one that can"
+	dc.b	"Elle est la seule à pouvoir"
 	dc.b	$FC
-	dc.b	"stop Nurvus."
+	dc.b	"éteindre Nurvus."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Rescue?"
+	dc.b	"Secourir?"
 	dc.b	$FC
-	dc.b	"What do you mean rescue?"
+	dc.b	"Comment ça, secourir?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$00
-	dc.b	"Right now, Demi is being held"
+	dc.b	"En ce moment, Demi est"
 	dc.b	$FC
-	dc.b	"hostage by a man named Zio."
+	dc.b	"emprisonnée par un certain Zio."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Zio again!"
+	dc.b	"Encore Zio!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Who on earth is this Zio!?"
+	dc.b	"Qui diable est ce Zio!?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$00
-	dc.b	"I myself don't know what Zio"
+	dc.b	"Je n'ai pas d'informations sur"
 	dc.b	$FC
-	dc.b	"is all about."
+	dc.b	"les motivations de Zio."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"So all we have to do is"
+	dc.b	"Donc, tout ce qu'on doit faire,"
 	dc.b	$FC
-	dc.b	"rescue this Demi, right?"
+	dc.b	"c'est secourir Demi, pas vrai?"
 	dc.b	$FD
-	dc.b	"Where is she being held"
-	dc.b	$FC
-	dc.b	"hostage?"
+	dc.b	"Où est-elle incarcérée?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"She is with Zio,"
+	dc.b	"Elle est avec Zio,"
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$0036
-	dc.b	"And the name of that castle"
+	dc.b	"et ce château s'appelle le Fort"
 	dc.b	$FC
-	dc.b	"is Zio's Fort!"
+	dc.b	"de Zio!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Is that by any chance..."
+	dc.b	"Est-ce que cet endroit serait..."
 	dc.b	$FC
-	dc.b	"beyond the quicksand of Mile?"
+	dc.b	"passé les sables mouvants de"
+	dc.b	$FD
+	dc.b	"Mile?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Oh, that sinister-looking"
+	dc.b	"Oh, ce château inquiétant au"
 	dc.b	$FC
-	dc.b	"castle north of Zema."
+	dc.b	"nord de Zema."
 	dc.b	$FD
 	dc.b	$F2, $01
 	dc.b	$F9
@@ -359,27 +365,29 @@
 	dc.b	$F2, $01
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"It's a pretty long way to go,"
-	dc.b	$FD
-	dc.b	"but having heard all this"
+	dc.b	"Bon, ce n'est pas la porte d'à"
 	dc.b	$FC
-	dc.b	"we have no choice."
+	dc.b	"côté, mais après avoir entendu"
 	dc.b	$FD
-	dc.b	"Hee hee, it's been a long time"
+	dc.b	"tout ça, on n'a pas le choix."
+	dc.b	$FD
+	dc.b	"Hé hé, ça fait un bon moment"
 	dc.b	$FC
-	dc.b	"since I've felt so excited!"
+	dc.b	"que je ne me suis pas sentie"
 	dc.b	$FD
-	dc.b	"And while we're at it, why"
+	dc.b	"aussi enthousiaste! Et tant"
 	dc.b	$FC
-	dc.b	"don't we get rid of that"
+	dc.b	"que nous y sommes, pourquoi ne"
 	dc.b	$FD
-	dc.b	"disgusting character, Zio!"
+	dc.b	"pas en profiter pour se"
+	dc.b	$FC
+	dc.b	"débarrasser de cet horrible Zio!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$05
-	dc.b	"Hey!"
+	dc.b	"Ouais!"
 	dc.b	$FC
-	dc.b	"That's the spirit!"
+	dc.b	"Là tu parles!"
 	dc.b	$FD
 	dc.b	$F2, $01
 	dc.b	$F9
@@ -389,101 +397,103 @@
 	dc.w	$0037
 	dc.b	$F4
 	dc.b	$00
-	dc.b	"So, you will go? Please take"
+	dc.b	"Donc, vous acceptez? Alors,"
 	dc.b	$FC
-	dc.b	"Rika with you."
+	dc.b	"prenez Rika avec vous."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Who is this girl anyway? She"
+	dc.b	"Qui est cette fille? Elle en"
 	dc.b	$FC
-	dc.b	"seems curiously knowledgeable"
+	dc.b	"connaît un bout sur ces choses,"
 	dc.b	$FD
-	dc.b	"about these matters..."
+	dc.b	"c'est un peu étrange..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$00
-	dc.b	"She is...my child."
+	dc.b	"Elle est...mon enfant."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0D
-	dc.b	"Are you saying that she is an"
+	dc.b	"Vous voulez dire qu'elle est une"
 	dc.b	$FC
-	dc.b	"artificial life form?"
+	dc.b	"forme de vie artificielle?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$00
-	dc.b	"That's right. She is a product"
+	dc.b	"C'est exact. Elle est le fruit"
 	dc.b	$FC
-	dc.b	"of a thousand years of"
+	dc.b	"de mille ans d'améliorations"
 	dc.b	$FD
-	dc.b	"improvement on genetic"
+	dc.b	"successives de l'information"
 	dc.b	$FC
-	dc.b	"information"
+	dc.b	"génétique provenant d'un"
 	dc.b	$FD
-	dc.b	"from a prototype prior to the"
+	dc.b	"prototype datant d'avant le"
 	dc.b	$FC
-	dc.b	"'Great Collapse.'"
+	dc.b	"'Grand Effondrement.'"
 	dc.b	$FD
-	dc.b	"I have also given her a basic"
+	dc.b	"Je lui ai aussi fait profiter"
 	dc.b	$FC
-	dc.b	"education."
+	dc.b	"d'un enseignement de base."
 	dc.b	$FD
-	dc.b	"She will surely be a great help"
+	dc.b	"Elle va sans doute vous être"
 	dc.b	$FC
-	dc.b	"to you."
+	dc.b	"d'une grande aide."
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$0038
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"All right, Seed."
+	dc.b	"C'est entendu, Seed."
 	dc.b	$FC
-	dc.b	"We'll take her!"
+	dc.b	"Elle vient avec nous!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Thank you!"
+	dc.b	"Je vous remercie!"
 	dc.b	$FD
-	dc.b	"I've always wanted to be able"
+	dc.b	"J'ai toujours voulu voir le"
 	dc.b	$FC
-	dc.b	"to see the outside world!"
+	dc.b	"monde extérieur!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$00
-	dc.b	"Rika, take care..."
+	dc.b	"Rika, prends soin de toi..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"OK!"
+	dc.b	"C'est bon!"
+	dc.b	$FD
+	dc.b	"Dirigeons-nous vers le Fort"
 	dc.b	$FC
-	dc.b	"Let's get going to Zio's Fort!"
+	dc.b	"de Zio!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0D
-	dc.b	"I must first go back to the"
+	dc.b	"Je dois d'abord retourner à"
 	dc.b	$FC
-	dc.b	"academy!"
+	dc.b	"l'académie!"
 	dc.b	$FD
-	dc.b	"We have to spread this"
+	dc.b	"Nous devons disséminer ces"
 	dc.b	$FC
-	dc.b	"information as much as possible."
+	dc.b	"informations le plus possible."
 	dc.b	$FF
 
 ; $2
-	dc.b	"There is only one way for me to"
+	dc.b	"Il n'y a qu'un seul moyen"
 	dc.b	$FC
-	dc.b	"stem the outbreak of monsters."
+	dc.b	"d'arrêter cette épidémie de"
 	dc.b	$FD
-	dc.b	"Now that I have sent into the"
+	dc.b	"monstres. Maintenant que le"
 	dc.b	$FC
-	dc.b	"world the fruit of a thousand"
+	dc.b	"fruit de mille ans de recherches"
 	dc.b	$FD
-	dc.b	"years worth of research,"
-	dc.b	$FD
-	dc.b	"there are no obstacles"
+	dc.b	"fait ses premiers pas à"
 	dc.b	$FC
-	dc.b	"to its execution."
+	dc.b	"l'extérieur, il n'y a plus"
+	dc.b	$FD
+	dc.b	"d'empêchements à sa réalisation."
 	dc.b	$FF
 
 ; $3
@@ -491,35 +501,35 @@
 	dc.w	$0039
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"We're outdoors!"
+	dc.b	"Nous sommes l'extérieur!"
 	dc.b	$FD
-	dc.b	"Wow, I didn't know the sky was"
+	dc.b	"Wow, J'ignorais que le ciel"
 	dc.b	$FC
-	dc.b	"so blue! These flowers..."
+	dc.b	"était aussi bleu! Ces fleurs..."
 	dc.b	$FD
-	dc.b	"they're so beautiful!"
+	dc.b	"Elles sont si magnifiques!"
 	dc.b	$FC
-	dc.b	"How lovely!"
+	dc.b	"Comme tout est joli!"
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$003A
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Being cooped up all this time"
+	dc.b	"Après avoir passé toute votre"
 	dc.b	$FC
-	dc.b	"underground, everything must"
+	dc.b	"vie sous terre, tout doit vous"
 	dc.b	$FD
-	dc.b	"be so novel..."
+	dc.b	"sembler si surprenant..."
 	dc.b	$FF
 
 ; $4
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"What was that?"
+	dc.b	"Qu'est-ce que c'était?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"An explosion!"
+	dc.b	"Une déflagration!"
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$003D
@@ -529,15 +539,17 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Rika, you must carry on"
+	dc.b	"Rika, tu dois accomplir la"
 	dc.b	$FC
-	dc.b	"the will of Seed!"
+	dc.b	"volonté de Seed!"
 	dc.b	$FD
-	dc.b	"You can't look back now!"
+	dc.b	"Tu ne peux plus revenir en"
+	dc.b	$FC
+	dc.b	"arrière!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"I know..."
+	dc.b	"Je sais..."
 	dc.b	$FF
 
 ; $5
@@ -545,27 +557,29 @@
 	dc.w	$0053
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"We did it!"
+	dc.b	"Nous avons réussi!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$05
-	dc.b	"So, as long as we have this"
+	dc.b	"Donc, tant que nous avons ce"
 	dc.b	$FC
-	dc.b	"Psycho-wand, there's no need"
+	dc.b	"Bâton-psy, nous n'avons rien à"
 	dc.b	$FD
-	dc.b	"to fear Zio."
+	dc.b	"craindre de Zio."
 	dc.b	$FD
 	dc.b	$F2, $03
 	dc.b	$FB
 	dc.b	$F4
 	dc.b	$07
-	dc.b	"You two, is anything wrong?"
+	dc.b	"Pardon, vous deux, est-ce que"
+	dc.b	$FC
+	dc.b	"quelque chose ne va pas?"
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$0054
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Rika...you too!"
+	dc.b	"Rika...tu le sens aussi!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
@@ -578,337 +592,341 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$05
-	dc.b	"What's going on, you two?"
+	dc.b	"Qu'est-ce qu'il vous prend, vous"
+	dc.b	$FC
+	dc.b	"deux?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
 	dc.b	"Chaz!"
 	dc.b	$FD
-	dc.b	"We've got to return to Krup"
+	dc.b	"Il faut qu'on retourne à Krup"
 	dc.b	$FC
-	dc.b	"right away!"
+	dc.b	"immédiatement!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Huh?"
+	dc.b	"Pardon?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Get a move on it! We're"
-	dc.b	$FC
-	dc.b	"leaving!"
+	dc.b	"Bougez vous! On s'en va!"
 	dc.b	$FF
 
 ; $6
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Rune! So you were"
-	dc.b	$FC
-	dc.b	"here after all!"
+	dc.b	"Rune! Donc tu étais bien ici!"
 	dc.b	$FD
 	dc.b	$F2, $03
 	dc.b	$94
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"You've come, Chaz!"
+	dc.b	"Tu es arrivé, Chaz!"
 	dc.b	$FD
-	dc.b	"Amazing that you got all the"
+	dc.b	"Surprenant que tu aies pu te"
 	dc.b	$FC
-	dc.b	"way up here with those short"
+	dc.b	"rendre jusqu'ici avec d'aussi"
 	dc.b	$FD
-	dc.b	"legs of yours!"
+	dc.b	"courtes jambes!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Rune,"
+	dc.b	"Rune, ce n'est pas le temps de"
 	dc.b	$FC
-	dc.b	"this is no time for jokes!"
+	dc.b	"plaisanter!"
 	dc.b	$FD
-	dc.b	"I implore you. Give us your"
-	dc.b	$FC
-	dc.b	"assistance!"
+	dc.b	"Je t'en conjure. Aide-nous!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Hey? What happened to Alys?"
+	dc.b	"Hein? Où est Alys? Qu'est-il"
 	dc.b	$FC
-	dc.b	"Is something wrong?"
+	dc.b	"arrivé?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Well, the fact is..."
+	dc.b	"En fait..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Is that right... Such a thing"
+	dc.b	"Vraiment... Qu'une telle chose"
 	dc.b	$FC
-	dc.b	"happened...  Alys..."
+	dc.b	"lui soit arrivée... Alys..."
 	dc.b	$FD
-	dc.b	"But let's not be hasty."
+	dc.b	"Bon, ne nous précipitons pas."
 	dc.b	$FD
-	dc.b	"As soon as we get the"
+	dc.b	"Dès que nous aurons obtenu le"
 	dc.b	$FC
-	dc.b	"Psycho-wand..."
+	dc.b	"Bâton-psy..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"'Psycho-wand'?"
+	dc.b	"Le 'Bâton-psy'?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Yep, I came here to get it."
-	dc.b	$FD
-	dc.b	"The Psycho-wand is the only"
+	dc.b	"Ouaip, c'est pour ça que je suis"
 	dc.b	$FC
-	dc.b	"weapon that can break through"
+	dc.b	"ici."
 	dc.b	$FD
-	dc.b	"Zio's magic barrier!"
+	dc.b	"Le Bâton-psy est la seule arme"
+	dc.b	$FC
+	dc.b	"capable de détruire la barrière"
+	dc.b	$FD
+	dc.b	"magique de Zio!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"So...Rune!"
+	dc.b	"Alors...Rune!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"The Psycho-wand is supposedly"
+	dc.b	"Le Bâton-psy est apparamment"
 	dc.b	$FC
-	dc.b	"sealed up in the uppermost"
+	dc.b	"sous scellé au sommet de la"
 	dc.b	$FD
-	dc.b	"level of The Ladea Tower."
-	dc.b	$FD
-	dc.b	"I haven't got my hands on it"
+	dc.b	"Tour Ladea. Je n'ai pas encore"
 	dc.b	$FC
-	dc.b	"yet."
+	dc.b	"mis la main dessus."
 	dc.b	$FD
-	dc.b	"I'm on my way to get it now."
+	dc.b	"C'est là que j'allais me"
 	dc.b	$FC
-	dc.b	"Will you accompany me?"
+	dc.b	"diriger. Vous venez?"
 	dc.b	$FD
-	dc.b	"Once you find the Psycho-wand,"
+	dc.b	"Une fois que nous aurons trouvé"
 	dc.b	$FC
-	dc.b	"I will be more than happy to"
+	dc.b	"le Bâton-psy, je serai très"
 	dc.b	$FD
-	dc.b	"lend a helping hand."
+	dc.b	"heureux de vous aider."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"OK, OK, I get it."
+	dc.b	"D'accord, ça va, j'ai compris."
 	dc.b	$FF
 
 ; $7
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"So, this is the Psycho-wand!"
+	dc.b	"Alors, voici le Bâton-psy!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"We can now break the barrier!"
+	dc.b	"Maintenant on peut détruire"
+	dc.b	$FC
+	dc.b	"la barrière!"
 	dc.b	$FF
 
 ; $8
-	dc.b	"Ha, ha, ha! This is it!"
+	dc.b	"Ha, ha, ha! C'est le moment!"
 	dc.b	$FD
-	dc.b	"I've been waiting for this"
+	dc.b	"C'est exactement ce que"
 	dc.b	$FC
-	dc.b	"moment!"
+	dc.b	"j'attendais!"
 	dc.b	$F7
 
-	dc.b	"Upon the decree of Zio I am"
+	dc.b	"Sous l'ordre de Zio, je prends"
 	dc.b	$FC
-	dc.b	"taking the Psycho-wand!"
+	dc.b	"possession du Bâton-psy!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$05
-	dc.b	"You're Zio's underling!?"
+	dc.b	"Tu es le sous-fifre de Zio!?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Hmmph, what a brain dead kid"
+	dc.b	"Bof, un autre légume minable"
 	dc.b	$FC
-	dc.b	"you are."
+	dc.b	"qui se prend pour un sorcier."
 	dc.b	$FD
-	dc.b	"Chaz, don't let him get"
+	dc.b	"Chaz, ne le laisse pas prendre"
 	dc.b	$FC
-	dc.b	"the Psycho-wand!"
+	dc.b	"le Bâton-psy!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"You don't have to tell me that!"
+	dc.b	"Pas besoin de me le rappeler!"
 	dc.b	$FD
-	dc.b	"Stop ordering me around all the"
+	dc.b	"Arrête de me donner des ordres"
 	dc.b	$FC
-	dc.b	"time!"
+	dc.b	"sans cesse!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Come on!"
+	dc.b	"Allez! C'est vraiment le temps"
 	dc.b	$FC
-	dc.b	"Is this any time to bicker?"
+	dc.b	"de se chamailler?"
 	dc.b	$FD
-	dc.b	"It's coming!"
+	dc.b	"Il attaque!"
 	dc.b	$FF
 
 ; $9
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"This place is still alive..."
-	dc.b	$FD
-	dc.b	"It has become independent from"
+	dc.b	"Cette installation est toujours"
 	dc.b	$FC
-	dc.b	"Seed and Nurvus!"
+	dc.b	"en fonction..."
+	dc.b	$FD
+	dc.b	"Elle est déconnectée de Seed et"
+	dc.b	$FC
+	dc.b	"Nurvus!"
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$07
-	dc.b	"A lot of other machines are"
+	dc.b	"De nombreuses machines sont"
 	dc.b	$FC
-	dc.b	"housed here,"
+	dc.b	"stockées ici, mais elles n'ont"
 	dc.b	$FD
-	dc.b	"but they haven't been used for"
+	dc.b	"pas été utilisées depuis très"
 	dc.b	$FC
-	dc.b	"a long time."
+	dc.b	"longtemps."
 	dc.b	$FD
-	dc.b	"They probably need some"
+	dc.b	"Elles ont sans doute besoin"
 	dc.b	$FC
-	dc.b	"repairs."
+	dc.b	"d'être réparées."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"I have no idea what these"
+	dc.b	"Je n'ai jamais rien vu de tel,"
 	dc.b	$FC
-	dc.b	"machines are, but this is"
+	dc.b	"mais cet endroit est vraiment"
 	dc.b	$FD
-	dc.b	"some place."
+	dc.b	"quelque chose."
 	dc.b	$FD
-	dc.b	"You're pretty adept at"
+	dc.b	"Tu es très habile à manipuler"
 	dc.b	$FC
-	dc.b	"handling these machines."
+	dc.b	"ces équipements."
 	dc.b	$FD
-	dc.b	"Were you caught by Zio while"
+	dc.b	"Est-ce que Zio t'a capturée"
 	dc.b	$FC
-	dc.b	"you were trying to get the"
+	dc.b	"alors que tu tentais de"
 	dc.b	$FD
-	dc.b	"system back under control?"
+	dc.b	"reprendre contrôle des systèmes?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$07
-	dc.b	"Yes, that's right."
+	dc.b	"Oui, c'est juste."
 	dc.b	$FC
-	dc.b	"Zio is very violent."
+	dc.b	"Zio est un homme plutôt violent."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$05
-	dc.b	"Very funny."
+	dc.b	"C'est une façon plutôt"
+	dc.b	$FC
+	dc.b	"charitable de voir les choses..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$07
-	dc.b	"Defeating Zio is not going to"
+	dc.b	"Vaincre Zio ne règlera pas "
 	dc.b	$FC
-	dc.b	"solve the problem."
+	dc.b	"entièrement les problèmes."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"What? Isn't the system being"
+	dc.b	"Comment? Le système n'est pas"
 	dc.b	$FC
-	dc.b	"out of control a result of"
+	dc.b	"devenu Incontrôlable à cause"
 	dc.b	$FD
-	dc.b	"Zio's doing?"
+	dc.b	"des agissements de Zio?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$07
-	dc.b	"No. The real cause of the"
+	dc.b	"Négatif. La véritable cause"
 	dc.b	$FC
-	dc.b	"problem is that Zelan"
+	dc.b	"des problèmes est le fait que"
 	dc.b	$FD
-	dc.b	"has been issuing abnormal"
+	dc.b	"Zelan émet des commandes"
 	dc.b	$FC
-	dc.b	"commands."
+	dc.b	"contradictoires."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Impossible! Not Zelan!"
+	dc.b	"Impossible! Pas venant de Zelan!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Zelan, what's that?"
+	dc.b	"Zelan, c'est quoi, ça?"
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$004E
 	dc.b	$F4
 	dc.b	$07
-	dc.b	"Zelan is the central control"
+	dc.b	"Zelan est l'installation de"
 	dc.b	$FC
-	dc.b	"for the Algo solar system's"
+	dc.b	"contrôle centrale des systèmes"
 	dc.b	$FD
-	dc.b	"environmental maintenance"
+	dc.b	"de maintien environmental du"
 	dc.b	$FC
-	dc.b	"systems."
+	dc.b	"système solaire Algo."
 	dc.b	$FD
-	dc.b	"It's an orbiting station on the"
+	dc.b	"Il s'agit d'une station en"
 	dc.b	$FC
-	dc.b	"other side of Motavia."
+	dc.b	"orbite au dessus de l'autre"
+	dc.b	$FD
+	dc.b	"hémisphère de Motavia."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$05
-	dc.b	"Wow."
+	dc.b	"Impressionnant."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"How are we going to get there?!"
+	dc.b	"Euh... comment on va y aller?!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$05
-	dc.b	"First, let's think about"
+	dc.b	"Tout d'abord, il faut trouver"
 	dc.b	$FC
-	dc.b	"defeating Zio and stopping"
+	dc.b	"comment vaincre Zio et éteindre"
 	dc.b	$FD
 	dc.b	"Nurvus!"
 	dc.b	$FD
 	dc.b	$F2, $01
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Yeah, you're right."
+	dc.b	"Ouais, tu as raison."
 	dc.b	$FD
-	dc.b	"It's not enough just defeating"
+	dc.b	"Mais est-ce que vaincre Zio sera"
 	dc.b	$FC
-	dc.b	"Zio? If that's the case this"
+	dc.b	"suffisant? Je suis inquiet au"
 	dc.b	$FD
-	dc.b	"makes me worry about..."
-	dc.b	$FC
-	dc.b	"Dark Force!"
+	dc.b	"sujet de... Dark Force!"
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$07
-	dc.b	"Don't worry, it'll be alright!"
+	dc.b	"Soyez sans crainte, tout ira"
 	dc.b	$FC
-	dc.b	"I'll start the Land Rover up!"
+	dc.b	"bien! Je vais mettre le Land"
 	dc.b	$FD
-	dc.b	"Let's go outside."
+	dc.b	"Rover en route! Allons à"
+	dc.b	$FC
+	dc.b	"l'extérieur."
 	dc.b	$FD
-	dc.b	"It will be waiting."
+	dc.b	"Il nous attendra là."
 	dc.b	$FF
 
 ; $A
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Yikes! What's that!?"
+	dc.b	"Aïe! Qu'est-ce que c'est!?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"We..we're going to die!"
+	dc.b	"On...On va tous mourir!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Stop cowering! Men are such"
+	dc.b	"Arrêtez de trembler! Les hommes"
 	dc.b	$FC
-	dc.b	"cowards!"
+	dc.b	"sont de telles mauviettes!"
 	dc.b	$FD
-	dc.b	"It's nothing! "
+	dc.b	"Ce n'est rien!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"That...that's true."
+	dc.b	"C'est...c'est vrai."
 	dc.b	$FF
 
 ; $B

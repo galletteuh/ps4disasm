@@ -106,7 +106,7 @@
 ; $23
 	dc.b	$F4
 	dc.b	$17
-	dc.b	"Please excuse me!"
+	dc.b	"Excusez moi!"
 	dc.b	$FF
 
 ; $24
@@ -119,11 +119,9 @@
 ; $25
 	dc.b	$F4
 	dc.b	$19
-	dc.b	"All is exactly"
+	dc.b	"Tout est conforme aux souhaits"
 	dc.b	$FC
-	dc.b	"according to the wishes of"
-	dc.b	$FD
-	dc.b	"the reverent fifth one."
+	dc.b	"du vénéré Cinquième."
 	dc.b	$FF
 
 ; $26
@@ -135,7 +133,7 @@
 	dc.b	$D7, $01
 	dc.b	$F4
 	dc.b	$19
-	dc.b	"I pray for your safety."
+	dc.b	"Je prie pour votre sécurité."
 	dc.b	$FF
 
 ; $27
@@ -146,73 +144,73 @@
 ; $28
 	dc.b	$F4
 	dc.b	$19
-	dc.b	"I believe in you,"
+	dc.b	"Je crois en vous, vénéré"
 	dc.b	$FC
-	dc.b	"reverent fifth one."
+	dc.b	"Cinquième."
 	dc.b	$FF
 
 ; $29
 	dc.b	$F4
 	dc.b	$19
-	dc.b	"Oh my, you were actually able to"
+	dc.b	"Quelle surprise, vous avez"
 	dc.b	$FC
-	dc.b	"get your hands on that..."
+	dc.b	"réussi à obtenir cet objet..."
 	dc.b	$FD
-	dc.b	"Trust the reverent fifth one "
+	dc.b	"Comptez sur le vénéré Cinquième"
 	dc.b	$FC
-	dc.b	"to be able to pick the one"
+	dc.b	"pour pouvoir choisir celui qui"
 	dc.b	$FD
-	dc.b	"with ability!"
+	dc.b	"les bonnes aptitudes!"
 	dc.b	$FF
 
 ; $2A
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"This is the inner sanctuary and"
+	dc.b	"Ici, c'est le sanctuaire"
 	dc.b	$FC
-	dc.b	"further beyond..."
+	dc.b	"intérieur, et plus loin..."
 	dc.b	$FD
-	dc.b	"there is a room called"
+	dc.b	"Il y a une chambre appelée la"
 	dc.b	$FC
-	dc.b	"Lutz's room."
+	dc.b	"Chambre de Lutz."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"That's right. So now,"
-	dc.b	$FC
-	dc.b	"the time has finally come..."
+	dc.b	"Exact. Alors, le temps est venu!"
 	dc.b	$FD
-	dc.b	"At last"
+	dc.b	"Enfin, nous pourrons rencontrer"
 	dc.b	$FC
-	dc.b	"we're going to meet Lutz!"
+	dc.b	"Lutz!"
 	dc.b	$FD
-	dc.b	"Oh dear! Are my clothes clean?"
+	dc.b	"Oh là là! Mes vêtements sont"
 	dc.b	$FC
-	dc.b	"How's my hair?"
+	dc.b	"propres? Mes cheveux coiffés?"
 	dc.b	$FD
-	dc.b	"Oh, what shall I do."
+	dc.b	"Oh, que faire! Je suis si"
 	dc.b	$FC
-	dc.b	"I'm so nervous!"
+	dc.b	"nerveuse!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"I wonder what kind of person"
+	dc.b	"Je me demande quel genre de"
 	dc.b	$FC
-	dc.b	"he is? What do you think, Chaz?"
+	dc.b	"personne est-il? Qu'en"
+	dc.b	$FD
+	dc.b	"penses-tu, Chaz?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Hmm, Lutz.. "
+	dc.b	"Hum, Lutz.. "
 	dc.b	$FC
-	dc.b	"The legendary magician..."
+	dc.b	"Le magicien légendaire..."
 	dc.b	$FF
 
 ; $2B
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Here, let me heal you."
+	dc.b	"Là, laissez-moi vous guérir."
 	dc.b	$FC
-	dc.b	"Then get going!"
+	dc.b	"Ensuite, allez-y!"
 	dc.b	$FF
 
 ; $2C
@@ -221,53 +219,53 @@
 ; $2D
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Chaz...pull yourself together!"
+	dc.b	"Chaz...ressaisis-toi!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Human beings are so complicated."
+	dc.b	"Les êtres humains sont bien"
+	dc.b	$FC
+	dc.b	"difficiles à comprendre."
 	dc.b	$FF
 
 ; $2E
 	dc.b	$F4
 	dc.b	$17
-	dc.b	"Kyra! You may not"
+	dc.b	"Kyra! Vous ne pouvez pas passer"
 	dc.b	$FC
-	dc.b	"pass here without permission!"
+	dc.b	"sans autorisation!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"Since"
+	dc.b	"Depuis quand je dois avoir une"
 	dc.b	$FC
-	dc.b	"when do I need permission!?"
+	dc.b	"autorisation!?"
 	dc.b	$FD
-	dc.b	"Open the door for us!"
+	dc.b	"Ouvrez-nous la porte!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$17
-	dc.b	"That I cannot do!"
+	dc.b	"Cela m'est impossible!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"You pigheaded oaf!"
+	dc.b	"Espèce de gros balourd têtu!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Let her enter!"
+	dc.b	"Laissez-la entrer!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$17
-	dc.b	"How dare you!"
+	dc.b	"Comment osez-vous! Je ne peux..."
+	dc.b	$FD
+	dc.b	"Hé!"
+	dc.b	$FD
+	dc.b	"Ah, c'est... c'est vous!"
+	dc.b	$FD
+	dc.b	"Excusez mon impolitesse!"
 	dc.b	$FC
-	dc.b	"I cannot..."
-	dc.b	$FD
-	dc.b	"Hey!"
-	dc.b	$FD
-	dc.b	"Oh, it's...it's you!"
-	dc.b	$FD
-	dc.b	"Forgive my rudeness!"
-	dc.b	$FC
-	dc.b	"Please enter!"
+	dc.b	"Entrez, je vous prie!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
@@ -277,106 +275,106 @@
 ; $2F
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"Eh...what's going on?"
+	dc.b	"Euh...que se passe-t-il?"
 	dc.b	$FC
-	dc.b	"No one's here..."
+	dc.b	"Il n'y a personne ici..."
 	dc.b	$FD
-	dc.b	"Reverent Lutz!"
+	dc.b	"Vénéré Lutz!"
 	dc.b	$FC
-	dc.b	"Please show yourself!"
+	dc.b	"Veuillez vous montrer!"
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Lutz is not here..."
+	dc.b	"Lutz n'est pas ici... Il n'est"
 	dc.b	$FC
-	dc.b	"He left this world long ago!"
+	dc.b	"plus de ce monde depuis"
+	dc.b	$FD
+	dc.b	"longtemps!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"What?"
+	dc.b	"Comment?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
 	dc.b	$F2, $00
 	dc.w	$009F
-	dc.b	"No human could live for"
+	dc.b	"Aucun humain ne pourrait vivre"
 	dc.b	$FC
-	dc.b	"over two thousand years."
+	dc.b	"plus de deux mille ans."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"That can't be!"
+	dc.b	"C'est impossible! Je l'ai vu"
 	dc.b	$FC
-	dc.b	"I saw him with my very own eyes!"
+	dc.b	"de mes propres yeux!"
 	dc.b	$FD
-	dc.b	"Besides...besides..."
+	dc.b	"De plus...de plus... Nous avons"
 	dc.b	$FC
-	dc.b	"we all are believers, aren't we?"
+	dc.b	"tous la foi, pas vrai?"
 	dc.b	$FD
-	dc.b	"We believe in the legend of"
+	dc.b	"Nous croyons dans la légende des"
 	dc.b	$FC
-	dc.b	"Esper, that Lutz lives on"
+	dc.b	"Espers, qui dit que Lutz est"
 	dc.b	$FD
-	dc.b	"and is leading us, don't we?!"
-	dc.b	$FD
-	dc.b	"That's why...that's why"
+	dc.b	"toujours vivant et nous guide,"
 	dc.b	$FC
-	dc.b	"we're all trying so hard..."
+	dc.b	"n'est-ce pas!?"
 	dc.b	$FD
-	dc.b	"he has to exist!"
+	dc.b	"C'est pourquoi...pourquoi..."
+	dc.b	$FC
+	dc.b	"nous travaillons si dur..."
+	dc.b	$FD
+	dc.b	"il doit encore exister!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Kyra!  Calm down..."
-	dc.b	$FD
-	dc.b	"It's true that Lutz is"
+	dc.b	"Kyra! Calme-toi... c'est vrai"
 	dc.b	$FC
-	dc.b	"no longer of this world."
+	dc.b	"que Lutz n'est plus de ce monde."
 	dc.b	$FD
-	dc.b	"But even if his physical body is"
+	dc.b	"Mais même si son corps n'est"
 	dc.b	$FC
-	dc.b	"no more, his spirit lives on."
+	dc.b	"plus, son esprit vit toujours."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"What?"
+	dc.b	"Comment?"
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$0100
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Before he died,"
+	dc.b	"Avant de mourir, il a stocké sa"
 	dc.b	$FC
-	dc.b	"he left his will and"
+	dc.b	"volonté et sa mémoire dans la"
 	dc.b	$FD
-	dc.b	"memory in the Telepathy Ball."
+	dc.b	"Boule Télépathique."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Then... you're saying that"
+	dc.b	"Donc...vous dites que cette"
 	dc.b	$FC
-	dc.b	"this ball is Lutz?"
+	dc.b	"Boule est, en fait, Lutz?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"No. He's not here now."
-	dc.b	$FD
-	dc.b	"But if the chosen person"
+	dc.b	"Non. Il n'est plus là. Mais si"
 	dc.b	$FC
-	dc.b	"appears, then Lutz's will"
+	dc.b	"la personne choisie s'approche,"
 	dc.b	$FD
-	dc.b	"and memory will be"
+	dc.b	"la volonté et la mémoire de Lutz"
 	dc.b	$FC
-	dc.b	"transferred to that person."
+	dc.b	"lui seront transmises."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"Chosen...?"
+	dc.b	"Personne choisie...?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"So, now..."
+	dc.b	"Donc..."
 	dc.b	$F2, $02
 	dc.b	$F9
 	dc.b	$B3
@@ -386,270 +384,256 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Wait!"
+	dc.b	"Attendez!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Rune...is Lutz?!"
+	dc.b	"Rune...est Lutz?!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$19
-	dc.b	"That is correct."
-	dc.b	$FD
-	dc.b	"Rune Walsh..."
+	dc.b	"C'est exact. Rune Walsh..."
 	dc.b	$FC
-	dc.b	"Is the fifth generation Lutz."
+	dc.b	"Est le Cinquième Lutz."
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$0102
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"Y...you're..."
+	dc.b	"Vous...vous êtes..."
 	dc.b	$FC
-	dc.b	"Lutz...? How could that be..."
+	dc.b	"Lutz...? Comment est-ce..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Listen, Chaz."
+	dc.b	"Écoute bien, Chaz."
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$0103
-	dc.b	"Since ancient times in Algo,"
+	dc.b	"Depuis les temps immémoriaux"
 	dc.b	$FC
-	dc.b	"there has been a cycle where"
+	dc.b	"dans le système Algo, il y a un"
 	dc.b	$FD
-	dc.b	"calamities occur every"
+	dc.b	"cycle de calamités qui se répète"
 	dc.b	$FC
-	dc.b	"one thousand years."
+	dc.b	"tous les mille ans."
 	dc.b	$FD
-	dc.b	"That's because a"
+	dc.b	"La cause est l'incarnation du"
 	dc.b	$FC
-	dc.b	"personification of evil called"
+	dc.b	"mal appelée Dark Force, qui"
 	dc.b	$FD
-	dc.b	"Dark Force is resurrected"
-	dc.b	$FC
-	dc.b	"every thousand years!"
+	dc.b	"ressuscite tous les mille ans!"
 	dc.b	$FD
-	dc.b	"Up until now,"
+	dc.b	"Jusqu'ici, durant chaque cycle,"
 	dc.b	$FC
-	dc.b	"every time it occurred,"
+	dc.b	"un individu courageux vainquit"
 	dc.b	$FD
-	dc.b	"a courageous person would defeat"
-	dc.b	$FC
-	dc.b	"the evil to maintain peace."
+	dc.b	"le mal pour préserver la paix."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"But we definitely did defeat"
+	dc.b	"Mais nous avons vaincu Dark"
 	dc.b	$FC
-	dc.b	"Dark Force at Kuran."
+	dc.b	"Force sur Kuran, c'est sûr!"
 	dc.b	$FD
-	dc.b	"Yet, there's no sign of"
+	dc.b	"Pourtant, il n'y a pas"
 	dc.b	$FC
-	dc.b	"abatement of these abnormal"
+	dc.b	"d'amélioration des conditions"
 	dc.b	$FD
-	dc.b	"conditions in Algo!"
+	dc.b	"climatiques à travers Algo!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"So what's going on?"
+	dc.b	"Alors, que se passe-t-il?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Algo was shaken a thousand"
+	dc.b	"Algo a été destabilisé il y a"
 	dc.b	$FC
-	dc.b	"years ago by the explosion of"
+	dc.b	"mille ans par l'explosion de"
 	dc.b	$FD
 	dc.b	"Parma."
 	dc.b	$FD
-	dc.b	"The delicate balance we were"
+	dc.b	"L'équilibre précaire qui avait"
 	dc.b	$FC
-	dc.b	"able to maintain was severely"
+	dc.b	"été maintenu jusqu'alors fut"
 	dc.b	$FD
-	dc.b	"upset."
+	dc.b	"bouleversé."
 	dc.b	$FD
-	dc.b	"This might be a result of"
+	dc.b	"C'est probablement la raison"
 	dc.b	$FC
-	dc.b	"that."
+	dc.b	"pour laquelle nous pouvons"
 	dc.b	$FD
-	dc.b	"The Black Energy Wave can still"
+	dc.b	"toujours percevoir l'Onde"
 	dc.b	$FC
-	dc.b	"be felt."
+	dc.b	"d'Énergie Noire."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Are you saying that Dark Force"
+	dc.b	"Tu veux dire que Dark Force a"
 	dc.b	$FC
-	dc.b	"is still alive?!"
+	dc.b	"survécu?!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"That..."
-	dc.b	$FC
-	dc.b	"I don't know."
+	dc.b	"Je... je n'en suis pas sûr."
 	dc.b	$FD
 	dc.b	$F2, $02
 	dc.b	$F2, $00
 	dc.w	$0104
-	dc.b	"But I can say that the root of"
+	dc.b	"Mais je peux vous affirmer que"
 	dc.b	$FC
-	dc.b	"all evil is not yet destroyed!"
+	dc.b	"la racine du mal existe encore!"
 	dc.b	$FD
-	dc.b	"The only thing to do is to"
+	dc.b	"La seule chose à faire est de la"
 	dc.b	$FC
-	dc.b	"defeat it!"
+	dc.b	"détruire!"
 	dc.b	$FD
-	dc.b	"I have chosen you, Chaz."
+	dc.b	"Je t'ai choisi, Chaz!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Me?!"
+	dc.b	"Qui, moi?!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"I have chosen you"
+	dc.b	"Je t'ai choisi. Tu est le soldat"
 	dc.b	$FC
-	dc.b	"as the soldier to fight"
-	dc.b	$FD
-	dc.b	"the inevitable decisive battle!"
+	dc.b	"qui livrera l'ultime combat!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Why..."
-	dc.b	$FD
-	dc.b	"Choose... Me?"
+	dc.b	"Pourquoi...pourquoi moi?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"I felt that you are a man of"
-	dc.b	$FC
-	dc.b	"potential."
+	dc.b	"Je perçois ton potentiel."
 	dc.b	$FD
-	dc.b	"We will soon find out if"
+	dc.b	"Nous saurons bientôt si mon"
 	dc.b	$FC
-	dc.b	"my judgment was correct, Chaz."
+	dc.b	"intuition se confirme, Chaz."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Oh, great!"
+	dc.b	"Ouais, super..."
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$0105
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Well, that's the story. Sorry"
+	dc.b	"Voilà, vous savez maintenant"
 	dc.b	$FC
-	dc.b	"I kept it secret all this time."
+	dc.b	"l'histoire. Désolé d'avoir gardé"
 	dc.b	$FD
-	dc.b	"We'll keep on cooperating with"
+	dc.b	"tout cela pour moi. Nous pouvons"
 	dc.b	$FC
-	dc.b	"each other, right?"
+	dc.b	"continuer à travailler ensemble?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Ah, yeah."
+	dc.b	"Euh, oui, oui..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Anyway! We've got to go to"
+	dc.b	"Bien! Nous devons nous diriger"
 	dc.b	$FC
-	dc.b	"the Garuberk Tower!"
+	dc.b	"vers la Tour Garuberk!"
 	dc.b	$FD
-	dc.b	"That's where the answer lies!"
+	dc.b	"C'est là que nous trouverons"
+	dc.b	$FC
+	dc.b	"la réponse à nos questions!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$19
 	dc.b	$F2, $00
 	dc.w	$0106
-	dc.b	"There's carnivorous trees that"
+	dc.b	"Des arbres carnivores empêchent"
 	dc.b	$FC
-	dc.b	"obstructs those who try to pass."
+	dc.b	"le passage."
 	dc.b	$FD
-	dc.b	"But if you use"
+	dc.b	"Mais si vous utilisez le"
 	dc.b	$FC
-	dc.b	"the 'Eclipse Torch'"
+	dc.b	"Flambeau de l'Éclipse, vous"
 	dc.b	$FD
-	dc.b	"you will be able to destroy it."
+	dc.b	"pourrez les détruire."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"OK, our destination is decided!"
+	dc.b	"D'accord, voilà notre prochain"
 	dc.b	$FC
-	dc.b	"It's off to the Gumbious Temple."
+	dc.b	"objectif! Le Temple Gumbious."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$19
-	dc.b	"The Dezolisian temple is"
+	dc.b	"Le temple Dezolisien est situé"
 	dc.b	$FC
-	dc.b	"located in the mountain valley"
+	dc.b	"dans la vallée montagneuse à"
 	dc.b	$FD
-	dc.b	"west of here."
+	dc.b	"l'ouest d'ici."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"We're off. Come on, Chaz, stop"
+	dc.b	"Allons-y. Allez, Chaz,"
 	dc.b	$FC
-	dc.b	"looking so dazed!"
+	dc.b	"ressaisis-toi!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"How disappointing that Lutz"
+	dc.b	"Je suis déçue de voir que Lutz"
 	dc.b	$FC
-	dc.b	"would be so insensitive!"
+	dc.b	"est si indélicat!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Sorry about that."
+	dc.b	"Navré, j'ai toujours été comme"
 	dc.b	$FC
-	dc.b	"I've always been like this!"
+	dc.b	"ça!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"Waaaa."
+	dc.b	"Ouiiiin."
 	dc.b	$FF
 
 ; $30
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Chaz, the sacred sword"
+	dc.b	"Chaz, l'épée sacrée, Elsydeon,"
 	dc.b	$FC
-	dc.b	"Elsydeon awaits you!"
+	dc.b	"t'attends!"
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$0128
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"The sacred sword Elsydeon?"
+	dc.b	"Elsydeon?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"It's probably the one and only"
+	dc.b	"Il s'agit sans doute de la"
 	dc.b	$FC
-	dc.b	"weapon that has the power to"
+	dc.b	"seule arme capable de détruire"
 	dc.b	$FD
-	dc.b	"destroy The Profound Darkness!"
+	dc.b	"la Noirceur Profonde!"
 	dc.b	$FD
-	dc.b	"Go, Chaz...alone! Go and"
+	dc.b	"Va, Chaz...seul! Va et fait"
 	dc.b	$FC
-	dc.b	"meet with Elsydeon!"
+	dc.b	"face à Elsydeon!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Meet Elsydeon?"
+	dc.b	"Faire face à Elsydeon?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"That's right."
+	dc.b	"Exact. Et tu trouveras alors"
 	dc.b	$FC
-	dc.b	"And at that time you should find"
-	dc.b	$FD
-	dc.b	"the answer you are looking for."
+	dc.b	"réponse à tes questions."
 	dc.b	$FF
 
 ; $31
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"So this is the sacred sword,"
+	dc.b	"Alors voila l'épée sacrée,"
 	dc.b	$FC
 	dc.b	"Elsydeon..."
 	dc.b	$FD
@@ -658,34 +642,32 @@
 
 	dc.b	$F2, $00
 	dc.w	$012A
-	dc.b	"What?"
-	dc.b	$FD
-	dc.b	"I hear a voice from somewhere!"
+	dc.b	"Hein? J'entends une voix!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$00
-	dc.b	"Ah, you have made it,"
+	dc.b	"Ah, vous avez réussi,"
 	dc.b	$FC
 	dc.b	"Chaz Ashley..."
 	dc.b	$FD
-	dc.b	"This is the place where"
+	dc.b	"Vous êtes à l'endroit où les"
 	dc.b	$FC
-	dc.b	"the spirits of those who fought"
+	dc.b	"esprits de ceux qui se sont"
 	dc.b	$FD
-	dc.b	"to protect Algo return to..."
+	dc.b	"battus pour Algo retournent..."
 	dc.b	$FD
-	dc.b	"Elsydeon is the sword"
+	dc.b	"Elsydeon est l'épée que"
 	dc.b	$FC
-	dc.b	"sheltered by those spirits!"
+	dc.b	"protègent ces esprits!"
 	dc.b	$FD
-	dc.b	"Now Chaz, you must take"
+	dc.b	"Maintenant, Chaz, vous devez"
 	dc.b	$FC
-	dc.b	"Elsydeon in your hands..."
+	dc.b	"prendre Elsydeon en vos mains..."
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Hey!"
+	dc.b	"Hé!"
 	dc.b	$F7
 
 	dc.b	$F4
@@ -695,11 +677,13 @@
 
 	dc.b	$F4
 	dc.b	$00
-	dc.b	"So you are Chaz whom"
+	dc.b	"Vous êtes donc Chaz, désigné par"
 	dc.b	$FC
-	dc.b	"Rune selected..."
+	dc.b	"Rune..."
 	dc.b	$FD
-	dc.b	"You were able to understand."
+	dc.b	"Vous êtes en mesure de"
+	dc.b	$FC
+	dc.b	"comprendre."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
@@ -709,39 +693,37 @@
 	dc.b	$00
 	dc.b	$F2, $00
 	dc.w	$0137
-	dc.b	"Chaz... I entrust to you"
+	dc.b	"Chaz... Je vous confie la charge"
 	dc.b	$FC
-	dc.b	"the care of Elsydeon!"
+	dc.b	"de porter Elsydeon!"
 	dc.b	$FD
-	dc.b	"All of our thoughts are stored"
+	dc.b	"Toutes nos pensées sont"
 	dc.b	$FC
-	dc.b	"within that sword."
+	dc.b	"accumulées dans cette épée."
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$0138
-	dc.b	"We will all be with you,"
+	dc.b	"Nous serons tous derrière vous,"
 	dc.b	$FC
-	dc.b	"Chaz, always, so..."
+	dc.b	"Chaz, en tout temps, alors..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Don't worry"
+	dc.b	"Ne vous en faites pas."
 	dc.b	$FC
-	dc.b	"Leave it to me!"
+	dc.b	"Je m'en charge!"
 	dc.b	$FF
 
 ; $32
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"I knew it."
-	dc.b	$FD
-	dc.b	"Elsydeon promised that"
+	dc.b	"J'en était sûr. Elsydeon avait"
 	dc.b	$FC
-	dc.b	"it would give you power."
+	dc.b	"promis qu'elle te donnerait"
 	dc.b	$FD
-	dc.b	"There was no mistake"
-	dc.b	$FC
-	dc.b	"in my judgment!"
+	dc.b	"son pouvoir."
+	dc.b	$FD
+	dc.b	"Mon jugement est infaillible!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
@@ -751,23 +733,23 @@
 	dc.b	$04
 	dc.b	$F2, $00
 	dc.w	$013C
-	dc.b	"Chaz, let's go save Algo!"
+	dc.b	"Chaz, allons sauver Algo!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Right!"
-	dc.b	$FD
-	dc.b	"We're doing it for all life in"
+	dc.b	"Oui! Nous faisons cela pour"
 	dc.b	$FC
-	dc.b	"Algo, and to create a future"
+	dc.b	"toute vie dans Algo, et pour"
 	dc.b	$FD
-	dc.b	"that is truly free of terror!"
-	dc.b	$FD
-	dc.b	"A future unbound at last from"
+	dc.b	"forger un avenir réellement"
 	dc.b	$FC
-	dc.b	"the evil of the past!"
+	dc.b	"délivré du mal!"
 	dc.b	$FD
-	dc.b	"For that, I will fight!"
+	dc.b	"Un avenir finalement libre"
+	dc.b	$FC
+	dc.b	"du mal ancien!"
+	dc.b	$FD
+	dc.b	"Je me batterai pour cela!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
@@ -775,9 +757,9 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Let's conquer, Chaz!"
+	dc.b	"Nous vaincrons, Chaz!"
 	dc.b	$FC
-	dc.b	"For Algo!"
+	dc.b	"Pour Algo!"
 	dc.b	$F9
 	dc.b	$3B
 
@@ -786,11 +768,11 @@
 	dc.b	$A9
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"We have an emergency!"
+	dc.b	"Il y a une urgence!"
 	dc.b	$FD
-	dc.b	"Demi informs us that disaster"
+	dc.b	"Demi nous informe d'un désastre"
 	dc.b	$FC
-	dc.b	"has erupted on Motavia!"
+	dc.b	"qui s'est déclaré sur Motavia!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
@@ -798,9 +780,9 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"All right."
+	dc.b	"C'est bon."
 	dc.b	$FC
-	dc.b	"Let's hurry to Motavia!!"
+	dc.b	"Pressons, vers Motavia!!"
 	dc.b	$FF
 
 ; $33
@@ -816,55 +798,53 @@
 ; $35
 	dc.b	$F4
 	dc.b	$19
-	dc.b	"Ah, Rune! It's good to see you"
+	dc.b	"Ah, Rune! Content de voir que"
 	dc.b	$FC
-	dc.b	"made it back safely."
+	dc.b	"vous êtes arrivé sain et sauf."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Forget the formalities."
+	dc.b	"Trêve de formalités."
 	dc.b	$FC
-	dc.b	"I'm going in."
+	dc.b	"Je vais entrer.."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$19
-	dc.b	"Oh, yes, of course..."
+	dc.b	"Oh, oui, bien sûr..."
 	dc.b	$FC
-	dc.b	"As you wish."
+	dc.b	"À vos ordres."
 	dc.b	$FF
 
 ; $36
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"We're borrowing"
+	dc.b	"Nous allons emprunter la chambre"
 	dc.b	$FC
-	dc.b	"the inner room again."
+	dc.b	"intérieur de nouveau. Je dois"
 	dc.b	$FD
-	dc.b	"I've got something to"
-	dc.b	$FC
-	dc.b	"give to Chaz."
+	dc.b	"léguer quelque chose à Chaz."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$19
-	dc.b	"S...surely, you're not going to"
+	dc.b	"Euh...Vous n'allez surement pas"
 	dc.b	$FC
-	dc.b	"give that to a youth like this!"
+	dc.b	"donner ça à un tel jeunôt!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Youth!"
+	dc.b	"Jeunôt?!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"There's no one other than Chaz."
+	dc.b	"Chaz est le seul choix possible."
 	dc.b	$FC
-	dc.b	"...You've got to believe me!"
+	dc.b	"...Vous devez me croire!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$19
-	dc.b	"I understand,reverent"
+	dc.b	"Entendu, vénéré Cinquième."
 	dc.b	$FC
-	dc.b	"fifth one. I will say no more."
+	dc.b	"J'obéirai sans protester."
 	dc.b	$FF
 
 ; $37

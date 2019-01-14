@@ -1,29 +1,27 @@
 ; 0
-	dc.b	"Who dares enter?"
+	dc.b	"Qui ose pénétrer ici!"
 	dc.b	$FC
-	dc.b	"Suspicious people will not be"
+	dc.b	"Les gens douteux ne sont pas"
 	dc.b	$FD
-	dc.b	"allowed to enter!"
+	dc.b	"permis d'entrer!"
 	dc.b	$FF
 
 ; $1
-	dc.b	"Oh, it's you, Kyra!"
+	dc.b	"Ah, c'est vous, Kyra!"
 	dc.b	$FC
-	dc.b	"Welcome back!"
+	dc.b	"Ravi de vous revoir!"
 	dc.b	$FF
 
 ; $2
-	dc.b	"So you're a friend of Kyra."
+	dc.b	"Alors, vous êtes des amis de"
 	dc.b	$FC
-	dc.b	"Please come in."
+	dc.b	"Kyra? Veuillez entrer."
 	dc.b	$FF
 
 ; $3
-	dc.b	"This mansion is also cut off"
+	dc.b	"Ce manoir est coupé du reste de"
 	dc.b	$FC
-	dc.b	"from the outside due to"
-	dc.b	$FD
-	dc.b	"the wall of ice."
+	dc.b	"Dezolis par ce mur de glace."
 	dc.b	$FF
 
 ; $4
@@ -31,31 +29,31 @@
 	dc.b	$DF, $02
 	dc.b	$FA
 	dc.b	$A1, $01
-	dc.b	"You're safe, Kyra."
+	dc.b	"Vous êtes saine et sauve, Kyra."
 	dc.b	$FC
-	dc.b	"I'm glad!"
+	dc.b	"Vous m'en voyez heureux!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"Thanks. "
+	dc.b	"Merci."
 	dc.b	$FC
-	dc.b	"It's all thanks to these people."
+	dc.b	"C'est grâce à ces gens."
 	dc.b	$FF
 
 ; $5
-	dc.b	"When Kyra gets upset,"
+	dc.b	"Quand Kyra est vexée, elle"
 	dc.b	$FC
-	dc.b	"she acts before she thinks!"
+	dc.b	"agit sans trop penser!"
 	dc.b	$FF
 
 ; $6
-	dc.b	"When Kyra gets upset,"
+	dc.b	"Quand Kyra est vexée, elle"
 	dc.b	$FC
-	dc.b	"she acts before she thinks!"
+	dc.b	"agit sans trop penser!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"Sorry about that!"
+	dc.b	"Ah, j'en suis désolée!"
 	dc.b	$FF
 
 ; $7
@@ -63,145 +61,149 @@
 	dc.b	$DF, $02
 	dc.b	$FA
 	dc.b	$A1, $01
-	dc.b	"Kyra! You're being rash again!"
-	dc.b	$FD
-	dc.b	"Just because"
+	dc.b	"Kyra! Vous avez encore été trop"
 	dc.b	$FC
-	dc.b	"you were able to get home..."
+	dc.b	"téméraire!"
+	dc.b	$FD
+	dc.b	"Ce n'est pas parce que vous avez"
+	dc.b	$FC
+	dc.b	"pu revenir en un seul morceau..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"I'll be more careful in"
+	dc.b	"Je serai plus prudente à"
 	dc.b	$FC
-	dc.b	"the future."
+	dc.b	"l'avenir."
 	dc.b	$FF
 
 ; $8
-	dc.b	"Kyra is basically"
+	dc.b	"Kyra est, à la base, une bonne"
 	dc.b	$FC
-	dc.b	"a good daughter, but"
+	dc.b	"fille, mais quand elle a une"
 	dc.b	$FD
-	dc.b	"once she's set on something,"
+	dc.b	"chose en tête, elle est"
 	dc.b	$FC
-	dc.b	"she has a one-track mind..."
+	dc.b	"incapable de lâcher le morceau."
 	dc.b	$FF
 
 ; $9
-	dc.b	"Kyra is basically"
+	dc.b	"Kyra est, à la base, une bonne"
 	dc.b	$FC
-	dc.b	"a good girl, but"
+	dc.b	"fille, mais quand elle a une"
 	dc.b	$FD
-	dc.b	"once she's set on something,"
+	dc.b	"chose en tête, elle est"
 	dc.b	$FC
-	dc.b	"she has a one-track mind..."
+	dc.b	"incapable de lâcher le morceau."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"You sure are getting ragged on."
+	dc.b	"Ouais, on casse pas mal de"
+	dc.b	$FC
+	dc.b	"sucre sur toi..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"I don't blame them"
+	dc.b	"Je ne leur en veux pas de dire"
 	dc.b	$FC
-	dc.b	"for saying those things."
+	dc.b	"de telles choses."
 	dc.b	$FD
-	dc.b	"It's all true."
+	dc.b	"C'est la vérité, après tout."
 	dc.b	$FF
 
 ; $A
 	dc.b	$FA
 	dc.b	$A1, $01
-	dc.b	"Kyra,"
+	dc.b	"Kyra, que ce passe-t-il dans"
 	dc.b	$FC
-	dc.b	"how about the town of Meese?"
+	dc.b	"la ville de Meese?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"Yes, well...my friends are"
+	dc.b	"Oui, eh bien...mes amis font de"
 	dc.b	$FC
-	dc.b	"doing their best..."
+	dc.b	"leur mieux..."
 	dc.b	$FD
-	dc.b	"But ultimately, it's not"
+	dc.b	"Mais au final, ça n'arrangera"
 	dc.b	$FC
-	dc.b	"going to solve anything."
+	dc.b	"rien."
 	dc.b	$FF
 
 ; $B
-	dc.b	"The snowstorm has subsided,"
+	dc.b	"La tempête s'est calmée, mais le"
 	dc.b	$FC
-	dc.b	"but not the wall of ice..."
+	dc.b	"mur de glace est toujours là..."
 	dc.b	$FD
-	dc.b	"It will take time for things"
+	dc.b	"Les choses prendront un temps"
 	dc.b	$FC
-	dc.b	"to get back to normal."
+	dc.b	"avant de revenir à la normale."
 	dc.b	$FF
 
 ; $C
 	dc.b	$FA
 	dc.b	$A1, $01
-	dc.b	"Upon hearing stories about"
+	dc.b	"J'ai entendu des rumeurs à"
 	dc.b	$FC
-	dc.b	"Reshel and Meese, I sent"
+	dc.b	"propos de Reshel et Meese, donc"
 	dc.b	$FD
-	dc.b	"some of my friends, but..."
+	dc.b	"j'y ai envoyé mes amis, mais..."
 	dc.b	$FD
-	dc.b	"I don't have any idea about"
+	dc.b	"Je n'ai aucune idée de ce qui"
 	dc.b	$FC
-	dc.b	"the conditions there because of"
+	dc.b	"se passe là-bas à cause du mur"
 	dc.b	$FD
-	dc.b	"the wall of ice."
+	dc.b	"de glace."
 	dc.b	$FD
-	dc.b	"Hey! It's Kyra!"
+	dc.b	"Hé! Kyra! Vous avez réussi à"
 	dc.b	$FC
-	dc.b	"You were able to make it home!"
+	dc.b	"revenir au bercail!"
 	dc.b	$FF
 
 ; $D
-	dc.b	"The weather should improve a"
+	dc.b	"Le climat devrait s'adoucir"
 	dc.b	$FC
-	dc.b	"little with this."
+	dc.b	"dorénavant."
 	dc.b	$FF
 
 ; $E
-	dc.b	"These rooms belong to my friends"
+	dc.b	"Ces appartements sont ceux de"
 	dc.b	$FC
-	dc.b	"who are in Meese now."
+	dc.b	"mes amis, partis pour Meese."
 	dc.b	$FF
 
 ; $F
 	dc.b	$FA
 	dc.b	$A1, $01
-	dc.b	"I feel it too. An enigmatic wave"
+	dc.b	"Je le sens aussi. Une onde"
 	dc.b	$FC
-	dc.b	"enveloping this planet!"
+	dc.b	"mystérieuse englobe la planète!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"Yes...in addition,"
+	dc.b	"Oui...de plus, elle s'intensifie"
 	dc.b	$FC
-	dc.b	"the closer you get to that"
+	dc.b	"lorsqu'on s'approche de la"
 	dc.b	$FD
-	dc.b	"Garuberk Tower,"
-	dc.b	$FC
-	dc.b	"the stronger it becomes!"
+	dc.b	"Tour Garuberk!"
 	dc.b	$FF
 
 ; $10
-	dc.b	"Just when I thought the"
+	dc.b	"Juste alors que je sentais"
 	dc.b	$FC
-	dc.b	"strange wave was decreasing,"
+	dc.b	"l'onde étrange diminuer, une"
 	dc.b	$FD
-	dc.b	"there was that big explosion"
+	dc.b	"énorme explosion a retenti..."
 	dc.b	$FC
-	dc.b	"...what was that?"
+	dc.b	"...qu'est-ce que c'était?"
 	dc.b	$FF
 
 ; $11
-	dc.b	"Espers are human too."
-	dc.b	$FD
-	dc.b	"And if they don't sleep"
+	dc.b	"Les Espers sont des humains"
 	dc.b	$FC
-	dc.b	"they will die!"
+	dc.b	"malgré tout."
+	dc.b	$FD
+	dc.b	"Et ils doivent dormir, sous"
+	dc.b	$FC
+	dc.b	"peine de périr!"
 	dc.b	$FF
 
 ; $12
@@ -209,43 +211,43 @@
 	dc.b	$A1, $02
 	dc.b	$FA
 	dc.b	$97, $01
-	dc.b	"Oooo...I'm scared! I'm afraid of"
+	dc.b	"Oooh...J'ai peur! J'ai très peur"
 	dc.b	$FC
-	dc.b	"that black energy wave!"
+	dc.b	"de l'onde d'Énergie Noire!"
 	dc.b	$FD
-	dc.b	"If Lutz is alive, why doesn't"
+	dc.b	"Si Lutz est vraiment vivant,"
 	dc.b	$FC
-	dc.b	"he appear, especially at a time"
+	dc.b	"pourquoi ne se montre-t-il pas"
 	dc.b	$FD
-	dc.b	"like this?"
+	dc.b	"dans de tels moments?"
 	dc.b	$FF
 
 ; $13
-	dc.b	"Oooo...I'm scared! I'm afraid of"
+	dc.b	"Oooh...J'ai peur! J'ai très peur"
 	dc.b	$FC
-	dc.b	"that black energy wave!"
+	dc.b	"de l'onde d'Énergie Noire!"
 	dc.b	$FD
-	dc.b	"If Lutz is alive, why doesn't"
+	dc.b	"Si Lutz est vraiment vivant,"
 	dc.b	$FC
-	dc.b	"he appear, especially at a time"
+	dc.b	"pourquoi ne se montre-t-il pas"
 	dc.b	$FD
-	dc.b	"like this?"
+	dc.b	"dans de tels moments?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"He's here, isn't he."
+	dc.b	"Il est là, n'est-ce pas."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Shhh!"
+	dc.b	"Chut!"
 	dc.b	$FF
 
 ; $14
-	dc.b	"I understand. Even though"
+	dc.b	"Je comprends. Même si l'onde"
 	dc.b	$FC
-	dc.b	"it may weaken the black energy"
+	dc.b	"d'Énergie Noire faiblit, elle ne"
 	dc.b	$FD
-	dc.b	"wave will not disappear!"
+	dc.b	"disparaîtera pas!"
 	dc.b	$FF
 
 ; $15
@@ -253,35 +255,39 @@
 	dc.b	$9D, $02
 	dc.b	$FA
 	dc.b	$97, $01
-	dc.b	"The inner sanctuary is beyond"
+	dc.b	"Le sanctuaire intérieur est"
 	dc.b	$FC
-	dc.b	"this entrance, but the royal"
+	dc.b	"passé cette porte, mais les"
 	dc.b	$FD
-	dc.b	"guards are protecting it and"
+	dc.b	"gardes royaux le protègent et"
 	dc.b	$FC
-	dc.b	"won't let us in."
+	dc.b	"ne laissent passer personne."
 	dc.b	$FF
 
 ; $16
-	dc.b	"You've entered the inner"
+	dc.b	"Vous avez pu entrer dans le"
 	dc.b	$FC
-	dc.b	"sanctuary? Who on earth are you?"
+	dc.b	"sanctuaire?"
+	dc.b	$FD
+	dc.b	"Qui diable êtes-vous?"
 	dc.b	$FF
 
 ; $17
-	dc.b	"Something..."
+	dc.b	"Quelque chose..."
 	dc.b	$FC
-	dc.b	"something is going to happen..."
+	dc.b	"quelque chose va se produire..."
 	dc.b	$FD
-	dc.b	"I can tell..."
+	dc.b	"Je le sens..."
 	dc.b	$FC
-	dc.b	"my chest is throbbing violently!"
+	dc.b	"Mon coeur palpite très fort!"
 	dc.b	$FF
 
 ; $18
-	dc.b	"This is the training room where"
+	dc.b	"Ici, c'est la salle d'entraîne-"
 	dc.b	$FC
-	dc.b	"we improve our bodies and souls."
+	dc.b	"ment pour renforcer nos corps"
+	dc.b	$FD
+	dc.b	"et nos âmes."
 	dc.b	$FF
 
 ; $19
@@ -289,121 +295,123 @@
 	dc.b	$A1, $02
 	dc.b	$FA
 	dc.b	$97, $01
-	dc.b	"It is our desire to get closer"
+	dc.b	"Nous tentons de nous rapprocher"
 	dc.b	$FC
-	dc.b	"to the feet of the reverent"
+	dc.b	"du niveau du vénéré Lutz avec"
 	dc.b	$FD
-	dc.b	"Lutz with a clear spirit and"
+	dc.b	"un esprit limpide et un corps"
 	dc.b	$FC
-	dc.b	"a body of steel."
+	dc.b	"d'acier."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"That's a good attitude!"
+	dc.b	"Quelle bonne attitude! Lutz est"
 	dc.b	$FC
-	dc.b	"Lutz is the idol of all!"
+	dc.b	"notre modèle à tous!"
 	dc.b	$FF
 
 ; $1A
-	dc.b	"It is our desire to get closer"
+	dc.b	"Nous tentons de nous rapprocher"
 	dc.b	$FC
-	dc.b	"to the feet of the reverent"
+	dc.b	"du niveau du vénéré Lutz avec"
 	dc.b	$FD
-	dc.b	"Lutz with a clear spirit and"
+	dc.b	"un esprit limpide et un corps"
 	dc.b	$FC
-	dc.b	"a body of steel."
+	dc.b	"d'acier."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"...that's what they say!"
+	dc.b	"...c'est ce qu'ils pensent!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"What are you trying to say?"
+	dc.b	"Que veux-tu dire au juste?"
 	dc.b	$FF
 
 ; $1B
-	dc.b	"I must discipline my spirit"
+	dc.b	"Je dois forger mon esprit pour"
 	dc.b	$FC
-	dc.b	"to be able to save Algo!"
+	dc.b	"pouvoir sauver Algo!"
 	dc.b	$FF
 
 ; $1C
 	dc.b	$FA
 	dc.b	$A1, $01
 	dc.b	$F3
-	dc.b	"Ohm...Ohm..."
+	dc.b	"Aoum...Aoum..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"He's meditating."
-	dc.b	$FC
-	dc.b	"Please leave him alone."
+	dc.b	"Il médite. Ne le dérangeons pas."
 	dc.b	$FF
 
 ; $1D
 	dc.b	$F3
-	dc.b	"Ohm...Ohm..."
+	dc.b	"Aoum...Aoum..."
 	dc.b	$FF
 
 ; $1E
-	dc.b	"This is the hall of worship,"
+	dc.b	"Ici, c'est la salle de prière,"
 	dc.b	$FC
-	dc.b	"but with the numerous crises"
+	dc.b	"mais avec tous les problèmes"
 	dc.b	$FD
-	dc.b	"of late, it's been quite unused!"
+	dc.b	"dernièrement, elle est pas mal"
+	dc.b	$FC
+	dc.b	"délaissée!"
 	dc.b	$FF
 
 ; $1F
 	dc.b	$FA
 	dc.b	$D9, $01
-	dc.b	"Have you heard!?"
+	dc.b	"Savez-vous quoi!?"
 	dc.b	$FD
-	dc.b	"There's a rumor of a sacred"
+	dc.b	"Il y a une rumeur à propos d'une"
 	dc.b	$FC
-	dc.b	"sword which has been passed down"
+	dc.b	"épée légendaire qui s'est"
 	dc.b	$FD
-	dc.b	"in Algo since ancient times!"
-	dc.b	$FD
-	dc.b	"It is said that"
+	dc.b	"transmise de génération en"
 	dc.b	$FC
-	dc.b	"it will increase the power of"
+	dc.b	"génération depuis des siècles!"
 	dc.b	$FD
-	dc.b	"its wielder manyfold!"
+	dc.b	"Il paraîtrait qu'elle peut"
+	dc.b	$FC
+	dc.b	"décupler la puissance de son"
+	dc.b	$FD
+	dc.b	"détenteur!"
 	dc.b	$FF
 
 ; $20
-	dc.b	"So, that's the rumor..."
+	dc.b	"Bon, c'est une rumeur..."
 	dc.b	$FC
-	dc.b	"It couldn't possibly be"
+	dc.b	"Elle n'est certainement pas"
 	dc.b	$FD
-	dc.b	"in this mansion...."
+	dc.b	"dans le manoir..."
 	dc.b	$FF
 
 ; $21
 	dc.b	$FA
 	dc.b	$D9, $01
-	dc.b	"Have you heard!?"
+	dc.b	"Savez-vous quoi!?"
 	dc.b	$FD
-	dc.b	"There's a rumor about"
+	dc.b	"Il y a une rumeur à propos d'une"
 	dc.b	$FC
-	dc.b	"the sacred sword Elsydeon"
+	dc.b	"épée légendaire qui s'est"
 	dc.b	$FD
-	dc.b	"which has been passed down"
+	dc.b	"transmise de génération en"
 	dc.b	$FC
-	dc.b	"in Algo since ancient times!"
+	dc.b	"génération depuis des siècles!"
 	dc.b	$FD
-	dc.b	"It is said that it is located"
+	dc.b	"Il paraîtrait qu'elle est"
 	dc.b	$FC
-	dc.b	"somewhere here in Dezolis!"
+	dc.b	"quelque part sur Dezolis!"
 	dc.b	$FF
 
 ; $22
-	dc.b	"So, that's the rumored"
+	dc.b	"Ainsi, ceci est l'épée sacrée"
 	dc.b	$FC
-	dc.b	"sacred sword! It couldn't"
+	dc.b	"de la rumeur! Incroyable qu'elle"
 	dc.b	$FD
-	dc.b	"possibly be in this mansion...."
+	dc.b	"se trouve sous mes yeux..."
 	dc.b	$FF
 
 ; $23
