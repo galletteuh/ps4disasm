@@ -514,7 +514,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"Wren vas nous y conduire."
+	dc.b	"Wren va nous y conduire."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$09
