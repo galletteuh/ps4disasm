@@ -1896,7 +1896,7 @@ Command_Item  = 4
 Command_Defense  = 5
 
 
-WindowSize_CombatTransient = $12	; width of "Cannot flee!"/"Surprise Attack!" window
+WindowSize_CombatTransient = $13	; width of "Cannot flee!"/"Surprise Attack!" window
 Title_ScrollDelay = $2E				; number of lines to show for scrolling title text
 Hunter_guild_cursor_x = $100		; X position of red cursor (pixels) for Hunter's guild window
 
@@ -1972,8 +1972,10 @@ RAM_Start = ramaddr($FFFF0000)
 ; If your dialogue is too large, you can gain around 1000 bytes by
 ; commenting the two lines above and uncommenting the two below.
 ; Note that this is still untested.
-Battle_Palette_Objects = ramaddr($FFFF2000)
 Dialogue_Trees = ramaddr($FFFF2A90)
+Battle_Palette_Objects = ramaddr($FFFF47E0)	; NOTE! This is right next to the system stack! Not great...
+						; but if we move the palette back in memory, it crashes in
+						; the Rift
 
 
 Battle_Routine = ramaddr($FFFF4100)
@@ -2034,8 +2036,10 @@ Fighter_Enemy_Group_1 = ramaddr($FFFF4640)
 Fighter_Enemy_Group_2 = ramaddr($FFFF4680)
 
 Vehicle_Stats = ramaddr($FFFF4700)
+; ends at ramaddr($FFFF47E0) at worse
 
-System_Stack = ramaddr($FFFF4FF0)
+;System_Stack = ramaddr($FFFF4FF0)
+System_Stack = ramaddr($FFFF5000)	; move system stack up a bit to make room for battle palettes
 
 Sound_Index = ramaddr($FFFF500A)
 
