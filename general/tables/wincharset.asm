@@ -10,3 +10,18 @@
 	charset $27, $54
 	charset	',', $55
 	charset	'·', $56
+
+	charset 'é', 88
+	charset 'ê', 89
+	charset 'è', 90
+	charset 'ë', 91
+	charset 'â', 92
+	charset 'à', 93
+	charset 'î', 94
+	charset 'ï', 95
+	charset 'ô', 96
+	charset 'û', 97
+	charset 'ù', 98
+	charset 'ü', 99
+	charset 'ç', 100
+
