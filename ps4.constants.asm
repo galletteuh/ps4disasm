@@ -1915,7 +1915,7 @@ Hunter_guild_cursor_x = $108		; X position of red cursor (pixels) for Hunter's g
 ; You usually only want to mess with the stage 1 delay, mainly because Motavia
 ; will stick there for too long if you increase stage 2, and stage 3 has a more
 ; hardcoded command sequence.
-CreditsStage1_ScrollDelay = $380 
+CreditsStage1_ScrollDelay = $380  + ($40*translator_credits)	; add 2 pages for translator credits
 CreditsStage2_ScrollDelay = CreditsStage1_ScrollDelay + $80
 CreditsStage3_ScrollDelay = CreditsStage2_ScrollDelay + $80
 
