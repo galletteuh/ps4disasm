@@ -1973,9 +1973,7 @@ RAM_Start = ramaddr($FFFF0000)
 ; commenting the two lines above and uncommenting the two below.
 ; This is not fully tested yet but appears to work.
 Dialogue_Trees = ramaddr($FFFF2000)
-Battle_Palette_Objects = ramaddr($FFFF2A90)	; NOTE! This is right next to the system stack! Not great...
-						; but if we move the palette back in memory, it crashes in
-						; the Rift
+Battle_Palette_Objects = ramaddr($FFFF2A90)
 
 
 Battle_Routine = ramaddr($FFFF4100)
