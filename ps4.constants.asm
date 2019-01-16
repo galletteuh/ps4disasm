@@ -1969,11 +1969,11 @@ RAM_Start = ramaddr($FFFF0000)
 ;Battle_Palette_Objects = ramaddr($FFFF2A90)
 ;Dialogue_Trees = ramaddr($FFFF3000)
 
-; If your dialogue is too large, you can gain around 1000 bytes by
+; If your dialogue is too large, you can gain $1000 bytes by
 ; commenting the two lines above and uncommenting the two below.
-; Note that this is still untested.
-Dialogue_Trees = ramaddr($FFFF2A90)
-Battle_Palette_Objects = ramaddr($FFFF47E0)	; NOTE! This is right next to the system stack! Not great...
+; This is not fully tested yet but appears to work.
+Dialogue_Trees = ramaddr($FFFF2000)
+Battle_Palette_Objects = ramaddr($FFFF2A90)	; NOTE! This is right next to the system stack! Not great...
 						; but if we move the palette back in memory, it crashes in
 						; the Rift
 
@@ -2038,8 +2038,7 @@ Fighter_Enemy_Group_2 = ramaddr($FFFF4680)
 Vehicle_Stats = ramaddr($FFFF4700)
 ; ends at ramaddr($FFFF47E0) at worse
 
-;System_Stack = ramaddr($FFFF4FF0)
-System_Stack = ramaddr($FFFF5000)	; move system stack up a bit to make room for battle palettes
+System_Stack = ramaddr($FFFF4FF0)
 
 Sound_Index = ramaddr($FFFF500A)
 
