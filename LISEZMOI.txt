@@ -77,6 +77,37 @@ même pas si vache avec les auteurs originaux!)
 2. Sommaire des changements
 ---------------------------
 
+Version 1.0.2
++++++++++++++
+
+- Correctif important au combat en véhicule. Un des
+  correctifs apportés à la branche principale du code
+  pour une meilleure gestion des dommages physiques
+  lorsque le joueur utilise une manoeuvre de défense
+  rendait les véhicules pratiquement invulnérables
+  (seules les attaques magiques avaient de l'effet).
+  Certains joueurs devaient apprécier le résultat :)
+  mais c'est mauvais pour l'expérience de jeu en
+  général. Ceci est corrigé, remerciements à galletteuh
+  pour avoir trouvé le segment de code coupable et
+  à lory1990 pour avoir fourni un correctif meilleur
+  que celui que BGE avait concocté au départ.
+
+- Correctifs à l'écran titre. Le sous-titre est maintenant
+  en français. Merci à BahaBulle.
+
+- Le texte est maintenant compressé. Ceci est optionel
+  et vous avez le choix d'utiliser une version où ce
+  n'est pas le cas. Compresser le texte pourrait causer
+  des ennuis par rapport à la stabilité du jeu (quoique
+  nous n'en avons pas relevé, il a tout de même fallu
+  déplacer une mémoire-tampon, ce qui est tout de même
+  un peu risqué). En revanche, cela permet d'avoir un
+  fichier .IPS de taille plus raisonnable pour ceux qui
+  n'ont pas la possibilité d'utiliser le xdelta. De plus,
+  la ROM finale aura la même taille que la ROM originale,
+  ce qui peut être important pour certains émulateurs.
+
 Version 1.0.1
 +++++++++++++
 
@@ -146,6 +177,9 @@ lory1990   : Production du désassemblage d'origine.
 
 mziab      : Conseils généraux sur les outils, aide
              technique et motivateur.
+
+BahaBulle  : .BMP pour le sous-titre. N'étant pas artiste,
+	     BGE était bien heureux de cette aide.
 
 
 6. Remarques légales
