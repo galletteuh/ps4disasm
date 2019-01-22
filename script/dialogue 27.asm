@@ -98,11 +98,11 @@
 	dc.b	$FD
 	dc.b	"étudiants à Piata."
 	dc.b	$FD
-	dc.b	"'Une de nos étudiantes sous"
+	dc.b	"«Une de nos étudiantes sous"
 	dc.b	$FC
 	dc.b	"notre charge est disparue."
 	dc.b	$FD
-	dc.b	"Retrouvez-la s'il-vous-plaît...'"
+	dc.b	"Retrouvez-la s'il-vous-plaît...»"
 	dc.b	$FC
 	dc.b	"Cela complète le message."
 	dc.b	$FD
@@ -207,11 +207,11 @@
 	dc.b	$FC
 	dc.b	"Eddie, qui habite Monsen."
 	dc.b	$FD
-	dc.b	"'Mon fils est tombé dans une"
+	dc.b	"«Mon fils est tombé dans une"
 	dc.b	$FC
 	dc.b	"crevasse!"
 	dc.b	$FD
-	dc.b	"Veuillez le secourir!'"
+	dc.b	"Veuillez le secourir!»"
 	dc.b	$FC
 	dc.b	"Cela complète le message."
 	dc.b	$FD
@@ -288,7 +288,7 @@
 	dc.b	$FD
 	dc.b	"par la poste."
 	dc.b	$FD
-	dc.b	"'Mes deux filles ont quitté le"
+	dc.b	"«Mes deux filles ont quitté le"
 	dc.b	$FC
 	dc.b	"village et ne sont pas revenues"
 	dc.b	$FD
@@ -296,7 +296,7 @@
 	dc.b	$FD
 	dc.b	"Retrouvez-les, je vous en"
 	dc.b	$FC
-	dc.b	"conjure...'"
+	dc.b	"conjure...»"
 	dc.b	$FD
 	dc.b	"Cela complète le message."
 	dc.b	$FD
@@ -427,7 +427,7 @@
 	dc.b	$FD
 	dc.b	"par la poste."
 	dc.b	$FD
-	dc.b	"'Mon fils est malade. J'aimerais"
+	dc.b	"«Mon fils est malade. J'aimerais"
 	dc.b	$FD
 	dc.b	"discuter avec vous d'un plan"
 	dc.b	$FC
@@ -435,7 +435,7 @@
 	dc.b	$FD
 	dc.b	"Je vous expliquerai lors de"
 	dc.b	$FC
-	dc.b	"notre rencontre.'"
+	dc.b	"notre rencontre.»"
 	dc.b	$FD
 	dc.b	"Ceci complète le message."
 	dc.b	$FD
@@ -526,13 +526,13 @@
 	dc.b	$FC
 	dc.b	"M. Sekreas de Torinco."
 	dc.b	$FD
-	dc.b	"'Nous sommes désespérés à cause"
+	dc.b	"«Nous sommes désespérés à cause"
 	dc.b	$FC
 	dc.b	"d'une nuée d'oiseaux qui "
 	dc.b	$FD
 	dc.b	"dévorent nos récoltes."
 	dc.b	$FD
-	dc.b	"Exterminez-les...'"
+	dc.b	"Exterminez-les...»"
 	dc.b	$FC
 	dc.b	"Ceci complète le message."
 	dc.b	$FD
@@ -639,7 +639,7 @@
 	dc.b	$FC
 	dc.b	"l'ancien du village de Zema."
 	dc.b	$FD
-	dc.b	"'D'étranges machines rôdent dans"
+	dc.b	"«D'étranges machines rôdent dans"
 	dc.b	$FC
 	dc.b	"la périphérie du village, ce qui"
 	dc.b	$FD
@@ -651,7 +651,7 @@
 	dc.b	$FD
 	dc.b	"les villageois sont inquiets et"
 	dc.b	$FC
-	dc.b	"voudraient que ça cesse.'"
+	dc.b	"voudraient que ça cesse.»"
 	dc.b	$FD
 	dc.b	"Ceci complète le message."
 	dc.b	$FD

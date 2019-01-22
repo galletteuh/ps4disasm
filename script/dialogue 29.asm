@@ -492,7 +492,7 @@
 	dc.b	$01
 	dc.b	"C'est un écriteau."
 	dc.b	$FC
-	dc.b	"'Ne pas courir sur le plancher.'"
+	dc.b	"«Ne pas courir sur le plancher.»"
 	dc.b	$FF
 
 ; $8D
@@ -500,19 +500,19 @@
 	dc.b	$01
 	dc.b	"C'est un écriteau."
 	dc.b	$FD
-	dc.b	"'Cette guilde est à tout le"
+	dc.b	"«Cette guilde est à tout le"
 	dc.b	$FC
-	dc.b	"monde. Utilisez-la avec calme.'"
+	dc.b	"monde. Utilisez-la avec calme.»"
 	dc.b	$FF
 
 ; $8E
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"'Chasseurs avec le plus de"
+	dc.b	"«Chasseurs avec le plus de"
 	dc.b	$FC
 	dc.b	"missions résolues:"
 	dc.b	$FD
-	dc.b	"1ère place, Alys Brangwin...'"
+	dc.b	"1ère place, Alys Brangwin...»"
 	dc.b	$FF
 
 ; $8F
@@ -539,7 +539,7 @@
 	dc.b	$01
 	dc.b	"Il y a un écriteau."
 	dc.b	$FD
-	dc.b	"'Accès interdit au public!'"
+	dc.b	"«Accès interdit au public!»"
 	dc.b	$FF
 
 ; $92
@@ -795,9 +795,9 @@
 	dc.b	$01
 	dc.b	"Il y a un tableau ici."
 	dc.b	$FD
-	dc.b	"C'est écrit 'Le fondateur du"
+	dc.b	"C'est écrit «Le fondateur du"
 	dc.b	$FC
-	dc.b	"marché, Aiedo Hernandez'"
+	dc.b	"marché, Aiedo Hernandez»"
 	dc.b	$FF
 
 ; $AC
@@ -937,9 +937,9 @@
 ; $BB
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Il est écrit: 'Danger Crevasses"
+	dc.b	"Il est écrit: «Danger! Crevasses"
 	dc.b	$FC
-	dc.b	"Ne Pas Entrer'"
+	dc.b	"Ne Pas Entrer»"
 	dc.b	$FF
 
 ; $BC
@@ -995,9 +995,9 @@
 ; $C2
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"'Élever des Enfants pour les"
+	dc.b	"«Élever des Enfants pour les"
 	dc.b	$FC
-	dc.b	"nuls'."
+	dc.b	"nuls»."
 	dc.b	$FF
 
 ; $C3
@@ -1029,9 +1029,9 @@
 ; $C6
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"'Statue de l'Héroïne,"
+	dc.b	"«Statue de l'Héroïne,"
 	dc.b	$FC
-	dc.b	"Alis Landale'"
+	dc.b	"Alis Landale»"
 	dc.b	$FD
 	dc.b	"Ce chat? Était-ce le sien?"
 	dc.b	$FF
@@ -1109,7 +1109,7 @@
 	dc.b	$01
 	dc.b	"Il y a un slogan."
 	dc.b	$FC
-	dc.b	"'Le Bonheur Va S'Enfuir...'"
+	dc.b	"«Le Bonheur Va S'Enfuir...»"
 	dc.b	$FF
 
 ; $D1
@@ -1117,9 +1117,9 @@
 	dc.b	$01
 	dc.b	"Il y a un slogan."
 	dc.b	$FD
-	dc.b	"'Si Vous Êtes Heureux, Essayez"
+	dc.b	"«Si Vous Êtes Heureux, Essayez"
 	dc.b	$FC
-	dc.b	"Toutes Les Choses...'"
+	dc.b	"Toutes Les Choses...»"
 	dc.b	$FF
 
 ; $D2
@@ -1181,7 +1181,7 @@
 	dc.b	$01
 	dc.b	"Il y a un écriteau:"
 	dc.b	$FD
-	dc.b	"'Nous Vendons du Trimate.'"
+	dc.b	"«Nous Vendons du Trimate.»"
 	dc.b	$FF
 
 ; $DA

@@ -13,13 +13,13 @@
 ; $1
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"'Mystères de l'Énergie Vitale.'"
+	dc.b	"«Mystères de l'Énergie Vitale.»"
 	dc.b	$FF
 
 ; $2
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"'Pouvoir et Pensée ESP.' C'est"
+	dc.b	"«Pouvoir et Pensée ESP.» C'est"
 	dc.b	$FC
 	dc.b	"trop ardu pour le comprendre."
 	dc.b	$FF
@@ -27,9 +27,9 @@
 ; $3
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"'Dezolis Sa Lumière et Ses"
+	dc.b	"«Dezolis Sa Lumière et Ses"
 	dc.b	$FC
-	dc.b	"Ténèbres'  Hmm..."
+	dc.b	"Ténèbres» Hmm..."
 	dc.b	$FF
 
 ; $4
@@ -37,17 +37,17 @@
 	dc.b	$01
 	dc.b	"C'est un livre à moitié lu."
 	dc.b	$FD
-	dc.b	"Le titre: 'Archives des"
+	dc.b	"Le titre: «Archives des"
 	dc.b	$FC
-	dc.b	"Glorieux Ancêtres...'"
+	dc.b	"Glorieux Ancêtres»..."
 	dc.b	$FF
 
 ; $5
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"'Manuel Technique pour"
+	dc.b	"«Manuel Technique pour"
 	dc.b	$FC
-	dc.b	"l'Hibernation Artificielle...'"
+	dc.b	"l'Hibernation Artificielle»..."
 	dc.b	$FD
 	dc.b	"Qu'est-ce que ça peut bien être?"
 	dc.b	$FF
@@ -55,9 +55,9 @@
 ; $6
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"'Magie et Techniques:"
+	dc.b	"«Magie et Techniques:"
 	dc.b	$FD
-	dc.b	"Effets et Concordance'"
+	dc.b	"Effets et Concordance»"
 	dc.b	$FC
 	dc.b	"Hmm..."
 	dc.b	$FF
@@ -65,7 +65,7 @@
 ; $7
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"'L'Esprit et la Matière'..."
+	dc.b	"«L'Esprit et la Matière»..."
 	dc.b	$FD
 	dc.b	"C'est trop difficile à"
 	dc.b	$FC
@@ -187,7 +187,7 @@
 ; $13
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"'Le Feu'..."
+	dc.b	"«Le Feu»..."
 	dc.b	$FC
 	dc.b	"Quel livre!"
 	dc.b	$FF
@@ -207,7 +207,7 @@
 ; $15
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"'Gestion d'Inventaire'..."
+	dc.b	"«Gestion d'Inventaire»..."
 	dc.b	$FC
 	dc.b	"Ah, un propriétaire lettré."
 	dc.b	$FF
@@ -233,11 +233,11 @@
 ; $18
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"'La Peur des Hauteurs"
+	dc.b	"«La Peur des Hauteurs"
 	dc.b	$FC
-	dc.b	"Étude Psychologique'..."
+	dc.b	"Étude Psychologique»..."
 	dc.b	$FD
-	dc.b	"Alors pourquoi construire une"
+	dc.b	"Alors, pourquoi construire une"
 	dc.b	$FC
 	dc.b	"maison à deux étages?"
 	dc.b	$FF
@@ -255,9 +255,9 @@
 ; $1A
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"'Rester en Santé dans le Climat"
+	dc.b	"«Rester en Santé dans le Climat"
 	dc.b	$FC
-	dc.b	"Dezolisien...'"
+	dc.b	"Dezolisien»..."
 	dc.b	$FD
 	dc.b	"La maîtresse des lieux semble"
 	dc.b	$FC
@@ -293,9 +293,9 @@
 ; $1E
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"'Gestion Hôtellière et Service"
+	dc.b	"«Gestion Hôtellière et Service"
 	dc.b	$FC
-	dc.b	"à la Clientèle...'"
+	dc.b	"à la Clientèle»..."
 	dc.b	$FD
 	dc.b	"Un mari bien studieux."
 	dc.b	$FF
@@ -415,11 +415,11 @@
 ; $2A
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"'Ceux qui ont Préservé Algo,"
+	dc.b	"«Ceux qui ont Préservé Algo,"
 	dc.b	$FC
 	dc.b	"Ainsi que l'Épée Sacrée,"
 	dc.b	$FD
-	dc.b	"Elsydeon'..."
+	dc.b	"Elsydeon»..."
 	dc.b	$FF
 
 ; $2B
@@ -459,7 +459,7 @@
 	dc.b	$01
 	dc.b	"Voici un livre bien usé."
 	dc.b	$FD
-	dc.b	"'Revalorisation de Dezolis...'"
+	dc.b	"«Revalorisation de Dezolis»..."
 	dc.b	$FF
 
 ; $30
@@ -477,7 +477,7 @@
 	dc.b	$01
 	dc.b	"Voici un livre bien usé."
 	dc.b	$FC
-	dc.b	"Hmm, 'La Vie sur Dezolis...'"
+	dc.b	"Hmm, «La Vie sur Dezolis»..."
 	dc.b	$FF
 
 ; $32
@@ -507,9 +507,9 @@
 ; $34
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Il est écrit, 'Le Compendium du"
+	dc.b	"Il est écrit, «Le Compendium du"
 	dc.b	$FC
-	dc.b	"Pingouin Dezolisien.'"
+	dc.b	"Pingouin Dezolisien»."
 	dc.b	$FF
 
 ; $35
@@ -543,11 +543,11 @@
 ; $38
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"C'est écrit 'Cahier de Voyage"
+	dc.b	"C'est écrit «Cahier de Voyage"
 	dc.b	$FC
-	dc.b	"à Gribouiller  Écrivez-y ce que"
+	dc.b	"à Gribouiller: Écrivez-y ce que"
 	dc.b	$FD
-	dc.b	"Vous Voulez...'"
+	dc.b	"Vous Voulez»..."
 	dc.b	$FF
 
 ; $39
@@ -763,9 +763,9 @@
 ; $4D
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"'Décoration Intérieure pour"
+	dc.b	"«Décoration Intérieure: comment"
 	dc.b	$FC
-	dc.b	"Inciter les Clients...'"
+	dc.b	"Inciter les Clients»..."
 	dc.b	$FF
 
 ; $4E
@@ -799,9 +799,9 @@
 	dc.b	$01
 	dc.b	"Il y a un écriteau sur la porte."
 	dc.b	$FD
-	dc.b	"Hmmm... 'Étant donné les circon-"
+	dc.b	"Hmmm... «Étant donné les circon-"
 	dc.b	$FC
-	dc.b	"stances, nous sommes fermés.'"
+	dc.b	"stances, nous sommes fermés.»"
 	dc.b	$FF
 
 ; $52

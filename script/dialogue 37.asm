@@ -700,13 +700,13 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$1B
-	dc.b	"La 'Noirceur Profonde' existe"
+	dc.b	"La «Noirceur Profonde» existe"
 	dc.b	$FC
 	dc.b	"encore."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"La 'Noirceur Profonde'?"
+	dc.b	"La «Noirceur Profonde»?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$1B
@@ -760,7 +760,7 @@
 	dc.b	$04
 	dc.b	"Archevêque, ce n'est pas clair."
 	dc.b	$FC
-	dc.b	"Qu'est-ce que 'Rykros'?"
+	dc.b	"Qu'est-ce que «Rykros»?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
@@ -790,13 +790,13 @@
 	dc.b	$1B
 	dc.b	"Je ne suis pas certain moi-même"
 	dc.b	$FC
-	dc.b	"de la nature de 'Rykros'..."
+	dc.b	"de la nature de «Rykros»..."
 	dc.b	$FD
 	dc.b	"ou d'où elle se trouve..."
 	dc.b	$FD
-	dc.b	"Quand 'Rykros' reviendra,"
+	dc.b	"Quand «Rykros» reviendra,"
 	dc.b	$FC
-	dc.b	"'l'Aero-Prisme' montrera la voie"
+	dc.b	"«l'Aero-Prisme» montrera la voie"
 	dc.b	$FD
 	dc.b	"Je ne sais rien hors de ce"
 	dc.b	$FC
@@ -806,7 +806,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"'Aero-Prisme'!?"
+	dc.b	"«Aero-Prisme»!?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04

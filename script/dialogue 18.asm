@@ -274,11 +274,11 @@
 	dc.b	$95, $02
 	dc.b	$FA
 	dc.b	$94, $01
-	dc.b	"Nous sommes les 'Espers' dont"
+	dc.b	"Nous sommes les «Espers» dont"
 	dc.b	$FC
 	dc.b	"tout le monde parle."
 	dc.b	$FD
-	dc.b	"Nous habitons le 'Manoir Esper'"
+	dc.b	"Nous habitons le «Manoir Esper»"
 	dc.b	$FC
 	dc.b	"au sud-est d'ici."
 	dc.b	$FF

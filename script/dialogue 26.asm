@@ -291,13 +291,13 @@
 	dc.b	$FC
 	dc.b	"propriétaire au village de Mile."
 	dc.b	$FD
-	dc.b	"'Les vers des sables de mon"
+	dc.b	"«Les vers des sables de mon"
 	dc.b	$FC
 	dc.b	"ranch ont tellement grandit que"
 	dc.b	$FD
 	dc.b	"je ne sais plus quoi faire."
 	dc.b	$FC
-	dc.b	"Aidez-moi...'"
+	dc.b	"Aidez-moi...»"
 	dc.b	$FD
 	dc.b	"Cela complète le message."
 	dc.b	$FD
@@ -404,9 +404,9 @@
 	dc.b	$FD
 	dc.b	"Clochette."
 	dc.b	$FD
-	dc.b	"'Notre chien 'Rocky' a disparu."
+	dc.b	"«Notre chien, Rocky, a disparu."
 	dc.b	$FC
-	dc.b	"Trouvez-le s'il vous plaît...'"
+	dc.b	"Trouvez-le s'il vous plaît...»"
 	dc.b	$FC
 	dc.b	"Ceci complète le message."
 	dc.b	$FD

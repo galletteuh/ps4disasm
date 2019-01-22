@@ -157,9 +157,9 @@
 	dc.b	$FF
 
 ; $D
-	dc.b	"Ah, la 'Parade du Pingouin"
+	dc.b	"Ah, la «Parade du Pingouin"
 	dc.b	$FC
-	dc.b	"Dezolisien!'"
+	dc.b	"Dezolisien»!"
 	dc.b	$FD
 	dc.b	"Comme vous êtes sympas, laissez-"
 	dc.b	$FC
@@ -782,7 +782,7 @@
 	dc.b	$02
 	dc.b	"Va savoir! Leur message disait"
 	dc.b	$FC
-	dc.b	"seulement, 'Venez vite.'"
+	dc.b	"seulement, «Venez vite.»"
 	dc.b	$FD
 	dc.b	"Nous demanderons plus de"
 	dc.b	$FC
@@ -814,7 +814,7 @@
 	dc.b	$FF
 
 ; $3C
-	dc.b	"le groupe des 'Chasseurs.'"
+	dc.b	"le groupe des «Chasseurs»."
 	dc.b	$FF
 
 ; $3D

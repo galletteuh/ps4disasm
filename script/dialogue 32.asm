@@ -79,7 +79,7 @@
 ; $1A
 	dc.b	$F4
 	dc.b	$0A, $00
-	dc.b	"'Lutz' devrait savoir comment"
+	dc.b	"«Lutz» devrait savoir comment"
 	dc.b	$FC
 	dc.b	"vaincre les arbres carnivores!"
 	dc.b	$FD
@@ -91,7 +91,7 @@
 	dc.b	$0A, $00
 	dc.b	"Je vais demander une audience"
 	dc.b	$FC
-	dc.b	"avec 'Lutz'!"
+	dc.b	"avec «Lutz»!"
 	dc.b	$FD
 	dc.b	"Direction, le Manoir Esper!"
 	dc.b	$FD
@@ -131,7 +131,7 @@
 	dc.b	$FD
 	dc.b	"arbres carnivores. Allons vite"
 	dc.b	$FC
-	dc.b	"au 'Temple Gumbious', à l'ouest"
+	dc.b	"au «Temple Gumbious», à l'ouest"
 	dc.b	$FD
 	dc.b	"du Manoir Esper!"
 	dc.b	$FD
@@ -159,7 +159,7 @@
 	dc.b	$01, $00
 	dc.b	"Qui sont ces gaillards?"
 	dc.b	$FC
-	dc.b	"Qu'est-ce que le 'Air Castle'?"
+	dc.b	"Qu'est-ce que le «Air Castle»?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08, $01
@@ -291,11 +291,11 @@
 ; $23
 	dc.b	$F4
 	dc.b	$04, $02
-	dc.b	"'L'Aero-Prisme' devrait pouvoir"
+	dc.b	"«L'Aero-Prisme» devrait pouvoir"
 	dc.b	$FC
 	dc.b	"nous indiquer la direction vers"
 	dc.b	$FD
-	dc.b	"'Rykros'..."
+	dc.b	"«Rykros»..."
 	dc.b	$FD
 	dc.b	"Il se trouve dans le Temple des"
 	dc.b	$FC
@@ -441,9 +441,9 @@
 ; $28
 	dc.b	$F4
 	dc.b	$06, $01
-	dc.b	"'La Tour du Courage' et"
+	dc.b	"«La Tour du Courage» et"
 	dc.b	$FC
-	dc.b	"'La Tour de la Force'..."
+	dc.b	"«La Tour de la Force»..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04, $02
@@ -487,7 +487,7 @@
 ; $2A
 	dc.b	$F4
 	dc.b	$01, $00
-	dc.b	"'Fais Face à Elsydeon...'"
+	dc.b	"«Fais Face à Elsydeon»..."
 	dc.b	$FC
 	dc.b	"Qu'est-ce que ça signifie?"
 	dc.b	$FF
@@ -505,9 +505,9 @@
 	dc.b	$FD
 	dc.b	"Le message est dénué de tout"
 	dc.b	$FC
-	dc.b	"contenu autre que 'venez"
+	dc.b	"contenu autre que, «venez"
 	dc.b	$FD
-	dc.b	"immédiatement...'"
+	dc.b	"immédiatement»..."
 	dc.b	$FF
 
 ; $2C

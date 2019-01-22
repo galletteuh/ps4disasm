@@ -87,7 +87,7 @@
 	dc.b	$FD
 	dc.b	"Alors c'est ce que signifiait"
 	dc.b	$FC
-	dc.b	"ce 'retour'!"
+	dc.b	"ce «retour»!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
@@ -105,9 +105,9 @@
 	dc.b	$FD
 	dc.b	"sur la Noirceur Profonde!"
 	dc.b	$FD
-	dc.b	"Qu'est-ce que la 'Noirceur"
+	dc.b	"Qu'est-ce que la «Noirceur"
 	dc.b	$FC
-	dc.b	"Profonde?'"
+	dc.b	"Profonde»?"
 	dc.b	$FD
 	dc.b	"Pourquoi cause-t-elle des"
 	dc.b	$FC
@@ -147,7 +147,7 @@
 	dc.b	$FD
 	dc.b	"À votre retour, vous serez"
 	dc.b	$FC
-	dc.b	"confirmés comme 'Protecteurs',"
+	dc.b	"confirmés comme «Protecteurs»,"
 	dc.b	$FD
 	dc.b	"et j'aurai réponse à vos"
 	dc.b	$FC
@@ -375,7 +375,7 @@
 	dc.b	$FD
 	dc.b	"Que voulez-vous dire par"
 	dc.b	$FC
-	dc.b	"'derniers instants'?"
+	dc.b	"«derniers instants»?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$00
@@ -574,7 +574,7 @@
 	dc.b	$FD
 	dc.b	"N'importe quoi!"
 	dc.b	$FD
-	dc.b	"Missions, 'Protecteurs',"
+	dc.b	"Missions, «Protecteurs»,"
 	dc.b	$FC
 	dc.b	"qu'est-ce que ça peut faire?"
 	dc.b	$FD

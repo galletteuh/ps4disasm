@@ -5,7 +5,17 @@ ps4.lst
 ps4built.bin
 ps4built.prev.bin
 
+*.bsdiff
+*.xdelta
+*.ips
+
 # Linux builder creates this
 p2bin
 
 script/*.bin.*
+
+ps4*.bin
+koschk.bin
+
+AS/DeltaPatcherLite.exe
+AS/Lunar IPS.exe

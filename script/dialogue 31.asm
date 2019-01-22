@@ -291,9 +291,9 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$07, $02
-	dc.b	"Nous aurons besoin du 'Land"
+	dc.b	"Nous aurons besoin du «Land"
 	dc.b	$FC
-	dc.b	"Rover' pour passer les sables"
+	dc.b	"Rover» pour passer les sables"
 	dc.b	$FD
 	dc.b	"mouvants. Dirigeons-nous vers"
 	dc.b	$FC
@@ -349,7 +349,7 @@
 	dc.b	$FC
 	dc.b	"magique de Zio, nous devons"
 	dc.b	$FD
-	dc.b	"obtenir le 'Bâton-psy'."
+	dc.b	"obtenir le «Bâton-psy»."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06, $02
@@ -555,7 +555,7 @@
 	dc.b	$04, $01
 	dc.b	"Bon, nous avons trouvé le"
 	dc.b	$FD
-	dc.b	"'Landale', alors cap sur"
+	dc.b	"«Landale», alors cap sur"
 	dc.b	$FC
 	dc.b	"Kuran."
 	dc.b	$FD

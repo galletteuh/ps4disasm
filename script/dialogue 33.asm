@@ -636,7 +636,7 @@
 	dc.b	$0E
 	dc.b	"Soudainement, un homme qui"
 	dc.b	$FC
-	dc.b	"disait s'appeler 'Zio' est"
+	dc.b	"disait s'appeler «Zio» est"
 	dc.b	$FD
 	dc.b	"apparu devant moi..."
 	dc.b	$FD

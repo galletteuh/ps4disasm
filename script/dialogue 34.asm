@@ -113,7 +113,7 @@
 	dc.b	$FD
 	dc.b	"destruction totale après le"
 	dc.b	$FC
-	dc.b	"'Grand Effondrement'."
+	dc.b	"«Grand Effondrement»."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
@@ -165,13 +165,13 @@
 	dc.b	$FD
 	dc.b	"...Si vous voulez en savoir"
 	dc.b	$FC
-	dc.b	"plus, adressez-vous à 'Seed'."
+	dc.b	"plus, adressez-vous à «Seed»."
 	dc.b	$FD
 	dc.b	"Il est juste ici."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"'Seed?'"
+	dc.b	"«Seed?»"
 	dc.b	$FF
 
 ; $1
@@ -189,7 +189,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$00
-	dc.b	"Je suis 'Seed', l'ordinateur de"
+	dc.b	"Je suis «Seed», l'ordinateur de"
 	dc.b	$FC
 	dc.b	"contrôle de ce Bio-labo."
 	dc.b	$FD
@@ -280,7 +280,7 @@
 	dc.b	$FC
 	dc.b	"avons à faire, c'est désactiver"
 	dc.b	$FD
-	dc.b	"'Nurvus', l'installation qui"
+	dc.b	"«Nurvus», l'installation qui"
 	dc.b	$FC
 	dc.b	"fournit l'énergie aux autres."
 	dc.b	$FD
@@ -292,7 +292,7 @@
 	dc.b	$00
 	dc.b	"D'abord, veuillez porter secours"
 	dc.b	$FC
-	dc.b	"à 'Demi', l'androïde-contrôle."
+	dc.b	"à «Demi», l'androïde-contrôle."
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$0035
@@ -431,7 +431,7 @@
 	dc.b	$FD
 	dc.b	"prototype datant d'avant le"
 	dc.b	$FC
-	dc.b	"'Grand Effondrement.'"
+	dc.b	"«Grand Effondrement»."
 	dc.b	$FD
 	dc.b	"Je lui ai aussi fait profiter"
 	dc.b	$FC
@@ -662,7 +662,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Le 'Bâton-psy'?"
+	dc.b	"Le «Bâton-psy»?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04

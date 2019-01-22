@@ -134,7 +134,7 @@
 
 	dc.b	$F4
 	dc.b	$23
-	dc.b	"Tiens, tiens... 'Protecteur',"
+	dc.b	"Tiens, tiens... «Protecteur»,"
 	dc.b	$FC
 	dc.b	"tu dis? Quelle mauviette!"
 	dc.b	$FD
@@ -247,7 +247,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"'Megid'..."
+	dc.b	"«Megid»..."
 	dc.b	$FC
 	dc.b	"La technique interdite?"
 	dc.b	$FD

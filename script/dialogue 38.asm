@@ -81,7 +81,7 @@
 ; $A
 	dc.b	"On dit qu'une tour appelée la"
 	dc.b	$FC
-	dc.b	"'Tour Corona' était érigée ici"
+	dc.b	"«Tour Corona» était érigée ici"
 	dc.b	$FD
 	dc.b	"jadis."
 	dc.b	$FF
@@ -163,11 +163,11 @@
 	dc.b	$9B, $02
 	dc.b	$FA
 	dc.b	$98, $01
-	dc.b	"'Un jour, la flamme du Flambeau"
+	dc.b	"«Un jour, la flamme du Flambeau"
 	dc.b	$FC
 	dc.b	"de l'Éclipse réduira en cendres"
 	dc.b	$FD
-	dc.b	"tout ce qui est impur.'"
+	dc.b	"tout ce qui est impur.»"
 	dc.b	$FD
 	dc.b	"C'est la légende du Flambeau de"
 	dc.b	$FC
@@ -175,11 +175,11 @@
 	dc.b	$FF
 
 ; $12
-	dc.b	"'Un jour, la flamme du Flambeau"
+	dc.b	"«Un jour, la flamme du Flambeau"
 	dc.b	$FC
 	dc.b	"de l'Éclipse réduira en cendres"
 	dc.b	$FD
-	dc.b	"tout ce qui est impur.'"
+	dc.b	"tout ce qui est impur.»"
 	dc.b	$FD
 	dc.b	"Je me demande si la légende dit"
 	dc.b	$FC
@@ -187,11 +187,11 @@
 	dc.b	$FF
 
 ; $13
-	dc.b	"'Un jour, la flamme du Flambeau"
+	dc.b	"«Un jour, la flamme du Flambeau"
 	dc.b	$FC
 	dc.b	"de l'Éclipse réduira en cendres"
 	dc.b	$FD
-	dc.b	"tout ce qui est impur.'"
+	dc.b	"tout ce qui est impur.»"
 	dc.b	$FD
 	dc.b	"Ce jour est peut-être arrivé."
 	dc.b	$FF

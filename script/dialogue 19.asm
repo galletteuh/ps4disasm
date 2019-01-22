@@ -367,13 +367,13 @@
 	dc.b	$A1, $02
 	dc.b	$FA
 	dc.b	$95, $01
-	dc.b	"Un 'Esper' est venu ici? C'est"
+	dc.b	"Un «Esper» est venu ici? C'est"
 	dc.b	$FC
 	dc.b	"louche!"
 	dc.b	$FF
 
 ; $25
-	dc.b	"Un 'Esper' est venu ici? C'est"
+	dc.b	"Un «Esper» est venu ici? C'est"
 	dc.b	$FC
 	dc.b	"louche!"
 	dc.b	$FD
@@ -388,7 +388,7 @@
 	dc.b	$FC
 	dc.b	"Je me demande si c'est grâce à"
 	dc.b	$FD
-	dc.b	"ces 'Espers?'"
+	dc.b	"ces «Espers»?"
 	dc.b	$FF
 
 ; $27

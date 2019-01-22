@@ -75,7 +75,7 @@
 ; $6
 	dc.b	"Vous connaissez la toge appelée"
 	dc.b	$FC
-	dc.b	"le 'Frade Mantle?'"
+	dc.b	"le «Frade Mantle»?"
 	dc.b	$FD
 	dc.b	"Elle est légère, et on dit"
 	dc.b	$FC

@@ -553,9 +553,9 @@
 ; $44
 	dc.b	"Chez les fidèles de Zio, il y a"
 	dc.b	$FC
-	dc.b	"un dicton: 'Les justes n'éludent"
+	dc.b	"un dicton: «Les justes n'éludent"
 	dc.b	$FD
-	dc.b	"pas Kadary.' Kadary est un lieu"
+	dc.b	"pas Kadary.» Kadary est un lieu"
 	dc.b	$FC
 	dc.b	"sacré!"
 	dc.b	$FF

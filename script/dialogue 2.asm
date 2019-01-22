@@ -513,7 +513,7 @@
 	dc.b	$FF
 
 ; $5E
-	dc.b	"'Échec'..."
+	dc.b	"«Échec»..."
 	dc.b	$FD
 	dc.b	"J'imagine que c'est normal"
 	dc.b	$FC

@@ -49,7 +49,7 @@
 	dc.b	$01
 	dc.b	"Il y a un écriteau."
 	dc.b	$FC
-	dc.b	"'Entrée interdite.'"
+	dc.b	"«Entrée interdite.»"
 	dc.b	$FF
 
 ; $5
@@ -63,15 +63,15 @@
 	dc.b	$01
 	dc.b	"Il y a un écriteau."
 	dc.b	$FC
-	dc.b	"'Ne pas jouer dans les marches.'"
+	dc.b	"«Ne pas jouer dans les marches.»"
 	dc.b	$FF
 
 ; $7
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"'Le Dieu de l'Apprentissage -"
+	dc.b	"«Le Dieu de l'Apprentissage -"
 	dc.b	$FC
-	dc.b	"Docteur Lubetz'"
+	dc.b	"Docteur Lubetz»"
 	dc.b	$FD
 	dc.b	"Hmm... une personne qui a vécue"
 	dc.b	$FC
@@ -89,7 +89,7 @@
 	dc.b	$01
 	dc.b	"Une collection de 20 volumes"
 	dc.b	$FC
-	dc.b	"poussièreux: 'Histoire d'Algo'."
+	dc.b	"poussièreux: «Histoire d'Algo»."
 	dc.b	$FF
 
 ; $A
@@ -111,21 +111,21 @@
 ; $C
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Un livre: 'La Géologie Moderne'."
+	dc.b	"Un livre: «La Géologie Moderne»."
 	dc.b	$FF
 
 ; $D
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Un livre: 'La Littérature de"
+	dc.b	"Un livre: «La Littérature de"
 	dc.b	$FC
-	dc.b	"Parma'."
+	dc.b	"Parma»."
 	dc.b	$FF
 
 ; $E
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Un livre: 'Le Polyglotte'."
+	dc.b	"Un livre: «Le Polyglotte»."
 	dc.b	$FF
 
 ; $F
@@ -139,7 +139,7 @@
 ; $10
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Un livre: 'Modernologie'."
+	dc.b	"Un livre: «Modernologie»."
 	dc.b	$FF
 
 ; $11
@@ -163,15 +163,15 @@
 	dc.b	$01
 	dc.b	"Voici un livre avec pour titre"
 	dc.b	$FC
-	dc.b	"'Phénomènes Célestes'."
+	dc.b	"«Phénomènes Célestes»."
 	dc.b	$FF
 
 ; $14
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Hmm...'Les Comètes et leur"
+	dc.b	"Hmm...«Les Comètes et leur"
 	dc.b	$FC
-	dc.b	"Observation'"
+	dc.b	"Observation»"
 	dc.b	$FD
 	dc.b	"C'est un livre d'astronomie."
 	dc.b	$FF
@@ -221,7 +221,7 @@
 	dc.b	$01
 	dc.b	"Ce livre a pour titre"
 	dc.b	$FC
-	dc.b	"'Agents de Réaction Chimiques'."
+	dc.b	"«Agents de Réaction Chimiques»."
 	dc.b	$FF
 
 ; $1B
@@ -395,9 +395,9 @@
 ; $30
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"C'est écrit, 'Le Grand Ranch des"
+	dc.b	"C'est écrit, «Le Grand Ranch des"
 	dc.b	$FC
-	dc.b	"Vers des Sables'."
+	dc.b	"Vers des Sables»."
 	dc.b	$FF
 
 ; $31
@@ -513,11 +513,11 @@
 	dc.b	$FC
 	dc.b	"Voyons voir..."
 	dc.b	$FD
-	dc.b	"'Pour une raison étrange,"
+	dc.b	"«Pour une raison étrange,"
 	dc.b	$FC
 	dc.b	"j'ai un mauvais pressentiment."
 	dc.b	$FD
-	dc.b	"J'espère que je me trompe...'"
+	dc.b	"J'espère que je me trompe...»"
 	dc.b	$FD
 	dc.b	"C'est la dernière page du"
 	dc.b	$FC
@@ -573,17 +573,17 @@
 ; $43
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"'Comment Converser pour"
+	dc.b	"«Comment Converser pour"
 	dc.b	$FC
 	dc.b	"Influencer et Inspirer les"
 	dc.b	$FD
-	dc.b	"Gens'."
+	dc.b	"Gens»."
 	dc.b	$FF
 
 ; $44
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"'Comment Conclure une Vente'."
+	dc.b	"«Comment Conclure une Vente»."
 	dc.b	$FC
 	dc.b	"Un propriétaire studieux."
 	dc.b	$FF
@@ -623,9 +623,9 @@
 	dc.b	$01
 	dc.b	"Il y a un écriteau..."
 	dc.b	$FD
-	dc.b	"'Ascenseur W3"
+	dc.b	"«Ascenseur W3"
 	dc.b	$FC
-	dc.b	"Vers la Section Ouest'."
+	dc.b	"Vers la Section Ouest»."
 	dc.b	$FF
 
 ; $49
@@ -633,9 +633,9 @@
 	dc.b	$01
 	dc.b	"Il y a un écriteau..."
 	dc.b	$FD
-	dc.b	"'Ascenseur E3"
+	dc.b	"«Ascenseur E3"
 	dc.b	$FC
-	dc.b	"Vers le Bloc Central'."
+	dc.b	"Vers le Bloc Central»."
 	dc.b	$FF
 
 ; $4A
@@ -659,11 +659,11 @@
 	dc.b	$01
 	dc.b	"Il y a un écriteau..."
 	dc.b	$FD
-	dc.b	"'Section Ouest, Entrée Interdite"
+	dc.b	"«Section Ouest, Entrée Interdite"
 	dc.b	$FC
 	dc.b	"au Personnel Non-Autorisé Passé"
 	dc.b	$FD
-	dc.b	"ce Point.'"
+	dc.b	"ce Point.»"
 	dc.b	$FF
 
 ; $4C
@@ -685,7 +685,7 @@
 ; $4E
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"'L'Histoire de Motavia'."
+	dc.b	"«L'Histoire de Motavia»."
 	dc.b	$FC
 	dc.b	"Ça n'a pas l'air commode!"
 	dc.b	$FF
@@ -693,13 +693,13 @@
 ; $4F
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"'L'Orthographe pour les Nuls'..."
+	dc.b	"«L'Orthographe pour les Nuls»..."
 	dc.b	$FF
 
 ; $50
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"'Un Plus Un Font...'"
+	dc.b	"«Un Plus Un Font...»"
 	dc.b	$FC
 	dc.b	"C'est mignon!"
 	dc.b	$FF
@@ -709,7 +709,7 @@
 	dc.b	$01
 	dc.b	"La pensée du jour..."
 	dc.b	$FC
-	dc.b	"'Une Bonne Action Par Jour'."
+	dc.b	"«Une Bonne Action Par Jour»."
 	dc.b	$FF
 
 ; $52
@@ -725,13 +725,13 @@
 	dc.b	$42, $01
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"'En Service  Gregson'"
+	dc.b	"«En Service: Gregson»"
 	dc.b	$FF
 
 ; $54
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"'En Service  Hopkins'"
+	dc.b	"«En Service: Hopkins»"
 	dc.b	$FF
 
 ; $55
@@ -739,7 +739,7 @@
 	dc.b	$01
 	dc.b	"C'est un livre pour enfants."
 	dc.b	$FD
-	dc.b	"'Le Lapin Gâté des Prairies'..."
+	dc.b	"«Le Lapin Gâté des Prairies»..."
 	dc.b	$FF
 
 ; $56
@@ -747,9 +747,9 @@
 	dc.b	$01
 	dc.b	"Regardez-moi ce livre illustré!"
 	dc.b	$FD
-	dc.b	"'La Fourmi à Huit Bras et"
+	dc.b	"«La Fourmi à Huit Bras et"
 	dc.b	$FC
-	dc.b	"l'Araignée à Six Jambes'..."
+	dc.b	"l'Araignée à Six Jambes»..."
 	dc.b	$FF
 
 ; $57
@@ -757,7 +757,7 @@
 	dc.b	$01
 	dc.b	"C'est un livre pour enfants."
 	dc.b	$FC
-	dc.b	"'Golden Axe, Volume 3'..."
+	dc.b	"«Golden Axe, Volume 3»..."
 	dc.b	$FF
 
 ; $58
@@ -765,7 +765,7 @@
 	dc.b	$01
 	dc.b	"Regardez-moi ce livre illustré."
 	dc.b	$FC
-	dc.b	"'Les Soldats de Céramique'..."
+	dc.b	"«Les Soldats de Céramique»..."
 	dc.b	$FF
 
 ; $59
@@ -773,7 +773,7 @@
 	dc.b	$01
 	dc.b	"C'est un livre pour enfants"
 	dc.b	$FC
-	dc.b	"'La Reine Dévoilée'..."
+	dc.b	"«La Reine Dévoilée»..."
 	dc.b	$FF
 
 ; $5A
@@ -781,7 +781,7 @@
 	dc.b	$01
 	dc.b	"Regardez-moi ce livre illustré."
 	dc.b	$FC
-	dc.b	"'Une Journée de la Vie d'Ecco'."
+	dc.b	"«Une Journée de la Vie d'Ecco»."
 	dc.b	$FF
 
 ; $5B
@@ -789,9 +789,9 @@
 	dc.b	$01
 	dc.b	"Regardez-moi ce livre illustré."
 	dc.b	$FD
-	dc.b	"'Biographie du Grand Professeur"
+	dc.b	"«Biographie du Grand Professeur"
 	dc.b	$FC
-	dc.b	"Lubetz'."
+	dc.b	"Lubetz»."
 	dc.b	$FF
 
 ; $5C
@@ -799,7 +799,7 @@
 	dc.b	$01
 	dc.b	"C'est un livre pour enfant."
 	dc.b	$FC
-	dc.b	"'Cours, Sonic, Cours!'"
+	dc.b	"«Cours, Sonic, Cours!»"
 	dc.b	$FF
 
 ; $5D
@@ -823,9 +823,9 @@
 	dc.b	$01
 	dc.b	"Ce livre semble ardu."
 	dc.b	$FD
-	dc.b	"Hmm... 'Motavia, Présent et"
+	dc.b	"Hmm... «Motavia, Présent et"
 	dc.b	$FC
-	dc.b	"Futur'..."
+	dc.b	"Futur»..."
 	dc.b	$FF
 
 ; $60
@@ -833,7 +833,7 @@
 	dc.b	$01
 	dc.b	"Oh, que vois-je...?"
 	dc.b	$FD
-	dc.b	"'Comment Aimer et Être Aimé'"
+	dc.b	"«Comment Aimer et Être Aimé»"
 	dc.b	$FC
 	dc.b	"...Wow!"
 	dc.b	$FF

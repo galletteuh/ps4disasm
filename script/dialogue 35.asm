@@ -366,7 +366,7 @@
 	dc.w	$0083
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Que veux-tu dire, 'Essayons'?"
+	dc.b	"Que veux-tu dire, «Essayons»?"
 	dc.b	$FC
 	dc.b	"On a pas le choix, non?"
 	dc.b	$FD

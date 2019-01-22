@@ -282,7 +282,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"'La magie'! Cette chose devait"
+	dc.b	"La «magie»! Cette chose devait"
 	dc.b	$FC
 	dc.b	"avoir disparu depuis mille ans!"
 	dc.b	$FD
@@ -338,9 +338,9 @@
 	dc.b	$05
 	dc.b	"S'il est avec le Père Dorin..."
 	dc.b	$FD
-	dc.b	"Il est probablement à la 'Tour"
+	dc.b	"Il est probablement à la «Tour"
 	dc.b	$FC
-	dc.b	"Ladea.'"
+	dc.b	"Ladea»."
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$004C
@@ -521,7 +521,7 @@
 	dc.w	$0058
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"'L'Onde Noire' ne vient pas de"
+	dc.b	"«L'Onde Noire» ne vient pas de"
 	dc.b	$FC
 	dc.b	"lui uniquement."
 	dc.b	$FD

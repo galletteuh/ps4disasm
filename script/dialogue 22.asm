@@ -415,7 +415,7 @@
 	dc.b	$01
 	dc.b	"Un grand pouvoir?"
 	dc.b	$FD
-	dc.b	"Qui était ce 'Il' dont Lashiec"
+	dc.b	"Qui était ce «Il» dont Lashiec"
 	dc.b	$FC
 	dc.b	"parlait?"
 	dc.b	$FD

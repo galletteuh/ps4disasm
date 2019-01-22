@@ -604,7 +604,7 @@
 	dc.b	$C0, $01
 	dc.b	"Hmm,"
 	dc.b	$FC
-	dc.b	"'Le Lieu Sacré de la Vie'..."
+	dc.b	"«Le Lieu Sacré de la Vie»..."
 	dc.b	$FD
 	dc.b	"Pourquoi ce nom, et pourquoi"
 	dc.b	$FC
