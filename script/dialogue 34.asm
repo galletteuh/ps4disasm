@@ -17,11 +17,11 @@
 	dc.b	$02
 	dc.b	"Bon, ça n'a pas l'air trop"
 	dc.b	$FC
-	dc.b	"dangereux ici, mais comment êtes"
+	dc.b	"dangereux ici, mais comment"
 	dc.b	$FD
-	dc.b	"vous parvenu à vous en sortir"
+	dc.b	"êtes-vous parvenu à vous en"
 	dc.b	$FC
-	dc.b	"sans aide?"
+	dc.b	"sortir sans aide?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0D
@@ -47,7 +47,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Comment?!"
+	dc.b	"Mais que...?!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
@@ -77,7 +77,7 @@
 	dc.b	$FD
 	dc.b	"C'est un centre de recherche"
 	dc.b	$FC
-	dc.b	"de bio-ingénérie créé par la"
+	dc.b	"en bio-ingénérie créé par la"
 	dc.b	$FD
 	dc.b	"civilisation d'il y a mille ans."
 	dc.b	$FD
@@ -149,7 +149,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Comment? Ah... Euh..."
+	dc.b	"Pardon? Ah... Euh..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
