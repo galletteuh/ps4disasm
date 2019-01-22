@@ -16,8 +16,11 @@ would like to extend thanks to the following people:
   children.  He also told me the font was 8x16 which did point me
   in the right direction.
 
-- BahaBulle from T.R.A.F. forums for supplying proper title
-  screen graphics.
+- BahaBulle from T.R.A.F. forums for finding the title screen
+  graphics in his notes.
+
+- Hroþgar SCRB for designing the title screen graphics in the
+  first place.
 
 - Benoit's daughter, Stéphanie, for bugging him incessantly about 
   the project, but also for beta testing parts of it.
@@ -50,11 +53,13 @@ French Translation task list:
   pixels) so I had to trim one cell from that text. It looks a bit
   unbalanced but I checked with a ruler and it's as centered as it
   will get.
-- Optionally turn off bugfixes one by one.
+- Optionally turn off bugfixes one by one. - DONE
   Ideally for the IPS patch all we'll want is the missing terminator
   in the "Chaz and his companion have perished" part because it's
   silly to break there; everything else, including the LV 99 fix,
   is not mandatory.
+- Fix quotes for French angle quotes instead of apostrophes - DONE
+-
 
 French Translation WONTDO:
 

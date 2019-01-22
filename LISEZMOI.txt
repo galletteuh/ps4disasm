@@ -14,11 +14,12 @@ Table des matières
 ==================
 
 1. Comment appliquer le patch
-2. Sommaire des changements
-3. Traducteurs
-4. Contacts
-5. Remerciements
-6. Remarques légales
+2. Différences entre les versions du patch
+3. Sommaire des changements
+4. Traducteurs
+5. Contacts
+6. Remerciements
+7. Remarques légales
 
 
 1. Comment appliquer le patch
@@ -40,30 +41,33 @@ utilitaire ici: http://www.winmd5.com/
 Si vous êtes sous Windows, pour appliquer le patch vous
 devrez utiliser un utilitaire tel Delta Patcher,
 disponible ici: https://www.romhacking.net/utilities/704/
+Nous suggérons très fortement ce dernier en fait, les
+autres utilitaires étant souvent plus problématiques.
 
 Sous Linux ou Mac OS X, installez xdelta3. Vous devrez
 utiliser une ligne de commande. La "formule magique"
 est la suivante:
 
-xdelta3 -ds ps4.bin ps4fr.vcdiff ps4fr.bin
+xdelta3 -ds ps4.bin ps4fr.xdelta ps4fr.bin
 
 * ps4fr.bin: le ROM original (que vous avez bien sûr
   obtenu via une copie de la cartouche, ou en achetant
   Phantasy Star IV sur Steam, ou d'une autre façon
   légale)
 
-* ps4fr.vcdiff: le patch, fourni dans le fichier .zip.
+* ps4fr.xdelta: le patch, fourni dans le fichier .zip.
 
 * ps4fr.bin: le nom du fichier ROM une fois patché.
 
 Malheureusement je n'ai pas vu de GUI pour xdelta3 sur
 Linux.
 
-Si pour une raison quelconque vous ne pouvez pas
-utiliser xdelta3, une version xdelta "simple" est
-également fournie. Nous laissons la marche à suivre à
-déterminer par le lecteur comme un exercise de lecture
-de documentation :)
+Nous fournissions également une version .IPS, ps4fr.ips.
+Celle-ci ne contient pas tous les changements, voir la
+section suivante pour plus d'information. Pour appliquer
+un patch .IPS, vous avez l'embarras du choix. Le plus
+simple est probablement Lunar IPS, que vous trouverez
+ici: https://www.romhacking.net/utilities/240/
 
 Théoriquement, le ROM patché a le bon checksum, il
 devrait donc fonctionner sur du matériel réel. Nous
@@ -74,10 +78,87 @@ pour le moment.
 même pas si vache avec les auteurs originaux!)
 
 
-2. Sommaire des changements
+2. Différences entre les versions du patch
+------------------------------------------
+
+Si vous êtes dans la mesure de le faire, nous recommandons
+très très fortement d'utiliser le patch en xdelta. Celui-ci
+inclut non seulement la traduction, mais également une
+quantité de correctifs maintenus par lory1990, dont:
+
+* Correctif au bug de niveau 99
+* Correctifs à la détection de collision dans certains endroits
+* Correctifs à l'avancement des personnages qui ne sont pas
+  dans l'équipe actuelle
+* Correctifs au calcul du coefficient de défense en cas
+  d'utilisation d'armure résistante
+* Correctifs à la palette du air castle
+* etc.
+
+En revanche, le patch .IPS, en plus d'être de plus grande
+taille, a dû être sévèrement diminué pour demeurer en deçà
+de 20% de la taille du ROM original. Cela est dû aux limites
+du format .IPS. Le IPS "pèse" alors 400 Ko. Ce n'est pas si
+mal si l'on considère que le texte, compressé, "pèse" un peu
+moins de 200 Ko, et il faut aussi compter les graphiques
+modifiés, le texte des menus (non compressé), et le fait qu'on
+a dû déplacer certains objets, ce qui a un impact sur nombre
+d'endroits dans le code original.
+
+Par contre, il a fallu sacrifier les correctifs qui ajoutaient
+trop de code. Il ne reste que les correctifs suivants:
+
+* Correctif au nom de la dague-tornade
+* Correctif au dialogue de Chaz à Ryuon
+* Correctif à une erreur dans la boulangerie en cas d'usage du
+  bouton d'annulation
+* Correctif au dialogue à Piata si un Escapipe est utilisé
+* Correctif aux statistiques de Chaz lorsqu'il obtient l'Elsydeon
+* Correctif au premier écran de Kuran et Zelan
+* Correctif au nombre de PosiBolt alloués à Wren aux niveaux
+  élevés
+* Correctif à la capacité Vision qui ne tenait pas compte de
+  la statistique Mental
+* Ajout d'un caractère de fin manquant lors du message montré
+  si la compagnie meurt hors d'un combat suite à l'effet du
+  poison
+
+Notamment, pas de correctif pour le niveau 99. Celui-ci grossit
+le patch de manière trop importante.
+
+De plus, le fichier IPS garde les dialogues compressés, ce qui
+est un mode de jeu moins testé; nous avons complété le jeu avec
+ce mode mais nous n'avons pas fait autant de tests. Les dialogues
+français étant plus longs que ceux en anglais, nous avons dû
+déplacer la mémoire tampon utilisée pour décompresser. Le Genesis
+n'ayant que 64 Ko de mémoire vive, les endroits disponibles
+n'étaient pas en grand nombre. Nous avons choisi de faire cohabiter
+la mémoire tampon avec un espace utilisé uniquement lors des
+combats, ce qui ne devrait pas causer trop de problèmes. Mais,
+c'est tout de même plus risqué que de garder les dialogues
+décompressés.
+
+Pourquoi être si sensible à la taille du patch? Eh bien, ce
+n'est pas seulement question de taille du fichier.
+
+Le problème, c'est qu'un fichier IPS trop gros contient en fait
+une bonne partie du code de la ROM originale. Celle-ci étant
+sous copyright, nous ne sommes pas vraiment à l'aise de distribuer
+un patch qui contient une si grosse partie du code original.
+Le format xdelta est beaucoup plus intelligent et arrive à
+déterminer les véritables changements, incluant les déplacements
+de code. Par contre, ce format est effectivement moins fréquent,
+et certains environnements supportent les patch IPS directement.
+Nous avons donc décidé de fournir ce patch IPS malgré tout.
+
+Après tout, durant des années, tout le monde jouait avec aucun
+des correctifs appliqués et ça ne râlait pas trop :)
+
+
+3. Sommaire des changements
 ---------------------------
 
-Version 1.0.2
+Version 1.1.0
 +++++++++++++
 
 - Correctif important au combat en véhicule. Un des
@@ -96,17 +177,28 @@ Version 1.0.2
 - Correctifs à l'écran titre. Le sous-titre est maintenant
   en français. Merci à BahaBulle.
 
-- Le texte est maintenant compressé. Ceci est optionel
-  et vous avez le choix d'utiliser une version où ce
-  n'est pas le cas. Compresser le texte pourrait causer
-  des ennuis par rapport à la stabilité du jeu (quoique
-  nous n'en avons pas relevé, il a tout de même fallu
-  déplacer une mémoire-tampon, ce qui est tout de même
-  un peu risqué). En revanche, cela permet d'avoir un
-  fichier .IPS de taille plus raisonnable pour ceux qui
-  n'ont pas la possibilité d'utiliser le xdelta. De plus,
-  la ROM finale aura la même taille que la ROM originale,
-  ce qui peut être important pour certains émulateurs.
+- Correctifs mineurs à la traduction.
+
+- Utilisation des guillemets français au lieu des
+  apostrophes dans le script.
+
+- Inclusion de la version .IPS du patch. Celle-ci ne
+  contient pas tous les correctifs de lory1990, car
+  cela donnerait un patch trop gros. Nous avons appliqué
+  le plus de correctifs possible dans la mesure où
+  ceux-ci permettaient de garder la taille du .IPS sous
+  les 1 megaoctet.
+
+- Révision total du système d'assemblage, pour permettre
+  la co-existence de la version compressée et décompressée
+  du texte, et une sélection plus fine des correctifs
+  désirés dans la version finale.
+
+- Si une version avec texte compressé est choisie, la ROM
+  patchée aura la même taille que la ROM originale. À terme,
+  si cette version s'avère être aussi stable que la version
+  d'origine décompressée, elle deviendra probablement la
+  version par défaut.
 
 Version 1.0.1
 +++++++++++++
