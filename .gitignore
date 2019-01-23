@@ -16,6 +16,7 @@ script/*.bin.*
 
 ps4*.bin
 koschk.bin
+linux_helpers/fixheader
 
 AS/DeltaPatcherLite.exe
 AS/Lunar IPS.exe
