@@ -826,7 +826,7 @@
 	dc.b	$06
 	dc.b	"Comment? Le système n'est pas"
 	dc.b	$FC
-	dc.b	"devenu Incontrôlable à cause"
+	dc.b	"devenu incontrôlable à cause"
 	dc.b	$FD
 	dc.b	"des agissements de Zio?"
 	dc.b	$FD
@@ -836,7 +836,7 @@
 	dc.b	$FC
 	dc.b	"des problèmes est le fait que"
 	dc.b	$FD
-	dc.b	"Zelan émet des commandes"
+	dc.b	"Zelan émet des ordres"
 	dc.b	$FC
 	dc.b	"contradictoires."
 	dc.b	$FD

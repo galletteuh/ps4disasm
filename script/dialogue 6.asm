@@ -181,7 +181,7 @@
 	dc.b	$03
 	dc.b	"Je ne comprends rien à ces"
 	dc.b	$FC
-	dc.b	"symtômes..."
+	dc.b	"symptômes..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$05
@@ -414,7 +414,7 @@
 	dc.b	$FD
 	dc.b	"Le Land Rover est un véhicule"
 	dc.b	$FC
-	dc.b	"multi-usage blindé inventé par"
+	dc.b	"blindé multi-usage inventé par"
 	dc.b	$FD
 	dc.b	"l'ancienne civilisation!"
 	dc.b	$FD

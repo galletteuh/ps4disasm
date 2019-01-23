@@ -646,7 +646,7 @@
 	dc.b	$13
 	dc.b	"Mon dieu ne tolèrera aucune"
 	dc.b	$FC
-	dc.b	"sorte de vie dans Algo!"
+	dc.b	"forme de vie dans Algo!"
 	dc.b	$FD
 	dc.b	"Tout doit être détruit."
 	dc.b	$FD
