@@ -452,7 +452,7 @@
 	dc.b	$FD
 	dc.b	"Hé!"
 	dc.b	$FC
-	dc.b	"Ma cagnotte secrê..."
+	dc.b	"Ma cagnotte secrè..."
 	dc.b	$FD
 	dc.b	$F7
 
