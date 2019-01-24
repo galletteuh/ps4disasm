@@ -749,7 +749,7 @@
 	dc.b	$FC
 	dc.b	"du mal ancien!"
 	dc.b	$FD
-	dc.b	"Je me batterai pour cela!"
+	dc.b	"Je me battrai pour cela!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06

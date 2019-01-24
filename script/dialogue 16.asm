@@ -478,7 +478,7 @@
 	endif
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Et vous n'avez aucune idée d'où"
+	dc.b	"Et vous n'avez aucune idée où"
 	dc.b	$FC
 	dc.b	"se trouve la Tour Garuberk?"
 	dc.b	$FD

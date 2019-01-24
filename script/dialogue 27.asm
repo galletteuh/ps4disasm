@@ -124,11 +124,11 @@
 
 ; $20
 	dc.b	"Alors, veuillez vous diriger aux"
-	dc.b	$FD
-	dc.b	"dortoirs étudiants de Piata et"
 	dc.b	$FC
-	dc.b	"demandez les détails directement"
+	dc.b	"dortoirs étudiants de Piata et"
 	dc.b	$FD
+	dc.b	"demandez les détails directement"
+	dc.b	$FC
 	dc.b	"au concierge."
 	dc.b	$FD
 	dc.b	"Les dortoirs sont dans le"

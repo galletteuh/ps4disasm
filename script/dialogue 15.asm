@@ -423,7 +423,7 @@
 	dc.b	$FC
 	dc.b	"ouest."
 	dc.b	$FD
-	dc.b	"Ce froid intense est très dûr,"
+	dc.b	"Ce froid intense est très dur,"
 	dc.b	$FC
 	dc.b	"même pour nous."
 	dc.b	$FD
@@ -433,7 +433,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$09
-	dc.b	"C'est dûr pour eux, mais ils"
+	dc.b	"C'est dur pour eux, mais ils"
 	dc.b	$FC
 	dc.b	"survivrons!"
 	dc.b	$FF
@@ -618,9 +618,9 @@
 	dc.b	$F4
 	dc.b	$01
 	dc.b	"...J'ai l'impression d'être"
-	dc.b	$FD
-	dc.b	"incapable de déchiffrer le sens"
 	dc.b	$FC
+	dc.b	"incapable de déchiffrer le sens"
+	dc.b	$FD
 	dc.b	"de l'humour Dezolisien..."
 	dc.b	$FF
 

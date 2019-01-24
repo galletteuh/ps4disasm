@@ -782,7 +782,7 @@
 ; $45
 	dc.b	$F4
 	dc.b	$07
-	dc.b	"En dessous de nous se trouve,"
+	dc.b	"En dessous de nous se trouve"
 	dc.b	$FC
 	dc.b	"Nurvus, le centre de contrôle"
 	dc.b	$FD
@@ -862,7 +862,7 @@
 	dc.b	$01
 	dc.b	"Quel fauteur de trouble..."
 	dc.b	$FC
-	dc.b	"Je t'aurais cette fois-ci!"
+	dc.b	"Je t'aurai cette fois-ci!"
 	dc.b	$F7
 
 	dc.b	$F4

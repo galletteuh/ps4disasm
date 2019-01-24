@@ -231,7 +231,7 @@
 	dc.b	$20
 	dc.b	"Vous dites? Alys est..."
 	dc.b	$FD
-	dc.b	"J'aurais du l'empêcher de"
+	dc.b	"J'aurais dû l'empêcher de"
 	dc.b	$FC
 	dc.b	"partir de force..."
 	dc.b	$FF

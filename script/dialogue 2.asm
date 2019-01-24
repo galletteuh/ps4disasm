@@ -487,9 +487,9 @@
 	dc.b	$FC
 	dc.b	"les apparences dans ce dortoir."
 	dc.b	$FD
-	dc.b	"Nous remmettrons la somme con-"
+	dc.b	"Nous remettrons la somme conve-"
 	dc.b	$FC
-	dc.b	"venue à la guilde!"
+	dc.b	"nue à la guilde!"
 	dc.b	$FD
 	dc.b	"Euh, aussi... J'apprécierais"
 	dc.b	$FC

@@ -521,9 +521,9 @@
 	dc.w	$0058
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"«L'Onde Noire» ne vient pas de"
+	dc.b	"«L'Onde Noire» ne vient pas"
 	dc.b	$FC
-	dc.b	"lui uniquement."
+	dc.b	"uniquement de Zio."
 	dc.b	$FD
 	dc.b	"Elle contient un pouvoir encore"
 	dc.b	$FC
