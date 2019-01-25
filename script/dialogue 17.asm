@@ -391,7 +391,7 @@
 ; $1F
 	dc.b	"Étrangement, vous nous rappelez"
 	dc.b	$FC
-	dc.b	"de plaisantes mémoires, miaou."
+	dc.b	"de plaisants souvenirs, miaou."
 	dc.b	$FF
 
 ; $20
@@ -411,7 +411,7 @@
 ; $22
 	dc.b	"Miaou."
 	dc.b	$FD
-	dc.b	"Je peux déboucher cette"
+	dc.b	"Je ne peux pas déboucher cette"
 	dc.b	$FC
 	dc.b	"bouteille, miaou."
 	dc.b	$FF
