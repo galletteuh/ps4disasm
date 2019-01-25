@@ -612,3 +612,8 @@
 	dc.b	$F6
 	dc.w	$0088	; => Event_KingRappy
 	dc.b	$FF
+;; Local Variables:
+;; eval: (fci-mode)
+;; fill-column: 48
+;; End:
+

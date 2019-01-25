@@ -988,3 +988,8 @@
 ; $15
 	dc.b	"sur un âge nouveau..."
 	dc.b	$FF
+;; Local Variables:
+;; eval: (fci-mode)
+;; fill-column: 48
+;; End:
+

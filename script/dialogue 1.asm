@@ -874,3 +874,8 @@
 	dc.b	$FC
 	dc.b	"cette affaire!"
 	dc.b	$FF
+;; Local Variables:
+;; eval: (fci-mode)
+;; fill-column: 48
+;; End:
+

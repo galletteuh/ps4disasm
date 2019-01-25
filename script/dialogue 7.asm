@@ -910,3 +910,8 @@
 	dc.b	$FC
 	dc.b	"rien derrière ce comptoir."
 	dc.b	$FF
+;; Local Variables:
+;; eval: (fci-mode)
+;; fill-column: 48
+;; End:
+

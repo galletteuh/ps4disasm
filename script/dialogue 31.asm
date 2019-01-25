@@ -633,3 +633,8 @@
 	dc.b	$FC
 	dc.b	"à elle-même. Allons l'aider!"
 	dc.b	$FF
+;; Local Variables:
+;; eval: (fci-mode)
+;; fill-column: 48
+;; End:
+

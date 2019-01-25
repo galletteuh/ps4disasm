@@ -596,3 +596,8 @@
 	dc.b	$FC
 	dc.b	"demander ça après avoir fugué?!"
 	dc.b	$FF
+;; Local Variables:
+;; eval: (fci-mode)
+;; fill-column: 48
+;; End:
+

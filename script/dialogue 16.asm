@@ -924,3 +924,8 @@
 	dc.b	"OK, d'abord."
 	endif
 	dc.b	$FF
+;; Local Variables:
+;; eval: (fci-mode)
+;; fill-column: 48
+;; End:
+

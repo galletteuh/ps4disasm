@@ -663,3 +663,8 @@
 	dc.b	$FC
 	dc.b	"de détente."
 	dc.b	$FF
+;; Local Variables:
+;; eval: (fci-mode)
+;; fill-column: 48
+;; End:
+

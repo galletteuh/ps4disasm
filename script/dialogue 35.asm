@@ -867,3 +867,8 @@
 	dc.b	$FD
 	dc.b	"tribord. Je vais le chercher."
 	dc.b	$FF
+;; Local Variables:
+;; eval: (fci-mode)
+;; fill-column: 48
+;; End:
+

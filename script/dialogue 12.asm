@@ -901,3 +901,8 @@
 	dc.b	$FC
 	dc.b	"à Aiedo!"
 	dc.b	$FF
+;; Local Variables:
+;; eval: (fci-mode)
+;; fill-column: 48
+;; End:
+

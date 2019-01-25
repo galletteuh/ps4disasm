@@ -851,3 +851,8 @@
 	dc.b	$F6
 	dc.w	$0067	; => Event_RuneHealingChaz
 	dc.b	$FF
+;; Local Variables:
+;; eval: (fci-mode)
+;; fill-column: 48
+;; End:
+

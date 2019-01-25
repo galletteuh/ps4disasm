@@ -907,3 +907,8 @@
 	dc.b	$01
 	dc.b	"C'est une cellule..."
 	dc.b	$FF
+;; Local Variables:
+;; eval: (fci-mode)
+;; fill-column: 48
+;; End:
+

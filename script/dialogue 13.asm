@@ -1040,3 +1040,8 @@
 	dc.b	$05
 	dc.b	"Ah, les autochtones, hein..."
 	dc.b	$FF
+;; Local Variables:
+;; eval: (fci-mode)
+;; fill-column: 48
+;; End:
+

@@ -299,3 +299,8 @@
 	dc.b	$FC
 	dc.b	"Prête-moi ta force!"
 	dc.b	$FF
+;; Local Variables:
+;; eval: (fci-mode)
+;; fill-column: 48
+;; End:
+

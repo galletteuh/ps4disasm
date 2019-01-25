@@ -179,9 +179,11 @@
 	dc.b	$01
 	dc.b	"Ce sont leurs assiettes."
 	dc.b	$FC
-	dc.b	"Elles sont étonnament semblables"
+	dc.b	"Elles sont étonnamment"
 	dc.b	$FD
-	dc.b	"aux assiettes Parmaniennes."
+	dc.b	"semblables aux assiettes"
+	dc.b	$FC
+	dc.b	"Parmaniennes."
 	dc.b	$FF
 
 ; $13
@@ -245,10 +247,12 @@
 ; $19
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Ce n'est pas la même chose qu'un"
+	dc.b	"Ce n'est pas aussi impression-"
 	dc.b	$FC
-	dc.b	"feu de bivouac Dezolisien."
+	dc.b	"nant qu'un feu de bivouac"
 	dc.b	$FD
+	dc.b	"Dezolizien."
+	dc.b	$FC
 	dc.b	"Ce n'est qu'une torche."
 	dc.b	$FF
 
@@ -359,7 +363,7 @@
 	dc.b	$01
 	dc.b	"C'est une cuisine Dezolisienne."
 	dc.b	$FC
-	dc.b	"Il semblent qu'ils aiment garder"
+	dc.b	"Il semble qu'ils aiment garder"
 	dc.b	$FD
 	dc.b	"leur maison bien propre."
 	dc.b	$FF
@@ -380,10 +384,12 @@
 	dc.b	$F4
 	dc.b	$01
 	dc.b	"Ce sont des assiettes."
-	dc.b	$FD
-	dc.b	"Elles sont étonnament semblables"
 	dc.b	$FC
-	dc.b	"aux assiettes Parmaniennes."
+	dc.b	"Elles sont étonnamment"
+	dc.b	$FD
+	dc.b	"semblables aux assiettes"
+	dc.b	$FC
+	dc.b	"Parmaniennes."
 	dc.b	$FF
 
 ; $27
@@ -534,10 +540,12 @@
 	dc.b	$F4
 	dc.b	$01
 	dc.b	"Ce sont des assiettes."
+	dc.b	$FC
+	dc.b	"Elles sont étonnamment"
 	dc.b	$FD
-	dc.b	"Elles sont étonnamment semblables"
-	dc.b	$FD
-	dc.b	"aux assiettes Parmaniennes."
+	dc.b	"semblables aux assiettes"
+	dc.b	$FC
+	dc.b	"Parmaniennes."
 	dc.b	$FF
 
 ; $38
@@ -583,11 +591,13 @@
 ; $3C
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Vérification complétée. Tous les"
+	dc.b	"Vérification complétée. Tous"
 	dc.b	$FC
-	dc.b	"systèmes de Kuran fonctionnent"
+	dc.b	"les systèmes de Kuran"
 	dc.b	$FD
-	dc.b	"selon les paramètres normaux."
+	dc.b	"fonctionnent selon les"
+	dc.b	$FC
+	dc.b	"paramètres normaux."
 	dc.b	$FF
 
 ; $3D
@@ -813,3 +823,8 @@
 	dc.b	$FC
 	dc.b	"va mieux?"
 	dc.b	$FF
+;; Local Variables:
+;; eval: (fci-mode)
+;; fill-column: 48
+;; End:
+

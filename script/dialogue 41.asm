@@ -296,3 +296,8 @@
 	dc.b	$F6
 	dc.w	$0062	; =>Event_AngerTowerAlys
 	dc.b	$FF
+;; Local Variables:
+;; eval: (fci-mode)
+;; fill-column: 48
+;; End:
+

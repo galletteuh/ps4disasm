@@ -911,3 +911,8 @@
 	dc.b	$08
 	dc.b	"Entendu!"
 	dc.b	$FF
+;; Local Variables:
+;; eval: (fci-mode)
+;; fill-column: 48
+;; End:
+

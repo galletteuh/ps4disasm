@@ -1099,3 +1099,8 @@
 	dc.b	$FC
 	dc.b	"rouillée. Rien à faire!"
 	dc.b	$FF
+;; Local Variables:
+;; eval: (fci-mode)
+;; fill-column: 48
+;; End:
+

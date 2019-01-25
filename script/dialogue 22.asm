@@ -724,3 +724,8 @@
 	dc.b	$FC
 	dc.b	"vrais et les détruires!"
 	dc.b	$FF
+;; Local Variables:
+;; eval: (fci-mode)
+;; fill-column: 48
+;; End:
+

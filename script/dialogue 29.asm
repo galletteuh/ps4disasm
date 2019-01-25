@@ -1326,3 +1326,8 @@
 	dc.b	$F4
 	dc.b	$01
 	dc.b	$FF
+;; Local Variables:
+;; eval: (fci-mode)
+;; fill-column: 48
+;; End:
+

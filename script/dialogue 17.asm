@@ -836,3 +836,8 @@
 ; $41
 	dc.b	"et comment cela va se terminer?"
 	dc.b	$FF
+;; Local Variables:
+;; eval: (fci-mode)
+;; fill-column: 48
+;; End:
+

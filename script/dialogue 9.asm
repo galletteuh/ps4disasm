@@ -740,3 +740,8 @@
 ; $58
 	dc.b	"Ouais, tu as raison."
 	dc.b	$FF
+;; Local Variables:
+;; eval: (fci-mode)
+;; fill-column: 48
+;; End:
+

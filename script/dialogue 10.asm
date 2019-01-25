@@ -776,3 +776,8 @@
 	dc.b	$FC
 	dc.b	"pas encore la féérie du voyage."
 	dc.b	$FF
+;; Local Variables:
+;; eval: (fci-mode)
+;; fill-column: 48
+;; End:
+

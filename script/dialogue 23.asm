@@ -665,3 +665,8 @@
 	dc.b	$FD
 	dc.b	"subi!"
 	dc.b	$FF
+;; Local Variables:
+;; eval: (fci-mode)
+;; fill-column: 48
+;; End:
+

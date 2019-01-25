@@ -629,3 +629,8 @@
 	dc.b	$26
 	dc.b	"Je crois que ma force revient!"
 	dc.b	$FF
+;; Local Variables:
+;; eval: (fci-mode)
+;; fill-column: 48
+;; End:
+

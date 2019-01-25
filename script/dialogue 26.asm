@@ -505,3 +505,8 @@
 	dc.b	$01
 	dc.b	"Ne dis pas de sottises!"
 	dc.b	$FF
+;; Local Variables:
+;; eval: (fci-mode)
+;; fill-column: 48
+;; End:
+

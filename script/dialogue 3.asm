@@ -1011,3 +1011,8 @@
 	dc.b	$FC
 	dc.b	"En route pour Molcum!"
 	dc.b	$FF
+;; Local Variables:
+;; eval: (fci-mode)
+;; fill-column: 48
+;; End:
+

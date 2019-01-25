@@ -816,3 +816,8 @@
 	dc.b	$F6
 	dc.w	$0093	; => Event_MeeseClinicSickWoman
 	dc.b	$FF
+;; Local Variables:
+;; eval: (fci-mode)
+;; fill-column: 48
+;; End:
+

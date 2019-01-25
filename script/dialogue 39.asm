@@ -652,3 +652,8 @@
 	dc.b	$F6
 	dc.w	$0068	; => Event_PickingFifthCharacter
 	dc.b	$FF
+;; Local Variables:
+;; eval: (fci-mode)
+;; fill-column: 48
+;; End:
+

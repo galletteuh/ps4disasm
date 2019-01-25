@@ -471,3 +471,8 @@
 	dc.b	$F6
 	dc.w	$0045	; => Event_PersistentEsperGuards
 	dc.b	$FF
+;; Local Variables:
+;; eval: (fci-mode)
+;; fill-column: 48
+;; End:
+

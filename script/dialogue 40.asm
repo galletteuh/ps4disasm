@@ -725,3 +725,8 @@
 	dc.b	$FC
 	dc.b	"Tu y trouveras tes réponses!"
 	dc.b	$FF
+;; Local Variables:
+;; eval: (fci-mode)
+;; fill-column: 48
+;; End:
+
