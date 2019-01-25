@@ -823,7 +823,7 @@
 	dc.b	$FC
 	dc.b	"Des monstres étranges sont"
 	dc.b	$FD
-	dc.b	"apparu entre les murs de"
+	dc.b	"apparus entre les murs de"
 	dc.b	$FC
 	dc.b	"notre Académie!"
 	dc.b	$FD
