@@ -200,9 +200,9 @@
 	dc.b	$FC
 	dc.b	"Reshel, ma ville natale!"
 	dc.b	$FD
-	dc.b	"Je suis sûr qu'ils finiront par"
+	dc.b	"Je suis sûre qu'ils finiront"
 	dc.b	$FC
-	dc.b	"trouver un remède contre la"
+	dc.b	"par trouver un remède contre la"
 	dc.b	$FD
 	dc.b	"maladie et que tout redeviendra"
 	dc.b	$FC
