@@ -437,7 +437,7 @@
 	dc.b	$FD
 	dc.b	"Vous avez accompli tout un"
 	dc.b	$FC
-	dc.b	"exploit en la retrouvant!"
+	dc.b	"exploit en le retrouvant!"
 	dc.b	$FD
 	dc.b	"Je n'ai pas de réserves à prêter"
 	dc.b	$FC
