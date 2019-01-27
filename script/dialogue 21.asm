@@ -363,7 +363,7 @@
 ; $1F
 	dc.b	$FA
 	dc.b	$D9, $01
-	dc.b	"Savez-vous quoi!?"
+	dc.b	"Vous savez quoi!?"
 	dc.b	$FD
 	dc.b	"Il y a une rumeur à propos d'une"
 	dc.b	$FC
@@ -391,7 +391,7 @@
 ; $21
 	dc.b	$FA
 	dc.b	$D9, $01
-	dc.b	"Savez-vous quoi!?"
+	dc.b	"Vous savez quoi!?"
 	dc.b	$FD
 	dc.b	"Il y a une rumeur à propos d'une"
 	dc.b	$FC

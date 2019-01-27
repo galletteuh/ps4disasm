@@ -582,9 +582,9 @@
 ; $18
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Donc, partons à la recherche du"
+	dc.b	"Alors, partons à la recherche"
 	dc.b	$FC
-	dc.b	"Air Castle."
+	dc.b	"du Air Castle."
 	dc.b	$FD
 	dc.b	$F2, $03
 	dc.b	$F8

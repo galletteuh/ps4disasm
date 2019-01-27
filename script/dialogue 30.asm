@@ -27,7 +27,7 @@
 ; $3
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"«Dezolis Sa Lumière et Ses"
+	dc.b	"«Dezolis: Sa Lumière et Ses"
 	dc.b	$FC
 	dc.b	"Ténèbres» Hmm..."
 	dc.b	$FF

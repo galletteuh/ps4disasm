@@ -311,7 +311,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$1C
-	dc.b	"Je fond! Je fond!!!"
+	dc.b	"Je fonds! Je fonds!!!"
 	dc.b	$FD
 	dc.b	$F2, $03
 	dc.b	$ED

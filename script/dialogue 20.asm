@@ -106,7 +106,7 @@
 ; $23
 	dc.b	$F4
 	dc.b	$17
-	dc.b	"Excusez moi!"
+	dc.b	"Pardonnez moi!"
 	dc.b	$FF
 
 ; $24
@@ -133,7 +133,7 @@
 	dc.b	$D7, $01
 	dc.b	$F4
 	dc.b	$19
-	dc.b	"Je prie pour votre sécurité."
+	dc.b	"Je prierai pour votre sécurité."
 	dc.b	$FF
 
 ; $27
@@ -194,9 +194,9 @@
 	dc.b	$06
 	dc.b	"Je me demande quel genre de"
 	dc.b	$FC
-	dc.b	"personne est-il? Qu'en"
+	dc.b	"personne est-il?"
 	dc.b	$FD
-	dc.b	"penses-tu, Chaz?"
+	dc.b	"Qu'en penses-tu, Chaz?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
@@ -322,11 +322,11 @@
 	dc.b	$FC
 	dc.b	"n'est-ce pas!?"
 	dc.b	$FD
-	dc.b	"C'est pourquoi...pourquoi..."
+	dc.b	"C'est pourquoi... pourquoi..."
 	dc.b	$FC
-	dc.b	"nous travaillons si dur..."
+	dc.b	"Nous travaillons si dur..."
 	dc.b	$FD
-	dc.b	"il doit encore exister!"
+	dc.b	"Il doit encore exister!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04

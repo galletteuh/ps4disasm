@@ -524,7 +524,7 @@
 
 	dc.b	$F4
 	dc.b	$1A
-	dc.b	"Ahhhhhh"
+	dc.b	"Ahhhhhh!"
 	dc.b	$FC
 	dc.b	"C'est horrible!"
 	dc.b	$FD
@@ -536,9 +536,9 @@
 	dc.b	$FC
 	dc.b	"été si borné!"
 	dc.b	$FD
-	dc.b	"Oh, comment puis-je vivre avec"
+	dc.b	"Oh, comment pourrai-je vivre"
 	dc.b	$FC
-	dc.b	"cette honte..."
+	dc.b	"avec cette honte..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
