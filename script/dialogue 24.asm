@@ -422,15 +422,15 @@
 	dc.b	$FC
 	dc.b	"de l'héroïne sur la colline."
 	dc.b	$FD
-	dc.b	"Il disait, »même si elle est une"
+	dc.b	"Il disait, «même si elle est une"
 	dc.b	$FC
-	dc.b	"femme, elle a l'air sympa,» et"
+	dc.b	"femme, elle a l'air sympa», et"
 	dc.b	$FD
 	dc.b	"il voulait devenir fort et"
 	dc.b	$FC
 	dc.b	"vaincre les méchants, lui aussi."
 	dc.b	$FD
-	dc.b	"Et maintenant ça..."
+	dc.b	"Et maintenant, voyez..."
 	dc.b	$FF
 
 ; $30

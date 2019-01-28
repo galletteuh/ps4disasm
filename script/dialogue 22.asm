@@ -667,7 +667,7 @@
 	dc.w	$0115
 	dc.b	"Tu veux que je te botte le"
 	dc.b	$FC
-	dc.b	"derrière de nouveau!?"
+	dc.b	"derrière encore une fois!?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06

@@ -489,7 +489,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$27
-	dc.b	"Minute, ne vous fachez pas."
+	dc.b	"Minute, ne vous fâchez pas."
 	dc.b	$FC
 	dc.b	"Laissez-moi finir..."
 	dc.b	$FD

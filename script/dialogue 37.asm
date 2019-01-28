@@ -732,7 +732,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$1B
-	dc.b	"Dark Force. Il est venu sur"
+	dc.b	"Dark Force. Elle est venu sur"
 	dc.b	$FC
 	dc.b	"Dezolis pour localiser Rykros."
 	dc.b	$FD
