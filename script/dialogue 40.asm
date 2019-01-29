@@ -229,7 +229,7 @@
 	dc.b	$FC
 	dc.b	"je peux vous confier le secret"
 	dc.b	$FD
-	dc.b	"de la génèse d'Algo."
+	dc.b	"de la genèse d'Algo."
 	dc.b	$FD
 	dc.b	"Il y a des milliards d'années..."
 	dc.b	$FD
@@ -323,9 +323,7 @@
 	dc.b	$FD
 	dc.b	"Une fois tous les mille ans,"
 	dc.b	$FC
-	dc.b	"il s'affaiblissait"
-	dc.b	$FD
-	dc.b	"radicalement."
+	dc.b	"il s'affaiblissait radicalement."
 	dc.b	$FD
 	dc.b	"Pour avertir les habitants de"
 	dc.b	$FC
@@ -503,7 +501,7 @@
 	dc.b	$FD
 	dc.b	"sa dimension et la détruire."
 	dc.b	$FD
-	dc.b	"Avec ces Anneaux Stéllaires,"
+	dc.b	"Avec ces Anneaux Stellaires,"
 	dc.b	$FC
 	dc.b	"vous pourrez résister à la"
 	dc.b	$FD
