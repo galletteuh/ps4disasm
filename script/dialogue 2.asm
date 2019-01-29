@@ -429,7 +429,7 @@
 	dc.b	$FF
 
 ; $55
-	dc.b	"Ici, vous êts à Piata, mais"
+	dc.b	"Ici, vous êtes à Piata, mais"
 	dc.b	$FC
 	dc.b	"trève de plaisanteries!"
 	dc.b	$FD

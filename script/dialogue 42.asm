@@ -556,7 +556,7 @@
 	dc.b	$07
 	dc.b	"Je vais sur Zelan pour prêter"
 	dc.b	$FC
-	dc.b	"assistance à Maître Wren.."
+	dc.b	"assistance à Maître Wren..."
 	dc.b	$FD
 	dc.b	"Au revoir, Chaz."
 	dc.b	$FD
@@ -684,7 +684,7 @@
 	dc.b	$FC
 	dc.b	"qui y vivent, mais malgré ça..."
 	dc.b	$FD
-	dc.b	"Bon, je devrai convertir ces"
+	dc.b	"Bon, je devrai sublimer ces"
 	dc.b	$FC
 	dc.b	"sentiments en force intérieure!"
 	dc.b	$FD
@@ -720,7 +720,7 @@
 	dc.b	$FC
 	dc.b	"l'ultime démon, ma mission"
 	dc.b	$FD
-	dc.b	"en tant que Lutz continue..."
+	dc.b	"en tant que Lutz demeure..."
 	dc.b	$FD
 	dc.b	"Je dois protéger tout Algo."
 	dc.b	$FD
@@ -796,7 +796,7 @@
 	dc.b	$FF
 
 ; $C
-	dc.b	"La bataille a pris fin."
+	dc.b	"Le long combat est terminé."
 	dc.b	$F9
 	dc.b	$1D
 
@@ -853,7 +853,7 @@
 
 	dc.b	"Aussi longtemps que notre"
 	dc.b	$FC
-	dc.b	"mémoire le voudra..."
+	dc.b	"mémoire nous le permettra..."
 	dc.b	$F9
 	dc.b	$1D
 
