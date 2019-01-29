@@ -139,7 +139,7 @@
 	dc.b	$04
 	dc.b	"Nous avons seulement cinq"
 	dc.b	$FC
-	dc.b	"Anneaux Stellaires' pour nous"
+	dc.b	"«Anneaux Stellaires» pour nous"
 	dc.b	$FD
 	dc.b	"protéger des ténèbres!"
 	dc.b	$FD
@@ -153,7 +153,9 @@
 ; $2
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Chaz, j'ai un secret..."
+	dc.b	"Chaz, j'ai une confidence à"
+	dc.b	$FC
+	dc.b	"vous faire..."
 	dc.b	$FD
 	dc.b	"Depuis qu'on s'est vu, je me"
 	dc.b	$FC
@@ -163,7 +165,7 @@
 	dc.b	$FC
 	dc.b	"d'un grand secours cette fois!"
 	dc.b	$FD
-	dc.b	"Je t'en pris!"
+	dc.b	"Je t'en prie!"
 	dc.b	$FC
 	dc.b	"Laissez-moi vous accompagner!"
 	dc.b	$FF

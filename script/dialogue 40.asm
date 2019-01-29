@@ -387,7 +387,7 @@
 	dc.b	$FD
 	dc.b	"et du désir de vengeance."
 	dc.b	$FD
-	dc.b	"Et tout les mille ans, losrque"
+	dc.b	"Et tout les mille ans, lorsque"
 	dc.b	$FC
 	dc.b	"le sceau faiblit, la partie"
 	dc.b	$FD

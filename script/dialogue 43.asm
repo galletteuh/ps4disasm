@@ -441,7 +441,7 @@
 	dc.b	$FC
 	dc.b	"environnemental limité."
 	dc.b	$FD
-	dc.b	"Pourtant, les humains sont"
+	dc.b	"Malgré cela, les humains sont"
 	dc.b	$FC
 	dc.b	"parvenus à survivre pendant"
 	dc.b	$FD

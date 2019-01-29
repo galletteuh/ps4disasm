@@ -424,7 +424,7 @@
 	dc.b	$FF
 
 ; $29
-	dc.b	"Je suis content que la boutique"
+	dc.b	"Je suis heureuse que la boutique"
 	dc.b	$FC
 	dc.b	"d'outils soit de nouveau"
 	dc.b	$FD

@@ -208,9 +208,9 @@
 ; $2B
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Là, laissez-moi vous guérir."
+	dc.b	"Là, laisses-moi te guérir."
 	dc.b	$FC
-	dc.b	"Ensuite, allez-y!"
+	dc.b	"Ensuite, vas-y!"
 	dc.b	$FF
 
 ; $2C
@@ -633,7 +633,7 @@
 ; $31
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Alors voila l'épée sacrée,"
+	dc.b	"Alors, voilà l'épée sacrée,"
 	dc.b	$FC
 	dc.b	"Elsydeon..."
 	dc.b	$FD
@@ -826,7 +826,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$19
-	dc.b	"Euh...Vous n'allez surement pas"
+	dc.b	"Euh...Vous n'allez sûrement pas"
 	dc.b	$FC
 	dc.b	"donner ça à un tel jeunôt!"
 	dc.b	$FD
