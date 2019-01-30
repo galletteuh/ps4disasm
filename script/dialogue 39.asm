@@ -13,7 +13,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$09
-	dc.b	"Une petit malaise comme ça"
+	dc.b	"Un petit malaise comme ça"
 	dc.b	$FC
 	dc.b	"n'allait pas me clouer au lit!"
 	dc.b	$FD
