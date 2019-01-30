@@ -25,13 +25,14 @@ Table des matières
 1. Comment appliquer le patch
 -----------------------------
 
-Parce qu'il est basé sur une version modifiée de la ROM
-(grâce au joli travail de lory1990), le patch en format
-IPS serait un peu trop gros. Nous avons donc opté pour
-le format xdelta. Vous avez le choix entre xdelta 2 et
-xdelta 3 (vcdiff).
+Contenu du fichier zip:
 
-TRÈS IMPORTANT: le patch doit être appliqué sur la 
+- LISEZMOI.txt - ce fichier
+- ps4fr.xdelta - patch format xdelta
+- ps4fr.ips    - patch format IPS
+
+TRÈS IMPORTANT: Quelle que soit la version que vous
+optez d'appliquer, le patch doit être appliqué sur la 
 version ANGLAISE du jeu. Le fichier .bin a l'empreinte
 MD5 suivante: 84cbd0ff47f3c8e9d21d2c2fc39185fa
 Vous pouvez la vérifier avec md5sum sur Linux/Unix et
@@ -124,19 +125,8 @@ trop de code. Il ne reste que les correctifs suivants:
   poison
 
 Notamment, pas de correctif pour le niveau 99. Celui-ci grossit
-le patch de manière trop importante.
-
-De plus, le fichier IPS garde les dialogues compressés, ce qui
-est un mode de jeu moins testé; nous avons complété le jeu avec
-ce mode mais nous n'avons pas fait autant de tests. Les dialogues
-français étant plus longs que ceux en anglais, nous avons dû
-déplacer la mémoire tampon utilisée pour décompresser. Le Genesis
-n'ayant que 64 Ko de mémoire vive, les endroits disponibles
-n'étaient pas en grand nombre. Nous avons choisi de faire cohabiter
-la mémoire tampon avec un espace utilisé uniquement lors des
-combats, ce qui ne devrait pas causer trop de problèmes. Mais,
-c'est tout de même plus risqué que de garder les dialogues
-décompressés.
+fait doubler la taille du patch parce qu'il force le déplacement
+de nombreuses sections de code.
 
 Pourquoi être si sensible à la taille du patch? Eh bien, ce
 n'est pas seulement question de taille du fichier.
@@ -161,6 +151,17 @@ des correctifs appliqués et ça ne râlait pas trop :)
 Version 1.1.0
 +++++++++++++
 
+En gros, beaucoup de changements non-visibles qui n'intéressent
+que les programmeurs ou ceux qui veulent traduire le texte dans
+une autre langue, mais quelques changements sont tout de même
+visibles à l'usager. Vos sauvegarde de SRAM (i.e., sauvegardes
+via le menu de sauvegarde du jeu) demeurent valides. Toutefois,
+si vous jouez dans un émulateur et que vous sauvegardez via
+celui-ci, vos sauvegardes sont maintenant _invalides_.
+Dans ce cas, il vaut mieux attendre d'avoir terminé le jeu
+avant de rejouer avec le nouveau patch (vous allez rejouer,
+n'est-ce pas?)
+
 - Correctif important au combat en véhicule. Un des
   correctifs apportés à la branche principale du code
   pour une meilleure gestion des dommages physiques
@@ -180,7 +181,10 @@ Version 1.1.0
 - Correctifs mineurs à la traduction.
 
 - Utilisation des guillemets français au lieu des
-  apostrophes dans le script.
+  apostrophes dans le script. Nous ne sommes pas 100%
+  satisfaits de l'effet visuel (disons qu'on est pas dans
+  la grande typographie), mais c'est quand même mieux
+  que ces foutus apostrophes.
 
 - Inclusion de la version .IPS du patch. Celle-ci ne
   contient pas tous les correctifs de lory1990, car
@@ -192,13 +196,12 @@ Version 1.1.0
 - Révision total du système d'assemblage, pour permettre
   la co-existence de la version compressée et décompressée
   du texte, et une sélection plus fine des correctifs
-  désirés dans la version finale.
+  désirés dans la version finale. À noter que les deux
+  patchs, ips et xdelta, sont maintenant crés à partir
+  de la version du jeux avec dialogues compressés. Par
+  conséquent, la ROM «patchée» a maintenant la même
+  taille que la ROM originale.
 
-- Si une version avec texte compressé est choisie, la ROM
-  patchée aura la même taille que la ROM originale. À terme,
-  si cette version s'avère être aussi stable que la version
-  d'origine décompressée, elle deviendra probablement la
-  version par défaut.
 
 Version 1.0.1
 +++++++++++++
@@ -272,6 +275,9 @@ mziab      : Conseils généraux sur les outils, aide
 
 BahaBulle  : .BMP pour le sous-titre. N'étant pas artiste,
 	     BGE était bien heureux de cette aide.
+
+Hroþgar SCRB Artiste qui a fourni le .BMP du sous-titre à
+             BahaBulle originellement.
 
 
 6. Remarques légales
