@@ -832,7 +832,7 @@
 	dc.b	$FC
 	dc.b	"non, non -- je suis très"
 	dc.b	$FD
-	dc.b	"reconnaisant!"
+	dc.b	"reconnaissant!"
 	dc.b	$FD
 	dc.b	"Pour résumer, Rocky, le chien de"
 	dc.b	$FC
