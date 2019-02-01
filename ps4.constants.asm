@@ -1921,26 +1921,26 @@ CreditsStage2_ScrollDelay = CreditsStage1_ScrollDelay + $80
 CreditsStage3_ScrollDelay = CreditsStage2_ScrollDelay + $80
 
 ; VDP helpers
-VDP_ModeSet1 = $00
-VDP_ModeSet2 = $01
-VDP_ScrollA  = $02
-VDP_Window   = $03
-VDP_ScrollB  = $04
-VDP_Sprites  = $05
-VDP_Backgrnd = $07
-VDP_Hint     = $0A
-VDP_ModeSet3 = $0B
-VDP_ModeSet4 = $0C
-VDP_HScroll  = $0D
-VDP_AutoInc  = $0F
-VDP_ScrollSz = $10
-VDP_WinHoriz = $11
-VDP_WinVert  = $12
-VDP_DMACntLow= $13
-VDP_DMACntHi = $14
-VDP_DMASrcLow= $15
-VDP_DMASrcMid= $16
-VDP_DMASrcHi = $17
+VDP_ModeSet1  = $00
+VDP_ModeSet2  = $01
+VDP_ScrollA   = $02
+VDP_Window    = $03
+VDP_ScrollB   = $04
+VDP_Sprites   = $05
+VDP_Backgrnd  = $07
+VDP_Hint      = $0A
+VDP_ModeSet3  = $0B
+VDP_ModeSet4  = $0C
+VDP_HScroll   = $0D
+VDP_AutoInc   = $0F
+VDP_ScrollSz  = $10
+VDP_WinHoriz  = $11
+VDP_WinVert   = $12
+VDP_DMACntLow = $13
+VDP_DMACntHi  = $14
+VDP_DMASrcLow = $15
+VDP_DMASrcMid = $16
+VDP_DMASrcHi  = $17
 
 ; ---------------------------------------------------------------------------
 ; Address Constants
