@@ -28,7 +28,7 @@ Table des matières
 Contenu du fichier zip:
 
 - LISEZMOI.txt - ce fichier
-- ps4fr.xdelta - patch format xdelta
+- ps4fr.xdelta - patch format xdelta 3
 - ps4fr.ips    - patch format IPS
 
 TRÈS IMPORTANT: Quelle que soit la version que vous
@@ -60,8 +60,10 @@ xdelta3 -ds ps4.bin ps4fr.xdelta ps4fr.bin
 
 * ps4fr.bin: le nom du fichier ROM une fois patché.
 
-Malheureusement je n'ai pas vu de GUI pour xdelta3 sur
-Linux.
+Malheureusement je n'ai pas trouvé de GUI pour xdelta3
+sur Linux. Sur Android il y a Rom Patcher, alors si
+vous avez un téléphone Android c'est une possibilité:
+https://play.google.com/store/apps/details?id=com.xperia64.rompatcher
 
 Nous fournissions également une version .IPS, ps4fr.ips.
 Celle-ci ne contient pas tous les changements, voir la
@@ -125,8 +127,8 @@ trop de code. Il ne reste que les correctifs suivants:
   poison
 
 Notamment, pas de correctif pour le niveau 99. Celui-ci grossit
-fait doubler la taille du patch parce qu'il force le déplacement
-de nombreuses sections de code.
+la taille du patch du simple au double parce qu'il force le
+déplacement de nombreuses sections de code.
 
 Pourquoi être si sensible à la taille du patch? Eh bien, ce
 n'est pas seulement question de taille du fichier.
@@ -178,7 +180,8 @@ n'est-ce pas?)
 - Correctifs à l'écran titre. Le sous-titre est maintenant
   en français. Merci à BahaBulle.
 
-- Correctifs mineurs à la traduction.
+- De nombreux correctifs mineurs à la traduction, par BGE
+  et galletteuh.
 
 - Utilisation des guillemets français au lieu des
   apostrophes dans le script. Nous ne sommes pas 100%
@@ -242,7 +245,7 @@ Version non-publiée.
   de meseta. Le code original se fiait sur la présence
   d'un point d'exclamation à la fin de la réponse positive.
   Cela ne faisait pas de sens en français, mais il a
-  fallu modifier le code du jeux.
+  fallu modifier le code du jeu.
 - Modifié la largeur de certaines fenêtres.
 
 
