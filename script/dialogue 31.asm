@@ -101,7 +101,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02, $00
-	dc.b	"Ah...Zio...."
+	dc.b	"Ah...Zio..."
 	dc.b	$FC
 	dc.b	"Je n'aime pas ça!"
 	dc.b	$FF
