@@ -221,7 +221,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03, $02
-	dc.b	"BAfter all we did to obtain"
+	dc.b	"After all we did to obtain"
 	dc.b	$FC
 	dc.b	"the Alshline to turn him from"
 	dc.b	$FD
