@@ -2234,6 +2234,7 @@ Saved_Char_ID_Mem_3 = ramaddr($FFFFED56)
 Saved_Char_ID_Mem_4 = ramaddr($FFFFED57)
 Saved_Char_ID_Mem_5 = ramaddr($FFFFED58)
 
+Text_Line_Length = ramaddr($FFFFED5A)
 ; this is only used if uncompressed_dialogs is true
 Current_Dialogue_Tree = ramaddr($FFFFED60)
 
