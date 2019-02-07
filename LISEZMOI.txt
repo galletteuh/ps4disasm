@@ -1,4 +1,4 @@
-Janvier 2019
+Février 2019
 
 Phantasy Star IV - Traduction Française
 =======================================
@@ -65,8 +65,8 @@ sur Linux. Sur Android il y a Rom Patcher, alors si
 vous avez un téléphone Android c'est une possibilité:
 https://play.google.com/store/apps/details?id=com.xperia64.rompatcher
 
-Nous fournissions également une version .IPS, ps4fr.ips.
-Celle-ci ne contient pas tous les changements, voir la
+Nous fournissons également une version .IPS, ps4fr.ips.
+Celle-ci ne contient pas tous les changements; voir la
 section suivante pour plus d'information. Pour appliquer
 un patch .IPS, vous avez l'embarras du choix. Le plus
 simple est probablement Lunar IPS, que vous trouverez
@@ -185,9 +185,9 @@ n'est-ce pas?)
 
 - Utilisation des guillemets français au lieu des
   apostrophes dans le script. Nous ne sommes pas 100%
-  satisfaits de l'effet visuel (disons qu'on est pas dans
-  la grande typographie), mais c'est quand même mieux
-  que ces foutus apostrophes.
+  satisfaits de l'effet visuel (disons qu'on n'est pas
+  dans la grande typographie), mais c'est quand même
+  mieux que ces foutus apostrophes.
 
 - Inclusion de la version .IPS du patch. Celle-ci ne
   contient pas tous les correctifs de lory1990, car
