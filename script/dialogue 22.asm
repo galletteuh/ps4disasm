@@ -722,7 +722,7 @@
 	dc.b	$01
 	dc.b	"Alors, il faudra trouver les"
 	dc.b	$FC
-	dc.b	"vrais et les détruires!"
+	dc.b	"vrais et les détruire!"
 	dc.b	$FF
 ;; Local Variables:
 ;; eval: (fci-mode)
