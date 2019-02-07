@@ -3,7 +3,7 @@ Janvier 2019
 Phantasy Star IV - Traduction Française
 =======================================
 
-Bien le bonjour de la part des traducteurs, BGE et galletteux.
+Bien le bonjour de la part des traducteurs, BGE et galletteuh.
 
 Nous espérons que vous apprécierez cette traduction et que
 votre plaisir à jouer à ce magnifique jeu dans la langue
@@ -255,7 +255,7 @@ Version non-publiée.
 BGE        : Traduction initiale, hackeur.
 (B.Goudreault-Emond)
 
-galletteux : Nombreuses corrections au texte, beta-testeur.
+galletteuh : Nombreuses corrections au texte, beta-testeur.
 (A.Gallet)
 
 
