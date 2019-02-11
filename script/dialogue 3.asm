@@ -689,13 +689,13 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Il semble me rappeler que"
+	dc.b	"Si ma mémoire est exacte, on"
 	dc.b	$FC
-	dc.b	"c'était chez les Motaviens..."
+	dc.b	"en trouvera chez les Motaviens."
 	dc.b	$FD
-	dc.b	"Ceci dit, cela fait très"
+	dc.b	"Ceci dit, on m'a dit cela il y"
 	dc.b	$FC
-	dc.b	"longtemps qu'on me l'a dit."
+	dc.b	"a déjà longtemps."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
@@ -769,7 +769,7 @@
 	dc.b	$FD
 	dc.b	"Eh bien, me voici, frais comme"
 	dc.b	$FC
-	dc.b	"une rose, alors pas de souci!"
+	dc.b	"une rose, alors, pas de souci!"
 	dc.b	$FD
 	dc.b	"Parfait. Recommençons nos"
 	dc.b	$FC
@@ -779,7 +779,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Oui monsieur!"
+	dc.b	"Oui, monsieur!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0D
@@ -791,7 +791,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Heu...oui, monsieur."
+	dc.b	"Heu...bien, monsieur."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0D
@@ -813,7 +813,7 @@
 	dc.b	$03
 	dc.b	"Je suis profondément désolé..."
 	dc.b	$FC
-	dc.b	"il ne vous a même pas remerciés."
+	dc.b	"Il ne vous a même pas remerciés."
 	dc.b	$FD
 	dc.b	"Enfin, il est comme il est."
 	dc.b	$FD
@@ -827,13 +827,13 @@
 	dc.b	$FC
 	dc.b	"après tout ce travail."
 	dc.b	$FD
-	dc.b	"Détendons-nous aujourd'hui,"
+	dc.b	"Détendons-nous pour le restant,"
 	dc.b	$FC
-	dc.b	"d'accord, Chaz?"
+	dc.b	"de la journée, d'accord, Chaz?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"OK."
+	dc.b	"Ça me va."
 	dc.b	$F7
 
 	dc.b	$F2, $00
@@ -911,7 +911,7 @@
 	dc.w	$002B
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Comment entrer avec cette"
+	dc.b	"Comment entrer, avec cette"
 	dc.b	$FC
 	dc.b	"créature dans le chemin?"
 	dc.b	$FD
@@ -921,7 +921,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Maintenant?!"
+	dc.b	"Euh, là, maintenant?!"
 	dc.b	$FF
 
 ; $69
@@ -929,7 +929,7 @@
 	dc.w	$002C
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Alors, comment c'était cette"
+	dc.b	"Alors, comment c'était, cette"
 	dc.b	$FC
 	dc.b	"fois-ci, Alys?"
 	dc.b	$FD
@@ -973,7 +973,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"...M...ma caisse de noces..."
+	dc.b	"...M...ma caisse de noces...!"
 	dc.b	$FF
 
 ; $6A
