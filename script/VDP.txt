@@ -1,0 +1,38 @@
+IMPORTANT ROUTINES
+
+Trap #0 - clear data
+    a0 address
+    d7 # of qwords
+Trap #1 - copy
+    a0 source
+    a1 dest
+    d7 # of bytes
+PlaneMapToRAM
+    a0 map location
+    a1 RAM address
+    d1 #cols
+    d2 #rows
+QueueDMACommands
+    d0 source address (word address, so div 2)
+    d1 VDP destination RAM address
+    d2 transfer length (words)
+    
+a6 is pretty much always the VDP control port, so writes there
+   writes to VDP
+a5 is usually the VDP data port
+USUALLY autoincrement is set to 2
+
+You can "double write" using move.l if you want to write 2 values
+quickly. The 68K write a dword high word first, then low to the "shadow"
+VDP control register. This saves a bit of time and instruction space.
+
+VDP use: ScrollA: $C000 Window: $0000 Scroll B: $E000 Sprites: $F000
+HSCroll address: $F400 default scroll 64x32 cell
+
+$80xx - Mode set 1     $81xx - Mode set 2
+$82xx - Scroll A       $83xx - Window         $84xx - Scroll B
+$85xx - Sprite table   $87xx - Background clr $8Axx - HINT
+$8Bxx - Mode set 3     $8Cxx - Mode set 4     $8Dxx - HScroll table
+$8Fxx - Auto increment $90xx - Scroll size    $91xx - Window horz
+$92xx - Window vert    $93xx - DMA count low  $94xx - DMA count hi
+$95xx - DMA source low $96xx - DMA source mid $97xx - DMA source high

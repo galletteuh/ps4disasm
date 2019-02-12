@@ -2238,6 +2238,11 @@ Text_Line_Length = ramaddr($FFFFED5A)
 ; this is only used if uncompressed_dialogs is true
 Current_Dialogue_Tree = ramaddr($FFFFED60)
 
+;; proportional font data
+Previous_Cell = ramaddr($FFFFED70)   ;used to store previous character's partial bits if applicable
+Last_Char_Location = ramaddr($FFFFED80) ;location of last character in RAM
+Previous_Offset = ramaddr($FFFFED84) ;used to keep # of bits to shift by from previous character; byte variable
+
 TextCounter = ramaddr($FFFFED90)		; Used to count scrolling intro text or ending credits frame count
 FadeControl = ramaddr($FFFFED95)		; Used to count palette fade in/out frames
 CredText_A = ramaddr($FFFFED96)			; Additional flags for palette fade in/out

@@ -14,6 +14,7 @@ MAX_TEXT_SIZE = MAX_TEXT_ADDRESS - Dialogue_Trees_ADDRESS
 # alternatively, if you're not 100% sure, max length in US script is 7220 bytes
 #MAX_TEXT_SIZE = 7220
 
+
 def decodenum(s):
 	if s[0] == '$':
 		return int(s[1:], 16)
@@ -44,7 +45,7 @@ class DcWProcessor(IgnoreDcProcessor):
 	def process(self, m, linenum):
 		s = m.group(1)
 		decoded = decodenum(s)
-		out.write(bytes([(decoded&0xFF00)>>8, decoded&0xFF]))
+		self.out.write(bytes([(decoded&0xFF00)>>8, decoded&0xFF]))
 		
 DC_DIRECTIVE = re.compile(r"^\s+dc\.b\s+(.*)$")
 hexdigits = set("ABCDEFabcdef0123456789")
@@ -81,7 +82,7 @@ class DcBProcessor(IgnoreDcProcessor):
 			return self.hex_digit
 		else:
 			translated = decodenum(''.join(self.buf))
-			out.write(bytes([translated]))
+			self.out.write(bytes([translated]))
 			self.buf.clear()
 			return self.scanning(ch, linenum)
 		
@@ -111,7 +112,7 @@ class DcBProcessor(IgnoreDcProcessor):
 			translated = decodenum(''.join(self.buf))
 			self.out.write(bytes([translated]))
 			self.buf.clear()
-			return self.scanning(ch, buf, linenum, out)
+			return self.scanning(ch, linenum)
 			
 	def identifier(self, ch, linenum):
 		if ch is None or ch == ',' or ch.isspace():
@@ -286,121 +287,123 @@ class Processor:
 		print(s, "file:", self.fname, "@", self.linenum)
 		sys.exit(-1)
 
-basedir = pathlib.Path(sys.argv[0]).resolve().parent
-print("Working directory:", basedir)
+if __name__ == '__main__':
+
+        basedir = pathlib.Path(sys.argv[0]).resolve().parent
+        print("Working directory:", basedir)
 
 
-cmd_symbols = [a for a in sys.argv[1:] if '=' in a]
-cmd_symbols = {arg: val for arg, val in map(lambda s: s.split('='), cmd_symbols)}
-remainder = set([a for a in sys.argv[1:] if '=' not in a])
-debug = False
-no_compress = False
-if '--debug' in remainder:
-	debug = True
-	remainder.remove('--debug')
-	
-if "--no-compress" in remainder:
-	no_compress = True
-	remainder.remove("--no-compress")
-	
-remainder = [pathlib.Path(f) for f in remainder]
+        cmd_symbols = [a for a in sys.argv[1:] if '=' in a]
+        cmd_symbols = {arg: val for arg, val in map(lambda s: s.split('='), cmd_symbols)}
+        remainder = set([a for a in sys.argv[1:] if '=' not in a])
+        debug = False
+        no_compress = False
+        if '--debug' in remainder:
+                debug = True
+                remainder.remove('--debug')
 
-symbols = {}
+        if "--no-compress" in remainder:
+                no_compress = True
+                remainder.remove("--no-compress")
 
-# load symbols from ps4.options.asm in directory one above
-fname = basedir.parent / "ps4.options.asm"
-if fname.exists():
-	with open(fname, "rt", encoding="iso-8859-1") as f:
-		processor = Processor(fname, symbols, IgnoreDcProcessor(fname))
-		for line in f:
-			line = line.rstrip()
-			processor.process(line)
+        remainder = [pathlib.Path(f) for f in remainder]
 
-# override with command line settings
-symbols.update(cmd_symbols)
+        symbols = {}
 
-print("Processing using symbols:", symbols)
+        # load symbols from ps4.options.asm in directory one above
+        fname = basedir.parent / "ps4.options.asm"
+        if fname.exists():
+                with open(fname, "rt", encoding="iso-8859-1") as f:
+                        processor = Processor(fname, symbols, IgnoreDcProcessor(fname))
+                        for line in f:
+                                line = line.rstrip()
+                                processor.process(line)
 
-charset = {}
-rcharset = {0xff: '\n-----\n', 0xfc: '\n', 0xfd: '\nVV\n'}
+        # override with command line settings
+        symbols.update(cmd_symbols)
 
-fname = basedir / "charset.asm"
-with open(fname, "rt", encoding="iso-8859-1") as f:
-	charset_processor = CharsetProcessor(fname, charset, rcharset)
-	for line in f:
-		line = line.rstrip()
-		charset_processor.process(line)
-		
-print("Using charset table:")
-for char, value in charset.items():
-	if char.isprintable():
-		print('\t"{0}": {1:02X}'.format(char, value))
-	else:
-		print('\t${0:02X}: {1:02X}'.format(ord(char[0]), value))
+        print("Processing using symbols:", symbols)
 
-	
-def dump(f):
-	print(f)
-	print('==================')
-	with open(f, "rb") as debugf:
-		while True:
-			chunk = debugf.read(8192)
-			if not chunk:
-				break
-			changed = [rcharset.get(b, '${0:02X}\n'.format(b)) for b in chunk]
-			print(''.join(changed), sep='', end='')
+        charset = {}
+        rcharset = {0xff: '\n-----\n', 0xfc: '\n', 0xfd: '\nVV\n'}
 
-if len(remainder) == 0:
-	remainder = basedir.glob('dialogue *.asm')
+        fname = basedir / "charset.asm"
+        with open(fname, "rt", encoding="iso-8859-1") as f:
+                charset_processor = CharsetProcessor(fname, charset, rcharset)
+                for line in f:
+                        line = line.rstrip()
+                        charset_processor.process(line)
 
-for fname in remainder:
-	print("processing", fname)
-	dest = fname.with_suffix('.bin.unc')
-	dest2 = dest
-	idx = 0
-	while dest2.exists():
-		dest2 = dest.with_suffix('.unc.{}'.format(idx))
-		idx += 1
-	if idx != 0:
-		print("backing up", dest, "to", dest2)
-		dest.rename(dest2)
-	with open(fname, "rt", encoding="iso-8859-1") as f, open(dest, "wb") as out:
-		processor = Processor(fname, symbols, CompositeDcProcessor(fname, out, charset, symbols))
-		for line in f:
-			line = line.rstrip()
-			processor.process(line)
-			if debug:
-				print(out.tell(), ':', line)
-		processor.check()
-		# todo: make that part of the processor somehow
-		if out.tell() % 2 != 0:
-			out.write(bytes([0]))
-		print("done processing", fname, "to", dest)
-		if out.tell() > MAX_TEXT_SIZE:
-			print("WARNING! script file ", fname, "is too large (", out.tell(), " bytes)", file=sys.stderr, sep='')
-			print("You may need to relocate the decompression buffer.", file=sys.stderr, sep='')
-			print("Press enter to continue.", file=sys.stderr, sep='')
-			input()
+        print("Using charset table:")
+        for char, value in charset.items():
+                if char.isprintable():
+                        print('\t"{0}": {1:02X}'.format(char, value))
+                else:
+                        print('\t${0:02X}: {1:02X}'.format(ord(char[0]), value))
 
-	if debug:
-		dump(dest)
-		if dest2.exists():
-			dump(dest2)
-	# compress
-	if not(no_compress):
-		bindest = fname.with_suffix('.bin')
-		bindest2 = bindest
-		idx = 0
-		while bindest2.exists():
-			bindest2 = bindest.with_suffix('.bin.{}'.format(idx))
-			idx += 1
-		if idx != 0:
-			print("backing up", bindest, "to", bindest2)
-			bindest.rename(bindest2)
-		subprocess.run(['../compressors/koscmp', str(dest.resolve(strict=True)), str(bindest.resolve())])
-		# pad to 16 bytes
-		with open(bindest, "r+b") as f:
-			f.seek(0, io.SEEK_END)
-			sz = f.tell()
-			if sz % 16 != 0:
-				f.write(bytes(16 - sz%16))
+
+        def dump(f):
+                print(f)
+                print('==================')
+                with open(f, "rb") as debugf:
+                        while True:
+                                chunk = debugf.read(8192)
+                                if not chunk:
+                                        break
+                                changed = [rcharset.get(b, '${0:02X}\n'.format(b)) for b in chunk]
+                                print(''.join(changed), sep='', end='')
+
+        if len(remainder) == 0:
+                remainder = basedir.glob('dialogue *.asm')
+
+        for fname in remainder:
+                print("processing", fname)
+                dest = fname.with_suffix('.bin.unc')
+                dest2 = dest
+                idx = 0
+                while dest2.exists():
+                        dest2 = dest.with_suffix('.unc.{}'.format(idx))
+                        idx += 1
+                if idx != 0:
+                        print("backing up", dest, "to", dest2)
+                        dest.rename(dest2)
+                with open(fname, "rt", encoding="iso-8859-1") as f, open(dest, "wb") as out:
+                        processor = Processor(fname, symbols, CompositeDcProcessor(fname, out, charset, symbols))
+                        for line in f:
+                                line = line.rstrip()
+                                processor.process(line)
+                                if debug:
+                                        print(out.tell(), ':', line)
+                                        processor.check()
+                                        # todo: make that part of the processor somehow
+                        if out.tell() % 2 != 0:
+                                out.write(bytes([0]))
+                                print("done processing", fname, "to", dest)
+                        if out.tell() > MAX_TEXT_SIZE:
+                                print("WARNING! script file ", fname, "is too large (", out.tell(), " bytes)", file=sys.stderr, sep='')
+                                print("You may need to relocate the decompression buffer.", file=sys.stderr, sep='')
+                                print("Press enter to continue.", file=sys.stderr, sep='')
+                                input()
+
+                if debug:
+                        dump(dest)
+                        if dest2.exists():
+                                dump(dest2)
+                                # compress
+                if not(no_compress):
+                        bindest = fname.with_suffix('.bin')
+                        bindest2 = bindest
+                        idx = 0
+                        while bindest2.exists():
+                                bindest2 = bindest.with_suffix('.bin.{}'.format(idx))
+                                idx += 1
+                        if idx != 0:
+                                print("backing up", bindest, "to", bindest2)
+                                bindest.rename(bindest2)
+                                subprocess.run(['../compressors/koscmp', str(dest.resolve(strict=True)), str(bindest.resolve())])
+                                # pad to 16 bytes
+                        with open(bindest, "r+b") as f:
+                                f.seek(0, io.SEEK_END)
+                                sz = f.tell()
+                                if sz % 16 != 0:
+                                        f.write(bytes(16 - sz%16))
