@@ -161,14 +161,13 @@
 ;    block.
 ;
 ; 3. Make room for the uncompressed RAM buffer to be located lower
-;    in memory.  A good candidate is moving Battle_Palette_Objects
-;    to $FF2000, and moving Dialogue_Trees to $FF2A90 (the former
-;    location of Battle_Palette_Objects). This appears to work OK,
-;    but this isn't fully tested it yet. BGE or galletteuh will need
-;    to go through the whole game set up that way to verify whether
-;    it works. From looking at the constants asm file there's a large
-;    area of RAM before $FF2A90 which is just unused in the original
-;    ROM but don't quote me on that.
+;    in memory.  A good candidate moving Dialogue_Trees to $FF2000,
+;    overwriting Battle_Palette_Objects (which is 100% fine because
+;    dialogue is not use during battle anyway. The only location
+;    where this might be a problem is in the Rift when encountering
+;    the Profound Darkness, but the palette cycling pauses when
+;    dialogue is written out). BGE and Galletteuh completed the
+;    game with that configuration and it appears to work.
 ;
 ;
 ; CHECKING THE COMPRESSION
@@ -193,6 +192,13 @@
 ; for whatever implementation of the decompression you're using.
 ;
 ; Note that this is mostly paranoia and you should be fine
-; overall. The code archive contains a Linux 64 bit static compressor
-; and a Windows version of same which is known to work on the
-; original PSIV text, although it yields a different
+; overall. The code archive contains a Linux 64 bit static
+; compressor and a Windows version of same which is known
+; to work on the original PSIV text, although it yields a
+; different result. This means that if you recompress the original
+; script using that compressor you will _not_ get the original
+; ROM. Such is life with reverse engineered compression formats.
+; Rest assured however that the game's routine is fully able to
+; read the recompressed data. Actually for some hacks, it might
+; be of interest as you can gain a bit of room that way, given
+; that it is more efficient than Sega's original compressor.

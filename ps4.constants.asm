@@ -2242,6 +2242,7 @@ Current_Dialogue_Tree = ramaddr($FFFFED60)
 Previous_Cell = ramaddr($FFFFED70)   ;used to store previous character's partial bits if applicable
 Last_Char_Location = ramaddr($FFFFED80) ;location of last character in RAM
 Previous_Offset = ramaddr($FFFFED84) ;used to keep # of bits to shift by from previous character; byte variable
+Double_DMA_Flag	= ramaddr($FFFFED85) ;used to check whether we need to output 2 cells
 
 TextCounter = ramaddr($FFFFED90)		; Used to count scrolling intro text or ending credits frame count
 FadeControl = ramaddr($FFFFED95)		; Used to count palette fade in/out frames
