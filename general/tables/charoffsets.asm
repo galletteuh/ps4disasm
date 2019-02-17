@@ -72,4 +72,30 @@
 	dc.b	7		;7	71
 	dc.b	7		;8	72
 	dc.b	7		;9	73
-	
+	dc.b	7		;é	74
+	dc.b	7		;ê	75
+	dc.b	7		;è	76
+	dc.b	7		;ë	77
+	dc.b	7		;â	78
+	dc.b	7		;à	79
+	dc.b	5		;î	80
+	dc.b	7		;ï	81
+	dc.b	7		;ô	82
+	dc.b	7		;û	83
+	dc.b	7		;ù	84
+	dc.b	7		;ü	85
+	dc.b	7		;ç	86
+	dc.b	8		;É	87
+	dc.b	8		;Ê	88
+	dc.b	8		;È	89
+	dc.b	8		;E		TODO: remove this
+	dc.b	8		;Â	91
+	dc.b	8		;À	92
+	dc.b	5		;Î	93
+	dc.b	7		;Ï	94
+	dc.b	8		;Ô	95
+	dc.b	8		;Û	94
+	dc.b	8		;Ù	95
+	dc.b	8		;Ü	96
+	dc.b	8		;Ç	97
+	dc.b	7		;Þ	98
