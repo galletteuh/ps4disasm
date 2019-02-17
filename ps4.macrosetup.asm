@@ -144,3 +144,14 @@ popdlg		macro
 
 
 
+vdpwreg	macro reg,value
+	move.w	#($8000 | ((reg & $1F)<<8) | (value & $FF)), (a6)
+	endm
+
+vdpwreg2	macro reg,value	
+	move.w	#($8000 | ((reg & $1F)<<8) | (value & $FF)), VDP_Control_Port
+	endm
+
+vdpwregl	macro reg1,value1,reg2,value2
+	move.l #($80008000 | ((reg1 & $1F) << 24) | ((value1 & $FF) << 16) | ((reg2 & $1F) << 8) | (value2 & $FF)), (a6)
+	endm

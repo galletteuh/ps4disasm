@@ -1920,6 +1920,28 @@ CreditsStage1_ScrollDelay = $380  + ($40*translator_credits)	; add 2 pages for t
 CreditsStage2_ScrollDelay = CreditsStage1_ScrollDelay + $80
 CreditsStage3_ScrollDelay = CreditsStage2_ScrollDelay + $80
 
+; VDP helpers
+VDP_ModeSet1  = $00
+VDP_ModeSet2  = $01
+VDP_ScrollA   = $02
+VDP_Window    = $03
+VDP_ScrollB   = $04
+VDP_Sprites   = $05
+VDP_Backgrnd  = $07
+VDP_Hint      = $0A
+VDP_ModeSet3  = $0B
+VDP_ModeSet4  = $0C
+VDP_HScroll   = $0D
+VDP_AutoInc   = $0F
+VDP_ScrollSz  = $10
+VDP_WinHoriz  = $11
+VDP_WinVert   = $12
+VDP_DMACntLow = $13
+VDP_DMACntHi  = $14
+VDP_DMASrcLow = $15
+VDP_DMASrcMid = $16
+VDP_DMASrcHi  = $17
+
 ; ---------------------------------------------------------------------------
 ; Address Constants
 ; ---------------------------------------------------------------------------
@@ -2048,7 +2070,8 @@ Plane_A_Buffer = ramaddr($FFFF8000)
 Plane_B_Buffer = ramaddr($FFFF9000)
 Plane_A_Buffer_DMA = $7FFFC000		; when we refer to plane buffers through DMA, value has to be divided by 2
 Plane_B_Buffer_DMA = $7FFFC800		; if you change location of those plane buffers make sure you change the
-					; _DMA values as well
+Text_Buffer_DMA = $7FFFB800		; _DMA values as well
+	
 Map_Layout_FG = ramaddr($FFFFA000)
 Map_Layout_BG = ramaddr($FFFFB000)
 
@@ -2212,8 +2235,15 @@ Saved_Char_ID_Mem_3 = ramaddr($FFFFED56)
 Saved_Char_ID_Mem_4 = ramaddr($FFFFED57)
 Saved_Char_ID_Mem_5 = ramaddr($FFFFED58)
 
+Text_Line_Length = ramaddr($FFFFED5A)
 ; this is only used if uncompressed_dialogs is true
 Current_Dialogue_Tree = ramaddr($FFFFED60)
+
+;; proportional font data
+Previous_Cell = ramaddr($FFFFED70)   ;used to store previous character's partial bits if applicable
+Last_Char_Location = ramaddr($FFFFED80) ;location of last character in RAM
+Previous_Offset = ramaddr($FFFFED84) ;used to keep # of bits to shift by from previous character; byte variable
+Double_DMA_Flag	= ramaddr($FFFFED85) ;used to check whether we need to output 2 cells
 
 TextCounter = ramaddr($FFFFED90)		; Used to count scrolling intro text or ending credits frame count
 FadeControl = ramaddr($FFFFED95)		; Used to count palette fade in/out frames
