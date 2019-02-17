@@ -10,6 +10,7 @@ votre plaisir à jouer à ce magnifique jeu dans la langue
 de Molière sera au moins égal à celui que nous avons eu à
 le traduire.
 
+
 Table des matières
 ==================
 
@@ -87,7 +88,7 @@ même pas si vache avec les auteurs originaux!)
 Si vous êtes dans la mesure de le faire, nous recommandons
 très très fortement d'utiliser le patch en xdelta. Celui-ci
 inclut non seulement la traduction, mais également une
-quantité de correctifs maintenus par lory1990, dont:
+quantité de correctifs maintenus par lory1990 et BGE, dont:
 
 * Correctif au bug de niveau 99
 * Correctifs à la détection de collision dans certains endroits
@@ -149,6 +150,27 @@ des correctifs appliqués et ça ne râlait pas trop :)
 
 3. Sommaire des changements
 ---------------------------
+
+Version 1.99.0
+++++++++++++++
+
+Nous vous avons réservés un joli cadeau, les amis! La police
+est maintenant proportionnelle!
+
+BGE a travaillé dur là-dessus, et le résultat est beaucoup
+plus joli, selon lui!
+
+Bon, et aussi quelques petits correctifs de ci, de là, en
+partie par Galletteuh, et BGE a aussi tenté de rendre une
+phrase particulièrement mal construite un peu plus lisible.
+C'est le genre de truc dont on se rend compte quand quelqu'un
+fait un vidéo Youtube...
+
+Prochaine étape, il faut soit tout rejouer le jeu et corriger
+le formattage, soit BGE va écrire un truc pour faire le rendu
+du texte et permettre de voir où il y a possibilité de replacer
+pour que ce soit plus joli.
+
 
 Version 1.1.0
 +++++++++++++
