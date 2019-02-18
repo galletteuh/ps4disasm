@@ -1,4 +1,4 @@
-	dc.b	8		; space 0
+	dc.b	4		; space 0
 	dc.b	8		;A	1
 	dc.b	8		;B	2
 	dc.b	8		;C	3
