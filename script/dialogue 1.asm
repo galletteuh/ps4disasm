@@ -5,15 +5,15 @@
 	dc.b	$34, $02
 	dc.b	$FA
 	dc.b	$0B, $01
-	dc.b	"Vous êtes un chasseur?"
+	dc.b	"Vous êtes un chasseur ?"
 	dc.b	$FD
 	dc.b	"Êtes-vous ici pour nous débarrasser"
 	dc.b	$FC
-	dc.b	"des monstres?"
+	dc.b	"des monstres ?"
 	dc.b	$FF
 
 ; $1
-	dc.b	"Merci beaucoup! Je me sens en sécurité"
+	dc.b	"Merci beaucoup ! Je me sens en sécurité"
 	dc.b	$FC
 	dc.b	"maintenant."
 	dc.b	$FF
@@ -23,7 +23,7 @@
 	dc.b	$FF
 
 ; $3
-	dc.b	"Et maintenant, qu'arrivera-t-il?"
+	dc.b	"Et maintenant, qu'arrivera-t-il ?"
 	dc.b	$FF
 
 ; $4
@@ -39,13 +39,13 @@
 	dc.b	$FD
 	dc.b	"J'ai peur, je n'arrive plus à me"
 	dc.b	$FC
-	dc.b	"concentrer sur mon travail!"
+	dc.b	"concentrer sur mon travail !"
 	dc.b	$FF
 
 ; $5
-	dc.b	"Ah, vous y êtes arrivés!"
+	dc.b	"Ah, vous y êtes arrivés !"
 	dc.b	$FC
-	dc.b	"Merci de tout coeur!"
+	dc.b	"Merci de tout coeur !"
 	dc.b	$FF
 
 ; $6
@@ -55,7 +55,7 @@
 	dc.b	$FF
 
 ; $7
-	dc.b	"Et maintenant, qu'arrivera-t-il?"
+	dc.b	"Et maintenant, qu'arrivera-t-il ?"
 	dc.b	$FF
 
 ; $8
@@ -69,43 +69,43 @@
 	dc.b	$08, $01
 	dc.b	"Tu es le Chasseur retenu par le"
 	dc.b	$FC
-	dc.b	"directeur?"
+	dc.b	"directeur ?"
 	dc.b	$FD
-	dc.b	"Tu n'es qu'un jeune blanc-bec! Tu crois"
+	dc.b	"Tu n'es qu'un jeune blanc-bec ! Tu crois"
 	dc.b	$FC
-	dc.b	"vraiment que tu seras à la hauteur?"
+	dc.b	"vraiment que tu seras à la hauteur ?"
 	dc.b	$FF
 
 ; $9
-	dc.b	"Wow, allô beauté!"
+	dc.b	"Wow, allô beauté !"
 	dc.b	$FD
 	dc.b	"Laisse tomber ce jeunôt et prend-moi"
 	dc.b	$FC
-	dc.b	"à la place!"
+	dc.b	"à la place !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Casse-toi, minable!!!"
+	dc.b	"Casse-toi, minable !!!"
 	dc.b	$FF
 
 ; $A
-	dc.b	"Incroyable! Cette nana et ce mioche"
+	dc.b	"Incroyable ! Cette nana et ce mioche"
 	dc.b	$FC
 	dc.b	"ont pu tuer les monstres."
 	dc.b	$FD
-	dc.b	"Ah, euh, non, rien!"
+	dc.b	"Ah, euh, non, rien !"
 	dc.b	$FC
-	dc.b	"Je n'ai rien dit! Ha, ha!"
+	dc.b	"Je n'ai rien dit ! Ha, ha !"
 	dc.b	$FF
 
 ; $B
 	dc.b	"Je vous ai déjà vus quelque part..."
 	dc.b	$FC
-	dc.b	"Qui êtes-vous?"
+	dc.b	"Qui êtes-vous ?"
 	dc.b	$FF
 
 ; $C
-	dc.b	"À...À l'aide!"
+	dc.b	"À...À l'aide !"
 	dc.b	$FF
 
 ; $D
@@ -121,19 +121,19 @@
 	dc.b	$FC
 	dc.b	"de recherche au monde."
 	dc.b	$FD
-	dc.b	"Qu'est-ce que vous en pensez?"
+	dc.b	"Qu'est-ce que vous en pensez ?"
 	dc.b	$FC
-	dc.b	"Magnifique, n'est-ce pas?"
+	dc.b	"Magnifique, n'est-ce pas ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Quel endroit intéressant!"
+	dc.b	"Quel endroit intéressant !"
 	dc.b	$FC
-	dc.b	"Pas vrai, Alys?"
+	dc.b	"Pas vrai, Alys ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Ouais? Je ne suis pas du tout"
+	dc.b	"Ouais ? Je ne suis pas du tout"
 	dc.b	$FC
 	dc.b	"intéressée."
 	dc.b	$FF
@@ -147,13 +147,13 @@
 	dc.b	$FC
 	dc.b	"de recherche au monde."
 	dc.b	$FD
-	dc.b	"Qu'est-ce que vous en pensez?"
+	dc.b	"Qu'est-ce que vous en pensez ?"
 	dc.b	$FC
-	dc.b	"Magnifique, n'est-ce pas?"
+	dc.b	"Magnifique, n'est-ce pas ?"
 	dc.b	$FF
 
 ; $F
-	dc.b	"C'est quoi, ce gros trou!?"
+	dc.b	"C'est quoi, ce gros trou !?"
 	dc.b	$FF
 
 ; $10
@@ -163,27 +163,27 @@
 	dc.b	$42, $02
 	dc.b	$FA
 	dc.b	$0A, $01
-	dc.b	"Hein? On se connaît?"
+	dc.b	"Hein ? On se connaît ?"
 	dc.b	$FD
-	dc.b	"Hôlà!"
+	dc.b	"Hôlà !"
 	dc.b	$FD
-	dc.b	"C'est quoi toutes ces armes mortelles?"
+	dc.b	"C'est quoi toutes ces armes mortelles ?"
 	dc.b	$FD
-	dc.b	"Hors d'ici!"
+	dc.b	"Hors d'ici !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Quel impoli!"
+	dc.b	"Quel impoli !"
 	dc.b	$FF
 
 ; $11
-	dc.b	"Hahn! Que fais-tu avec ces créatures"
+	dc.b	"Hahn ! Que fais-tu avec ces créatures"
 	dc.b	$FC
-	dc.b	"barbares?"
+	dc.b	"barbares ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Quel abruti!"
+	dc.b	"Quel abruti !"
 	dc.b	$FD
 	dc.b	"Peut-être que je vais m'amuser un peu"
 	dc.b	$FC
@@ -191,19 +191,19 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Ahhh!"
+	dc.b	"Ahhh !"
 	dc.b	$FC
-	dc.b	"Rangez ça, s'il-vous-plaît!"
+	dc.b	"Rangez ça, s'il-vous-plaît !"
 	dc.b	$FF
 
 ; $12
 	dc.b	"Honnêtement, je suis surpris que Hahn"
 	dc.b	$FC
-	dc.b	"soit de mêche avec de tels barbares!"
+	dc.b	"soit de mêche avec de tels barbares !"
 	dc.b	$FF
 
 ; $13
-	dc.b	"À...À l'aide!"
+	dc.b	"À...À l'aide !"
 	dc.b	$FF
 
 ; $14
@@ -225,7 +225,7 @@
 	dc.b	$FD
 	dc.b	"l'épuisement des sols, et une baisse"
 	dc.b	$FC
-	dc.b	"de natalité!"
+	dc.b	"de natalité !"
 	dc.b	$FD
 	dc.b	"Ce n'est pas signe d'un avenir très"
 	dc.b	$FC
@@ -251,7 +251,7 @@
 	dc.b	$FD
 	dc.b	"l'épuisement des sols, et une baisse"
 	dc.b	$FC
-	dc.b	"de natalité!"
+	dc.b	"de natalité !"
 	dc.b	$FD
 	dc.b	"Je suis pessimiste quant à nos"
 	dc.b	$FC
@@ -283,7 +283,7 @@
 	dc.b	$FD
 	dc.b	"l'épuisement des sols, et une baisse"
 	dc.b	$FC
-	dc.b	"de natalité!"
+	dc.b	"de natalité !"
 	dc.b	$FD
 	dc.b	"Je suis pessimiste quant à nos"
 	dc.b	$FC
@@ -293,7 +293,7 @@
 ; $17
 	dc.b	"Je vous l'affirme. Cette planète"
 	dc.b	$FC
-	dc.b	"regorge de problèmes!"
+	dc.b	"regorge de problèmes !"
 	dc.b	$FF
 
 ; $18
@@ -329,13 +329,13 @@
 	dc.b	$FF
 
 ; $1A
-	dc.b	"Vous avez tué tous les monstres?"
+	dc.b	"Vous avez tué tous les monstres ?"
 	dc.b	$FC
-	dc.b	"Ouf! Quel soulagement!"
+	dc.b	"Ouf ! Quel soulagement !"
 	dc.b	$FF
 
 ; $1B
-	dc.b	"Ah là là! Quelle galère!"
+	dc.b	"Ah là là ! Quelle galère !"
 	dc.b	$FF
 
 ; $1C
@@ -361,7 +361,7 @@
 	dc.b	$FF
 
 ; $1E
-	dc.b	"Ah là là! Quelle galère!"
+	dc.b	"Ah là là ! Quelle galère !"
 	dc.b	$FF
 
 ; $1F
@@ -373,7 +373,7 @@
 	dc.b	$FC
 	dc.b	"soudains dans les plaques tectoniques,"
 	dc.b	$FD
-	dc.b	"ainsi qu'une resurgence de monstres!"
+	dc.b	"ainsi qu'une resurgence de monstres !"
 	dc.b	$FD
 	dc.b	"Si ça continue comme ça, notre"
 	dc.b	$FC
@@ -383,7 +383,7 @@
 	dc.b	$02
 	dc.b	"Hé, ça ne sert a rien de passer son"
 	dc.b	$FC
-	dc.b	"temps à s'en lamenter!"
+	dc.b	"temps à s'en lamenter !"
 	dc.b	$FF
 
 ; $20
@@ -391,7 +391,7 @@
 	dc.b	$FC
 	dc.b	"soudains dans les plaques tectoniques,"
 	dc.b	$FD
-	dc.b	"ainsi qu'une resurgence de monstres!"
+	dc.b	"ainsi qu'une resurgence de monstres !"
 	dc.b	$FD
 	dc.b	"Si ça continue comme ça, notre"
 	dc.b	$FC
@@ -399,7 +399,7 @@
 	dc.b	$FF
 
 ; $21
-	dc.b	"Vous voyez? On est foutus..."
+	dc.b	"Vous voyez ? On est foutus..."
 	dc.b	$FF
 
 ; $22
@@ -431,7 +431,7 @@
 ; $23
 	dc.b	"Ouais, il y a tellement de mondes"
 	dc.b	$FC
-	dc.b	"différents!"
+	dc.b	"différents !"
 	dc.b	$FF
 
 ; $24
@@ -471,9 +471,9 @@
 	dc.b	$FC
 	dc.b	"d'observer Dezolis avec un téléscope."
 	dc.b	$FD
-	dc.b	"Oh! J'aimerais tant aller sur Dezolis,"
+	dc.b	"Oh ! J'aimerais tant aller sur Dezolis,"
 	dc.b	$FC
-	dc.b	"juste une fois!"
+	dc.b	"juste une fois !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
@@ -493,9 +493,9 @@
 	dc.b	$FC
 	dc.b	"d'observer Dezolis avec un téléscope."
 	dc.b	$FD
-	dc.b	"Oh! J'aimerais tant aller sur Dezolis,"
+	dc.b	"Oh ! J'aimerais tant aller sur Dezolis,"
 	dc.b	$FC
-	dc.b	"juste une fois!"
+	dc.b	"juste une fois !"
 	dc.b	$FF
 
 ; $28
@@ -503,15 +503,15 @@
 	dc.b	$FC
 	dc.b	"préoccuper de cet énorme trou,"
 	dc.b	$FD
-	dc.b	"pas de l'espace sidéral!"
+	dc.b	"pas de l'espace sidéral !"
 	dc.b	$FF
 
 ; $29
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Chaz, où diable étais-tu?"
+	dc.b	"Chaz, où diable étais-tu ?"
 	dc.b	$FC
-	dc.b	"Allez, grouille!"
+	dc.b	"Allez, grouille !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
@@ -527,11 +527,11 @@
 ; $2A
 	dc.b	$FA
 	dc.b	$DA, $01
-	dc.b	"Ça alors!"
+	dc.b	"Ça alors !"
 	dc.b	$FC
-	dc.b	"Un client!"
+	dc.b	"Un client !"
 	dc.b	$FD
-	dc.b	"Pardonnez-moi! Voyez-vous, ici nous"
+	dc.b	"Pardonnez-moi ! Voyez-vous, ici nous"
 	dc.b	$FC
 	dc.b	"sommes dans une ville universitaire,"
 	dc.b	$FD
@@ -541,9 +541,9 @@
 	dc.b	$FF
 
 ; $2B
-	dc.b	"Oubliez les auberges! Il y a plus grave"
+	dc.b	"Oubliez les auberges ! Il y a plus grave"
 	dc.b	$FC
-	dc.b	"en ce moment, non?"
+	dc.b	"en ce moment, non ?"
 	dc.b	$FF
 
 ; $2C
@@ -559,13 +559,13 @@
 	dc.b	$FF
 
 ; $2D
-	dc.b	"Ouf! Maintenant, mes enfants peuvent"
+	dc.b	"Ouf ! Maintenant, mes enfants peuvent"
 	dc.b	$FC
 	dc.b	"aller jouer dehors."
 	dc.b	$FF
 
 ; $2E
-	dc.b	"Pardon? Mais que veux-tu dire par là?"
+	dc.b	"Pardon ? Mais que veux-tu dire par là ?"
 	dc.b	$FF
 
 ; $2F
@@ -573,11 +573,11 @@
 	dc.b	$DA, $02
 	dc.b	$FA
 	dc.b	$0C, $01
-	dc.b	"Juste un peu!"
+	dc.b	"Juste un peu !"
 	dc.b	$FC
-	dc.b	"Allez, sois gentille!"
+	dc.b	"Allez, sois gentille !"
 	dc.b	$FD
-	dc.b	"Tu t'en fais pour rien, maman!"
+	dc.b	"Tu t'en fais pour rien, maman !"
 	dc.b	$FF
 
 ; $30
@@ -585,13 +585,13 @@
 	dc.b	$FC
 	dc.b	"en cachette pendant la nuit depuis"
 	dc.b	$FD
-	dc.b	"qu'il n'y a plus de monstres dehors!"
+	dc.b	"qu'il n'y a plus de monstres dehors !"
 	dc.b	$FF
 
 ; $31
-	dc.b	"Il est arrivé quelque chose?"
+	dc.b	"Il est arrivé quelque chose ?"
 	dc.b	$FC
-	dc.b	"Allez! Dis-moi!"
+	dc.b	"Allez ! Dis-moi !"
 	dc.b	$FF
 
 ; $32
@@ -635,15 +635,15 @@
 	dc.b	$DA, $01
 	dc.b	"Les étudiants de l'Académie sont"
 	dc.b	$FC
-	dc.b	"bruyants jour comme nuit!"
+	dc.b	"bruyants jour comme nuit !"
 	dc.b	$FD
 	dc.b	"Tenez, l'autre jour, une bande d'entre"
 	dc.b	$FC
 	dc.b	"eux ont sauté dans la fontaine,"
 	dc.b	$FD
-	dc.b	"quelle histoire!"
+	dc.b	"quelle histoire !"
 	dc.b	$FC
-	dc.b	"Ils ne pensent donc qu'à eux-mêmes?"
+	dc.b	"Ils ne pensent donc qu'à eux-mêmes ?"
 	dc.b	$FD
 	dc.b	"J'aimerais bien que quelqu'un puisse"
 	dc.b	$FC
@@ -651,7 +651,7 @@
 	dc.b	$FF
 
 ; $3F
-	dc.b	"Que...Que faire? Je veux m'enfuir,"
+	dc.b	"Que...Que faire ? Je veux m'enfuir,"
 	dc.b	$FC
 	dc.b	"mais je n'ai nulle part où aller..."
 	dc.b	$FF
@@ -794,7 +794,7 @@
 ; $6D
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Oups! J'ai trop flâné, et maintenant"
+	dc.b	"Oups ! J'ai trop flâné, et maintenant"
 	dc.b	$FC
 	dc.b    "j'ai perdu Alys."
 	dc.b	$FD
@@ -812,7 +812,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Peut-être a-t-il peur des monstres?"
+	dc.b	"Peut-être a-t-il peur des monstres ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
@@ -822,7 +822,7 @@
 	dc.b	$FD
 	dc.b	"Ça commence à être passionant, cette"
 	dc.b	$FC
-	dc.b	"affaire!"
+	dc.b	"affaire !"
 	dc.b	$FF
 ;; Local Variables:
 ;; eval: (fci-mode)

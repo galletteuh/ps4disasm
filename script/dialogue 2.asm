@@ -199,7 +199,7 @@
 	dc.b	$FD
 	dc.b	"Dernièrement, je ne reçois plus mon"
 	dc.b	$FC
-	dc.b	"argent de poche. M'ont-ils oublié?"
+	dc.b	"argent de poche. M'ont-ils oublié ?"
 	dc.b	$FD
 	dc.b	"Bon, eh bien, je vais devoir me trouver"
 	dc.b	$FC
@@ -213,9 +213,9 @@
 ; $41
 	dc.b	"C'est vrai que le village de Mile est"
 	dc.b	$FC
-	dc.b	"devenu un village fantôme?"
+	dc.b	"devenu un village fantôme ?"
 	dc.b	$FD
-	dc.b	"Maman! Papa!"
+	dc.b	"Maman ! Papa !"
 	dc.b	$FF
 
 ; $42
@@ -225,11 +225,11 @@
 	dc.b	$0C, $01
 	dc.b	"Le nombre de monstres semblait diminuer,"
 	dc.b	$FC
-	dc.b	"et soudain, on en retrouve dans la ville!"
+	dc.b	"et soudain, on en retrouve dans la ville !"
 	dc.b	$FD
 	dc.b	"Vous croyez que c'est un signe du"
 	dc.b	$FC
-	dc.b	"destin?"
+	dc.b	"destin ?"
 	dc.b	$FF
 
 ; $43
@@ -237,11 +237,11 @@
 	dc.b	$FC
 	dc.b	"dans la ville."
 	dc.b	$FD
-	dc.b	"Le ciel soit loué!"
+	dc.b	"Le ciel soit loué !"
 	dc.b	$FF
 
 ; $44
-	dc.b	"C'est...c'est la fin du monde!"
+	dc.b	"C'est...c'est la fin du monde !"
 	dc.b	$FF
 
 ; $45
@@ -277,9 +277,9 @@
 ; $47
 	dc.b	"Vous dites que du poison sort de ce"
 	dc.b	$FC
-	dc.b	"trou?"
+	dc.b	"trou ?"
 	dc.b	$FD
-	dc.b	"Hé! C'est vrai?"
+	dc.b	"Hé ! C'est vrai ?"
 	dc.b	$FF
 
 ; $48
@@ -287,15 +287,15 @@
 	dc.b	$DA, $02
 	dc.b	$FA
 	dc.b	$0C, $01
-	dc.b	"Je l'ai vu! Au beau milieu de la nuit, des"
+	dc.b	"Je l'ai vu ! Au beau milieu de la nuit, des"
 	dc.b	$FC
 	dc.b	"hommes suspects ont amené un gros"
 	dc.b	$FD
-	dc.b	"colis dans l'Académie!"
+	dc.b	"colis dans l'Académie !"
 	dc.b	$FD
 	dc.b	"Ça fait un bail, mais je me demande ce"
 	dc.b	$FC
-	dc.b	"que ça pouvait bien être!"
+	dc.b	"que ça pouvait bien être !"
 	dc.b	$FF
 
 ; $49
@@ -303,7 +303,7 @@
 	dc.b	$FC
 	dc.b	"s'il y avait un lien entre ce colis et"
 	dc.b	$FD
-	dc.b	"les monstres?"
+	dc.b	"les monstres ?"
 	dc.b	$FF
 
 ; $4A
@@ -315,13 +315,13 @@
 ; $4B
 	dc.b	$FA
 	dc.b	$DA, $01
-	dc.b	"C'est quoi votre problème?"
+	dc.b	"C'est quoi votre problème ?"
 	dc.b	$FD
-	dc.b	"Vous êtes bien trop amicaux!"
+	dc.b	"Vous êtes bien trop amicaux !"
 	dc.b	$FF
 
 ; $4C
-	dc.b	"À...À l'aiiide!"
+	dc.b	"À...À l'aiiide !"
 	dc.b	$FF
 
 ; $4D
@@ -347,7 +347,7 @@
 	dc.b	$FC
 	dc.b	"disant que la surface du sol a glissé"
 	dc.b	$FD
-	dc.b	"d'un coup!"
+	dc.b	"d'un coup !"
 	dc.b	$FF
 
 ; $4F
@@ -357,13 +357,13 @@
 	dc.b	$FC
 	dc.b	"les puits du village de Mile sont tous"
 	dc.b	$FD
-	dc.b	"à sec!"
+	dc.b	"à sec !"
 	dc.b	$FF
 
 ; $50
 	dc.b	"Si Mile a des problèmes, ce sera à notre"
 	dc.b	$FC
-	dc.b	"tour bientôt!"
+	dc.b	"tour bientôt !"
 	dc.b	$FF
 
 ; $51
@@ -373,7 +373,7 @@
 	dc.b	$FC
 	dc.b	"dans cette fontaine l'autre jour."
 	dc.b	$FD
-	dc.b	"J'arrive pas à croire que j'ai manqué ça!"
+	dc.b	"J'arrive pas à croire que j'ai manqué ça !"
 	dc.b	$FD
 	dc.b	"Vous devriez vous y baigner, ça vous"
 	dc.b	$FC
@@ -381,7 +381,7 @@
 	dc.b	$FF
 
 ; $52
-	dc.b	"Ahhhhhhh!"
+	dc.b	"Ahhhhhhh !"
 	dc.b	$FF
 
 ; $53
@@ -393,7 +393,7 @@
 	dc.b	$FD
 	dc.b	"Personne ne passe au delà de cette"
 	dc.b	$FC
-	dc.b	"ligne!"
+	dc.b	"ligne !"
 	dc.b	$FF
 
 ; $54
@@ -407,11 +407,11 @@
 ; $55
 	dc.b	"Ici, vous êtes à Piata, mais trève de"
 	dc.b	$FC
-	dc.b	"plaisanteries!"
+	dc.b	"plaisanteries !"
 	dc.b	$FD
 	dc.b	"Au nord, près de Mile, il y a un grand"
 	dc.b	$FC
-	dc.b	"trou!"
+	dc.b	"trou !"
 	dc.b	$FF
 
 ; $56
@@ -430,7 +430,7 @@
 	dc.b	$FC
 	dc.b	"de l'Académie Motavia."
 	dc.b	$FD
-	dc.b	"Moi? Je suis le concierge."
+	dc.b	"Moi ? Je suis le concierge."
 	dc.b	$FF
 
 ; $58
@@ -440,7 +440,7 @@
 	dc.b	$FD
 	dc.b	"mais..."
 	dc.b	$FC
-	dc.b	"Ah, non, rien, rien à voir avec vous!"
+	dc.b	"Ah, non, rien, rien à voir avec vous !"
 	dc.b	$FF
 
 ; $59
@@ -455,7 +455,7 @@
 	dc.b	$FF
 
 ; $5B
-	dc.b	"Merci pour tout!"
+	dc.b	"Merci pour tout !"
 	dc.b	$FD
 	dc.b	"Maintenant nous pouvons sauver les"
 	dc.b	$FC
@@ -463,7 +463,7 @@
 	dc.b	$FD
 	dc.b	"Nous remettrons la somme convenue"
 	dc.b	$FC
-	dc.b	"à la guilde!"
+	dc.b	"à la guilde !"
 	dc.b	$FD
 	dc.b	"Euh, aussi... J'apprécierais si vous"
 	dc.b	$FC
@@ -481,7 +481,7 @@
 	dc.b	$65, $01
 	dc.b	"J'ai un mémoire à remettre demain,"
 	dc.b	$FC
-	dc.b	"mais je n'ai pas écrit un seul mot!"
+	dc.b	"mais je n'ai pas écrit un seul mot !"
 	dc.b	$FF
 
 ; $5E
@@ -509,7 +509,7 @@
 	dc.b	$FF
 
 ; $60
-	dc.b	"La fille de la chambre d'à côté?"
+	dc.b	"La fille de la chambre d'à côté ?"
 	dc.b	$FC
 	dc.b	"À bien y penser, je ne l'ai pas vue"
 	dc.b	$FD
@@ -519,7 +519,7 @@
 ; $61
 	dc.b	"La fille de la chambre d'à côté est"
 	dc.b	$FC
-	dc.b	"revenue? Je n'étais pas au courant."
+	dc.b	"revenue ? Je n'étais pas au courant."
 	dc.b	$FF
 
 ; $62
@@ -541,7 +541,7 @@
 	dc.b	$FD
 	dc.b	"On ne l'a pas revue depuis un bail."
 	dc.b	$FC
-	dc.b	"Où donc est-elle allée?"
+	dc.b	"Où donc est-elle allée ?"
 	dc.b	$FF
 
 ; $64
@@ -557,7 +557,7 @@
 ; $65
 	dc.b	"La fille de la chambre d'à côté est"
 	dc.b	$FC
-	dc.b	"revenue!"
+	dc.b	"revenue !"
 	dc.b	$FD
 	dc.b	"Apparamment, elle n'a aucun souvenir"
 	dc.b	$FC
@@ -567,7 +567,7 @@
 	dc.b	$FF
 
 ; $66
-	dc.b	"Vous dites qu'il est arrivé quoi?"
+	dc.b	"Vous dites qu'il est arrivé quoi ?"
 	dc.b	$FF
 
 ; $67
@@ -575,21 +575,21 @@
 	dc.b	$DA, $02
 	dc.b	$FA
 	dc.b	$65, $01
-	dc.b	"Hé! Je me change!"
+	dc.b	"Hé ! Je me change !"
 	dc.b	$FC
-	dc.b	"Dehors! Dehors!!!"
+	dc.b	"Dehors ! Dehors !!!"
 	dc.b	$FF
 
 ; $68
-	dc.b	"Hé! Je me change toujours!"
+	dc.b	"Hé ! Je me change toujours !"
 	dc.b	$FC
-	dc.b	"Dehors! Dehors!!!"
+	dc.b	"Dehors ! Dehors !!!"
 	dc.b	$FF
 
 ; $69
-	dc.b	"Je suis encore en train de me changer!"
+	dc.b	"Je suis encore en train de me changer !"
 	dc.b	$FC
-	dc.b	"Alors, déguerpissez!"
+	dc.b	"Alors, déguerpissez !"
 	dc.b	$FF
 
 ; $6A
@@ -597,7 +597,7 @@
 	dc.b	$DA, $01
 	dc.b	"Que...qu'est-ce que je faisais tout ce"
 	dc.b	$FC
-	dc.b	"temps...?"
+	dc.b	"temps... ?"
 	dc.b	$FD
 	dc.b	"Quand je tente de m'en rappeler,"
 	dc.b	$FC
@@ -607,17 +607,17 @@
 ; $6B
 	dc.b	"J'ai... horriblement mal à la tête..."
 	dc.b	$FC
-	dc.b	"Que... signifie!?"
+	dc.b	"Que... signifie !?"
 	dc.b	$FF
 
 ; $6C
-	dc.b	"Ah, vous êtes le chasseur de la guilde?"
+	dc.b	"Ah, vous êtes le chasseur de la guilde ?"
 	dc.b	$FC
-	dc.b	"Ai...Aidez-nous!"
+	dc.b	"Ai...Aidez-nous !"
 	dc.b	$FD
 	dc.b	"Il se trouve que l'une des étudiantes"
 	dc.b	$FC
-	dc.b	"qui habite ici manque à l'appel!"
+	dc.b	"qui habite ici manque à l'appel !"
 	dc.b	$FD
 	dc.b	"Il semblerait qu'elle est devenue dévote"
 	dc.b	$FC
@@ -633,15 +633,15 @@
 	dc.b	$FD
 	dc.b	"J'ai la lourde responsabilité de m'occuper"
 	dc.b	$FC
-	dc.b	"de l'enfant d'une autre personne!"
+	dc.b	"de l'enfant d'une autre personne !"
 	dc.b	$FD
 	dc.b	"Suite à un tel dérapage, la réputation"
 	dc.b	$FC
-	dc.b	"même de l'Académie pourrait en pâtir!"
+	dc.b	"même de l'Académie pourrait en pâtir !"
 	dc.b	$FD
 	dc.b	"Je vous en prie, tentez de la ramener"
 	dc.b	$FC
-	dc.b	"avant que les gens ne l'apprennent!"
+	dc.b	"avant que les gens ne l'apprennent !"
 	dc.b	$FD
 	dc.b	"Merci de vous donner tant de mal"
 	dc.b	$FC
