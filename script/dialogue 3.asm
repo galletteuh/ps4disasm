@@ -2,13 +2,13 @@
 	dc.b	$FF
 
 ; $1
-	dc.b	"Vous avez vu les sables mouvants?"
+	dc.b	"Vous avez vu les sables mouvants ?"
 	dc.b	$FC
-	dc.b	"Ils s'étendent vite!"
+	dc.b	"Ils s'étendent vite !"
 	dc.b	$FD
 	dc.b	"Combien de temps notre ville"
 	dc.b	$FC
-	dc.b	"pourra-t-elle tenir?"
+	dc.b	"pourra-t-elle tenir ?"
 	dc.b	$FF
 
 ; $2
@@ -26,7 +26,7 @@
 ; $3
 	dc.b	$FA
 	dc.b	$33, $01
-	dc.b	"Vous cherchez la Vallée de l'Éclosion?"
+	dc.b	"Vous cherchez la Vallée de l'Éclosion ?"
 	dc.b	$FD
 	dc.b	"Vous devez vous rendre au village de"
 	dc.b	$FC
@@ -40,11 +40,11 @@
 	dc.b	$FD
 	dc.b	"Peut-être sont-ils tous partis durant"
 	dc.b	$FC
-	dc.b	"la nuit?"
+	dc.b	"la nuit ?"
 	dc.b	$FF
 
 ; $4
-	dc.b	"Vous cherchez la Vallée de l'Éclosion?"
+	dc.b	"Vous cherchez la Vallée de l'Éclosion ?"
 	dc.b	$FD
 	dc.b	"Vous devez vous rendre au village de"
 	dc.b	$FC
@@ -62,7 +62,7 @@
 	dc.b	$FC
 	dc.b	"qui devient prisée."
 	dc.b	$FD
-	dc.b	"Un homme en noir en serait à l'origine!"
+	dc.b	"Un homme en noir en serait à l'origine !"
 	dc.b	$FD
 	dc.b	"Il s'appelait comment déjà..."
 	dc.b	$FD
@@ -78,7 +78,7 @@
 	dc.b	$FD
 	dc.b	"Les jeunes de nos jours sont tellement"
 	dc.b	$FC
-	dc.b	"volages!"
+	dc.b	"volages !"
 	dc.b	$FF
 
 ; $7
@@ -86,55 +86,55 @@
 	dc.b	$65, $01
 	dc.b	"Vous voyez le château, là-bas, passé"
 	dc.b	$FC
-	dc.b	"les sables mouvants?"
+	dc.b	"les sables mouvants ?"
 	dc.b	$FD
 	dc.b	"J'aurais juré qu'il est apparu d'un coup"
 	dc.b	$FC
-	dc.b	"durant la nuit!"
+	dc.b	"durant la nuit !"
 	dc.b	$FD
 	dc.b	"Ça doit être mon imagination,"
 	dc.b	$FC
-	dc.b	"n'est-ce-pas?"
+	dc.b	"n'est-ce-pas ?"
 	dc.b	$FF
 
 ; $8
 	dc.b	"Vous vous rappelez le château passé"
 	dc.b	$FC
-	dc.b	"les sables mouvants?"
+	dc.b	"les sables mouvants ?"
 	dc.b	$FD
 	dc.b	"Je vous jure qu'il était là un moment,"
 	dc.b	$FC
-	dc.b	"et le lendemain, pouf!"
+	dc.b	"et le lendemain, pouf !"
 	dc.b	$FD
 	dc.b	"Ça...Ça doit être toujours mon"
 	dc.b	$FC
-	dc.b	"imagination, non?"
+	dc.b	"imagination, non ?"
 	dc.b	$FF
 
 ; $9
 	dc.b	"Je balaie, je balaie, mais le sable"
 	dc.b	$FC
-	dc.b	"revient toujours!"
+	dc.b	"revient toujours !"
 	dc.b	$FD
-	dc.b	"J'en ai vraiment marre!"
+	dc.b	"J'en ai vraiment marre !"
 	dc.b	$FF
 
 ; $A
 	dc.b	$FA
 	dc.b	$33, $01
-	dc.b	"J'ai entendu dire que Zema a été détruit!"
+	dc.b	"J'ai entendu dire que Zema a été détruit !"
 	dc.b	$FC
 	dc.b	"Quelqu'un doit aller voir."
 	dc.b	$FD
-	dc.b	"Moi, euh! Je suis trop occupé,"
+	dc.b	"Moi, euh ! Je suis trop occupé,"
 	dc.b	$FC
 	dc.b	"alors je passe mon tour."
 	dc.b	$FF
 
 ; $B
-	dc.b	"Zema est rétabli!!!"
+	dc.b	"Zema est rétabli !!!"
 	dc.b	$FD
-	dc.b	"C'est vrai? Sans rire?"
+	dc.b	"C'est vrai ? Sans rire ?"
 	dc.b	$FF
 
 ; $C
@@ -173,13 +173,13 @@
 	dc.b	$FC
 	dc.b	"sables tout neuf."
 	dc.b	$FD
-	dc.b	"Qu'en pensez-vous?"
+	dc.b	"Qu'en pensez-vous ?"
 	dc.b	$FC
-	dc.b	"Magnifique, n'est-ce pas?"
+	dc.b	"Magnifique, n'est-ce pas ?"
 	dc.b	$FD
 	dc.b	"Ça va sûrement attirer beaucoup de"
 	dc.b	$FC
-	dc.b	"touristes!"
+	dc.b	"touristes !"
 	dc.b	$FF
 
 ; $12
@@ -191,7 +191,7 @@
 	dc.b	$FD
 	dc.b	"Peut-être qu'on leur a donné trop à"
 	dc.b	$FC
-	dc.b	"manger, ils sont énormes!"
+	dc.b	"manger, ils sont énormes !"
 	dc.b	$FD
 	dc.b	"À vrai dire, ils ne sont plus vraiment"
 	dc.b	$FC
@@ -199,7 +199,7 @@
 	dc.b	$FD
 	dc.b	"Que pensez-vous que nous devrions"
 	dc.b	$FC
-	dc.b	"faire?"
+	dc.b	"faire ?"
 	dc.b	$FF
 
 ; $13
@@ -208,9 +208,9 @@
 	dc.b	$FF
 
 ; $14
-	dc.b	"Vi...Vite!"
+	dc.b	"Vi...Vite !"
 	dc.b	$FC
-	dc.b	"Faites quelque chose!"
+	dc.b	"Faites quelque chose !"
 	dc.b	$FF
 
 ; $15
@@ -227,7 +227,7 @@
 	dc.b	$FF
 
 ; $17
-	dc.b	"Ici, c'est Mile...Hé, c'est vous!"
+	dc.b	"Ici, c'est Mile...Hé, c'est vous !"
 	dc.b	$FC
 	dc.b	"Merci de toute votre aide l'autre fois."
 	dc.b	$FD
@@ -235,7 +235,7 @@
 	dc.b	$FC
 	dc.b	"dois faire maintenant."
 	dc.b	$FD
-	dc.b	"J'ai hâte au prochain défi!"
+	dc.b	"J'ai hâte au prochain défi !"
 	dc.b	$FF
 
 ; $18
@@ -251,7 +251,7 @@
 	dc.b	$FD
 	dc.b	"économies, mais qui diable se déplacerait"
 	dc.b	$FC
-	dc.b	"pour voir une telle chose?"
+	dc.b	"pour voir une telle chose ?"
 	dc.b	$FF
 
 ; $19
@@ -311,7 +311,7 @@
 ; $1E
 	dc.b	"Pouvez-vous prendre des mesures à"
 	dc.b	$FC
-	dc.b	"propos de ces vers des sables?"
+	dc.b	"propos de ces vers des sables ?"
 	dc.b	$FF
 
 ; $1F
@@ -333,21 +333,21 @@
 	dc.b	$FF
 
 ; $20
-	dc.b	"Vous êtes les Chasseurs de la guilde?"
+	dc.b	"Vous êtes les Chasseurs de la guilde ?"
 	dc.b	$FD
 	dc.b	"Les vers des sables que j'ai élevé ont"
 	dc.b	$FC
 	dc.b	"tellement grandit, la situation est"
 	dc.b	$FD
-	dc.b	"hors de contrôle!"
+	dc.b	"hors de contrôle !"
 	dc.b	$FD
-	dc.b	"S'il...s'il vous plaît!"
+	dc.b	"S'il...s'il vous plaît !"
 	dc.b	$FC
-	dc.b	"Pouvez-vous faire quelque chose?"
+	dc.b	"Pouvez-vous faire quelque chose ?"
 	dc.b	$FD
 	dc.b	"Quelle que soit l'issue, je ne m'en"
 	dc.b	$FC
-	dc.b	"plaindrai pas!"
+	dc.b	"plaindrai pas !"
 	dc.b	$FF
 
 ; $21
@@ -569,7 +569,7 @@
 
 ; $63
 	dc.b	$F3
-	dc.b	"Ahhh! Les monstres des profondeurs"
+	dc.b	"Ahhh ! Les monstres des profondeurs"
 	dc.b	$FC
 	dc.b	"sont..."
 	dc.b	$FF
@@ -591,7 +591,7 @@
 	dc.b	$F3
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Ils ont été pétrifiés!"
+	dc.b	"Ils ont été pétrifiés !"
 	dc.b	$FF
 
 ; $66
@@ -611,27 +611,27 @@
 	dc.w	$000C
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Oh! Professeur Holt!"
+	dc.b	"Oh ! Professeur Holt !"
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$000D
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Que diable?"
+	dc.b	"Que diable ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Un maléfice ancien?"
+	dc.b	"Un maléfice ancien ?"
 	dc.b	$FD
 	dc.b	"Je croyais impossible de lancer de tels"
 	dc.b	$FC
-	dc.b	"sorts de nos jours!"
+	dc.b	"sorts de nos jours !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
 	dc.b	"N'y a-t-il aucun moyen de les"
 	dc.b	$FC
-	dc.b	"libérer?"
+	dc.b	"libérer ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
@@ -643,7 +643,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Où peut-on le trouver?"
+	dc.b	"Où peut-on le trouver ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
@@ -657,7 +657,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Dans quel village Motavien?"
+	dc.b	"Dans quel village Motavien ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
@@ -668,7 +668,7 @@
 	dc.b	$03
 	dc.b	"Parfait."
 	dc.b	$FC
-	dc.b	"Allons-y!"
+	dc.b	"Allons-y !"
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$000E
@@ -697,45 +697,45 @@
 	dc.w	$0023
 	dc.b	$F4
 	dc.b	$0D
-	dc.b	"Hé? Mais c'est Hahn!"
+	dc.b	"Hé ? Mais c'est Hahn !"
 	dc.b	$FC
-	dc.b	"Nom d'une pipe, quel endroit!"
+	dc.b	"Nom d'une pipe, quel endroit !"
 	dc.b	$FD
 	dc.b	"C'est plein de vestiges d'une ancienne"
 	dc.b	$FC
 	dc.b	"civilisation."
 	dc.b	$FD
-	dc.b	"Tu tombes à pic!"
+	dc.b	"Tu tombes à pic !"
 	dc.b	$FC
 	dc.b	"Vous aussi..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Professeur Holt! Ce n'est pas le"
+	dc.b	"Professeur Holt ! Ce n'est pas le"
 	dc.b	$FC
-	dc.b	"moment!"
+	dc.b	"moment !"
 	dc.b	$FD
 	dc.b	"Vous êtes-vous rendu compte que vous"
 	dc.b	$FC
-	dc.b	"étiez pétrifié par Zio?"
+	dc.b	"étiez pétrifié par Zio ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0D
-	dc.b	"Hum? Ah, oui?"
+	dc.b	"Hum ? Ah, oui ?"
 	dc.b	$FD
 	dc.b	"Eh bien, me voici, frais comme une rose,"
 	dc.b	$FC
-	dc.b	"alors, pas de souci!"
+	dc.b	"alors, pas de souci !"
 	dc.b	$FD
 	dc.b	"Parfait. Recommençons nos recherches"
 	dc.b	$FC
 	dc.b	"tout de suite."
 	dc.b	$FD
-	dc.b	"Hahn!"
+	dc.b	"Hahn !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Oui, monsieur!"
+	dc.b	"Oui, monsieur !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0D
@@ -751,9 +751,9 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0D
-	dc.b	"Très bien! En avant, plus loin dans la"
+	dc.b	"Très bien ! En avant, plus loin dans la"
 	dc.b	$FC
-	dc.b	"Vallée de l'Éclosion!!"
+	dc.b	"Vallée de l'Éclosion !!"
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$0024
@@ -775,7 +775,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Oh, ne vous en faites pas, Hahn!"
+	dc.b	"Oh, ne vous en faites pas, Hahn !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
@@ -785,7 +785,7 @@
 	dc.b	$FD
 	dc.b	"Détendons-nous pour le restant de la"
 	dc.b	$FC
-	dc.b	"journée, d'accord, Chaz?"
+	dc.b	"journée, d'accord, Chaz ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
@@ -804,19 +804,19 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"OK. Et que fait-on de Gryz?"
+	dc.b	"OK. Et que fait-on de Gryz ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$05
-	dc.b	"Plaît-il?"
+	dc.b	"Plaît-il ?"
 	dc.b	$FD
 	dc.b	"Je vais détruire Zio..."
 	dc.b	$FC
-	dc.b	"Même si je dois le faire seul!"
+	dc.b	"Même si je dois le faire seul !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Ne soyez pas si impatient!"
+	dc.b	"Ne soyez pas si impatient !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$05
@@ -824,7 +824,7 @@
 	dc.b	$FC
 	dc.b	"l'impatience ou pas."
 	dc.b	$FD
-	dc.b	"Ma décision est prise!"
+	dc.b	"Ma décision est prise !"
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$0028
@@ -847,7 +847,7 @@
 	dc.b	$FE
 	dc.b	$F4
 	dc.b	$00
-	dc.b	"Ahhhhh!"
+	dc.b	"Ahhhhh !"
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$002A
@@ -855,11 +855,11 @@
 	dc.b	$A9
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"C'est quoi ça?"
+	dc.b	"C'est quoi ça ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Quelqu'un a crié!"
+	dc.b	"Quelqu'un a crié !"
 	dc.b	$FF
 
 ; $68
@@ -869,7 +869,7 @@
 	dc.b	$03
 	dc.b	"Comment entrer, avec cette créature"
 	dc.b	$FC
-	dc.b	"dans le chemin?"
+	dc.b	"dans le chemin ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
@@ -877,7 +877,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Euh, là, maintenant?!"
+	dc.b	"Euh, là, maintenant ?!"
 	dc.b	$FF
 
 ; $69
@@ -887,7 +887,7 @@
 	dc.b	$01
 	dc.b	"Alors, comment c'était, cette fois-ci,"
 	dc.b	$FC
-	dc.b	"Alys?"
+	dc.b	"Alys ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
@@ -897,11 +897,11 @@
 	dc.w	$002D
 	dc.b	$F4
 	dc.b	$00
-	dc.b	"C'est une malédiction!"
+	dc.b	"C'est une malédiction !"
 	dc.b	$FC
 	dc.b	"Nous avons profané un lieu sacré,"
 	dc.b	$FD
-	dc.b	"et voilà le résultat!"
+	dc.b	"et voilà le résultat !"
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$002E
@@ -909,19 +909,19 @@
 	dc.b	$01
 	dc.b	"...Une malédiction...Qu'y a-t-il à"
 	dc.b	$FC
-	dc.b	"l'intérieur?"
+	dc.b	"l'intérieur ?"
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$002F
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Que faire? Le professeur est toujours"
+	dc.b	"Que faire ? Le professeur est toujours"
 	dc.b	$FC
-	dc.b	"à l'intérieur!"
+	dc.b	"à l'intérieur !"
 	dc.b	$FD
 	dc.b	"...Ah..."
 	dc.b	$FD
-	dc.b	"Heu...Alys?"
+	dc.b	"Heu...Alys ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
@@ -929,7 +929,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"...M...ma caisse de noces...!"
+	dc.b	"...M...ma caisse de noces... !"
 	dc.b	$FF
 
 ; $6A
@@ -965,7 +965,7 @@
 	dc.b	$02
 	dc.b	"Allez, assez lambiné."
 	dc.b	$FC
-	dc.b	"En route pour Molcum!"
+	dc.b	"En route pour Molcum !"
 	dc.b	$FF
 ;; Local Variables:
 ;; eval: (fci-mode)
