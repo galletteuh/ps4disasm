@@ -188,12 +188,17 @@ def deinterleave_buffer(buffer, outf):
 
 # ok, let's get on with it
 ctrl_code_offset = {
-        0xF2: 2,
-        0xF4: 2,
+        0xF4: 3 if '31.asm' in sys.argv[1] or '32.asm' in sys.argv[1] else 2,
         0xF5: 3,
         0xF6: 3,
         0xF9: 2,
         0xFA: 3
+}
+sub_ctrl_code_offset = {
+        0: 3,
+        3: 2,
+        4: 2,
+        0xB: 2
 }
 
 dialogue_data = out.getvalue()
@@ -241,6 +246,11 @@ while not end_of_dialog:
                                                 deinterleave_buffer(output_buffer, outf)
                                         dlg_index += 1
                                         break
+                                elif ch == 0xF2:
+                                        # special
+                                        action_type = cbuf[char_index]
+                                        char_index += sub_ctrl_code_offset.get(action_type, 1)
+                                        continue
                                 else:
                                         # end of window, flush what we have
                                         if out_char_count > 0:
