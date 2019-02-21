@@ -59,8 +59,8 @@
 	dc.b	4		;!	58
 	dc.b	8		;? 	59 - note - no blank on right
 	dc.b	5		;-	60
-	dc.b	8		;left dq
-	dc.b	8		;right dq
+	dc.b	6		;left dq
+	dc.b	6		;right dq
 	dc.b	8		;%	63
 	dc.b	7		;0	64
 	dc.b	5		;1	65

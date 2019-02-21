@@ -35,39 +35,33 @@
 	dc.b	$FF
 
 ; $C
-	dc.b	"Notre fils unique est inscrit"
+	dc.b	"Notre fils unique est inscrit à l'Académie"
 	dc.b	$FC
-	dc.b	"à l'Académie Motavia, mais"
+	dc.b	"Motavia, mais suite aux mauvaises"
 	dc.b	$FD
-	dc.b	"suite aux mauvaises récoltes"
+	dc.b	"récoltes, nous n'avons pas pu lui envoyer"
 	dc.b	$FC
-	dc.b	"nous n'avons pas pu lui envoyer"
-	dc.b	$FD
 	dc.b	"d'allocation."
 	dc.b	$FD
 	dc.b	"Nous sommes très inquiets!"
 	dc.b	$FD
-	dc.b	"J'espère qu'il a assez pour se"
-	dc.b	$FC
-	dc.b	"nourrir!"
+	dc.b	"J'espère qu'il a assez pour se nourrir !"
 	dc.b	$FF
 
 ; $D
-	dc.b	"Le sol devient infertile"
+	dc.b	"Le sol devient infertile, quelque soit"
 	dc.b	$FC
-	dc.b	"quelque soit l'endroit où"
-	dc.b	$FD
-	dc.b	"nous cultivons."
+	dc.b	"l'endroit où nous cultivons."
 	dc.b	$FF
 
 ; $E
 	dc.b	$FA
 	dc.b	$42, $01
-	dc.b	"J'étudie pour pouvoir m'inscrire"
+	dc.b	"J'étudie pour m'inscrire à l'Académie"
 	dc.b	$FC
-	dc.b	"à l'Académie Motavia."
+	dc.b	"Motavia."
 	dc.b	$FD
-	dc.b	"Hé, vous me dérangez!"
+	dc.b	"Hé, vous me dérangez !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
@@ -75,19 +69,19 @@
 	dc.b	$FF
 
 ; $F
-	dc.b	"J'étudie pour m'inscrire à"
+	dc.b	"Moi aussi, j'étudie pour m'inscrire à"
 	dc.b	$FC
-	dc.b	"l'Académie Motavia moi aussi!"
+	dc.b	"l'Académie Motavia !"
 	dc.b	$FF
 
 ; $10
-	dc.b	"On aurait préféré qu'il reste et"
+	dc.b	"On aurait préféré qu'il reste et reprenne"
 	dc.b	$FC
-	dc.b	"reprenne la ferme familiale..."
+	dc.b	"la ferme familiale..."
 	dc.b	$FD
-	dc.b	"Remarquez qu'avec les champs"
+	dc.b	"Remarquez qu'avec les champs dans ce"
 	dc.b	$FC
-	dc.b	"dans ce piètre état..."
+	dc.b	"piètre état..."
 	dc.b	$FF
 
 ; $11
@@ -152,41 +146,37 @@
 	dc.b	$C0, $01
 	dc.b	$FA
 	dc.b	$14, $43
-	dc.b	"Alors, c'est vous les gens qui"
+	dc.b	"Alors, c'est vous, les gens qui nous"
 	dc.b	$FC
-	dc.b	"nous ont sauvés. Merci!"
+	dc.b	"avez sauvés. Merci !"
 	dc.b	$FF
 
 ; $23
-	dc.b	"Qu'est-ce que cette étrange"
-	dc.b	$FC
-	dc.b	"machine?"
+	dc.b	"Qu'est-ce que cette étrange machine ?"
 	dc.b	$FD
-	dc.b	"Elle fait peur!"
+	dc.b	"Elle fait peur !"
 	dc.b	$FF
 
 ; $24
-	dc.b	"Pardon?"
+	dc.b	"Pardon ?"
 	dc.b	$FD
-	dc.b	"Il me semble vous reconnaître?"
+	dc.b	"Il me semble vous reconnaître..."
 	dc.b	$FD
 	dc.b	"Ah, c'est vous."
 	dc.b	$FD
-	dc.b	"Merci pour votre aide l'autre"
-	dc.b	$FC
-	dc.b	"jour!"
+	dc.b	"Merci pour votre aide, l'autre jour !"
 	dc.b	$FF
 
 ; $25
-	dc.b	"Donc tout est réglé maintenant?"
+	dc.b	"Donc, tout est réglé, maintenant ?"
 	dc.b	$FC
-	dc.b	"Ouf!"
+	dc.b	"Ouf !"
 	dc.b	$FF
 
 ; $26
-	dc.b	"Au moins, ces étranges machines"
+	dc.b	"Au moins, ces étranges machines ne se"
 	dc.b	$FC
-	dc.b	"ne se manifestent plus."
+	dc.b	"manifestent plus."
 	dc.b	$FF
 
 ; $27
@@ -202,61 +192,57 @@
 	dc.b	$34, $01
 	dc.b	$FA
 	dc.b	$14, $3E
-	dc.b	"Le pont au nord du village est"
-	dc.b	$FC
-	dc.b	"détruit."
+	dc.b	"Le pont au nord du village est détruit."
 	dc.b	$FD
-	dc.b	"Encore un coup de Zio!"
+	dc.b	"Encore un coup de Zio !"
 	dc.b	$FD
-	dc.b	"On tente de le remettre en état"
+	dc.b	"On tente de le remettre en état le plus"
 	dc.b	$FC
-	dc.b	"le plus vite possible."
+	dc.b	"rapidement possible."
 	dc.b	$FD
-	dc.b	"Vous devriez pouvoir l'utiliser"
+	dc.b	"Vous devriez donc pouvoir très bientôt"
 	dc.b	$FC
-	dc.b	"très bientôt."
+	dc.b	"le traverser de nouveau."
 	dc.b	$FF
 
 ; $28
-	dc.b	"Hé, c'est vous!"
+	dc.b	"Ah, c'est vous !"
 	dc.b	$FD
-	dc.b	"Quand le pont sera réparé, vous"
+	dc.b	"Quand le pont sera réparé, vous pourrez"
 	dc.b	$FC
-	dc.b	"pourrez le traverser."
+	dc.b	"enfin le traverser."
 	dc.b	$FF
 
 ; $29
-	dc.b	"Je croyais qu'on pourrait"
+	dc.b	"Je croyais qu'on pourrait voyager un"
 	dc.b	$FC
-	dc.b	"voyager un peu partout une fois"
-	dc.b	$FD
-	dc.b	"le pont réparé."
+	dc.b	"peu partout une fois le pont réparé."
 	dc.b	$FD
 	dc.b	"Malheureusement, avec ces trucs"
 	dc.b	$FC
 	dc.b	"mécaniques qui vont et viennent,"
 	dc.b	$FD
-	dc.b	"nous sommes toujours pris dans"
+	dc.b	"nous sommes toujours prisonniers de"
 	dc.b	$FC
-	dc.b	"cette ville!"
+	dc.b	"notre propre ville !"
 	dc.b	$FF
 
 ; $2A
 	dc.b	"Ah, je vous reconnais."
 	dc.b	$FD
-	dc.b	"Nous allons devoir vous demander"
+	dc.b	"Nous allons devoir vous demander de"
 	dc.b	$FC
-	dc.b	"votre aide de nouveau."
+	dc.b	"nous aider une fois encore."
 	dc.b	$FF
 
 ; $2B
-	dc.b	"Vous avez réussi!"
+	dc.b	"Vous avez réussi !"
 	dc.b	$FC
 	dc.b	"Merci de tout coeur."
 	dc.b	$FF
 
 ; $2C
-	dc.b	"C'est plutôt turbulent au sud."
+	dc.b	"C'est plutôt turbulent, au sud."
 	dc.b	$FF
 
 ; $2D
@@ -270,41 +256,37 @@
 	dc.b	$C0, $01
 	dc.b	$FA
 	dc.b	$14, $38
-	dc.b	"Une grosse météorite est tombée"
+	dc.b	"Une grosse météorite est tombée, juste"
 	dc.b	$FC
-	dc.b	"passé le pont au nord!"
+	dc.b	"passé le pont, au nord!"
 	dc.b	$FD
-	dc.b	"Elle est tombée près du village"
-	dc.b	$FC
-	dc.b	"de Nalya."
+	dc.b	"Elle est tombée près du village de Nalya."
 	dc.b	$FD
 	dc.b	"J'espère qu'ils sont indemnes."
 	dc.b	$FF
 
 ; $2E
-	dc.b	"Qu'est-ce que cet homme"
-	dc.b	$FC
-	dc.b	"mécanique?"
+	dc.b	"Qu'est-ce que cet homme mécanique ?"
 	dc.b	$FD
-	dc.b	"Il se promène en plein jour!"
+	dc.b	"Et il se promène, comme ça, comme si de"
+	dc.b	$FC
+	dc.b	"rien était !"
 	dc.b	$FF
 
 ; $2F
-	dc.b	"Vous êtes les chasseurs de"
-	dc.b	$FC
-	dc.b	"la guilde?"
+	dc.b	"Vous êtes les chasseurs de la guilde ?"
 	dc.b	$FD
-	dc.b	"Aidez nous, je vous en supplie!"
+	dc.b	"Aidez nous, je vous en supplie !"
 	dc.b	$FF
 
 ; $30
-	dc.b	"Hé, vous êtes très doués!"
+	dc.b	"Hé, vous êtes très doués !"
 	dc.b	$FF
 
 ; $31
-	dc.b	"Je le pense depuis toujours, ces"
+	dc.b	"Je le pense depuis toujours : ces"
 	dc.b	$FC
-	dc.b	"machines doivent disparaître!"
+	dc.b	"machines doivent disparaître !"
 	dc.b	$FF
 
 ; $32
@@ -320,7 +302,7 @@
 	dc.b	$FC
 	dc.b	"Zio qui s'amène..."
 	dc.b	$FD
-	dc.b	"Est-ce un village maudit?"
+	dc.b	"Est-ce un village maudit ?"
 	dc.b	$FF
 
 ; $33
@@ -328,19 +310,19 @@
 	dc.b	$FC
 	dc.b	"Zio qui s'amène,"
 	dc.b	$FD
-	dc.b	"et en plus des machines"
+	dc.b	"et en plus, des machines bizarres qui"
 	dc.b	$FC
-	dc.b	"bizarres qui rôdent..."
+	dc.b	"rôdent on ne sait trop pourquoi..."
 	dc.b	$FD
-	dc.b	"J'en ai marre!"
+	dc.b	"J'en ai marre, de ce village !"
 	dc.b	$FF
 
 ; $34
-	dc.b	"Bon, j'espère que c'est la fin"
+	dc.b	"Bon, j'espère que c'est la fin des"
 	dc.b	$FC
-	dc.b	"des choses bizarres qui"
+	dc.b	"événements bizarres qui surviennent"
 	dc.b	$FD
-	dc.b	"arrivent sans prévenir!"
+	dc.b	"sans crier gare !"
 	dc.b	$FF
 
 ; $35
@@ -356,59 +338,47 @@
 	dc.b	$34, $01
 	dc.b	$FA
 	dc.b	$14, $30
-	dc.b	"En fait, je ne sais pas quoi"
+	dc.b	"En fait, je ne sais pas trop quoi penser"
 	dc.b	$FC
-	dc.b	"penser de la Vallée de"
+	dc.b	"de la Vallée de l'Éclosion."
 	dc.b	$FD
-	dc.b	"l'Éclosion."
-	dc.b	$FD
-	dc.b	"On dit que c'est un endroit"
+	dc.b	"On dit que c'est un endroit sacré, alors"
 	dc.b	$FC
-	dc.b	"sacré, alors j'ose pas y aller."
+	dc.b	"je n'ose pas m'y aventurer."
 	dc.b	$FD
-	dc.b	"Parfois, on entend un grondement"
+	dc.b	"Parfois, on entend un grondement sourd"
 	dc.b	$FC
-	dc.b	"sourd qui vient de là!"
+	dc.b	"provenant de l'intérieur !"
 	dc.b	$FF
 
 ; $36
-	dc.b	"Depuis que l'entrée de la"
+	dc.b	"Maintenant que l'entrée de la Vallée de"
 	dc.b	$FC
-	dc.b	"Vallée de l'Éclosion est"
+	dc.b	"l'Éclosion est bloquée, c'est le silence."
 	dc.b	$FD
-	dc.b	"bloquée, tout est silencieux."
+	dc.b	"Mais à vrai dire, quand c'est ainsi, c'est"
 	dc.b	$FC
-	dc.b	"Toutefois, quand c'est ainsi,"
-	dc.b	$FD
-	dc.b	"c'est encore plus inquiétant!"
+	dc.b	"encore plus inquiétant !"
 	dc.b	$FF
 
 ; $37
-	dc.b	"Ce ne sont pas seulement les"
+	dc.b	"Ce ne sont pas seulement les humains qui"
 	dc.b	$FC
-	dc.b	"humains qui sont anxieux par"
-	dc.b	$FD
-	dc.b	"rapport à la Vallée de"
-	dc.b	$FC
-	dc.b	"l'Éclosion!"
+	dc.b	"s'intéressent à la Vallée de l'Éclosion !"
 	dc.b	$FF
 
 ; $38
-	dc.b	"Ces machines tentent d'observer"
+	dc.b	"Ces machines tentent de savoir ce qui se"
 	dc.b	$FC
-	dc.b	"ce qui se passe dans la Vallée"
+	dc.b	"passe dans la Vallée de l'Éclosion!"
 	dc.b	$FD
-	dc.b	"de l'Éclosion!"
-	dc.b	$FD
-	dc.b	"Est-ce que cela signifie qu'il"
+	dc.b	"Est-ce que cela signifie qu'il y a d'autres"
 	dc.b	$FC
-	dc.b	"y a autre chose là-dedans!?"
+	dc.b	"trucs inquiétants, là-dedans !?"
 	dc.b	$FF
 
 ; $39
-	dc.b	"Ces machines ont cessé de se"
-	dc.b	$FC
-	dc.b	"manifester!"
+	dc.b	"Ces machines ont cessé de se manifester!"
 	dc.b	$FF
 
 ; $3A
@@ -422,43 +392,37 @@
 	dc.b	$42, $01
 	dc.b	$FA
 	dc.b	$14, $2B
-	dc.b	"Nous avons plein de problèmes"
+	dc.b	"Nous avons plein de problèmes depuis ce"
 	dc.b	$FC
-	dc.b	"depuis que l'équipe de recherche"
+	dc.b	"jour damné où l'équipe de recherche a mis"
 	dc.b	$FD
-	dc.b	"a fourré son nez dans la"
-	dc.b	$FC
-	dc.b	"Vallée de l'Éclosion!"
+	dc.b	"son nez dans la Vallée de l'Éclosion !"
 	dc.b	$FD
-	dc.b	"Dehors, les gens de l'Académie"
-	dc.b	$FC
-	dc.b	"Motavia!!"
+	dc.b	"Dehors, les gens de l'Académie Motavia !!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Franchement!"
+	dc.b	"Franchement !"
 	dc.b	$FF
 
 ; $3B
-	dc.b	"Nous avons plein de problème"
+	dc.b	"Nous avons plein de problèmes depuis ce"
 	dc.b	$FC
-	dc.b	"depuis que l'équipe de recherche"
+	dc.b	"jour damné où l'équipe de recherche a mis"
 	dc.b	$FD
-	dc.b	"a fourré son nez dans la"
-	dc.b	$FC
-	dc.b	"Vallée de l'Éclosion!"
+	dc.b	"son nez dans la Vallée de l'Éclosion !"
 	dc.b	$FF
 
 ; $3C
-	dc.b	"J'en ai marre!"
+	dc.b	"J'en ai marre !"
 	dc.b	$FF
 
 ; $3D
-	dc.b	"Je me demande si nous sommes"
+	dc.b	"Je me demande si nous sommes vraiment"
 	dc.b	$FC
-	dc.b	"vraiment hors de danger?"
+	dc.b	"hors de danger ?"
 	dc.b	$FD
-	dc.b	"Je n'ai vraiment pas confiance!"
+	dc.b	"Je n'ai vraiment pas confiance !"
 	dc.b	$FF
 
 ; $3E
@@ -474,37 +438,35 @@
 	dc.b	$14, $27
 	dc.b	"Ici, c'est Zema."
 	dc.b	$FD
-	dc.b	"La Vallée de l'Éclosion est plus"
+	dc.b	"La Vallée de l'Éclosion est plus loin au"
 	dc.b	$FC
-	dc.b	"loin, mais je crois qu'il vaut"
+	dc.b	"nord, mais je crois qu'il vaut mieux"
 	dc.b	$FD
-	dc.b	"mieux ne pas s'en mêler."
+	dc.b	"ne pas s'y aventurer."
 	dc.b	$FF
 
 ; $3F
 	dc.b	"Ici, c'est Zema."
 	dc.b	$FD
-	dc.b	"La Vallée de l'Éclosion est plus"
+	dc.b	"La Vallée de l'Éclosion est plus loin au"
 	dc.b	$FC
-	dc.b	"loin, mais l'entrée est bloquée."
+	dc.b	"nord, mais l'entrée est bloquée."
 	dc.b	$FF
 
 ; $40
 	dc.b	"Ici, c'est Zema."
 	dc.b	$FD
-	dc.b	"Dernièrement, d'étranges"
+	dc.b	"Dernièrement, d'étranges hommes"
 	dc.b	$FC
-	dc.b	"hommes mécaniques rôdent"
-	dc.b	$FD
-	dc.b	"dans la ville!"
+	dc.b	"mécaniques rôdent dans la ville !"
 	dc.b	$FF
 
 ; $41
 	dc.b	"Ici, c'est Zema."
 	dc.b	$FD
-	dc.b	"Nous sommes maintenant en"
+	dc.b	"Nous sommes finalement en sécurité"
 	dc.b	$FC
-	dc.b	"sécurité dans cette ville."
+	dc.b	"dans notre ville."
 	dc.b	$FF
 
 ; $42
@@ -518,47 +480,45 @@
 	dc.b	$C0, $02
 	dc.b	$FA
 	dc.b	$34, $01
-	dc.b	"Mon mari n'est pas revenu de"
+	dc.b	"Mon mari n'est pas revenu de son"
 	dc.b	$FC
-	dc.b	"son colportage à Aiedo, à cause"
+	dc.b	"colportage à Aiedo, parce que le pont"
 	dc.b	$FD
-	dc.b	"du pont détruit."
+	dc.b	"a été détruit."
 	dc.b	$FD
-	dc.b	"Je parie qu'il a très hâte de"
+	dc.b	"Je parie qu'il a très hâte de revenir"
 	dc.b	$FC
-	dc.b	"revenir à la maison!"
+	dc.b	"à la maison!"
 	dc.b	$FF
 
 ; $43
-	dc.b	"Vous dites que le pont est"
-	dc.b	$FC
-	dc.b	"réparé?"
+	dc.b	"Vous dites que le pont est réparé?"
 	dc.b	$FD
-	dc.b	"Mon mari va finalement pouvoir"
+	dc.b	"Mon mari va finalement pouvoir revenir."
 	dc.b	$FC
-	dc.b	"revenir. Je suis si heureuse!"
+	dc.b	"Je suis si heureuse!"
 	dc.b	$FF
 
 ; $44
-	dc.b	"Juste quand j'imaginais que"
+	dc.b	"Juste quand je croyais qu'enfin, toutes"
 	dc.b	$FC
-	dc.b	"toutes ces calamités étaient"
+	dc.b	"ces calamités étaient derrière nous,"
 	dc.b	$FD
-	dc.b	"du passé, ces trucs mécaniques"
+	dc.b	"ces trucs mécaniques surgissent de"
 	dc.b	$FC
-	dc.b	"sortent de nulle part."
+	dc.b	"nulle part !"
 	dc.b	$FF
 
 ; $45
 	dc.b	"M. le Chasseur,"
 	dc.b	$FC
-	dc.b	"aidez-nous, je vous en prie!"
+	dc.b	"aidez-nous, je vous en prie !"
 	dc.b	$FF
 
 ; $46
-	dc.b	"Ces drôles de machines ne sont"
+	dc.b	"Ces drôles de machines ne sont plus"
 	dc.b	$FC
-	dc.b	"pas revenues."
+	dc.b	"revenues."
 	dc.b	$FF
 
 ; $47
@@ -568,23 +528,23 @@
 	dc.b	$B6, $02
 	dc.b	$FA
 	dc.b	$C0, $01
-	dc.b	"Cette ville, Aiedo, passé"
+	dc.b	"Cette ville, Aiedo, passé Nalya, est-ce"
 	dc.b	$FC
-	dc.b	"Nalya, c'est une grosse ville?"
+	dc.b	"une grosse ville ?"
 	dc.b	$FD
-	dc.b	"J'aimerais y aller un jour."
+	dc.b	"J'aimerais bien y aller, un jour."
 	dc.b	$FF
 
 ; $48
-	dc.b	"Maman dit que je ne peux pas"
+	dc.b	"Maman dit que je ne peux pas jouer"
 	dc.b	$FC
-	dc.b	"jouer dehors...c'est nul."
+	dc.b	"dehors... c'est nul !"
 	dc.b	$FF
 
 ; $49
-	dc.b	"Elle dit que je peux jouer"
+	dc.b	"Elle dit que maintenant, je peux jouer"
 	dc.b	$FC
-	dc.b	"dehors maintenant. Youpi!"
+	dc.b	"dehors. Youpi !"
 	dc.b	$FF
 
 ; $4A
@@ -604,21 +564,21 @@
 	dc.b	$C0, $01
 	dc.b	"Hmm,"
 	dc.b	$FC
-	dc.b	"«Le Lieu Sacré de la Vie»..."
+	dc.b	"« Le Lieu Sacré de la Vie »..."
 	dc.b	$FD
-	dc.b	"Pourquoi ce nom, et pourquoi"
+	dc.b	"Pourquoi ce nom, et pourquoi une telle"
 	dc.b	$FC
-	dc.b	"une telle vénération?"
+	dc.b	"vénération ?"
 	dc.b	$FD
-	dc.b	"Je ne suis qu'un vieillard"
+	dc.b	"Je ne suis qu'un vieillard sénile, tout ça"
 	dc.b	$FC
-	dc.b	"sénile, je ne comprends pas."
+	dc.b	"me dépasse."
 	dc.b	$FF
 
 ; $4B
-	dc.b	"Ces machines étranges font"
+	dc.b	"Ces machines étranges font trembler de"
 	dc.b	$FC
-	dc.b	"trembler de peur les villageois."
+	dc.b	"peur les villageois."
 	dc.b	$FD
 	dc.b	"Il faut faire quelque chose."
 	dc.b	$FF
@@ -629,11 +589,11 @@
 	dc.b	$FF
 
 ; $4D
-	dc.b	"Vous devriez pouvoir obtenir"
+	dc.b	"Vous devriez pouvoir recueillir des"
 	dc.b	$FC
-	dc.b	"des indices sur ces machines"
+	dc.b	"indices au sujet de ces machines en"
 	dc.b	$FD
-	dc.b	"en demandant aux villageois."
+	dc.b	"interrogeant les villageois."
 	dc.b	$FD
 	dc.b	"Bonne chance,"
 	dc.b	$FC
@@ -646,13 +606,11 @@
 	dc.b	$FF
 
 ; $4F
-	dc.b	"Beau travail!"
+	dc.b	"Beau travail !"
 	dc.b	$FC
 	dc.b	"Vos habiletés sont sans faille."
 	dc.b	$FD
-	dc.b	"Vous trouverez votre cachet"
-	dc.b	$FC
-	dc.b	"à la guilde."
+	dc.b	"Vous trouverez votre cachet à la guilde."
 	dc.b	$FF
 
 ; $50
@@ -660,9 +618,9 @@
 	dc.b	$FF
 
 ; $51
-	dc.b	"Nous ne voyons plus ces"
+	dc.b	"Depuis peu, nous ne voyons plus ces"
 	dc.b	$FC
-	dc.b	"machines étranges depuis peu."
+	dc.b	"étranges machines."
 	dc.b	$FF
 
 ; $52
@@ -674,31 +632,31 @@
 	dc.b	$C0, $02
 	dc.b	$FA
 	dc.b	$33, $01
-	dc.b	"J'ai vu un homme méchant tout"
+	dc.b	"J'ai vu un homme méchant, habillé tout"
 	dc.b	$FC
-	dc.b	"habillé de noir."
+	dc.b	"en noir."
 	dc.b	$FF
 
 ; $53
-	dc.b	"Youpi! Je suis heureux."
+	dc.b	"Youpi ! Je suis si heureux !"
 	dc.b	$FF
 
 ; $54
-	dc.b	"Est-ce qu'il va encore arriver"
+	dc.b	"Est-ce qu'il va encore arriver quelque"
 	dc.b	$FC
-	dc.b	"quelque chose d'angoissant?"
+	dc.b	"chose d'angoissant ?"
 	dc.b	$FF
 
 ; $55
-	dc.b	"Il n'arrivera plus rien"
+	dc.b	"Il n'arrivera plus rien qui fait peur,"
 	dc.b	$FC
-	dc.b	"qui fait peur, n'est-ce pas?"
+	dc.b	"n'est-ce pas ?"
 	dc.b	$FF
 
 ; $56
 	dc.b	"Il n'y aura plus d'événements"
 	dc.b	$FC
-	dc.b	"angoissants, n'est-ce pas?"
+	dc.b	"angoissants, n'est-ce pas ?"
 	dc.b	$FF
 
 ; $57
@@ -710,25 +668,25 @@
 	dc.b	$C0, $02
 	dc.b	$FA
 	dc.b	$33, $01
-	dc.b	"Maman m'a dit de me cacher"
+	dc.b	"Maman m'a dit de me cacher ici..."
 	dc.b	$FC
-	dc.b	"ici...Il se passe quoi dehors?"
+	dc.b	"Il se passe quoi, dehors ?"
 	dc.b	$FD
-	dc.b	"Maman...Papa....Ouinnnn!"
+	dc.b	"Maman... Papa.... Ouinnnn !"
 	dc.b	$FF
 
 ; $58
-	dc.b	"Heureusement, Maman et Papa"
+	dc.b	"Heureusement, Maman et Papa sont tous"
 	dc.b	$FC
-	dc.b	"sont tous deux indemnes!"
+	dc.b	"deux indemnes!"
 	dc.b	$FF
 
 ; $59
-	dc.b	"Maman...Papa..."
+	dc.b	"Maman... Papa..."
 	dc.b	$FF
 
 ; $5A
-	dc.b	"Maman! Papa! Snif, snif."
+	dc.b	"Maman ! Papa ! Snif, snif..."
 	dc.b	$FF
 
 ; $5B
@@ -744,49 +702,43 @@
 	dc.b	$65, $01
 	dc.b	$FA
 	dc.b	$14, $0A
-	dc.b	"Je suis heureuse que tout soit"
+	dc.b	"Je suis heureuse que tout soit rentré"
 	dc.b	$FC
-	dc.b	"rentré dans l'ordre,"
+	dc.b 	"dans l'ordre,"
 	dc.b	$FD
-	dc.b	"mais je crains que Zio revienne"
+	dc.b	"mais je crains que Zio ne revienne et s'en"
 	dc.b	$FC
-	dc.b	"et nous attaque."
+	dc.b	"prenne encore à nous."
 	dc.b	$FD
-	dc.b	"Nous devons défendre ce village"
+	dc.b	"Nous devons défendre ce village, et"
 	dc.b	$FC
-	dc.b	"et protéger ces enfants..."
+	dc.b	"protéger ces enfants..."
 	dc.b	$FF
 
 ; $5C
-	dc.b	"C'est vrai? Zio est mort?"
+	dc.b	"C'est vrai ? Zio est mort ?"
 	dc.b	$FC
-	dc.b	"Oh, enfin! Je suis soulagé!"
+	dc.b	"Oh, Dieu soit loué ! Je suis si soulagé !"
 	dc.b	$FF
 
 ; $5D
-	dc.b	"On dit que Zio est mort, mais"
+	dc.b	"On dit que Zio est mort... Mais alors,"
 	dc.b	$FC
-	dc.b	"alors pourquoi les choses ne"
-	dc.b	$FD
-	dc.b	"sont toujours pas sous contrôle?"
+	dc.b	"pourquoi la situation demeure précaire ?"
 	dc.b	$FF
 
 ; $5E
-	dc.b	"Je les ai vus!"
+	dc.b	"Je les ai vus !"
 	dc.b	$FD
-	dc.b	"Les hommes mécaniques, ils"
-	dc.b	$FC
-	dc.b	"volaient!"
+	dc.b	"Les hommes mécaniques, ils volaient !"
 	dc.b	$FD
-	dc.b	"Ils venaient du nord-est!"
-	dc.b	$FC
-	dc.b	"Je le jure!"
+	dc.b	"Ils venaient du nord-est ! Je le jure !"
 	dc.b	$FF
 
 ; $5F
-	dc.b	"Je me demande si nous sommes"
+	dc.b	"Je me demande si nous sommes vraiment"
 	dc.b	$FC
-	dc.b	"vraiment en sécurité..."
+	dc.b	"en sécurité, dans cette ville..."
 	dc.b	$FF
 
 ; $60
@@ -798,29 +750,29 @@
 	dc.b	$C0, $01
 	dc.b	$FA
 	dc.b	$14, $05
-	dc.b	"Dès que Zio a levé sa main,"
+	dc.b	"Zio a levé sa main, et soudain, tout"
 	dc.b	$FC
-	dc.b	"tout est devenu noir."
+	dc.b	"est devenu noir."
 	dc.b	$FD
-	dc.b	"Quand je me suis réveillé,"
+	dc.b	"Quand je me suis réveillé, vous étiez là,"
 	dc.b	$FC
-	dc.b	"vous étiez là, devant moi."
+	dc.b	"devant moi !"
 	dc.b	$FF
 
 ; $61
-	dc.b	"On dit que ces machines"
+	dc.b	"On dit que ces machines n'attaquent"
 	dc.b	$FC
-	dc.b	"n'attaquent pas les humains!"
+	dc.b	"pas les humains !"
 	dc.b	$FD
-	dc.b	"Alors, nulle raison d'avoir"
+	dc.b	"Alors, pourquoi s'en faire ?"
 	dc.b	$FC
-	dc.b	"peur, n'est-ce pas?"
+	dc.b	"Vous êtes d'accord, non ?"
 	dc.b	$FF
 
 ; $62
-	dc.b	"Si seulement les ennuis"
+	dc.b	"Si seulement les ennuis pouvaient"
 	dc.b	$FC
-	dc.b	"pouvaient cesser!"
+	dc.b	"cesser !"
 	dc.b	$FF
 
 ; $63
@@ -833,7 +785,7 @@
 	dc.b	$F3
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Ils ont été pétrifiés!"
+	dc.b	"Ils ont été pétrifiés !"
 	dc.b	$FF
 
 ; $66
@@ -867,65 +819,55 @@
 	dc.b	$FC
 	dc.b	"Merci de vous être déplacés."
 	dc.b	$FD
-	dc.b	"Voyez-vous, depuis environ"
+	dc.b	"Voyez-vous, depuis une semaine, des"
 	dc.b	$FC
-	dc.b	"une semaine, des machines"
+	dc.b	"machines étranges rôdent dans le village."
 	dc.b	$FD
-	dc.b	"inconnues rôdent dans le"
+	dc.b	"On dirait qu'elles tentent d'entrer dans"
 	dc.b	$FC
-	dc.b	"village."
+	dc.b	"la Vallée de l'Éclosion."
 	dc.b	$FD
-	dc.b	"On dirait qu'elles tentent"
+	dc.b	"Elles semblent innoffensives, mais nous"
 	dc.b	$FC
-	dc.b	"d'entrer dans la Vallée."
+	dc.b	"sommes tous très inquiets."
 	dc.b	$FD
-	dc.b	"de l'Éclosion. Elles semblent"
+	dc.b	"Nous apprécierons si vous pouviez les"
 	dc.b	$FC
-	dc.b	"innoffensives, mais nous sommes"
-	dc.b	$FD
-	dc.b	"tous inquiets."
-	dc.b	$FD
-	dc.b	"Nous apprécierons si vous"
-	dc.b	$FC
-	dc.b	"pouviez les chasser."
+	dc.b	"chasser d'ici."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Hum...c'est étrange."
-	dc.b	$FC
-	dc.b	"Quand nous sommes arrivés au"
+	dc.b	"Hum... c'est étrange."
 	dc.b	$FD
-	dc.b	"village, elles nous ont"
+	dc.b	"Quand nous sommes arrivés au village,"
 	dc.b	$FC
-	dc.b	"attaqués, non?"
+	dc.b	"elles nous ont attaqués, non ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Non, Chaz. Il semblerait que"
+	dc.b	"Non, Chaz. Il semblerait que je sois"
 	dc.b	$FC
-	dc.b	"je sois leur unique cible."
+	dc.b	"leur unique cible."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Ah?"
+	dc.b	"Ah ?"
 	dc.b	$FF
 
 ; $6D
-	dc.b	"Ah, vous avez détruit le"
+	dc.b	"Ah, vous avez pu détruire le maître de"
 	dc.b	$FC
-	dc.b	"gestionnaire de ces machines!"
+	dc.b	"ces machines!"
 	dc.b	$FD
-	dc.b	"Vous devez dire vrai. Elles ne"
+	dc.b	"Vous devez dire vrai, étant donné"
 	dc.b	$FC
-	dc.b	"rôdent plus aux alentours."
+	dc.b	"qu'elles ne rôdent plus aux alentours."
 	dc.b	$FD
 	dc.b	"Bon travail."
 	dc.b	$FC
 	dc.b	"Vous êtes très compétents."
 	dc.b	$FD
-	dc.b	"Vous trouverez votre cachet"
-	dc.b	$FC
-	dc.b	"à la guilde."
+	dc.b	"Vous trouverez votre cachet à la guilde."
 	dc.b	$FF
 ;; Local Variables:
 ;; eval: (fci-mode)
