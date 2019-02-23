@@ -133,13 +133,13 @@
 ; $2C
 	dc.b	$F4
 	dc.b	$0C
-	dc.b	"Hahn! Tu es revenu!"
+	dc.b	"Hahn ! Tu es revenu !"
 	dc.b	$FC
-	dc.b	"...Quelque chose ne va pas!?"
+	dc.b	"...Quelque chose ne va pas !?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Hahn, qui est-ce?"
+	dc.b	"Hahn, qui est-ce ?"
 	dc.b	$F7
 
 	dc.b	$F4
@@ -148,25 +148,23 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0C
-	dc.b	"Ravi de vous connaître. Je"
+	dc.b	"Ravi de vous connaître. Je m'appelle"
 	dc.b	$FC
-	dc.b	"m'appelle Saya."
+	dc.b	"Saya."
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Pas le temps pour les formules"
+	dc.b	"Pas le temps pour les formules de"
 	dc.b	$FC
-	dc.b	"de politesse, Saya! Nous devons"
+	dc.b	"politesse, Saya ! Nous devons"
 	dc.b	$FD
-	dc.b	"prendre soin d'Alys!"
+	dc.b	"prendre soin d'Alys !"
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$0C
-	dc.b	"Oh non! Mettez-la au lit sans"
-	dc.b	$FC
-	dc.b	"tarder!!"
+	dc.b	"Oh non! Mettez-la au lit sans tarder !!"
 	dc.b	$FF
 
 ; $2D
@@ -179,23 +177,19 @@
 	dc.w	$004B
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Je ne comprends rien à ces"
-	dc.b	$FC
-	dc.b	"symptômes..."
+	dc.b	"Je ne comprends rien à ces symptômes..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$05
-	dc.b	"Il semble que ça n'aille pas"
+	dc.b	"Il semble que ça n'aille pas en"
 	dc.b	$FC
-	dc.b	"en s'améliorant."
+	dc.b	"s'améliorant."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Damné Zio! Il était différent"
+	dc.b	"Damné Zio ! Il était différent des autres"
 	dc.b	$FC
-	dc.b	"des autres ennemis auxquel j'ai"
-	dc.b	$FD
-	dc.b	"fait face!"
+	dc.b	"ennemis auxquel j'ai fait face !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
@@ -207,38 +201,36 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$05
-	dc.b	"Que le diable t'emporte, Zio!"
+	dc.b	"Que le diable t'emporte, Zio !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Peut-on la sauver si nous"
+	dc.b	"Peut-on la sauver si nous désactivons"
 	dc.b	$FC
-	dc.b	"désactivons Nurvus?"
+	dc.b	"Nurvus ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$07
 	dc.b	"Non, ça ne fonctionnera pas."
-	dc.b	$FD
-	dc.b	"Nurvus se situe sous le fort"
 	dc.b	$FC
-	dc.b	"de Zio!"
+	dc.b	"Nurvus se situe sous le fort de Zio !"
 	dc.b	$FD
-	dc.b	"En fait, Zio a construit son"
+	dc.b	"En fait, Zio a construit son  fort juste"
 	dc.b	$FC
-	dc.b	"fort juste au-dessus de Nurvus."
+	dc.b	"au-dessus de Nurvus."
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Ah, juste en dessous de cette"
+	dc.b	"Ah, juste en dessous de cette barrière"
 	dc.b	$FC
-	dc.b	"barrière invisible!!"
+	dc.b	"invisible !!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$05
-	dc.b	"Donc, nous n'avons pas d'autre"
+	dc.b	"Donc, nous n'avons pas d'autre choix"
 	dc.b	$FC
-	dc.b	"choix que de vaincre Zio!"
+	dc.b	"que de vaincre Zio !"
 	dc.b	$FD
 	dc.b	$F2, $01
 	dc.b	$F4
@@ -248,7 +240,7 @@
 
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Alys! Ne te fatigue pas!"
+	dc.b	"Alys! Ne te fatigue pas !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$22
@@ -258,64 +250,60 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Alys, ne t'en fait pas. Nous"
+	dc.b	"Alys, ne t'en fait pas. Nous trouverons"
 	dc.b	$FC
-	dc.b	"trouverons un moyen"
-	dc.b	$FD
-	dc.b	"de vaincre Zio!"
+	dc.b	"un moyen de vaincre Zio !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$22
-	dc.b	"Écoute moi. Équipé comme vous"
+	dc.b	"Écoute moi. Équipé comme vous l'êtes..."
 	dc.b	$FC
-	dc.b	"l'êtes... "
-	dc.b	$FD
 	dc.b	"La victoire est hors d'atteinte."
 	dc.b	$FD
-	dc.b	"Il faut trouver le moyen de"
+	dc.b	"Il faut trouver le moyen de contrer"
 	dc.b	$FC
-	dc.b	"contrer sa barrière magique."
+	dc.b	"sa barrière magique."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Barrière magique?"
+	dc.b	"Barrière magique ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"La «magie»! Cette chose devait"
+	dc.b	"La «magie» ! Cette chose devait avoir"
 	dc.b	$FC
-	dc.b	"avoir disparu depuis mille ans!"
+	dc.b	"disparu depuis mille ans !"
 	dc.b	$FD
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"À bien y penser, Rune utilisait"
+	dc.b	"À bien y penser, Rune utilisait une"
 	dc.b	$FC
-	dc.b	"une sorte de magie!"
+	dc.b	"sorte de magie !"
 	dc.b	$FD
 	dc.b	"Quelque chose comme Flaeli..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$22
-	dc.b	"Oui, c'est ça...donc si vous"
+	dc.b	"Oui, c'est ça...donc si vous pouviez"
 	dc.b	$FC
-	dc.b	"pouviez convaincre Rune de..."
+	dc.b	"convaincre Rune de..."
 	dc.b	$FD
-	dc.b	"Ooohh!"
+	dc.b	"Ooohh !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Alys!"
+	dc.b	"Alys !"
 	dc.b	$FC
-	dc.b	"Chaz, qui est ce Rune?"
+	dc.b	"Chaz, qui est ce Rune ?"
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$01
 	dc.b	"Oh, c'est un horrible crétin"
 	dc.b	$FC
-	dc.b	"présomptueux!"
+	dc.b	"présomptueux !"
 	dc.b	$F7
 
 	dc.b	$F4
@@ -324,149 +312,139 @@
 	dc.b	$FC
 	dc.b	"mais nous n'avons pas le choix."
 	dc.b	$FD
-	dc.b	"Nous devons le supplier de"
-	dc.b	$FC
-	dc.b	"nous aider."
+	dc.b	"Nous devons le supplier de nous aider."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Rune n'était-il pas parti"
+	dc.b	"Rune n'était-il pas parti quelque part"
 	dc.b	$FC
-	dc.b	"quelque part avec le Père Dorin?"
+	dc.b	"avec le Père Dorin ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$05
 	dc.b	"S'il est avec le Père Dorin..."
-	dc.b	$FD
-	dc.b	"Il est probablement à la «Tour"
 	dc.b	$FC
-	dc.b	"Ladea»."
+	dc.b	"Il est probablement à la «Tour Ladea»."
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$004C
-	dc.b	"Il parlait d'ouvrir le portail"
+	dc.b	"Il parlait d'ouvrir le portail vers la"
 	dc.b	$FC
-	dc.b	"vers la tour Ladea."
+	dc.b	"tour Ladea."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Qu'est-ce que la Tour Ladea?"
+	dc.b	"Qu'est-ce que la Tour Ladea ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$05
 	dc.b	"Je ne suis pas très au courant,"
 	dc.b	$FC
-	dc.b	"mais la rumeur court qu'elle est"
+	dc.b	"mais la rumeur court qu'elle est située"
 	dc.b	$FD
-	dc.b	"située sur une petite île, passé"
+	dc.b	"sur une petite île, passé les sables"
 	dc.b	$FC
-	dc.b	"les sables mouvants à l'est."
+	dc.b	"mouvants à l'est."
 	dc.b	$FD
-	dc.b	"Le Père Dorin disait que quelque"
+	dc.b	"Le Père Dorin disait que quelque chose"
 	dc.b	$FC
-	dc.b	"chose d'important y était."
+	dc.b	"d'important y était."
 	dc.b	$FD
 	dc.b	$F2, $01
 	dc.b	$F4
 	dc.b	$01
 	dc.b	"Comment traverser les sables"
 	dc.b	$FC
-	dc.b	"mouvants?"
+	dc.b	"mouvants ?"
 	dc.b	$FD
-	dc.b	"Comment y sont arrivés Rune"
+	dc.b	"Comment y sont arrivés Rune et le Père"
 	dc.b	$FC
-	dc.b	"et le Père Dorin?"
+	dc.b	"Dorin ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$05
 	dc.b	"Je n'en sais rien."
-	dc.b	$FD
-	dc.b	"Probablement que ça implique"
 	dc.b	$FC
-	dc.b	"la magie."
+	dc.b	"Probablement que ça implique la magie."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$07
-	dc.b	"Ne vous en faites pas, je m'en"
-	dc.b	$FC
-	dc.b	"charge!"
+	dc.b	"Ne vous en faites pas, je m'en charge !"
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$004D
-	dc.b	"Je peux trouver le Land Rover!"
+	dc.b	"Je peux trouver le Land Rover !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Le Land Rover?"
+	dc.b	"Le Land Rover ?"
 	dc.b	$FC
-	dc.b	"Qu'est-ce que c'est?"
+	dc.b	"Qu'est-ce que c'est ?"
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Tu veux dire qu'on peut trouver"
+	dc.b	"Tu veux dire qu'on peut trouver un"
 	dc.b	$FC
-	dc.b	"un Land Rover toujours intact?"
+	dc.b	"Land Rover toujours intact ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$07
 	dc.b	"Absolument."
 	dc.b	$FD
-	dc.b	"Le Land Rover est un véhicule"
+	dc.b	"Le Land Rover est un véhicule blindé"
 	dc.b	$FC
-	dc.b	"blindé multi-usage inventé par"
+	dc.b	"multi-usage inventé par l'ancienne"
 	dc.b	$FD
-	dc.b	"l'ancienne civilisation!"
+	dc.b	"civilisation !"
 	dc.b	$FD
-	dc.b	"Grâce au Land Rover, nous"
+	dc.b	"Grâce au Land Rover, nous pourrons"
 	dc.b	$FC
-	dc.b	"pourrons traverser les sables"
+	dc.b	"traverser les sables mouvants sans"
 	dc.b	$FD
-	dc.b	"mouvants sans problème!"
+	dc.b	"problème !"
 	dc.b	$FD
-	dc.b	"Je suis sûre que nous pourrons"
+	dc.b	"Je suis sûre que nous pourrons en"
 	dc.b	$FC
-	dc.b	"en trouver un au Centre des"
+	dc.b	"trouver un au Centre des Machines,"
 	dc.b	$FD
-	dc.b	"Machines, au sud d'ici."
+	dc.b	"au sud d'ici."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Le Centre des Machines?"
+	dc.b	"Le Centre des Machines ?"
 	dc.b	$FC
-	dc.b	"Un tel endroit existe?"
+	dc.b	"Un tel endroit existe ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$07
-	dc.b	"Venez avec moi, et vous verrez!"
+	dc.b	"Venez avec moi, et vous verrez !"
 	dc.b	$FD
 	dc.b	$F2, $01
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"C'est décidé! Donc, ne tardons"
+	dc.b	"C'est décidé! Donc, ne tardons pas et"
 	dc.b	$FC
-	dc.b	"pas et allons-y!"
+	dc.b	"allons-y !"
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Peux-tu rester ici, Hahn?"
+	dc.b	"Peux-tu rester ici, Hahn ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Pardon? Mais, je..."
+	dc.b	"Pardon ? Mais, je..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Il vaudrait mieux que tu"
+	dc.b	"Il vaudrait mieux que tu restes ici pour"
 	dc.b	$FC
-	dc.b	"restes ici pour veiller sur"
+	dc.b	"veiller sur Alys."
 	dc.b	$FD
-	dc.b	"Alys."
-	dc.b	$FD
-	dc.b	"En plus, tu as une jolie"
+	dc.b	"En plus, tu as une jolie fiancée qui habite"
 	dc.b	$FC
-	dc.b	"fiancée qui habite ici!"
+	dc.b	"ici !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
@@ -475,9 +453,9 @@
 
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Alys, je suis sûr que nous"
+	dc.b	"Alys, je suis sûr que nous trouverons"
 	dc.b	$FC
-	dc.b	"trouverons Rune!"
+	dc.b	"Rune !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$22
@@ -486,7 +464,7 @@
 
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Hahn, prends bien soin d'elle!"
+	dc.b	"Hahn, prends bien soin d'elle !"
 	dc.b	$FF
 
 ; $2E
@@ -494,9 +472,9 @@
 	dc.b	$03
 	dc.b	"Chaz!"
 	dc.b	$FD
-	dc.b	"La maladie d'Alys vient"
+	dc.b	"La maladie d'Alys vient soudainement"
 	dc.b	$FC
-	dc.b	"soudainement d'empirer!"
+	dc.b	"d'empirer !"
 	dc.b	$F7
 
 	dc.b	$F4
@@ -505,31 +483,29 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$22
-	dc.b	"...Chaz...tu as réussi..."
+	dc.b	"...Chaz...tu as réussi...à trouver Rune ?"
 	dc.b	$FC
-	dc.b	"à trouver Rune? C'est...bien..."
+	dc.b	"C'est...bien..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Alys! Alys!"
+	dc.b	"Alys ! Alys !"
 	dc.b	$FD
-	dc.b	"Rune! Tu ne peux rien faire"
+	dc.b	"Rune! Tu ne peux rien faire avec tes"
 	dc.b	$FC
-	dc.b	"avec tes pouvoirs!?"
+	dc.b	"pouvoirs !?"
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$0058
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"«L'Onde Noire» ne vient pas"
+	dc.b	"«L'Onde Noire» ne vient pas uniquement"
 	dc.b	$FC
-	dc.b	"uniquement de Zio."
+	dc.b	"de Zio."
 	dc.b	$FD
-	dc.b	"Elle contient un pouvoir encore"
+	dc.b	"Elle contient un pouvoir encore plus vil,"
 	dc.b	$FC
-	dc.b	"plus vil, contre lequel je ne"
-	dc.b	$FD
-	dc.b	"peux rien."
+	dc.b	"contre lequel je ne peux rien."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$22
@@ -575,11 +551,11 @@
 	dc.b	$F9
 	dc.b	$59
 
-	dc.b	"Tu as grandi si vite...sans que"
+	dc.b	"Tu as grandi si vite...sans que je m'en"
 	dc.b	$FC
-	dc.b	"je m'en aperçoive, tu es devenu"
+	dc.b	"aperçoive, tu es devenu un adulte"
 	dc.b	$FD
-	dc.b	"un adulte responsable..."
+	dc.b	"responsable..."
 	dc.b	$FD
 	dc.b	"À partir de maintenant..."
 	dc.b	$FC
@@ -589,9 +565,9 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Alys! Ne dis pas ça!"
+	dc.b	"Alys ! Ne dis pas ça !"
 	dc.b	$FC
-	dc.b	"Alys!!!"
+	dc.b	"Alys !!!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$22
@@ -633,20 +609,16 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Loin d'ici, avant qu'Alys ne me"
+	dc.b	"Loin d'ici, avant qu'Alys ne me prenne"
 	dc.b	$FC
-	dc.b	"prenne sous son aile, j'ai fait"
+	dc.b	"sous son aile, j'ai fait beaucoup de"
 	dc.b	$FD
-	dc.b	"beaucoup de mauvaises choses."
+	dc.b	"mauvaises choses."
 	dc.b	$FD
-	dc.b	"Quand j'ai rejoint Alys comme"
+	dc.b	"Quand j'ai rejoint Alys comme chasseur..."
+	dc.b	$FD
+	dc.b	"Finalement je pouvais gagner ma vie,"
 	dc.b	$FC
-	dc.b	"chasseur..."
-	dc.b	$FD
-	dc.b	"Finalement je pouvais gagner"
-	dc.b	$FC
-	dc.b	"ma vie,"
-	dc.b	$FD
 	dc.b	"et vivre confortablement."
 	dc.b	$FD
 	dc.b	"Tout allait bien..."
@@ -655,29 +627,27 @@
 	dc.b	$FD
 	dc.b	"Je veux la venger, bien sûr,"
 	dc.b	$FD
-	dc.b	"mais que dois-je faire ensuite?"
+	dc.b	"mais que dois-je faire ensuite ?"
 	dc.b	$FD
-	dc.b	"Me battre? Pourquoi?"
+	dc.b	"Me battre ? Pourquoi ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
 	dc.b	"Gagner sa vie, hein..."
 	dc.b	$FD
-	dc.b	"Tu crois vraiment qu'Alys se"
+	dc.b	"Tu crois vraiment qu'Alys se battait"
 	dc.b	$FC
-	dc.b	"battait juste pour l'argent?"
+	dc.b	"juste pour l'argent ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Pardon?"
+	dc.b	"Pardon ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Est-ce que le maniement des"
+	dc.b	"Est-ce que le maniement des armes est"
 	dc.b	$FC
-	dc.b	"armes est la seule chose qu'elle"
-	dc.b	$FD
-	dc.b	"t'a apprise?"
+	dc.b	"la seule chose qu'elle t'a apprise ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
@@ -687,30 +657,28 @@
 	dc.w	$0068
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Penses-y bien!"
+	dc.b	"Penses-y bien !"
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Hé, Chaz?"
+	dc.b	"Hé, Chaz ?"
 	dc.b	$FD
 	dc.b	"Je me disais..."
 	dc.b	$FD
-	dc.b	"c'est vraiment bien que j'aie"
+	dc.b	"C'est vraiment bien que j'aie pu partir"
 	dc.b	$FC
-	dc.b	"pu partir du Bio-laboratoire."
+	dc.b	"du Bio-laboratoire."
 	dc.b	$FD
 	dc.b	"J'ai tellement appris de Seed."
 	dc.b	$FD
-	dc.b	"Sur les océans, les montagnes,"
+	dc.b	"Sur les océans, les montagnes, les villes,"
 	dc.b	$FC
-	dc.b	"les villes, et les gens!"
+	dc.b	"et les gens !"
 	dc.b	$FD
-	dc.b	"La théorie est vraiment très"
+	dc.b	"La théorie est vraiment très différente"
 	dc.b	$FC
-	dc.b	"différente de l'apprentissage"
-	dc.b	$FD
-	dc.b	"de la vie."
+	dc.b	"de l'apprentissage de la vie."
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$0183
@@ -719,11 +687,11 @@
 
 	dc.b	$F2, $00
 	dc.w	$0184
-	dc.b	"Par exemple, l'odeur de l'océan,"
+	dc.b	"Par exemple, l'odeur de l'océan, la"
 	dc.b	$FC
-	dc.b	"la majesté des montagnes, le"
+	dc.b	"majesté des montagnes, le grouillement"
 	dc.b	$FD
-	dc.b	"grouillement de la ville, et"
+	dc.b	"de la ville, et"
 	dc.b	$FC
 	dc.b	$F2, $00
 	dc.w	$0185
@@ -762,32 +730,32 @@
 	dc.b	$03
 	dc.b	"Je vais retourner à l'Académie."
 	dc.b	$FD
-	dc.b	"Il vaut mieux que je fasse"
+	dc.b	"Il vaut mieux que je fasse un rapport"
 	dc.b	$FC
-	dc.b	"un rapport des évènements."
+	dc.b	"des évènements."
 	dc.b	$FD
-	dc.b	"J'espère les convaincre de"
+	dc.b	"J'espère les convaincre de formuler un"
 	dc.b	$FC
-	dc.b	"formuler un plan d'action."
+	dc.b	"plan d'action."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Bien. Je compte sur toi, Hahn!"
+	dc.b	"Bien. Je compte sur toi, Hahn !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0C
-	dc.b	"Je vais aussi retourner chez"
+	dc.b	"Je vais aussi retourner chez moi."
 	dc.b	$FC
-	dc.b	"moi. Les enfants m'attendent."
+	dc.b	"Les enfants m'attendent."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Chaz, garde le moral!"
+	dc.b	"Chaz, garde le moral !"
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"OK! Allons-y!"
+	dc.b	"OK ! Allons-y !"
 	dc.b	$FF
 
 ; $2F
@@ -799,43 +767,41 @@
 	dc.b	$22, $01
 	dc.b	$FA
 	dc.b	$1F, $01
-	dc.b	"Quel glouton ce chien!"
+	dc.b	"Quel glouton ce chien !"
 	dc.b	$FD
-	dc.b	"Il mange tout le temps!"
+	dc.b	"Il mange tout le temps !"
 	dc.b	$FF
 
 ; $30
-	dc.b	"Un chien?"
+	dc.b	"Un chien ?"
 	dc.b	$FD
-	dc.b	"Nous ne l'avons pas nourri"
+	dc.b	"Nous ne l'avons pas nourri dernièrement."
 	dc.b	$FC
-	dc.b	"dernièrement. Il est parti."
+	dc.b	"Il est parti."
 	dc.b	$FD
 	dc.b	"Je crois qu'il est allé au nord."
 	dc.b	$FF
 
 ; $31
-	dc.b	"Ce chien est revenu de Dieu"
+	dc.b	"Ce chien est revenu de Dieu sait où,"
 	dc.b	$FC
-	dc.b	"sait où, mais il est toujours"
+	dc.b	"mais il est toujours le même."
 	dc.b	$FD
-	dc.b	"le même."
-	dc.b	$FC
-	dc.b	"Toujours aussi glouton!"
+	dc.b	"Toujours aussi glouton !"
 	dc.b	$FF
 
 ; $32
-	dc.b	"C'est votre chien?"
+	dc.b	"C'est votre chien ?"
 	dc.b	$FF
 
 ; $33
 	dc.b	$FA
 	dc.b	$21, $01
-	dc.b	"Ouah! Ouah!"
+	dc.b	"Ouah ! Ouah !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Wow, très enrobé, ce chien!"
+	dc.b	"Wow, très enrobé, ce chien !"
 	dc.b	$FF
 
 ; $34
@@ -844,16 +810,16 @@
 	dc.b	$FF
 
 ; $35
-	dc.b	"Ouah! Ouah!"
+	dc.b	"Ouah ! Ouah !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Hé! Au pied!"
+	dc.b	"Hé ! Aux pieds !"
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Hé! Viens ici!"
+	dc.b	"Hé ! Viens ici !"
 	dc.b	$FF
 
 ; $36
@@ -861,15 +827,13 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"D'accord, voici ton mets"
+	dc.b	"D'accord, voici ton mets préféré,"
 	dc.b	$FC
-	dc.b	"préféré, du gâteau."
+	dc.b	"du gâteau."
 	dc.b	$FD
 	dc.b	"Voilà notre chance."
 	dc.b	$FD
-	dc.b	"Dépèchons-nous de le ramener"
-	dc.b	$FC
-	dc.b	"à Aiedo!!"
+	dc.b	"Dépèchons-nous de le ramener à Aiedo !!"
 	dc.b	$FF
 ;; Local Variables:
 ;; eval: (fci-mode)
