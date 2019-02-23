@@ -164,7 +164,7 @@
 
 	dc.b	$F4
 	dc.b	$0C
-	dc.b	"Oh non! Mettez-la au lit sans tarder !!"
+	dc.b	"Oh non ! Mettez-la au lit sans tarder !!"
 	dc.b	$FF
 
 ; $2D
@@ -240,7 +240,7 @@
 
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Alys! Ne te fatigue pas !"
+	dc.b	"Alys ! Ne te fatigue pas !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$22
@@ -423,7 +423,7 @@
 	dc.b	$F2, $01
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"C'est décidé! Donc, ne tardons pas et"
+	dc.b	"C'est décidé ! Donc, ne tardons pas et"
 	dc.b	$FC
 	dc.b	"allons-y !"
 	dc.b	$F7
@@ -470,7 +470,7 @@
 ; $2E
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Chaz!"
+	dc.b	"Chaz !"
 	dc.b	$FD
 	dc.b	"La maladie d'Alys vient soudainement"
 	dc.b	$FC
@@ -479,7 +479,7 @@
 
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Alys!"
+	dc.b	"Alys !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$22
@@ -491,7 +491,7 @@
 	dc.b	$01
 	dc.b	"Alys ! Alys !"
 	dc.b	$FD
-	dc.b	"Rune! Tu ne peux rien faire avec tes"
+	dc.b	"Rune ! Tu ne peux rien faire avec tes"
 	dc.b	$FC
 	dc.b	"pouvoirs !?"
 	dc.b	$FD
@@ -589,7 +589,7 @@
 	dc.w	$005C
 	dc.b	$F4
 	dc.b	$00
-	dc.b	"...Ouinnnnnn!"
+	dc.b	"...Ouinnnnnn !"
 	dc.b	$F9
 	dc.b	$27
 
@@ -597,15 +597,15 @@
 
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Tu ne dors pas?"
+	dc.b	"Tu ne dors pas ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Que...dois-je faire, maintenant?"
+	dc.b	"Que...dois-je faire, maintenant ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Chaz?"
+	dc.b	"Chaz ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
