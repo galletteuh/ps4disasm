@@ -1,57 +1,47 @@
 ; 0
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Transmission prioritaire de"
+	dc.b	"Transmission prioritaire provenant"
 	dc.b	$FC
-	dc.b	"Demi."
+	dc.b	"de Demi."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$07
-	dc.b	"Maître, le Système Tectonique"
+	dc.b	"Maître, le Système Tectonique a été"
 	dc.b	$FC
-	dc.b	"a été attaqué par une escouade"
+	dc.b	"envahi par une escouade d'androïdes"
 	dc.b	$FD
-	dc.b	"d'androïdes inconnus."
+	dc.b	"non-identifiés."
 	dc.b	$FD
-	dc.b	"Ils ont pris le contrôle du"
+	dc.b	"Ils ont pris le contrôle du Module"
 	dc.b	$FC
-	dc.b	"Module Automatique de Défense 3."
+	dc.b	"Automatique de Défense numéro 3."
 	dc.b	$FD
-	dc.b	"J'ai tenté de minimiser les"
+	dc.b	"J'ai tenté de minimiser les avaries, mais..."
+	dc.b	$FD
+	dc.b	"Compte tenu du degré élevé de sophisti-"
 	dc.b	$FC
-	dc.b	"avaries, mais..."
+	dc.b	"cation de leur attaque, un tacticien"
 	dc.b	$FD
-	dc.b	"voyant le degré élevé de"
-	dc.b	$FC
-	dc.b	"planification dans leur attaque,"
-	dc.b	$FD
-	dc.b	"un tacticien d'expérience doit"
-	dc.b	$FC
-	dc.b	"être à la source de leur"
-	dc.b	$FD
-	dc.b	"mouvements."
+	dc.b	"d'expérience a du élaborer leur plan."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Je ne vois pas comment il peut"
+	dc.b	"Je ne vois pas comment des ordres"
 	dc.b	$FC
-	dc.b	"y avoir des ordres erronés"
+	dc.b	"erronés auraient pu être transmis,"
 	dc.b	$FD
-	dc.b	"transmis, étant donnée que nous"
-	dc.b	$FC
-	dc.b	"avons réduit Kuran au silence."
+	dc.b	"compte tenu de la déactivation de Kuran."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Nous enquêtons sur cette affaire"
+	dc.b	"Nous enquêtons également sur cette"
 	dc.b	$FC
-	dc.b	"d'ici également, Demi."
+	dc.b	"affait d'ici bas, Demi."
 	dc.b	$FD
-	dc.b	"Compte tenu des attaques sur les"
+	dc.b	"Compte tenu des attaques sur les autres"
 	dc.b	$FC
-	dc.b	"autres systèmes,"
-	dc.b	$FD
-	dc.b	"passe en Mode Alerte 1."
+	dc.b	"systèmes, passe en Mode Alerte 1."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$07
@@ -59,31 +49,27 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Cette escouade qu'a mentionné"
+	dc.b	"Cette escouade d'androïdes qu'a"
 	dc.b	$FC
-	dc.b	"Demi..."
+	dc.b	"mentionnée Demi..."
 	dc.b	$FD
-	dc.b	"Serait-elle semblable à celle"
+	dc.b	"Serait-elle semblable à celle que nous"
 	dc.b	$FC
-	dc.b	"que nous avons affonté à Zema?"
+	dc.b	"avons affonté à Zema ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Leurs ordres semblent être de"
+	dc.b	"Leurs ordres semblent être de détruire"
 	dc.b	$FC
-	dc.b	"détruire tout système d'IA"
+	dc.b	"tout système d'IA de niveau supérieur..."
 	dc.b	$FD
-	dc.b	"de niveau supérieur..."
-	dc.b	$FD
-	dc.b	"Vous avez peut-être raison,"
-	dc.b	$FC
-	dc.b	"Rika."
+	dc.b	"Vous avez peut-être raison, Rika."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Oui... Vous êtes une IA"
+	dc.b	"Oui... Vous êtes une IA également, pas"
 	dc.b	$FC
-	dc.b	"également, pas vrai, Wren?"
+	dc.b	"vrai, Wren ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
@@ -93,91 +79,79 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Donc, les machines ont dues"
+	dc.b	"Donc, les machines ont dû se rendre"
 	dc.b	$FC
-	dc.b	"se rendre à Zema pour détruire"
-	dc.b	$FD
-	dc.b	"Seed."
+	dc.b	"à Zema pour détruire Seed."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Pourquoi la personne qui a donné"
+	dc.b	"Pourquoi la personne qui a donné les"
 	dc.b	$FC
-	dc.b	"les ordres ne savait pas que"
+	dc.b	"ordres ne savait pas que Seed s'était"
 	dc.b	$FD
-	dc.b	"Seed s'est auto-détruit?"
+	dc.b	"auto-détruit ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Une théorie possible est qu'il"
+	dc.b	"Une théorie plausible serait qu'il s'agit"
 	dc.b	$FC
-	dc.b	"s'agit de quelqu'un qui a en sa"
+	dc.b	"de quelqu'un qui a en sa possession les"
 	dc.b	$FD
-	dc.b	"possession les données de"
+	dc.b	"données de l'ancienne civilisation Parma-"
 	dc.b	$FC
-	dc.b	"l'ancienne civilisation"
+	dc.b	"nienne, mais qui n'est pas sous le"
 	dc.b	$FD
-	dc.b	"Parmanienne, mais qui échappe au"
-	dc.b	$FC
 	dc.b	"contrôle de Zelan."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Et cette personne serait ici!"
+	dc.b	"Et cette personne serait ici !"
 	dc.b	$FF
 
 ; $1
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Qu'est-ce que c'est?"
+	dc.b	"Qu'est-ce que c'est ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
 	dc.b	"Ne vous approchez pas."
-	dc.b	$FD
-	dc.b	"Il s'agit d'un puissant champ"
 	dc.b	$FC
-	dc.b	"de force."
+	dc.b	"Il s'agit d'un puissant champ de force."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Qu'est-ce que cet endroit?"
+	dc.b	"Qu'est-ce que cet endroit ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Les données sont insuffisantes,"
-	dc.b	$FD
-	dc.b	"mais je crois qu'il s'agit d'une"
+	dc.b	"Les données sont insuffisantes, mais je"
 	dc.b	$FC
-	dc.b	"installation de recherche sous"
+	dc.b	"crois qu'il s'agit d'une installation de"
 	dc.b	$FD
-	dc.b	"le contrôle de l'armée"
+	dc.b	"recherche sous le contrôle de l'armée"
 	dc.b	$FC
 	dc.b	"Motavienne."
 	dc.b	$FD
-	dc.b	"Pour une raison inconnue, elle"
+	dc.b	"Pour une raison inconnue, elle fût con-"
 	dc.b	$FC
-	dc.b	"fût condamnée quelques années"
+	dc.b	"damnée peu après le Grand Effondrement."
 	dc.b	$FD
-	dc.b	"suivant Le Grande Effondrement."
-	dc.b	$FD
-	dc.b	"Le seul dispositif toujours"
+	dc.b	"Le seul dispositif toujours actif est"
 	dc.b	$FC
-	dc.b	"actif est le périmètre de"
-	dc.b	$FD
-	dc.b	"sécurité."
+	dc.b	"responsable du périmètre de sécurité."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Comment y entrer?"
+	dc.b	"Comment y entrer ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
 	dc.b	"Malheureusement, je l'ignore."
 	dc.b	$FD
-	dc.b	"Même moi, je ne connais pas les"
+	dc.b	"Même moi, je ne suis pas en possession"
 	dc.b	$FC
-	dc.b	"codes de sécurité de Seed."
+	dc.b	"des codes de sécurité de Seed."
 	dc.b	$FF
 
 ; $2
@@ -189,33 +163,33 @@
 ; $3
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"C'est terrifiant!"
+	dc.b	"C'est terrifiant !"
 	dc.b	$FD
-	dc.b	"Si toutes ces machines"
+	dc.b	"Si toutes ces machines s'activaient"
 	dc.b	$FC
-	dc.b	"s'activaient en même temps,"
+	dc.b	"en même temps,"
 	dc.b	$FD
-	dc.b	"Motavia tomberait entièrement"
+	dc.b	"Motavia tomberait entièrement sous leur"
 	dc.b	$FC
-	dc.b	"sous leur contrôle!"
+	dc.b	"contrôle!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Rune, pourquoi on est ici,"
+	dc.b	"Rune, tu te rappelles pourquoi on est"
 	dc.b	$FC
-	dc.b	"exactement?"
+	dc.b	"venu ici, exactement ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Dépêchons-nous. Ce n'est pas un"
+	dc.b	"Dépêchons-nous. Ce n'est pas un sujet"
 	dc.b	$FC
-	dc.b	"sujet de plaisanteries."
+	dc.b	"sur lequel on devrait plaisanter."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Ouais, quand Wren dit ça, on"
+	dc.b	"Ouais, si même Wren dit ça, on sait que"
 	dc.b	$FC
-	dc.b	"sait que c'est sérieux!"
+	dc.b	"c'est très sérieux !"
 	dc.b	$FF
 
 ; $4
@@ -225,49 +199,43 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$00
-	dc.b	"Bienvenue, citoyens d'Algo..."
+	dc.b	"Bienvenue, citoyens d'Algo... Je suis la"
 	dc.b	$FC
-	dc.b	"Je suis la fille -- Daughter."
+	dc.b	"fille -- Daughter."
 	dc.b	$FD
-	dc.b	"Comme protectrice d'Algo, je"
+	dc.b	"Comme protectrice d'Algo, je suis chargée"
 	dc.b	$FC
-	dc.b	"suis chargée d'assurer la loi"
-	dc.b	$FD
-	dc.b	"et l'ordre..."
+	dc.b	"d'assurer la loi et l'ordre..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Daughter...la fille de...?"
+	dc.b	"Daughter...la fille de... ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"C'est impossible!"
+	dc.b	"C'est impossible !"
 	dc.b	$FD
-	dc.b	"Seed m'avait dit que ce plan"
+	dc.b	"Seed m'avait dit que ce plan avait été"
 	dc.b	$FC
-	dc.b	"avait été mis aux oubliettes!"
+	dc.b	"mis aux oubliettes !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"C'est également ce qu'indiquent"
+	dc.b	"C'est également ce qu'indiquent mes"
 	dc.b	$FC
-	dc.b	"mes données."
+	dc.b	"données."
 	dc.b	$FD
-	dc.b	"Celles-ci doivent être"
-	dc.b	$FC
-	dc.b	"erronées."
+	dc.b	"Celles-ci sont clairement erronées."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
 	dc.b	"Bon, d'accord..."
 	dc.b	$FC
-	dc.b	"Hé, toi! Daughter!"
+	dc.b	"Hé, toi ! Daughter !"
 	dc.b	$FD
-	dc.b	"Est-ce toi qui a envoyé ces"
+	dc.b	"Est-ce toi qui a envoyé ces androïdes"
 	dc.b	$FC
-	dc.b	"androïdes à Zema et au Système"
-	dc.b	$FD
-	dc.b	"Tectonique?"
+	dc.b	"à Zema et au Système Tectonique?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$00
@@ -275,55 +243,51 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Si tu es vraiment la protectrice"
+	dc.b	"Si tu es vraiment la protectrice d'Algo,"
 	dc.b	$FC
-	dc.b	"d'Algo, pourquoi alors détruire"
+	dc.b	"pourquoi alors détruire le système de"
 	dc.b	$FD
-	dc.b	"le système de contrôle"
-	dc.b	$FC
-	dc.b	"environnemental?"
+	dc.b	"contrôle environnemental ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$00
-	dc.b	"Je tente de nettoyer le système"
+	dc.b	"Je tente d'éliminer de mon système les"
 	dc.b	$FC
-	dc.b	"des IA hors de mon contrôle."
+	dc.b	"IA qui échappent à mon contrôle."
 	dc.b	$FD
-	dc.b	"Ma priorité est la paix et la"
+	dc.b	"Ma priorité est la paix et la prospérité"
 	dc.b	$FC
-	dc.b	"prospérité du système d'Algo."
+	dc.b	"du système d'Algo."
 	dc.b	$FD
-	dc.b	"Toute IA n'obéissant pas à mes"
+	dc.b	"Toute IA n'obéissant pas à mes ordres"
 	dc.b	$FC
-	dc.b	"ordres est l'ennemie d'Algo."
+	dc.b	"est l'ennemie d'Algo."
 	dc.b	$FD
-	dc.b	"Par conséquent, ma mission est"
+	dc.b	"Par conséquent, ma mission est de les"
 	dc.b	$FC
-	dc.b	"de les détruire."
+	dc.b	"détruire."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Daughter, êtes-vous consciente"
+	dc.b	"Daughter, êtes-vous consciente que"
 	dc.b	$FC
-	dc.b	"que votre réseau n'est pas"
+	dc.b	"votre réseau n'est pas connecté aux"
 	dc.b	$FD
-	dc.b	"connecté aux systèmes externes?"
+	dc.b	"systèmes externes ?"
 	dc.b	$FD
-	dc.b	"Par conséquent, tout ordre que"
+	dc.b	"Par conséquent, les ordres que vous"
 	dc.b	$FC
-	dc.b	"vous envoyez ne peut se rendre"
+	dc.b	"envoyez ne peuvent se rendre à"
 	dc.b	$FD
-	dc.b	"au système de destination!"
+	dc.b	"destination !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$00
 	dc.b	"C'est inexact."
 	dc.b	$FD
-	dc.b	"J'ai été conçue pour contrôler"
+	dc.b	"J'ai été conçue pour contrôler tous les"
 	dc.b	$FC
-	dc.b	"tous les systèmes qui avaient"
-	dc.b	$FD
-	dc.b	"appartenus à Mother Brain."
+	dc.b	"systèmes contrôlés par Mother Brain."
 	dc.b	$FD
 	dc.b	"Tous les systèmes IA d'Algo sont"
 	dc.b	$FC
@@ -341,43 +305,37 @@
 	dc.b	$FD
 	dc.b	"plus importante que prévue."
 	dc.b	$FD
-	dc.b	"Ainsi, les conséquences de la"
+	dc.b	"Ainsi, les conséquences de la destruction"
 	dc.b	$FC
-	dc.b	"destruction de Parma fûrent"
+	dc.n	"de Parma fûrent prises en compte avant la"
 	dc.b	$FD
-	dc.b	"prises en compte avant la fin"
-	dc.b	$FC
-	dc.b	"du Projet Daughter."
+	dc.b	"fin du Projet Daughter."
 	dc.b	$FD
-	dc.b	"Le projet fut donc abandonné"
+	dc.b	"Le projet fut donc abandonné au stade"
 	dc.b	$FC
-	dc.b	"au stade de prototype."
+	dc.b	"de prototype."
 	dc.b	$FD
-	dc.b	"Vous n'êtes qu'une machine"
-	dc.b	$FC
-	dc.b	"d'essai."
+	dc.b	"Vous n'êtes qu'une machine d'essai."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$00
-	dc.b	"Je suis un prototype?"
+	dc.b	"Je suis un prototype ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Par la suite, un réseau dont"
+	dc.b	"Par la suite, un réseau, dont l'unique"
 	dc.b	$FC
-	dc.b	"l'unique objectif était de"
+	dc.b	"objectif était de stabiliser les systèmes"
 	dc.b	$FD
-	dc.b	"stabiliser les systèmes de"
+	dc.b	"de contrôle environnementaux du système"
 	dc.b	$FC
-	dc.b	"contrôle environnementaux du"
+	dc.b	"Algo, fut construit sur le satellite"
 	dc.b	$FD
-	dc.b	"système Algo fut construit sur"
-	dc.b	$FC
-	dc.b	"le satellite artificiel Zelan."
+	dc.b	"artificiel Zelan."
 	dc.b	$FD
-	dc.b	"Moi, Wren, suis responsable"
+	dc.b	"Moi, Wren, suis responsable de la gestion"
 	dc.b	$FC
-	dc.b	"de la gestion de ce système."
+	dc.n	"de ce système."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$00
@@ -393,23 +351,21 @@
 	dc.b	$00
 	dc.b	"Wren,"
 	dc.b	$FD
-	dc.b	"tu crée le désordre dans mon"
+	dc.b	"tu crée le désordre dans mon système,"
 	dc.b	$FC
-	dc.b	"système, c'est exact?"
+	dc.b	"c'est exact?"
 	dc.b	$FD
 	dc.b	$F2, $03
 	dc.b	$A9
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Daughter!"
+	dc.b	"Daughter !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$00
-	dc.b	"J'userai de tout mon pouvoir"
+	dc.b	"J'userai de tout mon pouvoir contre"
 	dc.b	$FC
-	dc.b	"pour détruire toute entrave"
-	dc.b	$FD
-	dc.b	"à mes objectifs!"
+	dc.b	"toute entrave à mes objectifs !"
 	dc.b	$FF
 
 ; $5
@@ -417,35 +373,31 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Daughter, je suis forçé de"
-	dc.b	$FC
-	dc.b	"t'éteindre."
+	dc.b	"Daughter, je suis forçé de t'éteindre."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$00
-	dc.b	"Pourquoi fais-tu ça?"
+	dc.b	"Pourquoi fais-tu ça ?"
 	dc.b	$FD
-	dc.b	"Algo ne retrouvera jamais sa"
+	dc.b	"Algo ne retrouvera jamais sa gloire"
 	dc.b	$FC
-	dc.b	"gloire passée sans mon aide."
+	dc.b	"passée sans mon aide."
 	dc.b	$FD
-	dc.b	"En fait, il est probable que"
+	dc.b	"En fait, il est probable que la vie"
 	dc.b	$FC
-	dc.b	"tout soit perdu."
+	dc.b	"dans ce système soit condamnée."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
 	dc.b	"Daughter..."
 	dc.b	$FD
-	dc.b	"Je n'ai qu'un contrôle"
+	dc.b	"Je n'ai qu'un contrôle environnemental"
 	dc.b	$FC
-	dc.b	"environnemental limité."
+	dc.b	"limité."
 	dc.b	$FD
-	dc.b	"Malgré cela, les humains sont"
+	dc.b	"Malgré cela, les humains sont parvenus"
 	dc.b	$FC
-	dc.b	"parvenus à survivre pendant"
-	dc.b	$FD
-	dc.b	"plus de mille ans."
+	dc.b	"à survivre depuis plus de mille ans."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$00
@@ -459,25 +411,25 @@
 	dc.b	$FC
 	dc.b	"devenue décadente..."
 	dc.b	$FD
-	dc.b	"Mais c'est pourquoi les humains"
+	dc.b	"Mais c'est pourquoi les humains ont"
 	dc.b	$FC
-	dc.b	"ont regagné leur vitalité..."
+	dc.b	"regagné leur vitalité..."
 	dc.b	$FD
-	dc.b	"Ils se sont rassemblés pour"
+	dc.b	"Ils se sont unis pour surmonter tous"
 	dc.b	$FC
-	dc.b	"surmonter tous leurs problèmes."
+	dc.b	"leurs problèmes."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$00
-	dc.b	"Wr...en...! Non!"
+	dc.b	"Wr...en... ! Non !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
 	dc.b	"Daughter,"
 	dc.b	$FD
-	dc.b	"Il n'est pas nécessaire de"
+	dc.b	"Il n'est pas nécessaire de s'ingérer"
 	dc.b	$FC
-	dc.b	"s'ingérer excessivement."
+	dc.b	"excessivement."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$00
@@ -486,101 +438,85 @@
 
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Les techniciens avaient planifié"
+	dc.b	"Les techniciens avaient à l'époque"
 	dc.b	$FC
-	dc.b	"à l'époque de réactiver le"
+	dc.b	"planifié de réactiver ce projet dès que"
 	dc.b	$FD
-	dc.b	"projet une fois l'environnement"
+	dc.b	"l'environnement se serait stabilisé."
+	dc.b	$FD
+	dc.b	"Il devait y avoir une IA indépendante"
 	dc.b	$FC
-	dc.b	"stabilisé."
+	dc.b	"dans Nurvus qui contrôlait les activités"
 	dc.b	$FD
-	dc.b	"Il devait y avoir une IA"
+	dc.b	"de cette installation."
+	dc.b	$FD
+	dc.b	"Demi et moi avons été négligeants. Nous"
 	dc.b	$FC
-	dc.b	"indépendante dans Nurvus qui"
+	dc.b	"n'avons pas tenu compte de cette"
 	dc.b	$FD
-	dc.b	"contrôlait les activités de"
+	dc.b	"installation, car elle n'avait aucun lien"
 	dc.b	$FC
-	dc.b	"cette installation."
-	dc.b	$FD
-	dc.b	"Demi et moi avons été"
-	dc.b	$FC
-	dc.b	"négligeants. Nous n'avons pas"
-	dc.b	$FD
-	dc.b	"tenu compte de cette"
-	dc.b	$FC
-	dc.b	"installation, car elle n'avait"
-	dc.b	$FD
-	dc.b	"aucun lien avec nos tâches."
+	dc.b	"avec nos tâches."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Tous les efforts ont été mis"
-	dc.b	$FC
-	dc.b	"sur Zelan."
+	dc.b	"Tous les efforts ont été mis sur Zelan."
 	dc.b	$FD
-	dc.b	"Daughter est tombée dans"
-	dc.b	$FC
-	dc.b	"l'oubli..."
+	dc.b	"Daughter est tombée dans l'oubli..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Quand on a pris le contrôle de"
+	dc.b	"Quand on a pris le contrôle de Nurvus,"
 	dc.b	$FC
-	dc.b	"Nurvus, cela a dû envoyer un"
+	dc.b	"cela a dû envoyer un signal, et"
 	dc.b	$FD
-	dc.b	"signal, et réveillé Daughter..."
+	dc.b	"réveillé Daughter..."
 	dc.b	$FF
 
 ; $6
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Qu'est-ce que ça peut être?"
+	dc.b	"Qu'est-ce que ça peut être ?"
 	dc.b	$FD
-	dc.b	"Encore de tes pièces détachées,"
-	dc.b	$FC
-	dc.b	"Wren?"
+	dc.b	"Encore de tes pièces détachées, Wren ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
 	dc.b	"Il semble que..."
 	dc.b	$FC
-	dc.b	"Je n'arrive pas à y croire!"
+	dc.b	"Je n'arrive pas à y croire !"
 	dc.b	$FD
 	dc.b	"Est-ce un..."
 	dc.b	$FC
-	dc.b	"module Positron Bolt?"
+	dc.b	"module Positron Bolt ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Euh, pardon?"
+	dc.b	"Euh, pardon ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Il s'agit d'une arme puissante,"
+	dc.b	"Il s'agit d'une arme puissante, conçue"
 	dc.b	$FC
-	dc.b	"conçue pour détruire des"
+	dc.b	"pour détruire des stations spatiales."
 	dc.b	$FD
-	dc.b	"stations spatiales."
-	dc.b	$FD
-	dc.b	"Une secousse de 10 secondes"
+	dc.b	"Une secousse de 10 secondes suffirait"
 	dc.b	$FC
-	dc.b	"suffirait pour détruire Zelan!"
+	dc.b	"pour détruire Zelan !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Wow! Tant de puissance, et"
+	dc.b	"Wow ! Tant de puissance, et pourtant,"
 	dc.b	$FC
-	dc.b	"pourtant, c'est si petit!"
+	dc.b	"c'est si petit !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Exact. En temps normal,"
+	dc.b	"Exact. En temps normal, je m'abstien-"
 	dc.b	$FC
-	dc.b	"je m'abstiendrais d'utiliser"
+	dc.b	"drais d'utiliser une arme aussi"
 	dc.b	$FD
-	dc.b	"une arme aussi dangereuse,"
-	dc.b	$FD
-	dc.b	"mais la situation étant ce"
+	dc.b	"dangereuse, mais la situation étant ce"
 	dc.b	$FC
 	dc.b	"qu'elle est, le choix s'impose."
 	dc.b	$FD
@@ -601,77 +537,61 @@
 ; $7
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Où diable sommes-nous?"
+	dc.b	"Où diable sommes-nous ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Il s'agit d'une usine"
+	dc.b	"Il s'agit d'une usine d'armements, con-"
 	dc.b	$FC
-	dc.b	"d'armements construite par"
+	dc.b	"struite par Mother Brain il y a mille ans."
 	dc.b	$FD
-	dc.b	"Mother Brain il y a mille ans."
-	dc.b	$FD
-	dc.b	"Elle a longtemps été laissée"
+	dc.b	"Elle n'a finalement pas servi à son"
 	dc.b	$FC
-	dc.b	"à l'abandon."
+	dc.b	"usage attendu. Elle fut donc laissée"
 	dc.b	$FD
-	dc.b	"Elle fut donc laissée hors"
-	dc.b	$FC
-	dc.b	"service, mais..."
+	dc.b	"hors service. Ceci dit..."
 	dc.b	$FD
-	dc.b	"Il semblerait qu'elle produit"
+	dc.b	"Il semblerait qu'elle produit des armes"
 	dc.b	$FC
-	dc.b	"des armes automatisées sous les"
+	dc.b	"automatisées sous les ordres de Kuran"
 	dc.b	$FD
-	dc.b	"ordres de Kuran depuis environ"
-	dc.b	$FC
-	dc.b	"six mois."
+	dc.b	"depuis environ six mois."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Alors, nous avons un problème si"
+	dc.b	"Alors, si on ne désactive pas cet"
 	dc.b	$FC
-	dc.b	"on n'éteint pas cet endroit?"
+	dc.b	"endroit, on aura des problèmes ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"C'est inexact. Lorsque Zelan"
+	dc.b	"Négatif. Lorsque Zelan fut remis en état,"
 	dc.b	$FC
-	dc.b	"fut remis en état, j'ai fait"
+	dc.b	"j'ai fait cesser toute production."
 	dc.b	$FD
-	dc.b	"cesser la production d'armes."
-	dc.b	$FD
-	dc.b	"Nous pouvons laisser cet endroit"
+	dc.b	"Nous pouvons laisser cet endroit tel"
 	dc.b	$FC
-	dc.b	"tel quel si tel est notre désir."
+	dc.b	"quel,  si tel est notre désir."
 	dc.b	$FF
 
 ; $8
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Il y a des choses là-dedans"
+	dc.b	"Il y a des choses là-dedans dont je suis"
 	dc.b	$FC
-	dc.b	"dont je n'ai aucune idée de"
-	dc.b	$FD
-	dc.b	"leur nature."
+	dc.b	"incapable de comprendre la fonction."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
 	dc.b	"Il s'agit d'un module Burst Roc."
 	dc.b	$FD
-	dc.b	"C'est une arme semi-automatique"
+	dc.b	"C'est une arme semi-automatique à longue"
 	dc.b	$FC
-	dc.b	"à longue portée, qui émet des"
+	dc.b	"portée, qui émet des rafales thermiques."
 	dc.b	$FD
-	dc.b	"rafales d'énergie thermiques."
+	dc.b	"Il est compatible avec mes circuits."
 	dc.b	$FD
-	dc.b	"Il est compatible avec mes"
-	dc.b	$FC
-	dc.b	"circuits."
-	dc.b	$FD
-	dc.b	"Je vais l'implanter"
-	dc.b	$FC
-	dc.b	"immédiatement."
+	dc.b	"Je vais donc l'implanter immédiatement."
 	dc.b	$F7
 
 	dc.b	$F4
@@ -694,7 +614,7 @@
 ; $B
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Aïe! Ça m'a surpris!"
+	dc.b	"Aïe ! Ça m'a surpris !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$07
@@ -708,26 +628,26 @@
 	dc.b	$07
 	dc.b	"Regardez-moi ce lustre, cette"
 	dc.b	$FC
-	dc.b	"prestance!"
+	dc.b	"prestance !"
 	dc.b	$FD
 	dc.b	"Quel conception magnifiquement"
 	dc.b	$FC
-	dc.b	"fonctionnelle!"
+	dc.b	"fonctionnelle! "
 	dc.b	$FD
-	dc.b	"Ne le trouvez-vous pas"
+	dc.b	"Ne le trouvez-vous pas complètement"
 	dc.b	$FC
-	dc.b	"complètement fascinant?"
+	dc.b	"fascinant ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Oh, euh...oui, oui!"
+	dc.b	"Oh, euh... oui, oui !"
 	dc.b	$FF
 
 ; $D
 	dc.b	$F3
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"C'est affreux!"
+	dc.b	"C'est affreux !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
@@ -757,13 +677,9 @@
 	dc.b	$FF
 
 ; $10
-	dc.b	"Pour la dernière fois,"
+	dc.b	"Pour la dernière fois, je te le répète,"
 	dc.b	$FC
-	dc.b	"je te le répète,"
-	dc.b	$FD
-	dc.b	"non, tu ne peux pas aller jouer"
-	dc.b	$FC
-	dc.b	"dehors!"
+	dc.b	"non, tu ne peux pas aller jouer dehors!"
 	dc.b	$FF
 ;; Local Variables:
 ;; eval: (fci-mode)
