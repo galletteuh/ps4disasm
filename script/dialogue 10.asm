@@ -59,8 +59,6 @@
 	dc.b	"Je me sens en sécurité ici, car il n'y a pas"
 	dc.b	$FC
 	dc.b	"trop de gens louches dans les parages !"
-	dc.b	$FD
-	dc.b	""
 	dc.b	$FF
 
 ; $14
@@ -147,8 +145,6 @@
 	dc.b	$FC
 	dc.b	"seurs, à cause de la guilde et tout ça..."
 	dc.b	$FD
-	dc.b	""
-	dc.b	$FD
 	dc.b	"Ce n'est pas l'idéal pour bien élever des"
 	dc.b	$FC
 	dc.b	"enfants."
@@ -186,8 +182,6 @@
 	dc.b	"Ah, c'est vous, Alys ! Merci pour toute"
 	dc.b	$FC
 	dc.b	"votre aide l'autre fois."
-	dc.b	$FD
-	dc.b	""
 	dc.b	$FD
 	dc.b	"En échange, je lirai votre avenir"
 	dc.b	$FC
@@ -709,8 +703,6 @@
 	dc.b	"C'est un ver des sables sculpté"
 	dc.b	$FC
 	dc.b	"dans le bois. Je l'ai acheté à Termi."
-	dc.b	$FD
-	dc.b	""
 	dc.b	$FD
 	dc.b	"Quel travail de bonne qualité!"
 	dc.b	$FD
