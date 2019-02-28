@@ -647,7 +647,7 @@
 	dc.b	$FD
 	dc.b	"Allons au Manoir Esper."
 	dc.b	$FC
-	dc.b	"Tu y trouveras tes réponses!"
+	dc.b	"Tu y trouveras tes réponses !"
 	dc.b	$FF
 ;; Local Variables:
 ;; eval: (fci-mode)
