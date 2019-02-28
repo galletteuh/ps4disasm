@@ -540,8 +540,6 @@
 	dc.b	$F4
 	dc.b	$01
 	dc.b	"Ouf...c'est rouillé, pas moyen de l'ouvrir !"
-	dc.b	$FC
-	dc.b	""
 	dc.b	$F7
 
 	dc.b	$F4

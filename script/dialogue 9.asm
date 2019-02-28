@@ -264,8 +264,6 @@
 	dc.b	"Le ciel soit loué ! Les gens ont finalement"
 	dc.b	$FC
 	dc.b	"tous retrouvé leurs esprits."
-	dc.b	$FD
-	dc.b	""
 	dc.b	$FF
 
 ; $29
