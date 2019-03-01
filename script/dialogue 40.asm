@@ -41,7 +41,6 @@
 	dc.b	$FC
 	dc.b	"Dezolis."
 	dc.b	$FD
-	dc.b	$FF
 	dc.b	$F4
 	dc.b	$00
 	dc.b	"Rykros est une planète protégée par une"
@@ -465,7 +464,6 @@
 	dc.b	$FC
 	dc.b	"Protecteurs, êtes nés."
 	dc.b	$FD
-	dc.b	$FF
 
 	dc.b	$F2, $02
 	dc.b	$F4
