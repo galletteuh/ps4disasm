@@ -74,8 +74,6 @@
 	dc.b	"Je vous demande pardon, mais je n'arrive"
 	dc.b	$FC
 	dc.b	"pas à l'imaginer comme étant très pieux..."
-	dc.b	$FD
-	dc.b	""
 	dc.b	$FF
 
 ; $5

@@ -14,8 +14,6 @@
 	dc.b	"ci, alors montez bien la garde sur ce qui"
 	dc.b	$FD
 	dc.b	"reste de cet endroit jusqu'à mon retour."
-	dc.b	$FC
-	dc.b	""
 	dc.b	$FF
 
 ; $1
