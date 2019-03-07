@@ -787,19 +787,19 @@
 ; $C
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Veuillez m'excuser ce contretemps."
+	dc.b	"Attendez un instant, s'il-vous-plaît."
 	dc.b	$FD
 	dc.b	"Kuran est actuellement en mode"
 	dc.b	$FC
 	dc.b	"camouflage."
 	dc.b	$FD
-	dc.b	"Il est impossible de le localiser à l'aide"
+	dc.b	"Il est donc impossible de le localiser à"
 	dc.b	$FC
-	dc.b	"du radar de la navette."
+	dc.b	"l'aide du radar de la navette."
 	dc.b	$FD
-	dc.b	"Nous avons un Brouilleur de Camouflage"
+	dc.b	"Il y a Brouilleur de Camouflage dans la"
 	dc.b	$FC
-	dc.b	"dans la soute tribord. Un instant."
+	dc.b	"soute tribord. Je vais le chercher."
 	dc.b	$FF
 ;; Local Variables:
 ;; eval: (fci-mode)
