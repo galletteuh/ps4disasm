@@ -24,75 +24,69 @@
 ; $1
 	dc.b	$F4
 	dc.b	$0E
-	dc.b	"Eh, Hahn, n'embête pas"
-	dc.b	$FC
-	dc.b	"ces gens."
+	dc.b	"Hé, Hahn, n'embête pas ces gens."
 	dc.b	$FF
 
 ; $2
 	dc.b	$F4
 	dc.b	$0E
-	dc.b	"...tu vas aller voir, Hahn?"
+	dc.b	"... tu vas aller voir, Hahn ?"
 	dc.b	$FF
 
 ; $3
 	dc.b	$F4
 	dc.b	$0E
-	dc.b	"Quoi! Encore Holt!?"
+	dc.b	"Quoi ! Encore Holt !?"
 	dc.b	$FD
-	dc.b	"Hahn, il est sûrement préférable"
+	dc.b	"Hahn, il est sûrement préférable de ne"
 	dc.b	$FC
-	dc.b	"de ne plus s'en mêler."
+	dc.b	"plus s'en mêler."
 	dc.b	$FF
 
 ; $4
 	dc.b	$F4
 	dc.b	$0E
-	dc.b	"N'ébruitez pas les problèmes de"
+	dc.b	"N'ébruitez pas les problèmes qui tourmen-"
 	dc.b	$FC
-	dc.b	"notre planète."
+	dc.b	"tent notre planète."
 	dc.b	$FD
-	dc.b	"Nous ne voulons pas affoler"
+	dc.b	"Nous ne voulons pas affoler la"
 	dc.b	$FC
-	dc.b	"la population."
+	dc.b	"population."
 	dc.b	$FF
 
 ; $5
 	dc.b	$F4
 	dc.b	$0E
-	dc.b	"Pas question que je m'en"
-	dc.b	$FC
-	dc.b	"mêle."
+	dc.b	"Pas question que je m'en mêle."
 	dc.b	$FD
-	dc.b	"Partez et cessez de"
-	dc.b	$FC
-	dc.b	"venir ici."
+	dc.b	"Partez, et cessez de venir ici."
 	dc.b	$FF
 
 ; $6
 	dc.b	$F4
 	dc.b	$0E
-	dc.b	"Pas de nos affaires?"
+	dc.b	"Pas de nos affaires ?"
 	dc.b	$FC
-	dc.b	"Vous voulez rire!"
+	dc.b	"Vous voulez rire !"
 	dc.b	$FD
-	dc.b	"Vu les circonstances, je ne"
+	dc.b	"Vu les circonstances, je ne peux pas"
 	dc.b	$FC
-	dc.b	"peux pas ignorer tout ça!"
+	dc.b	"fermer les yeux sur ce qui se passe !"
 	dc.b	$FF
 
 ; $7
 	dc.b	$F4
 	dc.b	$0E
-	dc.b	"Pas de nos affaires?"
+	dc.b	"Pas de nos affaires ?"
 	dc.b	$FC
-	dc.b	"Vous voulez rire!"
+	dc.b	"Vous voulez rire !"
 	dc.b	$FD
-	dc.b	"Vu les circonstances, je ne"
+	dc.b	"Vu les circonstances, je ne peux pas"
 	dc.b	$FC
-	dc.b	"peux pas ignorer tout ça!"
+	dc.b	"fermer les yeux sur ce qui se passe !"
 	dc.b	$FD
-	dc.b	"Je compte sur toi, Hahn!"
+	dc.b	"Je compte sur toi, Hahn !"
 	dc.b	$FF
 
 ; $8
@@ -104,31 +98,29 @@
 	dc.b	$63, $01
 	dc.b	$F4
 	dc.b	$0D
-	dc.b	"Il faut faire quelque chose,"
+	dc.b	"Il faut faire quelque chose, mais restez"
 	dc.b	$FC
-	dc.b	"mais restez discrets!"
+	dc.b	"discrets !"
 	dc.b	$FF
 
 ; $9
 	dc.b	$F4
 	dc.b	$0D
-	dc.b	"Hahn... J'aimerais beaucoup"
+	dc.b	"Hahn... J'aimerais beaucoup t'aider,"
 	dc.b	$FC
-	dc.b	"t'aider, mais, tu sais..."
+	dc.b	"mais, tu sais..."
 	dc.b	$FF
 
 ; $A
 	dc.b	$F4
 	dc.b	$0D
-	dc.b	"Que diable se passe-t-il ici!?"
+	dc.b	"Que diable se passe-t-il ici !?"
 	dc.b	$FF
 
 ; $B
 	dc.b	$F4
 	dc.b	$0D
-	dc.b	"Hahn, je m'en remet"
-	dc.b	$FC
-	dc.b	"entièrement à toi."
+	dc.b	"Hahn, je m'en remet entièrement à toi."
 	dc.b	$FF
 
 ; $C
@@ -138,21 +130,21 @@
 	dc.b	$C2, $02
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Bonjour à tous!"
+	dc.b	"Bonjour à tous !"
 	dc.b	$FC
-	dc.b	"Ça fait un bail!"
+	dc.b	"Ça fait un bail !"
 	dc.b	$FD
-	dc.b	"Mais... c'est sans espoir..."
-	dc.b	$FD
-	dc.b	"Les administrateurs de cette"
+	dc.b	"Mais... malheureusement..."
 	dc.b	$FC
-	dc.b	"académie sont bornés."
+	dc.b	"C'est sans espoir..."
 	dc.b	$FD
-	dc.b	"Quels pleutres!"
-	dc.b	$FD
-	dc.b	"Ils ne bougeront pas le petit"
+	dc.b	"Les administrateurs de cette académie"
 	dc.b	$FC
-	dc.b	"doigt."
+	dc.b	"sont trop bornés."
+	dc.b	$FD
+	dc.b	"Quels pleutres !"
+	dc.b	$FD
+	dc.b	"Ils ne bougeront pas le petit doigt."
 	dc.b	$FF
 
 ; $D
@@ -166,25 +158,23 @@
 ; $E
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Ça fait un bail!"
+	dc.b	"Ça fait un bail !"
 	dc.b	$FC
 	dc.b	"Mais... c'est sans espoir..."
 	dc.b	$FD
-	dc.b	"Les administrateurs de cette"
+	dc.b	"Les administrateurs de cette académie"
 	dc.b	$FC
-	dc.b	"académie sont bornés."
+	dc.b	"sont trop bornés."
 	dc.b	$FD
-	dc.b	"Quels pleutres!"
+	dc.b	"Quels pleutres !"
 	dc.b	$FD
-	dc.b	"Ils ne bougeront pas le petit"
-	dc.b	$FC
-	dc.b	"doigt."
+	dc.b	"Ils ne bougeront pas le petit doigt."
 	dc.b	$FF
 
 ; $F
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Que...Quoi?!"
+	dc.b	"Que... Quoi ?!"
 	dc.b	$FF
 
 ; $10
@@ -193,57 +183,53 @@
 	dc.b	$F3
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Hum! Je me demande de quoi"
+	dc.b	"Hum! Je me demande à quoi ressemble le"
 	dc.b	$FC
-	dc.b	"a l'air le chasseur que le"
+	dc.b	"le chasseur que le directeur a retenu ?"
 	dc.b	$FD
-	dc.b	"directeur a retenu?"
-	dc.b	$FD
-	dc.b	"J'espère que c'est quelqu'un"
-	dc.b	$FC
-	dc.b	"de fiable..."
+	dc.b	"J'espère que c'est quelqu'un de fiable..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"...Il n'écoute rien de ce que"
+	dc.b	"... Il n'écoute rien de ce qu'on lui"
 	dc.b	$FC
-	dc.b	"les gens disent."
+	dc.b	"raconte."
 	dc.b	$FF
 
 ; $11
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Hein, vous êtes les chasseurs?"
+	dc.b	"Hein, vous êtes les chasseurs ?"
 	dc.b	$FC
-	dc.b	"Sans rire?"
+	dc.b	"Sans rire ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Quoi, on a l'air trop minable"
+	dc.b	"Quoi, on a l'air trop minable pour faire"
 	dc.b	$FC
-	dc.b	"pour ce travail?"
+	dc.b	"ce travail ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Euh, non, non, pas du tout!"
+	dc.b	"Euh, non, non, pas du tout !"
 	dc.b	$FC
 	dc.b	"Ce... Ce n'est pas ce que je..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Laisse-nous passer. Nous avons"
+	dc.b	"Bon, laisse-nous passer. Nous avons"
 	dc.b	$FC
 	dc.b	"l'autorisation du directeur."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Une minute!"
+	dc.b	"Une minute !"
 	dc.b	$FC
-	dc.b	"Emmenez-moi avec vous!"
+	dc.b	"Emmenez-moi avec vous !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Voyez-vous ça. Et pourquoi donc?"
+	dc.b	"Voyez-vous ça ! Et pourquoi donc ?"
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$0004
@@ -251,122 +237,110 @@
 	dc.b	$03
 	dc.b	"Je m'appelle Hahn."
 	dc.b	$FD
-	dc.b	"Je suis un adjoint dans cette"
-	dc.b	$FC
-	dc.b	"académie."
+	dc.b	"Je suis un adjoint à l'académie."
 	dc.b	$FD
-	dc.b	"Je travaille avec le professeur"
+	dc.b	"Je travaille avec le professeur Holt."
 	dc.b	$FC
-	dc.b	"Holt. Il est parti enquêter"
+	dc.b	"Il est parti enquêter dans la Vallée de"
 	dc.b	$FD
-	dc.b	"dans la Vallée de l'Éclosion"
+	dc.b	"l'Éclosion dans le cadre de son projet"
 	dc.b	$FC
-	dc.b	"pour son projet de recherche."
+	dc.b	"de recherche."
 	dc.b	$FD
-	dc.b	"Nous sommes sans nouvelles"
-	dc.b	$FC
-	dc.b	"depuis."
+	dc.b	"Nous sommes sans nouvelles depuis !"
 	dc.b	$FD
-	dc.b	"Alors, je cherche des indices"
+	dc.b	"Alors, je cherche des indices, dans"
 	dc.b	$FC
-	dc.b	"pour le retrouver!"
+	dc.b	"l'espoir de pouvoir le retrouver !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
 	dc.b	"La Vallée de l'Éclosion..."
-	dc.b	$FC
-	dc.b	"c'est l'endroit mystérieux qu'on"
 	dc.b	$FD
-	dc.b	"appelle la vallée sacrée"
+	dc.b	"C'est l'endroit mystérieux qu'on appelle"
 	dc.b	$FC
-	dc.b	"de la vie."
+	dc.b	"« la vallée sacrée de la vie »."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Mais quel rapport entre cette"
+	dc.b	"Mais quel rapport entre cette vallée, et"
 	dc.b	$FC
-	dc.b	"vallée et l'actuelle épidémie"
-	dc.b	$FD
-	dc.b	"de monstres?"
+	dc.b	"l'actuelle épidémie de monstres ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Suite à la disparition de"
+	dc.b	"Suite à la disparition de l'équipe de"
 	dc.b	$FC
-	dc.b	"l'équipe de chercheurs menée par"
+	dc.b	"chercheurs menée par le professeur,"
 	dc.b	$FD
-	dc.b	"le professeur, le directeur"
+	dc.b	"le directeur interdit à quiconque"
 	dc.b	$FC
-	dc.b	"interdit à quiconque l'accès à"
+	dc.b	"l'accès à la Vallée de l'Éclosion !"
 	dc.b	$FD
-	dc.b	"la Vallée de l'Éclosion!"
-	dc.b	$FD
-	dc.b	"Depuis, nous nous enquérons"
+	dc.b	"Depuis, nous nous enquérons incessam-"
 	dc.b	$FC
-	dc.b	"incessamment de la situation,"
+	dc.b	"ment de la situation, mais il demeure"
 	dc.b	$FD
-	dc.b	"mais il demeure évasif."
+	dc.b	"évasif sur tout ce qui touche ce sujet."
 	dc.b	$FD
-	dc.b	"Et comme par hasard, cette"
+	dc.b	"Et, comme par hasard, cette épidémie de"
 	dc.b	$FC
-	dc.b	"épidémie de monstres se déclare!"
+	dc.b	"monstres se déclare!"
 	dc.b	$FD
-	dc.b	"Je vous parie qu'il y a un"
+	dc.b	"Je vous parie qu'il y a un lien entre"
 	dc.b	$FC
-	dc.b	"lien entre tous ces événements."
+	dc.b	"tous ces événements."
 	dc.b	$FD
 	dc.b	$F2, $01
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"J'admets que le comportement"
+	dc.b	"J'admets que le comportement du"
 	dc.b	$FC
-	dc.b	"du directeur est très suspect..."
+	dc.b	"directeur est plutôt suspect..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Étant donné les circonstances,"
+	dc.b	"Étant donné les circonstances, je me"
 	dc.b	$FC
-	dc.b	"je me sens contraint d'examiner"
+	dc.b	"sens obligé d'enquêter au sous-sol."
 	dc.b	$FD
-	dc.b	"le sous-sol moi-même."
-	dc.b	$FD
-	dc.b	"Mais à bien y penser, cela"
+	dc.b	"Mais à bien y penser, cela me semble"
 	dc.b	$FC
-	dc.b	"semble quelque peu risqué..."
+	dc.b	"quelque peu, euh, risqué, disons..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Bon, alors tu attendais qu'on"
+	dc.b	"Bon, alors, tu attendais qu'on se"
 	dc.b	$FC
-	dc.b	"se manifeste?"
+	dc.b	"manifeste ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Euh, bien... oui."
+	dc.b	"Euh, et bien... oui."
 	dc.b	$FC
-	dc.b	"Vous êtes perspicace!"
+	dc.b	"Vous êtes perspicace !"
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$0005
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"100 meseta!"
+	dc.b	"100 meseta !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Plaît-il?"
+	dc.b	"Plaît-il ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Nous t'escorterons"
+	dc.b	"Nous t'escorterons au prix de 100"
 	dc.b	$FC
-	dc.b	"au prix de 100 meseta."
+	dc.b	"meseta."
 	dc.b	$FD
-	dc.b	"J'espère que tu ne pensais"
+	dc.b	"J'espère que tu ne pensais pas pouvoir"
 	dc.b	$FC
-	dc.b	"pas pouvoir nous accompagner"
+	dc.b	"nous accompagner et être dans nos"
 	dc.b	$FD
-	dc.b	"et être dans nos pattes gratis?"
+	dc.b	"pattes gratis ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
@@ -376,57 +350,53 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Pas vraiment mon problème."
+	dc.b	"Ce n'est pas vraiment mon problème."
 	dc.b	$FC
-	dc.b	"Alors, tu décides?"
+	dc.b	"Alors, tu te décides ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"...D'accord, marché conclu...."
+	dc.b	"... D'accord, marché conclu..."
 	dc.b	$FF
 
 ; $12
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Victoire!"
+	dc.b	"Victoire !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Chaz! Tu as besoin de plus"
+	dc.b	"Chaz! Tu as besoin de plus d'entraîne-"
 	dc.b	$FC
-	dc.b	"d'entraînement! C'est trop lent!"
+	dc.b	"ment ! C'est beaucoup trop lent !"
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Hein? Mais on a détruit le"
-	dc.b	$FC
-	dc.b	"monstre..."
+	dc.b	"Hein ? Mais on a tué le monstre..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Pas sans mon aide..."
+	dc.b	"Grâce à mon aide..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"...Désolé."
+	dc.b	"... Désolé."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Bon. Hahn?"
+	dc.b	"Bon. Hahn ?"
 	dc.b	$FC
 	dc.b	"Viens ici."
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Oui?"
+	dc.b	"Oui ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"À quoi servent ces tubes"
-	dc.b	$FC
-	dc.b	"de verre?"
+	dc.b	"À quoi servent ces tubes de verre ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
@@ -434,29 +404,27 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Dites donc, est-ce que vous"
+	dc.b	"Dites donc, est-ce que vous cultivez"
 	dc.b	$FC
-	dc.b	"cultivez des monstres ici?"
+	dc.b	"des monstres, ici ?"
 	dc.b	$FD
-	dc.b	"Si c'est le cas, tous ces trucs"
+	dc.b	"Si c'est le cas, tous ces monstres qui"
 	dc.b	$FC
-	dc.b	"à propos des monstres, ce n'est"
+	dc.b	"se manifestent, ce n'est pas plus très"
 	dc.b	$FD
-	dc.b	"pas très mystérieux!"
+	dc.b	"mystérieux !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Je...J'y suis pour rien!"
+	dc.b	"Je... Je n'y suis pour rien !"
 	dc.b	$FD
-	dc.b	"C'est la première fois que"
+	dc.b	"C'est la première fois que je pénètre"
 	dc.b	$FC
-	dc.b	"je pénètre dans ce local!"
+	dc.b	"dans ce local !"
 	dc.b	$FD
-	dc.b	"Je ne savais même pas qu'il y"
+	dc.b	"Je ne savais même pas qu'il y avait ces"
 	dc.b	$FC
-	dc.b	"avait de tels appareils"
-	dc.b	$FD
-	dc.b	"entre les murs de l'académie!"
+	dc.b	"appareils entre les murs de l'académie !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
@@ -464,7 +432,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"C'est la vérité, je le jure!"
+	dc.b	"C'est la vérité, je le jure !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
@@ -472,61 +440,57 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Le directeur devait connaître"
+	dc.b	"Le directeur devait connaître l'existen-"
 	dc.b	$FC
-	dc.b	"l'existence de ces tubes!"
+	dc.b	"ce de ces tubes !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Il doit aussi connaître le lien"
+	dc.b	"Il doit aussi connaître le lien entre ceci"
 	dc.b	$FC
-	dc.b	"entre ces trucs et la"
-	dc.b	$FD
-	dc.b	"disparition du professeur Holt."
+	dc.b	"et la disparition du professeur Holt."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Je crois qu'une petite visite"
+	dc.b	"Je crois qu'une petite visite chez le"
 	dc.b	$FC
-	dc.b	"chez le directeur s'impose."
+	dc.b	"directeur s'impose."
 	dc.b	$FD
-	dc.b	"Allons, viens, Chaz!"
+	dc.b	"Allons, viens, Chaz !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Hé!"
+	dc.b	"Hé !"
 	dc.b	$FC
-	dc.b	"Ne me laissez pas seul ici!"
+	dc.b	"Ne me laissez pas seul ici !"
 	dc.b	$FF
 
 ; $13
 	dc.b	$F4
 	dc.b	$0E
-	dc.b	"Que...Qui a-t-il?"
+	dc.b	"Que... Qui a-t-il ?"
 	dc.b	$FC
 	dc.b	"Vous semblez contrariés."
 	dc.b	$FD
-	dc.b	"Avez-vous pu vaincre tous"
+	dc.b	"Avez-vous pu vaincre tous ces"
 	dc.b	$FC
-	dc.b	"ces monstres?"
+	dc.b	"monstres ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Oui, mais il y a des choses que"
+	dc.b	"Oui, mais il y a des choses que nous"
 	dc.b	$FC
-	dc.b	"nous voulons mettre au clair."
+	dc.b	"voulons mettre au clair."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0E
-	dc.b	"Quoi donc?"
+	dc.b	"Quoi donc ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Était-ce mon imagination, ou"
+	dc.b	"Était-ce mon imagination, ou j'ai vu des"
 	dc.b	$FC
-	dc.b	"j'ai vu des choses bizarres"
-	dc.b	$FD
-	dc.b	"au sous-sol?"
+	dc.b	"choses bizarres au sous-sol ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0E
@@ -536,69 +500,55 @@
 	dc.w	$0006
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Cessez de me faire perdre mon"
+	dc.b	"Cessez de me faire perdre mon temps. Me"
 	dc.b	$FC
-	dc.b	"temps. Me cacher des faits,"
+	dc.b	"cacher des faits, c'est la sixième chose"
 	dc.b	$FD
-	dc.b	"c'est la sixième chose la plus"
-	dc.b	$FC
-	dc.b	"périlleuse au monde!"
+	dc.b	"la plus périlleuse au monde !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0E
-	dc.b	"D'accord! D'accord..."
+	dc.b	"D'accord ! D'accord..."
 	dc.b	$FD
 	dc.b	"Je vais tout vous dire."
 	dc.b	$FD
-	dc.b	"Vous êtes au courant de"
+	dc.b	"Vous êtes au courant de l'épidémie"
 	dc.b	$FC
-	dc.b	"l'épidémie récente d'un nouveau"
-	dc.b	$FD
-	dc.b	"type de monstre?"
+	dc.b	"récente d'un nouveau type de monstre ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Oh que oui! Grâce à ça, je"
+	dc.b	"Oh, que oui! Grâce à ça, je ne manque pas"
 	dc.b	$FC
-	dc.b	"ne manque pas de boulot."
+	dc.b	"de boulot ces temps-ci."
 	dc.b	$FD
 	dc.b	$F2, $01
 	dc.b	$F2, $06
 	dc.b	$F4
 	dc.b	$0E
-	dc.b	"Il y a trois mois, Holt a"
+	dc.b	"Il y a trois mois, Holt a confirmé que la"
 	dc.b	$FC
-	dc.b	"confirmé que la Vallée de"
+	dc.b	"Vallée de l'Éclosion est le point d'origine"
 	dc.b	$FD
-	dc.b	"l'Éclosion est le point"
+	dc.b	"de l'épidémie, et il est parti enquêter..."
+	dc.b	$FD
+	dc.b	"Il prétendait avoir découvert les vesti-"
 	dc.b	$FC
-	dc.b	"d'origine de l'épidémie, et"
+	dc.b	"ges d'une civilisation avancée !"
 	dc.b	$FD
-	dc.b	"il est parti enquêter..."
+	dc.b	"L'équipe de chercheurs a ramené des"
 	dc.b	$FC
-	dc.b	"Il prétendait avoir découvert"
+	dc.b	"tubes d'éclosion pour monstres, et est"
 	dc.b	$FD
-	dc.b	"les vestiges d'une civilisation"
+	dc.b	"repartie immédiatement pour une seconde"
 	dc.b	$FC
-	dc.b	"plus avancée que la nôtre!"
-	dc.b	$FD
-	dc.b	"L'équipe de chercheurs a ramené"
-	dc.b	$FC
-	dc.b	"des tubes d'éclosion pour"
-	dc.b	$FD
-	dc.b	"monstres, et est repartie"
-	dc.b	$FC
-	dc.b	"immédiatement pour une seconde"
-	dc.b	$FD
 	dc.b	"mission d'enquête."
-	dc.b	$FC
+	dc.b	$FD
 	dc.b	"Toutefois..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Aucun d'entre eux n'en est"
-	dc.b	$FC
-	dc.b	"revenu..."
+	dc.b	"Aucun d'entre eux n'en est revenu..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0E
@@ -606,81 +556,69 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Malgré cela, vous n'avez pas"
+	dc.b	"Malgré cela, vous n'avez pas cru bon de"
 	dc.b	$FC
-	dc.b	"cru bon de mettre sur pied"
+	dc.b	"mettre sur pied une expédition pour les"
 	dc.b	$FD
-	dc.b	"une expédition de secours et"
+	dc.b	"secourir, et, de surcroît, vous avez in-"
 	dc.b	$FC
-	dc.b	"de surcroît, vous avez interdit"
-	dc.b	$FD
-	dc.b	"l'accès à la Vallée de"
-	dc.b	$FC
-	dc.b	"l'Éclosion!"
+	dc.b	"terdit l'accès à la Vallée de l'Éclosion !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0E
-	dc.b	"Non, au contraire!"
+	dc.b	"Non, au contraire !"
 	dc.b	$FD
-	dc.b	"Je...J'ai voulu monter une"
+	dc.b	"Je... J'ai voulu monter une équipe pour"
 	dc.b	$FC
-	dc.b	"équipe pour les secourir! Sauf"
-	dc.b	$FD
-	dc.b	"que, voyez vous..."
+	dc.b	"les secourir ! Sauf que, voyez vous..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"On vous en a empêché?"
+	dc.b	"On vous en a empêché ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0E
-	dc.b	"Soudainement, un homme qui"
+	dc.b	"Soudainement, un homme qui disait"
 	dc.b	$FC
-	dc.b	"disait s'appeler «Zio» est"
-	dc.b	$FD
-	dc.b	"apparu devant moi..."
+	dc.b	"s'appeler « Zio » est apparu devant moi..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Zio! Ça me dit quelque chose."
+	dc.b	"Zio ! Ça me dit quelque chose."
 	dc.b	$FC
-	dc.b	"Ce magicien de pacotille!"
+	dc.b	"Ce magicien de pacotille !"
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$0007
 	dc.b	$F4
 	dc.b	$13
-	dc.b	"Ah! Monsieur le directeur de"
+	dc.b	"Ah ! Monsieur le directeur de l'Académie"
 	dc.b	$FC
-	dc.b	"l'Académie Motavia,"
-	dc.b	$FD
-	dc.b	"comment vous portez-vous?"
+	dc.b	"Motavia, comment vous portez-vous ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0E
-	dc.b	"Qui...Qui êtes-vous!?"
+	dc.b	"Qui... Qui êtes-vous !?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$13
 	dc.b	"Appelez-moi Zio..."
 	dc.b	$FC
-	dc.b	"Zio le magicien noir."
+	dc.b	"Zio, le magicien noir."
 	dc.b	$FD
-	dc.b	"Il vaut mieux ne pas s'immiscer"
+	dc.b	"Il vaut mieux ne pas s'immiscer dans la"
 	dc.b	$FC
-	dc.b	"dans la Vallée de l'Éclosion."
+	dc.b	"Vallée de l'Éclosion."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0E
-	dc.b	"Que signifie!?"
+	dc.b	"Que voulez-vous dire !?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$13
-	dc.b	"À partir de maintenant, si"
+	dc.b	"À partir de maintenant, si vous laissez"
 	dc.b	$FC
-	dc.b	"vous laissez quiconque mettre"
-	dc.b	$FD
-	dc.b	"les pieds dans la Vallée..."
+	dc.b	"quiconque y mettre les pieds..."
 	dc.b	$FD
 	dc.b	$F2, $01
 	dc.b	$F2, $06
@@ -688,53 +626,51 @@
 	dc.w	$0008
 	dc.b	$F4
 	dc.b	$0E
-	dc.b	"Horreur!"
+	dc.b	"Horreur !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$13
 	dc.b	"Comprenez-moi bien..."
 	dc.b	$FD
-	dc.b	"Il n'y a aucune raison de vous"
+	dc.b	"Il n'y a aucune raison de vous aventurer"
 	dc.b	$FC
-	dc.b	"aventurer là-bas!"
+	dc.b	"là-bas !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Ça a rapport avec l'équipe"
+	dc.b	"Ça a rapport avec l'équipe de"
 	dc.b	$FC
-	dc.b	"de chercheurs!"
+	dc.b	"chercheurs !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Voilà pourquoi vous avez passé"
+	dc.b	"Voilà pourquoi vous avez passé sous"
 	dc.b	$FC
-	dc.b	"sous silence la situation dans"
+	dc.b	"silence la situation dans la Vallée"
 	dc.b	$FD
-	dc.b	"la Vallée de l'Éclosion, et"
+	dc.b	"de l'Éclosion, et la raison pour"
 	dc.b	$FC
-	dc.b	"la raison pour laquelle vous"
+	dc.b	"laquelle vous avez étouffé l'affaire"
 	dc.b	$FD
-	dc.b	"avez étouffé l'affaire des"
+	dc.b	"des monstres."
+	dc.b	$FD
+	dc.b	"Mais... quel est le lien entre tout ça ?"
+	dc.b	$FD
+	dc.b	"Entre les vestiges d'une ancienne"
 	dc.b	$FC
-	dc.b	"monstres."
-	dc.b	$FD
-	dc.b	"Mais...que signifie tout ça?"
-	dc.b	$FD
-	dc.b	"Des vestiges d'une ancienne"
-	dc.b	$FC
-	dc.b	"civilisation avancée, et Zio?"
+	dc.b	"civilisation avancée, et Zio ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Ce sont d'inquiétants présages."
+	dc.b	"Ça ne me dit rien qui vaille."
 	dc.b	$FD
 	dc.b	$F2, $01
 	dc.b	$F2, $06
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Il faut que je sauve le"
+	dc.b	"Il faut que je sauve le professeur !"
 	dc.b	$FC
-	dc.b	"professeur! J'irai à la Vallée!"
+	dc.b	"J'irai à la Vallée!"
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$0009
@@ -742,31 +678,31 @@
 	dc.b	$02
 	dc.b	"Psst. Hahn."
 	dc.b	$FD
-	dc.b	"Tu feras gaffe, c'est la saison"
+	dc.b	"Tu feras gaffe, c'est la saison de ponte"
 	dc.b	$FC
-	dc.b	"de ponte des vers des sables."
+	dc.b	"des vers des sables."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Euh...Alys?"
+	dc.b	"Euh... Alys ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Nous t'accompagnerons pour 300"
+	dc.b	"Nous t'accompagnerons pour 300 meseta,"
 	dc.b	$FC
-	dc.b	"meseta, dépenses non comprises."
+	dc.b	"dépenses non comprises."
 	dc.b	$FD
 	dc.b	$F2, $01
 	dc.b	$F2, $06
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Euh...d'accord!"
+	dc.b	"Euh... d'accord !"
 	dc.b	$FD
-	dc.b	"La Vallée de l'Éclosion se"
+	dc.b	"La Vallée de l'Éclosion se situe au"
 	dc.b	$FC
-	dc.b	"situe au nord-est!"
+	dc.b	"nord-est !"
 	dc.b	$FD
-	dc.b	"Dépêchons-nous!"
+	dc.b	"Dépêchons-nous !"
 	dc.b	$FF
 
 ; $14
@@ -793,25 +729,21 @@
 	dc.b	$0E
 	dc.b	"Bienvenue."
 	dc.b	$FD
-	dc.b	"Je suis le directeur de cette"
-	dc.b	$FC
-	dc.b	"académie."
+	dc.b	"Je suis le directeur de l'Académie."
 	dc.b	$FD
-	dc.b	"Vous devez êtes Alys, la"
+	dc.b	"Vous devez êtes Alys, la chasseresse,"
 	dc.b	$FC
-	dc.b	"chasseresse,"
-	dc.b	$FD
-	dc.b	"et vous, son assistant, Chaz."
+	dc.b	"et vous devez être son assistant, Chaz."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Je vous demande pardon, Chaz est"
+	dc.b	"Je vous demande pardon, mais Chaz est"
 	dc.b	$FC
 	dc.b	"mon associé à part entière."
 	dc.b	$FD
 	dc.b	"Bien, venons-en au fait."
 	dc.b	$FD
-	dc.b	"Décrivez-moi la problématique."
+	dc.b	"Décrivez-moi votre problème."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0E
@@ -820,78 +752,72 @@
 	dc.b	$F2, $00
 	dc.w	$0002
 	dc.b	"Il y a environ un mois..."
-	dc.b	$FC
-	dc.b	"Des monstres étranges sont"
 	dc.b	$FD
-	dc.b	"apparus entre les murs de"
+	dc.b	"Des monstres étranges sont apparus"
 	dc.b	$FC
-	dc.b	"notre Académie!"
+	dc.b	"entre les murs de l'Académie !"
 	dc.b	$FD
-	dc.b	"Il semblerait que leur base"
+	dc.b	"Il semblerait que leur nid soit au"
 	dc.b	$FC
-	dc.b	"soit au sous-sol."
+	dc.b	"sous-sol."
 	dc.b	$FD
 	dc.b	"Je l'ai donc condamné."
 	dc.b	$FD
-	dc.b	"Jusqu'ici, pas de blessés, mais"
+	dc.b	"Jusqu'ici, personne n'a été blessé, mais"
 	dc.b	$FC
-	dc.b	"allez savoir quand ils"
+	dc.b	"allez savoir quand ils reviendront ?"
 	dc.b	$FD
-	dc.b	"reviendront?"
-	dc.b	$FD
-	dc.b	"S'il-vous-plaît, je vous en"
+	dc.b	"S'il-vous-plaît, je vous en conjure,"
 	dc.b	$FC
-	dc.b	"conjure, éliminez ces horreurs!"
+	dc.b	"éliminez ces horreurs !"
 	dc.b	$FD
-	dc.b	"Et... J'aimerais que vous"
+	dc.b	"Et... J'aimerais que vous régliez le"
 	dc.b	$FC
-	dc.b	"régliez le tout discrètement."
+	dc.b	"tout... discrètement."
 	dc.b	$FD
-	dc.b	"Votre réputation vous précède et"
+	dc.b	"Votre réputation vous précède, et je"
 	dc.b	$FC
-	dc.b	"je compte sur vous, Alys."
+	dc.b	"compte sur vous, Alys."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Sans problème. Comptez sur nous."
-	dc.b	$FD
-	dc.b	"Ceci dit, il est quand même"
+	dc.b	"Aucun problème. Vous pouvez avoir"
 	dc.b	$FC
-	dc.b	"étrange que tous ces monstres"
+	dc.b	"confiance."
 	dc.b	$FD
-	dc.b	"soient apparus dans l'Académie."
-	dc.b	$FD
-	dc.b	"Habituellement, ils se tiennent"
+	dc.b	"Ceci dit, il est tout de même étrange"
 	dc.b	$FC
-	dc.b	"loin des endroits habités."
+	dc.b	"que tous ces monstres aient niché à"
 	dc.b	$FD
-	dc.b	"Vous n'avez aucune idée"
+	dc.b	"l'intérieur de l'Académie."
+	dc.b	$FD
+	dc.b	"Habituellement, ils se tiennent loin des"
 	dc.b	$FC
-	dc.b	"comment cela a pu commencer?"
+	dc.b	"endroits habités."
+	dc.b	$FD
+	dc.b	"Vous n'avez aucune idée de comment cela"
+	dc.b	$FC
+	dc.b	"a pu se produire ?"
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$0003
 	dc.b	$F4
 	dc.b	$0E
-	dc.b	"Qu'est-ce que j'en sais?"
+	dc.b	"Qu'est-ce que j'en sais ?!"
 	dc.b	$FD
-	dc.b	"Ne posez pas tant de questions!"
+	dc.b	"Ne posez pas tant de questions !"
 	dc.b	$FD
-	dc.b	"Cessez de tergiverser! Faites"
+	dc.b	"Cessez de tergiverser ! Faites votre"
 	dc.b	$FC
-	dc.b	"votre travail et tuez-les!"
+	dc.b	"travail, et tuez-les !"
 	dc.b	$FD
-	dc.b	"Je vous paie très cher, ne"
-	dc.b	$FC
-	dc.b	"l'oubliez pas!"
+	dc.b	"Je vous paie très cher, ne l'oubliez pas !"
 	dc.b	$FF
 
 ; $18
 	dc.b	$F4
 	dc.b	$0E
-	dc.b	"Bonne chance. Je compte sur"
-	dc.b	$FC
-	dc.b	"vous."
+	dc.b	"Bonne chance. Je compte sur vous."
 	dc.b	$FF
 ;; Local Variables:
 ;; eval: (fci-mode)

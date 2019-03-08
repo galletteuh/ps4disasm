@@ -7,7 +7,7 @@ import subprocess
 import io
 
 # change this if the start address is changed in ps4constants.asm
-Dialogue_Trees_ADDRESS = 0xFF2A90
+Dialogue_Trees_ADDRESS = 0xFF2000
 MAX_TEXT_ADDRESS = 0xFF4ECF
 MAX_TEXT_SIZE = MAX_TEXT_ADDRESS - Dialogue_Trees_ADDRESS
 
