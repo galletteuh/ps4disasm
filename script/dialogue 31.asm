@@ -9,7 +9,7 @@
 	dc.b	$02, $00
 	dc.b	"Il vaudrait mieux aller voir le directeur"
 	dc.b	$FC
-	dc.b	"pour les détails de la mission !"
+	dc.b	"pour connaître les détails de la mission !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01, $01
