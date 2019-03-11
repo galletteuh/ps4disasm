@@ -1,67 +1,61 @@
 ; 0
 	dc.b	"Ceci est la ville de Zosa."
 	dc.b	$FC
-	dc.b	"Notre spécialité sont les oeufs"
+	dc.b	"Notre spécialité sont les oeufs du"
 	dc.b	$FD
-	dc.b	"du Pingouin Dezolisien!"
+	dc.b	"Pingouin Dezolisien !"
 	dc.b	$FF
 
 ; $1
-	dc.b	"Le Pingouin Dezolisien est très"
+	dc.b	"Le Pingouin Dezolisien est très mignon !"
 	dc.b	$FC
-	dc.b	"mignon!"
+	dc.b	"Nous avons élevé le Hibou Dezolisien"
 	dc.b	$FD
-	dc.b	"Nous avons élevé le Hibou"
+	dc.b	"jusqu'à ce qu'il puisse se reproduire"
 	dc.b	$FC
-	dc.b	"Dezolisien jusqu'à ce qu'il"
-	dc.b	$FD
-	dc.b	"puisse se reproduire en"
-	dc.b	$FC
-	dc.b	"captivité."
+	dc.b	"en captivité."
 	dc.b	$FF
 
 ; $2
-	dc.b	"Jamais nous ne voudrions manger"
+	dc.b	"Jamais nous ne voudrions manger de"
 	dc.b	$FC
-	dc.b	"de Pingouin Dezolisien!"
+	dc.b	"Pingouin Dezolisien !"
 	dc.b	$FD
-	dc.b	"Par contre, leurs oeufs sont"
+	dc.b	"Par contre, leurs oeufs sont utilisés"
 	dc.b	$FC
-	dc.b	"utilisés comme nourriture."
+	dc.b	"comme nourriture."
 	dc.b	$FF
 
 ; $3
 	dc.b	$FA
 	dc.b	$A1, $01
-	dc.b	"Euh, la Tour Garuberk?"
+	dc.b	"Euh, la Tour Garuberk ?"
 	dc.b	$FC
-	dc.b	"Hmm, je crois avoir vu une"
+	dc.b	"Hmm, je crois avoir vu une tour sinistre"
 	dc.b	$FD
-	dc.b	"tour sinistre à l'est d'ici."
+	dc.b	"à l'est d'ici."
 	dc.b	$FF
 
 ; $4
-	dc.b	"La Tour Garuberk?"
-	dc.b	$FD
-	dc.b	"Selon les rumeurs, elle a"
+	dc.b	"La Tour Garuberk ?"
 	dc.b	$FC
-	dc.b	"disparu."
+	dc.b	"Selon les rumeurs, elle a disparu."
 	dc.b	$FD
-	dc.b	"Est-il vrai que le temple"
+	dc.b	"Est-il vrai que le temple Gumbious a"
 	dc.b	$FC
-	dc.b	"Gumbious a aussi disparu?"
+	dc.b	"aussi disparu ?"
 	dc.b	$FF
 
 ; $5
-	dc.b	"Pit pit!"
+	dc.b	"Pit pit !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Oh! Qu'il est mignon!"
+	dc.b	"Oh ! Qu'il est mignon !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Rune, le trouves-tu mignon?"
+	dc.b	"Rune, le trouves-tu mignon ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
@@ -71,31 +65,25 @@
 ; $6
 	dc.b	$FA
 	dc.b	$8A, $01
-	dc.b	"N'aimeriez-vous pas être"
+	dc.b	"N'aimeriez-vous pas être accompagné"
 	dc.b	$FC
-	dc.b	"accompagné par un Pingouin"
+	dc.b	"par un Pingouin Dezolisien ?"
 	dc.b	$FD
-	dc.b	"Dezolisien?"
-	dc.b	$FD
-	dc.b	"Il y a quelqu'un qui a planté"
+	dc.b	"Il y a quelqu'un qui a planté un écriteau"
 	dc.b	$FC
-	dc.b	"un écriteau à cet effet dans la"
+	dc.b	"à cet effet dans la partie ouest de la"
 	dc.b	$FD
-	dc.b	"partie ouest de la ville. Vous"
-	dc.b	$FC
-	dc.b	"devriez lui en parler."
+	dc.b	"ville. Vous devriez lui en parler."
 	dc.b	$FF
 
 ; $7
-	dc.b	"Ah, vous faites la Parade du"
+	dc.b	"Ah, vous faites la Parade du Pingouin"
 	dc.b	$FC
-	dc.b	"Pingouin Dezolisien!"
+	dc.b	"Dezolisien !"
 	dc.b	$FD
-	dc.b	"En fait, c'est plutôt inutile,"
+	dc.b	"En fait, c'est plutôt inutile, mais c'est"
 	dc.b	$FC
-	dc.b	"mais c'est pour ça que c'est"
-	dc.b	$FD
-	dc.b	"vraiment génial!"
+	dc.b	"pour ça que c'est vraiment génial !"
 	dc.b	$FF
 
 ; $8
@@ -103,115 +91,97 @@
 	dc.b	$C5, $02
 	dc.b	$FA
 	dc.b	$A1, $01
-	dc.b	"Vous savez quoi?"
+	dc.b	"Vous savez quoi ?"
 	dc.b	$FD
-	dc.b	"Il y a une ville Parmanienne qui"
+	dc.b	"Il y a une ville Parmanienne qui a été"
 	dc.b	$FC
-	dc.b	"a été complètement rasée!"
+	dc.b	"complètement rasée !"
 	dc.b	$FD
-	dc.b	"Je me demande pourquoi?"
+	dc.b	"Je me demande pourquoi ?"
 	dc.b	$FF
 
 ; $9
-	dc.b	"Vous savez quoi?"
+	dc.b	"Vous savez quoi ?"
 	dc.b	$FD
-	dc.b	"La reconstruction de la ville"
+	dc.b	"La reconstruction de la ville Parmanienne"
 	dc.b	$FC
-	dc.b	"Parmanienne qui avait été rasée"
-	dc.b	$FD
-	dc.b	"a déjà débutée!"
+	dc.b	"qui avait été rasée a déjà débutée !"
 	dc.b	$FF
 
 ; $A
-	dc.b	"Vous savez quoi?"
+	dc.b	"Vous savez quoi ?"
 	dc.b	$FD
-	dc.b	"La ville Parmanienne de Reshel"
+	dc.b	"La ville Parmanienne de Reshel est"
 	dc.b	$FC
-	dc.b	"est maintenant complètement"
-	dc.b	$FD
-	dc.b	"reconstruite!"
+	dc.b	"maintenant complètement reconstruite !"
 	dc.b	$FF
 
 ; $B
-	dc.b	"Mon travail est de récolter les"
+	dc.b	"Mon travail est de récolter les oeufs."
 	dc.b	$FC
-	dc.b	"oeufs."
+	dc.b	"Je marche derrière eux toute la journée"
 	dc.b	$FD
-	dc.b	"Je marche derrière eux toute la"
+	dc.b	"pour qu'ils puissent pondre en toute"
 	dc.b	$FC
-	dc.b	"journée pour qu'ils puissent"
-	dc.b	$FD
-	dc.b	"pondre en toute liberté."
+	dc.b	"liberté."
 	dc.b	$FF
 
 ; $C
 	dc.b	$FA
 	dc.b	$8A, $01
-	dc.b	"Vous n'êtes pas parfois perdu"
+	dc.b	"Vous n'êtes pas parfois perdu dans vos"
 	dc.b	$FC
-	dc.b	"dans vos pensées, comme tout le"
+	dc.b	"pensées, comme tout le monde ?"
 	dc.b	$FD
-	dc.b	"monde?"
-	dc.b	$FD
-	dc.b	"Bien, alors, laissez-moi seul!"
+	dc.b	"Bien, alors, laissez-moi seul !"
 	dc.b	$FF
 
 ; $D
-	dc.b	"Ah, la «Parade du Pingouin"
+	dc.b	"Ah, la «Parade du Pingouin Dezolisien» !"
+	dc.b	$FD
+	dc.b	"Comme vous êtes sympas, laissez-moi"
 	dc.b	$FC
-	dc.b	"Dezolisien»!"
+	dc.b	"vous dire une chose."
 	dc.b	$FD
-	dc.b	"Comme vous êtes sympas, laissez-"
+	dc.b	"Au nord-ouest se trouve une vallée où"
 	dc.b	$FC
-	dc.b	"moi vous dire une chose."
+	dc.b	"vivent de nombreux animaux dorés."
 	dc.b	$FD
-	dc.b	"Au nord-ouest se trouve une"
+	dc.b	"Aussi, si vous continuez au nord-est,"
 	dc.b	$FC
-	dc.b	"vallée où vivent de nombreux"
+	dc.b	"il y a un drôle de bâtiment que personne"
 	dc.b	$FD
-	dc.b	"animaux dorés."
-	dc.b	$FD
-	dc.b	"Aussi, si vous continuez au"
+	dc.b	"n'arrive à comprendre."
 	dc.b	$FC
-	dc.b	"nord-est, il y a un drôle de"
-	dc.b	$FD
-	dc.b	"bâtiment que personne n'arrive"
-	dc.b	$FC
-	dc.b	"à comprendre."
-	dc.b	$FD
-	dc.b	"Allez-y, si ça vous chante!"
+	dc.b	"Allez-y, si ça vous chante !"
 	dc.b	$FF
 
 ; $E
 	dc.b	$FA
 	dc.b	$A1, $01
-	dc.b	"Ne soyez pas si crédules!"
+	dc.b	"Ne soyez pas si crédules !"
 	dc.b	$FD
-	dc.b	"Comment une simple tour peut"
+	dc.b	"Comment une simple tour peut amener des"
 	dc.b	$FC
-	dc.b	"amener des tempêtes et rendre"
-	dc.b	$FD
-	dc.b	"les gens malades?"
+	dc.b	"tempêtes et rendre les gens malades ?"
 	dc.b	$FF
 
 ; $F
-	dc.b	"Ne soyez pas si crédules!"
+	dc.b	"Ne soyez pas si crédules !"
 	dc.b	$FC
-	dc.b	"Pourquoi une tempête se"
+	dc.b	"Pourquoi une tempête se calmerait-elle,"
 	dc.b	$FD
-	dc.b	"calmerait-elle, ou des gens"
+	dc.b	"ou des gens guériraient-ils, simplement"
 	dc.b	$FC
-	dc.b	"guériraient-ils, simplement"
-	dc.b	$FD
-	dc.b	"par la disparition d'une tour?"
+	dc.b	"par la disparition d'une tour ?"
 	dc.b	$FF
 
 ; $10
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Oups!"
+	dc.b	"Oups !"
 	dc.b	$FC
-	dc.b	"Aliment-pingouin subtilisé!"
+	dc.b	"Aliment-pingouin subtilisé !"
 	dc.b	$FF
 
 ; $11
@@ -220,144 +190,136 @@
 	dc.b	$FF
 
 ; $12
-	dc.b	"Laissez un Pingouin Dezolisien"
+	dc.b	"Laissez un Pingouin Dezolisien se joindre"
 	dc.b	$FC
-	dc.b	"se joindre à vous aujourd'hui!"
+	dc.b	"à vous aujourd'hui !"
 	dc.b	$FD
-	dc.b	"Un Pingouien Dezolisien vous"
+	dc.b	"Un Pingouien Dezolisien vous suivra"
 	dc.b	$FC
-	dc.b	"suivra autour de la ville!"
+	dc.b	"autour de la ville !"
 	dc.b	$FD
-	dc.b	"Cette expérience irréelle peut"
+	dc.b	"Cette expérience irréelle peut être la"
 	dc.b	$FC
-	dc.b	"être la vôtre pour seulement"
+	dc.b	"vôtre pour seulement 500 meseta !"
 	dc.b	$FD
-	dc.b	"500 meseta! Vous voulez essayer,"
-	dc.b	$FC
-	dc.b	"n'est-ce pas?"
+	dc.b	"Vous voulez essayer, n'est-ce pas ?"
 	dc.b	$F5
 	dc.b	$00, $02
 	dc.b	$FA
 	dc.b	$8C, $01
-	dc.b	"Profitez-en bien!"
+	dc.b	"Profitez-en bien !"
 	dc.b	$FD
-	dc.b	"Prenez garde toutefois, le"
+	dc.b	"Prenez garde toutefois, le Pingouin vous"
 	dc.b	$FC
-	dc.b	"Pingouin vous quittera si vous"
+	dc.b	"quittera si vous quittez la ville ou"
 	dc.b	$FD
-	dc.b	"quittez la ville ou entrez dans"
-	dc.b	$FC
-	dc.b	"une maison."
+	dc.b	"entrez dans une maison."
 	dc.b	$FF
 
 ; $13
-	dc.b	"Minute, vous n'avez pas"
+	dc.b	"Minute, vous n'avez pas suffisamment"
 	dc.b	$FC
-	dc.b	"suffisamment d'argent."
+	dc.b	"d'argent."
 	dc.b	$FF
 
 ; $14
-	dc.b	"Vous voulez vraiment vous priver"
+	dc.b	"Vous voulez vraiment vous priver d'une"
 	dc.b	$FC
-	dc.b	"d'une telle expérience?"
+	dc.b	"telle expérience ?"
 	dc.b	$FD
-	dc.b	"Vous n'êtes certainement pas"
+	dc.b	"Vous n'êtes certainement pas très"
 	dc.b	$FC
-	dc.b	"très ouverts d'esprit."
+	dc.b	"ouverts d'esprit."
 	dc.b	$FF
 
 ; $15
-	dc.b	"Prenez garde, le Pingouin vous"
+	dc.b	"Prenez garde, le Pingouin vous quittera"
 	dc.b	$FC
-	dc.b	"quittera si vous quittez la"
+	dc.b	"si vous quittez la ville ou entrez dans"
 	dc.b	$FD
-	dc.b	"ville ou entrez dans une maison."
+	dc.b	"une maison."
 	dc.b	$FF
 
 ; $16
 	dc.b	$FA
 	dc.b	$A1, $01
-	dc.b	"Dernières nouvelles!"
+	dc.b	"Dernières nouvelles !"
 	dc.b	$FD
-	dc.b	"La Tour Garuberk se situe passée"
+	dc.b	"La Tour Garuberk se situe passée la"
 	dc.b	$FC
-	dc.b	"la forêt d'arbres carnivores."
+	dc.b	"forêt d'arbres carnivores."
 	dc.b	$FD
-	dc.b	"Il semblerait que c'est un"
+	dc.b	"Il semblerait que c'est un endroit"
 	dc.b	$FC
-	dc.b	"endroit inaccessible!"
+	dc.b	"inaccessible !"
 	dc.b	$FF
 
 ; $17
-	dc.b	"Dernières nouvelles!"
+	dc.b	"Dernières nouvelles !"
 	dc.b	$FD
-	dc.b	"La Tour Garuberk se situe passée"
+	dc.b	"La Tour Garuberk se situe passée la"
 	dc.b	$FC
-	dc.b	"la forêt d'arbres carnivores."
+	dc.b	"forêt d'arbres carnivores."
 	dc.b	$FD
-	dc.b	"Il semblerait que c'est un"
+	dc.b	"Il semblerait que c'est un endroit"
 	dc.b	$FC
-	dc.b	"endroit inaccessible!"
+	dc.b	"inaccessible !"
 	dc.b	$FD
-	dc.b	"Ah? Vous en revenez?"
+	dc.b	"Ah ? Vous en revenez ?"
 	dc.b	$FC
 	dc.b	"Ah, bon."
 	dc.b	$FF
 
 ; $18
-	dc.b	"Les gens des autres villes"
+	dc.b	"Les gens des autres villes doivent"
 	dc.b	$FC
-	dc.b	"doivent chasser pour vivre."
+	dc.b	"chasser pour vivre."
 	dc.b	$FD
 	dc.b	"Grâce au Pingouin Dezolisien,"
-	dc.b	$FD
-	dc.b	"nous pouvons vivre une vie"
 	dc.b	$FC
-	dc.b	"d'éleveur ici."
+	dc.b	"nous pouvons vivre une vie d'éleveur ici."
 	dc.b	$FF
 
 ; $19
 	dc.b	$FA
 	dc.b	$A1, $01
-	dc.b	"La tempête de neige nous"
+	dc.b	"La tempête de neige nous empêche même"
 	dc.b	$FC
-	dc.b	"empêche même d'aller au Temple"
+	dc.b	"d'aller au Temple Gumbious,"
 	dc.b	$FD
-	dc.b	"Gumbious, où nous trouvons"
+	dc.b	"où nous trouvons notre paix d'esprit"
 	dc.b	$FC
-	dc.b	"notre paix d'esprit et prions."
+	dc.b	"et prions."
 	dc.b	$FF
 
 ; $1A
-	dc.b	"Je pensais bien que cette"
+	dc.b	"Je pensais bien que cette tempête se"
 	dc.b	$FC
-	dc.b	"tempête se calmerait."
+	dc.b	"calmerait."
 	dc.b	$FD
 	dc.b	"Mais il y a une rumeur...Ce..."
 	dc.b	$FC
-	dc.b	"Ce n'est qu'une farce, non?"
+	dc.b	"Ce n'est qu'une farce, non ?"
 	dc.b	$FF
 
 ; $1B
-	dc.b	"Meese? Reshel?"
+	dc.b	"Meese ? Reshel ?"
 	dc.b	$FC
 	dc.b	"...Ah, les villes Parmaniennes."
 	dc.b	$FD
-	dc.b	"Si vous allez un peu plus à"
+	dc.b	"Si vous allez un peu plus à l'est,"
 	dc.b	$FC
-	dc.b	"l'est, vous devriez les trouver."
+	dc.b	"vous devriez les trouver."
 	dc.b	$FF
 
 ; $1C
-	dc.b	"Ici, c'est une vallée étrange,"
-	dc.b	$FC
-	dc.b	"miaou."
+	dc.b	"Ici, c'est une vallée étrange, miaou."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Wow! C'est un chat! Et un chat"
+	dc.b	"Wow ! C'est un chat ! Et un chat qui"
 	dc.b	$FC
-	dc.b	"qui parle!"
+	dc.b	"parle !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$00
@@ -365,47 +327,41 @@
 	dc.b	$FC
 	dc.b	"Nous pouvons parler, miaou."
 	dc.b	$FD
-	dc.b	"Vous nous rappelez quelqu'un,"
+	dc.b	"Vous nous rappelez quelqu'un, miaou."
 	dc.b	$FC
-	dc.b	"miaou."
-	dc.b	$FD
-	dc.b	"Entrez rencontrer l'ancien,"
-	dc.b	$FC
-	dc.b	"miaou."
+	dc.b	"Entrez rencontrer l'ancien, miaou."
 	dc.b	$FF
 
 ; $1D
-	dc.b	"Vous êtes des gens spéciaux,"
-	dc.b	$FC
-	dc.b	"miaou."
+	dc.b	"Vous êtes des gens spéciaux, miaou."
 	dc.b	$FF
 
 ; $1E
-	dc.b	"D'habitude, ni les Parmaniens,"
+	dc.b	"D'habitude, ni les Parmaniens, ni les"
 	dc.b	$FC
-	dc.b	"ni les Dezolisiens ne peuvent"
+	dc.b	"Dezolisiens ne peuvent entrer dans"
 	dc.b	$FD
-	dc.b	"entrer dans notre vallée, miaou."
+	dc.b	"notre vallée, miaou."
 	dc.b	$FF
 
 ; $1F
-	dc.b	"Étrangement, vous nous rappelez"
+	dc.b	"Étrangement, vous nous rappelez de"
 	dc.b	$FC
-	dc.b	"de plaisants souvenirs, miaou."
+	dc.b	"plaisants souvenirs, miaou."
 	dc.b	$FF
 
 ; $20
 	dc.b	$FA
 	dc.b	$A1, $01
-	dc.b	"Le climat de Dezolis n'est pas"
+	dc.b	"Le climat de Dezolis n'est pas habituel"
 	dc.b	$FC
-	dc.b	"habituel ces jours-ci, miaou."
+	dc.b	"ces jours-ci, miaou."
 	dc.b	$FF
 
 ; $21
-	dc.b	"Le climat est finalement plus"
+	dc.b	"Le climat est finalement plus clément,"
 	dc.b	$FC
-	dc.b	"clément, miaou."
+	dc.b	"miaou."
 	dc.b	$FF
 
 ; $22
@@ -417,21 +373,21 @@
 	dc.b	$FF
 
 ; $23
-	dc.b	"Seule cette vallée est tempérée"
+	dc.b	"Seule cette vallée est tempérée sur"
 	dc.b	$FC
-	dc.b	"sur tout Dezolis, miaou."
+	dc.b	"tout Dezolis, miaou."
 	dc.b	$FF
 
 ; $24
-	dc.b	"Très peu d'humains peuvent venir"
+	dc.b	"Très peu d'humains peuvent venir ici,"
 	dc.b	$FC
-	dc.b	"ici, miaou."
+	dc.b	"miaou."
 	dc.b	$FF
 
 ; $25
-	dc.b	"Tout ce qui reste des chats"
+	dc.b	"Tout ce qui reste des chats musqués se"
 	dc.b	$FC
-	dc.b	"musqués se trouve ici, miaou."
+	dc.b	"trouve ici, miaou."
 	dc.b	$FF
 
 ; $26
@@ -441,29 +397,29 @@
 	dc.b	$FF
 
 ; $27
-	dc.b	"Faites bon usage du trésor de"
+	dc.b	"Faites bon usage du trésor de l'ancien,"
 	dc.b	$FC
-	dc.b	"l'ancien, miaou."
+	dc.b	"miaou."
 	dc.b	$FF
 
 ; $28
 	dc.b	$FA
 	dc.b	$91, $01
-	dc.b	"Nous n'avons jamais pu voir le"
-	dc.b	$FC
-	dc.b	"trésor de l'ancien, miaou."
-	dc.b	$FF
-
-; $29
-	dc.b	"Faites bon usage du trésor de"
+	dc.b	"Nous n'avons jamais pu voir le trésor de"
 	dc.b	$FC
 	dc.b	"l'ancien, miaou."
 	dc.b	$FF
 
-; $2A
-	dc.b	"La beauté de la crête de"
+; $29
+	dc.b	"Faites bon usage du trésor de l'ancien,"
 	dc.b	$FC
-	dc.b	"l'ancien est sans égale, miaou."
+	dc.b	"miaou."
+	dc.b	$FF
+
+; $2A
+	dc.b	"La beauté de la crête de l'ancien est"
+	dc.b	$FC
+	dc.b	"sans égale, miaou."
 	dc.b	$FF
 
 ; $2B
@@ -483,29 +439,25 @@
 	dc.b	$FC
 	dc.b	"Je suis le chef de cette vallée."
 	dc.b	$FD
-	dc.b	"Hum, vos yeux montrent de la"
+	dc.b	"Hum, vos yeux montrent de la bonté,"
 	dc.b	$FC
-	dc.b	"bonté, il n'est pas surprenant"
+	dc.b	"il n'est pas surprenant qu'on vous ait"
 	dc.b	$FD
-	dc.b	"qu'on vous ait laissé entrer."
+	dc.b	"laissé entrer."
 	dc.b	$FD
-	dc.b	"C'est vraiment étrange..."
+	dc.b	"C'est vraiment étrange... J'ai l'impression"
 	dc.b	$FC
-	dc.b	"J'ai l'impression que nous nous"
+	dc.b	"que nous nous sommes déjà rencontrés."
 	dc.b	$FD
-	dc.b	"sommes déjà rencontrés."
-	dc.b	$FD
-	dc.b	"J'ai un bon pressentiment, je"
+	dc.b	"J'ai un bon pressentiment, je vais vous"
 	dc.b	$FC
-	dc.b	"vais vous confier ceci."
+	dc.b	"confier ceci."
 	dc.b	$FD
-	dc.b	"C'est un trésor qui s'est"
+	dc.b	"C'est un trésor qui s'est transmis de"
 	dc.b	$FC
-	dc.b	"transmis de génération en"
+	dc.b	"génération en génération. Prenez-le !"
 	dc.b	$FD
-	dc.b	"génération. Prenez-le!"
-	dc.b	$FC
-	dc.b	"C'est la Griffe d'Argent!"
+	dc.b	"C'est la Griffe d'Argent !"
 	dc.b	$FF
 
 ; $2E
@@ -513,29 +465,25 @@
 	dc.b	$FC
 	dc.b	"Je suis le chef de cette vallée."
 	dc.b	$FD
-	dc.b	"Hum, vos yeux montrent de la"
+	dc.b	"Hum, vos yeux montrent de la bonté,"
 	dc.b	$FC
-	dc.b	"bonté, il n'est pas surprenant"
+	dc.b	"il n'est pas surprenant qu'on vous ait"
 	dc.b	$FD
-	dc.b	"qu'on vous ait laissé entrer."
+	dc.b	"laissé entrer."
 	dc.b	$FD
-	dc.b	"C'est vraiment étrange..."
+	dc.b	"C'est vraiment étrange... J'ai l'impression"
 	dc.b	$FC
-	dc.b	"J'ai l'impression que nous nous"
+	dc.b	"que nous nous sommes déjà rencontrés."
 	dc.b	$FD
-	dc.b	"sommes déjà rencontrés."
-	dc.b	$FD
-	dc.b	"J'ai un bon pressentiment, je"
+	dc.b	"J'ai un bon pressentiment, je vais vous"
 	dc.b	$FC
-	dc.b	"vais vous confier ceci."
+	dc.b	"confier ceci."
 	dc.b	$FD
-	dc.b	"C'est un trésor qui s'est"
+	dc.b	"C'est un trésor qui s'est transmis de"
 	dc.b	$FC
-	dc.b	"transmis de génération en"
+	dc.b	"génération en génération. Prenez-le !"
 	dc.b	$FD
-	dc.b	"génération. Prenez-le!"
-	dc.b	$FC
-	dc.b	"C'est la Griffe d'Argent!"
+	dc.b	"C'est la Griffe d'Argent !"
 	dc.b	$FD
 	dc.b	"Ah, vous n'avez plus de place."
 	dc.b	$FD
@@ -543,9 +491,9 @@
 	dc.b	$FF
 
 ; $2F
-	dc.b	"Voici la Griffe d'Argent."
+	dc.b	"Voici la Griffe d'Argent. Faites-en bon"
 	dc.b	$FC
-	dc.b	"Faites-en bon usage."
+	dc.b	"usage."
 	dc.b	$FF
 
 ; $30
@@ -558,99 +506,91 @@
 	dc.b	$94, $01
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Ceci doit être le système de"
+	dc.b	"Ceci doit être le système de contrôle"
 	dc.b	$FC
-	dc.b	"contrôle du climat Dezolisien."
+	dc.b	"du climat Dezolisien."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Des monstres y ont nichés!"
+	dc.b	"Des monstres y ont nichés !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Comme nous le pensions, ceci"
+	dc.b	"Comme nous le pensions, ceci doit être la"
 	dc.b	$FC
-	dc.b	"doit être la cause du climat"
-	dc.b	$FD
-	dc.b	"anormal."
+	dc.b	"cause du climat anormal."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Allons voir!"
+	dc.b	"Allons voir !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$09
-	dc.b	"C'est inutile! Je vous le dit,"
+	dc.b	"C'est inutile ! Je vous le dit, la tempête"
 	dc.b	$FC
-	dc.b	"la tempête rugit à cause de la"
-	dc.b	$FD
-	dc.b	"Tour Garuberk!!"
+	dc.b	"rugit à cause de la Tour Garuberk !!"
 	dc.b	$FF
 
 ; $32
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Ceci doit être le système de"
+	dc.b	"Ceci doit être le système de contrôle"
 	dc.b	$FC
-	dc.b	"contrôle du climat Dezolisien."
+	dc.b	"du climat Dezolisien."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Des monstres y ont nichés!"
+	dc.b	"Des monstres y ont nichés !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Comme nous le pensions, ceci"
+	dc.b	"Comme nous le pensions, ceci doit être la"
 	dc.b	$FC
-	dc.b	"doit être la cause du climat"
-	dc.b	$FD
-	dc.b	"anormal."
+	dc.b	"cause du climat anormal."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Allons voir!"
+	dc.b	"Allons voir !"
 	dc.b	$FF
 
 ; $33
 	dc.b	$F4
 	dc.b	$21
-	dc.b	"Ha, ha, ha! Quels idiots! Vous"
+	dc.b	"Ha, ha, ha ! Quels idiots ! Vous êtes bien"
 	dc.b	$FC
-	dc.b	"êtes bien téméraires de venir!"
+	dc.b	"téméraires de venir !"
 	dc.b	$FD
-	dc.b	"Crétins!"
+	dc.b	"Crétins !"
 	dc.b	$FC
-	dc.b	"C'était un piège!"
+	dc.b	"C'était un piège !"
 	dc.b	$FD
-	dc.b	"Hmm. C'est probablement du"
+	dc.b	"Hmm. C'est probablement du gaspillage de"
 	dc.b	$FC
-	dc.b	"gaspillage de traiter avec du"
+	dc.b	"traiter avec du menu fretin tel"
 	dc.b	$FD
-	dc.b	"menu fretin tel que vous, mais"
+	dc.b	"que vous, mais malheureusement..."
+	dc.b	$FD
+	dc.b	"N'étant qu'un réceptacle qui doit suivre"
 	dc.b	$FC
-	dc.b	"malheureusement..."
+	dc.b	"les ordres, j'imagine que je n'y "
 	dc.b	$FD
-	dc.b	"N'étant qu'un réceptacle qui"
-	dc.b	$FC
-	dc.b	"doit suivre les ordres,"
-	dc.b	$FD
-	dc.b	"j'imagine que je n'y coupe pas!"
+	dc.b	"coupe pas !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Quoi! Tu as dit des ordres?"
+	dc.b	"Quoi ! Tu as dit des ordres ?"
 	dc.b	$FD
-	dc.b	"Mais nous avons vaincu Zio..."
+	dc.b	"Mais nous avons vaincu Zio... et Dark"
 	dc.b	$FC
-	dc.b	"et Dark Force!"
+	dc.b	"Force !"
 	dc.b	$FD
-	dc.b	"Qui vous donne des ordres?"
+	dc.b	"Qui vous donne des ordres ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$21
-	dc.b	"Vaincu? Le grand Dark Force?"
+	dc.b	"Vaincu ? Le grand Dark Force ?"
 	dc.b	$FC
-	dc.b	"Ha, ha, ha, ha! Ridicule!"
+	dc.b	"Ha, ha, ha, ha ! Ridicule !"
 	dc.b	$FF
 
 ; $34
@@ -658,13 +598,11 @@
 	dc.b	$94, $01
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Tonnerre! Je ne suis pas"
-	dc.b	$FC
-	dc.b	"tranquille!"
+	dc.b	"Tonnerre ! Je ne suis pas tranquille !"
 	dc.b	$FD
-	dc.b	"Il semblait croire que Dark"
+	dc.b	"Il semblait croire que Dark Force est"
 	dc.b	$FC
-	dc.b	"Force est toujours en vie!"
+	dc.b	"toujours en vie !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
@@ -672,37 +610,31 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Chaz, je ne détecte rien"
+	dc.b	"Chaz, je ne détecte rien d'anormal par"
 	dc.b	$FC
-	dc.b	"d'anormal par rapport au système"
+	dc.b	"rapport au système de contrôle du"
 	dc.b	$FD
-	dc.b	"de contrôle du climat."
+	dc.b	"climat."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Donc, il s'agissait vraiment"
-	dc.b	$FC
-	dc.b	"d'un leurre..."
+	dc.b	"Donc, il s'agissait vraiment d'un leurre..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$09
-	dc.b	"Vous voyez! Je vous l'ai dit!"
-	dc.b	$FD
-	dc.b	"Il faut aller à la Tour"
+	dc.b	"Vous voyez ! Je vous l'ai dit !"
 	dc.b	$FC
-	dc.b	"Garuberk!"
+	dc.b	"Il faut aller à la Tour Garuberk !"
 	dc.b	$FF
 
 ; $35
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Tonnerre! Je ne suis pas"
-	dc.b	$FC
-	dc.b	"tranquille!"
+	dc.b	"Tonnerre ! Je ne suis pas tranquille !"
 	dc.b	$FD
-	dc.b	"Il semblait croire que Dark"
+	dc.b	"Il semblait croire que Dark Force est"
 	dc.b	$FC
-	dc.b	"Force est toujours en vie!"
+	dc.b	"toujours en vie !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
@@ -710,99 +642,91 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Chaz, je ne détecte rien"
+	dc.b	"Chaz, je ne détecte rien d'anormal par"
 	dc.b	$FC
-	dc.b	"d'anormal par rapport au système"
+	dc.b	"rapport au système de contrôle du"
 	dc.b	$FD
-	dc.b	"de contrôle du climat."
+	dc.b	"climat."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Donc, il s'agissait vraiment"
-	dc.b	$FC
-	dc.b	"d'un leurre..."
+	dc.b	"Donc, il s'agissait vraiment d'un leurre..."
 	dc.b	$FF
 
 ; $36
-	dc.b	"Chaz, on a du travail!"
+	dc.b	"Chaz, on a du travail !"
 	dc.b	$FC
-	dc.b	"Allez, prépare-toi!"
+	dc.b	"Allez, prépare-toi !"
 	dc.b	$FF
 
 ; $37
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"C'est ta première mission avec"
+	dc.b	"C'est ta première mission avec la Guilde"
 	dc.b	$FC
-	dc.b	"la Guilde des Chasseurs."
+	dc.b	"des Chasseurs."
 	dc.b	$FD
-	dc.b	"Tu devras t'y dédier corps"
-	dc.b	$FC
-	dc.b	"et âme!"
+	dc.b	"Tu devras t'y dédier corps et âme !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Comme ça, je ne suis plus un"
-	dc.b    $FC
-	dc.b    "apprenti?"
+	dc.b	"Comme ça, je ne suis plus un apprenti ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"À partir de maintenant, tu es"
+	dc.b	"À partir de maintenant, tu es un associé"
 	dc.b	$FC
-	dc.b	"un associé à part entière!"
+	dc.b	"à part entière !"
 	dc.b	$FD
-	dc.b	"Assez bavardé! Allons-y!"
+	dc.b	"Assez bavardé ! Allons-y !"
 	dc.b	$FF
 
 ; $38
 	dc.b	$F4
 	dc.b	$01
-    dc.b    "Où allons nous aujourd'hui?"
+    dc.b    "Où allons nous aujourd'hui ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
     dc.b    "Ce n'est pas la porte d'à côté."
 	dc.b	$FC
-	dc.b	"Nous allons à l'Académie Motavia"
+	dc.b	"Nous allons à l'Académie Motavia située"
 	dc.b	$FD
-	dc.b    "située dans la ville de Piata."
+	dc.b    "dans la ville de Piata."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b    "Wow! Donc, nous allons visiter"
+	dc.b    "Wow ! Donc, nous allons visiter la Ville du"
 	dc.b	$FC
-	dc.b    "la Ville du Savoir!"
+	dc.b    "Savoir !"
 	dc.b	$FD
-	dc.b    "Je me demande quel est leur"
-	dc.b    $FC
-	dc.b    "problème?"
+	dc.b    "Je me demande quel est leur problème ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Va savoir! Leur message disait"
+	dc.b	"Va savoir ! Leur message disait seulement,"
 	dc.b	$FC
-	dc.b	"seulement, «Venez vite.»"
+	dc.b	"«Venez vite.»"
 	dc.b	$FD
-	dc.b	"Nous demanderons plus de"
+	dc.b	"Nous demanderons plus de détails sur"
 	dc.b	$FC
-	dc.b	"détails sur place."
+	dc.b	"place."
 	dc.b	$FF
 
 ; $39
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Comme nous y allons de toute"
+	dc.b	"Comme nous y allons de toute façon,"
 	dc.b	$FC
-	dc.b	"façon, j'aimerais bien faire la"
+	dc.b	"j'aimerais bien faire la visite guidée de"
 	dc.b	$FD
-	dc.b	"visite guidée de l'Académie."
+	dc.b	"l'Académie."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Ma parole, tu ne penses qu'à ça!"
+	dc.b	"Ma parole, tu ne penses qu'à ça !"
 	dc.b	$FD
-	dc.b	"Bouge-toi ou j'irai seule!"
+	dc.b	"Bouge-toi ou j'irai seule !"
 	dc.b	$FF
 
 ; $3A
@@ -810,31 +734,31 @@
 	dc.b	$FF
 
 ; $3B
-	dc.b	"favorise le recrutement dans"
+	dc.b	"favorise le recrutement dans le"
 	dc.b	$FF
 
 ; $3C
-	dc.b	"le groupe des «Chasseurs»."
+	dc.b	"groupe des «Chasseurs»."
 	dc.b	$FF
 
 ; $3D
-	dc.b	"Mais la fréquence grandissante"
+	dc.b	"Mais la fréquence grandissante des"
 	dc.b	$FF
 
 ; $3E
-	dc.b	"des attaques amène certains"
+	dc.b	"attaques amène certains à se"
 	dc.b	$FF
 
 ; $3F
-	dc.b	"à se demander quelle est cause"
+	dc.b	"demander quelle est cause de"
 	dc.b	$FF
 
 ; $40
-	dc.b	"de cette resurgence... quand"
+	dc.b	"cette resurgence... quand et"
 	dc.b	$FF
 
 ; $41
-	dc.b	"et comment cela va se terminer?"
+	dc.b	"comment cela va se terminer ? "
 	dc.b	$FF
 ;; Local Variables:
 ;; eval: (fci-mode)
