@@ -421,7 +421,7 @@
 	dc.b	$FD
 	dc.b	"Nous appellons cette époque"
 	dc.b	$FC
-	dc.b	"«Le Grand Effondrement.»"
+	dc.b	"« Le Grand Effondrement. »"
 	dc.b	$FD
 	dc.b	"...Pardon. Je croyais que vous étiez"
 	dc.b	$FC

@@ -637,7 +637,7 @@
 	dc.b	$02
 	dc.b	"J'ai entendu parler d'un remède appelé"
 	dc.b	$FC
-	dc.b	"«Alshline», qui peut annuler la"
+	dc.b	"« Alshline », qui peut annuler la"
 	dc.b	$FD
 	dc.b	"pétrification."
 	dc.b	$FD

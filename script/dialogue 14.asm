@@ -414,7 +414,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$09
-	dc.b	"La ville s'appelle «Tyler». Elle se trouve"
+	dc.b	"La ville s'appelle « Tyler ». Elle se trouve"
 	dc.b	$FC
 	dc.b	"pas trop loin au nord-ouest !"
 	dc.b	$FD
@@ -562,7 +562,7 @@
 ; $17
 	dc.b	"Vous connaissez le métal nommé"
 	dc.b	$FC
-	dc.b	"«Laconia» ?"
+	dc.b	"« Laconia » ?"
 	dc.b	$FD
 	dc.b	"Le Laconia permet de fabriquer des"
 	dc.b	$FC
@@ -576,7 +576,7 @@
 	dc.b	$FD
 	dc.b	"alors le mieux qu'on peut faire est"
 	dc.b	$FC
-	dc.b	"la qualité inférieure appelée «Argent»."
+	dc.b	"la qualité inférieure appelée « Argent »."
 	dc.b	$FF
 
 ; $18
@@ -651,7 +651,7 @@
 	dc.b	$F3
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"«Ci-gît"
+	dc.b	"« Ci-gît"
 	dc.b	$FC
 	dc.b	"notre chef Tyler..."
 	dc.b	$FD
@@ -659,7 +659,7 @@
 	dc.b	$FC
 	dc.b	"Écoutez notre voix..."
 	dc.b	$FD
-	dc.b	"Confiez-nous ce corps...»"
+	dc.b	"Confiez-nous ce corps... »"
 	dc.b	$FD
 	dc.b	"...Quelle dédicace étrange."
 	dc.b	$FF
@@ -667,7 +667,7 @@
 ; $1E
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"«Ci-gît"
+	dc.b	"« Ci-gît"
 	dc.b	$FC
 	dc.b	"notre chef Tyler..."
 	dc.b	$FD
@@ -675,7 +675,7 @@
 	dc.b	$FC
 	dc.b	"Écoutez notre voix..."
 	dc.b	$FD
-	dc.b	"Confiez-nous ce corps...»"
+	dc.b	"Confiez-nous ce corps... »"
 	dc.b	$FD
 	dc.b	"Voilà donc la tombe de Tyler..."
 	dc.b	$FD
@@ -779,7 +779,7 @@
 	dc.b	$FC
 	dc.b	"L-a-n-d-a-l-e..."
 	dc.b	$FD
-	dc.b	"«Landale» !"
+	dc.b	"« Landale » !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06

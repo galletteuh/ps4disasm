@@ -499,7 +499,7 @@
 ; $44
 	dc.b	"Chez les fidèles de Zio, il y a un dicton :"
 	dc.b	$FC
-	dc.b	"«Les justes n'éludent pas Kadary.»"
+	dc.b	"« Les justes n'éludent pas Kadary. »"
 	dc.b	$FD
 	dc.b	"Kadary est un lieu sacré !"
 	dc.b	$FF

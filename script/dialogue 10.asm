@@ -676,7 +676,7 @@
 	dc.b	$FC
 	dc.b	"colline près de la mer."
 	dc.b	$FD
-	dc.b	"Ah, il est aussi écrit, «Termi»."
+	dc.b	"Ah, il est aussi écrit, « Termi »."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06

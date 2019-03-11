@@ -51,11 +51,11 @@
 ; $3
 	dc.b	$FA
 	dc.b	$42, $01
-	dc.b	"Je dirais que «Alys Arracheuse de Tripes»"
+	dc.b	"Je dirais que « Alys Arracheuse de"
 	dc.b	$FC
-	dc.b	"est la combattante la plus habile aux"
+	dc.b	"Tripes » est la combattante la plus"
 	dc.b	$FD
-	dc.b	"alentours."
+	dc.b	"habile aux alentours."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
@@ -77,11 +77,11 @@
 	dc.b	$FF
 
 ; $4
-	dc.b	"Je dirais que «Alys Arracheuse de Tripes»"
+	dc.b	"Je dirais que « Alys Arracheuse de"
 	dc.b	$FC
-	dc.b	"est la combattante la plus habile aux"
+	dc.b	"Tripes » est la combattante la plus"
 	dc.b	$FD
-	dc.b	"alentours."
+	dc.b	"habile aux alentours."
 	dc.b	$FD
 	dc.b	"À bien y penser, je ne l'ai pas vue"
 	dc.b	$FC
@@ -556,7 +556,7 @@
 	dc.b	$24, $02
 	dc.b	$FA
 	dc.b	$1F, $01
-	dc.b	"«Rocky...»"
+	dc.b	"« Rocky... »"
 	dc.b	$FD
 	dc.b	"Mon chien s'appelle comme ça."
 	dc.b	$FD
@@ -564,7 +564,7 @@
 	dc.b	$FF
 
 ; $4A
-	dc.b	"Voyons, «Rocky» est bien élevé et il est"
+	dc.b	"Voyons, « Rocky » est bien élevé et il est"
 	dc.b	$FC
 	dc.b	"très mignon !"
 	dc.b	$FD

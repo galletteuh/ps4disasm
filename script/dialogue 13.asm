@@ -639,7 +639,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"«Dark Force ?»"
+	dc.b	"« Dark Force ? »"
 	dc.b	$FF
 
 ; $43
@@ -902,7 +902,7 @@
 	dc.b	$07
 	dc.b	"Il s'agit d'une nouvelle arme,"
 	dc.b	$FC
-	dc.b	"«Phononmaser» !"
+	dc.b	"« Phononmaser » !"
 	dc.b	$FD
 	dc.b	"Je suis impatiente de la mettre à"
 	dc.b	$FC

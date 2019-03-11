@@ -723,7 +723,7 @@
 	dc.b	$FC
 	dc.b	"n'aies jamais vu ça."
 	dc.b	$FD
-	dc.b	"C'est ce qu'on appelle de la «magie»."
+	dc.b	"C'est ce qu'on appelle de la « magie »."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
