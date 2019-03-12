@@ -106,7 +106,7 @@
 ; $23
 	dc.b	$F4
 	dc.b	$17
-	dc.b	"Pardonnez moi!"
+	dc.b	"Pardonnez moi !"
 	dc.b	$FF
 
 ; $24
@@ -119,9 +119,9 @@
 ; $25
 	dc.b	$F4
 	dc.b	$19
-	dc.b	"Tout est conforme aux souhaits"
+	dc.b	"Tout est conforme aux souhaits du"
 	dc.b	$FC
-	dc.b	"du vénéré Cinquième."
+	dc.b	"vénéré Cinquième."
 	dc.b	$FF
 
 ; $26
@@ -144,63 +144,57 @@
 ; $28
 	dc.b	$F4
 	dc.b	$19
-	dc.b	"Je crois en vous, vénéré"
-	dc.b	$FC
-	dc.b	"Cinquième."
+	dc.b	"Je crois en vous, vénéré Cinquième."
 	dc.b	$FF
 
 ; $29
 	dc.b	$F4
 	dc.b	$19
-	dc.b	"Quelle surprise, vous avez"
+	dc.b	"Quelle surprise, vous avez réussi à"
 	dc.b	$FC
-	dc.b	"réussi à obtenir cet objet..."
+	dc.b	"obtenir cet objet..."
 	dc.b	$FD
-	dc.b	"Comptez sur le vénéré Cinquième"
+	dc.b	"Comptez sur le vénéré Cinquième pour"
 	dc.b	$FC
-	dc.b	"pour pouvoir choisir celui qui"
+	dc.b	"pouvoir choisir celui qui les bonnes"
 	dc.b	$FD
-	dc.b	"les bonnes aptitudes!"
+	dc.b	"aptitudes !"
 	dc.b	$FF
 
 ; $2A
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Ici, c'est le sanctuaire"
+	dc.b	"Ici, c'est le sanctuaire intérieur, et"
 	dc.b	$FC
-	dc.b	"intérieur, et plus loin..."
+	dc.b	"plus loin..."
 	dc.b	$FD
-	dc.b	"Il y a une chambre appelée la"
+	dc.b	"Il y a une chambre appelée la Chambre"
 	dc.b	$FC
-	dc.b	"Chambre de Lutz."
+	dc.b	"de Lutz."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"Exact. Alors, le temps est venu!"
-	dc.b	$FD
-	dc.b	"Enfin, nous pourrons rencontrer"
+	dc.b	"Exact. Alors, le temps est venu !"
 	dc.b	$FC
-	dc.b	"Lutz!"
+	dc.b	"Enfin, nous pourrons rencontrer Lutz !"
 	dc.b	$FD
-	dc.b	"Oh là là! Mes vêtements sont"
+	dc.b	"Oh là là ! Mes vêtements sont propres ?"
 	dc.b	$FC
-	dc.b	"propres? Mes cheveux coiffés?"
+	dc.b	"Mes cheveux coiffés ?"
 	dc.b	$FD
-	dc.b	"Oh, que faire! Je suis si"
-	dc.b	$FC
-	dc.b	"nerveuse!"
+	dc.b	"Oh, que faire ! Je suis si nerveuse !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Je me demande quel genre de"
+	dc.b	"Je me demande quel genre de personne"
 	dc.b	$FC
-	dc.b	"personne est-il?"
+	dc.b	"est-il ?"
 	dc.b	$FD
-	dc.b	"Qu'en penses-tu, Chaz?"
+	dc.b	"Qu'en penses-tu, Chaz ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Hum, Lutz.. "
+	dc.b	"Hum, Lutz..."
 	dc.b	$FC
 	dc.b	"Le magicien légendaire..."
 	dc.b	$FF
@@ -210,7 +204,7 @@
 	dc.b	$04
 	dc.b	"Là, laisses-moi te guérir."
 	dc.b	$FC
-	dc.b	"Ensuite, vas-y!"
+	dc.b	"Ensuite, vas-y !"
 	dc.b	$FF
 
 ; $2C
@@ -219,53 +213,53 @@
 ; $2D
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Chaz...ressaisis-toi!"
+	dc.b	"Chaz...ressaisis-toi !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Les êtres humains sont bien"
+	dc.b	"Les êtres humains sont bien difficiles à"
 	dc.b	$FC
-	dc.b	"difficiles à comprendre."
+	dc.b	"comprendre."
 	dc.b	$FF
 
 ; $2E
 	dc.b	$F4
 	dc.b	$17
-	dc.b	"Kyra! Vous ne pouvez pas passer"
+	dc.b	"Kyra ! Vous ne pouvez pas passer sans"
 	dc.b	$FC
-	dc.b	"sans autorisation!"
+	dc.b	"autorisation !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
 	dc.b	"Depuis quand je dois avoir une"
 	dc.b	$FC
-	dc.b	"autorisation!?"
+	dc.b	"autorisation !?"
 	dc.b	$FD
-	dc.b	"Ouvrez-nous la porte!"
+	dc.b	"Ouvrez-nous la porte !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$17
-	dc.b	"Cela m'est impossible!"
+	dc.b	"Cela m'est impossible !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"Espèce de gros balourd têtu!"
+	dc.b	"Espèce de gros balourd têtu !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Laissez-la entrer!"
+	dc.b	"Laissez-la entrer !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$17
-	dc.b	"Comment osez-vous! Je ne peux..."
+	dc.b	"Comment osez-vous ! Je ne peux..."
 	dc.b	$FD
-	dc.b	"Hé!"
+	dc.b	"Hé !"
 	dc.b	$FD
-	dc.b	"Ah, c'est... c'est vous!"
+	dc.b	"Ah, c'est... c'est vous !"
 	dc.b	$FD
-	dc.b	"Excusez mon impolitesse!"
+	dc.b	"Excusez mon impolitesse !"
 	dc.b	$FC
-	dc.b	"Entrez, je vous prie!"
+	dc.b	"Entrez, je vous prie !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
@@ -275,98 +269,88 @@
 ; $2F
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"Euh...que se passe-t-il?"
+	dc.b	"Euh...que se passe-t-il ?"
 	dc.b	$FC
 	dc.b	"Il n'y a personne ici..."
 	dc.b	$FD
-	dc.b	"Vénéré Lutz!"
-	dc.b	$FC
-	dc.b	"Veuillez vous montrer!"
+	dc.b	"Vénéré Lutz ! Veuillez vous montrer !"
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Lutz n'est pas ici... Il n'est"
+	dc.b	"Lutz n'est pas ici... Il n'est plus de ce"
 	dc.b	$FC
-	dc.b	"plus de ce monde depuis"
-	dc.b	$FD
-	dc.b	"longtemps!"
+	dc.b	"monde depuis longtemps !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"Comment?"
+	dc.b	"Comment ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
 	dc.b	$F2, $00
 	dc.w	$009F
-	dc.b	"Aucun humain ne pourrait vivre"
+	dc.b	"Aucun humain ne pourrait vivre plus de"
 	dc.b	$FC
-	dc.b	"plus de deux mille ans."
+	dc.b	"deux mille ans."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"C'est impossible! Je l'ai vu"
+	dc.b	"C'est impossible ! Je l'ai vu de mes"
 	dc.b	$FC
-	dc.b	"de mes propres yeux!"
+	dc.b	"propres yeux !"
 	dc.b	$FD
-	dc.b	"De plus...de plus... Nous avons"
+	dc.b	"De plus...de plus... Nous avons tous la"
 	dc.b	$FC
-	dc.b	"tous la foi, pas vrai?"
+	dc.b	"foi, pas vrai ?"
 	dc.b	$FD
-	dc.b	"Nous croyons dans la légende des"
+	dc.b	"Nous croyons dans la légende des Espers,"
 	dc.b	$FC
-	dc.b	"Espers, qui dit que Lutz est"
+	dc.b	"qui dit que Lutz est toujours vivant et"
 	dc.b	$FD
-	dc.b	"toujours vivant et nous guide,"
+	dc.b	"nous guide, n'est-ce pas !?"
 	dc.b	$FC
-	dc.b	"n'est-ce pas!?"
-	dc.b	$FD
 	dc.b	"C'est pourquoi... pourquoi..."
-	dc.b	$FC
+	dc.b	$FD
 	dc.b	"Nous travaillons si dur..."
 	dc.b	$FD
-	dc.b	"Il doit encore exister!"
+	dc.b	"Il doit encore exister !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Kyra! Calme-toi... c'est vrai"
+	dc.b	"Kyra ! Calme-toi... c'est vrai que Lutz"
 	dc.b	$FC
-	dc.b	"que Lutz n'est plus de ce monde."
+	dc.b	"n'est plus de ce monde."
 	dc.b	$FD
-	dc.b	"Mais même si son corps n'est"
+	dc.b	"Mais même si son corps n'est plus,"
 	dc.b	$FC
-	dc.b	"plus, son esprit vit toujours."
+	dc.b	"son esprit vit toujours."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Comment?"
+	dc.b	"Comment ?"
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$0100
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Avant de mourir, il a stocké sa"
+	dc.b	"Avant de mourir, il a stocké sa volonté"
 	dc.b	$FC
-	dc.b	"volonté et sa mémoire dans la"
-	dc.b	$FD
-	dc.b	"Boule Télépathique."
+	dc.b	"et sa mémoire dans la Boule Télépathique."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Donc...vous dites que cette"
+	dc.b	"Donc...vous dites que cette Boule est,"
 	dc.b	$FC
-	dc.b	"Boule est, en fait, Lutz?"
+	dc.b	"en fait, Lutz ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Non. Il n'est plus là. Mais si"
+	dc.b	"Non. Il n'est plus là. Mais si la personne"
 	dc.b	$FC
-	dc.b	"la personne choisie s'approche,"
+	dc.b	"choisie s'approche, la volonté et la"
 	dc.b	$FD
-	dc.b	"la volonté et la mémoire de Lutz"
-	dc.b	$FC
-	dc.b	"lui seront transmises."
+	dc.b	"mémoire de Lutz lui seront transmises."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
@@ -384,11 +368,11 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Attendez!"
+	dc.b	"Attendez !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Rune...est Lutz?!"
+	dc.b	"Rune...est Lutz ?!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$19
@@ -400,9 +384,9 @@
 	dc.w	$0102
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"Vous...vous êtes..."
+	dc.b	"Vous...vous êtes...Lutz...?"
 	dc.b	$FC
-	dc.b	"Lutz...? Comment est-ce..."
+	dc.b	"Comment est-ce..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
@@ -410,69 +394,57 @@
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$0103
-	dc.b	"Depuis les temps immémoriaux"
+	dc.b	"Depuis les temps immémoriaux dans le"
 	dc.b	$FC
-	dc.b	"dans le système Algo, il y a un"
+	dc.b	"système Algo, il y a un cycle de calamités"
 	dc.b	$FD
-	dc.b	"cycle de calamités qui se répète"
+	dc.b	"qui se répète tous les mille ans."
+	dc.b	$FD
+	dc.b	"La cause est l'incarnation du mal appelée"
 	dc.b	$FC
-	dc.b	"tous les mille ans."
+	dc.b	"Dark Force, qui ressuscite tous les mille"
 	dc.b	$FD
-	dc.b	"La cause est l'incarnation du"
-	dc.b	$FC
-	dc.b	"mal appelée Dark Force, qui"
-	dc.b	$FD
-	dc.b	"ressuscite tous les mille ans!"
+	dc.b	"ans !"
 	dc.b	$FD
 	dc.b	"Jusqu'ici, durant chaque cycle,"
 	dc.b	$FC
-	dc.b	"un individu courageux vainquit"
+	dc.b	"un individu courageux vainquit le mal"
 	dc.b	$FD
-	dc.b	"le mal pour préserver la paix."
+	dc.b	"pour préserver la paix."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Mais nous avons vaincu Dark"
+	dc.b	"Mais nous avons vaincu Dark Force sur"
 	dc.b	$FC
-	dc.b	"Force sur Kuran, c'est sûr!"
+	dc.b	"Kuran, c'est sûr !"
 	dc.b	$FD
-	dc.b	"Pourtant, il n'y a pas"
+	dc.b	"Pourtant, il n'y a pas d'amélioration des"
 	dc.b	$FC
-	dc.b	"d'amélioration des conditions"
-	dc.b	$FD
-	dc.b	"climatiques à travers Algo!"
+	dc.b	"conditions climatiques à travers Algo !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Alors, que se passe-t-il?"
+	dc.b	"Alors, que se passe-t-il ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Algo a été destabilisé il y a"
+	dc.b	"Algo a été destabilisé il y a mille ans par"
 	dc.b	$FC
-	dc.b	"mille ans par l'explosion de"
+	dc.b	"l'explosion de Parma."
 	dc.b	$FD
-	dc.b	"Parma."
-	dc.b	$FD
-	dc.b	"L'équilibre précaire qui avait"
+	dc.b	"L'équilibre précaire qui avait été"
 	dc.b	$FC
-	dc.b	"été maintenu jusqu'alors fut"
+	dc.b	"maintenu jusqu'alors fut bouleversé."
 	dc.b	$FD
-	dc.b	"bouleversé."
-	dc.b	$FD
-	dc.b	"C'est probablement la raison"
+	dc.b	"C'est probablement la raison pour"
 	dc.b	$FC
-	dc.b	"pour laquelle nous pouvons"
+	dc.b	"laquelle nous pouvons toujours percevoir"
 	dc.b	$FD
-	dc.b	"toujours percevoir l'Onde"
-	dc.b	$FC
-	dc.b	"d'Énergie Noire."
+	dc.b	"l'Onde d'Énergie Noire."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Tu veux dire que Dark Force a"
-	dc.b	$FC
-	dc.b	"survécu?!"
+	dc.b	"Tu veux dire que Dark Force a survécu ?!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
@@ -481,37 +453,35 @@
 	dc.b	$F2, $02
 	dc.b	$F2, $00
 	dc.w	$0104
-	dc.b	"Mais je peux vous affirmer que"
+	dc.b	"Mais je peux vous affirmer que la racine"
 	dc.b	$FC
-	dc.b	"la racine du mal existe encore!"
+	dc.b	"du mal existe encore !"
 	dc.b	$FD
 	dc.b	"La seule chose à faire est de la"
 	dc.b	$FC
-	dc.b	"détruire!"
-	dc.b	$FD
-	dc.b	"Je t'ai choisi, Chaz!"
+	dc.b	"détruire ! Je t'ai choisi, Chaz !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Qui, moi?!"
+	dc.b	"Qui, moi ?!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Je t'ai choisi. Tu est le soldat"
+	dc.b	"Je t'ai choisi. Tu est le soldat qui livrera"
 	dc.b	$FC
-	dc.b	"qui livrera l'ultime combat!"
+	dc.b	"l'ultime combat !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Pourquoi...pourquoi moi?"
+	dc.b	"Pourquoi...pourquoi moi ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
 	dc.b	"Je perçois ton potentiel."
 	dc.b	$FD
-	dc.b	"Nous saurons bientôt si mon"
+	dc.b	"Nous saurons bientôt si mon intuition se"
 	dc.b	$FC
-	dc.b	"intuition se confirme, Chaz."
+	dc.b	"confirme, Chaz."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
@@ -521,13 +491,13 @@
 	dc.w	$0105
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Voilà, vous savez maintenant"
+	dc.b	"Voilà, vous savez maintenant l'histoire."
 	dc.b	$FC
-	dc.b	"l'histoire. Désolé d'avoir gardé"
+	dc.b	"Désolé d'avoir gardé tout cela pour moi."
 	dc.b	$FD
-	dc.b	"tout cela pour moi. Nous pouvons"
+	dc.b	"Nous pouvons continuer à travailler"
 	dc.b	$FC
-	dc.b	"continuer à travailler ensemble?"
+	dc.b	"ensemble ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
@@ -535,59 +505,51 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Bien! Nous devons nous diriger"
+	dc.b	"Bien ! Nous devons nous diriger vers la"
 	dc.b	$FC
-	dc.b	"vers la Tour Garuberk!"
+	dc.b	"Tour Garuberk !"
 	dc.b	$FD
-	dc.b	"C'est là que nous trouverons"
+	dc.b	"C'est là que nous trouverons la réponse"
 	dc.b	$FC
-	dc.b	"la réponse à nos questions!"
+	dc.b	"à nos questions !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$19
 	dc.b	$F2, $00
 	dc.w	$0106
-	dc.b	"Des arbres carnivores empêchent"
+	dc.b	"Des arbres carnivores empêchent le"
 	dc.b	$FC
-	dc.b	"le passage."
+	dc.b	"passage."
 	dc.b	$FD
-	dc.b	"Mais si vous utilisez le"
+	dc.b	"Mais si vous utilisez le Flambeau de"
 	dc.b	$FC
-	dc.b	"Flambeau de l'Éclipse, vous"
-	dc.b	$FD
-	dc.b	"pourrez les détruire."
+	dc.b	"l'Éclipse, vous pourrez les détruire."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"D'accord, voilà notre prochain"
+	dc.b	"D'accord, voilà notre prochain objectif !"
 	dc.b	$FC
-	dc.b	"objectif! Le Temple Gumbious."
+	dc.b	"Le Temple Gumbious."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$19
-	dc.b	"Le temple Dezolisien est situé"
+	dc.b	"Le temple Dezolisien est situé dans la"
 	dc.b	$FC
-	dc.b	"dans la vallée montagneuse à"
-	dc.b	$FD
-	dc.b	"l'ouest d'ici."
+	dc.b	"vallée montagneuse à l'ouest d'ici."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Allons-y. Allez, Chaz,"
-	dc.b	$FC
-	dc.b	"ressaisis-toi!"
+	dc.b	"Allons-y. Allez, Chaz, ressaisis-toi !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"Je suis déçue de voir que Lutz"
+	dc.b	"Je suis déçue de voir que Lutz est si"
 	dc.b	$FC
-	dc.b	"est si indélicat!"
+	dc.b	"indélicat !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Navré, j'ai toujours été comme"
-	dc.b	$FC
-	dc.b	"ça!"
+	dc.b	"Navré, j'ai toujours été comme ça !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
@@ -599,91 +561,81 @@
 	dc.b	$04
 	dc.b	"Chaz, l'épée sacrée, Elsydeon,"
 	dc.b	$FC
-	dc.b	"t'attends!"
+	dc.b	"t'attends !"
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$0128
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Elsydeon?"
+	dc.b	"Elsydeon ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Il s'agit sans doute de la"
+	dc.b	"Il s'agit sans doute de la seule arme"
 	dc.b	$FC
-	dc.b	"seule arme capable de détruire"
+	dc.b	"capable de détruire la Noirceur"
 	dc.b	$FD
-	dc.b	"la Noirceur Profonde!"
-	dc.b	$FD
-	dc.b	"Va, Chaz...seul! Va et fait"
+	dc.b	"Profonde ! Va, Chaz...seul !"
 	dc.b	$FC
-	dc.b	"face à Elsydeon!"
+	dc.b	"Va et fait face à Elsydeon !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Faire face à Elsydeon?"
+	dc.b	"Faire face à Elsydeon ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Exact. Et tu trouveras alors"
+	dc.b	"Exact. Et tu trouveras alors réponse à"
 	dc.b	$FC
-	dc.b	"réponse à tes questions."
+	dc.b	"tes questions."
 	dc.b	$FF
 
 ; $31
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Alors, voilà l'épée sacrée,"
-	dc.b	$FC
-	dc.b	"Elsydeon..."
+	dc.b	"Alors, voilà l'épée sacrée, Elsydeon..."
 	dc.b	$FD
 	dc.b	$F9
 	dc.b	$3B
 
 	dc.b	$F2, $00
 	dc.w	$012A
-	dc.b	"Hein? J'entends une voix!"
+	dc.b	"Hein ? J'entends une voix !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$00
-	dc.b	"Ah, vous avez réussi,"
+	dc.b	"Ah, vous avez réussi, Chaz Ashley..."
 	dc.b	$FC
-	dc.b	"Chaz Ashley..."
+	dc.b	"Vous êtes à l'endroit où les esprits de"
 	dc.b	$FD
-	dc.b	"Vous êtes à l'endroit où les"
+	dc.b	"ceux qui se sont battus pour Algo"
 	dc.b	$FC
-	dc.b	"esprits de ceux qui se sont"
+	dc.b	"retournent..."
 	dc.b	$FD
-	dc.b	"battus pour Algo retournent..."
-	dc.b	$FD
-	dc.b	"Elsydeon est l'épée que"
+	dc.b	"Elsydeon est l'épée que protègent ces"
 	dc.b	$FC
-	dc.b	"protègent ces esprits!"
+	dc.b	"esprits !"
 	dc.b	$FD
-	dc.b	"Maintenant, Chaz, vous devez"
+	dc.b	"Maintenant, Chaz, vous devez prendre"
 	dc.b	$FC
-	dc.b	"prendre Elsydeon en vos mains..."
+	dc.b	"Elsydeon en vos mains..."
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Hé!"
+	dc.b	"Hé !"
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Wow!"
+	dc.b	"Wow !"
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$00
-	dc.b	"Vous êtes donc Chaz, désigné par"
-	dc.b	$FC
-	dc.b	"Rune..."
+	dc.b	"Vous êtes donc Chaz, désigné par Rune..."
 	dc.b	$FD
-	dc.b	"Vous êtes en mesure de"
-	dc.b	$FC
-	dc.b	"comprendre."
+	dc.b	"Vous êtes en mesure de comprendre."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
@@ -693,63 +645,55 @@
 	dc.b	$00
 	dc.b	$F2, $00
 	dc.w	$0137
-	dc.b	"Chaz... Je vous confie la charge"
+	dc.b	"Chaz... Je vous confie la charge de"
 	dc.b	$FC
-	dc.b	"de porter Elsydeon!"
+	dc.b	"porter Elsydeon !"
 	dc.b	$FD
-	dc.b	"Toutes nos pensées sont"
+	dc.b	"Toutes nos pensées sont accumulées dans"
 	dc.b	$FC
-	dc.b	"accumulées dans cette épée."
+	dc.b	"cette épée."
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$0138
-	dc.b	"Nous serons tous derrière vous,"
+	dc.b	"Nous serons tous derrière vous, Chaz,"
 	dc.b	$FC
-	dc.b	"Chaz, en tout temps, alors..."
+	dc.b	"en tout temps, alors..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Ne vous en faites pas."
-	dc.b	$FC
-	dc.b	"Je m'en charge!"
+	dc.b	"Ne vous en faites pas. Je m'en charge !"
 	dc.b	$FF
 
 ; $32
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"J'en était sûr. Elsydeon avait"
+	dc.b	"J'en était sûr. Elsydeon avait promis"
 	dc.b	$FC
-	dc.b	"promis qu'elle te donnerait"
+	dc.b	"qu'elle te donnerait son pouvoir."
 	dc.b	$FD
-	dc.b	"son pouvoir."
-	dc.b	$FD
-	dc.b	"Mon jugement est infaillible!"
+	dc.b	"Mon jugement est infaillible !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Rune!"
+	dc.b	"Rune !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
 	dc.b	$F2, $00
 	dc.w	$013C
-	dc.b	"Chaz, allons sauver Algo!"
+	dc.b	"Chaz, allons sauver Algo !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Oui! Nous faisons cela pour"
+	dc.b	"Oui ! Nous faisons cela pour toute vie"
 	dc.b	$FC
-	dc.b	"toute vie dans Algo, et pour"
+	dc.b	"dans Algo, et pour forger un avenir"
 	dc.b	$FD
-	dc.b	"forger un avenir réellement"
+	dc.b	"réellement délivré du mal !"
+	dc.b	$FD
+	dc.b	"Un avenir finalement libre du mal ancien !"
 	dc.b	$FC
-	dc.b	"délivré du mal!"
-	dc.b	$FD
-	dc.b	"Un avenir finalement libre"
-	dc.b	$FC
-	dc.b	"du mal ancien!"
-	dc.b	$FD
-	dc.b	"Je me battrai pour cela!"
+	dc.b	"Je me battrai pour cela !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
@@ -757,9 +701,9 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Nous vaincrons, Chaz!"
+	dc.b	"Nous vaincrons, Chaz !"
 	dc.b	$FC
-	dc.b	"Pour Algo!"
+	dc.b	"Pour Algo !"
 	dc.b	$F9
 	dc.b	$3B
 
@@ -768,21 +712,21 @@
 	dc.b	$A9
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Il y a une urgence!"
+	dc.b	"Il y a une urgence !"
 	dc.b	$FD
-	dc.b	"Demi nous informe d'un désastre"
+	dc.b	"Demi nous informe d'un désastre qui s'est"
 	dc.b	$FC
-	dc.b	"qui s'est déclaré sur Motavia!"
+	dc.b	"déclaré sur Motavia !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Chaz!"
+	dc.b	"Chaz !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
 	dc.b	"C'est bon."
 	dc.b	$FC
-	dc.b	"Pressons, vers Motavia!!"
+	dc.b	"Pressons, vers Motavia !!"
 	dc.b	$FF
 
 ; $33
@@ -798,15 +742,15 @@
 ; $35
 	dc.b	$F4
 	dc.b	$19
-	dc.b	"Ah, Rune! Content de voir que"
+	dc.b	"Ah, Rune ! Content de voir que vous êtes"
 	dc.b	$FC
-	dc.b	"vous êtes arrivé sain et sauf."
+	dc.b	"arrivé sain et sauf."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
 	dc.b	"Trêve de formalités."
 	dc.b	$FC
-	dc.b	"Je vais entrer.."
+	dc.b	"Je vais entrer..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$19
@@ -820,25 +764,25 @@
 	dc.b	$04
 	dc.b	"Nous allons emprunter la chambre"
 	dc.b	$FC
-	dc.b	"intérieur de nouveau. Je dois"
+	dc.b	"intérieur de nouveau. Je dois léguer"
 	dc.b	$FD
-	dc.b	"léguer quelque chose à Chaz."
+	dc.b	"quelque chose à Chaz."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$19
-	dc.b	"Euh...Vous n'allez sûrement pas"
+	dc.b	"Euh...Vous n'allez sûrement pas donner"
 	dc.b	$FC
-	dc.b	"donner ça à un tel jeunôt!"
+	dc.b	"ça à un tel jeunôt !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Jeunôt?!"
+	dc.b	"Jeunôt ?!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
 	dc.b	"Chaz est le seul choix possible."
 	dc.b	$FC
-	dc.b	"...Vous devez me croire!"
+	dc.b	"...Vous devez me croire !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$19
