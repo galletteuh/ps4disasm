@@ -382,17 +382,17 @@
 ; $7F
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Cette armoire est remplie de"
+	dc.b	"Cette armoire est remplie de linges"
 	dc.b	$FC
-	dc.b	"linges divers."
+	dc.b	"divers."
 	dc.b	$FF
 
 ; $80
 	dc.b	$F4
 	dc.b	$01
 	dc.b	"C'est un grand miroir."
-	dc.b	$FD
-	dc.b	"Il a pas mal de vécu par contre."
+	dc.b	$FC
+	dc.b	"Il a pas mal de vécu, par contre."
 	dc.b	$FF
 
 ; $81
@@ -412,9 +412,7 @@
 ; $83
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Wow, il y a plein de trucs"
-	dc.b	$FC
-	dc.b	"ici."
+	dc.b	"Wow, il y a plein de trucs, ici."
 	dc.b	$FF
 
 ; $84
@@ -428,17 +426,15 @@
 ; $85
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"C'est une étagère,"
+	dc.b	"C'est une étagère, mais elle est presque"
 	dc.b	$FC
-	dc.b	"mais elle est presque vide."
+	dc.b	"vide."
 	dc.b	$FF
 
 ; $86
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Wow, un Game Gear! On peut"
-	dc.b	$FC
-	dc.b	"y jouer?"
+	dc.b	"Wow, un Game Gear ! On peut y jouer ?"
 	dc.b	$FF
 
 ; $87
@@ -446,16 +442,16 @@
 	dc.b	$01
 	dc.b	"C'est un pot."
 	dc.b	$FD
-	dc.b	"Je me demande si c'est pour"
+	dc.b	"Je me demande si c'est pour stocker de"
 	dc.b	$FC
-	dc.b	"stocker de l'eau?"
+	dc.b	"l'eau ?"
 	dc.b	$FF
 
 ; $88
 	dc.b	$F4
 	dc.b	$01
 	dc.b	"C'est un puits."
-	dc.b	$FD
+	dc.b	$FC
 	dc.b	"Il semble être à sec."
 	dc.b	$FF
 
@@ -478,13 +474,13 @@
 ; $8B
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Voici une armoire remplie"
+	dc.b	"Voici une armoire remplie d'équipement"
 	dc.b	$FC
-	dc.b	"d'équipement pour la guilde."
+	dc.b	"appartenant à la guilde."
 	dc.b	$FD
-	dc.b	"Il vaut mieux ne pas l'ouvrir"
+	dc.b	"Il vaut mieux ne pas l'ouvrir sans"
 	dc.b	$FC
-	dc.b	"sans permission."
+	dc.b	"permission."
 	dc.b	$FF
 
 ; $8C
@@ -492,7 +488,7 @@
 	dc.b	$01
 	dc.b	"C'est un écriteau."
 	dc.b	$FC
-	dc.b	"«Ne pas courir sur le plancher.»"
+	dc.b	"« Ne pas courir dans l'aire commune. »"
 	dc.b	$FF
 
 ; $8D
@@ -500,72 +496,63 @@
 	dc.b	$01
 	dc.b	"C'est un écriteau."
 	dc.b	$FD
-	dc.b	"«Cette guilde est à tout le"
+	dc.b	"« Cette guilde appartient à tout le"
 	dc.b	$FC
-	dc.b	"monde. Utilisez-la avec calme.»"
+	dc.b	"monde. Utilisez-la avec calme. »"
 	dc.b	$FF
 
 ; $8E
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"«Chasseurs avec le plus de"
+	dc.b	"« Chasseurs avec le plus de missions"
 	dc.b	$FC
-	dc.b	"missions résolues:"
-	dc.b	$FD
-	dc.b	"1ère place, Alys Brangwin...»"
+	dc.b	"résolues : 1ère place, Alys Brangwin... »"
 	dc.b	$FF
 
 ; $8F
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Des journaux de chasseurs?"
-	dc.b	$FD
-	dc.b	"Je ne savais même pas que ça"
+	dc.b	"Des journaux pour chasseurs ?"
 	dc.b	$FC
-	dc.b	"existait!"
+	dc.b	"Je ne savais même pas que ça existait !"
 	dc.b	$FF
 
 ; $90
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"C'est un large assortiment de"
+	dc.b	"C'est un large assortiment de dentifrices"
 	dc.b	$FC
-	dc.b	"dentifrices hors de prix."
+	dc.b	"hors de prix."
 	dc.b	$FF
 
 ; $91
-	dc.b	" "
 	dc.b	$F4
 	dc.b	$01
 	dc.b	"Il y a un écriteau."
-	dc.b	$FD
-	dc.b	"«Accès interdit au public!»"
+	dc.b	$FC
+	dc.b	"« Accès interdit au public ! »"
 	dc.b	$FF
 
 ; $92
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Quel grand miroir!"
-	dc.b	$FD
-	dc.b	"Ce doit être un modèle"
+	dc.b	"Quel grand miroir !"
 	dc.b	$FC
-	dc.b	"industriel!"
+	dc.b	"Ce doit être un modèle industriel !"
 	dc.b	$FF
 
 ; $93
 	dc.b	$F4
 	dc.b	$11
-	dc.b	"Non! Pas touche!"
+	dc.b	"Non ! Pas touche !"
 	dc.b	$FF
 
 ; $94
 	dc.b	$F4
 	dc.b	$11
-	dc.b	"Non, non! Ce sont des documents"
+	dc.b	"Non, non ! Ce sont des documents impor-"
 	dc.b	$FC
-	dc.b	"importants qu'on accumule"
-	dc.b	$FD
-	dc.b	"depuis un moment!"
+	dc.b	"tants qu'on accumule depuis un moment !"
 	dc.b	$FF
 
 ; $95
@@ -579,11 +566,9 @@
 ; $96
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Ce n'est pas bien de fouiller"
+	dc.b	"Ce n'est pas bien de fouiller dans les"
 	dc.b	$FC
-	dc.b	"dans les armoires des gens sans"
-	dc.b	$FD
-	dc.b	"leur demander la permission!"
+	dc.b	"armoires des gens sans leur permission !"
 	dc.b	$FF
 
 ; $97
@@ -597,35 +582,29 @@
 ; $98
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Il fait noir là-dedans, et je"
+	dc.b	"Il fait noir là-dedans, et je ne vois pas"
 	dc.b	$FC
-	dc.b	"ne vois pas bien, mais"
-	dc.b	$FD
-	dc.b	"on dirait des condiments."
+	dc.b	"très bien, mais on dirait des condiments."
 	dc.b	$FF
 
 ; $99
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"C'est une cuisine."
-	dc.b	$FD
-	dc.b	"Il fait noir et je ne vois pas"
+	dc.b	"C'est une cuisine. Il fait noir et je vois"
 	dc.b	$FC
-	dc.b	"bien, mais"
-	dc.b	$FD
-	dc.b	"je suis sûr qu'elle est propre."
+	dc.b	"rien, mais je suis sûr qu'elle est propre."
 	dc.b	$FF
 
 ; $9A
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Il fait noir et je ne vois pas"
+	dc.b	"Il fait noir et je ne vois pas très bien,"
 	dc.b	$FC
-	dc.b	"très bien, mais"
+	dc.b	"mais..."
 	dc.b	$FD
-	dc.b	"il ne faut pas fouiller dans"
+	dc.b	"Il ne faut pas fouiller dans cette armoire"
 	dc.b	$FC
-	dc.b	"cette armoire sans permission."
+	dc.b	"sans permission !"
 	dc.b	$FF
 
 ; $9B
@@ -639,11 +618,9 @@
 ; $9C
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"C'est une armoire qui contient"
+	dc.b	"C'est une armoire qui contient les choses"
 	dc.b	$FC
-	dc.b	"les choses auxquelles Alys"
-	dc.b	$FD
-	dc.b	"tient beaucoup..."
+	dc.b	"auxquelles Alys tient beaucoup..."
 	dc.b	$FF
 
 ; $9D
@@ -651,21 +628,19 @@
 	dc.b	$01
 	dc.b	"C'est une cuisine."
 	dc.b	$FD
-	dc.b	"Bien sûr, elle est propre, car"
+	dc.b	"Bien sûr, elle est propre, car on fait"
 	dc.b	$FC
-	dc.b	"on fait tout le temps le ménage."
+	dc.b	"tout le temps le ménage."
 	dc.b	$FF
 
 ; $9E
 	dc.b	$F4
 	dc.b	$01
 	dc.b	"C'est un vaisselier."
-	dc.b	$FC
-	dc.b	"Bien sûr, tout est bien rangé,"
 	dc.b	$FD
-	dc.b	"car on fait tout le temps le"
+	dc.b	"Bien sûr, tout y est bien rangé, car on"
 	dc.b	$FC
-	dc.b	"ménage."
+	dc.b	"fait tout le temps le ménage."
 	dc.b	$FF
 
 ; $9F
@@ -677,7 +652,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Ce sont les tiens, n'est-ce pas?"
+	dc.b	"Ce sont les tiens, n'est-ce pas ?"
 	dc.b	$FF
 
 ; $A0
@@ -687,9 +662,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Il vaudrait mieux que tu les"
-	dc.b	$FC
-	dc.b	"ramasse."
+	dc.b	"Il vaudrait mieux que tu les ramasse."
 	dc.b	$FF
 
 ; $A1
@@ -697,9 +670,9 @@
 	dc.b	$42, $01
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"C'est un programme"
+	dc.b	"C'est un programme d'entraînement"
 	dc.b	$FC
-	dc.b	"d'entraînement conçu par Alys."
+	dc.b	"conçu par Alys."
 	dc.b	$FD
 	dc.b	"Il est plutôt intense."
 	dc.b	$FF
@@ -707,17 +680,17 @@
 ; $A2
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"C'est un programme"
+	dc.b	"C'est un programme d'entraînement"
 	dc.b	$FC
-	dc.b	"d'entraînement conçu par Alys..."
+	dc.b	"conçu par Alys..."
 	dc.b	$FF
 
 ; $A3
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"C'est mon armoire, alors je peux"
+	dc.b	"C'est mon armoire, alors je peux fouiller"
 	dc.b	$FC
-	dc.b	"fouiller dedans tant je veux!"
+	dc.b	"dedans tant que je le veux !"
 	dc.b	$FD
 	dc.b	"Voyons ce qui est à l'intérieur."
 	dc.b	$FD
@@ -733,15 +706,13 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Garde-le bien propre, Chaz!"
+	dc.b	"Garde-le bien propre, Chaz !"
 	dc.b	$FF
 
 ; $A5
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"C'est le miroir en pied"
-	dc.b	$FC
-	dc.b	"d'Alys..."
+	dc.b	"C'est le miroir en pied d'Alys..."
 	dc.b	$FF
 
 ; $A6
@@ -753,97 +724,93 @@
 	dc.b	$FD
 	dc.b	"la la la la,"
 	dc.b	$FD
-	dc.b	"L'armoire d'Alys!"
+	dc.b	"L'armoire d'Alys !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Pourquoi ça t'émeut comme ça?"
+	dc.b	"Pourquoi ça t'émeut comme ça ?"
 	dc.b	$FF
 
 ; $A7
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"...Il vaut mieux pas."
+	dc.b	"... Il vaut mieux pas."
 	dc.b	$FF
 
 ; $A8
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"C'est une étagère,"
+	dc.b	"C'est une étagère."
 	dc.b	$FC
-	dc.b	"elle est plutôt vide."
+	dc.b	"Elle est plutôt vide."
 	dc.b	$FF
 
 ; $A9
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Il n'y a pas de trésor secret"
+	dc.b	"Il n'y a pas de trésor secret caché à"
 	dc.b	$FC
-	dc.b	"à l'intérieur."
+	dc.b	"l'intérieur."
 	dc.b	$FF
 
 ; $AA
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"...Les livres ne sont pas"
-	dc.b	$FC
-	dc.b	"rangés."
+	dc.b	"... Les livres ne sont pas rangés."
 	dc.b	$FF
 
 ; $AB
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Il y a un tableau ici."
+	dc.b	"Il y a un écriteau ici."
 	dc.b	$FD
-	dc.b	"C'est écrit «Le fondateur du"
+	dc.b	"C'est écrit : « Le fondateur du marché,"
 	dc.b	$FC
-	dc.b	"marché, Aiedo Hernandez»"
+	dc.b	"Aiedo Hernandez »."
 	dc.b	$FF
 
 ; $AC
 	dc.b	$F4
 	dc.b	$01
 	dc.b	"C'est un grand miroir."
-	dc.b	$FD
-	dc.b	"Il a pas mal de vécu par contre."
+	dc.b	$FC
+	dc.b	"Il a pas mal de vécu, par contre."
 	dc.b	$FF
 
 ; $AD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"C'est un tas de livres"
+	dc.b	"C'est un tas de livres de divination, et"
 	dc.b	$FC
-	dc.b	"de divination, et quelques"
-	dc.b	$FD
-	dc.b	"livres théoriques."
+	dc.b	"quelques livres théoriques."
 	dc.b	$FF
 
 ; $AE
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"La boule de cristal brille"
+	dc.b	"La boule de cristal brille d'une lumière"
 	dc.b	$FC
-	dc.b	"d'une lumière mystérieuse..."
+	dc.b	"mystérieuse..."
 	dc.b	$FF
 
 ; $AF
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Wow, quelle statue louche!"
+	dc.b	"Wow, quelle statue louche !"
 	dc.b	$FF
 
 ; $B0
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Wow, quelle statue louche!"
+	dc.b	"Wow, quelle statue louche !"
 	dc.b	$FF
 
 ; $B1
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Je me demande si c'est un autel?"
+	dc.b	"Je me demande si c'est un autel ?"
 	dc.b	$FC
-	dc.b	"...Vaut mieux ne pas y toucher."
+	dc.b	"... Il vaut mieux ne pas y toucher."
 	dc.b	$FF
 
 ; $B2
@@ -861,27 +828,25 @@
 ; $B4
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Ce n'est pas bien de fouiller"
+	dc.b	"Ce n'est pas bien de fouiller dans les"
 	dc.b	$FC
-	dc.b	"dans les armoires des gens sans"
-	dc.b	$FD
-	dc.b	"leur demander la permission!"
+	dc.b	"armoires des gens sans leur permission !"
 	dc.b	$FF
 
 ; $B5
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"C'est une étagère, mais elle"
+	dc.b	"C'est une étagère, mais elle est plutôt"
 	dc.b	$FC
-	dc.b	"est plutôt vide."
+	dc.b	"vide."
 	dc.b	$FF
 
 ; $B6
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Quel grand miroir!"
-	dc.b	$FD
-	dc.b	"Il a pas mal de vécu par contre."
+	dc.b	"Quel grand miroir !"
+	dc.b	$FC
+	dc.b	"Il a pas mal de vécu, par contre."
 	dc.b	$FF
 
 ; $B7
@@ -893,11 +858,9 @@
 ; $B8
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"La caisse de l'auberge est"
+	dc.b	"La caisse de l'auberge est laissée à tout"
 	dc.b	$FC
-	dc.b	"laissée à tout vent."
-	dc.b	$FD
-	dc.b	"C'est plutôt imprudent!"
+	dc.b	"vent. C'est plutôt imprudent!"
 	dc.b	$FF
 
 ; $B9
@@ -905,53 +868,49 @@
 	dc.b	$65, $01
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Demi, peux-tu emettre une"
+	dc.b	"Demi, peux-tu émettre une instruction"
 	dc.b	$FC
-	dc.b	"instruction d'interruption vers"
+	dc.b	"d'interruption vers Nurvus à partir de"
 	dc.b	$FD
-	dc.b	"Nurvus à partir de ce terminal?"
+	dc.b	"ce terminal?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$07
-	dc.b	"Désolé, mais c'est impossible!"
+	dc.b	"Désolé, mais c'est impossible ! Nurvus"
 	dc.b	$FC
-	dc.b	"Nurvus n'accepte aucune données"
+	dc.b	"n'accepte aucune données de l'extérieur."
 	dc.b	$FD
-	dc.b	"de l'extérieur."
-	dc.b	$FD
-	dc.b	"Nous ne pourrons même pas"
+	dc.b	"Impossible d'accéder au système, à moins"
 	dc.b	$FC
-	dc.b	"accéder au système, à moins de"
-	dc.b	$FD
-	dc.b	"se rendre dans son noyau."
+	dc.b	"de se rendre dans son noyau."
 	dc.b	$FF
 
 ; $BA
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Alors finalement, ce terminal"
+	dc.b	"Alors, finalement, ce terminal n'est"
 	dc.b	$FC
-	dc.b	"n'est d'aucune utilité!"
+	dc.b	"d'aucune utilité !"
 	dc.b	$FF
 
 ; $BB
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Il est écrit: «Danger! Crevasses"
+	dc.b	"Il est écrit : « Danger ! Crevasses."
 	dc.b	$FC
-	dc.b	"Ne Pas Entrer»"
+	dc.b	"Ne pas entrer. »"
 	dc.b	$FF
 
 ; $BC
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Je me demande si ces crevasses"
+	dc.b	"Je me demande si ces crevasses sont"
 	dc.b	$FC
-	dc.b	"sont apparues suite à un séisme."
+	dc.b	"apparues suite à un séisme."
 	dc.b	$FD
-	dc.b	"Ce n'est pas vraiment un cas ou"
+	dc.b	"Ce n'est pas vraiment un cas où je tiens"
 	dc.b	$FC
-	dc.b	"je veux vraiment vérifier..."
+	dc.b	"vraiment à vérifier..."
 	dc.b	$FF
 
 ; $BD
@@ -963,11 +922,9 @@
 ; $BE
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Ce n'est pas bien de fouiller"
+	dc.b	"Ce n'est pas bien de fouiller dans les"
 	dc.b	$FC
-	dc.b	"dans les armoires des gens sans"
-	dc.b	$FD
-	dc.b	"leur demander la permission!"
+	dc.b	"armoires des gens sans leur permission !"
 	dc.b	$FF
 
 ; $BF
@@ -979,31 +936,29 @@
 ; $C0
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Quel grand miroir!"
+	dc.b	"Quel grand miroir !"
 	dc.b	$FC
-	dc.b	"Une belle antiquité!"
+	dc.b	"Une belle antiquité !"
 	dc.b	$FF
 
 ; $C1
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Wow, voyez tous ces livres"
+	dc.b	"Wow, voyez tous ces livres sur l'élevage"
 	dc.b	$FC
-	dc.b	"sur l'élevage d'enfants."
+	dc.b	"d'enfants !"
 	dc.b	$FF
 
 ; $C2
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"«Élever des Enfants pour les"
-	dc.b	$FC
-	dc.b	"nuls»."
+	dc.b	"« Élever des enfants pour les nuls »."
 	dc.b	$FF
 
 ; $C3
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Quel fouillis!"
+	dc.b	"Quel fouillis !"
 	dc.b	$FF
 
 ; $C4
@@ -1011,7 +966,7 @@
 	dc.b	$D9, $01
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"...OK, c'est terminé."
+	dc.b	"... OK, c'est terminé."
 	dc.b	$FC
 	dc.b	"Une bonne chose."
 	dc.b	$FF
@@ -1019,31 +974,25 @@
 ; $C5
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"...OK, ça fonctionne"
+	dc.b	"... OK, ça fonctionne correctement."
 	dc.b	$FC
-	dc.b	"correctement."
-	dc.b	$FD
 	dc.b	"C'est une bonne chose."
 	dc.b	$FF
 
 ; $C6
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"«Statue de l'Héroïne,"
+	dc.b	"« Statue de l'héroïne, Alis Landale. »"
 	dc.b	$FC
-	dc.b	"Alis Landale»"
-	dc.b	$FD
-	dc.b	"Ce chat? Était-ce le sien?"
+	dc.b	"Ce chat... Était-ce le sien ?"
 	dc.b	$FF
 
 ; $C7
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Ce n'est pas bien de fouiller"
+	dc.b	"Ce n'est pas bien de fouiller dans les"
 	dc.b	$FC
-	dc.b	"dans les armoires des gens sans"
-	dc.b	$FD
-	dc.b	"leur demander la permission!"
+	dc.b	"armoires des gens sans leur permission !"
 	dc.b	$FF
 
 ; $C8
@@ -1055,9 +1004,7 @@
 ; $C9
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Wow...tant de livres sur les"
-	dc.b	$FC
-	dc.b	"tactiques!"
+	dc.b	"Wow... Tant de livres sur les tactiques !"
 	dc.b	$FF
 
 ; $CA
@@ -1069,25 +1016,25 @@
 ; $CB
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Ce sont des assiettes, mais"
+	dc.b	"Ce sont des assiettes, mais elles sont"
 	dc.b	$FC
-	dc.b	"elles sont plutôt banales."
+	dc.b	"plutôt banales."
 	dc.b	$FF
 
 ; $CC
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Wow!"
+	dc.b	"Wow !"
 	dc.b	$FD
-	dc.b	"Ça fait combien de temps que"
+	dc.b	"Ça fait combien de temps que personne"
 	dc.b	$FC
-	dc.b	"personne n'a fait la vaisselle!?"
+	dc.b	"n'a fait la vaisselle !?"
 	dc.b	$FF
 
 ; $CD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"C'est une étagère, plutôt vide."
+	dc.b	"C'est une étagère, elle est plutôt vide."
 	dc.b	$FF
 
 ; $CE
@@ -1099,9 +1046,9 @@
 ; $CF
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Une rangée de boissons gazeuses"
+	dc.b	"Une rangée de boissons gazeuses bon"
 	dc.b	$FC
-	dc.b	"bon marché."
+	dc.b	"marché."
 	dc.b	$FF
 
 ; $D0
@@ -1109,7 +1056,7 @@
 	dc.b	$01
 	dc.b	"Il y a un slogan."
 	dc.b	$FC
-	dc.b	"«Le Bonheur Va S'Enfuir...»"
+	dc.b	"« Le bonheur va s'enfuir... »"
 	dc.b	$FF
 
 ; $D1
@@ -1117,9 +1064,9 @@
 	dc.b	$01
 	dc.b	"Il y a un slogan."
 	dc.b	$FD
-	dc.b	"«Si Vous Êtes Heureux, Essayez"
+	dc.b	"« Si vous êtes heureux, essayez toutes"
 	dc.b	$FC
-	dc.b	"Toutes Les Choses...»"
+	dc.b	"les choses... »"
 	dc.b	$FF
 
 ; $D2
@@ -1131,9 +1078,9 @@
 ; $D3
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Une rangée de boissons gazeuses"
+	dc.b	"Une rangée de boissons gazeuses bon"
 	dc.b	$FC
-	dc.b	"bon marché."
+	dc.b	"marché."
 	dc.b	$FF
 
 ; $D4
@@ -1146,16 +1093,14 @@
 	dc.b	$F4
 	dc.b	$01
 	dc.b	"C'est une très belle étagère."
-	dc.b	$FD
-	dc.b	"Elle est plutôt vide par contre."
+	dc.b	$FC
+	dc.b	"Elle est plutôt vide, par contre."
 	dc.b	$FF
 
 ; $D6
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Un tas de livres sur les"
-	dc.b	$FC
-	dc.b	"animaux."
+	dc.b	"Un tas de livres sur les animaux."
 	dc.b	$FF
 
 ; $D7
@@ -1163,59 +1108,53 @@
 	dc.b	$01
 	dc.b	"Wow!"
 	dc.b	$FD
-	dc.b	"Ça fait combien de temps que"
+	dc.b	"Ça fait combien de temps que personne"
 	dc.b	$FC
-	dc.b	"personne n'a fait la vaisselle!?"
+	dc.b	"n'a fait la vaisselle !?"
 	dc.b	$FF
 
 ; $D8
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Ce sont des assiettes, mais"
+	dc.b	"Ce sont des assiettes, mais elles sont"
 	dc.b	$FC
-	dc.b	"elles sont plutôt banales."
+	dc.b	"plutôt banales."
 	dc.b	$FF
 
 ; $D9
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Il y a un écriteau:"
-	dc.b	$FD
-	dc.b	"«Nous Vendons du Trimate.»"
+	dc.b	"Il y a un écriteau :"
+	dc.b	$FC
+	dc.b	"« Nous vendons du Trimate. »"
 	dc.b	$FF
 
 ; $DA
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Ce n'est pas bien de fouiller"
+	dc.b	"Ce n'est pas bien de fouiller dans les"
 	dc.b	$FC
-	dc.b	"dans les armoires des gens sans"
-	dc.b	$FD
-	dc.b	"leur demander la permission!"
+	dc.b	"armoires des gens sans leur permission !"
 	dc.b	$FF
 
 ; $DB
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Ce sont des livres sur"
-	dc.b	$FC
-	dc.b	"l'agriculture."
+	dc.b	"Ce sont des livres sur l'agriculture."
 	dc.b	$FF
 
 ; $DC
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Eh bien! Voici des livres dont"
+	dc.b	"Eh bien ! Voilà des livres dont je n'ose"
 	dc.b	$FC
-	dc.b	"je n'ose pas révéler le"
+	dc.b	"pas révéler le sujet à voix haute !"
 	dc.b	$FD
-	dc.b	"sujet à voix haute!"
-	dc.b	$FC
 	dc.b	"Comme c'est fascinant..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Chaz!"
+	dc.b	"Chaz !"
 	dc.b	$FF
 
 ; $DD
@@ -1225,25 +1164,21 @@
 	dc.b	$07
 	dc.b	"Je suis désolée."
 	dc.b	$FD
-	dc.b	"C'est une malencontreuse erreur"
+	dc.b	"C'est une malencontreuse omission de ma"
 	dc.b	$FC
-	dc.b	"de ma part..."
+	dc.b	"part..."
 	dc.b	$FD
-	dc.b	"Sans une clé de contrôle, je ne"
+	dc.b	"Sans une clé de contrôle, il m'est impossi-"
 	dc.b	$FC
-	dc.b	"serai pas en mesure de mettre en"
-	dc.b	$FD
-	dc.b	"marche cette machine."
+	dc.b	"ble de mettre cette machine en marche."
 	dc.b	$FF
 
 ; $DE
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"À ce stade-ci, nous n'aurons"
+	dc.b	"À ce stade-ci, nous n'aurons pas besoin"
 	dc.b	$FC
-	dc.b	"pas besoin de ces autres"
-	dc.b	$FD
-	dc.b	"machines, non?"
+	dc.b	"de ces autres machines, non ?"
 	dc.b	$FF
 
 ; $DF
@@ -1255,31 +1190,27 @@
 	dc.b	$70, $01
 	dc.b	$F4
 	dc.b	$07
-	dc.b	"Rapidement, à Zelan..."
+	dc.b	"Allez rapidement à Zelan..."
 	dc.b	$FC
-	dc.b	"Je vous prie de vous dépêcher!"
+	dc.b	"Je vous prie de vous dépêcher !"
 	dc.b	$FF
 
 ; $E0
 	dc.b	$F4
 	dc.b	$07
-	dc.b	"Cela fait si longtemps."
-	dc.b	$FC
-	dc.b	"Maître Wren!"
+	dc.b	"Cela fait si longtemps, Maître Wren !"
 	dc.b	$FD
-	dc.b	"Comment? Ce n'est pas Zelan,"
+	dc.b	"Comment ? Ce n'est pas Zelan, mais bien"
 	dc.b	$FC
-	dc.b	"mais bien Kuran...C'est bien ça?"
+	dc.b	"Kuran... C'est bien ça ?"
 	dc.b	$FF
 
 ; $E1
 	dc.b	$F4
 	dc.b	$07
-	dc.b	"Si seulement le système était"
+	dc.b	"Si seulement le système était totalement"
 	dc.b	$FC
-	dc.b	"totalement stable, je pourrais"
-	dc.b	$FD
-	dc.b	"vous venir en aide à tous."
+	dc.b	"stable, je pourrais vous accompagner."
 	dc.b	$FF
 
 ; $E2
@@ -1295,17 +1226,15 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Ils ont dû remarquer l'Onde"
+	dc.b	"Ils ont dû remarquer l'Onde Noire et"
 	dc.b	$FC
-	dc.b	"Noire et fermé leurs portes"
-	dc.b	$FD
-	dc.b	"avec empressement."
+	dc.b	"fermé leurs portes avec empressement."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Mais! Ce n'est pas comme si"
+	dc.b	"Franchement ! Ce n'est pas comme si une"
 	dc.b	$FC
-	dc.b	"une telle porte était efficace."
+	dc.b	"simple porte était efficace."
 	dc.b	$FF
 
 ; $E4
