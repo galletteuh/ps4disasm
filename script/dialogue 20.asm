@@ -156,7 +156,7 @@
 	dc.b	$FD
 	dc.b	"Comptez sur le vénéré Cinquième pour"
 	dc.b	$FC
-	dc.b	"pouvoir choisir celui qui les bonnes"
+	dc.b	"pouvoir choisir celui qui a les bonnes"
 	dc.b	$FD
 	dc.b	"aptitudes !"
 	dc.b	$FF
@@ -213,7 +213,7 @@
 ; $2D
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Chaz...ressaisis-toi !"
+	dc.b	"Chaz... ressaisis-toi !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
@@ -263,7 +263,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Rune...?"
+	dc.b	"Rune... ?"
 	dc.b	$FF
 
 ; $2F
@@ -406,11 +406,11 @@
 	dc.b	$FD
 	dc.b	"ans !"
 	dc.b	$FD
-	dc.b	"Jusqu'ici, durant chaque cycle,"
+	dc.b	"Jusqu'ici, durant chaque cycle, un individu"
 	dc.b	$FC
-	dc.b	"un individu courageux vainquit le mal"
+	dc.b	"courageux vainquit le mal pour préserver"
 	dc.b	$FD
-	dc.b	"pour préserver la paix."
+	dc.b	"la paix."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
@@ -473,7 +473,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Pourquoi...pourquoi moi ?"
+	dc.b	"Pourquoi... pourquoi moi ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
@@ -606,11 +606,11 @@
 	dc.b	$00
 	dc.b	"Ah, vous avez réussi, Chaz Ashley..."
 	dc.b	$FC
-	dc.b	"Vous êtes à l'endroit où les esprits de"
+	dc.b	"Vous êtes à l'endroit où retournent"
 	dc.b	$FD
-	dc.b	"ceux qui se sont battus pour Algo"
+	dc.b	"les esprits de ceux qui se sont battus"
 	dc.b	$FC
-	dc.b	"retournent..."
+	dc.b	"pour Algo..."
 	dc.b	$FD
 	dc.b	"Elsydeon est l'épée que protègent ces"
 	dc.b	$FC
@@ -639,7 +639,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Aaah...!"
+	dc.b	"Aaah... !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$00
