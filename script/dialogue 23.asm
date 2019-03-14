@@ -3,17 +3,17 @@
 	dc.b	$A1, $01
 	dc.b	"Bienvenue à la ville de Jut."
 	dc.b	$FD
-	dc.b	"Mais trêve de bavardage... Voyez"
+	dc.b	"Mais trêve de bavardage... Voyez plutôt"
 	dc.b	$FC
-	dc.b	"plutôt ce mauvais temps."
+	dc.b	"ce mauvais temps."
 	dc.b	$FF
 
 ; $1
 	dc.b	"Bienvenue à la ville de Jut."
 	dc.b	$FD
-	dc.b	"Mais trêve de bavardage... Le"
+	dc.b	"Mais trêve de bavardage... Le temple a"
 	dc.b	$FC
-	dc.b	"temple a été..."
+	dc.b	"été..."
 	dc.b	$FF
 
 ; $2
@@ -21,61 +21,53 @@
 	dc.b	$A1, $01
 	dc.b	"Tous semblent abattus."
 	dc.b	$FD
-	dc.b	"Ils restent à l'intérieur à"
+	dc.b	"Ils restent à l'intérieur à cause d'un"
 	dc.b	$FC
-	dc.b	"cause d'un petit peu de vent!"
-	dc.b	$FD
-	dc.b	"Quelles mauviettes!"
+	dc.b	"petit peu de vent ! Quelles mauviettes !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Mais la tempête est particuliè-"
+	dc.b	"Mais la tempête est particulièrement"
 	dc.b	$FC
-	dc.b	"rement brutale par ici."
-	dc.b	$FD
-	dc.b	"Je les comprends."
+	dc.b	"brutale par ici. Je les comprends."
 	dc.b	$FF
 
 ; $3
-	dc.b	"Oh non!"
+	dc.b	"Oh non !"
 	dc.b	$FF
 
 ; $4
 	dc.b	$FA
 	dc.b	$A1, $01
-	dc.b	"Oups!"
+	dc.b	"Oups !"
 	dc.b	$FD
-	dc.b	"C'est si palpitant quand le"
-	dc.b	$FC
-	dc.b	"vent est ainsi."
+	dc.b	"C'est si palpitant quand le vent est ainsi."
 	dc.b	$FD
-	dc.b	"On ne sait jamais si on sera"
+	dc.b	"On ne sait jamais si on sera emporté ou"
 	dc.b	$FC
-	dc.b	"emporté ou pas!"
+	dc.b	"pas !"
 	dc.b	$FF
 
 ; $5
-	dc.b	"Il y a eu une grosse explosion"
+	dc.b	"Il y a eu une grosse explosion en"
 	dc.b	$FC
-	dc.b	"en direction du Temple Gumbious!"
+	dc.b	"direction du Temple Gumbious !"
 	dc.b	$FF
 
 ; $6
 	dc.b	$FA
 	dc.b	$A1, $01
-	dc.b	"Mon chapeau?"
+	dc.b	"Mon chapeau ?"
 	dc.b	$FD
-	dc.b	"En fait, il a une bande à"
+	dc.b	"En fait, il a une bande à l'intérieur,"
 	dc.b	$FC
-	dc.b	"l'intérieur, comme ça, il ne"
-	dc.b	$FD
-	dc.b	"s'envole pas."
+	dc.b	"comme ça, il ne s'envole pas."
 	dc.b	$FF
 
 ; $7
-	dc.b	"Que se passe-t-il?"
+	dc.b	"Que se passe-t-il ?"
 	dc.b	$FD
-	dc.b	"Qu'est-ce qui vient d'arriver!?"
+	dc.b	"Qu'est-ce qui vient d'arriver !?"
 	dc.b	$FF
 
 ; $8
@@ -88,109 +80,99 @@
 	dc.b	$FF
 
 ; $9
-	dc.b	"Que diable se passe-t-il sur"
+	dc.b	"Que diable se passe-t-il sur cette"
 	dc.b	$FC
-	dc.b	"cette planète?"
+	dc.b	"planète ?"
 	dc.b	$FF
 
 ; $A
-	dc.b	"Est-il vrai que le Temple"
+	dc.b	"Est-il vrai que le Temple Gumbious a"
 	dc.b	$FC
-	dc.b	"Gumbious a disparu?"
+	dc.b	"disparu ?"
 	dc.b	$FF
 
 ; $B
-	dc.b	"C'est la fin du monde!"
+	dc.b	"C'est la fin du monde !"
 	dc.b	$FD
-	dc.b	"Ahh! Que puis-je faire!?"
+	dc.b	"Ahh ! Que puis-je faire !?"
 	dc.b	$FF
 
 ; $C
-	dc.b	"Oh non, le Temple Gumbious!"
+	dc.b	"Oh non, le Temple Gumbious !"
 	dc.b	$FC
-	dc.b	"C'est la source de notre force!"
+	dc.b	"C'est la source de notre force !"
 	dc.b	$FF
 
 ; $D
-	dc.b	"C'est bien que le vent ait"
+	dc.b	"C'est bien que le vent ait cessé,"
 	dc.b	$FC
-	dc.b	"cessé, toutefois..."
+	dc.b	"toutefois..."
 	dc.b	$FD
-	dc.b	"On dirait qu'il y a eu une"
+	dc.b	"On dirait qu'il y a eu une explosion en"
 	dc.b	$FC
-	dc.b	"explosion en direction du"
-	dc.b	$FD
-	dc.b	"Temple Gumbious."
+	dc.b	"direction du Temple Gumbious."
 	dc.b	$FF
 
 ; $E
-	dc.b	"Nous sommes en présence d'une"
+	dc.b	"Nous sommes en présence d'une crise"
 	dc.b	$FC
-	dc.b	"crise majeure!"
+	dc.b	"majeure !"
 	dc.b	$FD
-	dc.b	"Que va-t-il arriver à notre"
-	dc.b	$FC
-	dc.b	"planète?"
+	dc.b	"Que va-t-il arriver à notre planète ?"
 	dc.b	$FF
 
 ; $F
-	dc.b	"Il y a eu un grand bruit de"
+	dc.b	"Il y a eu un grand bruit de terre qui"
 	dc.b	$FC
-	dc.b	"terre qui tremble!"
+	dc.b	"tremble !"
 	dc.b	$FD
-	dc.b	"Que diable était-ce?"
+	dc.b	"Que diable était-ce ?"
 	dc.b	$FF
 
 ; $10
-	dc.b	"Les armes en Laconia ont été"
+	dc.b	"Les armes en Laconia ont été achetées à"
 	dc.b	$FC
-	dc.b	"achetée à Reshel."
+	dc.b	"Reshel."
 	dc.b	$FD
-	dc.b	"Tout ce qui nous reste est dans"
+	dc.b	"Tout ce qui nous reste est dans notre"
 	dc.b	$FC
-	dc.b	"notre stock."
+	dc.b	"stock."
 	dc.b	$FD
-	dc.b	"Premier arrivé, premier servi,"
+	dc.b	"Premier arrivé, premier servi, jusqu'à"
 	dc.b	$FC
-	dc.b	"jusqu'à épuisement des stocks!"
+	dc.b	"épuisement des stocks !"
 	dc.b	$FF
 
 ; $11
-	dc.b	"Les Dezolisien chassent, mais"
+	dc.b	"Les Dezolisien chassent, mais nous"
 	dc.b	$FC
-	dc.b	"nous sommes plûtot relaxe."
+	dc.b	"sommes plûtot relaxe."
 	dc.b	$FD
-	dc.b	"Les magasins d'armes ne font"
+	dc.b	"Les magasins d'armes ne font donc pas"
 	dc.b	$FC
-	dc.b	"donc pas de bonnes affaires."
+	dc.b	"de bonnes affaires."
 	dc.b	$FF
 
 ; $12
-	dc.b	"Vous voyez ce vieil édifice au"
-	dc.b	$FC
-	dc.b	"sud-ouest?"
+	dc.b	"Vous voyez ce vieil édifice au sud-ouest ?"
 	dc.b	$FD
-	dc.b	"On dit que c'est un vestige des"
+	dc.b	"On dit que c'est un vestige des temps"
 	dc.b	$FC
-	dc.b	"temps anciens."
+	dc.b	"anciens."
 	dc.b	$FD
-	dc.b	"Il faudrait que j'y aille un de"
+	dc.b	"Il faudrait que j'y aille un de ces jours."
 	dc.b	$FC
-	dc.b	"ces jours."
-	dc.b	$FD
-	dc.b	"Peut-être j'y ferais une"
-	dc.b	$FC
-	dc.b	"trouvaille!"
+	dc.b	"Peut-être j'y ferais une trouvaille !"
 	dc.b	$FF
 
 ; $13
-	dc.b	"L'édifice au sud-ouest? Ne dites"
+	dc.b	"L'édifice au sud-ouest ? Ne dites pas de"
 	dc.b	$FC
-	dc.b	"pas de bêtises."
+	dc.b	"bêtises."
 	dc.b	$FD
-	dc.b	"Avec ce mur de glace qui"
+	dc.b	"Avec ce mur de glace qui l'entoure,"
 	dc.b	$FC
-	dc.b	"l'entoure, impossible d'y aller!"
+	dc.b	"impossible d'y aller !"
 	dc.b	$FF
 
 ; $14
@@ -198,27 +180,25 @@
 	dc.b	$FC
 	dc.b	"C'est rare."
 	dc.b	$FD
-	dc.b	"Vous trouvez ça si interessant"
+	dc.b	"Vous trouvez ça si interessant de"
 	dc.b	$FC
-	dc.b	"de visiter un temple Dezolisien?"
+	dc.b	"visiter un temple Dezolisien ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Je me demande s'il veut quelque"
-	dc.b	$FC
-	dc.b	"chose?"
+	dc.b	"Je me demande s'il veut quelque chose ?"
 	dc.b	$FF
 
 ; $15
 	dc.b	$FA
 	dc.b	$A1, $01
-	dc.b	"Si vous voulez le Temple"
+	dc.b	"Si vous voulez le Temple Gumbious,"
 	dc.b	$FC
-	dc.b	"Gumbious, c'est plus au nord."
+	dc.b	"c'est plus au nord."
 	dc.b	$FD
-	dc.b	"L'édifice au centre de la ville,"
+	dc.b	"L'édifice au centre de la ville, ça,"
 	dc.b	$FC
-	dc.b	"ça, c'est autre chose."
+	dc.b	"c'est autre chose."
 	dc.b	$FF
 
 ; $16
@@ -226,7 +206,7 @@
 	dc.b	$FC
 	dc.b	"J'ai entendu qu'il a disparu."
 	dc.b	$FD
-	dc.b	"Est-ce vrai?"
+	dc.b	"Est-ce vrai ?"
 	dc.b	$FF
 
 ; $17
@@ -234,33 +214,31 @@
 	dc.b	$A1, $02
 	dc.b	$FA
 	dc.b	$94, $01
-	dc.b	"À propos du temple, il y a un"
+	dc.b	"À propos du temple, il y a un moment,"
 	dc.b	$FC
-	dc.b	"moment, il y avait un homme qui"
+	dc.b	"il y avait un homme qui n'arrêtait pas"
 	dc.b	$FD
-	dc.b	"n'arrêtait pas de conter des"
-	dc.b	$FC
-	dc.b	"blagues stupides."
+	dc.b	"de conter des blagues stupides."
 	dc.b	$FD
-	dc.b	"Il y a un moment que je ne l'ai"
+	dc.b	"Il y a un moment que je ne l'ai vu,"
 	dc.b	$FC
-	dc.b	"vu, mais je l'aimais bien!"
+	dc.b	"mais je l'aimais bien !"
 	dc.b	$FD
-	dc.b	"Oh? Hé! Toi, je parle de toi!"
+	dc.b	"Oh ? Hé ! Toi, je parle de toi !"
 	dc.b	$FC
-	dc.b	"Tu as déménagé, ou quoi?"
+	dc.b	"Tu as déménagé, ou quoi ? "
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$09
-	dc.b	"Mes blagues étaient tellement"
+	dc.b	"Mes blagues étaient tellement bonnes que"
 	dc.b	$FC
-	dc.b	"bonnes que j'ai dû partir! Haha!"
+	dc.b	"j'ai dû partir ! Haha !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Ouais, et ça risque d'arriver"
+	dc.b	"Ouais, et ça risque d'arriver de nouveau"
 	dc.b	$FC
-	dc.b	"de nouveau avec nous..."
+	dc.b	"avec nous..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
@@ -268,47 +246,41 @@
 	dc.b	$FF
 
 ; $18
-	dc.b	"À propos du temple, il y a un"
+	dc.b	"À propos du temple, il y a un moment,"
 	dc.b	$FC
-	dc.b	"moment, il y avait un homme qui"
+	dc.b	"il y avait un homme qui n'arrêtait pas"
 	dc.b	$FD
-	dc.b	"n'arrêtait pas de conter des"
-	dc.b	$FC
-	dc.b	"blagues stupides."
+	dc.b	"de conter des blagues stupides."
 	dc.b	$FD
-	dc.b	"Il y a un moment que je ne l'ai"
+	dc.b	"Il y a un moment que je ne l'ai vu,"
 	dc.b	$FC
-	dc.b	"vu, mais je l'aimais bien!"
+	dc.b	"mais je l'aimais bien !"
 	dc.b	$FF
 
 ; $19
-	dc.b	"Vous avez entendu la rumeur?"
+	dc.b	"Vous avez entendu la rumeur ? "
 	dc.b	$FD
-	dc.b	"Le Temple Gumbious aurait"
+	dc.b	"Le Temple Gumbious aurait disparu !"
 	dc.b	$FC
-	dc.b	"disparu! C'est impossible, non?"
+	dc.b	"C'est impossible, non ?"
 	dc.b	$FF
 
 ; $1A
 	dc.b	$FA
 	dc.b	$A1, $01
-	dc.b	"Dans l'arrière salle du Temple"
+	dc.b	"Dans l'arrière salle du Temple Gumbious,"
 	dc.b	$FC
-	dc.b	"Gumbious, il y a un grand"
+	dc.b	"il y a un grand archevêque qui vit depuis"
 	dc.b	$FD
-	dc.b	"archevêque qui vit depuis plus"
-	dc.b	$FC
-	dc.b	"de mille ans..."
+	dc.b	"plus de mille ans..."
 	dc.b	$FD
-	dc.b	"Je veux dire, je ne l'ai jamais"
+	dc.b	"Je veux dire, je ne l'ai jamais rencontré,"
 	dc.b	$FC
-	dc.b	"rencontré, mais c'est la rumeur."
+	dc.b	"mais c'est la rumeur."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Ouais...J'ai déjà entendu cette"
-	dc.b	$FC
-	dc.b	"rumeur..."
+	dc.b	"Ouais...J'ai déjà entendu cette rumeur..."
 	dc.b	$FF
 
 ; $1B
@@ -316,61 +288,53 @@
 	dc.b	$FC
 	dc.b	"J'ai entendu qu'il a disparu."
 	dc.b	$FD
-	dc.b	"Est-ce vrai?"
+	dc.b	"Est-ce vrai ?"
 	dc.b	$FF
 
 ; $1C
 	dc.b	$FA
 	dc.b	$A1, $01
-	dc.b	"J'ai pitié du temple au centre"
+	dc.b	"J'ai pitié du temple au centre de la ville."
 	dc.b	$FC
-	dc.b	"de la ville. Il se porte mal"
+	dc.b	"Il se porte mal à cause de la proximité"
 	dc.b	$FD
-	dc.b	"à cause de la proximité du"
-	dc.b	$FC
-	dc.b	"Temple Gumbious."
+	dc.b	"du Temple Gumbious."
 	dc.b	$FF
 
 ; $1D
-	dc.b	"Comment! Le Temple Gumbious...!"
+	dc.b	"Comment ! Le Temple Gumbious... !"
 	dc.b	$FC
-	dc.b	"C'est...une blague, non?"
+	dc.b	"C'est... une blague, non ?"
 	dc.b	$FF
 
 ; $1E
-	dc.b	"Même nous Dezolisiens hésitons"
+	dc.b	"Même nous Dezolisiens hésitons à sortir"
 	dc.b	$FC
-	dc.b	"à sortir lors d'une telle"
+	dc.b	"lors d'une telle tempête."
 	dc.b	$FD
-	dc.b	"tempête."
-	dc.b	$FD
-	dc.b	"Quoi qu'il semble que certains"
+	dc.b	"Quoi qu'il semble que certains d'entre"
 	dc.b	$FC
-	dc.b	"d'entre nous sont plutôt"
-	dc.b	$FD
-	dc.b	"téméraires!"
+	dc.b	"nous sont plutôt téméraires !"
 	dc.b	$FF
 
 ; $1F
 	dc.b	$FA
 	dc.b	$A1, $01
-	dc.b	"Nous sommes fiers d'avoir la"
+	dc.b	"Nous sommes fiers d'avoir la seule"
 	dc.b	$FC
-	dc.b	"seule maison à étage de toute"
+	dc.b	"maison à étage de toute cette ville !"
 	dc.b	$FD
-	dc.b	"cette ville!"
-	dc.b	$FD
-	dc.b	"Par contre, avec ce vent, c'est"
+	dc.b	"Par contre, avec ce vent, c'est un peu"
 	dc.b	$FC
-	dc.b	"un peu préoccupant."
+	dc.b	"préoccupant."
 	dc.b	$FD
-	dc.b	"Est-ce que tout tiendra?"
+	dc.b	"Est-ce que tout tiendra ?"
 	dc.b	$FF
 
 ; $20
-	dc.b	"Cette maison a survécu, je"
+	dc.b	"Cette maison a survécu, je ne sais"
 	dc.b	$FC
-	dc.b	"ne sais comment."
+	dc.b	"comment."
 	dc.b	$FF
 
 ; $21
@@ -382,67 +346,59 @@
 	dc.b	$FF
 
 ; $22
-	dc.b	"Pardon?"
+	dc.b	"Pardon? "
 	dc.b	$FD
-	dc.b	"Oui, il y avait du vacarme"
+	dc.b	"Oui, il y avait du vacarme à l'extérieur,"
 	dc.b	$FC
-	dc.b	"à l'extérieur, mais je ne suis"
-	dc.b	$FD
-	dc.b	"pas au courant."
+	dc.b	"mais je ne suis pas au courant."
 	dc.b	$FF
 
 ; $23
 	dc.b	$FA
 	dc.b	$A1, $01
-	dc.b	"Vous croyez pouvoir simplement"
+	dc.b	"Vous croyez pouvoir simplement ouvrir"
 	dc.b	$FC
-	dc.b	"ouvrir la porte et entrer?"
+	dc.b	"la porte et entrer ?"
 	dc.b	$FD
-	dc.b	"Bon, parce que j'ai bon coeur,"
+	dc.b	"Bon, parce que j'ai bon coeur, je vous"
 	dc.b	$FC
-	dc.b	"je vous laisse entrer."
+	dc.b	"laisse entrer."
 	dc.b	$FD
-	dc.b	"Mais comme vous êtes ceux qui"
+	dc.b	"Mais comme vous êtes ceux qui ont"
 	dc.b	$FC
-	dc.b	"ont ouvert la porte, auriez-vous"
+	dc.b	"ouvert la porte, auriez-vous l'obligeance"
 	dc.b	$FD
-	dc.b	"l'obligeance de la refermer?"
+	dc.b	"de la refermer ?"
 	dc.b	$FC
-	dc.b	"Il fait froid dehors!"
+	dc.b	"Il fait froid dehors !"
 	dc.b	$FF
 
 ; $24
-	dc.b	"Non, je n'accepterai pas vos"
-	dc.b	$FC
-	dc.b	"excuses!"
+	dc.b	"Non, je n'accepterai pas vos excuses !"
 	dc.b	$FD
-	dc.b	"Comment osez-vous ouvrir ma"
+	dc.b	"Comment osez-vous ouvrir ma porte et"
 	dc.b	$FC
-	dc.b	"porte et entrer chez moi ainsi"
-	dc.b	$FD
-	dc.b	"de nouveau!"
+	dc.b	"entrer chez moi ainsi de nouveau !"
 	dc.b	$FF
 
 ; $25
 	dc.b	$FA
 	dc.b	$A1, $01
 	dc.b	$F3
-	dc.b	"Calme toi!"
+	dc.b	"Calme toi !"
 	dc.b	$FC
-	dc.b	"Tu es trop colérique!"
+	dc.b	"Tu es trop colérique !"
 	dc.b	$FF
 
 ; $26
 	dc.b	$F3
-	dc.b	"Calme toi!"
+	dc.b	"Calme toi !"
 	dc.b	$FC
-	dc.b	"Tu es trop colérique!"
+	dc.b	"Tu es trop colérique !"
 	dc.b	$FD
-	dc.b	"Les gens à l'humeur changeante"
+	dc.b	"Les gens à l'humeur changeante ne sont"
 	dc.b	$FC
-	dc.b	"ne sont pas pris au sérieux"
-	dc.b	$FD
-	dc.b	"par quiconque!"
+	dc.b	"pas pris au sérieux par quiconque !"
 	dc.b	$FF
 
 ; $27
@@ -450,37 +406,29 @@
 	dc.b	$A1, $02
 	dc.b	$FA
 	dc.b	$95, $01
-	dc.b	"On dit qu'une flamme sacrée"
+	dc.b	"On dit qu'une flamme sacrée brûle au"
 	dc.b	$FC
-	dc.b	"brûle au Temple Gumbious et"
-	dc.b	$FD
-	dc.b	"nous protège."
+	dc.b	"Temple Gumbious et nous protège."
 	dc.b	$FD
 	dc.b	"On dit aussi qu'elle brûle sans"
 	dc.b	$FC
-	dc.b	"interruption depuis des"
-	dc.b	$FD
-	dc.b	"millénaires."
+	dc.b	"interruption depuis des millénaires."
 	dc.b	$FF
 
 ; $28
-	dc.b	"On dit qu'une flamme sacrée"
+	dc.b	"On dit qu'une flamme sacrée brûle au"
 	dc.b	$FC
-	dc.b	"brûle au Temple Gumbious et"
-	dc.b	$FD
-	dc.b	"nous protège."
+	dc.b	"Temple Gumbious et nous protège."
 	dc.b	$FD
 	dc.b	"On dit aussi qu'elle brûle sans"
 	dc.b	$FC
-	dc.b	"interruption depuis des"
-	dc.b	$FD
-	dc.b	"millénaires."
+	dc.b	"interruption depuis des millénaires."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"Wow!"
+	dc.b	"Wow !"
 	dc.b	$FC
-	dc.b	"C'est romantique!"
+	dc.b	"C'est romantique !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
@@ -490,17 +438,17 @@
 	dc.b	$FF
 
 ; $29
-	dc.b	"Je me demande si la flamme"
+	dc.b	"Je me demande si la flamme sacrée est en"
 	dc.b	$FC
-	dc.b	"sacrée est en sécurité?"
+	dc.b	"sécurité ?"
 	dc.b	$FF
 
 ; $2A
 	dc.b	$FA
 	dc.b	$A1, $01
-	dc.b	"Une flamme sacrée qui brûle"
+	dc.b	"Une flamme sacrée qui brûle depuis des"
 	dc.b	$FC
-	dc.b	"depuis des millénaires?"
+	dc.b	"millénaires ?"
 	dc.b	$FD
 	dc.b	"...Ça n'existe pas."
 	dc.b	$FC
@@ -508,109 +456,97 @@
 	dc.b	$FF
 
 ; $2B
-	dc.b	"Le Temple Gumbious a disparu?"
+	dc.b	"Le Temple Gumbious a disparu ?"
 	dc.b	$FD
-	dc.b	"Je vous ai dit de ne pas croire"
+	dc.b	"Je vous ai dit de ne pas croire tout ce"
 	dc.b	$FC
-	dc.b	"tout ce qu'on dit."
+	dc.b	"qu'on dit."
 	dc.b	$FF
 
 ; $2C
 	dc.b	$FA
 	dc.b	$A1, $01
-	dc.b	"Sieurs, le Temple Gumbious est"
+	dc.b	"Sieurs, le Temple Gumbious est près d'ici,"
 	dc.b	$FC
-	dc.b	"près d'ici, au nord..."
+	dc.b	"au nord..."
 	dc.b	$FD
-	dc.b	"Personne n'entre dans ce temple,"
+	dc.b	"Personne n'entre dans ce temple, mais"
 	dc.b	$FC
-	dc.b	"mais pour vous ça ira."
+	dc.b	"pour vous ça ira."
 	dc.b	$FD
 	dc.b	"Un fidèle vous accompagne."
 	dc.b	$FF
 
 ; $2D
-	dc.b	"Le Temple Gumbious a disparu?"
+	dc.b	"Le Temple Gumbious a disparu ?"
 	dc.b	$FD
 	dc.b	"Bonté divine..."
 	dc.b	$FD
 	dc.b	"Cela ne doit pas nous ébranler."
 	dc.b	$FC
-	dc.b	"C'est dans ces moments que je"
+	dc.b	"C'est dans ces moments que je dois être"
 	dc.b	$FD
-	dc.b	"dois être fort et solide!"
+	dc.b	"fort et solide !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Vous devez être un merveilleux"
-	dc.b	$FC
-	dc.b	"prêtre."
+	dc.b	"Vous devez être un merveilleux prêtre."
 	dc.b	$FF
 
 ; $2E
 	dc.b	$FA
 	dc.b	$A1, $01
-	dc.b	"Le temple est merveilleux, mais"
+	dc.b	"Le temple est merveilleux, mais la cha-"
 	dc.b	$FC
-	dc.b	"la chapelle du village a aussi"
-	dc.b	$FD
-	dc.b	"son importance."
+	dc.b	"pelle du village a aussi son importance."
 	dc.b	$FF
 
 ; $2F
-	dc.b	"Que diable?"
+	dc.b	"Que diable ?"
 	dc.b	$FF
 
 ; $30
 	dc.b	$FA
 	dc.b	$A1, $01
-	dc.b	"La prière quotidienne est"
+	dc.b	"La prière quotidienne est primordiale"
 	dc.b	$FC
-	dc.b	"primordiale pour nous"
-	dc.b	$FD
-	dc.b	"Dezolisiens."
+	dc.b	"pour nous Dezolisiens."
 	dc.b	$FF
 
 ; $31
-	dc.b	"Le Temple Gumbious?"
+	dc.b	"Le Temple Gumbious ?"
 	dc.b	$FD
-	dc.b	"Un tel sacriliège est"
-	dc.b	$FC
-	dc.b	"inconcevable!"
+	dc.b	"Un tel sacriliège est inconcevable !"
 	dc.b	$FD
 	dc.b	"Ouiiiin..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Calmez-vous! Ressaisissez-vous!"
+	dc.b	"Calmez-vous ! Ressaisissez-vous !"
 	dc.b	$FF
 
 ; $32
-	dc.b	"Il se passe plein de choses"
+	dc.b	"Il se passe plein de choses étranges sur"
 	dc.b	$FC
-	dc.b	"étranges sur cette planète!"
+	dc.b	"cette planète !"
 	dc.b	$FD
-	dc.b	"Que diable nous réserve"
-	dc.b	$FC
-	dc.b	"l'avenir?"
+	dc.b	"Que diable nous réserve l'avenir ?"
 	dc.b	$FF
 
 ; $33
-	dc.b	"Tout ce qui nous reste à faire,"
+	dc.b	"Tout ce qui nous reste à faire, c'est de"
 	dc.b	$FC
-	dc.b	"c'est de prier."
+	dc.b	"prier."
 	dc.b	$FD
-	dc.b	"C'est plutôt déprimant...Quand"
+	dc.b	"C'est plutôt déprimant... Quand on"
 	dc.b	$FC
-	dc.b	"on réalise le peu d'influence"
+	dc.b	"réalise le peu d'influence que nous"
 	dc.b	$FD
-	dc.b	"que nous avons sur notre propre"
-	dc.b	$FC
-	dc.b	"existence."
+	dc.b	"avons sur notre propre existence."
 	dc.b	$FF
 
 ; $34
-	dc.b	"Oh, puisse Dezolis être sauvée!"
+	dc.b	"Oh, puisse Dezolis être sauvée !"
 	dc.b	$FF
 
 ; $35
@@ -643,27 +579,21 @@
 ; $3E
 	dc.b	$FA
 	dc.b	$A1, $01
-	dc.b	"Non, ce n'est pas que les"
+	dc.b	"Non, ce n'est pas que les Dezolisiens et"
 	dc.b	$FC
-	dc.b	"Dezolisiens et Parmaniens ne"
+	dc.b	"Parmaniens ne s'entendent pas..."
 	dc.b	$FD
-	dc.b	"s'entendent pas..."
-	dc.b	$FD
-	dc.b	"Nous ne nous mélangeons pas"
+	dc.b	"Nous ne nous mélangeons pas parce que"
 	dc.b	$FC
-	dc.b	"parce que nos modes de vie"
+	dc.b	"nos modes de vie diffèrent en raison de"
 	dc.b	$FD
-	dc.b	"diffèrent en raison de nos"
-	dc.b	$FC
-	dc.b	"croyances religieuses."
+	dc.b	"nos croyances religieuses."
 	dc.b	$FF
 
 ; $3F
 	dc.b	"Vous ne comprendrez jamais le"
 	dc.b	$FC
-	dc.b	"traumatisme que nous avons"
-	dc.b	$FD
-	dc.b	"subi!"
+	dc.b	"traumatisme que nous avons subi !"
 	dc.b	$FF
 ;; Local Variables:
 ;; eval: (fci-mode)
