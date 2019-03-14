@@ -63,13 +63,13 @@
 	dc.b	$FC
 	dc.b	"pas m'appeler ainsi ? C'est totalement"
 	dc.b	$FD
-	dc.b	"ridicule!"
+	dc.b	"ridicule !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
 	dc.b	"Ouais, c'est vraiment ridicule !"
 	dc.b	$FC
-	dc.b	"Ouille! Alys, pourquoi me frappez-vous ?!"
+	dc.b	"Ouille  Alys, pourquoi me frappez-vous ?!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
@@ -140,11 +140,9 @@
 	dc.b	$FC
 	dc.b	"ville."
 	dc.b	$FD
-	dc.b	"Juste derrière, c'est la Guilde des"
+	dc.b	"Juste derrière, c'est la Guilde des Chas-"
 	dc.b	$FC
-	dc.b	"Chasseurs. C'est une grande ville,"
-	dc.b	$FD
-	dc.b	"n'est-ce pas ?"
+	dc.b	"seurs. C'est une grande ville, non ?"
 	dc.b	$FF
 
 ; $A
@@ -396,7 +394,7 @@
 
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Heu...de quoi voulait-il parler ?"
+	dc.b	"Heu... de quoi voulait-il parler ?"
 	dc.b	$FC
 	dc.b	"Quel minable !"
 	dc.b	$FD
@@ -451,7 +449,7 @@
 	dc.b	$FF
 
 ; $40
-	dc.b	"Rocky, il est...eh bien, il est vraiment"
+	dc.b	"Rocky, il est... eh bien, il est vraiment"
 	dc.b	$FC
 	dc.b	"très têtu et enveloppé."
 	dc.b	$FD
@@ -461,7 +459,7 @@
 	dc.b	$FC
 	dc.b	"autant de poids."
 	dc.b	$FD
-	dc.b	"...Ce n'est pas vraiment un indice utile,"
+	dc.b	"... Ce n'est pas vraiment un indice utile,"
 	dc.b	$FC
 	dc.b	"n'est-ce pas ?"
 	dc.b	$FD
@@ -576,7 +574,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Elle...Elle m'a appelé Monsieur !"
+	dc.b	"Elle... Elle m'a appelé Monsieur !"
 	dc.b	$FD
 	dc.b	"C'est comme si quelque chose de mauvais"
 	dc.b	$FC
@@ -685,9 +683,9 @@
 	dc.b	"C'est très généreux de votre part !"
 	dc.b	$FD
 	dc.b	"Ouaip, toute la somme est payée !"
-	dc.b	$FC
-	dc.b	"Je vais laisser la cellule ouverte,"
 	dc.b	$FD
+	dc.b	"Je vais laisser la cellule ouverte,"
+	dc.b	$FC
 	dc.b	"vous pouvez aller les chercher."
 	dc.b	$FF
 
@@ -710,7 +708,7 @@
 ; $56
 	dc.b	$FA
 	dc.b	$42, $01
-	dc.b	"Hé, Alys, espèce de...!"
+	dc.b	"Hé, Alys, espèce de... !"
 	dc.b	$FC
 	dc.b	"C'est à cause de toi que je croupis ici !"
 	dc.b	$FF
@@ -796,20 +794,20 @@
 	dc.b	$FC
 	dc.b	"magasins, mais nous avons manqué de"
 	dc.b	$FD
-	dc.b	"retenue. Alors, on n'avait plus d'argent"
-	dc.b	$FC
-	dc.b	"pour payer la chambre, et on nous a"
+	dc.b	"retenue."
 	dc.b	$FD
-	dc.b	"arrêtées."
+	dc.b	"Alors, on n'avait plus d'argent pour"
 	dc.b	$FC
+	dc.b	"payer la chambre, et on nous a arrêtées."
+	dc.b	$FD
 	dc.b	"C'est vrai ? Mes parents nous demandent"
-	dc.b	$FD
+	dc.b	$FC
 	dc.b	"de Uzo ? Sérieusement ?"
-	dc.b	$FC
-	dc.b	"Mais avec le garde qui surveille en"
 	dc.b	$FD
-	dc.b	"permanence..."
+	dc.b	"Mais avec le garde qui surveille en"
 	dc.b	$FC
+	dc.b	"permanence..."
+	dc.b	$FD
 	dc.b	"Comment retourner à la maison ?"
 	dc.b	$FF
 

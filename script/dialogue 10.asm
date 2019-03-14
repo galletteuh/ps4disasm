@@ -191,9 +191,9 @@
 	dc.b	$FD
 	dc.b	"Ah..."
 	dc.b	$FD
-	dc.b	"Non...pas ça..."
+	dc.b	"Non... pas ça..."
 	dc.b	$FD
-	dc.b	"Je...je ne dois pas bien filer aujourd'hui."
+	dc.b	"Je... je ne dois pas bien filer aujourd'hui."
 	dc.b	$FC
 	dc.b	"Revenez me voir un autre jour."
 	dc.b	$FF
@@ -279,7 +279,7 @@
 	dc.b	$FC
 	dc.b	"toujours..."
 	dc.b	$FD
-	dc.b	"Que...que devons-nous faire ?"
+	dc.b	"Que... que devons-nous faire ?"
 	dc.b	$FF
 
 ; $27
@@ -511,7 +511,7 @@
 ; $3B
 	dc.b	"Vous m'accusez ? De quoi ?"
 	dc.b	$FC
-	dc.b	"Soyez...soyez sérieux !"
+	dc.b	"Soyez... soyez sérieux !"
 	dc.b	$FF
 
 ; $3C
