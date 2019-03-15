@@ -704,9 +704,9 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Va savoir ! Leur message disait seulement,"
+	dc.b	"Va savoir ! Leur message disait"
 	dc.b	$FC
-	dc.b	"« Venez vite. »"
+	dc.b	"seulement, « Venez vite. »"
 	dc.b	$FD
 	dc.b	"Nous demanderons plus de détails sur"
 	dc.b	$FC
