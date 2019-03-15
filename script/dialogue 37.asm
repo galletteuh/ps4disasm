@@ -188,7 +188,7 @@
 	dc.b	$01
 	dc.b	"Ouais... Je me demande s'il y a un autre"
 	dc.b	$FC
-	dc.b	"moyen de les vaincre?"
+	dc.b	"moyen de les vaincre ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
@@ -284,7 +284,7 @@
 	dc.b	$FD
 	dc.b	"Nous devons tenter d'obtenir une"
 	dc.b	$FC
-	dc.b	"audience avec Lutz!"
+	dc.b	"audience avec Lutz !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
@@ -396,11 +396,11 @@
 	dc.b	$FC
 	dc.b	"cette porte !"
 	dc.b	$FD
-	dc.b	"Même si c'est le souhait de Lutz de prêter"
+	dc.b	"Même si c'est le souhait de Lutz de"
 	dc.b	$FC
-	dc.b	"le Flambeau à la légère, je ne peux pas"
+	dc.b	"prêter le Flambeau à la légère, je ne"
 	dc.b	$FD
-	dc.b	"vous aider !"
+	dc.b	"peux pas vous aider !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
@@ -410,7 +410,7 @@
 	dc.b	$FD
 	dc.b	"Le sort du système Algo tout entier"
 	dc.b	$FC
-	dc.b	"dépend de cela!"
+	dc.b	"dépend de cela !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$1A
@@ -455,7 +455,7 @@
 	dc.b	$1F
 	dc.b	"Tu sais qui t'attends avec impatience"
 	dc.b	$FC
-	dc.b	"dans le Air Castle!"
+	dc.b	"dans le Air Castle !"
 	dc.b	$F7
 	
 	dc.b	$F4
@@ -756,13 +756,13 @@
 	dc.b	$04
 	dc.b	"Le premier Lutz a rangé l'Aero-Prisme"
 	dc.b	$FC
-	dc.b	"au Temple des Soldats!"
+	dc.b	"au Temple des Soldats !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
 	dc.b	"Ah, le temple sur l'île, au milieu du lac,"
 	dc.b	$FC
-	dc.b	"près de Krup!"
+	dc.b	"près de Krup !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08

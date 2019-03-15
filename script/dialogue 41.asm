@@ -91,11 +91,11 @@
 ; $7
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Comment? Alys..."
+	dc.b	"Comment ? Alys..."
 	dc.b	$FC
 	dc.b	"Tu es ici ? Sur Rykros ?"
 	dc.b	$FD
-	dc.b	"Alys? Alys !"
+	dc.b	"Alys ? Alys !"
 	dc.b	$FD
 	dc.b	"Hé ! Réponds-moi !"
 	dc.b	$FC
@@ -209,11 +209,11 @@
 	dc.b	$01
 	dc.b	"Même si je gagnais grâce à ce pouvoir,"
 	dc.b	$FC
-	dc.b	"à quoi bon?"
+	dc.b	"à quoi bon ?"
 	dc.b	$FD
 	dc.b	"Cela ferait de moi une personne guère"
 	dc.b	$FC
-	dc.b	"mieux que la Noirceur!"
+	dc.b	"mieux que la Noirceur !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$23

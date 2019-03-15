@@ -196,7 +196,7 @@
 	dc.b	$FD
 	dc.b	"Quand j'étais au Bio-labo, j'ai souvent"
 	dc.b	$FC
-	dc.b	"communiqué avec lui!"
+	dc.b	"communiqué avec lui !"
 	dc.b	$FD
 	dc.b	"Par contre, depuis il y a environ six"
 	dc.b	$FC

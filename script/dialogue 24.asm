@@ -213,7 +213,7 @@
 	dc.b	$FC
 	dc.b	"qu'il en était au point d'être renié"
 	dc.b	$FD
-	dc.b	"par les autres villageois!"
+	dc.b	"par les autres villageois !"
 	dc.b	$FF
 
 ; $22

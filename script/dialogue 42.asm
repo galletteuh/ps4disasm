@@ -3,7 +3,7 @@
 ; 0
 	dc.b	$F4
 	dc.b	$0B
-	dc.b	"Hein? Vous êtes là pour voir les ruines ?"
+	dc.b	"Hein ? Vous êtes là pour voir les ruines ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
@@ -735,7 +735,7 @@
 	dc.b	$04
 	dc.b	"Adieu, Chaz..."
 	dc.b	$FC
-	dc.b	"Portes-toi bien!"
+	dc.b	"Portes-toi bien !"
 	dc.b	$FD
 	dc.b	$F7
 

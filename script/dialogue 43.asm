@@ -171,7 +171,7 @@
 	dc.b	$FD
 	dc.b	"Motavia tomberait entièrement sous leur"
 	dc.b	$FC
-	dc.b	"contrôle!"
+	dc.b	"contrôle !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
@@ -203,9 +203,9 @@
 	dc.b	$FC
 	dc.b	"fille -- Daughter."
 	dc.b	$FD
-	dc.b	"Comme protectrice d'Algo, je suis chargée"
+	dc.b	"Comme protectrice d'Algo, je suis"
 	dc.b	$FC
-	dc.b	"d'assurer la loi et l'ordre..."
+	dc.b	"chargée d'assurer la loi et l'ordre..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
@@ -235,7 +235,7 @@
 	dc.b	$FD
 	dc.b	"Est-ce toi qui a envoyé ces androïdes"
 	dc.b	$FC
-	dc.b	"à Zema et au Système Tectonique?"
+	dc.b	"à Zema et au Système Tectonique ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$00
@@ -327,11 +327,11 @@
 	dc.b	$FC
 	dc.b	"objectif était de stabiliser les systèmes"
 	dc.b	$FD
-	dc.b	"de contrôle environnementaux du système"
+	dc.b	"de contrôle environnementaux du"
 	dc.b	$FC
-	dc.b	"Algo, fut construit sur le satellite"
+	dc.b	"système Algo, fut construit sur le"
 	dc.b	$FD
-	dc.b	"artificiel Zelan."
+	dc.b	"satellite artificiel Zelan."
 	dc.b	$FD
 	dc.b	"Moi, Wren, suis responsable de la gestion"
 	dc.b	$FC
@@ -353,7 +353,7 @@
 	dc.b	$FD
 	dc.b	"tu crée le désordre dans mon système,"
 	dc.b	$FC
-	dc.b	"c'est exact?"
+	dc.b	"c'est exact ?"
 	dc.b	$FD
 	dc.b	$F2, $03
 	dc.b	$A9
@@ -632,7 +632,7 @@
 	dc.b	$FD
 	dc.b	"Quel conception magnifiquement"
 	dc.b	$FC
-	dc.b	"fonctionnelle! "
+	dc.b	"fonctionnelle ! "
 	dc.b	$FD
 	dc.b	"Ne le trouvez-vous pas complètement"
 	dc.b	$FC
@@ -679,7 +679,7 @@
 ; $10
 	dc.b	"Pour la dernière fois, je te le répète,"
 	dc.b	$FC
-	dc.b	"non, tu ne peux pas aller jouer dehors!"
+	dc.b	"non, tu ne peux pas aller jouer dehors !"
 	dc.b	$FF
 ;; Local Variables:
 ;; eval: (fci-mode)

@@ -123,7 +123,7 @@
 	dc.b	$06
 	dc.b	"Demi a du déduire que Zelan était la"
 	dc.b	$FC
-	dc.b	"source du problème!"
+	dc.b	"source du problème !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
@@ -482,7 +482,7 @@
 	dc.b	$01
 	dc.b	"Ouaip ! On a gagné !"
 	dc.b	$FD
-	dc.b	"OK, Wren! Ramène Kuran à la normale !"
+	dc.b	"OK, Wren ! Ramène Kuran à la normale !"
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$008F
@@ -721,7 +721,7 @@
 	dc.b	$01
 	dc.b	"... Pourquoi tu ne nous dis"
 	dc.b	$FC
-	dc.b	"jamais ces choses là plus tôt?"
+	dc.b	"jamais ces choses là plus tôt ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08

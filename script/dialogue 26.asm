@@ -273,7 +273,7 @@
 	dc.b	$FD
 	dc.b	"Le cachet est de 5000 meseta."
 	dc.b	$FC
-	dc.b	"Vous êtes preneur?"
+	dc.b	"Vous êtes preneur ?"
 	dc.b	$F5
 	dc.b	$01, $00
 	dc.b	"Je vois."

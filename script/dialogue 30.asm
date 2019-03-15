@@ -705,7 +705,7 @@
 	dc.b	$01
 	dc.b	"Un grand miroir. Ça aussi, c'est neuf, poli"
 	dc.b	$FC
-	dc.b	"et brillant!"
+	dc.b	"et brillant !"
 	dc.b	$FF
 
 ; $50

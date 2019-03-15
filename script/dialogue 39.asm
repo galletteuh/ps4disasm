@@ -511,7 +511,7 @@
 	dc.b	$04
 	dc.b	"Bon, Chaz, dépêchons-nous d'aller au"
 	dc.b	$FC
-	dc.b	"Temple des Soldats!"
+	dc.b	"Temple des Soldats !"
 	dc.b	$FD
 	dc.b	$F2, $01
 	dc.b	$F2, $00
@@ -544,7 +544,7 @@
 	dc.b	$01
 	dc.b	"Bon, alors, direction, le Temple des"
 	dc.b	$FC
-	dc.b	"Soldats!"
+	dc.b	"Soldats !"
 	dc.b	$FF
 
 ; $18
@@ -569,7 +569,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Pouvez-vous le mettre sur l'écran?"
+	dc.b	"Pouvez-vous le mettre sur l'écran ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
@@ -603,7 +603,7 @@
 	dc.b	$0A
 	dc.b	"Ooooh, est-ce que tu commences à avoir"
 	dc.b	$FC
-	dc.b	"un peu peur?  Hein, Chaz ?"
+	dc.b	"un peu peur ?  Hein, Chaz ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01

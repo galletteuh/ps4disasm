@@ -599,7 +599,7 @@
 	dc.b	$01
 	dc.b	"C'est identique à ce qu'on a trouvé au"
 	dc.b	$FC
-	dc.b	"sous-sol de l'académie!"
+	dc.b	"sous-sol de l'académie !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
@@ -649,7 +649,7 @@
 	dc.b	$01
 	dc.b	"« Un plus un, font... »"
 	dc.b	$FC
-	dc.b	"C'est mignon!"
+	dc.b	"C'est mignon !"
 	dc.b	$FF
 
 ; $51

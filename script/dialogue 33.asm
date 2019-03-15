@@ -183,7 +183,7 @@
 	dc.b	$F3
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Hum! Je me demande à quoi ressemble le"
+	dc.b	"Hum ! Je me demande à quoi ressemble le"
 	dc.b	$FC
 	dc.b	"le chasseur que le directeur a retenu ?"
 	dc.b	$FD
@@ -285,7 +285,7 @@
 	dc.b	$FD
 	dc.b	"Et, comme par hasard, cette épidémie de"
 	dc.b	$FC
-	dc.b	"monstres se déclare!"
+	dc.b	"monstres se déclare !"
 	dc.b	$FD
 	dc.b	"Je vous parie qu'il y a un lien entre"
 	dc.b	$FC
@@ -518,7 +518,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Oh, que oui! Grâce à ça, je ne manque pas"
+	dc.b	"Oh, que oui ! Grâce à ça, je ne manque pas"
 	dc.b	$FC
 	dc.b	"de boulot ces temps-ci."
 	dc.b	$FD
@@ -670,7 +670,7 @@
 	dc.b	$03
 	dc.b	"Il faut que je sauve le professeur !"
 	dc.b	$FC
-	dc.b	"J'irai à la Vallée!"
+	dc.b	"J'irai à la Vallée !"
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$0009

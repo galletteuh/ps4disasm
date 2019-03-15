@@ -91,7 +91,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Le Roof!"
+	dc.b	"Le Roof !"
 	dc.b	$FD
 	dc.b	"Nous avons fait tout ce chemin pour en"
 	dc.b	$FC
@@ -207,9 +207,9 @@
 	dc.b	$FF
 
 ; $B
-	dc.b	"Protecteurs, vous avez rempli entièrement"
+	dc.b	"Protecteurs, vous avez rempli"
 	dc.b	$FC
-	dc.b	"votre mission."
+	dc.b	"entièrement votre mission."
 	dc.b	$FD
 	dc.b	"Vous avez fait vos preuves. Je vais vous"
 	dc.b	$FC
@@ -482,7 +482,9 @@
 	dc.b	$01
 	dc.b	"J'ai écouté patiemment, et tout ce que"
 	dc.b	$FC
-	dc.b	"vous avez en bouche, c'est cette mission!"
+	dc.b	"vous avez en bouche, c'est cette"
+	dc.b	$FD
+	dc.b	"foutue mission !"
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$0121

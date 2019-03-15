@@ -347,7 +347,7 @@
 	dc.b	$FC
 	dc.b	"pas en profiter pour se débarasser de"
 	dc.b	$FD
-	dc.b	"cet horrible Zio!"
+	dc.b	"cet horrible Zio !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$05

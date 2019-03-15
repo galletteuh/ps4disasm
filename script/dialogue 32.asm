@@ -435,9 +435,9 @@
 	dc.b	$01, $02
 	dc.b	"Rune..."
 	dc.b	$FD
-	dc.b	"Que diable penses-tu que nous trouverons"
+	dc.b	"Que diable penses-tu que nous"
 	dc.b	$FC
-	dc.b	"au Manoir Esper ?"
+	dc.b	"trouverons au Manoir Esper ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04, $00
@@ -453,7 +453,7 @@
 	dc.b	$01, $00
 	dc.b	"« Fais Face à Elsydeon »..."
 	dc.b	$FC
-	dc.b	"Qu'est-ce que ça signifie?"
+	dc.b	"Qu'est-ce que ça signifie ?"
 	dc.b	$FF
 
 ; $2B

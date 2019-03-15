@@ -247,7 +247,7 @@
 	dc.b	$FC
 	dc.b	"à mesure que je la regarde."
 	dc.b	$FD
-	dc.b	"On dirait que mon coeur est purifié!"
+	dc.b	"On dirait que mon coeur est purifié !"
 	dc.b	$FF
 
 ; $1C

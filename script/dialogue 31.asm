@@ -25,7 +25,7 @@
 	dc.b	$01, $01
 	dc.b	"Alors, il y aurait des monstres dans le"
 	dc.b	$FC
-	dc.b	"sous-sol de l'académie?"
+	dc.b	"sous-sol de l'académie ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02, $00

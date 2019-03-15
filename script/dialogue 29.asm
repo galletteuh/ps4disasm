@@ -860,7 +860,7 @@
 	dc.b	$01
 	dc.b	"La caisse de l'auberge est laissée à tout"
 	dc.b	$FC
-	dc.b	"vent. C'est plutôt imprudent!"
+	dc.b	"vent. C'est plutôt imprudent !"
 	dc.b	$FF
 
 ; $B9
@@ -872,7 +872,7 @@
 	dc.b	$FC
 	dc.b	"d'interruption vers Nurvus à partir de"
 	dc.b	$FD
-	dc.b	"ce terminal?"
+	dc.b	"ce terminal ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$07
@@ -1106,7 +1106,7 @@
 ; $D7
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Wow!"
+	dc.b	"Wow !"
 	dc.b	$FD
 	dc.b	"Ça fait combien de temps que personne"
 	dc.b	$FC
