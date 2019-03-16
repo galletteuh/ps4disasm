@@ -1898,7 +1898,7 @@ Command_Defense  = 5
 
 
 WindowSize_CombatTransient = $13	; width of "Cannot flee!"/"Surprise Attack!" window
-Title_ScrollDelay = $2E				; number of lines to show for scrolling title text
+Title_ScrollDelay = $2D				; number of lines to show for scrolling title text
 Hunter_guild_cursor_x = $100		; X position of red cursor (pixels) for Hunter's guild window
 
 ; ---------------------------------------------------------------------------
