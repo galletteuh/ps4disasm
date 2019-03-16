@@ -8,6 +8,7 @@ var_width_fonts = 1		; if 1, use variable width fonts
 original_diafont = 0		; if 1, use original diafont with a dash that's too high
 translator_credits = 1		; if 1, include translator's credits as extra pages
 raja_plainfrench = 0		; if 1, use alternate dialogue for Gyuna
+lasersword_easteregg = 1	; guess :)
 
 ;; individual bugfixes
 	if bugfixes = 1
