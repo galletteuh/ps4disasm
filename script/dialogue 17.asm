@@ -730,15 +730,15 @@
 	dc.b	$FF
 
 ; $3A
-	dc.b	"2284 AW. L'épidémie de monstres"
+	dc.b	"2284 AW. L'épidémie de monstres favorise"
 	dc.b	$FF
 
 ; $3B
-	dc.b	"favorise le recrutement dans le"
+	dc.b	"le recrutement dans le groupe de ceux"
 	dc.b	$FF
 
 ; $3C
-	dc.b	"groupe des « Chasseurs »."
+	dc.b	"qui se font appeler les « Chasseurs »."
 	dc.b	$FF
 
 ; $3D
@@ -746,19 +746,19 @@
 	dc.b	$FF
 
 ; $3E
-	dc.b	"attaques amène certains à se"
+	dc.b	"attaques amène certains à se demander"
 	dc.b	$FF
 
 ; $3F
-	dc.b	"demander quelle est cause de"
+	dc.b	"quelle est l'origine de cette resurgence..."
 	dc.b	$FF
 
 ; $40
-	dc.b	"cette resurgence... quand et"
+	dc.b	"Et surtout, quand, et comment, tout cela"
 	dc.b	$FF
 
 ; $41
-	dc.b	"comment cela va se terminer ? "
+	dc.b	"va-t-il se terminer ?"
 	dc.b	$FF
 ;; Local Variables:
 ;; eval: (fci-mode)
