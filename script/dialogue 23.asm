@@ -280,7 +280,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Ouais...J'ai déjà entendu cette rumeur..."
+	dc.b	"Ouais... J'ai déjà entendu cette rumeur..."
 	dc.b	$FF
 
 ; $1B
@@ -450,7 +450,7 @@
 	dc.b	$FC
 	dc.b	"millénaires ?"
 	dc.b	$FD
-	dc.b	"...Ça n'existe pas."
+	dc.b	"... Ça n'existe pas."
 	dc.b	$FC
 	dc.b	"Ne croyez pas tout ce qu'on dit."
 	dc.b	$FF

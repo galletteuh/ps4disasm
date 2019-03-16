@@ -269,7 +269,7 @@
 ; $2F
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"Euh...que se passe-t-il ?"
+	dc.b	"Euh... que se passe-t-il ?"
 	dc.b	$FC
 	dc.b	"Il n'y a personne ici..."
 	dc.b	$FD
@@ -340,7 +340,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Donc...vous dites que cette Boule est,"
+	dc.b	"Donc... vous dites que cette Boule est,"
 	dc.b	$FC
 	dc.b	"en fait, Lutz ?"
 	dc.b	$FD
@@ -354,7 +354,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"Personne choisie...?"
+	dc.b	"Personne choisie... ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
@@ -372,7 +372,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Rune...est Lutz ?!"
+	dc.b	"Rune... est Lutz ?!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$19
@@ -384,7 +384,7 @@
 	dc.w	$0102
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"Vous...vous êtes...Lutz...?"
+	dc.b	"Vous... vous êtes... Lutz... ?"
 	dc.b	$FC
 	dc.b	"Comment est-ce..."
 	dc.b	$FD
@@ -575,7 +575,7 @@
 	dc.b	$FC
 	dc.b	"capable de détruire la Noirceur"
 	dc.b	$FD
-	dc.b	"Profonde ! Va, Chaz...seul !"
+	dc.b	"Profonde ! Va, Chaz... seul !"
 	dc.b	$FC
 	dc.b	"Va et fait face à Elsydeon !"
 	dc.b	$FD
@@ -770,7 +770,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$19
-	dc.b	"Euh...Vous n'allez sûrement pas donner"
+	dc.b	"Euh... Vous n'allez sûrement pas donner"
 	dc.b	$FC
 	dc.b	"ça à un tel jeunôt !"
 	dc.b	$FD
@@ -782,7 +782,7 @@
 	dc.b	$04
 	dc.b	"Chaz est le seul choix possible."
 	dc.b	$FC
-	dc.b	"...Vous devez me croire !"
+	dc.b	"... Vous devez me croire !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$19

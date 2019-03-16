@@ -217,7 +217,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$23
-	dc.b	"Je vois...tu as combattu l'illusion et,"
+	dc.b	"Je vois... tu as combattu l'illusion et,"
 	dc.b	$FC
 	dc.b	"malgré cela, tu es resté toi-même."
 	dc.b	$FD

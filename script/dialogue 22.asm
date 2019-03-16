@@ -250,7 +250,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$1C
-	dc.b	"Ha ha ha...Quelle joie !"
+	dc.b	"Ha ha ha... Quelle joie !"
 	dc.b	$FC
 	dc.b	"Vous avez répondu à mon invitation..."
 	dc.b	$FD

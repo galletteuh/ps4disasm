@@ -275,7 +275,7 @@
 ; $1E
 	dc.b	$FA
 	dc.b	$A1, $01
-	dc.b	"L...l...les zombies ont peur du feu,"
+	dc.b	"L... l... les zombies ont peur du feu,"
 	dc.b	$FC
 	dc.b	"pas vrai ?"
 	dc.b	$FD

@@ -226,7 +226,7 @@
 	dc.b	$FD
 	dc.b	"héroïne de la légende."
 	dc.b	$FC
-	dc.b	"Voyons...A...Ali...Ali..."
+	dc.b	"Voyons... A... Ali... Ali..."
 	dc.b	$FD
 	dc.b	"Je crois qu'ils m'ont dis qu'elle s'appelait"
 	dc.b	$FC
@@ -372,7 +372,7 @@
 ; $24
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Que...Qu'est-ce que c'est ?"
+	dc.b	"Que... Qu'est-ce que c'est ?"
 	dc.b	$FC
 	dc.b	"Il y a une telle caverne sous Monsen ?"
 	dc.b	$FD
@@ -603,7 +603,7 @@
 	dc.b	$FF
 
 ; $40
-	dc.b	"Il...il y a des tremblements de terre"
+	dc.b	"Il... il y a des tremblements de terre"
 	dc.b	$FC
 	dc.b	"dernièrement..."
 	dc.b	$F7

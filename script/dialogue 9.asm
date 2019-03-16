@@ -186,7 +186,7 @@
 	dc.b	$FF
 
 ; $1F
-	dc.b	"Oh...Saint Zio..."
+	dc.b	"Oh... Saint Zio..."
 	dc.b	$FF
 
 ; $20
@@ -229,7 +229,7 @@
 	dc.b	$FF
 
 ; $25
-	dc.b	"Zio ? Je...je me demande que signifiait"
+	dc.b	"Zio ? Je... je me demande que signifiait"
 	dc.b	$FC
 	dc.b	"tout ça ?"
 	dc.b	$FD
@@ -293,7 +293,7 @@
 ; $2C
 	dc.b	"Vous dites de nous résigner à notre"
 	dc.b	$FC
-	dc.b	"sort...ou...quoi ?"
+	dc.b	"sort... ou... quoi ?"
 	dc.b	$FF
 
 ; $2D
@@ -393,7 +393,7 @@
 	dc.b	$FF
 
 ; $39
-	dc.b	"Que...que diable ai-je fait ?"
+	dc.b	"Que... que diable ai-je fait ?"
 	dc.b	$FF
 
 ; $3A
@@ -520,7 +520,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"C'est...c'est sinistre."
+	dc.b	"C'est... c'est sinistre."
 	dc.b	$FF
 
 ; $46
@@ -537,7 +537,7 @@
 	dc.b	$FC
 	dc.b	"Zio est vaincu, j'ai toujours foi en lui !"
 	dc.b	$FD
-	dc.b	"Oh...Saint Zio..."
+	dc.b	"Oh... Saint Zio..."
 	dc.b	$FF
 
 ; $4A
@@ -572,7 +572,7 @@ dc.b	$FF
 	dc.b	$24
 	dc.b	"Vous m'accompagnerez ?"
 	dc.b	$FC
-	dc.b	"Mer...Merci !"
+	dc.b	"Mer... Merci !"
 	dc.b	$FF
 
 ; $4D
@@ -584,7 +584,7 @@ dc.b	$FF
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$24
-	dc.b	"J'ai...j'ai faim..."
+	dc.b	"J'ai... j'ai faim..."
 	dc.b	$FF
 
 ; $4E

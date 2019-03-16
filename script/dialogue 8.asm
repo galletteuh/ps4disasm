@@ -388,7 +388,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Mais...il me semble que Parma a été"
+	dc.b	"Mais... il me semble que Parma a été"
 	dc.b	$FC
 	dc.b	"détruite il y a mille ans !?"
 	dc.b	$FD
@@ -398,7 +398,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Oui...on me l'a dit alors que j'étais à"
+	dc.b	"Oui... on me l'a dit alors que j'étais à"
 	dc.b	$FC
 	dc.b	"l'Académie."
 	dc.b	$FD
@@ -442,7 +442,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Ils...sont tous morts ?"
+	dc.b	"Ils... sont tous morts ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
@@ -456,7 +456,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Alors...tous les Parmaniens ont péri ?!"
+	dc.b	"Alors... tous les Parmaniens ont péri ?!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
@@ -482,7 +482,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"...Donc ils sont toujours en vol..."
+	dc.b	"... Donc ils sont toujours en vol..."
 	dc.b	$FC
 	dc.b	"quelque part dans le vide..."
 	dc.b	$FF

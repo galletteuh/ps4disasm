@@ -106,7 +106,7 @@
 	dc.b	$FC
 	dc.b	"et le lendemain, pouf !"
 	dc.b	$FD
-	dc.b	"Ça...Ça doit être toujours mon"
+	dc.b	"Ça... Ça doit être toujours mon"
 	dc.b	$FC
 	dc.b	"imagination, non ?"
 	dc.b	$FF
@@ -208,7 +208,7 @@
 	dc.b	$FF
 
 ; $14
-	dc.b	"Vi...Vite !"
+	dc.b	"Vi... Vite !"
 	dc.b	$FC
 	dc.b	"Faites quelque chose !"
 	dc.b	$FF
@@ -227,7 +227,7 @@
 	dc.b	$FF
 
 ; $17
-	dc.b	"Ici, c'est Mile...Hé, c'est vous !"
+	dc.b	"Ici, c'est Mile... Hé, c'est vous !"
 	dc.b	$FC
 	dc.b	"Merci de toute votre aide l'autre fois."
 	dc.b	$FD
@@ -341,7 +341,7 @@
 	dc.b	$FD
 	dc.b	"hors de contrôle !"
 	dc.b	$FD
-	dc.b	"S'il...s'il vous plaît !"
+	dc.b	"S'il... s'il vous plaît !"
 	dc.b	$FC
 	dc.b	"Pouvez-vous faire quelque chose ?"
 	dc.b	$FD
@@ -355,7 +355,7 @@
 	dc.b	$FC
 	dc.b	"trouvé comment les nourrir..."
 	dc.b	$FD
-	dc.b	"Le ranch...Mon rêve..."
+	dc.b	"Le ranch... Mon rêve..."
 	dc.b	$FD
 	dc.b	"Soupir."
 	dc.b	$FD
@@ -580,11 +580,11 @@
 	dc.b	$FC
 	dc.b	"les profondeurs et n'est pas revenu..."
 	dc.b	$FD
-	dc.b	"Il est peut-être...trop tard..."
+	dc.b	"Il est peut-être... trop tard..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Non...!"
+	dc.b	"Non... !"
 	dc.b	$FF
 
 ; $65
@@ -747,7 +747,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Heu...bien, monsieur."
+	dc.b	"Heu... bien, monsieur."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0D
@@ -835,7 +835,7 @@
 	dc.w	$0029
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"...Avec ce travail complété,"
+	dc.b	"... Avec ce travail complété,"
 	dc.b	$FC
 	dc.b	"c'est un bon point d'arrêt..."
 	dc.b	$FD
@@ -907,7 +907,7 @@
 	dc.w	$002E
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"...Une malédiction...Qu'y a-t-il à"
+	dc.b	"... Une malédiction... Qu'y a-t-il à"
 	dc.b	$FC
 	dc.b	"l'intérieur ?"
 	dc.b	$FD
@@ -919,9 +919,9 @@
 	dc.b	$FC
 	dc.b	"à l'intérieur !"
 	dc.b	$FD
-	dc.b	"...Ah..."
+	dc.b	"... Ah..."
 	dc.b	$FD
-	dc.b	"Heu...Alys ?"
+	dc.b	"Heu... Alys ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
@@ -929,7 +929,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"...M...ma caisse de noces... !"
+	dc.b	"... M... ma caisse de noces... !"
 	dc.b	$FF
 
 ; $6A

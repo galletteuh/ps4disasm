@@ -191,7 +191,7 @@
 	dc.b	$FF
 
 ; $2F
-	dc.b	"Ouiiin. J'a...j'avais tort !"
+	dc.b	"Ouiiin. J'a... j'avais tort !"
 	dc.b	$FC
 	dc.b	"Revenez, je vous en supplie !"
 	dc.b	$FD
@@ -450,7 +450,7 @@
 	dc.b	$FC
 	dc.b	"différentes."
 	dc.b	$FD
-	dc.b	"...Tout ce que je peux dire, c'est qu'elle"
+	dc.b	"... Tout ce que je peux dire, c'est qu'elle"
 	dc.b	$FC
 	dc.b	"est que'que part vers le nord."
 	dc.b	$FD
@@ -659,7 +659,7 @@
 	dc.b	$FC
 	dc.b	"gars qui va se relever même si on le tue."
 	dc.b	$FD
-	dc.b	"...Ouais, ça m'inquiète quand même..."
+	dc.b	"... Ouais, ça m'inquiète quand même..."
 	endif
 	dc.b	$FF
 
@@ -813,7 +813,7 @@
 	dc.b	$FC
 	dc.b	"alors, que dire de plus ?"
 	else
-	dc.b	"...Ben, vous l'avez déjà, faque pourquoi"
+	dc.b	"... Ben, vous l'avez déjà, faque pourquoi"
 	dc.b	$FC
 	dc.b	"vous posez la question ?"
 	endif

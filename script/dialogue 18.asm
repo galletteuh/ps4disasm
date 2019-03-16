@@ -324,7 +324,7 @@
 	dc.b	$FF
 
 ; $41
-	dc.b	"...Vous dites que cette tour maléfique a"
+	dc.b	"... Vous dites que cette tour maléfique a"
 	dc.b	$FC
 	dc.b	"été détruite ?"
 	dc.b	$FF
@@ -425,7 +425,7 @@
 	dc.b	$FF
 
 ; $4D
-	dc.b	"...Ohhh..."
+	dc.b	"... Ohhh..."
 	dc.b	$FD
 	dc.b	"Je suis vidé d'énergie..."
 	dc.b	$FF
@@ -650,7 +650,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Ha, ha, ha...J'en reviens pas."
+	dc.b	"Ha, ha, ha... J'en reviens pas."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
@@ -696,7 +696,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Elle doit venir...de la Tour Garuberk."
+	dc.b	"Elle doit venir... de la Tour Garuberk."
 	dc.b	$FD
 	dc.b	"Et elle est très proche !"
 	dc.b	$FD
@@ -710,7 +710,7 @@
 	dc.b	$17
 	dc.b	"À l'aide ! À l'aide !"
 	dc.b	$FD
-	dc.b	"Kyra...Kyra se dirige vers la Tour"
+	dc.b	"Kyra... Kyra se dirige vers la Tour"
 	dc.b	$FC
 	dc.b	"Garuberk toute seule !"
 	dc.b	$F7
@@ -725,7 +725,7 @@
 	dc.b	$FC
 	dc.b	"exceptionnel !"
 	dc.b	$FD
-	dc.b	"Mais...c'est trop risqué !"
+	dc.b	"Mais... c'est trop risqué !"
 	dc.b	$FC
 	dc.b	"La tour est entourée d'une forêt"
 	dc.b	$FD

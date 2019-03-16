@@ -107,7 +107,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"Oui, eh bien...mes amis font de leur"
+	dc.b	"Oui, eh bien... mes amis font de leur"
 	dc.b	$FC
 	dc.b	"mieux..."
 	dc.b	$FD
@@ -161,7 +161,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"Oui...de plus, elle s'intensifie lorsqu'on"
+	dc.b	"Oui... de plus, elle s'intensifie lorsqu'on"
 	dc.b	$FC
 	dc.b	"s'approche de la Tour Garuberk !"
 	dc.b	$FF
@@ -189,7 +189,7 @@
 	dc.b	$A1, $02
 	dc.b	$FA
 	dc.b	$97, $01
-	dc.b	"Oooh...J'ai peur ! J'ai très peur de l'onde"
+	dc.b	"Oooh... J'ai peur ! J'ai très peur de l'onde"
 	dc.b	$FC
 	dc.b	"d'Énergie Noire !"
 	dc.b	$FD
@@ -199,7 +199,7 @@
 	dc.b	$FF
 
 ; $13
-	dc.b	"Oooh...J'ai peur ! J'ai très peur de l'onde"
+	dc.b	"Oooh... J'ai peur ! J'ai très peur de l'onde"
 	dc.b	$FC
 	dc.b	"d'Énergie Noire !"
 	dc.b	$FD
@@ -285,7 +285,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"...c'est ce qu'ils pensent !"
+	dc.b	"... c'est ce qu'ils pensent !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
@@ -302,7 +302,7 @@
 	dc.b	$FA
 	dc.b	$A1, $01
 	dc.b	$F3
-	dc.b	"Aoum...Aoum..."
+	dc.b	"Aoum... Aoum..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
@@ -311,7 +311,7 @@
 
 ; $1D
 	dc.b	$F3
-	dc.b	"Aoum...Aoum..."
+	dc.b	"Aoum... Aoum..."
 	dc.b	$FF
 
 ; $1E

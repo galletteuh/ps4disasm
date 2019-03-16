@@ -135,7 +135,7 @@
 	dc.b	$0C
 	dc.b	"Hahn ! Tu es revenu !"
 	dc.b	$FC
-	dc.b	"...Quelque chose ne va pas !?"
+	dc.b	"... Quelque chose ne va pas !?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
@@ -235,7 +235,7 @@
 	dc.b	$F2, $01
 	dc.b	$F4
 	dc.b	$22
-	dc.b	"Si...si seulement Rune était..."
+	dc.b	"Si... si seulement Rune était..."
 	dc.b	$F7
 
 	dc.b	$F4
@@ -286,7 +286,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$22
-	dc.b	"Oui, c'est ça...donc si vous pouviez"
+	dc.b	"Oui, c'est ça... donc si vous pouviez"
 	dc.b	$FC
 	dc.b	"convaincre Rune de..."
 	dc.b	$FD
@@ -448,7 +448,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Heu...mais..."
+	dc.b	"Heu... mais..."
 	dc.b	$F7
 
 	dc.b	$F4
@@ -483,9 +483,9 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$22
-	dc.b	"...Chaz...tu as réussi...à trouver Rune ?"
+	dc.b	"... Chaz... tu as réussi... à trouver"
 	dc.b	$FC
-	dc.b	"C'est...bien..."
+	dc.b	"Rune ? C'est... bien..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
@@ -509,21 +509,21 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$22
-	dc.b	"Chaz...ne t'en fait pas. Chaz..."
+	dc.b	"Chaz... ne t'en fait pas. Chaz..."
 	dc.b	$FD
-	dc.b	"...Ru...ne..."
+	dc.b	"... Ru...ne..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
 	dc.b	"Je suis là..."
 	dc.b	$FC
-	dc.b	"Je suis là...Alys."
+	dc.b	"Je suis là... Alys."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$22
-	dc.b	"...Rune...Aide...Chaz..."
+	dc.b	"... Rune... Aide... Chaz..."
 	dc.b	$FC
-	dc.b	"S'il-te-plaît...Rune..."
+	dc.b	"S'il-te-plaît... Rune..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
@@ -538,7 +538,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$22
-	dc.b	"Chaz...approche..."
+	dc.b	"Chaz... approche..."
 	dc.b	$FD
 	dc.b	"laisse-moi te regarder de près.."
 	dc.b	$FD
@@ -551,7 +551,7 @@
 	dc.b	$F9
 	dc.b	$59
 
-	dc.b	"Tu as grandi si vite...sans que je m'en"
+	dc.b	"Tu as grandi si vite... sans que je m'en"
 	dc.b	$FC
 	dc.b	"aperçoive, tu es devenu un adulte"
 	dc.b	$FD
@@ -571,7 +571,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$22
-	dc.b	"Ch...az...Mer...ci..."
+	dc.b	"Ch...az... Mer...ci..."
 	dc.b	$F2, $01
 	dc.b	$F9
 	dc.b	$09
@@ -589,7 +589,7 @@
 	dc.w	$005C
 	dc.b	$F4
 	dc.b	$00
-	dc.b	"...Ouinnnnnn !"
+	dc.b	"... Ouinnnnnn !"
 	dc.b	$F9
 	dc.b	$27
 
@@ -601,7 +601,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Que...dois-je faire, maintenant ?"
+	dc.b	"Que... dois-je faire, maintenant ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
@@ -623,7 +623,7 @@
 	dc.b	$FD
 	dc.b	"Tout allait bien..."
 	dc.b	$FD
-	dc.b	"Mais là...Alys n'est plus."
+	dc.b	"Mais là... Alys n'est plus."
 	dc.b	$FD
 	dc.b	"Je veux la venger, bien sûr,"
 	dc.b	$FD
@@ -699,7 +699,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"...Merci, Rika."
+	dc.b	"... Merci, Rika."
 	dc.b	$FD
 	dc.b	$F2, $01
 	dc.b	$F9

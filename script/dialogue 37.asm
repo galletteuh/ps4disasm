@@ -158,7 +158,7 @@
 
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"Je vois...c'est pour cette raison que"
+	dc.b	"Je vois... c'est pour cette raison que"
 	dc.b	$FC
 	dc.b	"vous avez fait tout ce chemin."
 	dc.b	$FD

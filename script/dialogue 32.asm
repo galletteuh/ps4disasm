@@ -107,7 +107,7 @@
 	dc.b	$FC
 	dc.b	"On y trouvera Lutz."
 	dc.b	$FD
-	dc.b	"Oh...pincez-moi, je rêve..."
+	dc.b	"Oh... pincez-moi, je rêve..."
 	dc.b	$FC
 	dc.b	"Je vais rencontrer Lutz..."
 	dc.b	$FD

@@ -687,7 +687,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Hmm...Tu ne pourras rien faire sans mon"
+	dc.b	"Hmm... Tu ne pourras rien faire sans mon"
 	dc.b	$FC
 	dc.b	"aide, hein, Chaz ?"
 	dc.b	$FD

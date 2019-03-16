@@ -81,7 +81,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03, $02
-	dc.b	"Qui, me...moi ?"
+	dc.b	"Qui, me... moi ?"
 	dc.b	$FF
 
 ; $5
@@ -437,7 +437,7 @@
 	dc.b	$06, $02
 	dc.b	"Le satellite artificiel Kuran..."
 	dc.b	$FC
-	dc.b	"...vous dites qu'il se passe quoi, là-bas ?"
+	dc.b	"... vous dites qu'il se passe quoi, là-bas ?"
 	dc.b	$FF
 
 ; $15

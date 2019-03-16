@@ -105,7 +105,7 @@
 	dc.b	$FF
 
 ; $C
-	dc.b	"À...À l'aide !"
+	dc.b	"À... À l'aide !"
 	dc.b	$FF
 
 ; $D
@@ -203,7 +203,7 @@
 	dc.b	$FF
 
 ; $13
-	dc.b	"À...À l'aide !"
+	dc.b	"À... À l'aide !"
 	dc.b	$FF
 
 ; $14
@@ -423,7 +423,7 @@
 	dc.b	$FC
 	dc.b	"« Le Grand Effondrement. »"
 	dc.b	$FD
-	dc.b	"...Pardon. Je croyais que vous étiez"
+	dc.b	"... Pardon. Je croyais que vous étiez"
 	dc.b	$FC
 	dc.b	"des étudiants."
 	dc.b	$FF
@@ -651,7 +651,7 @@
 	dc.b	$FF
 
 ; $3F
-	dc.b	"Que...Que faire ? Je veux m'enfuir,"
+	dc.b	"Que... Que faire ? Je veux m'enfuir,"
 	dc.b	$FC
 	dc.b	"mais je n'ai nulle part où aller..."
 	dc.b	$FF

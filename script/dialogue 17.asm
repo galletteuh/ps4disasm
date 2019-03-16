@@ -297,7 +297,7 @@
 	dc.b	$FC
 	dc.b	"calmerait."
 	dc.b	$FD
-	dc.b	"Mais il y a une rumeur...Ce..."
+	dc.b	"Mais il y a une rumeur... Ce..."
 	dc.b	$FC
 	dc.b	"Ce n'est qu'une farce, non ?"
 	dc.b	$FF
@@ -305,7 +305,7 @@
 ; $1B
 	dc.b	"Meese ? Reshel ?"
 	dc.b	$FC
-	dc.b	"...Ah, les villes Parmaniennes."
+	dc.b	"... Ah, les villes Parmaniennes."
 	dc.b	$FD
 	dc.b	"Si vous allez un peu plus à l'est,"
 	dc.b	$FC

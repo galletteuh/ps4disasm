@@ -43,7 +43,7 @@
 	dc.b	$FC
 	dc.b	"d'allocation."
 	dc.b	$FD
-	dc.b	"Nous sommes très inquiets!"
+	dc.b	"Nous sommes très inquiets !"
 	dc.b	$FD
 	dc.b	"J'espère qu'il a assez pour se nourrir !"
 	dc.b	$FF
@@ -258,7 +258,7 @@
 	dc.b	$14, $38
 	dc.b	"Une grosse météorite est tombée, juste"
 	dc.b	$FC
-	dc.b	"passé le pont, au nord!"
+	dc.b	"passé le pont, au nord !"
 	dc.b	$FD
 	dc.b	"Elle est tombée près du village de Nalya."
 	dc.b	$FD
@@ -370,7 +370,7 @@
 ; $38
 	dc.b	"Ces machines tentent de savoir ce qui se"
 	dc.b	$FC
-	dc.b	"passe dans la Vallée de l'Éclosion!"
+	dc.b	"passe dans la Vallée de l'Éclosion !"
 	dc.b	$FD
 	dc.b	"Est-ce que cela signifie qu'il y a d'autres"
 	dc.b	$FC
@@ -378,7 +378,9 @@
 	dc.b	$FF
 
 ; $39
-	dc.b	"Ces machines ont cessé de se manifester!"
+	dc.b	"Ces machines ont cessé de se"
+	dc.b	$FC
+	dc.b	"manifester !"
 	dc.b	$FF
 
 ; $3A
@@ -488,15 +490,15 @@
 	dc.b	$FD
 	dc.b	"Je parie qu'il a très hâte de revenir"
 	dc.b	$FC
-	dc.b	"à la maison!"
+	dc.b	"à la maison !"
 	dc.b	$FF
 
 ; $43
-	dc.b	"Vous dites que le pont est réparé?"
+	dc.b	"Vous dites que le pont est réparé ?"
 	dc.b	$FD
 	dc.b	"Mon mari va finalement pouvoir revenir."
 	dc.b	$FC
-	dc.b	"Je suis si heureuse!"
+	dc.b	"Je suis si heureuse !"
 	dc.b	$FF
 
 ; $44
@@ -678,7 +680,7 @@
 ; $58
 	dc.b	"Heureusement, Maman et Papa sont tous"
 	dc.b	$FC
-	dc.b	"deux indemnes!"
+	dc.b	"deux indemnes !"
 	dc.b	$FF
 
 ; $59
@@ -857,7 +859,7 @@
 ; $6D
 	dc.b	"Ah, vous avez pu détruire le maître de"
 	dc.b	$FC
-	dc.b	"ces machines!"
+	dc.b	"ces machines !"
 	dc.b	$FD
 	dc.b	"Vous devez dire vrai, étant donné"
 	dc.b	$FC

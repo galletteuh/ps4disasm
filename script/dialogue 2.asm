@@ -241,7 +241,7 @@
 	dc.b	$FF
 
 ; $44
-	dc.b	"C'est...c'est la fin du monde !"
+	dc.b	"C'est... c'est la fin du monde !"
 	dc.b	$FF
 
 ; $45
@@ -321,7 +321,7 @@
 	dc.b	$FF
 
 ; $4C
-	dc.b	"À...À l'aiiide !"
+	dc.b	"À... À l'aiiide !"
 	dc.b	$FF
 
 ; $4D
@@ -595,7 +595,7 @@
 ; $6A
 	dc.b	$FA
 	dc.b	$DA, $01
-	dc.b	"Que...qu'est-ce que je faisais tout ce"
+	dc.b	"Que... qu'est-ce que je faisais tout ce"
 	dc.b	$FC
 	dc.b	"temps... ?"
 	dc.b	$FD
@@ -613,7 +613,7 @@
 ; $6C
 	dc.b	"Ah, vous êtes le chasseur de la guilde ?"
 	dc.b	$FC
-	dc.b	"Ai...Aidez-nous !"
+	dc.b	"Ai... Aidez-nous !"
 	dc.b	$FD
 	dc.b	"Il se trouve que l'une des étudiantes"
 	dc.b	$FC

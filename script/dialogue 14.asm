@@ -264,7 +264,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Ah, oui...Raja."
+	dc.b	"Ah, oui... Raja."
 	dc.b	$FD
 	dc.b	"Y-a-t'il des installations ici où nous"
 	dc.b	$FC
@@ -282,7 +282,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$09
-	dc.b	"Impossible. Mais...ah ha !"
+	dc.b	"Impossible. Mais... ah ha !"
 	dc.b	$FC
 	dc.b	"J'ai de magnifiques nouvelles pour vous."
 	dc.b	$FD
@@ -661,7 +661,7 @@
 	dc.b	$FD
 	dc.b	"Confiez-nous ce corps... »"
 	dc.b	$FD
-	dc.b	"...Quelle dédicace étrange."
+	dc.b	"... Quelle dédicace étrange."
 	dc.b	$FF
 
 ; $1E

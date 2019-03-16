@@ -389,7 +389,7 @@
 	dc.b	$92
 	dc.b	$F4
 	dc.b	$07
-	dc.b	"Qui...qui êtes-vous ?"
+	dc.b	"Qui... qui êtes-vous ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
@@ -480,7 +480,7 @@
 	dc.w	$0045
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Que...qu'est-ce qui se passe ? "
+	dc.b	"Que... qu'est-ce qui se passe ? "
 	dc.b	$FC
 	dc.b	"Je sens...une grande oppression !"
 	dc.b	$FD
@@ -524,7 +524,7 @@
 	dc.b	$FC
 	dc.b	"Tu oses nous traiter de vermissaux !?"
 	dc.b	$FD
-	dc.b	"Espèce...Espèce de..."
+	dc.b	"Espèce... Espèce de..."
 	dc.b	$FC
 	dc.b	"C'est impardonnable !"
 	dc.b	$FD
@@ -618,7 +618,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Vous...vous êtes désaxé !"
+	dc.b	"Vous... vous êtes désaxé !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$13
@@ -684,7 +684,7 @@
 
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Nous...nous avons perdu !"
+	dc.b	"Nous... nous avons perdu !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$05
@@ -720,7 +720,7 @@
 	dc.b	$04
 	dc.b	"Écartez-vous, tout le monde !"
 	dc.b	$FC
-	dc.b	"...Un, deux, trois !"
+	dc.b	"... Un, deux, trois !"
 	dc.b	$FF
 
 ; $45
@@ -851,7 +851,7 @@
 	dc.b	$FC
 	dc.b	"d'armes internes."
 	dc.b	$FD
-	dc.b	"Voyons voir...ils semblent en bon état"
+	dc.b	"Voyons voir... ils semblent en bon état"
 	dc.b	$FC
 	dc.b	"de marche."
 	dc.b	$FD

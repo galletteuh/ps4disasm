@@ -109,7 +109,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Voyons voir...d'ici, c'est quand même loin."
+	dc.b	"Voyons voir... d'ici, c'est quand même loin."
 	dc.b	$FC
 	dc.b	"D'abord, allez à l'est jusqu'à Krup."
 	dc.b	$FD
@@ -200,7 +200,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Euh...Je suis quelque peu embêté par"
+	dc.b	"Euh... Je suis quelque peu embêté par"
 	dc.b	$FC
 	dc.b	"notre objectif."
 	dc.b	$FF
@@ -392,7 +392,7 @@
 	dc.b	$FC
 	dc.b	"Ouch !!"
 	dc.b	$FD
-	dc.b	"Que...que signifie !?"
+	dc.b	"Que... que signifie !?"
 	dc.b	$FD
 	dc.b	"Comment osez-vous me frapper sans"
 	dc.b	$FC
@@ -416,7 +416,7 @@
 
 	dc.b	$F4
 	dc.b	$0F
-	dc.b	"Ahhh! Euh...Aidez-moi !"
+	dc.b	"Ahhh! Euh... Aidez-moi !"
 	dc.b	$F7
 
 	dc.b	$F4
@@ -491,7 +491,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$05
-	dc.b	"Pana...Je te promet qu'un jour, je les"
+	dc.b	"Pana... Je te promet qu'un jour, je les"
 	dc.b	$FC
 	dc.b	"vengerai !"
 	dc.b	$FF
@@ -539,14 +539,16 @@
 ; $24
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Ouf...c'est rouillé, pas moyen de l'ouvrir !"
+	dc.b	"Ouf... c'est rouillé, pas moyen de"
+	dc.b	$FC
+	dc.b	"l'ouvrir !"
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$05
 	dc.b	"Oh, il y a un truc pour ouvrir cette"
 	dc.b	$FC
-	dc.b	"porte."
+	dc.b	"trappe."
 	dc.b	$F7
 
 	dc.b	$F4
@@ -679,7 +681,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Moi...me mesurer à Zio ?"
+	dc.b	"Moi... me mesurer à Zio ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
@@ -693,7 +695,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Pas de problème.Ce sera du gâteau !"
+	dc.b	"Pas de problème. Ce sera du gâteau !"
 	dc.b	$FC
 	dc.b	"En arrière, tout le monde !"
 	dc.b	$F7
@@ -719,7 +721,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Hé hé...Je ne suis pas surpris que tu"
+	dc.b	"Hé hé... Je ne suis pas surpris que tu"
 	dc.b	$FC
 	dc.b	"n'aies jamais vu ça."
 	dc.b	$FD
@@ -727,7 +729,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"De la magie!"
+	dc.b	"De la magie !"
 	dc.b	$FF
 
 ; $27
@@ -774,7 +776,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Oh, ça...il disait juste des trucs comme"
+	dc.b	"Oh, ça... il disait juste des trucs comme"
 	dc.b	$FC
 	dc.b	"ça."
 	dc.b	$FD

@@ -99,7 +99,7 @@
 	dc.b	$FF
 
 ; $9
-	dc.b	"Ce lac? Il est apparu à cause d'une"
+	dc.b	"Ce lac ? Il est apparu à cause d'une"
 	dc.b	$FC
 	dc.b	"météorite tombée sur la planète."
 	dc.b	$FD
@@ -113,7 +113,7 @@
 ; $A
 	dc.b	"Vous voyez cette petite île, au milieu"
 	dc.b	$FC
-	dc.b	"du lac, là-bas?"
+	dc.b	"du lac, là-bas ?"
 	dc.b	$FD
 	dc.b	"Le bâtiment sur cette île porte le nom"
 	dc.b	$FC
@@ -143,7 +143,7 @@
 ; $D
 	dc.b	"L'autre jour, à l'ouest, on pouvait"
 	dc.b	$FC
-	dc.b	"des tonnes de fumée!"
+	dc.b	"des tonnes de fumée !"
 	dc.b	$FD
 	dc.b	"Je me demande s'il y avait un gros"
 	dc.b	$FC
@@ -311,7 +311,7 @@
 	dc.b	$FC
 	dc.b	"l'air triste."
 	dc.b	$FD
-	dc.b	"Qu'est-ce qui s'est passé?"
+	dc.b	"Qu'est-ce qui s'est passé ?"
 	dc.b	$FF
 
 ; $17
@@ -621,7 +621,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Hé ! Au pied !"
+	dc.b	"Hé ! Aux pieds !"
 	dc.b	$F7
 
 	dc.b	$F4
