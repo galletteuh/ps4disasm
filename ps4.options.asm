@@ -37,6 +37,7 @@ bugfix_zelan_kuran_dungeon = 1
 bugfix_posibolt = 1
 bugfix_vision_skill = 1
 bugfix_missing_terminator = 1
+var_width_font_minimize_size = 0
 
 	elseif essential_bugfixes = 1
 
@@ -91,5 +92,11 @@ bugfix_zelan_kuran_dungeon = 0
 bugfix_posibolt = 0
 bugfix_vision_skill = 0
 bugfix_missing_terminator = 0	
+	
+	endif
 
+	if (var_width_fonts = 1) && (bugfixes = 0) && (optional_fixes = 0)
+var_width_fonts_minimize_size = 1
+	else
+var_width_fonts_minimize_size = 0
 	endif
