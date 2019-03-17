@@ -1,7 +1,7 @@
 
 essential_bugfixes = 0	   	; if 1, include "essential" bugfixes only
 bugfixes = 0			; if 1, include bug fixes
-optional_fixes  = 0		; if 1, include optional (larger) fixes
+optional_fixes = 0		; if 1, include optional (larger) fixes
 restore_unused_enemies = 0	; if 1, Acacia and Shadow Mirage will show up
 dialogue_uncompressed = 0	; if 1, dialogue is stored uncompressed
 var_width_fonts = 1		; if 1, use variable width fonts
@@ -33,6 +33,7 @@ bugfix_zelan_kuran_dungeon = 1
 bugfix_posibolt = 1
 bugfix_vision_skill = 1
 bugfix_missing_terminator = 1
+var_width_font_minimize_size = 0
 
 	elseif essential_bugfixes = 1
 
@@ -87,5 +88,11 @@ bugfix_zelan_kuran_dungeon = 0
 bugfix_posibolt = 0
 bugfix_vision_skill = 0
 bugfix_missing_terminator = 0	
+	
+	endif
 
+	if (var_width_fonts = 1) && (bugfixes = 0) && (optional_fixes = 0)
+var_width_fonts_minimize_size = 1
+	else
+var_width_fonts_minimize_size = 0
 	endif
