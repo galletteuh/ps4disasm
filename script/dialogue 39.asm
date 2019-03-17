@@ -131,7 +131,7 @@
 	dc.b	$FC
 	dc.b	"j'aimerais bien tous vous emmener"
 	dc.b	$FD
-	dc.b	"emmener avec nous, seulement..."
+	dc.b	"avec nous, seulement..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04

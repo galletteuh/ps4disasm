@@ -468,7 +468,7 @@
 ; $13
 	dc.b	$F4
 	dc.b	$0E
-	dc.b	"Que... Qui a-t-il ?"
+	dc.b	"Que... Qu'y a-t-il ?"
 	dc.b	$FC
 	dc.b	"Vous semblez contrariés."
 	dc.b	$FD
