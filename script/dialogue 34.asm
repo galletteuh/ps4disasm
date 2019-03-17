@@ -109,9 +109,9 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0D
-	dc.b	"Si c'est le cas, pourquoi cette déteriora-"
+	dc.b	"Si c'est le cas, pourquoi cette déterio-"
 	dc.b	$FC
-	dc.b	"tion environnementale récente ?"
+	dc.b	"ration environnementale récente ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
