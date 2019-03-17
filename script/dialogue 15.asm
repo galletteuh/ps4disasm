@@ -563,7 +563,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	 J'ai l'impression d'être incapable de dé-"
+	dc.b	"J'ai l'impression d'être incapable de dé-"
 	dc.b	$FC
 	dc.b	"chiffrer le sens de l'humour Dezolisien..."
 	dc.b	$FF
