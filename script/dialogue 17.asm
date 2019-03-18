@@ -750,7 +750,7 @@
 	dc.b	$FF
 
 ; $3F
-	dc.b	"quelle est l'origine de cette resurgence..."
+	dc.b	"quelle est l'origine de cette résurgence..."
 	dc.b	$FF
 
 ; $40
