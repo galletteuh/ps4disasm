@@ -155,3 +155,23 @@ vdpwreg2	macro reg,value
 vdpwregl	macro reg1,value1,reg2,value2
 	move.l #($80008000 | ((reg1 & $1F) << 24) | ((value1 & $FF) << 16) | ((reg2 & $1F) << 8) | (value2 & $FF)), (a6)
 	endm
+
+
+	;; The following macro is used to unroll
+	;; some internal loops.
+	
+	;; assume a4 contains pointer to correct BitOffsetTable
+	;; d0 line bits
+	;; a1 destination address
+line_to_screen	macro
+	moveq	#0, d2		;accumulator
+	move.b	d0, d2
+	lsr.b	#3, d2
+	andi.b	#$1E, d2
+	move.w	(a4,d2.w), (a1)+
+	move.b	d0, d2
+	andi.b	#$F, d2
+	add.b	d2, d2
+	move.w	(a4,d2.w), (a1)+
+	endm
+	
