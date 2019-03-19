@@ -2119,7 +2119,25 @@ Map_Start_Char_Align = ramaddr($FFFFEC46)	; alignment of the characters relative
 											; $10 = Characters on the right of lead character
 Map_Start_X_Pos = ramaddr($FFFFEC48)
 Map_Start_Y_Pos = ramaddr($FFFFEC4A)
-
+Field_Input_Buffer = ramaddr($FFFFEC4C)			; byte
+BG_Alternate_Color_Flag = ramaddr($FFFFEC4F)	; byte; if set, for Plane B use the first palette line; also render tiles at lower priority
+												; when loading the Chunk table, all patterns are set to use the second palette line by default for Plane A
+Camera_X_Step_Counter_FG = ramaddr($FFFFEC50)
+Camera_Y_Step_Counter_FG = ramaddr($FFFFEC54)
+Camera_X_Step_Counter_BG = ramaddr($FFFFEC58)
+Camera_Y_Step_Counter_BG = ramaddr($FFFFEC5C)
+Map_Row_Size_FG = ramaddr($FFFFEC64)
+Map_Column_Size_FG = ramaddr($FFFFEC65)
+Map_Row_Size_BG = ramaddr($FFFFEC66)
+Map_Column_Size_BG = ramaddr($FFFFEC67)
+Map_X_Refresh_Flags_FG = ramaddr($FFFFEC68)	; bitfield	; determines when to refresh tiles or map layout when moving; bit 0 = if set, refresh every 32 pixels; bit 1 = if set, refresh every 256 pixels
+Map_Y_Refresh_Flags_FG = ramaddr($FFFFEC69)	; bitfield	; determines when to refresh tiles or map layout when moving; bit 0 = if set, refresh every 32 pixels; bit 1 = if set, refresh every 256 pixels
+Map_X_Refresh_Flags_BG = ramaddr($FFFFEC6A)	; bitfield	; determines when to refresh tiles or map layout when moving; bit 0 = if set, refresh every 32 pixels; bit 1 = if set, refresh every 256 pixels
+Map_Y_Refresh_Flags_BG = ramaddr($FFFFEC6B)	; bitfield	; determines when to refresh tiles or map layout when moving; bit 0 = if set, refresh every 32 pixels; bit 1 = if set, refresh every 256 pixels
+Saved_Chunk_Number = ramaddr($FFFFEC6C)
+Saved_Chunk_Column = ramaddr($FFFFEC6E)
+Saved_Map_Row_Size = ramaddr($FFFFEC70)
+Saved_Map_Column_Size = ramaddr($FFFFEC72)
 Map_Data_Manager_Addr = ramaddr($FFFFEC74)
 
 Vehicle_Boarding_Flags = ramaddr($FFFFEC7F)	; determines if you can board a vehicle on the tile you're standing on
