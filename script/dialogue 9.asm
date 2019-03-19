@@ -550,7 +550,7 @@
 	dc.b	"Motavia jusqu'ici."
 	dc.b	$FD
 	dc.b	"Les travaux scolaires, c'est trop bête !"
-dc.b	$FF
+	dc.b	$FF
 
 ; $4B
 	dc.b	$F6

@@ -307,7 +307,7 @@
 	dc.b	$FD
 	dc.b	"Ainsi, les conséquences de la destruction"
 	dc.b	$FC
-	dc.n	"de Parma fûrent prises en compte avant la"
+	dc.b	"de Parma fûrent prises en compte avant la"
 	dc.b	$FD
 	dc.b	"fin du Projet Daughter."
 	dc.b	$FD
@@ -335,7 +335,7 @@
 	dc.b	$FD
 	dc.b	"Moi, Wren, suis responsable de la gestion"
 	dc.b	$FC
-	dc.n	"de ce système."
+	dc.b	"de ce système."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$00
