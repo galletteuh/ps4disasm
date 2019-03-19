@@ -43,7 +43,6 @@
 	dc.b	"Alys !"
 	dc.b	$FD
 	dc.b	$F7
-	dc.b	$FF
 
 	dc.b	$F4
 	dc.b	$07
