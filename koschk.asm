@@ -4,6 +4,8 @@
 	page	0
 	supmode	on
 
+use_compiled = 0
+
 StartOfRom:
 	if (*) <> 0
 	fatal	"Start of ROM is at addres $\{*} but should be 0."
@@ -13,6 +15,8 @@ StartOfRom:
 	include "koschk/globals.asm"
 	include "koschk/charmap.asm"
 	include "koschk/text.asm"
+
+	include "ps4.options.asm"
 
 __main:
 
@@ -660,6 +664,7 @@ EndOfText:
 
 	align	8
 
+	if	use_compiled = 1
 UText01:
 	dc.l	UText02-UText01-4
 	binclude	"script/dialogue 1.bin.unc"
@@ -831,6 +836,184 @@ UText42:
 UText43:
 	dc.l	CText01-UText43-4
 	binclude	"script/dialogue 43.bin.unc"
+
+	else
+
+	include "script/charset.asm"
+UText01:
+	dc.l	UText02-UText01-4
+	include	"script/dialogue 1.asm"
+
+UText02:
+	dc.l	UText03-UText02-4
+	include	"script/dialogue 2.asm"
+
+UText03:
+	dc.l	UText04-UText03-4
+	include	"script/dialogue 3.asm"
+
+UText04:
+	dc.l	UText05-UText04-4
+	include	"script/dialogue 4.asm"
+
+UText05:
+	dc.l	UText06-UText05-4
+	include	"script/dialogue 5.asm"
+
+UText06:
+	dc.l	UText07-UText06-4
+	include	"script/dialogue 6.asm"
+
+UText07:
+	dc.l	UText08-UText07-4
+	include	"script/dialogue 7.asm"
+
+UText08:
+	dc.l	UText09-UText08-4
+	include	"script/dialogue 8.asm"
+
+UText09:
+	dc.l	UText10-UText09-4
+	include	"script/dialogue 9.asm"
+
+UText10:
+	dc.l	UText11-UText10-4
+	include	"script/dialogue 10.asm"
+
+UText11:
+	dc.l	UText12-UText11-4
+	include	"script/dialogue 11.asm"
+
+UText12:
+	dc.l	UText13-UText12-4
+	include	"script/dialogue 12.asm"
+
+UText13:
+	dc.l	UText14-UText13-4
+	include	"script/dialogue 13.asm"
+
+UText14:
+	dc.l	UText15-UText14-4
+	include	"script/dialogue 14.asm"
+
+UText15:
+	dc.l	UText16-UText15-4
+	include	"script/dialogue 15.asm"
+
+UText16:
+	dc.l	UText17-UText16-4
+	include	"script/dialogue 16.asm"
+
+UText17:
+	dc.l	UText18-UText17-4
+	include	"script/dialogue 17.asm"
+
+UText18:
+	dc.l	UText19-UText18-4
+	include	"script/dialogue 18.asm"
+
+UText19:
+	dc.l	UText20-UText19-4
+	include	"script/dialogue 19.asm"
+
+UText20:
+	dc.l	UText21-UText20-4
+	include	"script/dialogue 20.asm"
+
+UText21:
+	dc.l	UText22-UText21-4
+	include	"script/dialogue 21.asm"
+
+UText22:
+	dc.l	UText23-UText22-4
+	include	"script/dialogue 22.asm"
+
+UText23:
+	dc.l	UText24-UText23-4
+	include	"script/dialogue 23.asm"
+
+UText24:
+	dc.l	UText25-UText24-4
+	include	"script/dialogue 24.asm"
+
+UText25:
+	dc.l	UText26-UText25-4
+	include	"script/dialogue 25.asm"
+
+UText26:
+	dc.l	UText27-UText26-4
+	include	"script/dialogue 26.asm"
+
+UText27:
+	dc.l	UText28-UText27-4
+	include	"script/dialogue 27.asm"
+
+UText28:
+	dc.l	UText29-UText28-4
+	include	"script/dialogue 28.asm"
+
+UText29:
+	dc.l	UText30-UText29-4
+	include	"script/dialogue 29.asm"
+
+UText30:
+	dc.l	UText31-UText30-4
+	include	"script/dialogue 30.asm"
+
+UText31:
+	dc.l	UText32-UText31-4
+	include	"script/dialogue 31.asm"
+
+UText32:
+	dc.l	UText33-UText32-4
+	include	"script/dialogue 32.asm"
+
+UText33:
+	dc.l	UText34-UText33-4
+	include	"script/dialogue 33.asm"
+
+UText34:
+	dc.l	UText35-UText34-4
+	include	"script/dialogue 34.asm"
+
+UText35:
+	dc.l	UText36-UText35-4
+	include	"script/dialogue 35.asm"
+
+UText36:
+	dc.l	UText37-UText36-4
+	include	"script/dialogue 36.asm"
+
+UText37:
+	dc.l	UText38-UText37-4
+	include	"script/dialogue 37.asm"
+
+UText38:
+	dc.l	UText39-UText38-4
+	include	"script/dialogue 38.asm"
+
+UText39:
+	dc.l	UText40-UText39-4
+	include	"script/dialogue 39.asm"
+
+UText40:
+	dc.l	UText41-UText40-4
+	include	"script/dialogue 40.asm"
+
+UText41:
+	dc.l	UText42-UText41-4
+	include	"script/dialogue 41.asm"
+
+UText42:
+	dc.l	UText43-UText42-4
+	include	"script/dialogue 42.asm"
+
+UText43:
+	dc.l	CText01-UText43-4
+	include	"script/dialogue 43.asm"
+	
+	endif
+
 
 CText01:	binclude "script/dialogue 1.bin"
 CText02:	binclude "script/dialogue 2.bin"
