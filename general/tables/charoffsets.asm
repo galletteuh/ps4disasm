@@ -54,7 +54,7 @@
 	dc.b 	4		;.	53
 	dc.b	4		;'	54
 	dc.b	4		;,	55
-	dc.b	8		;middle dot
+	dc.b	8		;alternate dot for proportional (titles)
 	dc.b	4		;:	57
 	dc.b	4		;!	58
 	dc.b	8		;? 	59 - note - no blank on right
