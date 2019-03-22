@@ -629,9 +629,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"N'y a-t-il aucun moyen de les"
-	dc.b	$FC
-	dc.b	"libérer ?"
+	dc.b	"N'y a-t-il aucun moyen de les libérer ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02

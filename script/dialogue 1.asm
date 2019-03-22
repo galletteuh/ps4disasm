@@ -816,7 +816,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Je penses que ce n'est pas uniquement"
+	dc.b	"Je pense que ce n'est pas uniquement"
 	dc.b	$FC
 	dc.b	"ça."
 	dc.b	$FD
