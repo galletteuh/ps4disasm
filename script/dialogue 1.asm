@@ -639,9 +639,9 @@
 	dc.b	$FD
 	dc.b	"Tenez, l'autre jour, une bande d'entre"
 	dc.b	$FC
-	dc.b	"eux ont sauté dans la fontaine,"
+	dc.b	"eux ont sauté dans la fontaine !"
 	dc.b	$FD
-	dc.b	"quelle histoire !"
+	dc.b	"Quelle histoire !"
 	dc.b	$FC
 	dc.b	"Ils ne pensent donc qu'à eux-mêmes ?"
 	dc.b	$FD

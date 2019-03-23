@@ -88,7 +88,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Je ne suis pas certain."
+	dc.b	"Je n'en suis pas certain."
 	dc.b	$FD
 	dc.b	$F2, $01
 	dc.b	$F4
@@ -135,7 +135,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Je n'ai pas pris ma décision."
+	dc.b	"Je n'ai pas encore pris ma décision."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
@@ -148,7 +148,7 @@
 	dc.b	$F9
 	dc.b	$13
 
-	dc.b	"J'ai des choses à faire là-bas moi aussi."
+	dc.b	"J'ai des choses à faire là-bas, moi aussi."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
@@ -200,9 +200,9 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Euh... Je suis quelque peu embêté par"
+	dc.b	"Euh... Je suis quelque peu embêté quant"
 	dc.b	$FC
-	dc.b	"notre objectif."
+	dc.b	"à notre destination..."
 	dc.b	$FF
 
 ; $4
