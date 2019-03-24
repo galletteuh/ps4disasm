@@ -538,7 +538,7 @@
 	dc.b	$F3
 	dc.b	"Ne dis pas d'âneries !"
 	dc.b	$FD
-	dc.b	"Tu crois que tu peux nous demander ça"
+	dc.b	"Tu crois que tu peux leur demander ça"
 	dc.b	$FC
 	dc.b	"après avoir fugué ?!"
 	dc.b	$FF
