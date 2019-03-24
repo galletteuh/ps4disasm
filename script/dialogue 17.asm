@@ -29,7 +29,7 @@
 ; $3
 	dc.b	$FA
 	dc.b	$A1, $01
-	dc.b	"Euh, la Tour Garuberk ?"
+	dc.b	"Heu, la Tour Garuberk ?"
 	dc.b	$FC
 	dc.b	"Hmm, je crois avoir vu une tour sinistre"
 	dc.b	$FD

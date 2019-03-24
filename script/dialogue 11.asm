@@ -394,7 +394,7 @@
 
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Heu... de quoi voulait-il parler ?"
+	dc.b	"Euh... de quoi voulait-il parler ?"
 	dc.b	$FC
 	dc.b	"Quel minable !"
 	dc.b	$FD

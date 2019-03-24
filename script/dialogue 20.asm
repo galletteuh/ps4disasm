@@ -770,7 +770,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$19
-	dc.b	"Euh... Vous n'allez sûrement pas donner"
+	dc.b	"Heu ! Vous n'allez sûrement pas donner"
 	dc.b	$FC
 	dc.b	"ça à un tel jeunôt !"
 	dc.b	$FD

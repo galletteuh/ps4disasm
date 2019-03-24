@@ -492,7 +492,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Euh, pardon ?"
+	dc.b	"Heu, pardon ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08

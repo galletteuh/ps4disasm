@@ -745,7 +745,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Heu... bien, monsieur."
+	dc.b	"Euh... bien, monsieur."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0D
@@ -875,7 +875,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Euh, là, maintenant ?!"
+	dc.b	"Heu, là, maintenant ?!"
 	dc.b	$FF
 
 ; $69
@@ -919,7 +919,7 @@
 	dc.b	$FD
 	dc.b	"... Ah..."
 	dc.b	$FD
-	dc.b	"Heu... Alys ?"
+	dc.b	"Euh... Alys ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02

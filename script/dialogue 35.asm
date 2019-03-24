@@ -54,7 +54,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Euh, qui et qui sont de bons copains ?"
+	dc.b	"Heu, qui et qui sont de bons copains ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04

@@ -349,7 +349,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Heu, non, ce n'est rien..."
+	dc.b	"Euh, non, ce n'est rien..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$11

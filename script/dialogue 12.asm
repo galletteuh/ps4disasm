@@ -430,7 +430,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Heu, tu sais, on t'a sauvé la vie..."
+	dc.b	"Euh, tu sais, on t'a sauvé la vie..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$25

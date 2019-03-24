@@ -448,7 +448,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Heu... mais..."
+	dc.b	"Euh... mais..."
 	dc.b	$F7
 
 	dc.b	$F4
