@@ -171,9 +171,9 @@
 
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"C'est Saya, ma...hum..."
+	dc.b	"C'est Saya, ma... hum..."
 	dc.b	$FC
-	dc.b	"fi..fiancée."
+	dc.b	"fi... fiancée."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
