@@ -14,16 +14,44 @@ le traduire.
 Table des matières
 ==================
 
-1. Comment appliquer le patch
-2. Différences entre les versions du patch
-3. Sommaire des changements
-4. Traducteurs
-5. Contacts
-6. Remerciements
-7. Remarques légales
+1. Sommaire des changements les plus récents
+2. Comment appliquer le patch
+3. Différences entre les versions du patch
+4. Sommaire des changements des versions précédentes
+5. Traducteurs
+6. Contacts
+7. Remerciements
+8. Remarques légales
 
 
-1. Comment appliquer le patch
+1. Sommaire des changements
+---------------------------
+
+Version 2.0.0
++++++++++++++
+
+Nous vous avons réservés un joli cadeau, les amis! La police
+8x16 des dialogues est maintenant proportionnelle!
+
+BGE a travaillé dur là-dessus, et le résultat est beaucoup
+plus joli. On se croirait presque dans un jeu moderne quand
+on joue en émulateur avec un filtre tel hq3x.
+
+Bon, et aussi quelques petits correctifs de ci, de là. Galletteuh
+et BGE ont tout deux travaillé pour améliorer certaines
+phrases un peu douteuses.
+
+À noter que nous avons temporairement enlevé le code de gestion
+de dommages physiques. Même si Lory90 nous avait refilé un
+correctif pour le combat en véhicule, Wren ne prend que
+1 point de dommages lorsqu'il porte l'armure de Laconia. Bon,
+probablement qu'on pourrait arranger cela, mais on a pas voulu
+passer trop de temps là-dessus, surtout que le correctif est
+pour un problème dans le jeu original. Peut-être nous y
+reviendrons plus tard.
+
+
+2. Comment appliquer le patch
 -----------------------------
 
 Contenu du fichier zip:
@@ -82,7 +110,7 @@ pour le moment.
 même pas si vache avec les auteurs originaux!)
 
 
-2. Différences entre les versions du patch
+3. Différences entre les versions du patch
 ------------------------------------------
 
 Si vous êtes dans la mesure de le faire, nous recommandons
@@ -94,8 +122,6 @@ quantité de correctifs maintenus par lory1990 et BGE, dont:
 * Correctifs à la détection de collision dans certains endroits
 * Correctifs à l'avancement des personnages qui ne sont pas
   dans l'équipe actuelle
-* Correctifs au calcul du coefficient de défense en cas
-  d'utilisation d'armure résistante
 * Correctifs à la palette du air castle
 * etc.
 
@@ -148,29 +174,9 @@ Après tout, durant des années, tout le monde jouait avec aucun
 des correctifs appliqués et ça ne râlait pas trop :)
 
 
-3. Sommaire des changements
----------------------------
 
-Version 1.99.0
-++++++++++++++
-
-Nous vous avons réservés un joli cadeau, les amis! La police
-est maintenant proportionnelle!
-
-BGE a travaillé dur là-dessus, et le résultat est beaucoup
-plus joli, selon lui!
-
-Bon, et aussi quelques petits correctifs de ci, de là, en
-partie par Galletteuh, et BGE a aussi tenté de rendre une
-phrase particulièrement mal construite un peu plus lisible.
-C'est le genre de truc dont on se rend compte quand quelqu'un
-fait un vidéo Youtube...
-
-Prochaine étape, il faut soit tout rejouer le jeu et corriger
-le formattage, soit BGE va écrire un truc pour faire le rendu
-du texte et permettre de voir où il y a possibilité de replacer
-pour que ce soit plus joli.
-
+4. Sommaire des changements des versions précédentes
+----------------------------------------------------
 
 Version 1.1.0
 +++++++++++++
@@ -271,24 +277,27 @@ Version non-publiée.
 - Modifié la largeur de certaines fenêtres.
 
 
-3. Traducteurs
+
+5. Traducteurs
 --------------
 
-BGE        : Traduction initiale, hackeur.
+BGE        : Traduction initiale, hackeur, police
+             proportionnelle.
 (B.Goudreault-Emond)
 
-galletteuh : Nombreuses corrections au texte, beta-testeur.
-(A.Gallet)
+galletteuh : Nombreuses corrections au texte, beta-testeur,
+(A.Gallet)   hacking pour trouver la cause de certains
+             problèmes.
 
 
-4. Contacts
+6. Contacts
 -----------
 
 Des questions? Des commentaires (positifs!)? Vous avez
 remarqué des coquilles? Contactez BGE au benge42ca@yahoo.ca
 
 
-5. Remerciements
+7. Remerciements
 ----------------
 
 lory1990   : Production du désassemblage d'origine.
@@ -305,7 +314,7 @@ Hroþgar SCRB Artiste qui a fourni le .BMP du sous-titre à
              BahaBulle originellement.
 
 
-6. Remarques légales
+8. Remarques légales
 --------------------
 
 Le patch de traduction française de Phantasy Star IV
