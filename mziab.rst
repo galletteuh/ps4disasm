@@ -139,7 +139,7 @@ Final code block:
 -----------------
 
 This is the log file from the assembler. Before the colon is the offset, after
-is the set of words emitted for that line.
+is the set of words emitted for that line::
 
  2F4A14 :                     BitOffsetTable_Black:
  2F4A14 : 0000                	dc.w	$0000		; 0000
