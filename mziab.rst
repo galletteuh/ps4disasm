@@ -122,6 +122,7 @@ At offset $6AD40, change to the following segment: 600E 4E71::
 This skips over yet another word wrap routine.
 
 Original::
+  
   andi.w  #$1F, d1
 
 plus bunch of code we just skip over.
