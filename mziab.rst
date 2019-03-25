@@ -287,7 +287,6 @@ is the set of words emitted for that line::
  2F4B02 :                     -
  2F4B02 : 1013                	move.b	(a3), d0
  2F4B04 : 421B                	clr.b	(a3)+
- 2F4B06 : (MACRO)             	line_to_screen
  2F4B06 : 7400                        moveq   #0, d2          ;accumulator
  2F4B08 : 1400                        move.b  d0, d2
  2F4B0A : E60A                        lsr.b   #3, d2
@@ -384,7 +383,6 @@ is the set of words emitted for that line::
  2F4B92 : E62A                	lsr.b	d3, d2
  2F4B94 : 8002                	or.b	d2, d0
  2F4B96 : 16C0                	move.b	d0, (a3)+
- 2F4B98 : (MACRO)             	line_to_screen
  2F4B98 : 7400                        moveq   #0, d2          ;accumulator
  2F4B9A : 1400                        move.b  d0, d2
  2F4B9C : E60A                        lsr.b   #3, d2
@@ -440,7 +438,6 @@ is the set of words emitted for that line::
  2F4BF8 : 101A                	move.b	(a2)+, d0
  2F4BFA : E728                	lsl.b	d3, d0
  2F4BFC : 16C0                	move.b	d0, (a3)+
- 2F4BFE : (MACRO)             	line_to_screen
  2F4BFE : 7400                        moveq   #0, d2          ;accumulator
  2F4C00 : 1400                        move.b  d0, d2
  2F4C02 : E60A                        lsr.b   #3, d2
