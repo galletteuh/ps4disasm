@@ -51,7 +51,7 @@
 ; $3
 	dc.b	$FA
 	dc.b	$42, $01
-	dc.b	"Je dirais que « Alys Arracheuse de"
+	dc.b	"Je dirais que « Alys l'Arracheuse de"
 	dc.b	$FC
 	dc.b	"Tripes » est la combattante la plus"
 	dc.b	$FD
@@ -69,7 +69,7 @@
 	dc.b	$03
 	dc.b	"Ouais, c'est vraiment ridicule !"
 	dc.b	$FC
-	dc.b	"Ouille  Alys, pourquoi me frappez-vous ?!"
+	dc.b	"Ouille ! Alys, pourquoi me frappez-vous ?!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
@@ -77,7 +77,7 @@
 	dc.b	$FF
 
 ; $4
-	dc.b	"Je dirais que « Alys Arracheuse de"
+	dc.b	"Je dirais que « Alys l'Arracheuse de"
 	dc.b	$FC
 	dc.b	"Tripes » est la combattante la plus"
 	dc.b	$FD

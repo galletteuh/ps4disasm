@@ -36,7 +36,7 @@
 	dc.b	3		;i	35
 	dc.b	5		;j	36
 	dc.b	7		;k	37
-	dc.b	4		;l	38
+	dc.b	3		;l	38
 	dc.b	8		;m	39
 	dc.b	7		;n	40
 	dc.b	7		;o	41
