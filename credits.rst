@@ -44,7 +44,7 @@ The side effect is that the music will end a bit too early. This might be fixabl
 Overall algorithm notes:
 ========================
 
-delayLoop:
+delayLoop::
 	d1 = 0
 	Compare current command byte to delay from fadingtext (ED90)
 	If same as command byte
@@ -54,7 +54,7 @@ delayLoop:
 	a0 += 2
 	goto delayLoop
 
-commandText:
+commandText::
 	d0 = 0
 	d1 = 0
 	load next command (at a0 + 1)
@@ -65,7 +65,7 @@ commandText:
 	end if
 	
 switch (d0)
-	case 0:
+	case 0::
 		clear 92 bytes at 82a2 (23 chars)
 		d0 = d1 (credTextA.w >> 3)
 		find offset for the d0'th text string for headers
@@ -73,28 +73,28 @@ switch (d0)
 		++credTextA.w
 		set bit 0 for credTextC (palette related I think)
 		next frame
-	case 1:
+	case 1::
 		d0 = d1 (credTextB - credTextB % 8) * 2
 		find offset for the d0'th text string for text
 			string 0 of the text block
 		render using 8x16 chars starting at $4300
 		set bit 0 for credTextC
 		next frame
-	case 2:
+	case 2::
 		d0 = d1 (credTextB - credTextB % 8) * 2 + 1
 		find offset of the d0'th text string for text
 			this means string 1 of the text block
 		render using 8x16 chars starting at $4380
 		set bit 0 of credTextC
 		next frame
-	case 3:
+	case 3::
 		d0 = d1 (credTextB - credTextB % 8) * 2 + 2
 		find offset of the d0'th text string for text
 			this is string 2 of the text block
 		render using 8x16 chars starting at $4400
 		set bit 0 of credTextC
 		next frame
-	case 4:
+	case 4::
 		d0 = d1 (credTextB - credTextB % 8) * 2 + 3
 		find offset of the d0'th text string for text
 			this is string 3 of the text block
@@ -102,25 +102,25 @@ switch (d0)
 		set bit 0 of credTextC
 		next frame
 		
-	case 5:
+	case 5::
 		set bit 2 of credTextC - HEADER FADE IN
 		clear credTextD ($ECF2)
 		next frame
 	
-	case 6:
+	case 6::
 		set bit 3 of credTextC - TEXT FADE IN
 		next frame
 
-	case 7:
+	case 7::
 		set bit 4 of credTextC - HEADER FADE OUT
 		clear credTextD
 		next frame
 
-	case 8:
+	case 8::
 		set bit 5 of credTextC - TEXT FADE OUT
 		next frame
 
-	case 9:
+	case 9::
 		clear 92 bytes at 82A2 (23 chars)
 		clear 92 bytes at 86A2 (23 chars)
 		d0 = d1 (credTextA >> 3)
@@ -130,7 +130,7 @@ switch (d0)
 		set bit 0 for credTextC (palette related I think)
 		next frame
 
-	case 10:
+	case 10::
 		clear 92 bytes at 82A2 (23 chars)
 		clear 76 bytes at 8A26 (19 chars)
 		d0 = d1 (credTextA >> 3)
@@ -140,7 +140,7 @@ switch (d0)
 		set bit 0 for credTextC (palette related I think)
 		next frame
 
-	case 11:
+	case 11::
 		clear 36 bytes at 8B34 (9 chars)
 		d0 = d1 (credTextA >> 3)
 		find offset of the d0'th text string for headers
@@ -149,7 +149,7 @@ switch (d0)
 		set bit 0 for credTextC
 		next frame
 		
-	case 12:
+	case 12::
 		set bit 6 of credTextC
 		next frame
 
