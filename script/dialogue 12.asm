@@ -389,7 +389,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Je me demande si ce sont ceux Tallas ?"
+	dc.b	"Je me demande si ce sont ceux de Tallas ?"
 	dc.b	$FF
 
 ; $26
@@ -619,7 +619,7 @@
 	dc.b	$01
 	dc.b	"Wow !"
 	dc.b	$FC
-	dc.b	"Que...Qu'est-ce que tu as, Gryz ?"
+	dc.b	"Que... Qu'est-ce que tu as, Gryz ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06

@@ -215,7 +215,7 @@
 	dc.b	$FC
 	dc.b	"Nurvus se situe sous le fort de Zio !"
 	dc.b	$FD
-	dc.b	"En fait, Zio a construit son  fort juste"
+	dc.b	"En fait, Zio a construit son fort juste"
 	dc.b	$FC
 	dc.b	"au-dessus de Nurvus."
 	dc.b	$F7
@@ -540,7 +540,7 @@
 	dc.b	$22
 	dc.b	"Chaz... approche..."
 	dc.b	$FD
-	dc.b	"laisse-moi te regarder de près.."
+	dc.b	"laisse-moi te regarder de près..."
 	dc.b	$FD
 	dc.b	$F2, $01
 	dc.b	$F9
@@ -626,7 +626,7 @@
 	dc.b	"Mais là... Alys n'est plus."
 	dc.b	$FD
 	dc.b	"Je veux la venger, bien sûr,"
-	dc.b	$FD
+	dc.b	$FC
 	dc.b	"mais que dois-je faire ensuite ?"
 	dc.b	$FD
 	dc.b	"Me battre ? Pourquoi ?"

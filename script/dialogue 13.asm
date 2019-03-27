@@ -413,7 +413,7 @@
 	dc.b	$CC
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Hein... ? Je sens ma force revenir !?"
+	dc.b	"Hein... ? Je sens mes forces revenir !?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$07
@@ -482,11 +482,11 @@
 	dc.b	$06
 	dc.b	"Que... qu'est-ce qui se passe ? "
 	dc.b	$FC
-	dc.b	"Je sens...une grande oppression !"
+	dc.b	"Je sens... une grande oppression !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$05
-	dc.b	"Zio ! Espèce de...!"
+	dc.b	"Zio ! Espèce de... !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$13
@@ -556,7 +556,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Sale...!"
+	dc.b	"Sale... !"
 	dc.b	$FC
 	dc.b	"Tant pis ! Allons-y !"
 	dc.b	$FD
