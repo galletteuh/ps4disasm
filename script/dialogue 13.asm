@@ -227,7 +227,7 @@
 	dc.b	$FC
 	dc.b	"de l'air salin qui y règne !"
 	dc.b	$FD
-	dc.b	"Voici la statue de l'héroïne."
+	dc.b	"Il y a aussi la statue de l'héroïne."
 	dc.b	$FD
 	dc.b	"Malheureusement, avec ces sables"
 	dc.b	$FC
