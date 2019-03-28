@@ -366,7 +366,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Chaz! Tu as besoin de plus d'entraîne-"
+	dc.b	"Chaz ! Tu as besoin de plus d'entraîne-"
 	dc.b	$FC
 	dc.b	"ment ! C'est beaucoup trop lent !"
 	dc.b	$F7

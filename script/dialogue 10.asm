@@ -126,11 +126,11 @@
 	dc.b	$FD
 	dc.b	"elle peut réussir n'importe quoi,"
 	dc.b	$FC
-	dc.b	"la cuisine, le combat ou la poésie!"
+	dc.b	"la cuisine, le combat ou la poésie !"
 	dc.b	$FD
 	dc.b	"Dès son retour, je prendrai sur moi de"
 	dc.b	$FC
-	dc.b	"lui trouver un bon mari!"
+	dc.b	"lui trouver un bon mari !"
 	dc.b	$FF
 
 ; $18
@@ -255,7 +255,7 @@
 	dc.b	$FF
 
 ; $25
-	dc.b	"Ouf!"
+	dc.b	"Ouf !"
 	dc.b	$FD
 	dc.b	"J'ai acheté tellement de choses que c'est"
 	dc.b	$FC
@@ -533,7 +533,7 @@
 	dc.b	$FD
 	dc.b	"Hé, petites pestes !"
 	dc.b	$FD
-	dc.b	"Hé, toi! Halte !"
+	dc.b	"Hé, toi ! Halte !"
 	dc.b	$FC
 	dc.b	"Ne t'avises pas de filer !"
 	dc.b	$FD
@@ -674,7 +674,7 @@
 	dc.b	$FD
 	dc.b	"Il porte l'image d'une héroïne sur une"
 	dc.b	$FC
-	dc.b	"colline près de la mer."
+	dc.b	"colline, près de la mer."
 	dc.b	$FD
 	dc.b	"Ah, il est aussi écrit, « Termi »."
 	dc.b	$FD
@@ -704,7 +704,7 @@
 	dc.b	$FC
 	dc.b	"dans le bois. Je l'ai acheté à Termi."
 	dc.b	$FD
-	dc.b	"Quel travail de bonne qualité!"
+	dc.b	"Quel travail de bonne qualité !"
 	dc.b	$FD
 	dc.b	"On peut vraiment apprécier la maîtrise"
 	dc.b	$FC

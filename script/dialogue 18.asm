@@ -575,7 +575,7 @@
 	dc.b	$09
 	dc.b	"Oooooooh...."
 	dc.b	$FC
-	dc.b	"Ooooh...!"
+	dc.b	"Ooooh... !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01

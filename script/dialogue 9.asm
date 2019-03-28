@@ -560,7 +560,7 @@
 ; $4C
 	dc.b	$F4
 	dc.b	$24
-	dc.b	"Ouiiin! Où suis-je ?"
+	dc.b	"Ouiiin ! Où suis-je ?"
 	dc.b	$FC
 	dc.b	"Je veux retourner à Piata !"
 	dc.b	$FD

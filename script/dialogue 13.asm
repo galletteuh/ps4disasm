@@ -744,7 +744,7 @@
 	dc.b	$FD
 	dc.b	"Pour le moment, il faut se concentrer"
 	dc.b	$FC
-	dc.b	"sur éteindre Nurvus!"
+	dc.b	"sur éteindre Nurvus !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$07

@@ -240,7 +240,7 @@
 	dc.b	$FC
 	dc.b	"damnées qui ne pourront jamais quitter"
 	dc.b	$FD
-	dc.b	"ce château!"
+	dc.b	"ce château !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
@@ -266,7 +266,7 @@
 ; $38
 	dc.b	$F4
 	dc.b	$1C
-	dc.b	"Ahhhh! Tu es un démon, Lutz ! Tu m'as"
+	dc.b	"Ahhhh ! Tu es un démon, Lutz ! Tu m'as"
 	dc.b	$FC
 	dc.b	"vaincu, mais tu ne vaincra jamais..."
 	dc.b	$FD
@@ -295,7 +295,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$1C
-	dc.b	"Je fonds! Je fonds !!!"
+	dc.b	"Je fonds ! Je fonds !!!"
 	dc.b	$FD
 	dc.b	$F2, $03
 	dc.b	$ED
@@ -305,7 +305,7 @@
 	dc.b	$FC
 	dc.b	"Mais sachez que malgré cela, je ne"
 	dc.b	$FD
-	dc.b	"mourrai pas! Je me réincarnerai sans"
+	dc.b	"mourrai pas ! Je me réincarnerai sans"
 	dc.b	$FC
 	dc.b	"cesse."
 	dc.b	$FD

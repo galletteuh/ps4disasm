@@ -230,7 +230,7 @@
 	dc.b	$06
 	dc.b	"Ha, ha, ha !"
 	dc.b	$FC
-	dc.b	"Il est drôle ce bonhomme !"
+	dc.b	"Il est drôle, ce bonhomme !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
@@ -364,7 +364,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Ah oui ?"
+	dc.b	"Ah bon ?"
 	dc.b	$FD
 	dc.b	$F7
 

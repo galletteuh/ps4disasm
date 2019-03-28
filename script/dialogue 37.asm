@@ -115,7 +115,7 @@
 ; $26
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Là-bas! Quelqu'un est en difficulté !"
+	dc.b	"Là-bas ! Quelqu'un est en difficulté !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01

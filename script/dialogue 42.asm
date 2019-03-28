@@ -93,7 +93,7 @@
 	dc.b	$04
 	dc.b	"Wow, quel sens de l'observation..."
 	dc.b	$FD
-	dc.b	"Pointe l'Aero-Prisme vers le ciel!"
+	dc.b	"Pointe l'Aero-Prisme vers le ciel !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01

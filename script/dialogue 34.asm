@@ -550,9 +550,9 @@
 	dc.b	$04
 	dc.b	"Chaz !"
 	dc.b	$FD
-	dc.b	"Il faut qu'on retourne à Krup, immédiate-"
+	dc.b	"Il faut qu'on retourne à Krup,"
 	dc.b	$FC
-	dc.b	"ment !"
+	dc.b	"immédiatement !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
@@ -580,9 +580,9 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Rune, ce n'est pas le temps de plaisan-"
+	dc.b	"Rune, ce n'est pas le temps de"
 	dc.b	$FC
-	dc.b	"ter !"
+	dc.b	"plaisanter !"
 	dc.b	$FD
 	dc.b	"Je t'en conjure. Aide-nous !"
 	dc.b	$FD

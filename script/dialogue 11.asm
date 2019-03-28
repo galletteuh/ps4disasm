@@ -381,7 +381,7 @@
 	dc.b	$FF
 
 ; $3C
-	dc.b	"Hé, Alys! Vous êtes toujours aussi"
+	dc.b	"Hé, Alys ! Vous êtes toujours aussi"
 	dc.b	$FC
 	dc.b	"magnifiquement belle."
 	dc.b	$FD

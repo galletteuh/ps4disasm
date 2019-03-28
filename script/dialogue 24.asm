@@ -502,7 +502,7 @@
 ; $3A
 	dc.b	"C'est un miracle ! Mon fils est guéri !"
 	dc.b	$FD
-	dc.b	"C'est grâce à vous! Vous êtes aussi un"
+	dc.b	"C'est grâce à vous ! Vous êtes aussi un"
 	dc.b	$FC
 	dc.b	"véritable héros !"
 	dc.b	$FD

@@ -1,7 +1,7 @@
 ; 0
 	dc.b	"Finalement, nous pouvons pousser un"
 	dc.b	$FC
-	dc.b	"soupir de soulagement! Nous redonnerons"
+	dc.b	"soupir de soulagement ! Nous redonnerons"
 	dc.b	$FD
 	dc.b	"à Reshel sa splendeur d'origine !"
 	dc.b	$FC

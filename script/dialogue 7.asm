@@ -416,7 +416,7 @@
 
 	dc.b	$F4
 	dc.b	$0F
-	dc.b	"Ahhh! Euh... Aidez-moi !"
+	dc.b	"Ahhh ! Euh... Aidez-moi !"
 	dc.b	$F7
 
 	dc.b	$F4
@@ -507,7 +507,7 @@
 	dc.b	$65, $01
 	dc.b	$F4
 	dc.b	$05
-	dc.b	"Argh!"
+	dc.b	"Argh !"
 	dc.b	$FF
 
 ; $21
