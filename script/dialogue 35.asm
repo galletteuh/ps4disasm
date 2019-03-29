@@ -573,7 +573,7 @@
 ; $8
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Tout est optimal."
+	dc.b	"Tout est en ordre."
 	dc.b	$FD
 	dc.b	"Tous les systèmes de contrôle environne-"
 	dc.b	$FC
@@ -776,7 +776,7 @@
 	dc.b	$08
 	dc.b	"Module implanté."
 	dc.b	$FD
-	dc.b	"L'Hyper-Jammer peut maintenant prêt"
+	dc.b	"L'Hyper-Jammer est maintenant prêt"
 	dc.b	$FC
 	dc.b	"à être utilisé."
 	dc.b	$FF
