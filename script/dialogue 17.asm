@@ -566,15 +566,13 @@
 	dc.b	$FD
 	dc.b	"Hmm. C'est probablement du gaspillage de"
 	dc.b	$FC
-	dc.b	"traiter avec du menu fretin tel"
+	dc.b	"traiter avec du menu fretin tel que vous,"
 	dc.b	$FD
-	dc.b	"que vous, mais malheureusement..."
+	dc.b	"mais malheureusement..."
 	dc.b	$FD
 	dc.b	"N'étant qu'un réceptacle qui doit suivre"
 	dc.b	$FC
-	dc.b	"les ordres, j'imagine que je n'y "
-	dc.b	$FD
-	dc.b	"coupe pas !"
+	dc.b	"les ordres, je dois m'y résigner !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
@@ -684,11 +682,11 @@
 ; $38
 	dc.b	$F4
 	dc.b	$01
-    dc.b    "Où allons nous aujourd'hui ?"
+	dc.b    "Où allons nous aujourd'hui ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-    dc.b    "Ce n'est pas la porte d'à côté."
+	dc.b    "Ce n'est pas la porte d'à côté."
 	dc.b	$FC
 	dc.b	"Nous allons à l'Académie Motavia située"
 	dc.b	$FD

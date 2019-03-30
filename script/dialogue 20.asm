@@ -106,7 +106,7 @@
 ; $23
 	dc.b	$F4
 	dc.b	$17
-	dc.b	"Pardonnez moi !"
+	dc.b	"Pardonnez-moi !"
 	dc.b	$FF
 
 ; $24

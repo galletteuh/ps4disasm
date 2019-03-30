@@ -218,7 +218,7 @@
 	dc.b	$FC
 	dc.b	"il y avait un homme qui n'arrêtait pas"
 	dc.b	$FD
-	dc.b	"de conter des blagues stupides."
+	dc.b	"de raconter des blagues stupides."
 	dc.b	$FD
 	dc.b	"Il y a un moment que je ne l'ai vu,"
 	dc.b	$FC
@@ -242,7 +242,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Chaz..."
+	dc.b	"Chaz... !"
 	dc.b	$FF
 
 ; $18
@@ -250,7 +250,7 @@
 	dc.b	$FC
 	dc.b	"il y avait un homme qui n'arrêtait pas"
 	dc.b	$FD
-	dc.b	"de conter des blagues stupides."
+	dc.b	"de raconter des blagues stupides."
 	dc.b	$FD
 	dc.b	"Il y a un moment que je ne l'ai vu,"
 	dc.b	$FC

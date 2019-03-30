@@ -506,9 +506,9 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Tout ce que l'on doit faire, c'est y"
+	dc.b	"Tout ce que l'on doit faire, c'est y aller,"
 	dc.b	$FC
-	dc.b	"aller, et le récupérer !"
+	dc.b	"et le récupérer !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$1A
@@ -518,9 +518,9 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Mais à condition que vous nous le"
+	dc.b	"Mais à condition que vous nous le prêtiez"
 	dc.b	$FC
-	dc.b	"prêtiez une fois récupéré !"
+	dc.b	"une fois récupéré !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$1A
@@ -550,9 +550,7 @@
 	dc.b	$06
 	dc.b	"Dans les cieux de Parma !"
 	dc.b	$FD
-	dc.b	"Alors, il a dû être détruit il y a"
-	dc.b	$FC
-	dc.b	"mille ans !"
+	dc.b	"Alors, il a dû être détruit il y a mille ans !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
@@ -574,9 +572,9 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"La probabilité d'une telle situation est"
+	dc.b	"La probabilité d'une telle éventualité"
 	dc.b	$FC
-	dc.b	"très faible."
+	dc.b	"est très faible."
 	dc.b	$FD
 	dc.b	"En tout état de cause, je vais vérifier"
 	dc.b	$FC
@@ -586,7 +584,7 @@
 	dc.b	$01
 	dc.b	"Rune, j'ai une autre question..."
 	dc.b	$FD
-	dc.b	"De qui parlait ces sorcières ?"
+	dc.b	"De qui parlaient ces sorcières ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
