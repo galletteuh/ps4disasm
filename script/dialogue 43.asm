@@ -209,7 +209,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Daughter...la fille de... ?"
+	dc.b	"Daughter... la fille de... ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
@@ -307,9 +307,9 @@
 	dc.b	$FD
 	dc.b	"Ainsi, les conséquences de la destruction"
 	dc.b	$FC
-	dc.b	"de Parma fûrent prises en compte avant la"
+	dc.b	"de Parma fûrent prises en compte avant"
 	dc.b	$FD
-	dc.b	"fin du Projet Daughter."
+	dc.b	"la fin du Projet Daughter."
 	dc.b	$FD
 	dc.b	"Le projet fut donc abandonné au stade"
 	dc.b	$FC

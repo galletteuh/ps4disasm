@@ -103,9 +103,9 @@
 	dc.b	$FF
 
 ; $D
-	dc.b	"Vous voulez aller récupérer notre"
+	dc.b	"Vous allez nous rendre notre flamme"
 	dc.b	$FC
-	dc.b	"flamme sacrée ?"
+	dc.b	"sacrée, n'est-ce pas ?"
 	dc.b	$FD
 	dc.b	"Prenez garde de toujours la manipuler"
 	dc.b	$FC

@@ -796,7 +796,7 @@
 	dc.b	$FC
 	dc.b	"Rykros."
 	dc.b	$FD
-	dc.b	"C'est à vous d'écrirel'histoire."
+	dc.b	"C'est à vous d'écrire l'histoire."
 	dc.b	$FD
 	dc.b	"Tous nos espoirs reposent sur vous, des"
 	dc.b	$FC
