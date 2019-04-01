@@ -407,7 +407,7 @@
 
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Ah, tu m'as surpris. Qu'est-ce qui se"
+	dc.b	"Ah, ça m'a surpris. Qu'est-ce qui se"
 	dc.b	$FC
 	dc.b	"passe ?"
 	dc.b	$FD

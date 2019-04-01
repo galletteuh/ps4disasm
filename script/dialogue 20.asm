@@ -764,7 +764,7 @@
 	dc.b	$04
 	dc.b	"Nous allons emprunter la chambre"
 	dc.b	$FC
-	dc.b	"intérieur de nouveau. Je dois léguer"
+	dc.b	"intérieure de nouveau. Je dois léguer"
 	dc.b	$FD
 	dc.b	"quelque chose à Chaz."
 	dc.b	$FD

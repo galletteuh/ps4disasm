@@ -470,7 +470,7 @@
 	dc.b	$01
 	dc.b	$F2, $00
 	dc.w	$011F
-	dc.b	"Non, mais vous vous fichez de nous ?"
+	dc.b	"Non, mais, vous vous fichez de nous ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
