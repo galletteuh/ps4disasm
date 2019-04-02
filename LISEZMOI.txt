@@ -24,22 +24,25 @@ Table des matières
 8. Remarques légales
 
 
-1. Sommaire des changements
----------------------------
+1. Sommaire des changements les plus récents
+--------------------------------------------
 
 Version 2.0.0
 +++++++++++++
 
 Nous vous avons réservés un joli cadeau, les amis! La police
-8x16 des dialogues est maintenant proportionnelle!
+8x16 des dialogues est maintenant proportionnelle.
 
 BGE a travaillé dur là-dessus, et le résultat est beaucoup
 plus joli. On se croirait presque dans un jeu moderne quand
 on joue en émulateur avec un filtre tel hq3x.
 
-Bon, et aussi quelques petits correctifs de ci, de là. Galletteuh
+Bon, et aussi plusieurs correctifs de ci, de là. Galletteuh
 et BGE ont tout deux travaillé pour améliorer certaines
-phrases un peu douteuses.
+phrases un peu douteuses. Et évidemment il a fallu revoir
+tout le texte du jeux et revoir encore une fois pour s'assurer
+qu'on profitait bien de l'espace sur écran libéré par la
+nouvelle police.
 
 À noter que nous avons temporairement enlevé le code de gestion
 de dommages physiques. Même si Lory90 nous avait refilé un
@@ -49,6 +52,11 @@ probablement qu'on pourrait arranger cela, mais on a pas voulu
 passer trop de temps là-dessus, surtout que le correctif est
 pour un problème dans le jeu original. Peut-être nous y
 reviendrons plus tard.
+
+Comme d'habitude, vos sauvegardes SRAM devraient fonctionner.
+Les sauvegardes d'émulateur pourraient fonctionner, ou non.
+Il y a plus de chance qu'elles fonctionnent si elles ont
+été faite en plein combat.
 
 
 2. Comment appliquer le patch
@@ -287,7 +295,8 @@ BGE        : Traduction initiale, hackeur, police
 
 galletteuh : Nombreuses corrections au texte, beta-testeur,
 (A.Gallet)   hacking pour trouver la cause de certains
-             problèmes.
+             problèmes, modifications à la police pour
+	     la rendre plus jolie.
 
 
 6. Contacts
