@@ -538,7 +538,7 @@
 	dc.b	$FD
 	dc.b	"Vous aurez besoin des systèmes de"
 	dc.b	$FC
-	dc.b	"contrôle environmental pour un certain"
+	dc.b	"contrôle environnemental pour un certain"
 	dc.b	$FD
 	dc.b	"temps encore."
 	dc.b	$FD

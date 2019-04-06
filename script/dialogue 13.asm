@@ -948,7 +948,7 @@
 	dc.b	$06
 	dc.b	"Cela fait aussi partie des systèmes de"
 	dc.b	$FC
-	dc.b	"contrôle environmental ?"
+	dc.b	"contrôle environnemental ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$07

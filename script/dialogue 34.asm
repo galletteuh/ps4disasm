@@ -782,7 +782,7 @@
 	dc.b	$FC
 	dc.b	"centrale des systèmes de maintient"
 	dc.b	$FD
-	dc.b	"environmental du système solaire Algo."
+	dc.b	"environnemental du système solaire Algo."
 	dc.b	$FD
 	dc.b	"Il s'agit d'une station en orbite au-des-"
 	dc.b	$FC

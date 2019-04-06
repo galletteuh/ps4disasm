@@ -20,7 +20,7 @@
 	dc.b	$FC
 	dc.b	"Zelan, qui contrôle tous les systèmes"
 	dc.b	$FD
-	dc.b	"de maintient environmental des"
+	dc.b	"de maintient environnemental des"
 	dc.b	$FC
 	dc.b	"planètes du système solaire Algo."
 	dc.b	$FD
@@ -388,7 +388,7 @@
 	dc.b	$FC
 	dc.b	"qui a dérèglé tout le système de contrôle"
 	dc.b	$FD
-	dc.b	"environmental de la planète."
+	dc.b	"environnemental de la planète."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$09
