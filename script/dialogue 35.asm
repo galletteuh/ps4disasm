@@ -750,11 +750,11 @@
 	dc.b	$FD
 	dc.b	"Je présume que nous sommes en présence"
 	dc.b	$FC
-	dc.b	"de l'Hyper-Jammer."
+	dc.b	"d'un émetteur d'ondes magnétiques."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Hyper-Jammer ?"
+	dc.b	"Un émetteur d'ondes ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
@@ -776,9 +776,9 @@
 	dc.b	$08
 	dc.b	"Module implanté."
 	dc.b	$FD
-	dc.b	"L'Hyper-Jammer est maintenant prêt"
+	dc.b	"L'émetteur d'ondes est maintenant"
 	dc.b	$FC
-	dc.b	"à être utilisé."
+	dc.b	"prêt à être utilisé."
 	dc.b	$FF
 
 ; $B

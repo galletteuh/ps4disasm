@@ -696,9 +696,9 @@
 	dc.w	$0041
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Chaz ! Ça ne va pas du tout ! Même Gires"
+	dc.b	"Chaz ! Ça ne va pas du tout ! Aucun"
 	dc.b	$FC
-	dc.b	"ne guérit pas la blessure d'Alys !"
+	dc.b	"soin ne guérit la blessure d'Alys !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01

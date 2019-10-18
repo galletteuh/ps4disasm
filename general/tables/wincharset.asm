@@ -1,6 +1,6 @@
 	charset	'A', 'Z', 1
 	charset	'a', 'z', 57
-	charset '0', '9', 27
+	charset '0', '9', $A4
 	charset ' ', 0
 	charset	'-', $31
 	charset	'!', $32
