@@ -902,7 +902,7 @@
 	dc.b	$07
 	dc.b	"Il s'agit d'une nouvelle arme,"
 	dc.b	$FC
-	dc.b	"« Phononmaser » !"
+	dc.b	"un émetteur d'ultrasons !"
 	dc.b	$FD
 	dc.b	"Je suis impatiente de la mettre à"
 	dc.b	$FC

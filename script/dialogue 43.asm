@@ -488,7 +488,7 @@
 	dc.b	$FD
 	dc.b	"Est-ce un..."
 	dc.b	$FC
-	dc.b	"module Positron Bolt ?"
+	dc.b	"module Perce-armure ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
@@ -531,7 +531,7 @@
 	dc.b	$08
 	dc.b	"Implantation terminée."
 	dc.b	$FC
-	dc.b	"Positron Bolt prêt à l'usage."
+	dc.b	"Perce-armure prêt à l'usage."
 	dc.b	$FF
 
 ; $7
@@ -583,7 +583,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Il s'agit d'un module Burst Roc."
+	dc.b	"Il s'agit d'un lance missiles."
 	dc.b	$FD
 	dc.b	"C'est une arme semi-automatique à longue"
 	dc.b	$FC
@@ -598,7 +598,7 @@
 	dc.b	$08
 	dc.b	"Implantation terminée."
 	dc.b	$FC
-	dc.b	"Module Burst Roc prêt à l'usage."
+	dc.b	"Lance missiles prêt à l'usage."
 	dc.b	$FF
 
 ; $9
