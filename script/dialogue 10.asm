@@ -62,9 +62,9 @@
 	dc.b	$FF
 
 ; $14
-	dc.b	"Cette ordure a fugué avec ma fille !"
+	dc.b	"Cette ordure s'est enfui avec ma fille !"
 	dc.b	$FC
-	dc.b	"Ça me mets en rogne juste d'y penser !"
+	dc.b	"Ça me mets en rogne quand j'y pense !"
 	dc.b	$FF
 
 ; $15
@@ -72,13 +72,13 @@
 	dc.b	$FC
 	dc.b	"a des problèmes."
 	dc.b	$FD
-	dc.b	"J'espère que ma fille va bien !"
+	dc.b	"Je me demande si ma fille va bien !"
 	dc.b	$FC
 	dc.b	"Je suis si inquiète."
 	dc.b	$FD
 	dc.b	"Allez, arrête de de faire la gueule."
 	dc.b	$FC
-	dc.b	"On devrait l'inviter."
+	dc.b	"On devrait les inviter."
 	dc.b	$FF
 
 ; $16
@@ -90,35 +90,49 @@
 	dc.b	$FD
 	dc.b	"C'était vraiment délicieux."
 	dc.b	$FD
-	dc.b	"Je vais laver les contenants et vous"
+	dc.b	"Je vais laver les boîtes et vous les"
 	dc.b	$FC
-	dc.b	"les retourner."
+	dc.b	"ramener."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Vous cuisinez, Alys ?"
+	dc.b	"Vous savez cuisiner, Alys ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$05
-	dc.b	"Les gens sont si surprenants !"
+	dc.b	"Je ne vous imagine pas portant un"
+	dc.b	$FC
+	dc.b	"tablier de cuisine."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Hé, ça suffit, vous deux."
+	dc.b	"Et bien, je ne pense pas pouvoir compter"
 	dc.b	$FC
-	dc.b	"Pourquoi est-ce suprenant ?"
+	dc.b	"sur Chaz pour la cuisine, pas vrai ?"
+	dc.b	$FD
+	dc.b	"A moins d'être d'humeur à manger de la"
+	dc.b	$FC
+	dc.b	"viande brûlée."
+	dc.b	$FD
+	dc.b	$F4
+	dc.b	$01
+	dc.b	"C'est pas juste, ce n'est arrivé qu'une"
+	dc.b	$FC
+	dc.b	"fois."	
+	dc.b	$FD
+	dc.b	"Et j'ai réussi à faire disparaître l'odeur !"
 	dc.b	$FF
 
 ; $17
-	dc.b	"Vous voulez dire Alys, celle qui vit"
+	dc.b	"Vous voulez parlez d'Alys, celle qui vit"
 	dc.b	$FC
 	dc.b	"à l'arrière ?"
 	dc.b	$FD
-	dc.b	"Oh oui, elle est gentille !"
+	dc.b	"Oh oui, c'est une vraie crème !"
 	dc.b	$FD
 	dc.b	"Je crois qu'elle a une mission assez"
 	dc.b	$FC
-	dc.b	"périlleuse en ce moment."
+	dc.b	"difficile en ce moment."
 	dc.b	$FD
 	dc.b	"Elle est vraiment gentille avec les"
 	dc.b	$FC
@@ -126,11 +140,11 @@
 	dc.b	$FD
 	dc.b	"elle peut réussir n'importe quoi,"
 	dc.b	$FC
-	dc.b	"la cuisine, le combat ou la poésie !"
+	dc.b	"la cuisine, le combat, même la poésie !"
 	dc.b	$FD
-	dc.b	"Dès son retour, je prendrai sur moi de"
+	dc.b	"Quand elle rentrera, j'espère qu'elle"
 	dc.b	$FC
-	dc.b	"lui trouver un bon mari !"
+	dc.b	"pensera à se caser !"
 	dc.b	$FF
 
 ; $18
@@ -145,9 +159,9 @@
 	dc.b	$FC
 	dc.b	"seurs, à cause de la guilde et tout ça..."
 	dc.b	$FD
-	dc.b	"Ce n'est pas l'idéal pour bien élever des"
+	dc.b	"Ce n'est pas l'endroit idéal pour bien"
 	dc.b	$FC
-	dc.b	"enfants."
+	dc.b	"élever des enfants."
 	dc.b	$FF
 
 ; $1A
@@ -155,17 +169,17 @@
 	dc.b	$FF
 
 ; $1B
-	dc.b	"Non ! J'ai pas envie !"
+	dc.b	"Non ! Je veux pas !"
 	dc.b	$FF
 
 ; $1C
 	dc.b	"Nous venons d'emménager depuis Nalya."
 	dc.b	$FC
-	dc.b	"Ma femme est allée faire les courses"
+	dc.b	"Ma femme est allée faire les courses et"
 	dc.b	$FD
-	dc.b	"et n'est pas encore revenue."
+	dc.b	"n'est pas encore revenue."
 	dc.b	$FC
-	dc.b	"Que diable fait-elle ?"
+	dc.b	"Qu'est-ce qu'elle achète ?"
 	dc.b	$FF
 
 ; $1D
@@ -181,21 +195,25 @@
 	dc.b	$45
 	dc.b	"Ah, c'est vous, Alys ! Merci pour toute"
 	dc.b	$FC
-	dc.b	"votre aide l'autre fois."
+	dc.b	"votre aide l'autre jour."
 	dc.b	$FD
 	dc.b	"En échange, je lirai votre avenir"
 	dc.b	$FC
 	dc.b	"gratuitement..."
 	dc.b	$FD
-	dc.b	"Hé hé..."
+	dc.b	"Hum... Voyons ça..."
 	dc.b	$FD
-	dc.b	"Ah..."
+	dc.b	"Ah... C'est anormalement obscur..."
 	dc.b	$FD
-	dc.b	"Non... pas ça..."
+	dc.b	"Non... ahh...!"
 	dc.b	$FD
-	dc.b	"Je... je ne dois pas bien filer aujourd'hui."
+	dc.b	"Je... je ne dois pas être en forme"
 	dc.b	$FC
-	dc.b	"Revenez me voir un autre jour."
+	dc.b	"aujourd'hui."
+	dc.b	$FD
+	dc.b	"Repassez me voir plus tard. Prenez"
+	dc.b	$FC
+	dc.b	"soin de vous et vos amis, d'accord ?"
 	dc.b	$FF
 
 ; $1E
@@ -209,43 +227,51 @@
 ; $1F
 	dc.b	$F4
 	dc.b	$20
-	dc.b	"Vous dites ? Alys est..."
+	dc.b	"Oh... Pauvre Alys..."
 	dc.b	$FD
-	dc.b	"J'aurais dû l'empêcher de partir de"
+	dc.b	"Si seulement j'avais pu voir Zio plus"
 	dc.b	$FC
-	dc.b	"force..."
+	dc.b	"clairement je l'aurais prévenue !"
+	dc.b	$FD
+	dc.b	"Mais, elle n'aurait pas écouté."
+	dc.b	$FC
+	dc.b	"Fidèle à elle-même."
+	dc.b	$FD
+	dc.b	"Je sais qu'elle veille sur toi Chaz,"
+	dc.b	$FC
+	dc.b	"rends la fière de toi..."
 	dc.b	$FF
 
 ; $20
-	dc.b	"Ici, c'est le plus grand marché de tout"
+	dc.b	"Ici, c'est le plus grand centre"
 	dc.b	$FC
-	dc.b	"Motavia !"
+	dc.b	"commercial de tout Motavia !"
 	dc.b	$FF
 
 ; $21
-	dc.b	"Le marché d'Aiedo est aussi impression-"
+	dc.b	"Le centre commercial d'Aiedo est aussi"
 	dc.b	$FC
-	dc.b	"ant qu'on me l'avait laissé croire !"
+	dc.b	"impressionant que ce qu'on m'a dit !"
 	dc.b	$FF
 
 ; $22
-	dc.b	"Maman, je m'ennuie ! Retournons chez"
+	dc.b	"Maman, il ne vendent pas de frizebee !"
 	dc.b	$FC
-	dc.b	"nous..."
+	dc.b	"Je m'ennuie ! Rentrons à la maison..."
 	dc.b	$FF
 
 ; $23
-	dc.b	"Inutile de parcourir toute la ville pour"
+	dc.b	"Pas besoin de parcourir toute la ville"
 	dc.b	$FC
-	dc.b	"trouver des trucs."
+	dc.b	"pour trouver des trucs."
 	dc.b	$FD
 	dc.b	"On trouve tout juste ici."
 	dc.b	$FF
 
 ; $24
-	dc.b	"Pourquoi diable j'ai acheté un truc"
+	dc.b	"Pourquoi est-ce que j'ai acheté un"
 	dc.b	$FC
-	dc.b	"pareil ?"
+	dc.b	"truc pareil ?"
 	dc.b	$FD
 	dc.b	"C'est un peu effrayant comment il est"
 	dc.b	$FC
@@ -257,33 +283,37 @@
 ; $25
 	dc.b	"Ouf !"
 	dc.b	$FD
-	dc.b	"J'ai acheté tellement de choses que c'est"
+	dc.b	"J'ai acheté tellement de choses que je"
 	dc.b	$FC
-	dc.b	"dûr à transporter !"
+	dc.b	"ne peux pas tout porter !"
 	dc.b	$FF
 
 ; $26
 	dc.b	"On a fait le voyage jusqu'ici pour faire"
 	dc.b	$FC
-	dc.b	"les boutiques..."
+	dc.b	"du shopping..."
 	dc.b	$FD
-	dc.b	"Mais on a tout flambé avec les dépenses"
+	dc.b	"Mais on a tout dépensé avec le"
 	dc.b	$FC
-	dc.b	"du voyage."
+	dc.b	"voyage."
 	dc.b	$FD
-	dc.b	"En fait, on a même plus l'argent pour"
+	dc.b	"En fait, on n'a même plus de sous pour"
 	dc.b	$FC
 	dc.b	"payer nos chambres, mais on n'ose"
 	dc.b	$FD
-	dc.b	"pas l'avouer, et nous y restons"
+	dc.b	"pas le dire, et nous y continuons à"
 	dc.b	$FC
-	dc.b	"toujours..."
+	dc.b	"rester..."
 	dc.b	$FD
 	dc.b	"Que... que devons-nous faire ?"
+	dc.b	$FD
+	dc.b	$F4
+	dc.b	$01
+	dc.b	"Il reste la chasse aux primes !"
 	dc.b	$FF
 
 ; $27
-	dc.b	"Dis, pourquoi ne pas sortir par cette"
+	dc.b	"Dis, pourquoi ne pas s'chapper par la"
 	dc.b	$FC
 	dc.b	"fenêtre, la nuit !"
 	dc.b	$FF
@@ -293,19 +323,21 @@
 	dc.b	$FC
 	dc.b	"Chasseurs."
 	dc.b	$FD
-	dc.b	"Mais c'est là que les chasseurs se"
+	dc.b	"Mais c'est le repaire des brutes et"
 	dc.b	$FC
-	dc.b	"regroupent."
+	dc.b	"mauvais chasseurs."
 	dc.b	$FD
-	dc.b	"Les gens ordinaires n'osent pas y aller."
+	dc.b	"Vous ne voulez sûrement pas aller à"
+	dc.b	$FC
+	dc.b	"la soirée karaoké."
 	dc.b	$FF
 
 ; $29
 	dc.b	"C'était vraiment terrifiant !"
 	dc.b	$FD
-	dc.b	"Une énorme armée a passé près d'Aiedo."
+	dc.b	"Une énorme armée est passée près"
 	dc.b	$FC
-	dc.b	"Brrrr."
+	dc.b	"d'Aiedo. Brrrr."
 	dc.b	$FD
 	dc.b	"Je ne peux pas y penser sans prendre"
 	dc.b	$FC
@@ -315,9 +347,9 @@
 ; $2A
 	dc.b	"Hum !"
 	dc.b	$FD
-	dc.b	"Il n'y a personne pour me parler même"
+	dc.b	"Il n'y a personne pour me parler même si"
 	dc.b	$FC
-	dc.b	"si je toussote."
+	dc.b	"je toussote."
 	dc.b	$FD
 	dc.b	"Je me sens tellement seul..."
 	dc.b	$FF
@@ -327,17 +359,15 @@
 	dc.b	$42, $01
 	dc.b	"Oh Alys, quelle bonne surprise !"
 	dc.b	$FD
-	dc.b	"Si vous venez pour me voir, vous êtes"
+	dc.b	"Vous ne pouviez pas rester loin de mes"
 	dc.b	$FC
-	dc.b	"la bien bienvenue."
+	dc.b	"formes sculptées, pas vrai ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Hé hé, peut-être je vous demanderai"
+	dc.b	"Vous savez, les verres que vous"
 	dc.b	$FC
-	dc.b	"de me payer la traite de nouveau"
-	dc.b	$FD
-	dc.b	"la prochaine fois !"
+	dc.b	"m'offrez n'arrangent pas les choses !"
 	dc.b	$FF
 
 ; $2C
@@ -347,7 +377,7 @@
 	dc.b	$FF
 
 ; $2D
-	dc.b	"Je m'excuse de l'endroit très malcommode"
+	dc.b	"Je m'excuse de l'endroit inconfortable"
 	dc.b	$FC
 	dc.b	"où est située ma boulangerie !"
 	dc.b	$FF
@@ -357,11 +387,9 @@
 	dc.b	$FC
 	dc.b	"de génération en génération."
 	dc.b	$FD
-	dc.b	"L'humidité et la température du sous-"
+	dc.b	"On a besoin de la fraicheur du sous-sol"
 	dc.b	$FC
-	dc.b	"sol nous permet de pétrir le pain plus"
-	dc.b	$FD
-	dc.b	"facilement."
+	dc.b	"pour faire les meilleurs gâteaux d'Algol !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
@@ -385,35 +413,35 @@
 	dc.b	$02
 	dc.b	"Vous plaisantez ?"
 	dc.b	$FC
-	dc.b	"Je n'ai aucune envie de terminer ma vie"
+	dc.b	"C'est le dernier endroit où j'aimerai me"
 	dc.b	$FD
-	dc.b	"dans une ville sordide comme celle-ci !"
-	dc.b	$FD
-	dc.b	"Quand je serai vieille, je vivrai tranquil-"
+	dc.b	"poser ! Quand je serai vieille, je vivrai"
 	dc.b	$FC
-	dc.b	"lement dans un endroit beaucoup plus"
-	dc.b	$FD
-	dc.b	"paisible !"
+	dc.b	"tranquillement dans un endroit loin d'ici !"
 	dc.b	$FF
 
 ; $30
-	dc.b	"C'est vrai que peu de gens terminent"
+	dc.b	"C'est vrai que peu de gens choisissent"
 	dc.b	$FC
-	dc.b	"leur vie ici par choix. Mais, c'est le"
+	dc.b	"de finir leur vie ici. Mais on n'a pas"
 	dc.b	$FD
-	dc.b	"lot des humains de mourir quand leur"
+	dc.b	"notre mot à dire quand notre heure"
 	dc.b	$FC
-	dc.b	"heure est venue."
+	dc.b	"est venue."
+	dc.b	$FD
+	dc.b	"Et être chasseur rend la vie beaucoup"
+	dc.b	$FC
+	dc.b	"plus dangereuse."
 	dc.b	$FF
 
 ; $31
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Ouf, finalement, chez nous !"
+	dc.b	"Ah, enfin à la maison !"
 	dc.b	$FD
-	dc.b	"Devrions-nous nous détendre pour le"
+	dc.b	"On pourrait se détendre pour le reste"
 	dc.b	$FC
-	dc.b	"reste de la journée ?"
+	dc.b	"de la journée ?"
 	dc.b	$F5
 	dc.b	$00, $01
 	dc.b	"Parfait, soyons frais et dispos demain"
@@ -422,25 +450,21 @@
 	dc.b	$FF
 
 ; $32
-	dc.b	"Bon, alors continuons nos activités un"
-	dc.b	$FC
-	dc.b	"peu plus longtemps."
+	dc.b	"Bon, alors on continue encore un peu."
 	dc.b	$FF
 
 ; $33
 	dc.b	"Bof, vous appelez ça un marché !?"
 	dc.b	$FD
-	dc.b	"Il n'y a rien d'une quelconque utilité à"
-	dc.b	$FC
-	dc.b	"vendre !"
+	dc.b	"Il n'y a rien d'utile ici !"
 	dc.b	$FF
 
 ; $34
-	dc.b	"Tellement de belles choses, mais la"
+	dc.b	"Tellement de belles choses, mais même la"
 	dc.b	$FC
-	dc.b	"meilleure des armes est un pur gaspillage"
+	dc.b	"meilleure des armes est inutile si on ne"
 	dc.b	$FD
-	dc.b	"si elle est utilisée sans adresse."
+	dc.b	"sait pas s'en servir."
 	dc.b	$FF
 
 ; $35
@@ -448,31 +472,35 @@
 	dc.b	$42, $01
 	dc.b	"Oh, je suis honorée de votre visite, Alys."
 	dc.b	$FC
-	dc.b	"Votre présence m'inspire à me"
+	dc.b	"Votre présence m'inspire à faire"
 	dc.b	$FD
-	dc.b	"surpasser !"
+	dc.b	"de mon mieux !"
 	dc.b	$FF
 
 ; $36
 	dc.b	"Hé Chaz, tu as du culôt de te présenter"
 	dc.b	$FC
-	dc.b	"ici sans être escorté par un adulte !"
+	dc.b	"ici sans être accompagné par un adulte !"
+	dc.b	$FD	
+	dc.b	$F4
+	dc.b	$01
+	dc.b	"Pfff !"
 	dc.b	$FF
 
 ; $37
-	dc.b	"De nos jours, les chasseurs tirent bien"
+	dc.b	"De nos jours, les chasseurs s'en tirent"
 	dc.b	$FC
-	dc.b	"leur épingle du jeu. Mais les monstres"
+	dc.b	"bien. Mais les monstres sont devenus"
 	dc.b	$FD
-	dc.b	"sont devenus de plus en plus puissants."
+	dc.b	"de plus en plus puissants."
 	dc.b	$FD
-	dc.b	"Seuls les plus habiles sont toujours"
+	dc.b	"Seuls les plus doués sont toujours dans"
 	dc.b	$FC
-	dc.b	"actifs."
+	dc.b	"la course."
 	dc.b	$FD
-	dc.b	"Ça paraît, à voir le peu de clients qui"
+	dc.b	"On voit ça à la difficulté des clients à"
 	dc.b	$FC
-	dc.b	"se présentent !"
+	dc.b	"engager un chasseur !"
 	dc.b	$FF
 
 ; $38
@@ -484,7 +512,7 @@
 	dc.b	$FA
 	dc.b	$42, $01
 	dc.b	$F3
-	dc.b	"Juste un poil plus proche !"
+	dc.b	"Approchez-vous un peu !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
@@ -511,7 +539,7 @@
 ; $3B
 	dc.b	"Vous m'accusez ? De quoi ?"
 	dc.b	$FC
-	dc.b	"Soyez... soyez sérieux !"
+	dc.b	"Ne... Ne soyez pas riducule !"
 	dc.b	$FF
 
 ; $3C
@@ -523,29 +551,29 @@
 ; $3E
 	dc.b	"Allez, plus vite ! Ne fait pas de bruit !"
 	dc.b	$FC
-	dc.b	"Sois discrète !"
+	dc.b	"Chuuut !"
 	dc.b	$FD
-	dc.b	"Hé, minute, soeurette !"
+	dc.b	"Hé, attends, soeurette !"
 	dc.b	$FC
 	dc.b	"Ne me laisse pas seule ! Ouiiin !"
 	dc.b	$FD
-	dc.b	"Quel était ce bruit ? Oh !"
+	dc.b	"C'était quoi ce bruit ? Oh !"
 	dc.b	$FD
-	dc.b	"Hé, petites pestes !"
+	dc.b	"Hé, vous !"
 	dc.b	$FD
-	dc.b	"Hé, toi ! Halte !"
+	dc.b	"Hé, toi ! Attends !"
 	dc.b	$FC
 	dc.b	"Ne t'avises pas de filer !"
 	dc.b	$FD
 	dc.b	"Ouiin. Pardonnez-nous."
 	dc.b	$FD
-	dc.b	"Jamais de la vie, scélérates !"
+	dc.b	"Ne rêve pas, sale garnement !"
 	dc.b	$FC
-	dc.b	"Petites voleuses !"
+	dc.b	"Vous n'avez pas honte, gamines ?"
 	dc.b	$FD
 	dc.b	"Emmenez-les !"
 	dc.b	$FD
-	dc.b	"Ouiiin."
+	dc.b	"Non ! Pitié ! On est désolées !"
 	dc.b	$FF
 
 ; $3F
@@ -662,31 +690,41 @@
 ; $64
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Bon, tant qu'à l'avoir acheté, aussi bien"
+	dc.b	"Bon, quitte à l'avoir acheté, autant"
 	dc.b	$FC
-	dc.b	"le suspendre sur le mur !"
+	dc.b	"l'accrocher au mur !"
 	dc.b	$FF
 
 ; $65
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"C'est un fanion que j'ai acheté à Termi."
+	dc.b	"C'est un fanion que j'ai acheté à Paseo."
 	dc.b	$FD
 	dc.b	"Il porte l'image d'une héroïne sur une"
 	dc.b	$FC
 	dc.b	"colline, près de la mer."
 	dc.b	$FD
-	dc.b	"Ah, il est aussi écrit, « Termi »."
+	dc.b	"Ah, il est aussi écrit, « Paseo » et"
+	dc.b	$FC
+	dc.b	"« Alisa »."
+	dc.b	$FD
+	dc.b	"C'est vraiment une source d'inspiration !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"C'est de l'argent gâché !"
+	dc.b	"C'est du gaspillage d'argent !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Non, non, ce n'est pas grave."
+	dc.b	"C'est un souvenir de notre voyage,"
 	dc.b	$FC
-	dc.b	"C'est un souvenir de notre périple."
+	dc.b	"et je la trouve inspirante !"
+	dc.b	$FD
+	dc.b	"C'est pas parce que ton idole est un"
+	dc.b	$FC
+	dc.b	"moniteur d'ordinateur que tu dois être"
+	dc.b	$FD
+	dc.b	"si négative envers mes héros !"	
 	dc.b	$FF
 
 ; $66
@@ -700,9 +738,9 @@
 ; $67
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"C'est un ver des sables sculpté"
+	dc.b	"C'est un ver des sables sculpté en bois."
 	dc.b	$FC
-	dc.b	"dans le bois. Je l'ai acheté à Termi."
+	dc.b	"Je l'ai acheté à Paseo."
 	dc.b	$FD
 	dc.b	"Quel travail de bonne qualité !"
 	dc.b	$FD
@@ -712,13 +750,27 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Encore de l'argent gaspillé !"
+	dc.b	"Ce n'est pas de l'art c'est juste un"
+	dc.b	$FC
+	dc.b	"affreux vieux ver !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Non, non, tu ne comprends juste pas"
+	dc.b	"Je t'aurais crue plus sentimentale !"
 	dc.b	$FC
-	dc.b	"encore la féérie du voyage."
+	dc.b	"Peut-être que quand tu auras deux ans"
+	dc.b	$FD
+	dc.b	"tu deviendras nostalgique !"
+	dc.b	$FD	
+	dc.b	$F4
+	dc.b	$06
+	dc.b	"Personnellement je préfère les statues"
+	dc.b	$FC
+	dc.b	"d'animaux du genre :"
+	dc.b	$FD
+	dc.b	"A: qui peuvent me sourire, et"
+	dc.b	$FC
+	dc.b	"B: ont des yeux !"
 	dc.b	$FF
 ;; Local Variables:
 ;; eval: (fci-mode)

@@ -9,15 +9,17 @@
 	dc.b	$FD
 	dc.b	"Même si vous aviez un nombre infini de"
 	dc.b	$FC
-	dc.b	"vies, ça ne serait pas suffisant !"
+	dc.b	"vies, vous ne le battrez pas !"
 	dc.b	$FF
 
 ; $1
 	dc.b	"Zio ?"
 	dc.b	$FD
-	dc.b	"À bien y penser, il y a un moment que je"
+	dc.b	"En y repensant, il y a un moment que je"
 	dc.b	$FC
 	dc.b	"n'ai plus entendu parler de lui."
+	dc.b	$FD
+	dc.b	"Il était peut-être à court de vies..."
 	dc.b	$FF
 
 ; $2
@@ -27,11 +29,11 @@
 	dc.b	$FD
 	dc.b	"La caverne au nord d'Aiedo mène à un"
 	dc.b	$FC
-	dc.b	"endroit passé les collines."
+	dc.b	"endroit au delà des collines."
 	dc.b	$FD
-	dc.b	"Personne qui n'est entré dans cette"
+	dc.b	"Tous ceux qui sont entrés dans cette"
 	dc.b	$FC
-	dc.b	"caverne n'en est revenu !"
+	dc.b	"caverne n'en sont pas revenus !"
 	dc.b	$FD
 	dc.b	"Je me demande ce qu'il y a de l'autre"
 	dc.b	$FC
@@ -45,21 +47,21 @@
 	dc.b	$FC
 	dc.b	"Zio !"
 	dc.b	$FD
-	dc.b	"Impressionnant, n'est-ce pas ?"
+	dc.b	"Je ne sais pas si je peux y croire sans"
 	dc.b	$FC
-	dc.b	"Je me demande bien qui ça peut bien être !"
+	dc.b	"le rencontrer en personne."
 	dc.b	$FF
 
 ; $4
-	dc.b	"Les monstres deviennent de plus en plus"
+	dc.b	"Récemment les monstres sont devenus"
 	dc.b	$FC
-	dc.b	"puissants, il est devenu difficile de"
+	dc.b	"extrèmement puissants, ce qui rend le"
 	dc.b	$FD
-	dc.b	"les combattre."
+	dc.b	"métier de chasseur très risqué."
 	dc.b	$FD
-	dc.b	"Je ferais mieux de vite me recycler dans"
+	dc.b	"Hmm... Je devrais prendre des cours de"
 	dc.b	$FC
-	dc.b	"une autre profession !"
+	dc.b	"cuisine ou un truc du genre..."
 	dc.b	$FF
 
 ; $5
@@ -71,15 +73,17 @@
 	dc.b	$FD
 	dc.b	"J'ai entendu dire que les autres villes"
 	dc.b	$FC
-	dc.b	"vivent des désastres."
+	dc.b	"enchaînent les désastres."
 	dc.b	$FD
 	dc.b	"Il en a même une qui a été réduite en"
 	dc.b	$FC
 	dc.b	"cendres !"
 	dc.b	$FD
 	dc.b	"Ce serait l'oeuvre de Zio."
+	dc.b	$FD
+	dc.b	"Si tous les chasseur s'alliaient, est-ce"
 	dc.b	$FC
-	dc.b	"Je me demande si c'est vrai ?"
+	dc.b	"qu'on aurait une chance ?"
 	dc.b	$FF
 
 ; $6
@@ -89,7 +93,7 @@
 	dc.b	$FD
 	dc.b	"J'ai entendu dire que les autres villes"
 	dc.b	$FC
-	dc.b	"vivent des désastres."
+	dc.b	"enchaînent les désastres."
 	dc.b	$FD
 	dc.b	"Il en a même une qui a été réduite en"
 	dc.b	$FC
@@ -99,65 +103,77 @@
 ; $7
 	dc.b	$FA
 	dc.b	$42, $01
-	dc.b	"Hé, Alys ! Vous êtes toujours aussi"
+	dc.b	"Hé, Alys ! Toute cette chasse vous a"
 	dc.b	$FC
-	dc.b	"séduisante."
+	dc.b	"rendu encore plus canon !"
 	dc.b	$FD
-	dc.b	"Pourquoi vous ne sortez pas avec moi, un"
-	dc.b	$FC
-	dc.b	"de ces quatres ?"
+	dc.b	"Que diriez-vous d'un verre cette nuit ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Ouais. J'y penserai... quand vous serez"
+	dc.b	"OK. Rendez-vous à minuit à l'angle du"
 	dc.b	$FC
-	dc.b	"moins minable."
+	dc.b	"chemin de l'oubli."
+	dc.b	$FD
+	dc.b	$F4
+	dc.b	$00
+	dc.b	"Euh, et c'est où déjà ?"
+	dc.b	$FD
+	dc.b	$F4
+	dc.b	$02
+	dc.b	"Hum... J'ai oublié."
 	dc.b	$FF
 
 ; $8
 	dc.b	"Alys est une femme vraiment séduisante,"
 	dc.b	$FC
-	dc.b	"mais elle ne veut rien savoir de moi."
+	dc.b	"mais elle ne m'accorde pas de son temps."
 	dc.b	$FD
 	dc.b	"J'imagine qu'il y a déjà un homme dans"
 	dc.b	$FC
 	dc.b	"sa vie..."
 	dc.b	$FD
-	dc.b	"Mais, j'y pense... je ne l'ai pas vue"
+	dc.b	"Je me demande si elle s'est enfuie avec"
 	dc.b	$FC
-	dc.b	"depuis un moment..."
+	dc.b	"lui, car je ne l'ai pas vue depuis un bail."
 	dc.b	$FF
 
 ; $9
 	dc.b	$FA
 	dc.b	$65, $01
-	dc.b	"Une vaste armée entre et sort constam-"
+	dc.b	"Une vaste armée entre et sort"
 	dc.b	$FC
-	dc.b	"ment de la caverne au nord. Ce doit être"
+	dc.b	"constamment de la caverne au nord."
 	dc.b	$FD
-	dc.b	"les soldats de Zio dont on entend tant"
+	dc.b	"Ce doit être les soldats de Zio dont"
 	dc.b	$FC
-	dc.b	"parler !"
+	dc.b	"on entend tant parler !"
 	dc.b	$FF
 
 ; $A
 	dc.b	"J'ai entendu dire que le passage au nord"
 	dc.b	$FC
-	dc.b	"est maintenant accessible."
+	dc.b	"est sûr maintenant."
 	dc.b	$FF
 
 ; $B
-	dc.b	"Et bien ! Alys est très jolie, mais tu sais"
+	dc.b	"Et bien ! Alys est très jolie, elle ne"
 	dc.b	$FC
-	dc.b	"que toi, aussi, tu es mignonne ?"
+	dc.b	"porte jamais de tenue comme la tienne !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Ahhhh ! Bas les pattes !"
+	dc.b	"Ahh ! Arrêtez de me fixer comme ça !"
+	dc.b	$FC
+	dc.b	"C'est juste confortable pour le combat !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Hé, toi ! Laisse-la tranquille, minable !"
+	dc.b	"Je ne pense pas que s'extasier sur la"
+	dc.b	$FC
+	dc.b	"tenue d'une femme soit si flatteur que"
+	dc.b	$FD
+	dc.b	"tu ne le penses, mec."
 	dc.b	$FF
 
 ; $C
@@ -167,79 +183,71 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Désolée. Je n'en ai pas envie aujourd'hui."
+	dc.b	"Désolée. Je n'ai pas le temps, et je ne"
 	dc.b	$FC
-	dc.b	"Ce sera pour la prochaine fois."
+	dc.b	"veux pas montrer le mauvais exemple"
+	dc.b	$FD
+	dc.b	"pour mon petit Chaz. Une autre fois."
 	dc.b	$FF
 
 ; $D
-	dc.b	"Il y a un temps qu'Alys n'est pas venue."
+	dc.b	"Ça fait un moment que je n'ai pas vu"
+	dc.b	$FC
+	dc.b	"Alys..."
 	dc.b	$FD
 	dc.b	"Je me demande si elle est sur une mission"
 	dc.b	$FC
-	dc.b	"prolongée ?"
+	dc.b	"longue ?"
 	dc.b	$FD
-	dc.b	"On s'ennuie quand elle n'est pas là !"
+	dc.b	"C'est ma meilleure cliente, et elle empêche"
+	dc.b	$FC
+	dc.b	"ces ordures de frapper les femmes qui"
+	dc.b	$FD
+	dc.b	"viennent accidentellement ici."
 	dc.b	$FF
 
 ; $E
 	dc.b	$F4
 	dc.b	$11
-	dc.b	"Êtes-vous en train d'insinuer que je"
+	dc.b	"Êtes-vous ici car vous pensez que j'ai"
 	dc.b	$FC
-	dc.b	"dissimule de l'information sur les"
+	dc.b	"une liste secrète de missions pour les"
 	dc.b	$FD
-	dc.b	"meilleures missions ?"
+	dc.b	"plus intrépides chasseurs ?"
 	dc.b	$FD
-	dc.b	"Comment osez-vous penser une telle"
+	dc.b	"Mauvaise nouvelle : je n'ai rien du tout"
 	dc.b	$FC
-	dc.b	"chose !"
+	dc.b	"pour vous, à part ce sourire forcé !"
 	dc.b	$FD
-	dc.b	"Je jure, sur ma réputation, que ce genre"
+	dc.b	"Vous me rendez nerveuse, veuillez"
 	dc.b	$FC
-	dc.b	"d'entourloupette est impossible, ici !"
-	dc.b	$FD
-	dc.b	"Maintenant, veuillez retourner de l'autre"
-	dc.b	$FC
-	dc.b	"côté du comptoir !"
+	dc.b	"retourner de l'autre côté du comptoir !"
 	dc.b	$FF
 
 ; $F
 	dc.b	$F4
 	dc.b	$11
-	dc.b	"Bienvenue !"
+	dc.b	"Bienvenue à la Guilde des Chasseur !"
 	dc.b	$FD
-	dc.b	"Vous êtes ici à la Guilde des Chasseur,"
+	dc.b	"« Nous enrichissons la vie des"
 	dc.b	$FC
-	dc.b	"où nous enrichissons leur vie !"
+	dc.b	"chasseurs » !"
 	dc.b	$FD
-	dc.b	"L'aire d'inscription est là-bas."
-	dc.b	$FD
-	dc.b	"Pour les chasseurs déjà inscrits, je peux"
+	dc.b	"Vous êtes déjà membre, donc voici la"
 	dc.b	$FC
-	dc.b	"vous donner des information sur les"
-	dc.b	$FD
-	dc.b	"missions disponibles."
-	dc.b	$FD
-	dc.b	"Les missions suivantes figurent"
-	dc.b	$FC
-	dc.b	"actuellement sur la liste..."
+	dc.b	"liste des missions disponibles."
 	dc.b	$FF
 
 ; $10
-	dc.b	"Ces missions sont présentement"
+	dc.b	"Ces missions sont actuellement"
 	dc.b	$FC
-	dc.b	"disponibles."
-	dc.b	$FD
-	dc.b	"Qui est preneur ?"
+	dc.b	"disponibles. Qui est preneur ?"
 	dc.b	$FF
 
 ; $11
-	dc.b	"Trêve d'humour."
-	dc.b	$FD
-	dc.b	"Cette mission a déjà été résolue par un"
+	dc.b	"Je vous rappelle que vous avez déjà fait"
 	dc.b	$FC
-	dc.b	"de nos chasseurs."
+	dc.b	"cette mission, on vous a payé."
 	dc.b	$FF
 
 ; $12
@@ -253,7 +261,9 @@
 ; $13
 	dc.b	"Revenez nous voir à la Guilde des Chas-"
 	dc.b	$FC
-	dc.b	"seurs, qui enrichit leur vie avec plaisir !"
+	dc.b	"seurs, où « Vous chassez donc ils n'ont"
+	dc.b	$FD
+	dc.b	"pas à le faire ! »"
 	dc.b	$FF
 
 ; $14
@@ -265,26 +275,26 @@
 	dc.b	$FD
 	dc.b	"« Les vers des sables de mon ranch ont"
 	dc.b	$FC
-	dc.b	"tellement grandi que je ne sais plus"
+	dc.b	"tellement grandi que j'ai peur pour notre"
 	dc.b	$FD
-	dc.b	"quoi faire. Aidez-moi... »"
-	dc.b	$FD
-	dc.b	"Ceci complète le message."
+	dc.b	"sécurité. Aidez-moi... »"
 	dc.b	$FD
 	dc.b	"Le cachet est de 5000 meseta."
 	dc.b	$FC
 	dc.b	"Vous êtes preneur ?"
 	dc.b	$F5
 	dc.b	$01, $00
-	dc.b	"Je vois."
+	dc.b	"Je vois. Je suis sûr qu'un amoureux des"
 	dc.b	$FC
-	dc.b	"Dommage."
+	dc.b	"animaux n'aime pas l'aide des chasseurs."
 	dc.b	$FF
 
 ; $15
-	dc.b	"Alors, veuillez vous rendre à Mile pour"
+	dc.b	"Super ! Dans ce cas veuillez vous rendre"
 	dc.b	$FC
-	dc.b	"obtenir tous les détails du propriétaire."
+	dc.b	"à Mile pour obtenir tous les détails du"
+	dc.b	$FD
+	dc.b	"propriétaire."
 	dc.b	$FF
 
 ; $16
@@ -292,17 +302,17 @@
 	dc.b	$1A, $01
 	dc.b	$F4
 	dc.b	$11
-	dc.b	"Allez à Mile pour les détails ! Demandez"
+	dc.b	"Allez à Mile pour avoir les détails auprès"
 	dc.b	$FC
-	dc.b	"directement au propriétaire du ranch !"
+	dc.b	"du propriétaire du ranch !"
 	dc.b	$FF
 
 ; $17
 	dc.b	$F4
 	dc.b	$11
-	dc.b	"Selon le règlement de la Guilde, vous"
+	dc.b	"Selon le règlement de la Guilde, vous ne"
 	dc.b	$FC
-	dc.b	"ne pouvez postuler que pour une mission"
+	dc.b	"pouvez postuler que pour une mission"
 	dc.b	$FD
 	dc.b	"à la fois."
 	dc.b	$FD
@@ -332,23 +342,27 @@
 	dc.b	$FC
 	dc.b	"problème avant que quelqu'un ne soit"
 	dc.b	$FD
-	dc.b	"blessé. Par contre, c'est dommage pour"
+	dc.b	"mangé. Par contre, c'est dommage pour"
 	dc.b	$FC
-	dc.b	"le propriétaire."
+	dc.b	"le propriétaire, et les vers de sable."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Oui, c'est vrai, mais il n'avait pas l'air"
+	dc.b	"Il a l'âme d'un entrepreneur, c'est clair !"
 	dc.b	$FC
-	dc.b	"trop découragé, malgré tout."
+	dc.b	"Il rebondira avec d'autres idées, même"
 	dc.b	$FD
-	dc.b	"Je suis sûre qu'il va bien s'en tirer !"
+	dc.b	"si rien ne garantit qu'elle sera meilleure"
+	dc.b	$FC
+	dc.b	"que celle-ci..."
 	dc.b	$FF
 
 ; $19
 	dc.b	"Revenez nous voir à la Guilde des Chas-"
 	dc.b	$FC
-	dc.b	"seurs, qui enrichit leur vie avec plaisir !"
+	dc.b	"seurs, « Nous apportons de la chasse"
+	dc.b	$FD
+	dc.b	"aux chasseurs ! »"
 	dc.b	$FF
 
 ; $1A
@@ -356,11 +370,9 @@
 	dc.b	$FC
 	dc.b	"maison de Clochette."
 	dc.b	$FD
-	dc.b	"« Notre chien, Rocky, a disparu. »"
+	dc.b	"« Notre chien adoré, Rocky, s'est enfui."
 	dc.b	$FC
 	dc.b	"Trouvez-le, s'il vous plaît... »"
-	dc.b	$FD
-	dc.b	"Ceci complète le message."
 	dc.b	$FD
 	dc.b	"Ce travail n'est certainement pas le"
 	dc.b	$FC
@@ -371,17 +383,17 @@
 	dc.b	"Vous êtes preneur ?"
 	dc.b	$F5
 	dc.b	$01, $00
-	dc.b	"Je vois."
+	dc.b	"Je vois. Je suis sûr qu'un chasseur"
 	dc.b	$FC
-	dc.b	"Dommage."
+	dc.b	"amateur de chien les aidera."
 	dc.b	$FF
 
 ; $1B
-	dc.b	"Alors, veuillez vous rendre à la maison"
+	dc.b	"Super, dans ce cas allez à la maison de"
 	dc.b	$FC
-	dc.b	"de Clochette pour obtenir tous les"
+	dc.b	"Clochette et parlez directement au"
 	dc.b	$FD
-	dc.b	"détails directement du propriétaire."
+	dc.b	"propriétaire."
 	dc.b	$FD
 	dc.b	"La maison de Clochette se situe dans le"
 	dc.b	$FC
@@ -401,9 +413,9 @@
 ; $1D
 	dc.b	$F4
 	dc.b	$11
-	dc.b	"Selon le règlement de la Guilde, vous"
+	dc.b	"Selon le règlement de la Guilde, vous ne"
 	dc.b	$FC
-	dc.b	"ne pouvez postuler que pour une mission"
+	dc.b	"pouvez postuler que pour une mission"
 	dc.b	$FD
 	dc.b	"à la fois."
 	dc.b	$FD
@@ -429,11 +441,15 @@
 	dc.b	$FD
 	dc.b	"Revenez nous voir à la Guilde des Chas-"
 	dc.b	$FC
-	dc.b	"seurs, qui enrichit leur vie avec plaisir !"
+	dc.b	"seurs"
+	dc.b	$FD
+	dc.b	"« Nous mettons de la fierté dans le"
+	dc.b	$FC
+	dc.b	"métier ! »"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"C'était vraiment un chien particulier !"
+	dc.b	"C'était vraiment un chien loufoque !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
@@ -443,7 +459,9 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Ne dis pas de sottises !"
+	dc.b	"Euh... Quelle partie ?"
+	dc.b	$FC
+	dc.b	"Le côté « chien » ou « loufoque » ?"
 	dc.b	$FF
 ;; Local Variables:
 ;; eval: (fci-mode)

@@ -129,31 +129,35 @@
 ; $29
 	dc.b	$F4
 	dc.b	$09
-	dc.b	"Ouais ! À boire et à manger."
+	dc.b	"... Burp !"
 	dc.b	$FC
-	dc.b	"Ça, c'est la vie."
+	dc.b	"Oh d...désolé !"
+	dc.b	$FD
+	dc.b	"J'ai bu ma binouze trop vite !"
 	dc.b	$FF
 
 ; $2A
-	dc.b	"Les gens viennent ici des quatres coins"
+	dc.b	"Les gens de tout Dezolis se rassemblent"
 	dc.b	$FC
-	dc.b	"de Dezolis et racontent plein de choses..."
+	dc.b	"ici pour parler de tout et de rien..."
 	dc.b	$FD
-	dc.b	"Gyuna les écoutent tous et transmet"
+	dc.b	"Gyuna les écoutent et fait du"
 	dc.b	$FC
-	dc.b	"cela aux autres..."
+	dc.b	"commérage..."
 	dc.b	$FD
-	dc.b	"C'est ici que toutes les idées se"
+	dc.b	"Ne dites rien si vous ne voulez pas que"
 	dc.b	$FC
-	dc.b	"rassemblent et diffusent."
+	dc.b	"tout le monde soit au courant."
 	dc.b	$FF
 
 ; $2B
 	dc.b	"Le propriétaire de cet établissement,"
 	dc.b	$FC
-	dc.b	"Gyuna, connaît son travail,"
+	dc.b	"Gyuna, a beaucoup de savoir, mais il"
 	dc.b	$FD
-	dc.b	"mais il a un accent bizarre !"
+	dc.b	"parle dans un vieux dialecte étrange !"
+	dc.b	$FC
+	dc.b	"Vous devrez vous y faire..."
 	dc.b	$FF
 
 ; $2C
@@ -163,9 +167,13 @@
 	dc.b	$FC
 	dc.b	"ici, c'est pourquoi je suis venu de loin..."
 	dc.b	$FD
-	dc.b	"Mais je suis maintenant bloqué ici à cause"
+	dc.b	"Mais je suis maintenant coincé ici à cause"
 	dc.b	$FC
-	dc.b	"de la glace qui obstrue les chemins."
+	dc.b	"de la glace qui bloque les routes."
+	dc.b	$FD
+	dc.b	"Je ne peux pas rentrer chez moi..."
+	dc.b	$FC
+	dc.b	"alors, patron, un autre verre !"
 	dc.b	$FF
 
 ; $2D
@@ -177,29 +185,51 @@
 	dc.b	$FC
 	dc.b	"malgré que la tempête se soit calmée,"
 	dc.b	$FD
-	dc.b	"et je suis bloqué ici..."
+	dc.b	"et je suis toujours coincé ici..."
+	dc.b	$FC
+	dc.b	"Bon sang... un autre verre alors !"
 	dc.b	$FF
 
 ; $2E
-	dc.b	"Aiee ! Que me voulez-vous ? Wow,"
+	dc.b	"Aiee ! Que me voulez-vous ? Wow, vous"
 	dc.b	$FC
-	dc.b	"vous avez vraiment une allure douteuse."
+	dc.b	"avez vraiment une allure douteuse."
 	dc.b	$FD
 	dc.b	"Vous faites tourner ma boisson."
 	dc.b	$FC
 	dc.b	"Éloignez-vous de moi !"
+	dc.b	$FD
+	dc.b	$F4
+	dc.b	$06	
+	dc.b	"Non mais je rêve ! Pourquoi vous ne vous"
+	dc.b	$FC
+	dc.b	"regardez pas dans un miroir ?"
 	dc.b	$FF
 
 ; $2F
-	dc.b	"Ouiiin. J'a... j'avais tort !"
+	dc.b	"Ouiiin. Tu es parti trop vite..."
 	dc.b	$FC
-	dc.b	"Revenez, je vous en supplie !"
+	dc.b	"Tu me manque, Dizzy, le meilleur"
+	dc.b	$FD
+	dc.b	"pingouin qu'un bon Dezolisien puisse"
+	dc.b	$FC
+	dc.b	"rêver..."
+	dc.b	$FD
+	dc.b	"Une autre bière !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Il a le vin triste..."
+	dc.b	"C'est juste un ivrogne qui chiale..."
+	dc.b	$FD
+	dc.b	"Rika, ça veut dire qu'il s'apitoie"
 	dc.b	$FC
-	dc.b	"C'est vraiment pénible."
+	dc.b	"sur son sort quand il est bourré."	
+	dc.b	$FD
+	dc.b	$F4
+	dc.b	$06
+	dc.b	"Oh ! Je pensais qu'il jouait la"
+	dc.b	$FC
+	dc.b	"comédie !"
 	dc.b	$FF
 
 ; $30
@@ -227,19 +257,17 @@
 	dc.b	$FC
 	dc.b	"dégâts de la tempête ?"
 	else
-	dc.b	"Oh, heille, des nouveaux clients !"
+	dc.b	"Oh, Boujou les bézots !"
 	dc.b	$FC
-	dc.b	"Ah, z'êtes des amis de Raja !"
+	dc.b	"Ah, vos êtes des amis d'Rajeux !"
 	dc.b	$FD
-	dc.b	"Bon, alors, je vais pas faire de"
+	dc.b	"Ben, j'vais pas faire de mentrie."
 	dc.b	$FC
-	dc.b	"cachettes."
+	dc.b	"Vos voulez savoir qué ?"
 	dc.b	$FD
-	dc.b	"Qu'est-ce vous voulez savoir ?"
-	dc.b	$FD
-	dc.b	"Z'êtes curieux des dommages amenés par"
+	dc.b	"C'te glace qui bloque les routes vous"
 	dc.b	$FC
-	dc.b	"la tempête ?"
+	dc.b	"titille ?"
 	endif
 	dc.b	$F5
 	dc.b	$02, $04
@@ -257,13 +285,13 @@
 	dc.b	$FC
 	dc.b	"dégats de la tempête ?"
 	else
-	dc.b	"Ah, z'êtes les amis de Raja."
+	dc.b	"Ah, les bézots d'amis d'Rajeux."
 	dc.b	$FC
-	dc.b	"Voulez savoir qu'èque chose d'autre ?"
+	dc.b	"Voulez savoir quequ'chose d'autre ?"
 	dc.b	$FD
-	dc.b	"Z'êtes curieux des dommages amenés par"
+	dc.b	"C'te glace qui bloque les routes vous"
 	dc.b	$FC
-	dc.b	"la tempête ?"
+	dc.b	"titille ?"
 	endif
 	dc.b	$F5
 	dc.b	$01, $03
@@ -288,16 +316,30 @@
 	dc.b	$FC
 	dc.b	"et elle a pas arrêtée depuis."
 	dc.b	$FD
-	dc.b	"C'est une affaire terrible, des chapeaux"
+	dc.b	"Tout l'monde a peur des vyâges."
 	dc.b	$FC
-	dc.b	"qui volent partout pis des lèvres qui"
+	dc.b	"Les capè s'envolent et pis les lèvres"
 	dc.b	$FD
-	dc.b	"gèrcent à vue d'oeil !"
+	dc.b	"sont toutes gercées !"
+	dc.b	$FD
+	dc.b	"Le temps est devenu rien dur !"
 	dc.b	$FD
 	endif
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"... quelle importance ?"
+	dc.b	"Chapeaux ? Lèvres ? sérieusement ?"
+	dc.b	$FC
+	dc.b	"Et c'est quoi un « bézot » ?"
+	dc.b	$FD
+	dc.b	$F4
+	dc.b	$09
+	dc.b	"Un bézot c'est un petit jeune !"
+	dc.b	$FC
+	dc.b	"Le Grand Effondrement vous a vraiment"
+	dc.b	$FD
+	dc.b	"renvoyé à la préhistoire si vous ne"
+	dc.b	$FC
+	dc.b	"comprenez pas le Dezolisien !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$15
@@ -316,17 +358,17 @@
 	dc.b	$FD
 	dc.b	"Impossible de se déplacer librement !"
 	else
-	dc.b	"Hum ! Mais le gros trouble, c'est c'te"
+	dc.b	"Hum ! Mais la galère, c'est c'te montagne"
 	dc.b	$FC
-	dc.b	"mur de glace !"
+	dc.b	"de glace !"
 	dc.b	$FD
 	dc.b	"La tempête a laissé plein de bancs de"
 	dc.b	$FC
-	dc.b	"neige, pis ça a toutte compacté en glace."
+	dc.b	"neige, tout s'est compacté en glace."
 	dc.b	$FD
-	dc.b	"Là, Dezolis est toutte séparée en"
+	dc.b	"Pas moyen de les traverser, les patelins"
 	dc.b	$FC
-	dc.b	"morceaux. On peut pû aller nulle part !"
+	dc.b	"sont isolés. On peut plus vyâger !"
 	endif
 	dc.b	$FF
 
@@ -348,19 +390,19 @@
 	dc.b	$FC
 	dc.b	"Ce sont sûrement des mensonges !"
 	else
-	dc.b	"Je ne sais pas si c'est l'intervention"
+	dc.b	"Ya plus d'tempête, vos avez vu ?"
 	dc.b	$FC
-	dc.b	"divine ou les pleurs de la terre, mais"
+	dc.b	"L'ote nuit, en une ch'tite minute,"
 	dc.b	$FD
-	dc.b	"la tempête est partie drette de même."
+	dc.b	"la tempête est partie toute seule !"
 	dc.b	$FD
-	dc.b	"Mais j'ai entendu des rumeurs à propos"
+	dc.b	"Ya des racontars à propos du temple"
 	dc.b	$FC
-	dc.b	"du temple Gumbious..."
+	dc.b	"Gumbious..."
 	dc.b	$FD
-	dc.b	"Non, ça se peut pas !"
+	dc.b	"Non, c'est pas possible ! Pourquoi ces"
 	dc.b	$FC
-	dc.b	"C'est des menteries, c'est sûr !"
+	dc.b	"terribles choses arrivent ?"
 	endif
 	dc.b	$FF
 
@@ -390,26 +432,28 @@
 	dc.b	"construite en une nuit !"
 	dc.b	$FD
 	else
-	dc.b	"Apparamment qu'y a une tour que'que"
+	dc.b	"Apparamment ya une tour quequ'part sur"
 	dc.b	$FC
-	dc.b	"part sur Dezolis infestée de démons !"
+	dc.b	"Dezolis infestée de démons !"
 	dc.b	$FD
-	dc.b	"En plus, ça a l'air que la Tour est"
+	dc.b	"En plus, y paraît que la Tour est"
 	dc.b	$FC
-	dc.b	"apparue drette en une nuit !"
+	dc.b	"apparue d'un coup en une nuit !"
 	dc.b	$FD
 	endif
 	dc.b	$F4
 	dc.b	$09
-	dc.b	"Oui, c'est ce que j'ai dit ! Ce sont les"
+	dc.b	"Oui, c'est ça ! Ce sont les démons qui"
 	dc.b	$FC
-	dc.b	"démons qui veulent détruire l'univers !"
+	dc.b	"causent cette souffrance !"
 	dc.b	$FD
-	dc.b	"Ils ont jeté un mauvais sort sur Algo !"
+	dc.b	"Dezolis a été maudite !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Est-il possible que Raja ait raison ?"
+	dc.b	"Est-il possible que Rajeux... euh Raja"
+	dc.b	$FC
+	dc.b	"dise vrai, alors ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$15
@@ -421,11 +465,11 @@
 	dc.b	"Il pourrait avoir perçu quelque chose."
 	dc.b	$FD
 	else
-	dc.b	"Va savoir !"
+	dc.b	"Qui sait !"
 	dc.b	$FD
-	dc.b	"Mais, Raja c'est Raja, ça se peut qu'il"
+	dc.b	"Mais, Rajeux c'est Rajeux, il a p'tet ben"
 	dc.b	$FC
-	dc.b	"sente des choses."
+	dc.b	"senti un truc."
 	dc.b	$FD
 	endif
 	dc.b	$F4
@@ -450,14 +494,14 @@
 	dc.b	$FC
 	dc.b	"différentes."
 	dc.b	$FD
-	dc.b	"... Tout ce que je peux dire, c'est qu'elle"
+	dc.b	"... Tout ce que je sais, c'est qu'elle est"
 	dc.b	$FC
-	dc.b	"est que'que part vers le nord."
+	dc.b	"quequ'part au ch'nord."
 	dc.b	$FD
 	endif
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Je vois..."
+	dc.b	"...Oh, au « nord » ! OK Merci !"
 	dc.b	$FF
 
 ; $36
@@ -471,15 +515,15 @@
 	dc.b	"construite en une nuit !"
 	dc.b	$FD
 	else
-	dc.b	"Y'a des rumeurs qu'il y a une tour"
+	dc.b	"Ya des racontars sur une tour"
 	dc.b	$FC
-	dc.b	"que'que part sur Dezolis qui est"
+	dc.b	"quequ'part sur Dezolis qui est"
 	dc.b	$FD
 	dc.b	"infestée de démons."
 	dc.b	$FD
-	dc.b	"Apparamment qu'elle est apparue drette"
+	dc.b	"En plus, y paraît que la Tour est"
 	dc.b	$FC
-	dc.b	"de même en une nuit !"
+	dc.b	"apparue d'un coup en une nuit !"
 	dc.b	$FD
 	endif
 	dc.b	$F4
@@ -491,23 +535,25 @@
 	dc.b	$F4
 	dc.b	$15
 	if raja_plainfrench=1
-	dc.b	"Au contraire !"
+	dc.b	"J'ai pas dit ça !"
 	dc.b	$FD
-	dc.b	"Je tiens de source sûre qu'elle se situe"
+	dc.b	"Je pense que c'est près de Meese, au"
 	dc.b	$FC
-	dc.b	"au nord de Meese."
+	dc.b	"ch'nord d'ici."
 	dc.b	$FD
 	else
-	dc.b	"C'est pas c'que j'ai dit."
+	dc.b	"J'ai pas dit ça !"
 	dc.b	$FD
-	dc.b	"J'ai l'impression qu'elle est que'que"
+	dc.b	"Je pense que c'est près de Meese, au"
 	dc.b	$FC
-	dc.b	"part au nord de Meese."
+	dc.b	"ch'nord d'ici."
 	dc.b	$FD
 	endif
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Je vois."
+	dc.b	"OK, bon c'est toujours ça !"
+	dc.b	$FC
+	dc.b	"On va chercher près de Meese."
 	dc.b	$FF
 
 ; $37
@@ -532,26 +578,28 @@
 	dc.b	$FC
 	dc.b	"à cette description."
 	else
-	dc.b	"C'est bizarre, ça a l'air que la Tour"
+	dc.b	"C'est dingue, à ce qu'on dit le tour"
 	dc.b	$FC
 	dc.b	"Garuberk a disparu !"
 	dc.b	$FD
-	dc.b	"Pis en plus, que c'est à cause de ça que"
+	dc.b	"Et comme par hasard c'est à cause de ça"
 	dc.b	$FC
-	dc.b	"la tempête est calmée."
+	dc.b	"que la tempête est calmée."
 	dc.b	$FD
-	dc.b	"Ouais, pis ça a l'air qu'un gars ben smatte"
+	dc.b	"Ouais, il paraît qu'une bande de braves"
 	dc.b	$FC
-	dc.b	"pis sa gang ont foutu la trouille aux"
+	dc.b	"poulots ont tout fait péter."
 	dc.b	$FD
-	dc.b	"démons pis ont tout cassé la baraque."
-	dc.b	$FC
 	dc.b	"J'me d'mande ben qui c'était ?"
-	dc.b	$FD
-	dc.b	"Y'a pas personne que j'connais"
-	dc.b	$FC
-	dc.b	"qui fitte c'te portrait-là."
+	dc.b	$FD	
 	endif
+	dc.b	$F4
+	dc.b	$01
+	dc.b	"Je lui aurait bien dit que c'est nous,"
+	dc.b	$FC
+	dc.b	"mais je veux pas prendre le risque"
+	dc.b	$FD
+	dc.b	"d'avoir le titre de « brave poulot »."
 	dc.b	$FF
 
 ; $38
@@ -560,7 +608,7 @@
 	dc.b	$FC
 	dc.b	"Raja ?"
 	else
-	dc.b	"Voulez en savoir plus sur Raja ?"
+	dc.b	"Voulez en savoir plus sur Rajeux ?"
 	endif
 	dc.b	$F5
 	dc.b	$00, $04
@@ -582,20 +630,20 @@
 	dc.b	"Gumbious."
 	dc.b	$FD
 	else
-	dc.b	"J'le connais depuis un boutte."
+	dc.b	"J'le connais depuis un bail."
 	dc.b	$FC
-	dc.b	"Yé bizarre... mais y connait son affaire"
+	dc.b	"Il est bizarre... mais il est rien doué"
 	dc.b	$FD
-	dc.b	"en magie, pis yé ben apprécié au Temple"
+	dc.b	"en magie, et ils l'aiment bien au Temple"
 	dc.b	$FC
 	dc.b	"Gumbious."
 	dc.b	$FD
 	endif
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Wow. Je n'arrive pas a y croire."
+	dc.b	"Je pense que ça en dit plus sur les"
 	dc.b	$FC
-	dc.b	"Ce vieux bizarre !?"
+	dc.b	"habitants que Raja..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$15
@@ -607,18 +655,18 @@
 	dc.b	"forcé de déménager loin à la campagne."
 	dc.b	$FD
 	else
-	dc.b	"Mais ya des gens qui étaient jaloux qui"
+	dc.b	"Mais des jaloux ont rouscaillé et"
 	dc.b	$FC
-	dc.b	"lui ont passé un sapin, pis ya été banni"
+	dc.b	"raconté des salades, du coup il a été"
 	dc.b	$FD
-	dc.b	"au boutte du monde."
+	dc.b	"banni dans un bled paumé."
 	dc.b	$FD
 	endif
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Vraiment..."
+	dc.b	"Merde, c'est pas cool. Je me sens mal"
 	dc.b	$FC
-	dc.b	"Ça ne m'apparait pas plausible."
+	dc.b	"pour lui maintenant."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$15
@@ -633,13 +681,15 @@
 	dc.b	$FC
 	dc.b	"meilleur des amis !"
 	else
-	dc.b	"Comme de faite, Raja est ben content"
+	dc.b	"Mais bon, Rajeux est ben content de se"
 	dc.b	$FC
-	dc.b	"de pouvoir se débarasser de ce temple"
+	dc.b	"débarasser de ce temple ben trop"
 	dc.b	$FD
-	dc.b	"ben trop guindé !"
+	dc.b	"guindé ! Donc c'est pas plus mal."
 	dc.b	$FC
-	dc.b	"C't'un bon gars ! Yé vraiment un bon ami !"
+	dc.b	"Il a un bel esprit, Rajeux..."
+	dc.b	$FD
+	dc.b	"C'est un bon ami que j'ai, vous suivez ?"
 	endif
 	dc.b	$FF
 
@@ -655,11 +705,13 @@
 	dc.b	$FD
 	dc.b	"... Ceci dit, je suis quand un peu inquiet..."
 	else
-	dc.b	"Raja est malade ? Mais c'est l'genre de"
+	dc.b	"Rajeux est malade ? Il est comme les"
 	dc.b	$FC
-	dc.b	"gars qui va se relever même si on le tue."
+	dc.b	"mauvaises herbes, il crevera pas si"
 	dc.b	$FD
-	dc.b	"... Ouais, ça m'inquiète quand même..."
+	dc.b	"facilement."
+	dc.b	$FC
+	dc.b	"... Mais ça m'inquiète quand même..."
 	endif
 	dc.b	$FF
 
@@ -677,15 +729,13 @@
 	dc.b	$FC
 	dc.b	"choses horribles ?"
 	else
-	dc.b	"Raja est malade, pis ça a l'air que le"
+	dc.b	"Rajeux tombe malade... et d'après les"
 	dc.b	$FC
-	dc.b	"Temple Gumbious a été..."
+	dc.b	"ragots, le Temple Gumbious a été..."
 	dc.b	$FD
-	dc.b	"Non, ça, ça doit être des menteries."
-	dc.b	$FD
-	dc.b	"Pourquoi y'a tant de trucs horribles"
+	dc.b	"Non..., pas possible... on dirait que le"
 	dc.b	$FC
-	dc.b	"qui s'passent ?"
+	dc.b	"monde part en couille !"
 	endif
 	dc.b	$FF
 
@@ -702,20 +752,20 @@
 	dc.b	"Gumbious."
 	dc.b	$FD
 	else
-	dc.b	"J'le connais depuis un boutte."
+	dc.b	"J'le connais depuis un bail."
 	dc.b	$FC
-	dc.b	"Yé bizarre... mais y connait son affaire"
+	dc.b	"Il est bizarre... mais il est rien doué"
 	dc.b	$FD
-	dc.b	"en magie, pis yé ben apprécié au Temple"
+	dc.b	"en magie, et ils l'aiment bien au Temple"
 	dc.b	$FC
 	dc.b	"Gumbious."
 	dc.b	$FD
 	endif
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Wow. Je n'arrive pas a y croire."
+	dc.b	"Je pense que ça en dit plus sur les"
 	dc.b	$FC
-	dc.b	"Ce vieux bizarre !?"
+	dc.b	"habitants que sur Raja..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$15
@@ -727,18 +777,18 @@
 	dc.b	"forcé de déménager loin à la campagne."
 	dc.b	$FD
 	else
-	dc.b	"Mais ya des gens qui étaient jaloux qui"
+	dc.b	"Mais des jaloux ont rouscaillé et"
 	dc.b	$FC
-	dc.b	"lui ont passé un sapin, pis ya été banni"
+	dc.b	"raconté des salades, du coup il a été"
 	dc.b	$FD
-	dc.b	"au boutte du monde."
+	dc.b	"banni dans un bled paumé."
 	dc.b	$FD
 	endif
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Vraiment..."
+	dc.b	"Merde, c'est pas cool. Je me sens mal"
 	dc.b	$FC
-	dc.b	"Ça ne m'apparait pas plausible."
+	dc.b	"pour lui maintenant."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$15
@@ -753,13 +803,15 @@
 	dc.b	$FC
 	dc.b	"meilleur des amis !"
 	else
-	dc.b	"Comme de faite, Raja est ben content"
+	dc.b	"Mais bon, Rajeux est ben content de se"
 	dc.b	$FC
-	dc.b	"de pouvoir se débarasser de ce temple"
+	dc.b	"débarasser de ce temple ben trop"
 	dc.b	$FD
-	dc.b	"ben trop guindé !"
+	dc.b	"guindé ! Donc c'est pas plus mal."
 	dc.b	$FC
-	dc.b	"C't'un bon gars ! Yé vraiment un bon ami !"
+	dc.b	"Il a un bel esprit, Rajeux..."
+	dc.b	$FD
+	dc.b	"C'est un bon ami que j'ai, croyez moi !"
 	endif
 	dc.b	$FF
 
@@ -769,7 +821,7 @@
 	dc.b	$FC
 	dc.b	"spatial ?"
 	else
-	dc.b	"Voulez savoir ce qui s'dit à propos du"
+	dc.b	"Voulez savoir ce qu'on dit à propos du"
 	dc.b	$FC
 	dc.b	"vaisseau spatial ?"
 	endif
@@ -791,20 +843,30 @@
 	dc.b	"le souterrain deviendra accessible."
 	dc.b	$FD
 	else
-	dc.b	"Ah, vous voulez dire le vaisseau qui est"
+	dc.b	"On dit qu'un vaisseau historique est au"
 	dc.b	$FC
-	dc.b	"sous terre dans la ville de Tyler ?"
+	dc.b	"sous-sol de la ville de Tyler."
 	dc.b	$FD
-	dc.b	"J'sais pas grand chose, remarquez,"
+	dc.b	"En banlieue du patelin il y une vielle"
 	dc.b	$FC
-	dc.b	"mais ça a l'air que si vous r'gardez le"
+	dc.b	"tombe."
 	dc.b	$FD
-	dc.b	"tombeau attentivement, ça va s'ouvrir."
+	dc.b	"Ils prient le cap'tain Tyler."
+	dc.b	$FC
+	dc.b	"Peut-être qu'Algol les a bénis !"
 	dc.b	$FD
 	endif
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Le tombeau...?"
+	dc.b	"Le tombeau à Tyler, euh...OK !"
+	dc.b	$FC
+	dc.b	"Gyuna, merci de votre aide !"
+	dc.b	$FD	
+	dc.b	$F4
+	dc.b	$15
+	dc.b	"Mais de rien. Prenez soin du vieux"
+	dc.b	$FC
+	dc.b	"Rajeux, je ne demande que ça !"	
 	dc.b	$FF
 
 ; $3D
@@ -813,9 +875,9 @@
 	dc.b	$FC
 	dc.b	"alors, que dire de plus ?"
 	else
-	dc.b	"... Ben, vous l'avez déjà, faque pourquoi"
+	dc.b	"... Et ben, vous l'avez déjà, alors"
 	dc.b	$FC
-	dc.b	"vous posez la question ?"
+	dc.b	"pourquoi vous demandez ?"
 	endif
 	dc.b	$FF
 
@@ -823,7 +885,9 @@
 	if raja_plainfrench=1
 	dc.b	"D'accord, merci."
 	else
-	dc.b	"OK, d'abord."
+	dc.b	"Bien, posez vos fesses si vous voulez"
+	dc.b	$FC
+	dc.b	"beire un coup !"
 	endif
 	dc.b	$FF
 ;; Local Variables:

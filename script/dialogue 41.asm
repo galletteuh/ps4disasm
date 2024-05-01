@@ -2,57 +2,53 @@
 	dc.b	$FF
 
 ; $1
-	dc.b	"Il n'y a rien à craindre de la main de"
+	dc.b	"Il n'y a rien à craindre de la main des"
 	dc.b	$FC
-	dc.b	"la Noirceur !"
+	dc.b	"Ténèbres !"
 	dc.b	$FD
-	dc.b	"Oh ? Ainsi, vous êtes les candidats"
+	dc.b	"Oh ? Ainsi, vous êtes les guerriers"
 	dc.b	$FC
-	dc.b	"retenus par Le Roof."
+	dc.b	"envoyés ici par Le Roof."
 	dc.b	$FD
 	dc.b	"Allez-y, essayez de me vaincre."
 	dc.b	$FD
-	dc.b	"Prouvez-moi que vous avez ce qu'il faut"
+	dc.b	"Prouvez-moi votre courage en faisant"
 	dc.b	$FC
-	dc.b	"pour devenir des Protecteurs !"
+	dc.b	"face à cet ennemi immortel en combat !"
 	dc.b	$FF
 
 ; $2
-	dc.b	"Joli travail !"
+	dc.b	"Bien joué !"
 	dc.b	$FD
 	dc.b	"Allez, prenez ces objets comme preuve"
 	dc.b	$FC
-	dc.b	"que vous m'avez fait face et terrassé."
+	dc.b	"de votre volonté et détermination."
 	dc.b	$FF
 
 ; $3
 	dc.b	"Ah, vous voilà enfin !"
 	dc.b	$FD
-	dc.b	"Moultes personnes viennent, mais toutes"
+	dc.b	"Pendant des millénaires, j'ai eu envie de"
 	dc.b	$FC
-	dc.b	"ne sont que des mauviettes."
-	dc.b	$FC
-	dc.b	"Je commençais à m'ennuyer !"
+	dc.b	"mettre à l'épreuve ma force !"
 	dc.b	$FD
-	dc.b	"Comme vous avez passé l'examen de"
-	dc.b	$FC
-	dc.b	"Le Roof,"
+	dc.b	"Pourrez-vous résister à mes attaques ?"
 	dc.b	$FD
-	dc.b	"essayez de me vaincre... si vous"
+	dc.b	"Même si le Roof vous approuve, vous"
 	dc.b	$FC
-	dc.b	"le pouvez !"
+	dc.b	"devez me surpasser... si vous le pouvez !"
 	dc.b	$FF
 
 ; $4
-	dc.b	"Vous êtes plus forts que je ne le pensais."
+	dc.b	"Vous possédez en effet la force des"
 	dc.b	$FC
-	dc.b	"Cela me rassure."
+	dc.b	"légendes d'Algol."
 	dc.b	$FD
 	dc.b	"Allez, prenez ces objets."
 	dc.b	$FD
-	dc.b	"Ils sont la preuve que vous devrez"
+	dc.b	"Ils sont la preuve dont vous aurez"
 	dc.b	$FC
-	dc.b	"présenter."
+	dc.b	"besoin."
 	dc.b	$FF
 
 ; $5
@@ -66,38 +62,46 @@
 	dc.b	$FC
 	dc.b	"Colère ?"
 	dc.b	$FD
-	dc.b	"Disparaissez !"
+	dc.b	"Vous n'êtes pas prêts pour affronter"
+	dc.b	$FC
+	dc.b	"mon test. Disparaissez !"
 	dc.b	$FF
 
 ; $6
 	dc.b	$F4
 	dc.b	$01
 	dc.b	"Elsydeon brille de mille feux !"
+	dc.b	$FC	
+	dc.b	"Et j'entends un murmure...!"
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Il y a une voix dans ma tête..."
+	dc.b	"Quoi ? Je n'entends rien..."
+	dc.b	$FC
+	dc.b	"Tu en es sûr, Chaz ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$00
-	dc.b	"Oh, Protecteurs d'Algo..."
-	dc.b	$FD
-	dc.b	"La Tour de la Colère vous accueille"
+	dc.b	"Chaz Ashley... la Tour de la Colère vous"
 	dc.b	$FC
-	dc.b	"avec plaisir."
+	dc.b	"offre un pouvoir plus grand que la"
+	dc.b	$FD
+	dc.b	"Lumière et les Ténèbres."
 	dc.b	$FF
 
 ; $7
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Comment ? Alys..."
+	dc.b	"...Mais quest-ce que ?!"
+	dc.b	$FD
+	dc.b	"Alys... Vous êtes à l'intérieur"
 	dc.b	$FC
-	dc.b	"Tu es ici ? Sur Rykros ?"
+	dc.b	"d'Elysdeon !"
 	dc.b	$FD
-	dc.b	"Alys ? Alys !"
+	dc.b	"...Alys ? Alys !"
 	dc.b	$FD
-	dc.b	"Hé ! Réponds-moi !"
+	dc.b	"Répondez-moi, je vous en prie !"
 	dc.b	$FC
 	dc.b	"Alys !"
 	dc.b	$FF
@@ -105,17 +109,23 @@
 ; $8
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Aïe ! Alys ?"
+	dc.b	"Non... n'approchez pas plus !"
+	dc.b	$FD
+	dc.b	"Je vous en prie ! Ne ne pourrais pas"
+	dc.b	$FC
+	dc.b	"vous attaquer !"
 	dc.b	$FF
 
 ; $9
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Alys..."
-	dc.b	$FD
-	dc.b	"Alys !!!"
+	dc.b	"Ahhhhh..."
 	dc.b	$FC
-	dc.b	"Ahhhhhhhhh !!!"
+	dc.b	"Non, Alys ! !! Je suis vraiment désolé..."
+	dc.b	$FD
+	dc.b	"Gardien, monstre fourbe !"
+	dc.b	$FC
+	dc.b	"Montre-toin monstre !!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$00
@@ -123,97 +133,109 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Qui est-ce ?"
+	dc.b	"Tu trouve que mon agonie est drôle ?"
+	dc.b	$FD
+	dc.b	"Tu ne mérites pas d'exister !"
+	dc.b	$FC
+	dc.b	"Elsydeon va te mettre en pièces !!"
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$23
-	dc.b	"Tiens, tiens... « Protecteur », dis-tu ?"
+	dc.b	"Tiens, tiens... « Protecteur »,"
 	dc.b	$FC
-	dc.b	"Quelle mauviette !"
+	dc.b	"quelle mauviette !"
 	dc.b	$FD
-	dc.b	"Tu pleures, même si tu sais que ce n'est"
+	dc.b	"Tu te lamentes comme un enfant, alors"
 	dc.b	$FC
-	dc.b	"qu'une illusion."
+	dc.b	"que tu sais que c'est une illusion."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Une illusion ?"
-	dc.b	$FD
-	dc.b	"Espèce de... de..."
+	dc.b	"Je me fiches de ce que tu penses ou"
+	dc.b	$FC
+	dc.b	"qui tu es ! Tu vas mourir maintenant !!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$23
-	dc.b	"Ah, ta colère, ta haine,"
-	dc.b	$FD
-	dc.b	"de belles démonstrations de ta force"
+	dc.b	"Ah, cette flamme, cette passion, une belle"
 	dc.b	$FC
-	dc.b	"de caractère."
+	dc.b	"demonstration de ta force de caractère."
 	dc.b	$FD
-	dc.b	"N'aimerais-tu pas pouvoir transformer"
+	dc.b	"Et si tu pouvais transformer une"
 	dc.b	$FC
-	dc.b	"tous ces sentiments en force brute ?"
+	dc.b	"émotion aussi forte en puissance pure ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Hein ?"
+	dc.b	"...De quoi tu parles ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$23
 	dc.b	"Il existe une technique qui convertit"
 	dc.b	$FC
-	dc.b	"les émotions de colère et de haine"
+	dc.b	"les sentiments de haine et de violence"
 	dc.b	$FD
-	dc.b	"en force destructrice."
+	dc.b	"en un pouvoir inégalé et dévastateur."
 	dc.b	$FC
-	dc.b	"Tu veux l'apprendre ?"
+	dc.b	"Utilise ce pouvoir, pour le bien !"
 	dc.b	$F5
 	dc.b	$00, $01
 	dc.b	$F4
 	dc.b	$23
 	dc.b	"Hum, je vois..."
 	dc.b	$FC
-	dc.b	"Tu dis vouloir savoir..."
+	dc.b	"Tu penses pouvoir le manier..."
 	dc.b	$FD
-	dc.b	"Si tel est le cas, démontre-moi la"
+	dc.b	"Si tel est le cas, démontre-moi ta"
 	dc.b	$FC
-	dc.b	"maîtrise de ton art via ton corps !"
+	dc.b	"maîtrise de la colère !"
+	dc.b	$FD
+	dc.b	"Battons-nous !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Comment ?"
+	dc.b	"Tu es fini ! Meurs !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$23
-	dc.b	"Ne comprends-tu pas la vrai signification"
+	dc.b	"Tu as combattu Zio, Lashiec et Dark"
 	dc.b	$FC
-	dc.b	"de la colère et de la haine ?"
+	dc.b	"Force, mais tu n'as pas appris ce qu'il"
 	dc.b	$FD
-	dc.b	"Quelle prétention de la part un môme"
+	dc.b	"advient de la destruction par la"
 	dc.b	$FC
-	dc.b	"comme toi, de penser qu'il serait"
+	dc.b	"colère et la haine."
 	dc.b	$FD
-	dc.b	"digne de manier Elsydeon !"
+	dc.b	"Tu n'es pas un héros, Elsydeon doit"
+	dc.b	$FC
+	dc.b	"passer à quelqu'un de digne !"
 	dc.b	$FF
 
 ; $A
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Ne te fiche pas de moi !"
+	dc.b	"Je ne tomberai pas dans ton piège !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$23
-	dc.b	"Euh... et pourquoi donc ?"
+	dc.b	"... Que veux-tu dire ?"
+	dc.b	$FD
+	dc.b	"N'es-tu pas là pour rechercher la"
+	dc.b	$FC
+	dc.b	"force de détruire le mal ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Même si je gagnais grâce à ce pouvoir,"
+	dc.b	"La haine, la vengeance... ce n'est pas"
 	dc.b	$FC
-	dc.b	"à quoi bon ?"
+	dc.b	"pour cela que mes amis et moi allons"
 	dc.b	$FD
-	dc.b	"Cela ferait de moi une personne guère"
+	dc.b	"de l'avant !"
+	dc.b	$FD
+	dc.b	"Avec la haine, on devient le monstre"
 	dc.b	$FC
-	dc.b	"mieux que la Noirceur !"
+	dc.b	"que l'on a combattu !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$23
@@ -221,41 +243,51 @@
 	dc.b	$FC
 	dc.b	"malgré cela, tu es resté toi-même."
 	dc.b	$FD
-	dc.b	"Très bien, je vais te faire confiance."
+	dc.b	"Très bien, je devrais pouvoir te faire"
 	dc.b	$FC
-	dc.b	"Je t'apprendrai la technique !"
+	dc.b	"confiance avec la technique."
 	dc.b	$FD
-	dc.b	"La technique interdite..."
-	dc.b	$FC
-	dc.b	"... Megid !"
+	dc.b	"Le mot interdit : Megid !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"« Megid »..."
+	dc.b	"« Megid »... J'ai vu des héros s'en"
 	dc.b	$FC
-	dc.b	"La technique interdite ?"
+	dc.b	"servir dans les visions d'Elsydeon !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$23
-	dc.b	"Il n'y a rien à craindre."
-	dc.b	$FD
-	dc.b	"Les sentiments de colère et de haine"
+	dc.b	"Il n'y a pas de raison d'avoir peur."
 	dc.b	$FC
-	dc.b	"font partie de l'humain."
+	dc.b	"Tous les êtres mortels et sensibles"
+	dc.b	$FD
+	dc.b	"ressentent naturellement de la colère"
+	dc.b	$FC
+	dc.b	"et de la haine. "
+	dc.b	$FC
+	dc.b	"Ce qui compte, c'est la façon dont ces"
+	dc.b	$FD
+	dc.b	"sentiments se manifestent dans le"	
+	dc.b	$FC
+	dc.b	"monde qui vous entoure."
+	dc.b	$FD
+	dc.b	"Le monde n'est pas tout noir ou tout"
+	dc.b	$FC
+	dc.b	"blanc, Chaz Ashley. Mais il y a des forces"	
+	dc.b	$FD
+	dc.b	"constructives et des forces"
+	dc.b	$FC
+	dc.b	"destructrices à l'oeuvre, partout et"
+	dc.b	$FD
+	dc.b	"toujours. Décidez du quel côté vous."	
+	dc.b	$FC
+	dc.b	"serez."	
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Oh..."
-	dc.b	$FD
-	dc.b	$F4
-	dc.b	$23
-	dc.b	"Tu ne devrais pas avoir à craindre d'être"
+	dc.b	"...Je comprends."
 	dc.b	$FC
-	dc.b	"corrompu par la puissance de Megid."
-	dc.b	$FD
-	dc.b	"Seulement, prend garde de ne pas"
-	dc.b	$FC
-	dc.b	"oublier ta véritable force de caractère."
+	dc.b	"Je ne vous laisserai pas tomber !"
 	dc.b	$FF
 
 ; $B

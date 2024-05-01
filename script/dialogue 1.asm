@@ -7,9 +7,9 @@
 	dc.b	$0B, $01
 	dc.b	"Vous êtes un chasseur ?"
 	dc.b	$FD
-	dc.b	"Êtes-vous ici pour nous débarrasser"
+	dc.b	"Êtes-vous ici pour nous débarrasser des"
 	dc.b	$FC
-	dc.b	"des monstres ?"
+	dc.b	"monstres ?"
 	dc.b	$FF
 
 ; $1
@@ -19,11 +19,11 @@
 	dc.b	$FF
 
 ; $2
-	dc.b	"Merci encore pour toute votre aide."
+	dc.b	"Merci encore pour votre aide."
 	dc.b	$FF
 
 ; $3
-	dc.b	"Et maintenant, qu'arrivera-t-il ?"
+	dc.b	"Que va-t-il arriver maintenant ?"
 	dc.b	$FF
 
 ; $4
@@ -33,29 +33,31 @@
 	dc.b	$34, $02
 	dc.b	$FA
 	dc.b	$0B, $01
-	dc.b	"Depuis un mois, des monstres rôdent"
+	dc.b	"Depuis un mois, des monstres sont"
 	dc.b	$FC
-	dc.b	"dans le sous-sol."
+	dc.b	"apparus au sous-sol."
 	dc.b	$FD
-	dc.b	"J'ai peur, je n'arrive plus à me"
+	dc.b	"J'ai tellement la trouille que je"
 	dc.b	$FC
-	dc.b	"concentrer sur mon travail !"
+	dc.b	"n'arrive plus à me concentrer sur"
+	dc.b	$FD
+	dc.b	"mes recherches !"
 	dc.b	$FF
 
 ; $5
-	dc.b	"Ah, vous y êtes arrivés !"
+	dc.b	"Ah, vous avez fini le boulot !"
 	dc.b	$FC
-	dc.b	"Merci de tout coeur !"
+	dc.b	"Merci beaucoup !"
 	dc.b	$FF
 
 ; $6
-	dc.b	"Je vous remercie encore de nous avoir"
-	dc.b	$FC
-	dc.b	"aidé."
+	dc.b	"Encore merci pour votre aide."
 	dc.b	$FF
 
 ; $7
-	dc.b	"Et maintenant, qu'arrivera-t-il ?"
+	dc.b	"Qu'est-ce qu'il va se passer"
+	dc.b	$FC
+	dc.b	"maintenant ?"
 	dc.b	$FF
 
 ; $8
@@ -67,31 +69,39 @@
 	dc.b	$0B, $02
 	dc.b	$FA
 	dc.b	$08, $01
-	dc.b	"Tu es le Chasseur retenu par le"
+	dc.b	"C'est toi le chasseur embauché par le"
 	dc.b	$FC
-	dc.b	"directeur ?"
+	dc.b	"principal ?"
 	dc.b	$FD
-	dc.b	"Tu n'es qu'un jeune blanc-bec ! Tu crois"
+	dc.b	"Un gamin comme toi ? Tu crois vraiment"
 	dc.b	$FC
-	dc.b	"vraiment que tu seras à la hauteur ?"
+	dc.b	"pouvoir y arriver ?"
 	dc.b	$FF
 
 ; $9
-	dc.b	"Wow, allô beauté !"
-	dc.b	$FD
-	dc.b	"Laisse tomber ce jeunôt et prend-moi"
+	dc.b	"Wow, salut beauté ! Ça te dirait d'aller"
 	dc.b	$FC
-	dc.b	"à la place !"
+	dc.b	"boire un verre et de laisser ce petit"
+	dc.b	$FD
+	dc.b	"aller jouer ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Casse-toi, minable !!!"
+	dc.b	"Les choses les plus exitantes dans ta"
+	dc.b	$FC
+	dc.b	"vie sont tes dissertations et traiter"
+	dc.b	$FD
+	dc.b	"ton acné."
+	dc.b	$FD
+	dc.b	"Désolé pour toi, va faire un tour à"
+	dc.b	$FC
+	dc.b	"l'école."
 	dc.b	$FF
 
 ; $A
-	dc.b	"Incroyable ! Cette nana et ce mioche"
+	dc.b	"J'arrive pas à croire qu'une nana et"
 	dc.b	$FC
-	dc.b	"ont pu tuer les monstres."
+	dc.b	"un mioche tué ces monstres."
 	dc.b	$FD
 	dc.b	"Ah, euh, non, rien !"
 	dc.b	$FC
@@ -101,7 +111,7 @@
 ; $B
 	dc.b	"Je vous ai déjà vus quelque part..."
 	dc.b	$FC
-	dc.b	"Qui êtes-vous ?"
+	dc.b	"Euh, qui êtes-vous ?"
 	dc.b	$FF
 
 ; $C
@@ -113,41 +123,39 @@
 	dc.b	$DA, $02
 	dc.b	$FA
 	dc.b	$42, $01
-	dc.b	"À l'Académie Motavia, nous voulons"
+	dc.b	"À l'Académie Motavia, nous cherchons"
 	dc.b	$FC
-	dc.b	"percer les secrets de l'univers."
+	dc.b	"à percer les secrets de l'univers."
 	dc.b	$FD
 	dc.b	"Ici se trouve la plus grande institution"
 	dc.b	$FC
 	dc.b	"de recherche au monde."
 	dc.b	$FD
-	dc.b	"Qu'est-ce que vous en pensez ?"
+	dc.b	"Qu'est-ce que vous en dites ?"
 	dc.b	$FC
 	dc.b	"Magnifique, n'est-ce pas ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Quel endroit intéressant !"
+	dc.b	"Quel endroit fascinant !"
 	dc.b	$FC
 	dc.b	"Pas vrai, Alys ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Ouais ? Je ne suis pas du tout"
-	dc.b	$FC
-	dc.b	"intéressée."
+	dc.b	"Vraiment ? Je m'en fous complètement."
 	dc.b	$FF
 
 ; $E
-	dc.b	"À l'Académie Motavia, nous voulons"
+	dc.b	"À l'Académie Motavia, nous cherchons"
 	dc.b	$FC
-	dc.b	"percer les secrets de l'univers."
+	dc.b	"à percer les secrets de l'univers."
 	dc.b	$FD
 	dc.b	"Ici se trouve la plus grande institution"
 	dc.b	$FC
 	dc.b	"de recherche au monde."
 	dc.b	$FD
-	dc.b	"Qu'est-ce que vous en pensez ?"
+	dc.b	"Qu'est-ce que vous en dites ?"
 	dc.b	$FC
 	dc.b	"Magnifique, n'est-ce pas ?"
 	dc.b	$FF
@@ -163,43 +171,43 @@
 	dc.b	$42, $02
 	dc.b	$FA
 	dc.b	$0A, $01
-	dc.b	"Hein ? On se connaît ?"
+	dc.b	"Hein ? Que faites vous là ?"
 	dc.b	$FD
 	dc.b	"Hôlà !"
 	dc.b	$FD
-	dc.b	"C'est quoi toutes ces armes mortelles ?"
+	dc.b	"C'est quoi toutes ces armes ?"
 	dc.b	$FD
-	dc.b	"Hors d'ici !"
+	dc.b	"A l'aide, on m'agresse !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Quel impoli !"
+	dc.b	"Pfff ! Quel impoli !"
 	dc.b	$FF
 
 ; $11
-	dc.b	"Hahn ! Que fais-tu avec ces créatures"
-	dc.b	$FC
-	dc.b	"barbares ?"
+	dc.b	"Hahn ! Que fais-tu avec ces sauvages ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Quel abruti !"
-	dc.b	$FD
-	dc.b	"Peut-être que je vais m'amuser un peu"
+	dc.b	"Et bien, je ne dirai pas que vous êtes"
 	dc.b	$FC
-	dc.b	"à ses dépends."
+	dc.b	"de la haute société."
+	dc.b	$FD
+	dc.b	"Je vais peut-être m'amuser un peu avec"
+	dc.b	$FC
+	dc.b	"lui."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
 	dc.b	"Ahhh !"
 	dc.b	$FC
-	dc.b	"Rangez ça, s'il-vous-plaît !"
+	dc.b	"Posez-moi ce couteau !"
 	dc.b	$FF
 
 ; $12
-	dc.b	"Honnêtement, je suis surpris que Hahn"
+	dc.b	"Honnêtement, je ne pensais pas que"
 	dc.b	$FC
-	dc.b	"soit de mêche avec de tels barbares !"
+	dc.b	"Hahn connaissait des gens pareils !"
 	dc.b	$FF
 
 ; $13
@@ -217,25 +225,27 @@
 	dc.b	$FD
 	dc.b	"Cette planète a toujours eu de graves"
 	dc.b	$FC
-	dc.b	"problèmes."
+	dc.b	"problèmes, bien avant l'arrivée des"
+	dc.b	$FD
+	dc.b	"Palmaniens."
 	dc.b	$FD
 	dc.b	"Actuellement, nous devons conjuguer"
 	dc.b	$FC
 	dc.b	"avec des changements climatiques,"
 	dc.b	$FD
-	dc.b	"l'épuisement des sols, et une baisse"
+	dc.b	"l'épuisement des sols, et une baisse de"
 	dc.b	$FC
-	dc.b	"de natalité !"
+	dc.b	"natalité !"
 	dc.b	$FD
-	dc.b	"Ce n'est pas signe d'un avenir très"
+	dc.b	"Mais franchement, quelle importance"
 	dc.b	$FC
-	dc.b	"prometteur."
+	dc.b	"tant que l'économie se porte bien !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Ce gars-là est trop déprimant."
+	dc.b	"Maintenant j'ai besoin d'un verre."
 	dc.b	$FC
-	dc.b	"Allons voir ailleurs."
+	dc.b	"Merci Mr David Goodenough."
 	dc.b	$FF
 
 ; $15
@@ -249,25 +259,25 @@
 	dc.b	$FC
 	dc.b	"avec des changements climatiques,"
 	dc.b	$FD
-	dc.b	"l'épuisement des sols, et une baisse"
+	dc.b	"l'épuisement des sols, et une baisse de"
 	dc.b	$FC
-	dc.b	"de natalité !"
+	dc.b	"natalité !"
 	dc.b	$FD
-	dc.b	"Je suis pessimiste quant à nos"
+	dc.b	"On finira surement par laisser nos"
 	dc.b	$FC
-	dc.b	"perspectives d'avenir."
+	dc.b	"descendants régler ça."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Ce gars-là est trop déprimant."
+	dc.b	"Ce type est trop déprimant."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Il n'a pas tort. Depuis peu,"
+	dc.b	"Il n'a pas tort. Les dernières études"
 	dc.b	$FC
-	dc.b	"l'environnement se détériore"
+	dc.b	"ont démontré que l'environnement"
 	dc.b	$FD
-	dc.b	"à une vitesse accélérée."
+	dc.b	"devient progressivement inhabitable."
 	dc.b	$FF
 
 ; $16
@@ -285,15 +295,13 @@
 	dc.b	$FC
 	dc.b	"de natalité !"
 	dc.b	$FD
-	dc.b	"Je suis pessimiste quant à nos"
-	dc.b	$FC
-	dc.b	"perspectives d'avenir."
+	dc.b	"Ça finira par tous nous emporter..."
 	dc.b	$FF
 
 ; $17
-	dc.b	"Je vous l'affirme. Cette planète"
+	dc.b	"J'avais raison. Cette planète a de"
 	dc.b	$FC
-	dc.b	"regorge de problèmes !"
+	dc.b	"sévères problèmes !"
 	dc.b	$FF
 
 ; $18
@@ -307,7 +315,7 @@
 	dc.b	$FC
 	dc.b	"Je voudrais vraiment quitter la ville."
 	dc.b	$FD
-	dc.b	"Mais le directeur l'a interdit."
+	dc.b	"Mais le principal l'a interdit."
 	dc.b	$FF
 
 ; $19
@@ -315,11 +323,11 @@
 	dc.b	$FC
 	dc.b	"Je voudrais pouvoir partir d'ici,"
 	dc.b	$FD
-	dc.b	"mais comme le directeur ne veut pas"
+	dc.b	"mais le principal a mis la ville en"
 	dc.b	$FC
-	dc.b	"ébruiter l'affaire, nous sommes tenus"
+	dc.b	"quarantaine."
 	dc.b	$FD
-	dc.b	"de garder le silence."
+	dc.b	"Au moins la bière marche encore..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
@@ -332,10 +340,14 @@
 	dc.b	"Vous avez tué tous les monstres ?"
 	dc.b	$FC
 	dc.b	"Ouf ! Quel soulagement !"
+	dc.b	$FD
+	dc.b	"Enif on peut reprendre notre"
+	dc.b	$FC
+	dc.b	"championnat de frizebee !"	
 	dc.b	$FF
 
 ; $1B
-	dc.b	"Ah là là ! Quelle galère !"
+	dc.b	"Ah ! Ça ne finira donc jamais !"
 	dc.b	$FF
 
 ; $1C
@@ -343,25 +355,25 @@
 	dc.b	$DA, $02
 	dc.b	$FA
 	dc.b	$0C, $01
-	dc.b	"Si vous cherchez le bureau du directeur,"
+	dc.b	"Si vous cherchez le bureau du principal,"
 	dc.b	$FC
 	dc.b	"c'est là-bas, tout au fond."
 	dc.b	$FD
-	dc.b	"Mais dernièrement, il semble un peu"
+	dc.b	"Mais dernièrement, il se comporte"
 	dc.b	$FC
-	dc.b	"bizarre."
+	dc.b	"bizarrement."
 	dc.b	$FD
 	dc.b	"On dirait qu'il a peur de quelque chose."
 	dc.b	$FF
 
 ; $1D
-	dc.b	"Si vous cherchez le bureau du directeur,"
+	dc.b	"Si vous cherchez le bureau du principal,"
 	dc.b	$FC
 	dc.b	"c'est là-bas, tout au fond."
 	dc.b	$FF
 
 ; $1E
-	dc.b	"Ah là là ! Quelle galère !"
+	dc.b	"Oh, on est mal cette fois !"
 	dc.b	$FF
 
 ; $1F
@@ -375,15 +387,15 @@
 	dc.b	$FD
 	dc.b	"ainsi qu'une resurgence de monstres !"
 	dc.b	$FD
-	dc.b	"Si ça continue comme ça, notre"
+	dc.b	"A ce rythme, la planète ne tiendra"
 	dc.b	$FC
-	dc.b	"planète est foutue..."
+	dc.b	"pas..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Hé, ça ne sert a rien de passer son"
+	dc.b	"Tu peux soit te plaindre, soit"
 	dc.b	$FC
-	dc.b	"temps à s'en lamenter !"
+	dc.b	"chercher une solution !"
 	dc.b	$FF
 
 ; $20
@@ -393,9 +405,9 @@
 	dc.b	$FD
 	dc.b	"ainsi qu'une resurgence de monstres !"
 	dc.b	$FD
-	dc.b	"Si ça continue comme ça, notre"
+	dc.b	"A ce rythme, la planète ne tiendra"
 	dc.b	$FC
-	dc.b	"planète est foutue..."
+	dc.b	"pas..."
 	dc.b	$FF
 
 ; $21
@@ -405,49 +417,51 @@
 ; $22
 	dc.b	$FA
 	dc.b	$DA, $01
-	dc.b	"Il y a mille ans, notre civilisation a"
+	dc.b	"Il y a mille ans, notre civilisation a été"
 	dc.b	$FC
-	dc.b	"été bouleversée par la destruction de"
+	dc.b	"bouleversée par la destruction de"
 	dc.b	$FD
 	dc.b	"Mother Brain. De plus, suite à"
 	dc.b	$FC
-	dc.b	"l'explosion de la planète Parma,"
+	dc.b	"l'explosion de la planète Palma,"
 	dc.b	$FD
-	dc.b	"un fragment est tombé droit sur"
+	dc.b	"un fragment est tombé droit sur notre"
 	dc.b	$FC
-	dc.b	"notre planète, Motavia."
+	dc.b	"planète, Motavia."
 	dc.b	$FD
-	dc.b	"Notre société a failli être détruite."
+	dc.b	"Notre civilisation florissante millénaire"
+	dc.b	$FC
+	dc.b	"a été détruite.."
 	dc.b	$FD
-	dc.b	"Nous appellons cette époque"
+	dc.b	"Nous appellons ça"
 	dc.b	$FC
 	dc.b	"« Le Grand Effondrement. »"
 	dc.b	$FD
-	dc.b	"... Pardon. Je croyais que vous étiez"
+	dc.b	"... Pourquoi ne prenez-vous pas de"
 	dc.b	$FC
-	dc.b	"des étudiants."
+	dc.b	"notes ? Le test est demain !"
 	dc.b	$FF
 
 ; $23
-	dc.b	"Ouais, il y a tellement de mondes"
+	dc.b	"Ouais, il doit y avoir des tonnes de"
 	dc.b	$FC
-	dc.b	"différents !"
+	dc.b	"mondes différents... Qui sait ?"
 	dc.b	$FF
 
 ; $24
 	dc.b	$FA
 	dc.b	$DA, $01
-	dc.b	"Jadis, il y avait trois planètes dans"
+	dc.b	"Jadis, il y avait trois planètes dans le"
 	dc.b	$FC
-	dc.b	"le système solaire d'Algo."
+	dc.b	"système solaire d'Algol."
 	dc.b	$FD
 	dc.b	"Durant Le Grand Effondrement,"
 	dc.b	$FC
-	dc.b	"la planète Parma fut détruite."
+	dc.b	"la planète Palma fut détruite."
 	dc.b	$FD
-	dc.b	"Maintenant, seuls Dezolis et cette"
+	dc.b	"Maintenant, il ne reste que Dezolis et"
 	dc.b	$FC
-	dc.b	"planète demeurent."
+	dc.b	"cette planète."
 	dc.b	$FF
 
 ; $25
@@ -467,19 +481,23 @@
 	dc.b	$FD
 	dc.b	"dans l'espace."
 	dc.b	$FD
+	dc.b	"Les archives indiquent que Piata avait"
+	dc.b	$FC
+	dc.b	"son propre spatioport !"
+	dc.b	$FD
 	dc.b	"De nos jour, nous devons nous contenter"
 	dc.b	$FC
 	dc.b	"d'observer Dezolis avec un téléscope."
 	dc.b	$FD
-	dc.b	"Oh ! J'aimerais tant aller sur Dezolis,"
+	dc.b	"Oh ! J'aimerais tant voir de la vraie"
 	dc.b	$FC
-	dc.b	"juste une fois !"
+	dc.b	"neige, juste une fois !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Une idée irréelle."
+	dc.b	"C'est comme un rêve."
 	dc.b	$FC
-	dc.b	"Voyager sur un autre monde."
+	dc.b	"Voyager sur une autre planète."
 	dc.b	$FF
 
 ; $27
@@ -509,19 +527,27 @@
 ; $29
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Chaz, où diable étais-tu ?"
+	dc.b	"Chaz, on est ici pour bosser !"
 	dc.b	$FC
-	dc.b	"Allez, grouille !"
+	dc.b	"Tu es sûr que tu es prêt pour ça ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"M'enfin, Alys..."
+	dc.b	"Oui, désolé, m'dame."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Nous devons rencontrer le directeur"
+	dc.b	"Tu es mon partenaire, c'est « Alys »"
 	dc.b	$FC
-	dc.b	"pour connaître les détails de la mission."
+	dc.b	"maintenant, gamin. J'ai besoin que tu"
+	dc.b	$FD
+	dc.b	"grandisses vite pour que ça passe bien,"
+	dc.b	$FC
+	dc.b	"OK ?"
+	dc.b	$FD
+	dc.b	"Trouvons notre gars pour obtenir les"
+	dc.b	$FC
+	dc.b	"détails sans faire de détours."
 	dc.b	$FF
 
 ; $2A
@@ -531,13 +557,19 @@
 	dc.b	$FC
 	dc.b	"Un client !"
 	dc.b	$FD
-	dc.b	"Pardonnez-moi ! Voyez-vous, ici nous"
+	dc.b	"Pardonnez-moi ! Voyez-vous, ici c'est"
 	dc.b	$FC
-	dc.b	"sommes dans une ville universitaire,"
+	dc.b	"une ville universitaire,"
 	dc.b	$FD
 	dc.b	"donc nous n'avons pas vraiment besoin"
 	dc.b	$FC
 	dc.b	"d'auberge."
+	dc.b	$FD
+	dc.b	"C'est dans les dortoirs que ça se passe"
+	dc.b	$FC
+	dc.b	"toute l'action."
+	dc.b	$FD
+	dc.b	"Seuls les parents viennent ici."
 	dc.b	$FF
 
 ; $2B
@@ -561,11 +593,11 @@
 ; $2D
 	dc.b	"Ouf ! Maintenant, mes enfants peuvent"
 	dc.b	$FC
-	dc.b	"aller jouer dehors."
+	dc.b	"sortir jouer à leurs jeux stupides."
 	dc.b	$FF
 
 ; $2E
-	dc.b	"Pardon ? Mais que veux-tu dire par là ?"
+	dc.b	"Quoi ? De quoi parles-tu ?"
 	dc.b	$FF
 
 ; $2F
@@ -573,11 +605,11 @@
 	dc.b	$DA, $02
 	dc.b	$FA
 	dc.b	$0C, $01
-	dc.b	"Juste un peu !"
+	dc.b	"On va juste jouer un peu !"
 	dc.b	$FC
-	dc.b	"Allez, sois gentille !"
+	dc.b	"Ça va aller !"
 	dc.b	$FD
-	dc.b	"Tu t'en fais pour rien, maman !"
+	dc.b	"Tu t'inquiète trop, maman !"
 	dc.b	$FF
 
 ; $30
@@ -589,7 +621,7 @@
 	dc.b	$FF
 
 ; $31
-	dc.b	"Il est arrivé quelque chose ?"
+	dc.b	"Il s'est passé quelque chose ?"
 	dc.b	$FC
 	dc.b	"Allez ! Dis-moi !"
 	dc.b	$FF
@@ -635,19 +667,19 @@
 	dc.b	$DA, $01
 	dc.b	"Les étudiants de l'Académie sont"
 	dc.b	$FC
-	dc.b	"bruyants jour comme nuit !"
+	dc.b	"bruyants nuit et jour !"
 	dc.b	$FD
 	dc.b	"Tenez, l'autre jour, une bande d'entre"
 	dc.b	$FC
 	dc.b	"eux ont sauté dans la fontaine !"
 	dc.b	$FD
-	dc.b	"Quelle histoire !"
+	dc.b	"Quel chantier !"
 	dc.b	$FC
-	dc.b	"Ils ne pensent donc qu'à eux-mêmes ?"
+	dc.b	"Ils se fichent des autres ?"
 	dc.b	$FD
 	dc.b	"J'aimerais bien que quelqu'un puisse"
 	dc.b	$FC
-	dc.b	"mettre fin à tout cela..."
+	dc.b	"remédier à ça..."
 	dc.b	$FF
 
 ; $3F
@@ -794,31 +826,31 @@
 ; $6D
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Oups ! J'ai trop flâné, et maintenant"
+	dc.b	"Oups ! J'étais trop absorbé par la"
 	dc.b	$FC
-	dc.b    "j'ai perdu Alys."
+	dc.b    "discussion avec ces étudiants..."
 	dc.b	$FD
-	dc.b	"Je dois la retrouver..."
+	dc.b	"Je laisse toujours ce genre de choses"
+	dc.b	$FC
+	dc.b    "arriver... Alys va me tuer."
 	dc.b	$FF
 
 ; $6E
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Quelle drôle de réaction."
-	dc.b	$FD
-	dc.b	"Ce directeur cache sûrement quelque"
+	dc.b	"Quelque chose ne sent pas bon ici."
 	dc.b	$FC
-	dc.b	"chose."
+	dc.b	"Ce principal cache quelque chose."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Peut-être a-t-il peur des monstres ?"
+	dc.b	"Peut-être a-t-il peur que les monstres"
+	dc.b	$FC
+	dc.b	"se retrouvent en ville."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Je pense que ce n'est pas uniquement"
-	dc.b	$FC
-	dc.b	"ça."
+	dc.b	"Je pense que c'est plus que ça."
 	dc.b	$FD
 	dc.b	"Ça commence à être passionant, cette"
 	dc.b	$FC

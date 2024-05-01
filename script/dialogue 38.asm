@@ -5,7 +5,15 @@
 	dc.b	$98, $01
 	dc.b	"Bienvenue au Temple Gumbious."
 	dc.b	$FD
-	dc.b	"Même les Parmaniens sont les bienvenus."
+	dc.b	"Même les Palmaniens sont les bienvenus."
+	dc.b	$FD
+	dc.b	"Par orgueil, nous avons construit"
+	dc.b	$FC
+	dc.b	"l'une des trois grandes tours d'Algol."
+	dc.b	$FD	
+	dc.b	"Nous l'avons convertie en notre plus"
+	dc.b	$FC
+	dc.b	"grand temple pour nous repentir."	
 	dc.b	$FF
 
 ; $1
@@ -15,9 +23,9 @@
 	dc.b	$FF
 
 ; $2
-	dc.b	"Ah, vous avez récupéré le Flambeau"
+	dc.b	"Ah, vous avez récupéré le Flambeau de"
 	dc.b	$FC
-	dc.b	"de l'Éclipse !"
+	dc.b	"l'Éclipse !"
 	dc.b	$FF
 
 ; $3
@@ -25,9 +33,13 @@
 	dc.b	$9B, $02
 	dc.b	$FA
 	dc.b	$98, $01
-	dc.b	"On ne voit pas beaucoup de Parmaniens"
+	dc.b	"On ne voit pas beaucoup de Palmaniens"
 	dc.b	$FC
 	dc.b	"ici. Vous faites du tourisme ?"
+	dc.b	$FD	
+	dc.b	"Il y a beaucoup moins de choses à"
+	dc.b	$FC
+	dc.b	"voir aujourd'hui qu'autrefois !"
 	dc.b	$FF
 
 ; $4
@@ -73,9 +85,19 @@
 	dc.b	$FF
 
 ; $A
-	dc.b	"On dit qu'une tour appelée la « Tour"
+	dc.b	"On dit qu'il y avait autrefois une grande"
 	dc.b	$FC
-	dc.b	"Corona » était érigée ici, jadis."
+	dc.b	"tour qui se dressait ici et qui avait"
+	dc.b	$FD
+	dc.b	"joué un rôle important dans l'histoire"
+	dc.b	$FC
+	dc.b	"d'Algol."
+	dc.b	$FD
+	dc.b	"On dit que nous l'avons faite trop"
+	dc.b	$FC
+	dc.b	"grande et que nous avons déshonoré la"
+	dc.b	$FD
+	dc.b	"Torche d'une manière ou d'une autre."
 	dc.b	$FF
 
 ; $B
@@ -85,9 +107,9 @@
 	dc.b	$98, $01
 	dc.b	"Le Temple Gumbious n'est pas uniquement"
 	dc.b	$FC
-	dc.b	"l'endroit où l'on préserve le Flambeau"
+	dc.b	"l'endroit où l'on préserve le Flambeau de"
 	dc.b	$FD
-	dc.b	"de l'Éclipse, symbole des croyances"
+	dc.b	"l'Éclipse, symbole des croyances"
 	dc.b	$FC
 	dc.b	"Dezolisiennes. Nous sommes aussi le"
 	dc.b	$FD
@@ -95,10 +117,8 @@
 	dc.b	$FF
 
 ; $C
-	dc.b	"La flamme sacrée nous apporte la"
+	dc.b	"La flamme sacrée nous apporte la force."
 	dc.b	$FC
-	dc.b	"force."
-	dc.b	$FD
 	dc.b	"L'avoir perdue, c'est..."
 	dc.b	$FF
 
@@ -117,15 +137,19 @@
 	dc.b	$9B, $02
 	dc.b	$FA
 	dc.b	$98, $01
-	dc.b	"Le Flambeau de l'Éclipse est notre"
+	dc.b	"Le Flambeau de l'Éclipse est connue"
 	dc.b	$FC
-	dc.b	"flamme sacrée."
+	dc.b	"comme une flamme sacrée."
 	dc.b	$FD
-	dc.b	"Selon la légende, elle emet une lumière"
+	dc.b	"Selon la légende, elle emet une lumière qui"
 	dc.b	$FC
-	dc.b	"qui brûle en cendres toute chose indigne"
+	dc.b	"réduit en cendres toute chose indigne"
 	dc.b	$FD
 	dc.b	"d'exister dans notre monde."
+	dc.b	$FD
+	dc.b	"Un jour, elle fera fondre la glace ici"
+	dc.b	$FC
+	dc.b	"et Dezolis naîtra à nouveau !"
 	dc.b	$FF
 
 ; $F
@@ -135,7 +159,7 @@
 	dc.b	$FF
 
 ; $10
-	dc.b	"Mon cher Parmanien, si vraiment tu as"
+	dc.b	"Mon cher Palmanien, si vraiment tu as"
 	dc.b	$FC
 	dc.b	"promis de récupérer notre trésor, aie"
 	dc.b	$FD
@@ -189,13 +213,13 @@
 	dc.b	$FC
 	dc.b	"m'a guérie en quelques instants !"
 	dc.b	$FD
-	dc.b	"C'est vraiment une flamme divine."
+	dc.b	"C'est vraiment une flamme sacrée."
 	dc.b	$FF
 
 ; $15
 	dc.b	"La lumière ne doit pas être perdue."
 	dc.b	$FD
-	dc.b	"Je vous en prie, cher Parmanien,"
+	dc.b	"Je vous en prie, cher Palmanien,"
 	dc.b	$FC
 	dc.b	"ramenez notre flamme sacrée !"
 	dc.b	$FF
@@ -227,7 +251,7 @@
 	dc.b	$FF
 
 ; $19
-	dc.b	"Ouiiiiiiiiin."
+	dc.b	"Oh, quelle horreur !"
 	dc.b	$FF
 
 ; $1A
@@ -251,15 +275,15 @@
 	dc.b	$FF
 
 ; $1C
-	dc.b	"Quel... quel outrage d'avoir volé le"
+	dc.b	"Quel... quel sacrilège d'avoir volé le"
 	dc.b	$FC
-	dc.b	"Flambeau de l'Éclipse si librement !"
+	dc.b	"Flambeau de l'Éclipse si impudemment !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Vous vacillez, monsieur."
+	dc.b	"Ne vous inquiétez pas monsieur !"
 	dc.b	$FC
-	dc.b	"Allez, ressaisissez-vous."
+	dc.b	"Détendez-vous car on s'en occupe."
 	dc.b	$FF
 
 ; $1D
@@ -303,11 +327,11 @@
 	dc.b	$FF
 
 ; $22
-	dc.b	"Comment une telle chose a-t-elle pu se"
+	dc.b	"Oh, qu'une telle chose a-t-elle pu se"
 	dc.b	$FC
-	dc.b	"produire ? Est-ce à cause de mon manque"
-	dc.b	$FD
-	dc.b	"d'attention ?"
+	dc.b	"produire à cause de mon manque"
+	dc.b	$FC
+	dc.b	"d'attention !"
 	dc.b	$FF
 
 ; $23
@@ -327,9 +351,9 @@
 	dc.b	$1A
 	dc.b	"Bienvenue à vous !"
 	dc.b	$FD
-	dc.b	"Tous les visteurs sont les bienvenues"
+	dc.b	"Je suis le haut prêtre, Ta Suuk. Tous les"
 	dc.b	$FC
-	dc.b	"au temple."
+	dc.b	"visteurs sont les bienvenue au temple."
 	dc.b	$FF
 
 ; $25

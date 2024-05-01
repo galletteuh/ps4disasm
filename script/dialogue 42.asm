@@ -9,7 +9,7 @@
 	dc.b	$01
 	dc.b	$F2, $00
 	dc.w	$018D
-	dc.b	"Bien, euh, oui, mais qui diable êtes-vous ?"
+	dc.b	"Bien, euh, oui, mais qui êtes-vous ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0B
@@ -19,13 +19,11 @@
 	dc.b	$FC
 	dc.b	"présenté."
 	dc.b	$FD
-	dc.b	"Je suis Seth."
-	dc.b	$FC
-	dc.b	"Un archéologue."
+	dc.b	"Je suis Seth. Un archéologue."
 	dc.b	$FD
-	dc.b	"Je suis venu ici pour trouver les vestige"
+	dc.b	"Je suis venu ici pour trouver les vestiges"
 	dc.b	$FC
-	dc.b	"d'un temple,"
+	dc.b	"d'un ancien temple,"
 	dc.b	$FD
 	dc.b	"mais il y a des monstres dans la caverne"
 	dc.b	$FC
@@ -35,7 +33,7 @@
 	dc.b	$01
 	dc.b	"Ah, le temple..."
 	dc.b	$FC
-	dc.b	"notre destination."
+	dc.b	"C'est aussi notre destination."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0B
@@ -43,9 +41,9 @@
 	dc.b	$FC
 	dc.b	"Quelle chance !"
 	dc.b	$FD
-	dc.b	"Si vous y allez, puis-je me joindre"
+	dc.b	"Si vous y allez, puis-je me joindre à"
 	dc.b	$FC
-	dc.b	"à vous ?"
+	dc.b	"vous ?"
 	dc.b	$FD
 	dc.b	"Je suis confiant dans mes capacités."
 	dc.b	$FC
@@ -88,12 +86,14 @@
 	dc.b	$F4
 	dc.b	$01
 	dc.b	"Wow ! Quelle lumière !"
+	dc.b	$FC
+	dc.b	"Je n'y vois plus rien !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Wow, quel sens de l'observation..."
+	dc.b	"« Ce que la lumière cache »..."
 	dc.b	$FD
-	dc.b	"Pointe l'Aero-Prisme vers le ciel !"
+	dc.b	"Chaz, Pointe l'Aero-Prisme vers le ciel !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
@@ -104,11 +104,11 @@
 
 	dc.b	$F2, $00
 	dc.w	$00A2
-	dc.b	"Que... que signifie ?"
+	dc.b	"La lumière nous montre..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"C'est magnifique !"
+	dc.b	"Un chemin invisible !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
@@ -116,7 +116,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Mais... c'est dans l'espace !"
+	dc.b	"Que... ça part tout droit dans l'espace...!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
@@ -169,11 +169,11 @@
 	dc.b	$FC
 	dc.b	"passer pour un humain ?"
 	dc.b	$FD
-	dc.b	"Quelle pourriture !"
+	dc.b	"On l'a sous-estimé !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Dark Force peut-elle évoluer ?"
+	dc.b	"Dark Force peut évoluer, aussi ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
@@ -181,13 +181,15 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Pas le choix ! À l'attaque !"
+	dc.b	"On l'a déjà battue ! À l'attaque !"
 	dc.b	$FF
 
 ; $2
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"La situation devient délicate."
+	dc.b	"Il se passe beaucoup plus de choses"
+	dc.b	$FC
+	dc.b	"qu'on ne le pensait !"
 	dc.b	$FD
 	dc.b	"Chaz, il faut se dépêcher d'aller sur"
 	dc.b	$FC
@@ -195,19 +197,19 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Pardon ?"
+	dc.b	"Hein ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Je parie que les subalternes de"
+	dc.b	"Je parie que les subalternes des"
 	dc.b	$FC
-	dc.b	"La Noirceur sont déjà au courant"
+	dc.b	"Ténèbres sont déjà en chemin vers"
 	dc.b	$FD
-	dc.b	"de la localisation de Rykros grâce à"
+	dc.b	"Rykros grâce à Dark Force."
+	dc.b	$FD
+	dc.b	"Un autre Lashiec ou Dark Force pourrait"
 	dc.b	$FC
-	dc.b	"Dark Force."
-	dc.b	$FD
-	dc.b	"Ils doivent être déjà en route !"
+	dc.b	"faire la course avec nous !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
@@ -219,21 +221,23 @@
 	dc.b	$FC
 	dc.b	"trajectoire à suivre."
 	dc.b	$FD
-	dc.b	"Il doit sans doute s'y trouver quelque"
+	dc.b	"Mais il est certain qu'il y a là bas quelque"
 	dc.b	$FC
-	dc.b	"chose qu'ils ne peuvent pas nous"
+	dc.b	"chose qui pourrait s'avérer fatal aux"
 	dc.b	$FD
-	dc.b	"permettre d'obtenir."
+	dc.b	"Ténèbres Profonds."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Alors, il faut l'avoir avant eux."
+	dc.b	"Donc on doit mettre la main sur cette"
+	dc.b	$FC
+	dc.b	"« chose », et vite."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Il faut se dépêcher, ou ils nous"
+	dc.b	"Il faut se dépêcher, sinon ils nous"
 	dc.b	$FC
-	dc.b	"précèderont !"
+	dc.b	"devanceront !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
@@ -245,9 +249,9 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Pas le choix, suivons la lumière à bord"
+	dc.b	"Pas le choix, suivons la lumière à bord du"
 	dc.b	$FC
-	dc.b	"du Landale."
+	dc.b	"Landale."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
@@ -259,9 +263,9 @@
 ; $3
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"... Est-ce la forme véritable de la"
+	dc.b	"... Est-ce la forme véritable des"
 	dc.b	$FC
-	dc.b	"Noirceur Profonde ?"
+	dc.b	"Ténèbres Profonds ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
@@ -271,21 +275,23 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Ça vient de la Noirceur Profonde !"
+	dc.b	"Ça vient de les Ténèbres Profonds !"
 	dc.b	$FD
-	dc.b	"Colère... haine... envers tout ce qui vit..."
+	dc.b	"Furie... haine... envers tout ce qui vit..."
 	dc.b	$FD
 	dc.b	"Un besoin de tout détruire !"
 	dc.b	$FD
-	dc.b	"Il faut la vaincre !"
+	dc.b	"Il faut l'arrêter !"
 	dc.b	$FD
-	dc.b	"Cette chose ne doit pas venir dans Algo !"
+	dc.b	"Cette chose ne doit pas venir dans Algol !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Le portail n'est pas encore complètement"
+	dc.b	"Les sceaux tiennent encore, mais plus"
 	dc.b	$FC
-	dc.b	"ouvert. C'est notre chance, Chaz !"
+	dc.b	"pour longtemps !"
+	dc.b	$FD
+	dc.b	"Il faut profiter de cette occasion, Chaz !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
@@ -295,7 +301,9 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Bien compris !"
+	dc.b	"Coordonnées fixées. Tous les systèmes"
+	dc.b	$FC
+	dc.b	"sont au vert. Début de l'attaque."
 	dc.b	$FD
 	dc.b	$FA
 	dc.b	$DB, $01
@@ -309,7 +317,7 @@
 	dc.b	$DF, $05
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Ça y est ! L'avenir d'Algo... notre"
+	dc.b	"Ça y est ! L'avenir d'Algol... notre"
 	dc.b	$FC
 	dc.b	"avenir... se décide ici et maintenant !"
 	dc.b	$FF
@@ -317,11 +325,11 @@
 ; $4
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"O... Oh !"
+	dc.b	"N... Nous pouvons le faire !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Ça y est ! L'avenir d'Algo... notre"
+	dc.b	"Ça y est ! L'avenir d'Algol... notre"
 	dc.b	$FC
 	dc.b	"avenir... se décide ici et maintenant !"
 	dc.b	$FF
@@ -329,11 +337,13 @@
 ; $5
 	dc.b	$F4
 	dc.b	$05
-	dc.b	"Notre adversaire est trop fort !"
+	dc.b	"Notre adversaire est fort !"
+	dc.b	$FC
+	dc.b	"Mais nous aussi !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Ça y est ! L'avenir d'Algo... notre"
+	dc.b	"Ça y est ! L'avenir d'Algol... notre"
 	dc.b	$FC
 	dc.b	"avenir... se décide ici et maintenant !"
 	dc.b	$FF
@@ -341,11 +351,11 @@
 ; $6
 	dc.b	$F4
 	dc.b	$07
-	dc.b	"Laissez-le moi !"
+	dc.b	"On peut le faire, ensemble !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Ça y est ! L'avenir d'Algo... notre"
+	dc.b	"Ça y est ! L'avenir d'Algol... notre"
 	dc.b	$FC
 	dc.b	"avenir... se décide ici et maintenant !"
 	dc.b	$FF
@@ -353,11 +363,11 @@
 ; $7
 	dc.b	$F4
 	dc.b	$09
-	dc.b	"Oui !"
+	dc.b	"C'est parti mon kiki !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Ça y est ! L'avenir d'Algo... notre"
+	dc.b	"Ça y est ! L'avenir d'Algol... notre"
 	dc.b	$FC
 	dc.b	"avenir... se décide ici et maintenant !"
 	dc.b	$FF
@@ -365,11 +375,11 @@
 ; $8
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"Laissez-le moi !"
+	dc.b	"Nous avons ce qu'il faut, ensemble !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Ça y est ! L'avenir d'Algo... notre"
+	dc.b	"Ça y est ! L'avenir d'Algol... notre"
 	dc.b	$FC
 	dc.b	"avenir... se décide ici et maintenant !"
 	dc.b	$FF
@@ -392,7 +402,7 @@
 	dc.b	$FC
 	dc.b	$F2, $03
 	dc.b	$AD
-	dc.b	"dimensionnelle a cessé d'exister !"
+	dc.b	"dimensionnelle a cessé d'exister."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
@@ -404,13 +414,13 @@
 	dc.b	$FC
 	dc.b	$F2, $03
 	dc.b	$AD
-	dc.b	"Attention ! Danger ! Danger !"
+	dc.b	"Danger ! Danger !"
 	dc.b	$FD
 	dc.b	$F2, $03
 	dc.b	$AD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Que faire !?"
+	dc.b	"Qu'est-ce qu'on va faire !?"
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$0142
@@ -433,11 +443,11 @@
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$0145
-	dc.b	"L'Elsydeon..."
+	dc.b	"L'Elsydeon s'est brisée..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Elle nous protège..."
+	dc.b	"Ses esprits... nous protègent..."
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$0146
@@ -450,7 +460,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Merci à vous tous..."
+	dc.b	"Alys... Alisa... merci !"
 	dc.b	$FF
 
 ; $A
@@ -460,11 +470,11 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Oui, c'est fini."
+	dc.b	"Oui, je pense qu'on l'a fait !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Nous avons sauvé Algo."
+	dc.b	"Nous avons sauvé Algol."
 	dc.b	$FF
 
 ; $B
@@ -474,7 +484,11 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$09
-	dc.b	"Bon, alors, on va retourner sur Dezolis."
+	dc.b	"Bien joué, tout le monde !"
+	dc.b	$FD
+	dc.b	"Eh bien... Il est temps de retourner sur"
+	dc.b	$FC
+	dc.b	"Dezolis."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
@@ -482,17 +496,15 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$09
-	dc.b	"Je me suis beaucoup amusé, Chaz,"
+	dc.b	"C'était un sacré voyage, Chaz, comme je"
 	dc.b	$FC
-	dc.b	"c'était un voyage tel que je n'avais"
-	dc.b	$FD
-	dc.b	"pas vécu depuis..."
+	dc.b	"n'en ai pas fait depuis... jamais !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"Vous viendrez nous visiter sur Dezolis"
+	dc.b	"Venez nous voir sur Dezolis à"
 	dc.b	$FC
-	dc.b	"de temps à autre, non ?"
+	dc.b	"l'occasion !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$09
@@ -508,9 +520,15 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$09
-	dc.b	"Quel dommage, vous ne pourrez plus"
+	dc.b	"Vous ne rendrez pas hommage au person-"
 	dc.b	$FC
-	dc.b	"vous prévaloir de mon humour raffiné !"
+	dc.b	"nage, comme c'est dommage ! Ha ha !"
+	dc.b	$FD
+	dc.b	$F4
+	dc.b	$01
+	dc.b	"Hé, tu n'as pas pu resister à en faire"
+	dc.b	$FC
+	dc.b	"une dernière pour la route, hein, Raja?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$07
@@ -518,29 +536,23 @@
 	dc.b	$FC
 	dc.b	"à Maître Wren..."
 	dc.b	$FD
-	dc.b	"Au revoir, Chaz."
-	dc.b	$FD
 	dc.b	"Le jour viendra où mon Maître et moi ne"
 	dc.b	$FC
 	dc.b	"serons plus indispensable pour le"
 	dc.b	$FD
-	dc.b	"maintient de la vie sur Algo."
+	dc.b	"maintient de la vie sur Algol."
 	dc.b	$FD
 	dc.b	"Mais, d'ici là, je continuerai à accomplir"
 	dc.b	$FC
 	dc.b	"ma tâche."
 	dc.b	$FD
+	dc.b	"Au revoir, Chaz."
+	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Une fois tous mes passagers sur Dezolis,"
-	dc.b	$FC
-	dc.b	"je retournerai sur Zelan."
+	dc.b	"Demi et moi aimons beaucoup ces mondes."
 	dc.b	$FD
-	dc.b	"Vous aurez besoin des systèmes de"
-	dc.b	$FC
-	dc.b	"contrôle environnemental pour un certain"
-	dc.b	$FD
-	dc.b	"temps encore."
+	dc.b	"Et ses habitants."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
@@ -549,13 +561,21 @@
 
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Elle est déjà sur le Landale."
+	dc.b	"Rika sait à quel point les humains ont"
+	dc.b	$FC
+	dc.b	"maltraité ses ancêtres."
 	dc.b	$FD
-	dc.b	"La séparation doit être dure pour elle."
+	dc.b	"Et comment ils ont fini."
+	dc.b	$FD
+	dc.b	"Elle a peur de ce qui pourrait lui"
+	dc.b	$FC
+	dc.b	"arriver..."
+	dc.b	$FD
+	dc.b	"Et à vous aussi, je suppose."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Je... je vois."
+	dc.b	"Je... comprends. Oh, Rika..."
 	dc.b	$F9
 	dc.b	$27
 
@@ -566,17 +586,19 @@
 	dc.b	$FC
 	dc.b	"Portez-vous bien."
 	dc.b	$FD
-	dc.b	"Nous nous reverrons sans doute."
+	dc.b	"Je parlerai à vos descendants..."
+	dc.b	$FC
+	dc.b	"de votré héroïsme et de votre coeur."
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Rika, nous partons."
+	dc.b	"Rika, nous partons maintenant."
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"... D'accord."
+	dc.b	"Oui... oui, je suis prête."
 	dc.b	$F9
 	dc.b	$27
 
@@ -584,7 +606,9 @@
 
 	dc.b	$F4
 	dc.b	$05
-	dc.b	"Ils sont partis."
+	dc.b	"...Juste comme ça, Ils sont partis."
+	dc.b	$FD
+	dc.b	"Probablement pour toujours..."
 	dc.b	$F9
 	dc.b	$13
 
@@ -592,42 +616,55 @@
 
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Wren, je..."
-	dc.b	$F7
-
-	dc.b	$F4
-	dc.b	$08
-	dc.b	"Rika,"
-	dc.b	$FD
-	dc.b	"le chemin que vous parcourrez sera sans"
+	dc.b	"Wren, j'ai redouté ce jour pendant si"
 	dc.b	$FC
-	dc.b	"doute difficile et douloureux."
+	dc.b	"longtemps, mais..."
+	dc.b	$FD
+	dc.b	"Maintenant, je me demande... si... si"
+	dc.b	$FC
+	dc.b	"c'est..."
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Vous êtes notre grand espoir."
+	dc.b	"Rika, vous êtes sûre ?"
 	dc.b	$FD
-	dc.b	"Soyez forte, et vivez fièrement."
+	dc.b	"Ce chemin sera sans doute difficile et"
+	dc.b	$FC
+	dc.b	"douloureux."
+	dc.b	$FD
+	dc.b	"...Bien, vous êtes à moitié humaine."
+	dc.b	$FD
+	dc.b	"Des choix affectifs sont envisagés."
+	dc.b	$F7
+
+	dc.b	$F4
+	dc.b	$08
+	dc.b	"Allez, vivez comme les humains."
+	dc.b	$FD
+	dc.b	"Participez à cette renaissance."
+	dc.b	$FD
+	dc.b	"Vous représentez l'espoir pour Algol."
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$015B
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Oui ! Wren..."
+	dc.b	"Oh, Wren ! Merci de votre compréhension !"
 	dc.b	$FC
-	dc.b	"Merci ! Merci pour tout !"
+	dc.b	"Vous me manquerez beaucoup !"
+	dc.b	$FD	
+	dc.b	$F4
+	dc.b	$09
+	dc.b	"Va le retrouver, tigresse ! Haha !"
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$05
-	dc.b	"Je retourne à Tonoe, Chaz, merci"
-	dc.b	$FC
-	dc.b	"de m'avoir accueilli !"
+	dc.b	"Pana est en sécurité, grâce à toi."
 	dc.b	$FD
-	dc.b	"J'ai beaucoup appris durant ce long"
-	dc.b	$FC
-	dc.b	"voyage. Merci encore !"
+	dc.b	"Je ne t'oublierai jamais, Chaz !"
+	dc.b	$FD
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$015C
@@ -635,24 +672,20 @@
 	dc.b	$03
 	dc.b	"Je retourne à l'Académie."
 	dc.b	$FD
-	dc.b	"Je suis dégoûté par certains qui y"
-	dc.b	$FC
-	dc.b	"vivent, mais malgré tout..."
+	dc.b	"Chaz, tu m'as montré..."
 	dc.b	$FD
-	dc.b	"Bon, je devrai sublimer ces sentiments"
+	dc.b	"Que toutes les connaissances du monde"
 	dc.b	$FC
-	dc.b	"et les transformer en force intérieure !"
+	dc.b	"sont inutiles sans l'action."
 	dc.b	$FD
-	dc.b	"Au revoir, Chaz."
-	dc.b	$FD
-	dc.b	"Je suis très fier d'avoir combattu à"
+	dc.b	"Ce sera la fierté de ma vie d'avoir"
 	dc.b	$FC
-	dc.b	"tes côtés !"
+	dc.b	"combattu avec toi !"
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Chaz... Nous nous séparons ici."
+	dc.b	"Chaz... Bien joué."
 	dc.b	$F9
 	dc.b	$09
 
@@ -664,7 +697,9 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Rune..."
+	dc.b	"Oh, un compliment..."
+	dc.b	$FD
+	dc.b	"Je savais que tu avais ça en toi, Rune !"
 	dc.b	$F9
 	dc.b	$3B
 
@@ -673,21 +708,17 @@
 	dc.b	$04
 	dc.b	"Même si nous avons vaincu l'ultime démon,"
 	dc.b	$FC
-	dc.b	"ma mission en tant que Lutz demeure..."
+	dc.b	"j'ai encore toute une vie d'apprentissage"
 	dc.b	$FD
-	dc.b	"Je dois protéger le système d'Algo tout"
+	dc.b	"devant moi."
 	dc.b	$FC
-	dc.b	"entier."
+	dc.b	"Accumuler des connaissances et de la"
 	dc.b	$FD
-	dc.b	"Je dois m'entraîner encore, gagner en"
+	dc.b	"sagesse, et les transmettre à un"
 	dc.b	$FC
-	dc.b	"expérience."
+	dc.b	"héritier. Je dois perpétuer la volonté"
 	dc.b	$FD
-	dc.b	"Je dois continuellement m'améliorer,"
-	dc.b	$FC
-	dc.b	"et éventuellement passer le flambeau"
-	dc.b	$FD
-	dc.b	"au prochain Lutz..."
+	dc.b	"de Lutz, en veillant sur tout Algol."
 	dc.b	$F7
 
 	dc.b	$F4
@@ -699,59 +730,95 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Probablement pas."
+	dc.b	"Probablement pas, Chaz."
 	dc.b	$FD
-	dc.b	"Petit sot ! Sèche tes larmes..."
+	dc.b	"Oh, petite tête ! Sèche tes larmes !"
 	dc.b	$FD
-	dc.b	"Tu peux vivre sans l'aide de quiconque,"
+	dc.b	"Tu peux te tenir debout sans moi..."
 	dc.b	$FC
-	dc.b	"maintenant..."
+	dc.b	"ou... Alys... maintenant."
+	dc.b	$FD
+	dc.b	"...Façon de parler héhé !"
+	dc.b	$FD
+	dc.b	"...Tu vas me manquer mon petit."
+	dc.b	$FD	
+	dc.b	$F4
+	dc.b	$01
+	dc.b	"Tu vas me manquer aussi, Rune."
+	dc.b	$FD
+	dc.b	"Sans toi, je n'aurai jamais vraiment"
+	dc.b	$FC
+	dc.b	"compris Alys..."
+	dc.b	$FD
+	dc.b	"ou... moi-même. Merci."
+	dc.b	$FD
+	dc.b	"Je n'oublierai jamais ce que tu m'as"
+	dc.b	$FC
+	dc.b	"appris."
+	dc.b	$FD
+	dc.b	"Surtout, comment faire face aux"
+	dc.b	$FC
+	dc.b	"moqueries constantes, haha !"
+	dc.b	$FD	
+	dc.b	$F4
+	dc.b	$04
+	dc.b	"Une compétence de vie précieuse qui ne"
+	dc.b	$FC
+	dc.b	"s'apprend pas sur le champ de bataille !"
+	dc.b	$FD
+	dc.b	"Bonne chance à toi, Chaz."
+	dc.b	$FD
+	dc.b	"Tu as accompli la volonté d'Alys."
+	dc.b	$FD
+	dc.b	"Et c'est le plus beau compliment que je"
+	dc.b	$FC
+	dc.b	"puisse faire."
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Rika !"
+	dc.b	"Rika ?? Qu'est-ce que tu fais ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Chaz !"
+	dc.b	"Chaaaaaaaaz !"
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Rika !"
+	dc.b	"Rika ?!? Tu es folle !!"
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Rika !"
+	dc.b	"...Rika... je... je t'aime !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Chaz !"
+	dc.b	"...Je t'aime aussi, Chaz !"
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$04
 	dc.b	"Adieu, Chaz..."
 	dc.b	$FC
-	dc.b	"Portes-toi bien !"
+	dc.b	"Je te souhaites... bien du bonheur."
 	dc.b	$FD
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Rune..."
+	dc.b	"Rune... Merci."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Rune... merci..."
-	dc.b	$FC
-	dc.b	"Et adieu !"
+	dc.b	"Au revoir, mon ami."
 	dc.b	$FF
 
 ; $C
-	dc.b	"Le long combat est terminé."
+	dc.b	"La longue, longue lutte des temps"
+	dc.b	$FC
+	dc.b	"anciens est enfin terminée."
 	dc.b	$F9
 	dc.b	$1D
 
@@ -762,9 +829,9 @@
 
 	dc.b	$F7
 
-	dc.b	"Nous nous sommes finalement libérés"
+	dc.b	"Nous nous sommes finalement libérés de"
 	dc.b	$FC
-	dc.b	"de la malédiction ancestrale."
+	dc.b	"la malédiction ancestrale."
 	dc.b	$F9
 	dc.b	$1D
 
@@ -772,9 +839,9 @@
 	dc.w	$0174
 	dc.b	$F7
 
-	dc.b	"Aux âmes qui ont tout sacrifié"
+	dc.b	"Aux âmes qui ont tout sacrifié pour"
 	dc.b	$FC
-	dc.b	"pour Algo, dormez en paix."
+	dc.b	"Algol, reposez en paix."
 	dc.b	$F9
 	dc.b	$1D
 
@@ -782,7 +849,9 @@
 	dc.w	$0176
 	dc.b	$F7
 
-	dc.b	"Par delà les gens..."
+	dc.b	"Les sacrifices d'aujourd'hui sont"
+	dc.b	$FC
+	dc.b	"l'héritage de demain."	
 	dc.b	$F9
 	dc.b	$1D
 
@@ -793,7 +862,7 @@
 
 	dc.b	$F7
 
-	dc.b	"Par delà les époques..."
+	dc.b	"Bâtir le futur..."
 	dc.b	$F9
 	dc.b	$1D
 
@@ -806,9 +875,7 @@
 
 	dc.b	$F7
 
-	dc.b	"Aussi longtemps que notre"
-	dc.b	$FC
-	dc.b	"mémoire nous le permettra..."
+	dc.b	"...et garder le passé vivant..."
 	dc.b	$F9
 	dc.b	$1D
 
@@ -819,9 +886,7 @@
 
 	dc.b	$F7
 
-	dc.b	"Nous nous rappellerons des"
-	dc.b	$FC
-	dc.b	"sacrifices accomplis."
+	dc.b	"...sont une seule et même chose."
 	dc.b	$F9
 	dc.b	$1D
 
@@ -841,37 +906,41 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Hein ? Pas tant que ça..."
+	dc.b	"Euh, et bien je pense que nous sommes"
 	dc.b	$FC
-	dc.b	"Hé, hé, je suis gêné."
+	dc.b	"plus qu'un peu expérimentés...!"
 	dc.b	$FF
 
 ; $F
 	dc.b	$F4
 	dc.b	$0B
-	dc.b	"Mais quelle splendeur !"
+	dc.b	"Mais c'est splendide !"
 	dc.b	$FD
-	dc.b	"J'aimerais tant avoir un telle puissance !"
+	dc.b	"J'aimerais tant avoir un telle force !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Oh, vous savez, ce n'est que le fruit de"
+	dc.b	"La force est une question d'hygiène"
 	dc.b	$FC
-	dc.b	"nombreuses heures d'entraînement."
+	dc.b	"alimentaire et de musculation !"
 	dc.b	$FD
-	dc.b	"Vous aussi, vous pouvez devenir très"
+	dc.b	"Restez avec nous et vous apprendrez"
 	dc.b	$FC
-	dc.b	"fort, à condition de vous y mettre !"
+	dc.b	"à vous muscler à coup sûr !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0B
-	dc.b	"Hmm... de l'entraînement, hein ?"
+	dc.b	"Hmm... « de la musculation »."
 	dc.b	$FC
-	dc.b	"Je note !"
+	dc.b	"Intéressant !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Euh, quand t'es-tu entraîné, Chaz ?"
+	dc.b	"Ah, quand est-ce que tu fais tout ça,"
+	dc.b	$FC
+	dc.b	"Chaz ? Au milieu de la nuit, pendant que"
+	dc.b	$FD
+	dc.b	"nous dormons à l'auberge ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
@@ -897,7 +966,7 @@
 	dc.b	$01
 	dc.b	"Oh, euh, bien..."
 	dc.b	$FC
-	dc.b	"d'accord."
+	dc.b	"Il n'y a pas de mal à cela, je suppose..."
 	dc.b	$FF
 
 ; $11
@@ -911,29 +980,29 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Ben... À vrai dire..."
-	dc.b	$FC
-	dc.b	"Je n'en ai aucune idée."
+	dc.b	"... Ne me regarde pas !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Tu es d'une grande aide, merci !"
+	dc.b	"Wow,tu es d'une grande aide,"
+	dc.b	$FC
+	dc.b	"« Révéré Cinquième » !"
 	dc.b	$FF
 
 ; $12
-	dc.b	"Le combat millénaire entre"
+	dc.b	"La page se tourne sur les dieux,"
 	dc.b	$FF
 
 ; $13
-	dc.b	"la Lumière et la Noirceur est terminé,"
+	dc.b	"les rois et les machines."
 	dc.b	$FF
 
 ; $14
-	dc.b	"et maintenant, le rideau se lève"
+	dc.b	"Pour la première fois, nous"
 	dc.b	$FF
 
 ; $15
-	dc.b	"pour dévoiler une nouvelle ère..."
+	dc.b	"sommes maîtres de notre histoire."
 	dc.b	$FF
 ;; Local Variables:
 ;; eval: (fci-mode)

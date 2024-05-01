@@ -1,13 +1,17 @@
 ; 0
 	dc.b	$F4
 	dc.b	$01, $00
-	dc.b	"Je me demande où est Alys ?"
+	dc.b	"Alys va se mettre en colère..."
+	dc.b	$FD
+	dc.b	"Je devrais arrêter de tout remettre à"
+	dc.b	$FC
+	dc.b	"plus tard."
 	dc.b	$FF
 
 ; $1
 	dc.b	$F4
 	dc.b	$02, $00
-	dc.b	"Il vaudrait mieux aller voir le directeur"
+	dc.b	"Il vaudrait mieux aller voir le principal"
 	dc.b	$FC
 	dc.b	"pour connaître les détails de la mission !"
 	dc.b	$FD
@@ -31,35 +35,37 @@
 	dc.b	$02, $00
 	dc.b	"Hmm..."
 	dc.b	$FD
-	dc.b	"Il y a quelque chose qui cloche dans"
+	dc.b	"Il y a quelque chose qui cloche dans tout"
 	dc.b	$FC
-	dc.b	"tout ça !"
+	dc.b	"ça !"
 	dc.b	$FF
 
 ; $3
 	dc.b	$F4
 	dc.b	$02, $00
-	dc.b	"Le directeur et Hahn nous ont tous deux"
+	dc.b	"Le principal et Hahn nous ont tous deux"
 	dc.b	$FC
 	dc.b	"demandé d'explorer le sous-sol."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03, $02
-	dc.b	"Vous n'auriez pas simplement trouvé un"
+	dc.b	"Vous ne m'auriez pas simplement amené"
 	dc.b	$FC
-	dc.b	"stratagème pour me détrousser ?"
+	dc.b	"ici pour me dévaliser ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01, $01
-	dc.b	"Désolé, vous avez déjà payé, ce qui est"
+	dc.b	"Hé, vous avez déjà payé, donc arrêtez"
 	dc.b	$FC
-	dc.b	"fait est fait."
+	dc.b	"de chouiner."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03, $02
-	dc.b	"Je me demande si c'était une bonne idée"
+	dc.b	"Eh bien, je suppose que je dois y aller"
 	dc.b	$FC
-	dc.b	"de les accompagner..."
+	dc.b	"aussi pour m'assurer que mon argent est"
+	dc.b	$FD
+	dc.b	"bien dépensé..."
 	dc.b	$FF
 
 ; $4
@@ -71,25 +77,21 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02, $01
-	dc.b	"Je vais forcer le directeur à nous le"
+	dc.b	"Je vais faire parler le principal !"
 	dc.b	$FC
-	dc.b	"dire !"
-	dc.b	$FD
-	dc.b	"Hé, toi !"
-	dc.b	$FC
-	dc.b	"Tu viens avec nous, toi aussi !"
+	dc.b	"N'est-ce pas, le rat de laboratoire ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03, $02
-	dc.b	"Qui, me... moi ?"
+	dc.b	"Qui, me... moi ? M... mais ?"
 	dc.b	$FF
 
 ; $5
 	dc.b	$F4
 	dc.b	$03, $01
-	dc.b	"La Vallée de l'Éclosion est au nord-est"
+	dc.b	"La Vallée de l'Éclosion est au nord-est de"
 	dc.b	$FC
-	dc.b	"de Piata."
+	dc.b	"Piata."
 	dc.b	$FD
 	dc.b	"Dépêchons-nous de secourir le"
 	dc.b	$FC
@@ -107,13 +109,13 @@
 	dc.b	$03, $02
 	dc.b	"Oh, non ! Le professeur Holt a été"
 	dc.b	$FC
-	dc.b	"pétrifié !"
+	dc.b	"changé en pierre !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01, $00
-	dc.b	"Ça ira, Hahn. Nous pouvons obtenir le"
+	dc.b	"Ça ira, Hahn. Nous allons à Molcum"
 	dc.b	$FC
-	dc.b	"médicament d'Alshline à Molcum."
+	dc.b	"chercher le médicament Alsulin."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03, $02
@@ -121,25 +123,31 @@
 	dc.b	$FC
 	dc.b	"Motavien au sud de Zema ?"
 	dc.b	$FD
+	dc.b	"Mais j'ai entendu dire que les Motaviens"
+	dc.b	$FC
+	dc.b	"mangeaient les Palmaniens !"	
+	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02, $01
-	dc.b	"Allez, du calme !"
+	dc.b	"Oh, je t'en prie ! Je ne pensais pas que les"
 	dc.b	$FC
-	dc.b	"Vraiment, tu es pitoyable !"
+	dc.b	"scientifiques pouvaient être si crédules !"
 	dc.b	$FF
 
 ; $7
 	dc.b	$F4
 	dc.b	$01, $00
-	dc.b	"Molcum a été détruit par Zio..."
+	dc.b	"Molcum a été détruit par Zio... Pourquoi ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04, $01
-	dc.b	"Quand j'y suis arrivé, il était déjà"
+	dc.b	"C'est la question à un million."
 	dc.b	$FC
-	dc.b	"trop tard."
-	dc.b	$FD
-	dc.b	"Désolé..."
+	dc.b	"Je ne sais pas encore."
+	dc.b	$FD	
+	dc.b	"Tout ce que je sais c'est que Zio ne"
+	dc.b	$FC
+	dc.b	"s'arrêtera pas là, quelque soit son plan."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02, $00
@@ -149,19 +157,25 @@
 	dc.b	$03, $02
 	dc.b	"Ceci dit, une fois à Tonoe, nous pourrons"
 	dc.b	$FC
-	dc.b	"obtenir de l'Alshline, n'est-ce pas ?"
+	dc.b	"obtenir de l'Alsulin, n'est-ce pas ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01, $00
 	dc.b	"Tonoe... c'est au nord du village de Krup,"
 	dc.b	$FC
 	dc.b	"n'est-ce-pas ?"
+	dc.b	$FD
+	dc.b	$F4
+	dc.b	$03, $01
+	dc.b	"Ah... techniquement, oui, mais nous"
+	dc.b	$FC
+	dc.b	"devrions nous dépêcher d'aller à Tonoe !"	
 	dc.b	$FF
 
 ; $8
 	dc.b	$F4
 	dc.b	$01, $00
-	dc.b	"Alors, l'Alshline se trouve dans"
+	dc.b	"Alors, l'Alsulin se trouve dans"
 	dc.b	$FC
 	dc.b	"l'entrepôt souterrain de Tonoe ?"
 	dc.b	$FD
@@ -171,15 +185,19 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$05, $02
-	dc.b	"Avec plaisir. Vous pouvez compter sur"
+	dc.b	"Je n'ai aucun problème avec les"
 	dc.b	$FC
-	dc.b	"moi."
+	dc.b	"Palmaniens, contrairement à certains"
+	dc.b	$FD
+	dc.b	"de mes compatriotes. Je me dois"
+	dc.b	$FC
+	dc.b	"d'aider toute personne dans le besoin."		
 	dc.b	$FF
 
 ; $9
 	dc.b	$F4
 	dc.b	$02, $00
-	dc.b	"Enfin, nous avons trouvé de l'Alshline !"
+	dc.b	"Enfin, nous avons trouvé de l'Alsulin !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03, $01
@@ -189,7 +207,9 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$05, $02
-	dc.b	"Je viens avec vous."
+	dc.b	"Je viens avec vous. J'ai des comptes"
+	dc.b	$FC
+	dc.b	"à régler..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01, $01
@@ -199,7 +219,7 @@
 ; $A
 	dc.b	$F4
 	dc.b	$01, $01
-	dc.b	"Le professeur Holt a pénétré dans les"
+	dc.b	"Le professeur Holt est entré dans les"
 	dc.b	$FC
 	dc.b	"profondeurs de la Vallée de l'Éclosion,"
 	dc.b	$FD
@@ -209,13 +229,17 @@
 	dc.b	$03, $02
 	dc.b	"Après tout ce travail pour trouver de"
 	dc.b	$FC
-	dc.b	"l'Alshline et renverser sa pétrification..."
+	dc.b	"l'Alsulin et le guérir de la malédiction..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02, $00
 	dc.b	"Ton professeur est définitivement un"
 	dc.b	$FC
-	dc.b	"vrai casse-pieds !"
+	dc.b	"élève casse-pieds ! Et bien, vu qu'on ne"
+	dc.b	$FD	
+	dc.b	"peut pas le mettre en retenue,"
+	dc.b	$FC
+	dc.b	"allons le libérer à nouveau !"
 	dc.b	$FF
 
 ; $B
@@ -229,9 +253,9 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01, $00
-	dc.b	"D'abord, nous devons libérer cette"
+	dc.b	"D'abord, on doit libérer cette androïde,"
 	dc.b	$FC
-	dc.b	"androïde, Demi."
+	dc.b	"Demi."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$05, $02
@@ -241,27 +265,29 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03, $01
-	dc.b	"Vous voulez parler de ce château, passé"
+	dc.b	"Donc, le château se trouve après les"
 	dc.b	$FC
-	dc.b	"les sables mouvants, qu'on distingue"
+	dc.b	"sables mouvants à  côté de Mile..."
 	dc.b	$FD
-	dc.b	"à partir du village de Mile ?"
-	dc.b	$FD
-	dc.b	"Il faudra donc faire le tour par le nord."
+	dc.b	"On devra trouver un chemin qui y amène"
+	dc.b	$FC
+	dc.b	"par le nord."
 	dc.b	$FF
 
 ; $C
 	dc.b	$F4
 	dc.b	$01, $00
-	dc.b	"C'est affreux !"
+	dc.b	"Je ne peux pas le croire..."
 	dc.b	$FC
-	dc.b	"Alys a été..."
+	dc.b	"Alys..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06, $01
-	dc.b	"Chaz, suivons les conseils d'Alys, et"
+	dc.b	"Oh, Chaz... Je suis désolé..."
+	dc.b	$FD
+	dc.b	"Alys nous a dit de trouver ce Rune."
 	dc.b	$FC
-	dc.b	"trouvons ce Rune."
+	dc.b	"J'espère qu'il pourra l'aider !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$07, $02
@@ -281,7 +307,7 @@
 	dc.b	$FC
 	dc.b	"Centre des Machines !"
 	dc.b	$FD
-	dc.b	"Faisons vite !"
+	dc.b	"Dépêchons-nous !"
 	dc.b	$FF
 
 ; $E
@@ -299,15 +325,19 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06, $01
-	dc.b	"Et ce Rune est censé s'y trouver ?"
+	dc.b	"Et nous devrions y trouver Rune."
+	dc.b	$FC
+	dc.b	"J'espère qu'on pourra aider Alys !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01, $00
-	dc.b	"Le revoir ne me fera guère plaisir,"
+	dc.b	"Devoir demander l'aide de Rune est au"
 	dc.b	$FC
-	dc.b	"mais..."
+	dc.b	"même niveau que « Sortir avec un"
 	dc.b	$FD
-	dc.b	"J'imagine que nous n'avons pas le choix !"
+	dc.b	"criquet » sur ma liste de souhaits,"
+	dc.b	$FC
+	dc.b	"mais on doit faire confiance à Alys."
 	dc.b	$FF
 
 ; $F
@@ -327,15 +357,15 @@
 	dc.b	$01, $01
 	dc.b	"Détruisons Zio avec ce bâton !"
 	dc.b	$FD
-	dc.b	"Et... Alys ira mieux ! Il le faut !"
+	dc.b	"Et... ça signifie de l'espoir pour Alys !"
 	dc.b	$FF
 
 ; $10
 	dc.b	$F4
 	dc.b	$01, $00
-	dc.b	"Nous avons vaincus les subalternes"
+	dc.b	"Nous avons vaincus les subalternes de"
 	dc.b	$FC
-	dc.b	"de Zio..."
+	dc.b	"Zio, mais..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04, $01
@@ -347,7 +377,7 @@
 	dc.b	$05, $02
 	dc.b	"Trouvons-le rapidement, avant que"
 	dc.b	$FC
-	dc.b	"d'autres ennemis ne s'approchent."
+	dc.b	"quelque chose de pire n'arrive."
 	dc.b	$FF
 
 ; $11
@@ -355,9 +385,15 @@
 	dc.b	$04, $01
 	dc.b	"Tant que le Bâton-psy est en notre"
 	dc.b	$FC
-	dc.b	"possession, nous n'avons rien à craindre"
+	dc.b	"possession, nous pouvons nous attaquer"
 	dc.b	$FD
-	dc.b	"des pouvoirs de Zio."
+	dc.b	"à Zio. On de doit pas se laisser emporter"
+	dc.b	$FC
+	dc.b	"par nos émotions, ou on échouera."
+	dc.b	$FD
+	dc.b	"On a un travail à faire. Tout le monde"
+	dc.b	$FC
+	dc.b	"compte sur nous !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$07, $02
@@ -367,7 +403,9 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01, $00
-	dc.b	"Tonnerre ! Alys... !"
+	dc.b	"Oh Alys..."
+	dc.b	$FC
+	dc.b	"Comment a-t-elle pu nous quitter...?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06, $01
@@ -399,7 +437,11 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06, $01
-	dc.b	"Chaz..."
+	dc.b	"Chaz... garde le moral... pour moi"
+	dc.b	$FD
+	dc.b	$F4
+	dc.b	$01, $00
+	dc.b	"Rika... Oui, bien sûr, allons-y !"
 	dc.b	$FF
 
 ; $13
@@ -417,27 +459,29 @@
 	dc.b	$FD
 	dc.b	"système de contrôle environnemental."
 	dc.b	$FC
-	dc.b	"Et Wren s'y trouve, pas vrai ?"
+	dc.b	"Et Forren s'y trouve, pas vrai ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04, $01
-	dc.b	"Ouais, ouais."
+	dc.b	"De toute façon, ne tardons pas, allons"
 	dc.b	$FC
-	dc.b	"Ne tardons pas, cap sur Zelan !"
+	dc.b	"sur Zelan !"
 	dc.b	$FF
 
 ; $14
 	dc.b	$F4
 	dc.b	$08, $00
-	dc.b	"La source des anomalies du système"
+	dc.b	"La source des anomalies du système se"
 	dc.b	$FC
-	dc.b	"se trouve sur Kuran."
+	dc.b	"trouve sur Kuran."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06, $02
 	dc.b	"Le satellite artificiel Kuran..."
 	dc.b	$FC
-	dc.b	"... vous dites qu'il se passe quoi, là-bas ?"
+	dc.b	"... Je pense qu'on doit y aller pour"
+	dc.b	$FD
+	dc.b	"sauver le système !"
 	dc.b	$FF
 
 ; $15
@@ -459,15 +503,15 @@
 	dc.b	$FC
 	dc.b	"peu à l'auberge à Ryuon ?"
 	dc.b	$FD
-	dc.b	"Vous pourrez y entendre plein d'histoires"
+	dc.b	"Il y a plein de fans de mes blagues là"
 	dc.b	$FC
-	dc.b	"amusantes, ha, ha !"
-	dc.b	$FD
-	dc.b	"Vous ne le regretterez pas !"
+	dc.b	"bas !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01, $00
-	dc.b	"Super..."
+	dc.b	"Je n'ai pas vraiment envie de m'occuper"
+	dc.b	$FC
+	dc.b	"de quelqu'un qui pense que Raja est drôle."	
 	dc.b	$FF
 
 ; $16
@@ -479,19 +523,19 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06, $02
-	dc.b	"J'ai entendu dire qu'il y avait un secret"
+	dc.b	"Je pense qu'il y a un secret en rapport"
 	dc.b	$FC
-	dc.b	"par rapport à ce tombeau..."
+	dc.b	"avec le tombeau..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$09, $01
-	dc.b	"On dirait que c'est un hasard heureux."
+	dc.b	"Une situation... à tomber, sans doute."
 	dc.b	$FC
-	dc.b	"Ha, ha, ha !"
+	dc.b	"Je meurs d'envie de trouver ce vaisseau !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01, $00
-	dc.b	"Hmm..."
+	dc.b	"...Elle était trop facile celle-là."
 	dc.b	$FF
 
 ; $17
@@ -507,9 +551,9 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08, $01
-	dc.b	"Dépèchons-nous d'identifier la cause"
+	dc.b	"Dépèchons-nous d'identifier la cause de"
 	dc.b	$FC
-	dc.b	"de la panne du système environnemental."
+	dc.b	"la panne du système environnemental."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01, $00
@@ -521,11 +565,11 @@
 	dc.b	$06, $02
 	dc.b	"Nous avons vaincu Dark Force, mais"
 	dc.b	$FC
-	dc.b	"Dezolis ne s'en remet pas !"
+	dc.b	"Dezolis ne va pas mieux !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$09, $01
-	dc.b	"Je me tue à vous le dire, le problème"
+	dc.b	"Personne ne m'écoute ? Le problème"
 	dc.b	$FC
 	dc.b	"vient de la Tour Garuberk !"
 	dc.b	$FD
@@ -544,6 +588,8 @@
 	dc.b	$F4
 	dc.b	$01, $00
 	dc.b	"Hmm... la Tour Garuberk..."
+	dc.b	$FC
+	dc.b	"Même le nom ne sonne pas bien."	
 	dc.b	$FF
 
 ; $19
@@ -561,9 +607,9 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01, $01
-	dc.b	"Nous ne pouvons pas la laisser à"
+	dc.b	"Nous ne pouvons pas la laisser toute"
 	dc.b	$FC
-	dc.b	"elle-même. Allons l'aider !"
+	dc.b	"seule. Allons l'aider !"
 	dc.b	$FF
 ;; Local Variables:
 ;; eval: (fci-mode)
