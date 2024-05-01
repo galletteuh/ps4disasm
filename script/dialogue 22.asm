@@ -160,119 +160,141 @@
 ; $35
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"La force gravitationnelle est dans les"
+	dc.b	"La gravité est dans les normes,"
 	dc.b	$FC
-	dc.b	"normes, et il y a une atmosphère"
+	dc.b	"et l'atmosphère est respirable."
 	dc.b	$FD
-	dc.b	"respirable. Il s'agit manifestement de"
+	dc.b	"On peut y aller."
+	dc.b	$FD
+	dc.b	"Il s'agit manifestement de conditions"
 	dc.b	$FC
-	dc.b	"conditions maintenues artificiellement."
+	dc.b	"maintenues artificiellement."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"On dirait que nous sommes attendus..."
+	dc.b	"Ou une condition d'un autre monde. "
 	dc.b	$FC
-	dc.b	"Hein !"
+	dc.b	"On dirait qu'on nous attends."
 	dc.b	$FF
 
 ; $36
 	dc.b	$F4
 	dc.b	$1D
-	dc.b	"Ha, ha, ha, ha !"
-	dc.b	$FD
-	dc.b	"Vous voilà ! Malheureusement..."
+	dc.b	"Ah, vous êtes venus ! Toutefois..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$1F
-	dc.b	"Ha, ha, ha, ha !"
-	dc.b	$FD
-	dc.b	"Seul Lutz nous intéresse !"
+	dc.b	"Nous navons pas besoin de vous à part"
+	dc.b	$FC
+	dc.b	"Lutz, et..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$1D
-	dc.b	"Et nous n'avons qu'une chose à lui"
-	dc.b	$FC
-	dc.b	"proposer."
-	dc.b	$FD
-	dc.b	"Ha, ha, ha, ha !"
+	dc.b	"Il n'a qu'une seule utilité ! Alors..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$1F
-	dc.b	"Le mutiler et le tuer de nos propres"
+	dc.b	"On va le regarder se tordre quand on va"
 	dc.b	$FC
-	dc.b	"mains !"
+	dc.b	"le torturer avec la magie la plus sombre !"
+	dc.b	$FD
+	dc.b	""
 	dc.b	$FF
 
 ; $37
 	dc.b	$F4
 	dc.b	$1C
-	dc.b	"Alors, tu t'es décidé à venir... Lutz !"
+	dc.b	"Enfin ! Lutz ! Tu es arrivé !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Donc, il s'agissait bien de Lashiec !"
+	dc.b	"Non ! Comment... Lutz t'a vu mourir !"
+	dc.b	$FC
+	dc.b	"Comment Lashiec peut-il encore exister ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$1C
-	dc.b	"Ha ha ha... J'ai tant..."
+	dc.b	"Les vrais ténèbres ne peuvent être"
 	dc.b	$FC
-	dc.b	"J'ai tant attendu ce moment !"
+	dc.b	"vaincus ! Tu le sais ça !!"
+	dc.b	$FD
+	dc.b	"J'avais tout Algol entre mes mains,"
+	dc.b	$FC
+	dc.b	"grâce à une merveilleuse découverte."
+	dc.b	$FD
+	dc.b	"C'est alors que TOI, et cette fille..."
+	dc.b	$FC
+	dc.b	"Pourtant, mon esprit a résisté !"
+	dc.b	$FD
+	dc.b	"Maintenant..."
+	dc.b	$FD
+	dc.b	"Les ténèbres, prêts à réclamer Algol,"
+	dc.b	$FC
+	dc.b	"ont réssucité leur plus loyal servant !"
+	dc.b	$FD
+	dc.b	"J'aurai ma vengeance !"
+	dc.b	$FD
+	dc.b	"Vous demeurerez dans mon Air Castle"
+	dc.b	$FC
+	dc.b	"pour toujours comme âme torturée !"
+	dc.b	$FD
+	dc.b	$F4
+	dc.b	$01
+	dc.b	"Alors, c'est donc de cela qu'il s'agit ?"
+	dc.b	$FC
+	dc.b	"Une rancune vieille de 2000 ans ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Lashiec ! Pourquoi es-tu réincarné..."
-	dc.b	$FC
-	dc.b	"en cette chose ?"
+	dc.b	"Aussi fou et mesquin que le jour où ton"
+	dc.b	$FC	
+	dc.b	"reigne a pris fin..."
 	dc.b	$FD
+	dc.b	"Dès que tu as cédé à tes peurs et"
+	dc.b	$FC
+	dc.b	"faiblesses, ton destin était scellé !"
+	dc.b	$FD
+	dc.b	"L'histoire ne tolère pas longtemps les"
+	dc.b	$FC
+	dc.b	"tyrans."
+	dc.b	$FD	
+	dc.b	"Tu ne nous fera plus souffrir !"
+	dc.b	$FD	
 	dc.b	$F4
 	dc.b	$1C
-	dc.b	"Pour me venger !"
-	dc.b	$FD
-	dc.b	"Lutz, toi... et tous tes compagnons..."
+	dc.b	"Non, non! Vous souffrirez comme je"
 	dc.b	$FC
-	dc.b	"vont pâtir de douleurs éternelles !"
+	dc.b	"l'entends... éternellement !!"
 	dc.b	$FD
-	dc.b	"Je vais vous tuer, tous !"
-	dc.b	$FD
-	dc.b	"Vous deviendrez comme... moi !"
-	dc.b	$FD
-	dc.b	"Vous deviendrez vous aussi des âmes"
+	dc.b	"Vous avez volontairement accepté mon"
 	dc.b	$FC
-	dc.b	"damnées qui ne pourront jamais quitter"
+	dc.b	"invitation..."
 	dc.b	$FD
-	dc.b	"ce château !"
+	dc.b	"Maintenant tu es à moi !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Alors, c'est pour ça que tu nous a"
+	dc.b	"Si tu veux Rune, tu devras nous passer"
 	dc.b	$FC
-	dc.b	"attiré ici ?"
+	dc.b	"sur le corps !"
 	dc.b	$FD
-	dc.b	$F4
-	dc.b	$1C
-	dc.b	"Ha ha ha... Quelle joie !"
-	dc.b	$FC
-	dc.b	"Vous avez répondu à mon invitation..."
-	dc.b	$FD
-	dc.b	"J'ai attendu deux mille ans pour avoir"
-	dc.b	$FC
-	dc.b	"l'occasion de vous trancher la gorge !"
-	dc.b	$FD
-	dc.b	$F4
-	dc.b	$01
-	dc.b	"Il attaque !"
+	dc.b	"Et c'est toi qui est sur notre chemin !"
 	dc.b	$FF
 
 ; $38
 	dc.b	$F4
 	dc.b	$1C
-	dc.b	"Ahhhh ! Tu es un démon, Lutz ! Tu m'as"
+	dc.b	"Ahhhh ! Lutz ! Les ténèbres m'ont à"
 	dc.b	$FC
-	dc.b	"vaincu, mais tu ne vaincra jamais..."
+	dc.b	"nouveau abandonné ?! Mais..."
+	dc.b	$FD
+	dc.b	"J'emmènerai cette maudite flamme en"
+	dc.b	$FC
+	dc.b	"enfer avec moi !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Le Flambeau de l'Éclipse ?!"
+	dc.b	"Arrête ! Le Flambeau de l'Éclipse ?!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
@@ -289,31 +311,27 @@
 	dc.b	$0A
 	dc.b	"Nous y sommes arrivés !"
 	dc.b	$FD
-	dc.b	"Nous avons récupéré le Flambeau de"
+	dc.b	"Nous avons sauvé le Flambeau de"
 	dc.b	$FC
 	dc.b	"l'Éclipse !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$1C
-	dc.b	"Je fonds ! Je fonds !!!"
+	dc.b	"Nooon...! Je ne veux pas retourner dans"
+	dc.b	$FC
+	dc.b	"l'ombre du néant d'Algol !"
 	dc.b	$FD
 	dc.b	$F2, $03
 	dc.b	$ED
 	dc.b	$F2, $00
 	dc.w	$0109
-	dc.b	"Une fois encore, mon corps ce disloque !"
+	dc.b	"Mais tant que ton esprit et celui de cette"
 	dc.b	$FC
-	dc.b	"Mais sachez que malgré cela, je ne"
+	dc.b	"fille demeurent, ça vaut pour moi aussi !"
 	dc.b	$FD
-	dc.b	"mourrai pas ! Je me réincarnerai sans"
+	dc.b	"Je regrette de ne pas pouvoir voir notre"
 	dc.b	$FC
-	dc.b	"cesse."
-	dc.b	$FD
-	dc.b	"Je dois accomplir Sa volonté ! Tant qu'Il"
-	dc.b	$FC
-	dc.b	"vit, je demeurerai et apporterai le"
-	dc.b	$FD
-	dc.b	"malheur dans tout Algo !"
+	dc.b	"victoire de mes propres yeux..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$00
@@ -371,53 +389,65 @@
 	dc.b	$08
 	dc.b	"Une onde de choc va nous atteindre."
 	dc.b	$FC
-	dc.b	"Prenez garde !"
+	dc.b	"Accrochez-vous !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
 	dc.b	$F2, $00
 	dc.w	$010B
-	dc.b	"Lashiec..."
-	dc.b	$FD
-	dc.b	"Quand on y pense, son sort est bien"
+	dc.b	"Lashiec... pathétique. Soutenu par la"
 	dc.b	$FC
-	dc.b	"triste."
+	dc.b	"haine durant deux millénaires."
+	dc.b	$FD
+	dc.b	"Pendant ce temps, il n'a rien appris..."
+	dc.b	$FD
+	dc.b	"De ses erreurs, de la vengeance..."
+	dc.b	$FC
+	dc.b	"de tout."
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$010C
-	dc.b	"Il fut séduit par un grand pouvoir..."
+	dc.b	"Il a vendu son âme à un énorme pouvoir,"
 	dc.b	$FC
-	dc.b	"mais il est devenu un vulgaire pantin !"
+	dc.b	"devenant un vulgaire pantin, avec une"
+	dc.b	$FD
+	dc.b	"existance maudite et éternelle."
+	dc.b	$FC
+	dc.b	"Tout comme Zio."
+	dc.b	$FD
+	dc.b	"Quand tu fais un pacte avec le diable,"
+	dc.b	$FC
+	dc.b	"ça finit toujours pareil."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Un grand pouvoir ?"
-	dc.b	$FD
-	dc.b	"Qui était ce « Il » dont Lashiec parlait ?"
+	dc.b	"Qu'est-ce qui peut bien être à l'origine"
+	dc.b	$FC
+	dc.b	"de la résurrection de Lashiec ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Était-ce... Dark Force ?"
+	dc.b	"Non, pas possible..."
+	dc.b	$FD
+	dc.b	"Mais ça ne peut être que... Dark Force !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Nous ne l'avions pas détruite ?"
+	dc.b	"Mais Dark Force a été détruit..."
+	dc.b	$FC
+	dc.b	"N'est-ce pas ?"
 	dc.b	$FF
 
 ; $39
 	dc.b	$F4
 	dc.b	$1A
-	dc.b	"Bien ! C'est vraiment le Flambeau de"
+	dc.b	"Ah, c'est le Flambeau de l'Éclipse !"
 	dc.b	$FC
-	dc.b	"l'Éclipse !"
-	dc.b	$FD
-	dc.b	"Vous avez accompli tout un exploit en"
-	dc.b	$FC
-	dc.b	"le retrouvant !"
+	dc.b	"Les mots me manquent."
 	dc.b	$FD
 	dc.b	"Je n'ai pas de réserves à prêter le"
 	dc.b	$FC
-	dc.b	"Flambeau à des gens tels que vous."
+	dc.b	"Flambeau à des héros."
 	dc.b	$FD
 	dc.b	"Utilisez la flamme sacrée pour nous"
 	dc.b	$FC
@@ -433,15 +463,15 @@
 ; $3A
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Qu'est-ce que c'est que ça ?"
+	dc.b	"...Qu'est-ce que c'est que ça ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"C'est Dark Force ?!"
+	dc.b	"C'est...Dark Force ?!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"C'est elle, j'en suis sûr !"
+	dc.b	"Sans aucun doute !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
@@ -459,17 +489,17 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"C'est tel que Raja l'avait dit ! Voici ce qui"
+	dc.b	"Raja avait raison ! Voici ce qui cause"
 	dc.b	$FC
-	dc.b	"cause tous ces ravages sur Dezolis !"
+	dc.b	"tous ces ravages sur Dezolis !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
 	dc.b	"Pas seulement sur Dezolis."
 	dc.b	$FD
-	dc.b	"Elle fiche la pagaille dans tout le système"
+	dc.b	"Sa corruption a affecté tout le système"
 	dc.b	$FC
-	dc.b	"solaire d'Algo !"
+	dc.b	"solaire d'Algol !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
@@ -479,9 +509,11 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"C'est ce qu'on espérait !"
+	dc.b	"Ce n'est pas ce qu'on attendait, mais"
 	dc.b	$FC
-	dc.b	"Tout le monde, à l'assaut !"
+	dc.b	"cette fois, on est prêts !"
+	dc.b	$FD
+	dc.b	"Allons-y tous ensemble !"
 	dc.b	$FF
 
 ; $3B
@@ -491,17 +523,17 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Oui..."
+	dc.b	"Vous êtes impressionnants les gars !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"La tempête... elle s'estompe !"
+	dc.b	"Regardez ! La tempête... est finie !"
 	dc.b	$FD
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Regardez ! Le ciel !"
+	dc.b	"Regardez ! Le ciel ! Que c'est beau !"
 	dc.b	$F9
 	dc.b	$77
 
@@ -513,15 +545,17 @@
 	dc.w	$0111
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"C'est magnifique..."
+	dc.b	"Wow..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"L'Onde d'Énergie Noire s'est dissipée."
+	dc.b	"L'influence maléfique de l'Onde d'Énergie"
 	dc.b	$FC
-	dc.b	"Je parie que les malades de Meese se"
+	dc.b	"Noire a cessé."
 	dc.b	$FD
-	dc.b	"portent déjà mieux."
+	dc.b	"Je parie que les malades de Meese"
+	dc.b	$FC
+	dc.b	"commencent à récupérer."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
@@ -529,7 +563,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Bien."
+	dc.b	"On l'a fait ! On a sauvé tout le monde !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
@@ -537,41 +571,41 @@
 	dc.w	$0112
 	dc.b	"Merci beaucoup."
 	dc.b	$FD
-	dc.b	"C'est grâce à vous tous que nous avons"
+	dc.b	"C'est grâce à vous tous cela a été"
 	dc.b	$FC
-	dc.b	"accompi cela."
+	dc.b	"possible."
 	dc.b	$FD
-	dc.b	"J'ai été plutôt prétentieuse de croire"
+	dc.b	"J'ai été plutôt présomptueuse en "
 	dc.b	$FC
-	dc.b	"que je pouvais y arriver seule !"
+	dc.b	"pensant y arriver seule !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"C'est sans importance. Je suis heureuse"
+	dc.b	"Ça va aller Kyra ! Ça a fonctionné,"
 	dc.b	$FC
-	dc.b	"pour toi, Kyra !"
+	dc.b	"et on s'est fait une nouvelle amie !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"Bon ! Je dois retourner à Meese."
+	dc.b	"Bon ! Je devrais retourner à Meese."
 	dc.b	$FC
 	dc.b	"J'ai beaucoup de pain sur la planche !"
 	dc.b	$FD
-	dc.b	"Au revoir, Chaz. Tu es un vrai trésor,"
+	dc.b	"A plus, Chaz. Tu es vraiment adorable,"
 	dc.b	$FC
-	dc.b	"je te considère comme mon petit frère !"
+	dc.b	"comme un petit frère !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
 	dc.b	$F2, $00
 	dc.w	$0113
-	dc.b	"Hein ! Ne soit pas absurde !"
+	dc.b	"Bon sang, ce n'est pas ce que je voulais !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"Ha ha ha ! C'est pour ça que tu es si"
+	dc.b	"Ha ha ha ! C'est ça qui te rends si"
 	dc.b	$FC
-	dc.b	"attendrissant."
+	dc.b	"attachant."
 	dc.b	$FD
 	dc.b	"À bientôt, tout le monde !"
 	dc.b	$FC
@@ -587,7 +621,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Hein ? Euh, oui, bien sûr."
+	dc.b	"Hein ? oh, merci. Oui, peut-être bien."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
@@ -601,59 +635,63 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Elle m'a traitée de petit frère."
+	dc.b	"« Petit frère ». Regardez-moi,"
 	dc.b	$FC
-	dc.b	"Suis-je si peu fiable ?"
+	dc.b	"Je suis un sacré combattant maintenant !"
+	dc.b	$FD
+	dc.b	"N'est-ce pas ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Eh bien, tu t'es un peu amélioré,"
+	dc.b	"Je dirais que tu es quelque part entre"
 	dc.b	$FC
-	dc.b	"mais tu me ressemble encore beaucoup !"
+	dc.b	"ces deux extrèmes."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
 	dc.b	$F2, $00
 	dc.w	$0114
-	dc.b	"Bah, je ne suis pas à ta hauteur."
+	dc.b	"Bah, On ne peut pas être le légendaire"
 	dc.b	$FC
-	dc.b	"Tu es Lutz, après tout !"
+	dc.b	"grand sage immortel de tout le système"
+	dc.b	$FD
+	dc.b	"solaire."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
 	dc.b	$F2, $00
 	dc.w	$0115
-	dc.b	"Tu veux que je te botte le derrière"
-	dc.b	$FC
-	dc.b	"encore une fois !?"
+	dc.b	"Et ne l'oublies pas, petit tête ! Haha !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Vous n'en avez jamais assez, vous"
+	dc.b	"Contente que Hahn et Wren soient aussi"
 	dc.b	$FC
-	dc.b	"deux !?"
+	dc.b	"humbles que vous n'avez la grosse tête !"
 	dc.b	$FD
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Quoi ? C'est le Temple Gumbious !"
+	dc.b	"Qu'est-ce que c'est ?"
+	dc.b	$FD
+	dc.b	"C'est... le Temple Gumbious !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Comment est-ce possible ? Nous avons"
+	dc.b	"Qu'est-ce qui se passe ?"
 	dc.b	$FC
-	dc.b	"vaincu Dark Force !"
+	dc.b	"Nous avons vaincu Dark Force !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Allons voir !"
+	dc.b	"Pas le choix, allons voir !"
 	dc.b	$FF
 
 ; $3C
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Oh non !"
+	dc.b	"...! Il n'y a pas de flamme !"
 	dc.b	$FC
 	dc.b	"Ce flambeau est un faux !"
 	dc.b	$FF
@@ -662,23 +700,23 @@
 	dc.b	$F3
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"Ce sont les gredins qui ont volé le"
+	dc.b	"Ce sont ces démons flétris qui ont volé le"
 	dc.b	$FC
 	dc.b	"Flambeau de l'Éclipse !"
 	dc.b	$FD
-	dc.b	"Ils sont une illusion ?"
+	dc.b	"Ce sont des illusions ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Ce n'est pas simplement une illusion..."
+	dc.b	"Ce ne sont pas simplement des illusions..."
 	dc.b	$FC
-	dc.b	"Je perçois une barrière invisible !"
+	dc.b	"C'est une barrière invisible !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
 	dc.b	"Alors, il faudra trouver les vrais et les"
 	dc.b	$FC
-	dc.b	"détruire !"
+	dc.b	"vaincre !"
 	dc.b	$FF
 ;; Local Variables:
 ;; eval: (fci-mode)

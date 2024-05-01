@@ -61,17 +61,17 @@
 ; $14
 	dc.b	"Ici, c'est le village de Torinco."
 	dc.b	$FD
-	dc.b	"C'est un village agraire, renommé pour"
+	dc.b	"C'est un village agricole, réputé pour ses"
 	dc.b	$FC
-	dc.b	"ses champs en terrasse."
+	dc.b	"champs en terrasse."
 	dc.b	$FF
 
 ; $15
 	dc.b	$FA
 	dc.b	$AF, $01
-	dc.b	"Nos champs en terrasse sont la fierté"
+	dc.b	"Nos champs en terrasse sont la fierté du"
 	dc.b	$FC
-	dc.b	"du village."
+	dc.b	"village."
 	dc.b	$FD
 	dc.b	"Mais... Voyez comme ils sont maintenant"
 	dc.b	$FC
@@ -79,17 +79,17 @@
 	dc.b	$FD
 	dc.b	"Une nuée d'étranges oiseaux sont venus"
 	dc.b	$FC
-	dc.b	"du nord-est, et ils ont tout mangé !"
+	dc.b	"du nord-est, et les ont détruit !"
 	dc.b	$FF
 
 ; $16
 	dc.b	"Les champs en terrasse, qui sont la fier-"
 	dc.b	$FC
-	dc.b	"té du village, sont maintenant en ruine..."
+	dc.b	"té du village, sont en train de repousser."
 	dc.b	$FD
-	dc.b	"Au moins, ces oiseaux qui mangeaient tout"
+	dc.b	"Ces volatiles qui mangeaient tout ne"
 	dc.b	$FC
-	dc.b	"sont partis."
+	dc.b	"viennent plus !"
 	dc.b	$FF
 
 ; $17
@@ -97,7 +97,9 @@
 	dc.b	$FD
 	dc.b	"Je les utilisais pour visiter le continent,"
 	dc.b	$FC
-	dc.b	"mais de nos jours... Trop de monstres !"
+	dc.b	"mais il y a trop de monstres maintenant."
+	dc.b	$FD
+	dc.b	"J'aurai dû acquérir d'autres aptitudes."
 	dc.b	$FF
 
 ; $18
@@ -105,25 +107,25 @@
 	dc.b	$FC
 	dc.b	"épidémie de monstres..."
 	dc.b	$FD
-	dc.b	"Nous sommes coupés de tout sur l'île,"
+	dc.b	"Vous êtes sûrs que c'est vrai ?"
 	dc.b	$FC
-	dc.b	"nous ne comprenons pas ce qui se qui se"
+	dc.b	"Tout semble aller bien sur notre île !"
 	dc.b	$FD
-	dc.b	"passe ailleurs dans le monde."
+	dc.b	"Vous autres exagérez certainement."	
 	dc.b	$FF
 
 ; $19
-	dc.b	"Comment ? Vous venez du continent ?"
-	dc.b	$FD
-	dc.b	"Quelle surprise !"
+	dc.b	"Vous venez du continent ?"
+	dc.b	$FC
+	dc.b	"Pourquoi êtes vous venus ici ?"
 	dc.b	$FF
 
 ; $1A
 	dc.b	$FA
 	dc.b	$AF, $01
-	dc.b	"Le rude travail dans les champs me donne"
+	dc.b	"Le travail dans les champs me donne mal"
 	dc.b	$FC
-	dc.b	"mal au dos et abime mes mains."
+	dc.b	"au dos j'ai des ampoules aux mains."
 	dc.b	$FD
 	dc.b	"Mais voir les récoltes pousser, ça fait"
 	dc.b	$FC
@@ -131,13 +133,13 @@
 	dc.b	$FD
 	dc.b	"Mais de nos jours, ces oiseaux mangent"
 	dc.b	$FC
-	dc.b	"les récoltes... C'est affreux !"
+	dc.b	"les récoltes..."
 	dc.b	$FF
 
 ; $1B
-	dc.b	"Le rude travail dans les champs me donne"
+	dc.b	"Le travail dans les champs me donne mal"
 	dc.b	$FC
-	dc.b	"mal au dos et abime mes mains."
+	dc.b	"au dos j'ai des ampoules aux mains."
 	dc.b	$FD
 	dc.b	"Mais voir les récoltes pousser, ça fait"
 	dc.b	$FC
@@ -147,7 +149,7 @@
 ; $1C
 	dc.b	"C'est quoi, le « continent » ?"
 	dc.b	$FC
-	dc.b	"C'est vraiment si bien que ça ?"
+	dc.b	"Ma terre est tout ce dont j'ai besoin !"
 	dc.b	$FF
 
 ; $1D
@@ -157,27 +159,23 @@
 	dc.b	$FC
 	dc.b	"sa maladie."
 	dc.b	$FD
-	dc.b	"Pauvre enfant..."
+	dc.b	"Qu'est-ce qui peut bien lui arriver ?"
 	dc.b	$FF
 
 ; $1E
 	dc.b	"Le fils de nos voisin semble être guéri,"
 	dc.b	$FC
-	dc.b	"maintenant."
-	dc.b	$FD
-	dc.b	"Quelle joie !"
+	dc.b	"maintenant. Ça fait plaisir."
 	dc.b	$FF
 
 ; $1F
-	dc.b	"Qu'est-ce qui est à la mode, de nos jours,"
+	dc.b	"Quels fringues sont à la mode en ce"
 	dc.b	$FC
-	dc.b	"sur le contient ?"
+	dc.b	"moment sur le contient ?"
 	dc.b	$FD
-	dc.b	"Nous sommes tellement en décalage,"
+	dc.b	"On est à la traîne question mode,"
 	dc.b	$FC
-	dc.b	"isolés comme nous sommes, ici !"
-	dc.b	$FD
-	dc.b	"Allez, dites-nous en plus !"
+	dc.b	"isolés sur cette île. Dites nous !"
 	dc.b	$FF
 
 ; $20
@@ -187,33 +185,33 @@
 	dc.b	$AE, $01
 	dc.b	"L'homme qui vit dans cette maison est un"
 	dc.b	$FC
-	dc.b	"peu bizarre."
+	dc.b	"peu étrange."
 	dc.b	$FD
 	dc.b	"Il aime les oiseaux qui mangent nos"
 	dc.b	$FC
 	dc.b	"récoltes."
 	dc.b	$FD
-	dc.b	"À cause de cela, il est mis à l'écart par"
+	dc.b	"À cause de cela, il n'est pas bien vu des"
 	dc.b	$FC
-	dc.b	"les autres villageois."
+	dc.b	"autres villageois."
 	dc.b	$FF
 
 ; $21
-	dc.b	"Vous dite que l'homme qui habite dans"
+	dc.b	"Vous dites que l'homme qui habite dans"
 	dc.b	$FC
-	dc.b	"cette maison a retenu la guilde pour"
+	dc.b	"cette maison a contacté la guilde pour"
 	dc.b	$FD
 	dc.b	"exterminer les oiseaux mangeurs de"
 	dc.b	$FC
 	dc.b	"récoltes ?"
 	dc.b	$FD
-	dc.b	"Je trouve ça difficile à avaler !"
+	dc.b	"C'est très étrange..."
 	dc.b	$FD
 	dc.b	"Il tenait tant à ces étranges volatiles,"
 	dc.b	$FC
-	dc.b	"qu'il en était au point d'être renié"
+	dc.b	"qu'il en était au point d'être rejeté par"
 	dc.b	$FD
-	dc.b	"par les autres villageois !"
+	dc.b	"les autres villageois !"
 	dc.b	$FF
 
 ; $22
@@ -223,21 +221,21 @@
 	dc.b	$FD
 	dc.b	"J'ai entendu dire que c'est grâce à"
 	dc.b	$FC
-	dc.b	"l'homme qui habite ici."
+	dc.b	"l'homme qui habite ici, qui a contacté la"
 	dc.b	$FD
-	dc.b	"Il a retenu la guilde pour les exterminer."
+	dc.b	"guilde pour les exterminer."
 	dc.b	$FD
-	dc.b	"Je regrette que nous l'ayons renié tout"
+	dc.b	"Je regrette que nous l'ayons rejeté tout"
 	dc.b	$FC
 	dc.b	"ce temps !"
 	dc.b	$FF
 
 ; $23
-	dc.b	"Notre village avait autrefois des récol-"
+	dc.b	"Notre village avait autrefois des "
 	dc.b	$FC
-	dc.b	"tes abondantes de cultures et de fruits"
+	dc.b	"récoltes abondantes de cultures et de"
 	dc.b	$FD
-	dc.b	"de mer. Nous étions fiers d'être presque"
+	dc.b	"fruits de mer. Nous étions fiers d'être"
 	dc.b	$FC
 	dc.b	"auto-suffisants pour nous nourrir !"
 	dc.b	$FD
@@ -247,9 +245,7 @@
 	dc.b	$FD
 	dc.b	"sont dévorées par les oiseaux."
 	dc.b	$FD
-	dc.b	"On arrive à peine à se nourrir."
-	dc.b	$FC
-	dc.b	"Snif, snif..."
+	dc.b	"On arrive à peine à se nourrir..."
 	dc.b	$FF
 
 ; $24
@@ -265,7 +261,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Mmm..."
+	dc.b	"Je me demande si on peut les aider..."
 	dc.b	$FF
 
 ; $25
@@ -282,9 +278,9 @@
 ; $27
 	dc.b	$F4
 	dc.b	$27
-	dc.b	"Vous tous... Je vous présente mes excu-"
+	dc.b	"Vous tous... Pardonnez-moi !"
 	dc.b	$FC
-	dc.b	"ses pour avoir tenté de vous tromper."
+	dc.b	"Je suis désolé pour ce que j'ai fait !"
 	dc.b	$FF
 
 ; $28
@@ -298,15 +294,17 @@
 	dc.b	$A9, $02
 	dc.b	$FA
 	dc.b	$A8, $01
-	dc.b	"Mon fils est tombé malade... Il est con-"
+	dc.b	"Mon fils est tombé malade... Il est"
 	dc.b	$FC
-	dc.b	"vaincu qu'il ne peut pas guérir."
+	dc.b	"convaincu qu'il ne peut pas guérir."
 	dc.b	$FD
-	dc.b	"En fait, physiquement, il est guéri. Ce"
+	dc.b	"En fait, physiquement, il va bien. Ce doit"
 	dc.b	$FC
-	dc.b	"doit être une de ces supposées maladies"
+	dc.b	"être une de ces supposées maladies"
 	dc.b	$FD
 	dc.b	"psycho-somatiques."
+	dc.b	$FD
+	dc.b	"Mais comment trouver le déclic ?"
 	dc.b	$FF
 
 ; $29
@@ -315,15 +313,13 @@
 	dc.b	$FF
 
 ; $2A
-	dc.b	"Je vous demande ceci en sachant"
+	dc.b	"Je sais que ça semble fou, de demander"
 	dc.b	$FC
-	dc.b	"pertinemment comment c'est insolent"
+	dc.b	"ça à un chasseur..."
 	dc.b	$FD
-	dc.b	"de vous le demander !"
-	dc.b	$FD
-	dc.b	"S'il-vous-plaît, achetez un souvenir de"
+	dc.b	"Mais s'il-vous-plaît, achetez un souvenir"
 	dc.b	$FC
-	dc.b	"Termi pour mon fils !"
+	dc.b	"de Paseo pour sauver mon fils !"
 	dc.b	$FF
 
 ; $2B
@@ -332,9 +328,11 @@
 	dc.b	$FF
 
 ; $2C
-	dc.b	"Merci de tout coeur."
+	dc.b	"Vous avez sauvé mon fils ! Merci !"
+	dc.b	$FD
+	dc.b	"Je verserai votre cachet à la guilde avec"
 	dc.b	$FC
-	dc.b	"Je verserai votre cachet à la guilde !"
+	dc.b	"plaisir !"
 	dc.b	$FF
 
 ; $2D
@@ -352,13 +350,13 @@
 	dc.b	$A8, $01
 	dc.b	"Autrefois, quand il y avait moins de"
 	dc.b	$FC
-	dc.b	"monstres, notre famille visitait une"
+	dc.b	"monstres, notre famille visitait une ville"
 	dc.b	$FD
-	dc.b	"ville touristique sur le continent..."
+	dc.b	"touristique sur le continent..."
 	dc.b	$FD
-	dc.b	"Mon fils aimait beaucoup l'endroit et"
+	dc.b	"Mon fils aimait beaucoup l'histoire de"
 	dc.b	$FC
-	dc.b	"il était heureux."
+	dc.b	"l'héroïne et jouait à l'aventure."
 	dc.b	$FD
 	dc.b	"Je souhaiterais qu'il retrouve la santé"
 	dc.b	$FC
@@ -368,33 +366,33 @@
 ; $2F
 	dc.b	"Notre famille visitait autrefois le"
 	dc.b	$FC
-	dc.b	"village de Termi... Mon fils aimait"
+	dc.b	"village de Paseo... Mon fils aimait"
 	dc.b	$FD
-	dc.b	"beaucoup cet endroit."
+	dc.b	"beaucoup l'héroïne et ses amis."
 	dc.b	$FD
-	dc.b	"Il appréciait surtout la statue de"
+	dc.b	"Il disait que même si c'était une femme,"
 	dc.b	$FC
-	dc.b	"l'héroïne, en haut de la colline."
+	dc.b	"elle était forte et brave, et il voulait"
 	dc.b	$FD
-	dc.b	"Il disait, « même si elle est une femme,"
+	dc.b	"devenir comme elle et défendre les autres"
 	dc.b	$FC
-	dc.b	"elle a l'air sympa », et il voulait devenir"
+	dc.b	"un jour."
 	dc.b	$FD
-	dc.b	"fort et vaincre les méchants, lui aussi."
-	dc.b	$FD
-	dc.b	"Et maintenant, voyez..."
+	dc.b	"Mais maintenant le voir simplement se"
+	dc.b	$FC
+	dc.b	"tenir debout serait une bénédiction..."
 	dc.b	$FF
 
 ; $30
-	dc.b	"Dieu merci !"
+	dc.b	"C'est un miracle !"
 	dc.b	$FC
-	dc.b	"Mon fils est guéri !"
+	dc.b	"Mon fils est de nouveau lui-même !"
 	dc.b	$FF
 
 ; $31
-	dc.b	"Merci de votre aide."
+	dc.b	"J'étais si inquiète !"
 	dc.b	$FC
-	dc.b	"Mon fils s'est bien rétabli !"
+	dc.b	"Grâce à vous, mon fils est sauvé !"
 	dc.b	$FF
 
 ; $32
@@ -405,50 +403,66 @@
 ; $33
 	dc.b	$F4
 	dc.b	$26
-	dc.b	"Wow ! Regardez-moi ça !"
+	dc.b	"Wow ! Regardez ça !"
 	dc.b	$FC
-	dc.b	"C'est l'Épée-Alis !"
+	dc.b	"C'est l'épée d'Alisa !"
 	dc.b	$FD
-	dc.b	"Cette héroïne... je l'ai vue à Termi !"
+	dc.b	"L'héroïne de Paseo !"
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Prêt ? Regarde bien."
+	dc.b	"C'est comme ça qu'elle a porté me coup"
+	dc.b	$FC
+	dc.b	"de grâce au roi démoniaque !"
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$26
-	dc.b	"Génial !"
+	dc.b	"Wow ! Sans blague ! Vraiment ??"
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Cette épée est emplie de la force et du"
+	dc.b	"De nombreuses fois Alisa s'est sentie"
 	dc.b	$FC
-	dc.b	"courage de l'héroïne, Alis !"
+	dc.b	"triste et a voulu abandonner. Mais !"
 	dc.b	$FD
-	dc.b	"Tiens. Elle est à toi."
+	dc.b	"Elle s'est accrochée, et elle a gagné !"
 	dc.b	$FC
-	dc.b	"Maintenant, guéris vite !"
+	dc.b	"Prends son épée, c'est pour toi !"
+	dc.b	$FD
+	dc.b	"Elle contient sa force d'esprit !"
+	dc.b	$FC
+	dc.b	"Tu peux aller mieux, pour Alisa ?"
 	dc.b	$FD
 	dc.b	$F2, $03
 	dc.b	$9E
 	dc.b	$F4
 	dc.b	$26
-	dc.b	"Oui ! Merci ! J'ai déjà l'impression de"
+	dc.b	"Oui ! Je veux être comme elle !"
 	dc.b	$FC
-	dc.b	"me sentir mieux !"
+	dc.b	"Je ne peux pas abandonner non plus !"
+	dc.b	$FD
+	dc.b	"Merci monsieur !"
+	dc.b	$FD
+	dc.b	"J'arrive pas à croire que vous avez"
+	dc.b	$FC
+	dc.b	"trouvé la vraie épée d'Alisa !"
+	dc.b	$FD
+	dc.b	"Attendez que je la montre aux copains !"
 	dc.b	$FF
 
 ; $34
-	dc.b	"J'aime bien Alis, l'héroïne, mais toi aussi,"
+	dc.b	"Vous étiez impressionnants avec vos"
 	dc.b	$FC
-	dc.b	"t'avais l'air cool, comme un vrai héros,"
+	dc.b	"techniques cool à l'épée !"
 	dc.b	$FD
-	dc.b	"quand tu maniais l'épée !"
+	dc.b	"Vous et Alisa êtes mes héros !"
 	dc.b	$FC
-	dc.b	"Je veux devenir fort, comme toi !"
+	dc.b	"Je veux en apprendre plus, moi aussi !"
+	dc.b	$FD
+	dc.b	"Vous pouvez rester et m'apprendre ?"
 	dc.b	$FF
 
 ; $35
@@ -464,7 +478,9 @@
 	dc.b	$FF
 
 ; $39
-	dc.b	"Vous êtes les chasseurs de la guilde ?"
+	dc.b	"Vous êtes les chasseurs que nous avons"
+	dc.b	$FC
+	dc.b	"contacté ? Merci d'être venus !"
 	dc.b	$FD
 	dc.b	"Je m'appelle Culvers."
 	dc.b	$FD
@@ -480,9 +496,13 @@
 	dc.b	$FC
 	dc.b	"psycho-somatiques."
 	dc.b	$FD
-	dc.b	"À l'époque où il y avait moins de mons-"
+	dc.b	"À l'époque où il y avait moins de "
 	dc.b	$FC
-	dc.b	"tres, notre famille visitait Termi."
+	dc.b	"monstres, notre famille visitait Paseo."
+	dc.b	$FD
+	dc.b	"Mon fils adorait l'histoire de l'héroïne et"
+	dc.b	$FC
+	dc.b	"jouait à l'aventure."
 	dc.b	$FD
 	dc.b	"Si seulement nous pouvions l'y amener..."
 	dc.b	$FC
@@ -490,25 +510,23 @@
 	dc.b	$FD
 	dc.b	"Si nous pouvions lui montrer un souvenir"
 	dc.b	$FC
-	dc.b	"de Termi, peut-être sa force reviendra."
+	dc.b	"de Paseo, ça pourrait faire un déclic."
 	dc.b	$FD
-	dc.b	"Je vous en prie, pourriez-vous ramener"
+	dc.b	"Qu'es-ce que vous en pensez ?"
 	dc.b	$FC
-	dc.b	"quelque chose du magasin de souvenirs"
-	dc.b	$FD
-	dc.b	"de Termi ?"
+	dc.b	"Pouvez-vous sauver mon fils ?"
 	dc.b	$FF
 
 ; $3A
 	dc.b	"C'est un miracle ! Mon fils est guéri !"
 	dc.b	$FD
-	dc.b	"C'est grâce à vous ! Vous êtes aussi un"
+	dc.b	"C'est grâce à vous ! Vous êtes son"
 	dc.b	$FC
-	dc.b	"véritable héros !"
+	dc.b	"deuxième héros !"
 	dc.b	$FD
 	dc.b	"Merci de tout coeur. Je laisserai votre"
 	dc.b	$FC
-	dc.b	"cachet à la guilde."
+	dc.b	"récompense à la guilde."
 	dc.b	$FF
 
 ; $3B
@@ -516,9 +534,9 @@
 	dc.b	$26
 	dc.b	"Ohhhh..."
 	dc.b	$FD
-	dc.b	"Je vais mourir. Il me reste pas beaucoup"
+	dc.b	"Je suis foutu. Je ne peux pas tenir plus"
 	dc.b	$FC
-	dc.b	"de temps à vivre..."
+	dc.b	"longtemps..."
 	dc.b	$FF
 
 ; $3C
@@ -532,17 +550,17 @@
 	dc.b	$FC
 	dc.b	"d'oiseaux qui dévorent nos récoltes,"
 	dc.b	$FD
-	dc.b	"n'est-ce pas ? Eh bien, je sais où le grand"
+	dc.b	"n'est-ce pas ? Eh bien, je sais vous"
 	dc.b	$FC
-	dc.b	"chef des oiseaux se cache."
+	dc.b	"pouvez trouver le chef de meute."
 	dc.b	$FD
-	dc.b	"Alors, je vous demande de l'exterminer."
+	dc.b	"Pouvez-vous...euh...le déloger ?"
 	dc.b	$FD
 	dc.b	"Vous le trouverez dans une caverne, qui"
 	dc.b	$FC
 	dc.b	"se trouve au nord-est d'ici."
 	dc.b	$FD
-	dc.b	"Je vous en prie, tuez-le !"
+	dc.b	"Je vous en prie, occupez vous de lui !"
 	dc.b	$FC
 	dc.b	"Sauvez nos récoltes !"
 	dc.b	$FF
@@ -555,7 +573,15 @@
 ; $3E
 	dc.b	$F4
 	dc.b	$26
-	dc.b	"Je crois que ma force revient !"
+	dc.b	"Je me sens un peu mieux ! J'y arriverai"
+	dc.b	$FC
+	dc.b	"grâce à Alisa !"
+	dc.b	$FD	
+	dc.b	$F4
+	dc.b	$01
+	dc.b	"Shhh... Il faut rendre à César ce qui"
+	dc.b	$FC
+	dc.b	"appartient à César, petit !"	
 	dc.b	$FF
 ;; Local Variables:
 ;; eval: (fci-mode)

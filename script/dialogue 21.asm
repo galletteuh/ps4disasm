@@ -1,7 +1,9 @@
 ; 0
-	dc.b	"Qui ose pénétrer ici ! Les gens douteux"
+	dc.b	"Qui ose pénétrer ici ? Vous n'êtes"
 	dc.b	$FC
-	dc.b	"ne sont pas permis d'entrer !"
+	dc.b	"clairement pas des nôtres."
+	dc.b	$FD
+	dc.b	"Entrée non autorisée !"
 	dc.b	$FF
 
 ; $1
@@ -20,6 +22,26 @@
 	dc.b	"Ce manoir est coupé du reste de Dezolis"
 	dc.b	$FC
 	dc.b	"par ce mur de glace."
+	dc.b	$FD
+	dc.b	"Mais de toute façon on préfère que ce"
+	dc.b	$FC
+	dc.b	"soit comme ça."
+	dc.b	$FD
+	dc.b	"La magie est un sous-produit de notre"
+	dc.b	$FC
+	dc.b	"mode de vie sacré. Elle soutient Algol."
+	dc.b	$FD
+	dc.b	"Il y a longtemps, on pensait que la magie"
+	dc.b	$FC
+	dc.b	"était un don des dieux."	
+	dc.b	$FD
+	dc.b	"Certains nous recherchent pour"
+	dc.b	$FC
+	dc.b	"apprendre la magie."
+	dc.b	$FD
+	dc.b	"Nous bannissons tous ceux qui"
+	dc.b	$FC
+	dc.b	"recherchent le pouvoir."
 	dc.b	$FF
 
 ; $4
@@ -33,23 +55,25 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"Merci. C'est grâce à ces gens."
+	dc.b	"Merci. C'est grâce à mes nouveaux"
+	dc.b	$FC
+	dc.b	"amis !"
 	dc.b	$FF
 
 ; $5
-	dc.b	"Quand Kyra est vexée, elle agit sans"
+	dc.b	"Quand Kyra est contrariée, elle agit"
 	dc.b	$FC
-	dc.b	"trop penser !"
+	dc.b	"sans réfléchir !"
 	dc.b	$FF
 
 ; $6
-	dc.b	"Quand Kyra est vexée, elle agit sans"
+	dc.b	"Quand Kyra est contrariée, elle agit"
 	dc.b	$FC
-	dc.b	"trop penser !"
+	dc.b	"sans réfléchir !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"Ah, j'en suis désolée !"
+	dc.b	"Et bien, je suis une femme d'action !"
 	dc.b	$FF
 
 ; $7
@@ -61,49 +85,55 @@
 	dc.b	$FC
 	dc.b	"téméraire !"
 	dc.b	$FD
-	dc.b	"Ce n'est pas parce que vous avez pu"
+	dc.b	"Vous avez échappé à la mort une fois,"
 	dc.b	$FC
-	dc.b	"revenir en un seul morceau..."
+	dc.b	"mais ne jouez pas encore avec elle !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"Je serai plus prudente à l'avenir."
+	dc.b	"Oh, tout s'est bien terminé !"
+	dc.b	$FC
+	dc.b	"...Mais je ferai plus attention."
 	dc.b	$FF
 
 ; $8
-	dc.b	"Kyra est, à la base, une bonne fille,"
+	dc.b	"Kyra suit habituellement les ordres,"
 	dc.b	$FC
-	dc.b	"mais quand elle a une chose en tête,"
+	dc.b	"mais, quand elle a une chose en tête,"
 	dc.b	$FD
 	dc.b	"elle est incapable de lâcher le morceau."
 	dc.b	$FF
 
 ; $9
-	dc.b	"Kyra est, à la base, une bonne fille,"
+	dc.b	"Kyra suit habituellement les ordres,"
 	dc.b	$FC
-	dc.b	"mais quand elle a une chose en tête,"
+	dc.b	"mais, quand elle a une chose en tête,"
 	dc.b	$FD
 	dc.b	"elle est incapable de lâcher le morceau."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Ouais, on casse pas mal de sucre sur"
+	dc.b	"Et bien, tu t'es faite une vraie"
 	dc.b	$FC
-	dc.b	"toi..."
+	dc.b	"réputation ici."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
 	dc.b	"Je ne leur en veux pas de dire de telles"
 	dc.b	$FC
 	dc.b	"choses. C'est la vérité, après tout."
+	dc.b	$FD
+	dc.b	"Ils sont simplement contrariés par cette"
+	dc.b	$FC
+	dc.b	"situation et j'en suis heureuse !"
 	dc.b	$FF
 
 ; $A
 	dc.b	$FA
 	dc.b	$A1, $01
-	dc.b	"Kyra, que ce passe-t-il dans la ville de"
+	dc.b	"Kyra, comment ça se passe dans la ville"
 	dc.b	$FC
-	dc.b	"Meese ?"
+	dc.b	"de Meese ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
@@ -111,7 +141,7 @@
 	dc.b	$FC
 	dc.b	"mieux..."
 	dc.b	$FD
-	dc.b	"Mais au final, ça n'arrangera rien."
+	dc.b	"Mais au final, ça ne résoudra rien."
 	dc.b	$FF
 
 ; $B
@@ -119,27 +149,31 @@
 	dc.b	$FC
 	dc.b	"glace est toujours là..."
 	dc.b	$FD
-	dc.b	"Les choses prendront un temps avant"
+	dc.b	"Ça prendra du temps pour que les choses"
 	dc.b	$FC
-	dc.b	"de revenir à la normale."
+	dc.b	"reviennent à la normale."
 	dc.b	$FF
 
 ; $C
 	dc.b	$FA
 	dc.b	$A1, $01
-	dc.b	"J'ai entendu des rumeurs à propos de"
+	dc.b	"Après avoir entendu parler de Reshel"
 	dc.b	$FC
-	dc.b	"Reshel et Meese, donc j'y ai envoyé mes"
+	dc.b	"et Meese, j'y ai envoyé mes camarades"
 	dc.b	$FD
-	dc.b	"amis, mais..."
+	dc.b	"pour les aider."
 	dc.b	$FD
-	dc.b	"Je n'ai aucune idée de ce qui se passe"
+	dc.b	"Je ne sais pas comment il s'en sortent"
 	dc.b	$FC
 	dc.b	"là-bas à cause du mur de glace."
 	dc.b	$FD
-	dc.b	"Hé ! Kyra ! Vous avez réussi à revenir"
+	dc.b	"Je ne sais même pas si ils sont bien"
 	dc.b	$FC
-	dc.b	"au bercail !"
+	dc.b	"arrivés..."
+	dc.b	$FD
+	dc.b	"Oh ! C'est Kyra, nous sommes bénis !"
+	dc.b	$FC
+	dc.b	"Loué soit le sage, vous avez réussi !"
 	dc.b	$FF
 
 ; $D
@@ -171,17 +205,13 @@
 	dc.b	$FC
 	dc.b	"diminuer, une énorme explosion a"
 	dc.b	$FD
-	dc.b	"retenti... qu'est-ce que c'était ?"
+	dc.b	"retentit... qu'est-ce que c'était ?"
 	dc.b	$FF
 
 ; $11
-	dc.b	"Les Espers sont des humains malgré"
+	dc.b	"Les Espers sont des humains malgré tout."
 	dc.b	$FC
-	dc.b	"tout."
-	dc.b	$FD
-	dc.b	"Et ils doivent dormir, sous peine de"
-	dc.b	$FC
-	dc.b	"périr !"
+	dc.b	"Et s'ils ne dorment pas, ils vont mourir !"
 	dc.b	$FF
 
 ; $12
@@ -189,37 +219,39 @@
 	dc.b	$A1, $02
 	dc.b	$FA
 	dc.b	$97, $01
-	dc.b	"Oooh... J'ai peur ! J'ai très peur de l'onde"
+	dc.b	"J'ai très peur de ce que l'onde d'Énergie"
 	dc.b	$FC
-	dc.b	"d'Énergie Noire !"
+	dc.b	"Noire va nous faire !"
 	dc.b	$FD
-	dc.b	"Si Lutz est vraiment vivant, pourquoi ne"
+	dc.b	"Si Lutz est avec nous, pourquoi"
 	dc.b	$FC
-	dc.b	"se montre-t-il pas dans de tels moments ?"
+	dc.b	"n'apparaît-il pas pour nous sauver ?"
 	dc.b	$FF
 
 ; $13
-	dc.b	"Oooh... J'ai peur ! J'ai très peur de l'onde"
+	dc.b	"J'ai très peur de ce que l'onde d'Énergie"
 	dc.b	$FC
-	dc.b	"d'Énergie Noire !"
+	dc.b	"Noire va nous faire !"
 	dc.b	$FD
-	dc.b	"Si Lutz est vraiment vivant, pourquoi ne"
+	dc.b	"Si Lutz est avec nous, pourquoi"
 	dc.b	$FC
-	dc.b	"se montre-t-il pas dans de tels moments ?"
+	dc.b	"n'apparaît-il pas pour nous sauver ?"
 	dc.b	$FD
 	dc.b	$F4
-	dc.b	$0A
-	dc.b	"Il est là, n'est-ce pas."
+	dc.b	$01
+	dc.b	"Hé, peut-être qu'il est déjà sur le coup...!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Chut !"
+	dc.b	"Silence, petit tête ! Révéler Lutz va"
+	dc.b	$FC
+	dc.b	"juste nous ralentir !"
 	dc.b	$FF
 
 ; $14
-	dc.b	"Je comprends. Même si l'onde d'Énergie"
+	dc.b	"On peut seulement affaiblir l'onde"
 	dc.b	$FC
-	dc.b	"Noire faiblit, elle ne disparaîtera pas !"
+	dc.b	"d'Énergie Noire, mais pas la détruire..."
 	dc.b	$FF
 
 ; $15
@@ -227,19 +259,25 @@
 	dc.b	$9D, $02
 	dc.b	$FA
 	dc.b	$97, $01
-	dc.b	"Le sanctuaire intérieur est passé cette"
+	dc.b	"Le sanctuaire intérieur est derrière"
 	dc.b	$FC
-	dc.b	"porte, mais les gardes royaux le"
+	dc.b	"cette porte, mais les gardes royaux"
 	dc.b	$FD
-	dc.b	"protègent et ne laissent passer"
+	dc.b	"ne laissent passer personne."
+	dc.b	$FD
+	dc.b	"Les rites de succession ont suscité"
 	dc.b	$FC
-	dc.b	"personne."
+	dc.b	"une certaine rivalité entre nos élites."
+	dc.b	$FD
+	dc.b	"Mais le sanctuaire est calme depuis des"
+	dc.b	$FC
+	dc.b	"années..."
 	dc.b	$FF
 
 ; $16
 	dc.b	"Vous avez pu entrer dans le sanctuaire ?"
 	dc.b	$FC
-	dc.b	"Qui diable êtes-vous ?"
+	dc.b	"Mais qui êtes-vous donc ?"
 	dc.b	$FF
 
 ; $17
@@ -248,14 +286,18 @@
 	dc.b	"quelque chose va se produire..."
 	dc.b	$FD
 	dc.b	"Je le sens..."
-	dc.b	$FC
-	dc.b	"Mon coeur palpite très fort !"
 	dc.b	$FF
 
 ; $18
 	dc.b	"Ici, c'est la salle d'entraînement pour"
 	dc.b	$FC
 	dc.b	"renforcer nos corps et nos âmes."
+	dc.b	$FD
+	dc.b	"Nous vivons de manière stricte et simple."
+	dc.b	$FD
+	dc.b	"Tous ceux qui étudient avec nous doivent"
+	dc.b	$FC
+	dc.b	"y adhérer."
 	dc.b	$FF
 
 ; $19
@@ -263,39 +305,43 @@
 	dc.b	$A1, $02
 	dc.b	$FA
 	dc.b	$97, $01
-	dc.b	"Nous tentons de nous rapprocher du"
+	dc.b	"Nous méditons pour nous aider à devenir"
 	dc.b	$FC
-	dc.b	"niveau du vénéré Lutz avec un esprit"
+	dc.b	"comme le vénéré, Lutz."
 	dc.b	$FD
-	dc.b	"limpide et un corps d'acier."
+	dc.b	"Nous aspirons à un esprit clair et un"
+	dc.b	$FC
+	dc.b	"corps discipliné."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"Quelle bonne attitude ! Lutz est notre"
+	dc.b	"Vous tous, c'est notre but."
 	dc.b	$FC
-	dc.b	"modèle à tous !"
+	dc.b	"Apporter la lumière de Lutz à Algol."
 	dc.b	$FF
 
 ; $1A
-	dc.b	"Nous tentons de nous rapprocher du"
+	dc.b	"Nous méditons pour nous aider à devenir"
 	dc.b	$FC
-	dc.b	"niveau du vénéré Lutz avec un esprit"
+	dc.b	"comme le vénéré, Lutz."
 	dc.b	$FD
-	dc.b	"limpide et un corps d'acier."
-	dc.b	$FD
-	dc.b	$F4
-	dc.b	$0A
-	dc.b	"... c'est ce qu'ils pensent !"
+	dc.b	"Nous aspirons à un esprit clair et un"
+	dc.b	$FC
+	dc.b	"corps discipliné."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Que veux-tu dire au juste ?"
+	dc.b	"Lutz n'était pas une tête brûlée comme"
+	dc.b	$FC
+	dc.b	"moi."
+	dc.b	$FD
+	dc.b	"J'ai du mal à faire preuve de vigilance..."
 	dc.b	$FF
 
 ; $1B
 	dc.b	"Je dois forger mon esprit pour pouvoir"
 	dc.b	$FC
-	dc.b	"sauver Algo !"
+	dc.b	"enrichir Algol !"
 	dc.b	$FF
 
 ; $1C
@@ -325,19 +371,19 @@
 ; $1F
 	dc.b	$FA
 	dc.b	$D9, $01
-	dc.b	"Vous savez quoi !?"
+	dc.b	"Vous avez entendu !?"
 	dc.b	$FD
 	dc.b	"Il y a une rumeur à propos d'une épée"
 	dc.b	$FC
-	dc.b	"légendaire qui s'est transmise de"
+	dc.b	"sacrée qui existe dans Algol depuis"
 	dc.b	$FD
-	dc.b	"génération en génération depuis des"
-	dc.b	$FC
-	dc.b	"siècles !"
+	dc.b	"les temps anciens !"
 	dc.b	$FD
-	dc.b	"Il paraîtrait qu'elle peut décupler la"
+	dc.b	"On dit qu'elle confère des pouvoirs qui"
 	dc.b	$FC
-	dc.b	"puissance de son détenteur !"
+	dc.b	"correspondent aux besoins du porteur"
+	dc.b	$FD
+	dc.b	"et qui les démultiplie."
 	dc.b	$FF
 
 ; $20
@@ -349,27 +395,25 @@
 ; $21
 	dc.b	$FA
 	dc.b	$D9, $01
-	dc.b	"Vous savez quoi !?"
+	dc.b	"Vous avez entendu !?"
 	dc.b	$FD
 	dc.b	"Il y a une rumeur à propos d'une épée"
 	dc.b	$FC
-	dc.b	"légendaire qui s'est transmise de"
+	dc.b	"sacrée qui a protégé Algol depuis"
 	dc.b	$FD
-	dc.b	"génération en génération depuis des"
-	dc.b	$FC
-	dc.b	"siècles !"
+	dc.b	"les temps anciens !"
 	dc.b	$FD
-	dc.b	"Il paraîtrait qu'elle est"
+	dc.b	"on dit qu'elle est quelque part sur"
 	dc.b	$FC
-	dc.b	"quelque part sur Dezolis !"
+	dc.b	"Dezolis !"
 	dc.b	$FF
 
 ; $22
 	dc.b	"Ainsi, ceci est l'épée sacrée de la"
 	dc.b	$FC
-	dc.b	"rumeur ! Incroyable qu'elle se trouve"
+	dc.b	"rumeur ! Elle se trouvait vraiment"
 	dc.b	$FD
-	dc.b	"sous mes yeux..."
+	dc.b	"ici dans ces murs..."
 	dc.b	$FF
 
 ; $23

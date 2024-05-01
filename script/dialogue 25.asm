@@ -2,30 +2,38 @@
 	dc.b	"Ici, c'est le village d'Uzo, sur la planète"
 	dc.b	$FC
 	dc.b	"Motavia."
+	dc.b	$FD
+	dc.b	"...J'ai l'impression que ça fait un siècle"	
+	dc.b	$FC
+	dc.b	"que j'ai dit ça à un visiteur."	
 	dc.b	$FF
 
 ; $1
-	dc.b	"Notre île est totalement isolée."
+	dc.b	"Notre île est totalement déserte."
 	dc.b	$FD
 	dc.b	"Jusqu'à récemment, nous avions de petits"
 	dc.b	$FC
 	dc.b	"bateaux pour rejoindre le continent..."
 	dc.b	$FD
-	dc.b	"Mais je n'oserais plus m'y aventurer, à"
+	dc.b	"Mais avec tous ces monstres qui sont"
 	dc.b	$FC
-	dc.b	"cause de ces monstres étranges."
+	dc.b	"apparus d'un coup, pas moyen que j'y"
+	dc.b	$FD
+	dc.b	"retourne !"
 	dc.b	$FF
 
 ; $2
-	dc.b	"Ah, comme je voudrais voir le continent,"
+	dc.b	"Juste une fois, j'aimerai voir le"
 	dc.b	$FC
-	dc.b	"au moins une fois !"
+	dc.b	"continent !"
 	dc.b	$FD
 	dc.b	"J'ai entendu parler de l'Académie Motavia"
 	dc.b	$FC
 	dc.b	"avec tous ces étudiants cultivé, et aussi"
 	dc.b	$FD
-	dc.b	"d'un marché, où tout se vend !"
+	dc.b	"d'un grand centre commercial qui vend"
+	dc.b	$FC
+	dc.b	"de tout !"
 	dc.b	$FF
 
 ; $3
@@ -38,28 +46,32 @@
 	dc.b	"ne poussent plus."
 	dc.b	$FD
 	dc.b	"Et puis il y a tous ces monstres..."
+	dc.b	$FD
+	dc.b	"Il y a des jours où j'aimerais pouvoir"
 	dc.b	$FC
-	dc.b	"Notre monde est devenu lamentable."
+	dc.b	"monter dans un vaisseau spatial et ne"
+	dc.b	$FD
+	dc.b	"jamais revenir."
 	dc.b	$FF
 
 ; $4
 	dc.b	"Qui êtes vous, vous autres ?"
 	dc.b	$FD
-	dc.b	"Vous avez de drôles d'idées de venir dans"
+	dc.b	"Vous avez des goûts étranges pour venir"
 	dc.b	$FC
-	dc.b	"un village où il n'y a rien à voir, rien à"
+	dc.b	"dans un village où il n'y a rien à voir,"
 	dc.b	$FD
-	dc.b	"manger, et rien à pêcher !"
+	dc.b	"rien de bon à manger, et rien à faire !"
 	dc.b	$FF
 
 ; $5
 	dc.b	"Il y a un moment que je n'ai pas vu les"
 	dc.b	$FC
-	dc.b	"deux filles du chef du village."
+	dc.b	"deux filles du maire du village."
 	dc.b	$FD
-	dc.b	"Je me demande ce qui a bien pu leur"
+	dc.b	"Je me demande quelles aventures elles"
 	dc.b	$FC
-	dc.b	"arriver ?"
+	dc.b	"ont en dehors de cette île ?"
 	dc.b	$FF
 
 ; $6
@@ -77,9 +89,13 @@
 	dc.b	$FC
 	dc.b	"depuis plusieurs générations."
 	dc.b	$FD
-	dc.b	"L'un de nos ancêtres adorait jouer la"
+	dc.b	"L'un de nos ancêtres a inventé la flûte"
 	dc.b	$FC
-	dc.b	"flûte."
+	dc.b	"apaisante, le créateur du tube de fuite !"
+	dc.b	$FD
+	dc.b	"En plus, la flute calmait les monstres..."
+	dc.b	$FC
+	dc.b	"J'aimerai en avoir une aujourd'hui !"
 	dc.b	$FF
 
 ; $8
@@ -87,29 +103,31 @@
 	dc.b	$7D, $03
 	dc.b	$FA
 	dc.b	$78, $01
-	dc.b	"Quelle importance !"
-	dc.b	$FD
-	dc.b	"Ces deux filles insoumises ne sont plus"
+	dc.b	"Bon débarras !"
 	dc.b	$FC
-	dc.b	"mes filles !"
+	dc.b	"Ces deux filles sont des ingrates !"
+	dc.b	$FD
+	dc.b	"Je n'ai plus de fille à présent !"
 	dc.b	$FF
 
 ; $9
-	dc.b	"Je ne suis pas au courant !"
+	dc.b	"Vous êtes chasseurs ? ...Alors quoi ?"
 	dc.b	$FD
-	dc.b	"Je n'ai pas retenu quiconque de la Guilde"
+	dc.b	"Je n'ai contacté personne de la Guilde"
 	dc.b	$FC
 	dc.b	"des Chasseurs pour quoi que ce soit !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"... Hein ?"
+	dc.b	"Hum, Ok...?"
 	dc.b	$FF
 
 ; $A
 	dc.b	"Euh, merci beaucoup !"
+	dc.b	$FD
+	dc.b	"Vous avez bien fait d'avoir ramené mes"
 	dc.b	$FC
-	dc.b	"Vous avez bien fait de me les ramener !"
+	dc.b	"filles !"
 	dc.b	$FD
 	dc.b	"Vous ne pouvez pas savoir à quel point"
 	dc.b	$FC
@@ -121,9 +139,13 @@
 	dc.b	$FF
 
 ; $B
-	dc.b	"Elles sont revenues saines et sauves..."
+	dc.b	"Oh, je n'ai jamais dit ces terribles choses"
 	dc.b	$FC
-	dc.b	"Je suis très reconnaissant..."
+	dc.b	"à leur sujet !"
+	dc.b	$FD
+	dc.b	"A partir de maintenant, gardons notre"
+	dc.b	$FC
+	dc.b	"famille unie !"
 	dc.b	$FF
 
 ; $C
@@ -135,21 +157,19 @@
 	dc.b	$79, $02
 	dc.b	$FA
 	dc.b	$78, $01
-	dc.b	"Malgré mon interdiction, mes deux filles"
+	dc.b	"Je leur ai dit de ne pas le faire, mais"
 	dc.b	$FC
-	dc.b	"ont construit un radeau... Et elles sont"
+	dc.b	"mes deux filles ont construit un radeau..."
 	dc.b	$FD
-	dc.b	"allées à la ville du continent qui est"
+	dc.b	"Elles sont allées à la ville du continent"
 	dc.b	$FC
-	dc.b	"censée avoir ce gros marché, pour faire"
+	dc.b	"qui est censée avoir ce gros centre"
 	dc.b	$FD
-	dc.b	"des emplettes."
+	dc.b	"commercial pour faire du shopping."
 	dc.b	$FC
-	dc.b	"Elles ne sont pas revenues depuis..."
+	dc.b	"Elles ne sont pas rentrées depuis..."
 	dc.b	$FD
-	dc.b	"Je me demande où elles sont et ce qui"
-	dc.b	$FC
-	dc.b	"leur arrive..."
+	dc.b	"Je m'inquiète pour elles !"
 	dc.b	$FF
 
 ; $D
@@ -158,15 +178,13 @@
 	dc.b	$FF
 
 ; $E
-	dc.b	"Peut-être ont-elles été attaquées par"
+	dc.b	"Elles ont peut-être été attaquées par"
 	dc.b	$FC
 	dc.b	"des monstres, ou bien leur radeau a"
 	dc.b	$FD
 	dc.b	"peut-être coulé lors d'une tempête."
-	dc.b	$FD
-	dc.b	"Mes pensées s'emballent et je ne peux"
 	dc.b	$FC
-	dc.b	"pas me calmer..."
+	dc.b	"Un million de choses ont pu leur arriver !"
 	dc.b	$FD
 	dc.b	"Je vous en prie, retrouvez nos filles !"
 	dc.b	$FF
@@ -174,65 +192,57 @@
 ; $F
 	dc.b	"Il semblerait qu'elles ont acheté sans"
 	dc.b	$FC
-	dc.b	"compter et ont tenté de quitter sans"
+	dc.b	"compter et ont tenté de partir sans"
 	dc.b	$FD
 	dc.b	"payer leur chambre et leurs repas."
-	dc.b	$FD
-	dc.b	"C'est notre châtiment pour leur avoir"
-	dc.b	$FC
-	dc.b	"donné une vie trop douillette et les"
-	dc.b	$FD
-	dc.b	"avoir trop gâtées."
-	dc.b	$FD
-	dc.b	"Au moins, je suis sûre qu'elles ont appris"
-	dc.b	$FC
-	dc.b	"leur leçon."
-	dc.b	$FD
-	dc.b	"Merci beaucoup."
 	dc.b	$FF
 
 ; $10
-	dc.b	"Je suis sûre que mes filles ont appris"
+	dc.b	"Je suis sûre que mes filles ont retenu"
 	dc.b	$FC
-	dc.b	"leur leçon. Merci de tout coeur."
+	dc.b	"la leçon. Merci de tout coeur."
 	dc.b	$FF
 
 ; $11
 	dc.b	"Maman, papa..."
 	dc.b	$FC
-	dc.b	"Je suis désolée..."
+	dc.b	"On est désolées..."
 	dc.b	$FF
 
 ; $12
-	dc.b	"Je sais qu'on a inquiété tout le monde,"
+	dc.b	"Je sais qu'on vous a causé des"
 	dc.b	$FC
-	dc.b	"mais c'était plutôt amusant !"
+	dc.b	"problèmes. Mais c'était amusant !"
 	dc.b	$FF
 
 ; $13
-	dc.b	"Malgré mon interdiction, mes deux filles"
+	dc.b	"Je leur ai dit de ne pas le faire, mais"
 	dc.b	$FC
-	dc.b	"ont fabriqué un un radeau et sont"
+	dc.b	"mes deux filles ont construit un radeau..."
 	dc.b	$FD
-	dc.b	"parties pour le continent, pour faire"
+	dc.b	"Elles sont allées à la ville du continent"
 	dc.b	$FC
-	dc.b	"des achats au grand marché."
+	dc.b	"qui est censée avoir ce gros centre"
 	dc.b	$FD
-	dc.b	"Mais elles manquent à l'appel depuis plus"
+	dc.b	"commercial pour faire du shopping."
+	dc.b	$FD
+	dc.b	"Mais ça fait un mois maintenant,"
 	dc.b	$FC
-	dc.b	"d'un mois !"
+	dc.b	"et aucune nouvelles de leur part !"
 	dc.b	$FD
 	dc.b	"Je ne sais même pas si elles ont atteint"
 	dc.b	$FC
 	dc.b	"le continent sans encombre..."
 	dc.b	$FD
-	dc.b	"Mon mari est si têtu et obstiné... Il fait"
+	dc.b	"Mon mari est si têtu et obstiné... Il joue"
 	dc.b	$FC
-	dc.b	"comme si de rien était, mais en fait,"
+	dc.b	"aux durs, mais en vérité il est encore"
 	dc.b	$FD
-	dc.b	"il est encore plus inquiet que moi !"
+	dc.b	"plus inquiet que moi !"
 	dc.b	$FD
-	dc.b	"Je vous en prie, retrouvez nos filles !"
+	dc.b	"Je vous en prie, retrouvez nos filles"
+	dc.b	$FC
+	dc.b	"et ramenez-les en pleine forme !"
 	dc.b	$FF
 
 ; $14
@@ -337,9 +347,13 @@
 ; $35
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Wow. Quel étrange volatile ! Il n'a pas"
+	dc.b	"Wow !"
 	dc.b	$FC
-	dc.b	"l'air commode. Il vaut mieux s'en éloigner."
+	dc.b	"Quel étrange gros volatile !"
+	dc.b	$FC
+	dc.b	"Il est vraiment très laid..."
+	dc.b	$FC
+	dc.b	"Il vaut mieux ne pas s'approcher !"
 	dc.b	$FF
 
 ; $36
@@ -351,20 +365,22 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Il nous a remarqué !"
+	dc.b	"Il a l'air en colère !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"D'accord, à nous deux !"
+	dc.b	"Il va nous manger aussi si on"
+	dc.b	$FC
+	dc.b	"ne le repousse pas ! Allons-y !"
 	dc.b	$FF
 
 ; $37
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Hé ! Reviens !"
+	dc.b	"Hé ! Arrête-toi !"
 	dc.b	$F7
 
-	dc.b	"Attendez !"
+	dc.b	"Je vous en prie, Laissez-le !"
 	dc.b	$F7
 
 	dc.b	$F4
@@ -373,69 +389,59 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$27
-	dc.b	"Je vous en prie !"
+	dc.b	"Je vous en prie ! Il est inoffensif !"
 	dc.b	$FC
-	dc.b	"Laissez-le partir !"
+	dc.b	"Ne le blessez pas davantage !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Pardon ? Mais... c'est vous qui vouliez"
+	dc.b	"Quoi ? C'est vous qui nous avez appelé"
 	dc.b	$FC
-	dc.b	"qu'on vous en débarasse !"
+	dc.b	"pour qu'on l'extermine !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$27
-	dc.b	"Oui, c'est la triste vérité..."
+	dc.b	"Oui, je sais, je sais... Je suis désolé !"
 	dc.b	$FC
-	dc.b	"Pardonnez-moi !"
-	dc.b	$FD
-	dc.b	$F4
-	dc.b	$06
-	dc.b	"Qu'est-ce que tout ça signifie, au juste ?"
-	dc.b	$FD
-	dc.b	$F4
-	dc.b	$27
-	dc.b	"D'accord, je vais tout vous dire..."
-	dc.b	$FC
-	dc.b	"Pardonnez-moi !"
-	dc.b	$FD
-	dc.b	"J'ai toujours aimé les animaux."
+	dc.b	"En vérité... Je suis un écologiste."
 	dc.b	$FD
 	dc.b	"Il y a peu de temps, j'ai découvert une"
 	dc.b	$FC
-	dc.b	"nouvelle sorte d'oiseau."
+	dc.b	"nouvelle espèce d'oiseau."
 	dc.b	$FD
-	dc.b	"Je les ai regroupés et élevés dans cette"
+	dc.b	"Je les ai sauvés des monstres et élevés"
 	dc.b	$FC
-	dc.b	"caverne."
+	dc.b	"dans cette caverne."
 	dc.b	$FD
-	dc.b	"Mais leur nombre s'est décuplé, et ils se"
+	dc.b	"Mais leur nombre a décuplé, et ils se sont"
 	dc.b	$FC
-	dc.b	"sont mis à chercher de la nourriture."
+	dc.b	"mis à chercher de la nourriture."
 	dc.b	$FD
 	dc.b	"Ils sont venus à Torinco et ont dévoré"
 	dc.b	$FC
 	dc.b	"les récoltes."
 	dc.b	$FD
-	dc.b	"Cela a mis les villageois en colère, et"
+	dc.b	"Cela a mis les villageois en colère, et ils"
 	dc.b	$FC
-	dc.b	"ils ont voulu les exterminer tous !"
+	dc.b	"ont voulu tous les exterminer !"
 	dc.b	$FD
 	dc.b	"N'est-ce pas trop cruel ? Tout ce que les"
 	dc.b	$FC
-	dc.b	"oiseaux voulaient, c'était se nourrir."
+	dc.b	"oiseaux voulaient, c'était nourrir leurs"
+	dc.b	$FD
+	dc.b	"petits !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Alors pourquoi retenir la Guilde pour"
+	dc.b	"Euh, ouais je pense, mais... pourquoi avoir"
 	dc.b	$FC
-	dc.b	"exterminer ce gros volatil ?"
+	dc.b	"requis les services de la guilde ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$27
-	dc.b	"Minute, ne vous fâchez pas."
+	dc.b	"Ah... j'espérais que vous ne poseriez"
 	dc.b	$FC
-	dc.b	"Laissez-moi finir..."
+	dc.b	"pas la question..."
 	dc.b	$FD
 	dc.b	"Je savais qu'un chef était né parmi les"
 	dc.b	$FC
@@ -445,93 +451,133 @@
 	dc.b	$FC
 	dc.b	"chasseur de la Guilde."
 	dc.b	$FD
-	dc.b	"Je croyais que ça servirait de leçon aux"
+	dc.b	"Alors les villageois auraient dû trouver"
 	dc.b	$FC
-	dc.b	"villageois, si même un chasseur n'était"
+	dc.b	"une autre solution à... cette situation"
 	dc.b	$FD
-	dc.b	"pas de taille."
+	dc.b	"difficile."
 	dc.b	$FD
-	dc.b	"Je croyais qu'alors les gens du village"
+	dc.b	"Je pensais qu'éventuellement le village"
 	dc.b	$FC
-	dc.b	"cesseraient d'être une menace pour"
+	dc.b	"trouverait un moyen de sen sortir sans"
 	dc.b	$FD
-	dc.b	"mes chers oiseaux..."
+	dc.b	"avoir à blesser les oiseaux..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Alors, vous vouliez vous servir de"
+	dc.b	"Alors, quand on s'est rencontrés vous"
 	dc.b	$FC
-	dc.b	"nous !?"
+	dc.b	"pensiez que cette chose nous tuerait ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$27
-	dc.b	"Mais c'était un très mauvais calcul de"
+	dc.b	"Non ! Ces oiseaux sont pacifistes et ont"
 	dc.b	$FC
-	dc.b	"ma part."
+	dc.b	"juste cherché défendre leur nid."
 	dc.b	$FD
-	dc.b	"Je n'avais pas idée que vous seriez si"
+	dc.b	"Je supposais que le chasseur allait perdre"
 	dc.b	$FC
-	dc.b	"puissants."
+	dc.b	"et prendre les jambes à son cou."
 	dc.b	$FD
-	dc.b	"Je suis vraiment navré..."
-	dc.b	$FD
-	dc.b	"Mettez-moi en prison si vous croyez que"
+	dc.b	"Je n'avais pas idée que vous soyez aussi"
 	dc.b	$FC
-	dc.b	"c'est ce que je mérite..."
+	dc.b	"puissants"
+	dc.b	$FD
+	dc.b	"Je suis vraiment désolé... Ça semblait"
+	dc.b	$FC
+	dc.b	"être une bonne idée à ce moment là."
+	dc.b	$FD
+	dc.b	"Vous n'avez qu'à... m'enfermer. J'ai"
+	dc.b	$FC
+	dc.b	"échoué à protéger qui que ce soit..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Argh... Hors de ma vue !"
+	dc.b	"OK... Vous avez raison..."
+	dc.b	$FC
+	dc.b	"C'était VRAIMENT un plan foireux !"
 	dc.b	$FD
 	dc.b	$F4
+	dc.b	$06
+	dc.b	"Chaz ! On peut peut-être voir les choses"
+	dc.b	$FC	
+	dc.b	"un peu différement..."	
+	dc.b	$FD
+	dc.b	"Le plan de Sekreas a marché en quelque"
+	dc.b	$FC	
+	dc.b	"sorte !"	
+	dc.b	$FD	
+	dc.b	$F4
 	dc.b	$27
-	dc.b	"Comment ?"
+	dc.b	"...Hein ?? J'ai échoué de toutes les"
+	dc.b	$FC
+	dc.b	"façons possibles dans tout ça !"
+	dc.b	$FD
+	dc.b	$F4
+	dc.b	$06
+	dc.b	"Les oiseaux trouveront un nouveau"
+	dc.b	$FC
+	dc.b	"foyer, et le village pourra faire croître"
+	dc.b	$FD
+	dc.b	"les champs à nouveau..."
+	dc.b	$FD	
+	dc.b	$F4
+	dc.b	$04	
+	dc.b	"Et à moins que tu ne sois une plus grande"	
+	dc.b	$FC
+	dc.b	"mauviette que je pensais, petite tête,"
+	dc.b	$FD	
+	dc.b	"Ce volatile ne nous a pas posé de"
+	dc.b	$FC	
+	dc.b	"sérieux problèmes."
+	dc.b	$FD	
+	dc.b	$F4
+	dc.b	$06	
+	dc.b	"C'est bizarre, mais il n'y a que des bonnes"
+	dc.b	$FC
+	dc.b	"choses à tirer de tout ça au final !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Tu m'as bien entendu..."
+	dc.b	"...OK, la majorité a parlé... Rentrez chez"
 	dc.b	$FC
-	dc.b	"Décampe !"
-	dc.b	$FD
+	dc.b	"vous, avant que je change d'avis !"
+	dc.b	$FD	
 	dc.b	$F4
 	dc.b	$27
-	dc.b	"Vous... vous me laissez aller ?"
+	dc.b	"Vous, vous... me laissez partir ??"
 	dc.b	$FC
-	dc.b	"Merci !"
+	dc.b	"Oh M...merci de tout coeur !!"
 	dc.b	$FF
 
 ; $38
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Chaz..."
-	dc.b	$FD
-	dc.b	$F4
-	dc.b	$01
-	dc.b	"Je ne peux pas faire comme si je ne le"
+	dc.b	"Chaz... Je suis heureuse que tu lui ai"
 	dc.b	$FC
-	dc.b	"comprenais pas, d'une certaine manière."
-	dc.b	$FD
-	dc.b	"De toute façon, le chef de ces volatils"
-	dc.b	$FC
-	dc.b	"s'est envolé au loin, alors j'imagine que"
-	dc.b	$FD
-	dc.b	"les récoltes seront sauvées."
+	dc.b	"pardonné !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Tu ne crains pas qu'il détruise d'autres"
-	dc.b	$FC
-	dc.b	"champs ?"
+	dc.b	"Tu as fait preuve de discernement."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"On s'en occupera si ça s'avère"
+	dc.b	"Et bien, vous aviez raison, il a bon"
 	dc.b	$FC
-	dc.b	"nécessaire !"
+	dc.b	"coeur..."
 	dc.b	$FD
-	dc.b	"Bon, tout le monde... sortons de cet"
+	dc.b	"Même si à la base il a tenté de nous"
 	dc.b	$FC
-	dc.b	"endroit !"
+	dc.b	"assassiner."
+	dc.b	$FD
+	dc.b	"Quoi qu'il en soit, et la source de"
+	dc.b	$FC
+	dc.b	"nourriture du village devrait revenir"
+	dc.b	$FD
+	dc.b	"à la normale bientôt."
+	dc.b	$FC
+	dc.b	"Nous devrions faire de même !"
 	dc.b	$FF
 
 ; $39

@@ -1,4 +1,4 @@
-; 0
+; $0
 	dc.b	$F4
 	dc.b	$01
 	dc.b	"C'est une statue plutôt mystérieuse"
@@ -7,7 +7,7 @@
 	dc.b	$FD
 	dc.b	"Elle ressemble à la statue de l'héroïne"
 	dc.b	$FC
-	dc.b	"que j'ai vue à Termi."
+	dc.b	"que j'ai vue à Paseo."
 	dc.b	$FF
 
 ; $1
@@ -19,17 +19,13 @@
 ; $2
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"« Pouvoir et pensée ESP. »"
-	dc.b	$FC
-	dc.b	"C'est trop ardu à comprendre."
+	dc.b	"« Pouvoir et idéologie ESP. »"
 	dc.b	$FF
 
 ; $3
 	dc.b	$F4
 	dc.b	$01
 	dc.b	"« Dezolis : sa Lumière et ses Ténèbres. »"
-	dc.b	$FC
-	dc.b	"Hmm..."
 	dc.b	$FF
 
 ; $4
@@ -37,9 +33,9 @@
 	dc.b	$01
 	dc.b	"C'est un livre à moitié lu."
 	dc.b	$FD
-	dc.b	"Le titre : « Archives des glorieux"
+	dc.b	"Le titre : « Archives des glorieux héros"
 	dc.b	$FC
-	dc.b	"ancêtres »..."
+	dc.b	"Dezolisiens »..."
 	dc.b	$FF
 
 ; $5
@@ -49,7 +45,7 @@
 	dc.b	$FC
 	dc.b	"artificielle »..."
 	dc.b	$FD
-	dc.b	"Qu'est-ce que ça peut bien être ?"
+	dc.b	"C'est vraiment possible ?"
 	dc.b	$FF
 
 ; $6
@@ -64,16 +60,18 @@
 	dc.b	$F4
 	dc.b	$01
 	dc.b	"« L'esprit et la matière »..."
-	dc.b	$FC
-	dc.b	"C'est trop difficile à comprendre."
 	dc.b	$FF
 
 ; $8
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Qu'est-ce que c'est que ça ? C'est un al-"
+	dc.b	"Qu'est-ce que c'est que ça ?"
 	dc.b	$FC
-	dc.b	"phabet que je n'ai jamais vu auparavant."
+	dc.b	"« Le Dezoryinz »."
+	dc.b	$FD
+	dc.b	"C'est écrit dans un dialecte que"
+	dc.b	$FC
+	dc.b	"je n'ai jamais vu auparavant."
 	dc.b	$FF
 
 ; $9
@@ -85,9 +83,9 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Elle m'a été léguée maintenant..."
+	dc.b	"J'en ai hérité à présent..."
 	dc.b	$FC
-	dc.b	"C'est ce que ça signifie."
+	dc.b	"Je ne dois pas échouer."
 	dc.b	$FF
 
 ; $A
@@ -115,9 +113,9 @@
 ; $D
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"C'est un foyer. Il fait pas mal froid par"
+	dc.b	"C'est une cheminée. Il caille par ici,"
 	dc.b	$FC
-	dc.b	"ici, alors c'est une bonne trouvaille !"
+	dc.b	"alors c'est une bonne trouvaille !"
 	dc.b	$FF
 
 ; $E
@@ -139,7 +137,7 @@
 ; $10
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Il y a deux foyers."
+	dc.b	"Il y a deux cheminées."
 	dc.b	$FC
 	dc.b	"Il doit faire rudement froid par ici !"
 	dc.b	$FF
@@ -149,7 +147,7 @@
 	dc.b	$01
 	dc.b	"Je me demande s'ils aiment collectionner"
 	dc.b	$FC
-	dc.b	"les bouteilles vides ?"
+	dc.b	"les bouteilles vides ? Pourquoi faire ?"
 	dc.b	$FF
 
 ; $12
@@ -159,7 +157,7 @@
 	dc.b	$FC
 	dc.b	"étonnamment semblables aux assiettes"
 	dc.b	$FD
-	dc.b	"Parmaniennes."
+	dc.b	"Palmaniennes."
 	dc.b	$FF
 
 ; $13
@@ -184,8 +182,6 @@
 	dc.b	$F4
 	dc.b	$01
 	dc.b	"« Gestion d'inventaire »..."
-	dc.b	$FC
-	dc.b	"Ah, un propriétaire lettré."
 	dc.b	$FF
 
 ; $16
@@ -210,10 +206,6 @@
 	dc.b	"« La peur des hauteurs : étude"
 	dc.b	$FC
 	dc.b	"psychologique »..."
-	dc.b	$FD
-	dc.b	"Alors, pourquoi diable construire une"
-	dc.b	$FC
-	dc.b	"maison à deux étages ?"
 	dc.b	$FF
 
 ; $19
@@ -221,7 +213,7 @@
 	dc.b	$01
 	dc.b	"Ce n'est pas aussi impressionnant qu'un"
 	dc.b	$FC
-	dc.b	"feu de bivouac Dezolizien."
+	dc.b	"feu de camp Dezolisien."
 	dc.b	$FD
 	dc.b	"Ce n'est qu'une vulgaire torche."
 	dc.b	$FF
@@ -232,16 +224,12 @@
 	dc.b	"« Rester en santé dans le climat"
 	dc.b	$FC
 	dc.b	"Dezolisien »..."
-	dc.b	$FD
-	dc.b	"La maîtresse des lieux semble être"
-	dc.b	$FC
-	dc.b	"plutôt studieuse."
 	dc.b	$FF
 
 ; $1B
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"C'est un foyer."
+	dc.b	"C'est une cheminée."
 	dc.b	$FC
 	dc.b	"Il est bien chaud, quelle joie !"
 	dc.b	$FF
@@ -269,7 +257,7 @@
 	dc.b	$01
 	dc.b	"« Gestion hôtellière et service à la"
 	dc.b	$FC
-	dc.b	"clientèle »... Un mari bien studieux."
+	dc.b	"clientèle »..."
 	dc.b	$FF
 
 ; $1F
@@ -289,7 +277,9 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"C'est de ta faute, en passant."
+	dc.b	"Au cas où tu aurais oublié, c'est de ta"
+	dc.b	$FC
+	dc.b	"faute, petite tête."
 	dc.b	$FF
 
 ; $21
@@ -301,21 +291,21 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$09
-	dc.b	"Les Dezolisiens adorent le feu ! Ce feu"
+	dc.b	"Les Dezolisiens croient en une divité du"
 	dc.b	$FC
-	dc.b	"de bivouac est un objet de culte."
+	dc.b	"feu. Ce feu de camp un objet de culte."
 	dc.b	$FF
 
 ; $22
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Hmm, le feu de bivouac des Dezolisiens..."
+	dc.b	"Hmm, le feu de camp des Dezolisiens..."
 	dc.b	$FF
 
 ; $23
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"C'est un foyer."
+	dc.b	"C'est une cheminée."
 	dc.b	$FC
 	dc.b	"Il est bien chaud, quelle joie !"
 	dc.b	$FF
@@ -345,7 +335,7 @@
 	dc.b	$FC
 	dc.b	"étonnamment semblables aux assiettes"
 	dc.b	$FD
-	dc.b	"Parmaniennes."
+	dc.b	"Palmaniennes."
 	dc.b	$FF
 
 ; $27
@@ -368,12 +358,14 @@
 	dc.b	$F4
 	dc.b	$01
 	dc.b	"Ce doit être des provisions."
+	dc.b	$FC
+	dc.b	"J'espérais trouver un truc bon."
 	dc.b	$FF
 
 ; $2A
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"« Ceux qui ont Préservé Algo,"
+	dc.b	"« Ceux qui ont Préservé Algol,"
 	dc.b	$FC
 	dc.b	"Accompagnés de l'Épée Sacrée,"
 	dc.b	$FD
@@ -385,21 +377,23 @@
 	dc.b	$01
 	dc.b	"Ce n'est pas aussi impressionnant qu'un"
 	dc.b	$FC
-	dc.b	"feu de bivouac Dezolizien."
+	dc.b	"feu de camp Dezolizien."
 	dc.b	$FD
-	dc.b	"Ce n'est qu'une vulgaire torche."
+	dc.b	"Ce n'est qu'une simple torche."
 	dc.b	$FF
 
 ; $2C
 	dc.b	$F4
 	dc.b	$01
 	dc.b	"Ils n'ont pas rangé ces livres..."
+	dc.b	$FC
+	dc.b	"« Chapeaux Mogiques and Puissants »."
 	dc.b	$FF
 
 ; $2D
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"C'est un foyer."
+	dc.b	"C'est une cheminée."
 	dc.b	$FC
 	dc.b	"Il est bien chaud, quelle joie !"
 	dc.b	$FF
@@ -415,17 +409,25 @@
 ; $2F
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Voici un livre bien usé."
+	dc.b	"Voici un livre bien usé :"
 	dc.b	$FC
 	dc.b	"« Revalorisation de Dezolis »..."
+	dc.b	$FD
+	dc.b	"Les Palmaniens ont eu l'idée de planter"
+	dc.b	$FC
+	dc.b	"des arbres de Maruera sont là pour"
+	dc.b	$FD
+	dc.b	"tempérer la planète et la rendre plus"
+	dc.b	$FC
+	dc.b	"verte."
 	dc.b	$FF
 
 ; $30
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Ce n'est pas bien de fouiller dans les"
+	dc.b	"Tu n'as toujours pas appris qu'ouvrir les"
 	dc.b	$FC
-	dc.b	"armoires des gens sans leur permission !"
+	dc.b	"armoires chez les gens ne se fait pas ?"
 	dc.b	$FF
 
 ; $31
@@ -441,13 +443,13 @@
 	dc.b	$94, $01
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Qu'est-ce que cette flamme ?"
+	dc.b	"Qu'est-ce que ce feu ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$09
-	dc.b	"Les Dezolisiens adorent le feu ! Ce feu"
+	dc.b	"C'est un feu d'adoration Dezolisien."
 	dc.b	$FC
-	dc.b	"de bivouac est un objet de culte."
+	dc.b	"Ce feu de camp est un objet de culte."
 	dc.b	$FF
 
 ; $33
@@ -455,7 +457,7 @@
 	dc.b	$01
 	dc.b	"Hmm,"
 	dc.b	$FC
-	dc.b	"le feu de bivouac Dezolisien..."
+	dc.b	"le feu de camp Dezolisien..."
 	dc.b	$FF
 
 ; $34
@@ -469,15 +471,17 @@
 ; $35
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Ce n'est pas bien de fouiller dans les"
+	dc.b	"Ça me fatigue de me répéter qu'il ne"
 	dc.b	$FC
-	dc.b	"armoires des gens sans leur permission !"
+	dc.b	"faut pas ouvrir armoires des gens sans"
+	dc.b	$FD
+	dc.b	"leur permission !"
 	dc.b	$FF
 
 ; $36
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"C'est un foyer."
+	dc.b	"C'est une cheminée."
 	dc.b	$FC
 	dc.b	"Il est bien chaud, quelle joie !"
 	dc.b	$FF
@@ -489,7 +493,7 @@
 	dc.b	$FC
 	dc.b	"étonnamment semblables aux assiettes"
 	dc.b	$FD
-	dc.b	"Parmaniennes."
+	dc.b	"Palmaniennes."
 	dc.b	$FF
 
 ; $38
@@ -515,27 +519,23 @@
 	dc.b	$FC
 	dc.b	"livre."
 	dc.b	$FD
-	dc.b	"Peut-être est-ce le signet de la nuit"
-	dc.b	$FC
-	dc.b	"précédente ?"
+	dc.b	"Ça a l'air ridicule."
 	dc.b	$FF
 
 ; $3B
 	dc.b	$F4
 	dc.b	$01
 	dc.b	"Il y a un tas de livres."
-	dc.b	$FC
-	dc.b	"Ils aiment beaucoup lire."
 	dc.b	$FF
 
 ; $3C
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Vérification complétée. Tous les systè-"
+	dc.b	"Vérification complétée. Tous les"
 	dc.b	$FC
-	dc.b	"mes de Kuran fonctionnent selont les"
+	dc.b	"systèmes de Kuran fonctionnent selon"
 	dc.b	$FD
-	dc.b	"paramètres normaux."
+	dc.b	"les paramètres normaux."
 	dc.b	$FF
 
 ; $3D
@@ -585,11 +585,11 @@
 ; $40
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Vérification complétée. Tous les systè-"
+	dc.b	"Vérification complétée. Tous les"
 	dc.b	$FC
-	dc.b	"mes de Kuran fonctionnent selon les"
+	dc.b	"systèmes de Kuran fonctionnent"
 	dc.b	$FD
-	dc.b	"paramètres normaux."
+	dc.b	"normalement."
 	dc.b	$FF
 
 ; $41
@@ -597,9 +597,9 @@
 	dc.b	$9E, $01
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Le système de contrôle climatique foncti-"
+	dc.b	"Le système de contrôle climatique"
 	dc.b	$FC
-	dc.b	"onne selon les paramètres normaux."
+	dc.b	"fonctionne normalement."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
@@ -611,9 +611,9 @@
 ; $42
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Le système de contrôle climatique foncti-"
+	dc.b	"Le système de contrôle climatique"
 	dc.b	$FC
-	dc.b	"onne selon les paramètres normaux."
+	dc.b	"fonctionne normalement."
 	dc.b	$FF
 
 ; $43
@@ -641,7 +641,7 @@
 ; $46
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Un foyer tout neuf !"
+	dc.b	"Un cheminée toute neuve !"
 	dc.b	$FF
 
 ; $47
@@ -649,7 +649,7 @@
 	dc.b	$01
 	dc.b	"C'est une cuisine."
 	dc.b	$FC
-	dc.b	"Elle semble commencer à être malpropre."
+	dc.b	"Elle semble commencer à être sale."
 	dc.b	$FF
 
 ; $48
@@ -661,9 +661,9 @@
 ; $49
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"C'est un foyer."
+	dc.b	"C'est une cheminée."
 	dc.b	$FC
-	dc.b	"Il semble commencer à être malpropre."
+	dc.b	"Il semble commencer à être sale."
 	dc.b	$FF
 
 ; $4A
@@ -689,23 +689,23 @@
 ; $4D
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"« Décoration intérieure : comment influ-"
+	dc.b	"« Décoration intérieure : comment"
 	dc.b	$FC
-	dc.b	"encer les clients »..."
+	dc.b	"influencer les clients »..."
 	dc.b	$FF
 
 ; $4E
-	dc.b	"Une étagère toute neuve."
+	dc.b	"Une étagère toute neuve, remplie de"
 	dc.b	$FC
-	dc.b	"Il n'y a pas encore beaucoup de livres."
+	dc.b	"romans à succès."
 	dc.b	$FF
 
 ; $4F
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Un grand miroir. Ça aussi, c'est neuf, poli"
+	dc.b	"Un grand miroir. Tout neuf, poli, et"
 	dc.b	$FC
-	dc.b	"et brillant !"
+	dc.b	"brillant !"
 	dc.b	$FF
 
 ; $50

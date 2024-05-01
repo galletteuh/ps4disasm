@@ -4,10 +4,6 @@
 	dc.b	"C'est un boîtier aéré qui abrite des"
 	dc.b	$FC
 	dc.b	"appareils météorologiques."
-	dc.b	$FD
-	dc.b	"Ça nous fait bien ressentir que nous"
-	dc.b	$FC
-	dc.b	"sommes dans une ville universitaire."
 	dc.b	$FF
 
 ; $1
@@ -17,9 +13,9 @@
 	dc.b	$FC
 	dc.b	"appareils météorologiques."
 	dc.b	$FD
-	dc.b	"La température actuelle est de..."
+	dc.b	"Il fait 28 degrés dehors."
 	dc.b	$FC
-	dc.b	"28 degrés."
+	dc.b	"C'est plus élevé que la normale..."
 	dc.b	$FF
 
 ; $2
@@ -37,9 +33,7 @@
 	dc.b	$01
 	dc.b	"C'est un boîtier aéré qui abrite des"
 	dc.b	$FC
-	dc.b	"appareils météorologiques."
-	dc.b	$FD
-	dc.b	"Wow, je suis tellement surpris..."
+	dc.b	"appareils météorologiques. Palpitant."
 	dc.b	$FF
 
 ; $4
@@ -54,6 +48,8 @@
 	dc.b	$F4
 	dc.b	$01
 	dc.b	"Quelle fontaine magnifique."
+	dc.b	$FC
+	dc.b	"Mais ne sautons pas dedans cependant."
 	dc.b	$FF
 
 ; $6
@@ -67,19 +63,23 @@
 ; $7
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"« Le Dieu de l'Apprentissage -"
+	dc.b	"« Le doyen de l'Apprentissage :"
 	dc.b	$FC
 	dc.b	"Docteur Lubetz »"
 	dc.b	$FD
 	dc.b	"Hmm... une personne qui a vécue il y a"
 	dc.b	$FC
 	dc.b	"deux mille ans."
+	dc.b	$FD
+	dc.b	"Vous pensez qu'il a fait quoi pour avoir"
+	dc.b	$FC
+	dc.b	"ce grand mémorial ?"
 	dc.b	$FF
 
 ; $8
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Quel pot inhabituel !"
+	dc.b	"Ce bocal a une forme étrange !"
 	dc.b	$FF
 
 ; $9
@@ -87,13 +87,29 @@
 	dc.b	$01
 	dc.b	"Une collection de 20 volumes poussiè-"
 	dc.b	$FC
-	dc.b	"reux : « Histoire d'Algo »."
+	dc.b	"reux : « Histoire d'Algol ». Hmmm..."
+	dc.b	$FD
+	dc.b	"« En BW 13, le chef suprême de la région"
+	dc.b	$FC
+	dc.b	"de Baya-Malay, Waizz Landale, a eu une"
+	dc.b	$FD
+	dc.b	"vision extraordinaire : réunir toute la"
+	dc.b	$FC
+	dc.b	"planète Palma sous une seule et même... »"
+	dc.b	$FD
+	dc.b	"On se fiche de ce qu'un vieux roi moisi a"
+	dc.b	$FC
+	dc.b	"fait il y a 2 000 ans."
+	dc.b	$FD
+	dc.b	"Ça n'a aucune incidence sur ma vie !"		
 	dc.b	$FF
 
 ; $A
 	dc.b	$F4
 	dc.b	$01
 	dc.b	"Cette table est parsemée d'articles."
+	dc.b	$FC
+	dc.b	"Ça ne semble pas intéressant."
 	dc.b	$FF
 
 ; $B
@@ -102,6 +118,8 @@
 	dc.b	"C'est un livre qui parle de techniques de"
 	dc.b	$FC
 	dc.b	"polissage du métal."
+	dc.b	$FD
+	dc.b	"« Laquage de Laconia »."	
 	dc.b	$FF
 
 ; $C
@@ -113,33 +131,63 @@
 ; $D
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Un livre : « La littérature de Parma »."
+	dc.b	"Un livre : « La littérature de Palma :"
+	dc.b	$FD
+	dc.b	"Histoire par Waizz, Aures et Alisa"
+	dc.b	$FC
+	dc.b	"Landale,"
+	dc.b	$FD
+	dc.b	"Manifeste de Reipard Lashiec,"
+	dc.b	$FC
+	dc.b	"Poésie par Myau,"
+	dc.b	$FD
+	dc.b	"Compilé par le Révérend Lutz,"
+	dc.b	$FC
+	dc.b	"le Sage d'Algol »."
 	dc.b	$FF
 
 ; $E
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Un livre: « Le polyglotte »."
+	dc.b	"Un livre: « Le palmanien polyglotte »."
+	dc.b	$FC
+	dc.b	"On dit que les Dezolisiens ont un ancien"
+	dc.b	$FD
+	dc.b	"dialecte bizarre appelé Dezoryinz, qui"
+	dc.b	$FC
+	dc.b	"est sans doute éteint maintenant."
 	dc.b	$FF
 
 ; $F
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Hein ? Il y a même un livre sur la"
+	dc.b	"Il y a même un livre sur la divination."
 	dc.b	$FC
-	dc.b	"divination."
+	dc.b	"Je n'adhère pas ce genre de choses."
+	dc.b	$FD
+	dc.b	"Je suis la seule personne à contrôler"	
+	dc.b	$FC
+	dc.b	"mes actions !"	
 	dc.b	$FF
 
 ; $10
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Un livre : « La modernologie »."
+	dc.b	"Un livre appelé : « La modernologie »."
+	dc.b	$FC
+	dc.b	"Il s'agit d'un livre de sociologie sur la"
+	dc.b	$FD
+	dc.b	"façon dont les villes et les gens se sont"
+	dc.b	$FC
+	dc.b	"adaptés après le grand effondrement."	
 	dc.b	$FF
 
 ; $11
 	dc.b	$F4
 	dc.b	$01
 	dc.b	"Cette table est parsemée de livres."
+	dc.b	$FC
+	dc.b	"Rien d'excitant."
 	dc.b	$FF
 
 ; $12
@@ -156,6 +204,12 @@
 	dc.b	"Voici un livre avec pour titre,"
 	dc.b	$FC
 	dc.b	"« Phénomènes Célestes »."
+	dc.b	$FD
+	dc.b	"Hmm, il semble théoriser qu'une étoile"
+	dc.b	$FC
+	dc.b	"apparaît dans le ciel tous les 1000 ans"
+	dc.b	$FD
+	dc.b	"environ..."
 	dc.b	$FF
 
 ; $14
@@ -164,6 +218,10 @@
 	dc.b	"Hmm... « L'observation des comètes »."
 	dc.b	$FC
 	dc.b	"C'est un livre d'astronomie."
+	dc.b	$FD
+	dc.b	"On dirait qu'il y a des tas de choses"
+	dc.b	$FC
+	dc.b	"bizarres tournent autour d'Algol..."		
 	dc.b	$FF
 
 ; $15
@@ -172,20 +230,26 @@
 	dc.b	"Je me demande si c'est un journal"
 	dc.b	$FC
 	dc.b	"d'observations ?"
+	dc.b	$FD
+	dc.b	"Hmm, Rien d'intéressant."
 	dc.b	$FF
 
 ; $16
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Cette étagère contient de nombreux"
+	dc.b	"Cette étagère contient de vieux"
 	dc.b	$FC
 	dc.b	"livres sur la chimie."
+	dc.b	$FD
+	dc.b	"Hmm... « Composition des Bio-monstres » ?"
 	dc.b	$FF
 
 ; $17
 	dc.b	$F4
 	dc.b	$01
 	dc.b	"C'est un livre sur l'ingénérie."
+	dc.b	$FC
+	dc.b	"« Designs des Dezolisiens »."
 	dc.b	$FF
 
 ; $18
@@ -194,6 +258,8 @@
 	dc.b	"Cette table déborde d'équipements pour"
 	dc.b	$FC
 	dc.b	"pratiquer la chimie."
+	dc.b	$FD
+	dc.b	"Aucune idée de leur fonctionnement."	
 	dc.b	$FF
 
 ; $19
@@ -209,7 +275,7 @@
 	dc.b	$01
 	dc.b	"Ce livre a pour titre :"
 	dc.b	$FC
-	dc.b	"« Agents de Réaction Chimiques »."
+	dc.b	"« Réactifs Chimiques »."
 	dc.b	$FF
 
 ; $1B
@@ -218,14 +284,16 @@
 	dc.b	"C'est un livre de mathématiques, et il est"
 	dc.b	$FC
 	dc.b	"très ardu."
+	dc.b	$FD
+	dc.b	"« Géométrie : à l'épreuve de Palma »."
 	dc.b	$FF
 
 ; $1C
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"C'est un livre de mathématiques"
+	dc.b	"« Géométrie avancée » C'est un livre de"
 	dc.b	$FC
-	dc.b	"totalement épouvantable !"
+	dc.b	"mathématiques totalement épouvantable !"
 	dc.b	$FF
 
 ; $1D
@@ -254,12 +322,22 @@
 	dc.b	$F4
 	dc.b	$01
 	dc.b	"Ceci est un document historique."
+	dc.b	$FC
+	dc.b	"« Itinéraires accordés en AW 342 »."
+	dc.b	$FD
+	dc.b	"Qui a besoin de ça ?"	
 	dc.b	$FF
 
 ; $21
 	dc.b	$F4
 	dc.b	$01
 	dc.b	"Cette armoire est verrouillée."
+	dc.b	$FC
+	dc.b	"Probablement une réserve d'argent."
+	dc.b	$FD
+	dc.b	"Pas d'inquiétude à avoir, nous ne"
+	dc.b	$FC
+	dc.b	"sommes pas des voleurs !"	
 	dc.b	$FF
 
 ; $22
@@ -268,40 +346,44 @@
 	dc.b	"Pas un seul de ces livres n'est un manuel"
 	dc.b	$FC
 	dc.b	"scolaire."
+	dc.b	$FD
+	dc.b	"C'est plutôt pour des activités extra-"
+	dc.b	$FC
+	dc.b	"scolaires."	
 	dc.b	$FF
 
 ; $23
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"C'est un horaire de classe."
+	dc.b	"C'est un emploi du temps scolaire."
 	dc.b	$FC
-	dc.b	"... Il est plutôt peu rempli."
+	dc.b	"Il est assez léger."
 	dc.b	$FF
 
 ; $24
 	dc.b	$F4
 	dc.b	$01
 	dc.b	"Pas de manuels scolaires, ici non plus."
-	dc.b	$FD
-	dc.b	"Je me demande si c'est habituel chez"
 	dc.b	$FC
-	dc.b	"les étudiants de l'académie ?"
+	dc.b	"C'est normal pour un étudiant de la"
+	dc.b	$FD
+	dc.b	"plus grande université de Motavia ?"
 	dc.b	$FF
 
 ; $25
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"C'est un rapport..."
+	dc.b	"C'est un formulaire de rapport..."
 	dc.b	$FC
-	dc.b	"Il n'est pas complété."
+	dc.b	"Il est vide. Bon départ."
 	dc.b	$FF
 
 ; $26
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"C'est la cuisine."
+	dc.b	"C'est une cuisine typique de dortoirs."
 	dc.b	$FC
-	dc.b	"Elle est vraiment négligée !"
+	dc.b	"Oulà, c'est dégueulasse."
 	dc.b	$FF
 
 ; $27
@@ -317,7 +399,7 @@
 	dc.b	$01
 	dc.b	"Un registre des visiteurs."
 	dc.b	$FC
-	dc.b	"Devrions-nous le signer ?"
+	dc.b	"Devrions-nous écrire quelque chose ?"
 	dc.b	$FF
 
 ; $29
@@ -423,13 +505,15 @@
 	dc.b	$01
 	dc.b	"C'est un foyer."
 	dc.b	$FC
-	dc.b	"Aucun feu n'y brûle."
+	dc.b	"Ce serait sympa d'y avoir un feu."
 	dc.b	$FF
 
 ; $36
 	dc.b	$F4
 	dc.b	$01
 	dc.b	"Cette armoire contient des draps."
+	dc.b	$FC
+	dc.b	"Pas étonnant que ce soit déverrouillé."	
 	dc.b	$FF
 
 ; $37
@@ -468,14 +552,18 @@
 	dc.b	$F4
 	dc.b	$01
 	dc.b	"C'est une étagère."
+	dc.b	$FD
+	dc.b	"Wow, il y a un tas de livres académiques"
 	dc.b	$FC
-	dc.b	"Wow, il y a un tas de livres théoriques."
+	dc.b	"avec des titres un peu prétentieux."
 	dc.b	$FF
 
 ; $3C
 	dc.b	$F4
 	dc.b	$01
 	dc.b	"Cette table est parsemée de livres."
+	dc.b	$FC
+	dc.b	"Rien de très intéressant."
 	dc.b	$FF
 
 ; $3D
@@ -483,21 +571,21 @@
 	dc.b	$33, $01
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Un journal intime."
-	dc.b	$FC
-	dc.b	"Voyons voir..."
+	dc.b	"Un journal intime. Voyons voir..."
 	dc.b	$FD
 	dc.b	"« Pour une raison étrange, j'ai un mauvais"
 	dc.b	$FC
 	dc.b	"pressentiment. J'espère me tromper... »"
 	dc.b	$FD
-	dc.b	"C'est la dernière page du journal..."
+	dc.b	"C'est la dernière chose écrite."
+	dc.b	$FC
+	dc.b	"C'est triste..."
 	dc.b	$FF
 
 ; $3E
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Je pense qu'on ne devrait pas laisser"
+	dc.b	"Les gens ne devraient pas laisser"
 	dc.b	$FC
 	dc.b	"traîner un tel journal."
 	dc.b	$FF
@@ -509,7 +597,7 @@
 	dc.b	$01
 	dc.b	"C'est une cuisine..."
 	dc.b	$FD
-	dc.b	"Elle n'a pas l'air d'avoir beaucoup servi,"
+	dc.b	"Elle n'a pas l'air d'avoir beaucoup servi"
 	dc.b	$FC
 	dc.b	"récemment."
 	dc.b	$FF
@@ -519,39 +607,41 @@
 	dc.b	$01
 	dc.b	"C'est une cuisine."
 	dc.b	$FC
-	dc.b	"Elle est plutôt propre."
+	dc.b	"Elle est étincelante."
 	dc.b	$FF
 
 ; $41
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Ce n'est pas bien de fouiller dans les"
+	dc.b	"« Ce n'est pas bien de fouiller dans les"
 	dc.b	$FC
-	dc.b	"armoires des gens sans leur permission !"
+	dc.b	"armoires des gens sans leur permission ! »"
+	dc.b	$FD
+	dc.b	"J'entends toujours Alys dans ma tête"
+	dc.b	$FC
+	dc.b	"quand je pense à faire ça."
 	dc.b	$FF
 
 ; $42
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"C'est un grand miroir."
+	dc.b	"C'est un grand miroir..."
 	dc.b	$FC
-	dc.b	"Il est propre et brillant."
+	dc.b	"J'ai besoin d'aller chez le coiffeur."
 	dc.b	$FF
 
 ; $43
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"« Comment converser pour influencer"
+	dc.b	"« Comment converser avec les autres"
 	dc.b	$FC
-	dc.b	"et inspirer les gens »."
+	dc.b	"races d'Algol »."
 	dc.b	$FF
 
 ; $44
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"« Comment conclure une vente »."
-	dc.b	$FC
-	dc.b	"Un propriétaire studieux."
+	dc.b	"Un livre sur l'art de la vente."
 	dc.b	$FF
 
 ; $45
@@ -560,6 +650,8 @@
 	dc.b	$F4
 	dc.b	$01
 	dc.b	"C'est verrouillé de l'intérieur..."
+	dc.b	$FC
+	dc.b	"On ferait mieux de laisser ça."	
 	dc.b	$FF
 
 ; $46
@@ -633,31 +725,43 @@
 ; $4E
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"« L'histoire de Motavia »."
+	dc.b	"« L'histoire de Motavia: Partie 2 »."
 	dc.b	$FC
-	dc.b	"Ça n'a pas l'air commode !"
+	dc.b	"« Motavia était désertique jusqu'à"
+	dc.b	$FD
+	dc.b	"ce que Mother Brain ne terraforme la"
+	dc.b	$FC
+	dc.b	"planète en 852 AW »."
+	dc.b	$FD
+	dc.b	"Je pense que cette histoire explique"
+	dc.b	$FC
+	dc.b	"bien des choses sur notre monde..."		
 	dc.b	$FF
 
 ; $4F
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"« L'orthographe pour les nuls »..."
+	dc.b	"« Epeler comme on dit 1-2-3 »...?"
 	dc.b	$FF
 
 ; $50
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"« Un plus un, font... »"
-	dc.b	$FC
-	dc.b	"C'est mignon !"
+	dc.b	"« Compter comme on dit A-B-C »...?"
 	dc.b	$FF
 
 ; $51
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"La pensée du jour :"
+	dc.b	"« Paroles de sagesse d'aujourd'hui:"
 	dc.b	$FC
-	dc.b	"« Une bonne action chaque jour »."
+	dc.b	"Les actes de gentillesse spontanés."
+	dc.b	$FD
+	dc.b	"Toute bonne action que vous faites sans"
+	dc.b	$FC
+	dc.b	"penser à la récompense vous reviendra"
+	dc.b	$FD
+	dc.b	"décuplée. »"
 	dc.b	$FF
 
 ; $52
@@ -683,19 +787,19 @@
 ; $55
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"C'est un livre pour enfants :"
+	dc.b	"C'est un livre de science pour enfants :"
+	dc.b	$FD
+	dc.b	"« La biologie de notre vieille mère"
 	dc.b	$FC
-	dc.b	"« Le lapin gâté des prairies »..."
+	dc.b	"la Cervelle »."
 	dc.b	$FF
 
 ; $56
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Regardez-moi ce livre illustré !"
-	dc.b	$FD
-	dc.b	"« La fourmi à huit bras et l'araignée à"
+	dc.b	"C'est un livre de maths pour enfants :"
 	dc.b	$FC
-	dc.b	"six jambes »..."
+	dc.b	"« Combien avez-vous de Mesetas ? »"
 	dc.b	$FF
 
 ; $57
@@ -703,7 +807,11 @@
 	dc.b	$01
 	dc.b	"C'est un livre pour enfants :"
 	dc.b	$FC
-	dc.b	"« Golden Axe, volume 3 »..."
+	dc.b	"« Golden Axe, volume 3 »."
+	dc.b	$FD
+	dc.b	"J'ai lu cette série étant petit !"
+	dc.b	$FC
+	dc.b	"Mais le volume 3 était vraiment mauvais."
 	dc.b	$FF
 
 ; $58
@@ -711,15 +819,17 @@
 	dc.b	$01
 	dc.b	"Regardez-moi ce livre illustré !"
 	dc.b	$FC
-	dc.b	"« Les soldats de céramique »..."
+	dc.b	"« Le petit Numan qui pouvait »..."
 	dc.b	$FF
 
 ; $59
 	dc.b	$F4
 	dc.b	$01
 	dc.b	"C'est un livre pour enfants :"
+	dc.b	$FD
+	dc.b	"Il s'agit de quatre amis qui partent"
 	dc.b	$FC
-	dc.b	"« La reine dévoilée »..."
+	dc.b	"à l'aventure à Palma."
 	dc.b	$FF
 
 ; $5A
@@ -727,7 +837,11 @@
 	dc.b	$01
 	dc.b	"Regardez-moi ce livre illustré !"
 	dc.b	$FC
-	dc.b	"« Une journée de la vie d'Ecco »."
+	dc.b	"« Une plongée avec Ecco »."
+	dc.b	$FD
+	dc.b	"Je me souvient avoir aimé celui-là..."
+	dc.b	$FC
+	dc.b	"...mais je ne l'ai jamais fini."		
 	dc.b	$FF
 
 ; $5B
@@ -735,9 +849,9 @@
 	dc.b	$01
 	dc.b	"Regardez-moi ce livre illustré :"
 	dc.b	$FD
-	dc.b	"« Biographie du grand professeur"
+	dc.b	"« Professeur Lubetz et l'héritage"
 	dc.b	$FC
-	dc.b	"Lubetz »."
+	dc.b	"d'Algol »."
 	dc.b	$FF
 
 ; $5C
@@ -746,6 +860,10 @@
 	dc.b	"C'est un livre pour enfants :"
 	dc.b	$FC
 	dc.b	"« Cours, Sonic, cours ! »"
+	dc.b	$FD
+	dc.b	"C'était mon préféré !"
+	dc.b	$FC
+	dc.b	"« C'est le plus rapide du monde ! »"	
 	dc.b	$FF
 
 ; $5D
@@ -767,9 +885,13 @@
 ; $5F
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Ce livre semble ardu."
+	dc.b	"En lisant la jaquette, ce livre semble"
 	dc.b	$FC
-	dc.b	"Hmm... « Motavia, présent et futur »..."
+	dc.b	"assez sombre :"
+	dc.b	$FD
+	dc.b	"« La promesse perdue de la"
+	dc.b	$FC
+	dc.b	"Terraformation de Motavia »."
 	dc.b	$FF
 
 ; $60
@@ -794,6 +916,10 @@
 	dc.b	"Quel immense miroir... Hé !"
 	dc.b	$FD
 	dc.b	"Regardez, une photo de Hahn !"
+	dc.b	$FD
+	dc.b	"Il a l'air nerveux, probablement à l'idée"
+	dc.b	$FC
+	dc.b	"d'être pris en photo."
 	dc.b	$FF
 
 ; $63
@@ -827,19 +953,19 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Chaz !!!"
+	dc.b	"Chaz !!! J'ai dit non !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Bah ! Tu n'es pas marrante."
+	dc.b	"Bah ! T'es vraiment pas marrante."
 	dc.b	$FF
 
 ; $65
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Cette armoire est remplie de boissons"
+	dc.b	"Cette armoire est remplie de vin bon"
 	dc.b	$FC
-	dc.b	"gazeuses à l'orange."
+	dc.b	"marché."
 	dc.b	$FF
 
 ; $66
@@ -861,7 +987,9 @@
 ; $68
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Il y a plein de livres de recettes !"
+	dc.b	"Il y a plein de livres de recettes."
+	dc.b	$FC
+	dc.b	"« Pattes de criquet vert frites. »"
 	dc.b	$FF
 
 ; $69
@@ -885,7 +1013,9 @@
 ; $6B
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Ce doit être des provisions."
+	dc.b	"Un impressionnant assortiment de"
+	dc.b	$FC
+	dc.b	"médicaments."
 	dc.b	$FF
 
 ; $6C
@@ -937,19 +1067,27 @@
 ; $72
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Ce sont de banales boissons gazeuses."
+	dc.b	"Du vin... stocké dans un carton ?"
 	dc.b	$FF
 
 ; $73
 	dc.b	$F4
 	dc.b	$01
 	dc.b	"Il y a plein de livres sur l'ingénierie !"
+	dc.b	$FC
+	dc.b	"En voilà un :"
+	dc.b	$FD
+	dc.b	"« La technologie perdue de Palma. »"
+	dc.b	$FD
+	dc.b	"Wow, Ils avaient des robots humanoïdes ?"
 	dc.b	$FF
 
 ; $74
-	dc.b	"Tiens ? Un Parmanien."
+	dc.b	"Tiens ? Un Palmanien...!"
 	dc.b	$FD
-	dc.b	"Nous n'avons rien à vous vendre !"
+	dc.b	"Nous n'avons rien à vous vendre,"
+	dc.b	$FC
+	dc.b	"Blanc-bec !"
 	dc.b	$FF
 
 ; $75
@@ -977,7 +1115,7 @@
 	dc.b	$FF
 
 ; $78
-	dc.b	"Pourquoi êtes-vous ici, Parmaniens ?"
+	dc.b	"Pourquoi êtes-vous ici, Palmaniens ?"
 	dc.b	$FC
 	dc.b	"Allez-vous-en !"
 	dc.b	$FF
@@ -999,15 +1137,15 @@
 	dc.b	$FF
 
 ; $7B
-	dc.b	"Un Parmanien !"
+	dc.b	"Un Palmanien !"
 	dc.b	$FC
 	dc.b	"À... À l'aide !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Soyez sans crainte, je ne vous veux"
+	dc.b	"J'ai fait quelque chose de suspect ?"
 	dc.b	$FC
-	dc.b	"aucun mal."
+	dc.b	"Relax, je ne vais pas vous frapper !"
 	dc.b	$FF
 
 ; $7C
@@ -1015,7 +1153,9 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Quel impoli !"
+	dc.b	"Et bien, maintenant on sait ce que c'est"
+	dc.b	$FC
+	dc.b	"de se sentir comme un cafard."
 	dc.b	$FF
 
 ; $7D

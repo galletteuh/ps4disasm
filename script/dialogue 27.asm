@@ -92,32 +92,30 @@
 	dc.b	$FF
 
 ; $1F
-	dc.b	"Ceci est une sollicitation du concierge"
+	dc.b	"Ceci est une sollicitation du concierge des"
 	dc.b	$FC
-	dc.b	"des dortoires étudiants, à Piata."
+	dc.b	"dortoires étudiants, à Piata."
 	dc.b	$FD
 	dc.b	"« Une des étudiantes sous notre charge a"
 	dc.b	$FC
 	dc.b	"disparu. Retrouvez-la, s'il-vous-plaît ! »"
 	dc.b	$FD
-	dc.b	"Ceci complète le message."
-	dc.b	$FD
-	dc.b	"Ce travail n'est certainement pas le cali-"
+	dc.b	"Ce travail n'est certainement pas le"
 	dc.b	$FC
-	dc.b	"bre habituel pour un chasseur."
+	dc.b	"calibre habituel pour un chasseur."
 	dc.b	$FD
 	dc.b	"Le cachet est de 3000 meseta."
 	dc.b	$FC
 	dc.b	"Vous êtes preneur ?"
 	dc.b	$F5
 	dc.b	$01, $00
-	dc.b	"Je vois."
+	dc.b	"Je vois. Je suis sûr quelqu'un les"
 	dc.b	$FC
-	dc.b	"Dommage."
+	dc.b	"aidera..."
 	dc.b	$FF
 
 ; $20
-	dc.b	"Alors, veuillez vous diriger aux dortoirs"
+	dc.b	"Dans ce cas, allez aux dortoirs"
 	dc.b	$FC
 	dc.b	"étudiants de Piata et demandez les"
 	dc.b	$FD
@@ -125,7 +123,7 @@
 	dc.b	$FD
 	dc.b	"Les dortoirs sont dans le quartier"
 	dc.b	$FC
-	dc.b	"nord-ouest de Piata."
+	dc.b	"nord-ouest de la ville."
 	dc.b	$FF
 
 ; $21
@@ -141,15 +139,15 @@
 ; $22
 	dc.b	$F4
 	dc.b	$11
-	dc.b	"Selon le règlement de la Guilde, vous"
+	dc.b	"Selon le règlement de la Guilde, vous ne"
 	dc.b	$FC
-	dc.b	"ne pouvez postuler que pour une mission"
+	dc.b	"pouvez postuler que pour une mission"
 	dc.b	$FD
 	dc.b	"à la fois."
 	dc.b	$FD
-	dc.b	"Vous avez déjà postulé pour la mission"
+	dc.b	"Vous avez déjà postulé pour la mission du"
 	dc.b	$FC
-	dc.b	"du concierge des dortoirs de Piata."
+	dc.b	"concierge des dortoirs de Piata."
 	dc.b	$FD
 	dc.b	"Revenez quand vous aurez terminé votre"
 	dc.b	$FC
@@ -161,31 +159,31 @@
 	dc.b	$11
 	dc.b	"Bon travail."
 	dc.b	$FD
-	dc.b	"Mes félicitations pour votre travail bien"
+	dc.b	"Mes félicitations pour avoir résolu le"
 	dc.b	$FC
-	dc.b	"fait !"
+	dc.b	"problème !"
 	dc.b	$FD
 	dc.b	"Voici votre cachet de 3000 meseta."
 	dc.b	$FD
 	dc.b	"Revenez nous voir à la Guilde des Chas-"
 	dc.b	$FC
-	dc.b	"seurs, qui enrichit leur vie avec plaisir !"
+	dc.b	"seurs !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Je veux bien que le sort de Zio y était"
-	dc.b	$FC
-	dc.b	"pour quelque chose, mais comment"
+	dc.b	"Cette magie noire est effrayante."
 	dc.b	$FD
-	dc.b	"quelqu'un peut-il changer aussi"
+	dc.b	"Je préfère être mort que de ne pas être"
 	dc.b	$FC
-	dc.b	"radicalement ?"
+	dc.b	"maître de mes actions."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"C'est plutôt effrayant, quand on y"
+	dc.b	"Ne dis pas ça, Chaz ! Et nous sommes"
 	dc.b	$FC
-	dc.b	"pense !"
+	dc.b	"tous ensemble pour éviter d'avoir à"
+	dc.b	$FD
+	dc.b	"craindre ce genre de choses !"
 	dc.b	$FF
 
 ; $24
@@ -195,26 +193,24 @@
 	dc.b	$FD
 	dc.b	"« Mon fils est tombé dans une crevasse !"
 	dc.b	$FC
-	dc.b	"Veuillez le secourir ! »"
+	dc.b	"Calmez ma femme et sauvez mon fils"
 	dc.b	$FD
-	dc.b	"Ceci complète le message."
+	dc.b	"s'il vous plait ! »"
 	dc.b	$FD
 	dc.b	"Le cachet est de 5000 meseta."
 	dc.b	$FC
 	dc.b	"Vous êtes preneur ?"
 	dc.b	$F5
 	dc.b	$01, $00
-	dc.b	"Je vois."
+	dc.b	"Je vois. Je suis sûr quelqu'un les"
 	dc.b	$FC
-	dc.b	"Dommage."
+	dc.b	"aidera..."
 	dc.b	$FF
 
 ; $25
-	dc.b	"Alors, veuillez vous rendre à Monsen,"
+	dc.b	"Dans ce cas, allez à Monsen, et parlez à"
 	dc.b	$FC
-	dc.b	"pour obtenir les détails directement de la"
-	dc.b	$FD
-	dc.b	"part d'Eddie."
+	dc.b	"la femme d'Eddie."
 	dc.b	$FD
 	dc.b	"Sa maison est située dans le quartier est"
 	dc.b	$FC
@@ -226,9 +222,9 @@
 ; $26
 	dc.b	$F4
 	dc.b	$11
-	dc.b	"Selon le règlement de la Guilde, vous"
+	dc.b	"Selon le règlement de la Guilde, vous ne"
 	dc.b	$FC
-	dc.b	"ne pouvez postuler que pour une mission"
+	dc.b	"pouvez postuler que pour une mission"
 	dc.b	$FD
 	dc.b	"à la fois."
 	dc.b	$FD
@@ -246,7 +242,7 @@
 	dc.b	$11
 	dc.b	"Bon travail."
 	dc.b	$FD
-	dc.b	"Grâce à dieu, l'enfant était sain et sauf !"
+	dc.b	"Grâce à dieu, l'enfant a été sauvé !"
 	dc.b	$FD
 	dc.b	"Votre cachet de 5000 meseta nous a déjà"
 	dc.b	$FC
@@ -254,21 +250,19 @@
 	dc.b	$FD
 	dc.b	"Revenez nous voir à la Guilde des Chas-"
 	dc.b	$FC
-	dc.b	"seurs, qui enrichit leur vie avec plaisir !"
+	dc.b	"seurs !"
 	dc.b	$FF
 
 ; $28
-	dc.b	"Ceci est une sollicitation du chef du"
+	dc.b	"Ceci est une sollicitation du maire du"
 	dc.b	$FC
-	dc.b	"village d'Uzo, envoyée par la poste."
+	dc.b	"village d'Uzo, envoyée par la courrier."
 	dc.b	$FD
 	dc.b	"« Mes deux filles ont quitté le village et"
 	dc.b	$FC
-	dc.b	"ne sont pas revenues depuis."
+	dc.b	"ne sont pas revenues depuis. Merci de"
 	dc.b	$FD
-	dc.b	"Retrouvez-les, je vous en conjure... »"
-	dc.b	$FD
-	dc.b	"Ceci complète le message."
+	dc.b	"nous dire où elles se trouvent ! »"
 	dc.b	$FD
 	dc.b	"Le cachet, si vous les ramenez à la"
 	dc.b	$FC
@@ -285,15 +279,15 @@
 	dc.b	"Vous êtes preneur ?"
 	dc.b	$F5
 	dc.b	$01, $00
-	dc.b	"Je vois."
+	dc.b	"Je vois. Je suis sûr quelqu'un les"
 	dc.b	$FC
-	dc.b	"Dommage."
+	dc.b	"aidera..."
 	dc.b	$FF
 
 ; $29
-	dc.b	"Alors, veuillez vous rendre à Uzo pour"
+	dc.b	"Dans ce cas, allez à Uzo pouret parlez"
 	dc.b	$FC
-	dc.b	"tous les détails du chef du village."
+	dc.b	"au maire."
 	dc.b	$FD
 	dc.b	"Uzo est un village sur une île déserte,"
 	dc.b	$FC
@@ -305,23 +299,23 @@
 	dc.b	$79, $01
 	dc.b	$F4
 	dc.b	$11
-	dc.b	"Allez à Uzo pour les détails. Demandez-les"
+	dc.b	"Dépêchez-vous d'allez à Uzo pour détails"
 	dc.b	$FC
-	dc.b	"directement au chef du village."
+	dc.b	"après au maire du village."
 	dc.b	$FF
 
 ; $2B
 	dc.b	$F4
 	dc.b	$11
-	dc.b	"Selon le règlement de la Guilde, vous"
+	dc.b	"Selon le règlement de la Guilde, vous ne"
 	dc.b	$FC
-	dc.b	"ne pouvez postuler que pour une mission"
+	dc.b	"pouvez postuler que pour une mission"
 	dc.b	$FD
 	dc.b	"à la fois."
 	dc.b	$FD
-	dc.b	"Vous avez déjà postulé pour la mission"
+	dc.b	"Vous avez déjà postulé pour la mission du"
 	dc.b	$FC
-	dc.b	"du chef du village d'Uzo."
+	dc.b	"maire du village d'Uzo."
 	dc.b	$FD
 	dc.b	"Revenez quand vous aurez terminé votre"
 	dc.b	$FC
@@ -333,9 +327,9 @@
 	dc.b	$11
 	dc.b	"Bon travail."
 	dc.b	$FD
-	dc.b	"Mes félicitations pour votre travail"
+	dc.b	"Mes félicitations pour votre travail bien"
 	dc.b	$FC
-	dc.b	"bien fait !"
+	dc.b	"fait !"
 	dc.b	$FD
 	dc.b	"Votre cachet est la très généreuse"
 	dc.b	$FC
@@ -343,41 +337,49 @@
 	dc.b	$FD
 	dc.b	"Veuillez accepter ce montant."
 	dc.b	$FD
-	dc.b	"Vous semblez un peu déçus."
+	dc.b	"Vous semblez un peu amer."
 	dc.b	$FC
-	dc.b	"Y a-t-il un problème ?"
+	dc.b	"J'ai manqué qualque chose ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Euh, non, ce n'est rien..."
+	dc.b	"Euh, non, ce n'est rien... Merci."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$11
 	dc.b	"Je ne vois pas ce qui pourrait clocher !"
 	dc.b	$FC
-	dc.b	"Vous avez reçu votre cachet, non ?"
+	dc.b	"Vous avez reçu votre cachet comme"
 	dc.b	$FD
-	dc.b	"Revenez nous voir à la Guilde des Chas-"
-	dc.b	$FC
-	dc.b	"seurs, qui enrichit leur vie avec plaisir !"
+	dc.b	"convenu !"
+	dc.b	$FD
+	dc.b	"Revenez nous voir !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"J'ai l'impression de m'être fait avoir !"
+	dc.b	"Ahh, 50000 mesetas gagnés et perdus,"
+	dc.b	$FC
+	dc.b	"juste comme ça !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Rien de gagné, mais rien de perdu non"
+	dc.b	"Et bien, on a juste perdu un peu de"
 	dc.b	$FC
-	dc.b	"plus..."
+	dc.b	"temps, et on a aidé une famille à se"
 	dc.b	$FD
-	dc.b	"Laisse tomber pour cette fois-ci, Chaz."
+	dc.b	"réunir ! Tu devrais te consoler avec"
+	dc.b	$FC
+	dc.b	"ça, au moins."
+	dc.b	$FD
+	dc.b	$F4
+	dc.b	$01
+	dc.b	"Grrr..."
 	dc.b	$FF
 
 ; $2D
 	dc.b	"Ceci est une sollicitation de M. Culvers"
 	dc.b	$FC
-	dc.b	"de Torinco, envoyée par la poste."
+	dc.b	"de Torinco, envoyée par courrier."
 	dc.b	$FD
 	dc.b	"« Mon fils est malade. J'aimerais discuter"
 	dc.b	$FC
@@ -386,8 +388,6 @@
 	dc.b	"condition. Je vous expliquerai lors de"
 	dc.b	$FC
 	dc.b	"notre rencontre. »"
-	dc.b	$FD
-	dc.b	"Ceci complète le message."
 	dc.b	$FD
 	dc.b	"Le cachet est de 10 000 meseta."
 	dc.b	$FD
@@ -398,17 +398,17 @@
 	dc.b	"Vous êtes preneur ?"
 	dc.b	$F5
 	dc.b	$01, $00
-	dc.b	"Je vois."
+	dc.b	"Je vois. Je suis sûr quelqu'un les"
 	dc.b	$FC
-	dc.b	"Dommage."
+	dc.b	"aidera..."
 	dc.b	$FF
 
 ; $2E
-	dc.b	"Alors, veuillez vous rendre au village"
+	dc.b	"C'est très gentil de votre part ! Donc"
 	dc.b	$FC
-	dc.b	"de Torinco pour obtenir tous les détails,"
+	dc.b	"allez au village de Torinco pour obtenir"
 	dc.b	$FD
-	dc.b	"directement de M. Culvers."
+	dc.b	"tous les détails auprès de M. Culvers."
 	dc.b	$FD
 	dc.b	"Le village de Torinco est au sud de"
 	dc.b	$FC
@@ -422,15 +422,15 @@
 ; $2F
 	dc.b	$F4
 	dc.b	$11
-	dc.b	"Selon le règlement de la Guilde, vous"
+	dc.b	"Selon le règlement de la Guilde, vous ne"
 	dc.b	$FC
-	dc.b	"ne pouvez postuler que pour une mission"
+	dc.b	"pouvez postuler que pour une mission"
 	dc.b	$FD
 	dc.b	"à la fois."
 	dc.b	$FD
-	dc.b	"Vous avez déjà postulé pour la mission"
+	dc.b	"Vous avez déjà postulé pour la mission de"
 	dc.b	$FC
-	dc.b	"de M. Culvers de Torinco."
+	dc.b	"M. Culvers de Torinco."
 	dc.b	$FD
 	dc.b	"Revenez quand vous aurez terminé votre"
 	dc.b	$FC
@@ -448,7 +448,7 @@
 	dc.b	$FD
 	dc.b	"Revenez nous voir à la Guilde des Chas-"
 	dc.b	$FC
-	dc.b	"seurs, qui enrichit leur vie avec plaisir !"
+	dc.b	"seurs !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
@@ -474,8 +474,6 @@
 	dc.b	$FD
 	dc.b	"Exterminez-les... »"
 	dc.b	$FC
-	dc.b	"Ceci complète le message."
-	dc.b	$FD
 	dc.b	"Le cachet est de 20 000 meseta."
 	dc.b	$FD
 	dc.b	"Vous devrez traverser l'océan pour"
@@ -485,15 +483,15 @@
 	dc.b	"Vous êtes preneur ?"
 	dc.b	$F5
 	dc.b	$01, $00
-	dc.b	"Je vois."
+	dc.b	"Bien, je suis sûre qu'un chasseur s'en"
 	dc.b	$FC
-	dc.b	"Dommage."
+	dc.b	"occupera."
 	dc.b	$FF
 
 ; $32
-	dc.b	"Alors, veuillez vous rendre à Torinco,"
+	dc.b	"Dans ce cas allez à Torinco, et parlez"
 	dc.b	$FC
-	dc.b	"et demandez les détails à M. Sekreas."
+	dc.b	"à M. Sekreas."
 	dc.b	$FD
 	dc.b	"Le village de Torinco est au sud de"
 	dc.b	$FC
@@ -507,9 +505,9 @@
 ; $33
 	dc.b	$F4
 	dc.b	$11
-	dc.b	"Selon le règlement de la Guilde, vous"
+	dc.b	"Selon le règlement de la Guilde, vous ne"
 	dc.b	$FC
-	dc.b	"ne pouvez postuler que pour une mission"
+	dc.b	"pouvez postuler que pour une mission"
 	dc.b	$FD
 	dc.b	"à la fois."
 	dc.b	$FD
@@ -533,15 +531,15 @@
 	dc.b	$FC
 	dc.b	"demandeur."
 	dc.b	$FD
-	dc.b	"Ah ha ! C'est un de ces brigands qui ne"
+	dc.b	"...Oh non ! Cet homme vous a arnaqué ??"
 	dc.b	$FC
-	dc.b	"paie pas malgré le service obtenu ?"
+	dc.b	"On ne peut pas tolérer ça !"
 	dc.b	$FD
-	dc.b	"C'est un grave problème !"
-	dc.b	$FD
-	dc.b	"Nous devons nous occuper de cela rapide-"
+	dc.b	"Il suffit qu'une seule personne ne paie"
 	dc.b	$FC
-	dc.b	"ment, pour préserver notre réputation..."
+	dc.b	"pas pour déclencher une épidémie !"
+	dc.b	$FD
+	dc.b	"Il ne va pas s'en tirer comme ça !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
@@ -555,13 +553,17 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Il n'y a pas toujours une seule réponse"
+	dc.b	"Il y a pluieurs façons de résoudre un pro-"
 	dc.b	$FC
-	dc.b	"possible à toute chose."
+	dc.b	"blème, je suppose."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Chaz..."
+	dc.b	"Je suis heureuse que la ville et les"
+	dc.b	$FC
+	dc.b	"oiseaux s'en soient sortis !"
+	dc.b	$FD
+	dc.b	"Bon travail, Chaz !"
 	dc.b	$FF
 
 ; $35
@@ -577,13 +579,13 @@
 	dc.b	$FD
 	dc.b	"plusieurs problèmes."
 	dc.b	$FD
-	dc.b	"Les machines ne semblent pas hostiles"
+	dc.b	"Les machines n'ont attaqué personne"
 	dc.b	$FC
-	dc.b	"pour le moment, mais les villageois sont"
+	dc.b	"mais tout le monde a peur dans le village."
 	dc.b	$FD
-	dc.b	"inquiets et voudraient que ça cesse. »"
-	dc.b	$FD
-	dc.b	"Ceci complète le message."
+	dc.b	"On aimerait que quelqu'un enquête, pour"
+	dc.b	$FC
+	dc.b	"notre sécurité. »"
 	dc.b	$FD
 	dc.b	"Le cachet est un très généreux 80 000"
 	dc.b	$FC
@@ -592,15 +594,15 @@
 	dc.b	"Vous êtes preneur ?"
 	dc.b	$F5
 	dc.b	$01, $00
-	dc.b	"Je vois."
+	dc.b	"Je vois. Je suis sûr quelqu'un les"
 	dc.b	$FC
-	dc.b	"Dommage."
+	dc.b	"aidera..."
 	dc.b	$FF
 
 ; $36
-	dc.b	"Alors, veuillez vous rendre à Zema pour"
+	dc.b	"Dans ce cas, allez à Zema pour avoir les"
 	dc.b	$FC
-	dc.b	"les détails. Demandez à l'ancien."
+	dc.b	"détails auprès de ce gentleman."
 	dc.b	$FD
 	dc.b	"Sa maison se situe au fond de Zema."
 	dc.b	$FF
@@ -610,23 +612,23 @@
 	dc.b	$B3, $01
 	dc.b	$F4
 	dc.b	$11
-	dc.b	"Allez à Zema et parlez à l'ancien pour"
+	dc.b	"Dépêchez-vous d'allez à Zema et parlez"
 	dc.b	$FC
-	dc.b	"connaître tous les détails."
+	dc.b	"à l'ancien genteleman."
 	dc.b	$FF
 
 ; $38
 	dc.b	$F4
 	dc.b	$11
-	dc.b	"Selon le règlement de la Guilde, vous"
+	dc.b	"Selon le règlement de la Guilde, vous ne"
 	dc.b	$FC
-	dc.b	"ne pouvez postuler que pour une mission"
+	dc.b	"pouvez postuler que pour une mission"
 	dc.b	$FD
 	dc.b	"à la fois."
 	dc.b	$FD
-	dc.b	"Vous avez déjà postulé pour la mission"
+	dc.b	"Vous avez déjà postulé pour la mission de"
 	dc.b	$FC
-	dc.b	"de l'ancien de Zema."
+	dc.b	"l'ancien de Zema."
 	dc.b	$FD
 	dc.b	"Revenez quand vous aurez terminé votre"
 	dc.b	$FC
@@ -646,21 +648,19 @@
 	dc.b	$FC
 	dc.b	"m'être transmis. Le voici !"
 	dc.b	$FD
-	dc.b	"Revenez nous voir à la Guilde des Chas-"
-	dc.b	$FC
-	dc.b	"seurs, qui enrichit leur vie avec plaisir !"
-	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Nos actions semblent avoir des impacts"
+	dc.b	"Les amis, nous devons essayer de nous"	
 	dc.b	$FC
-	dc.b	"partout dans le monde."
+	dc.b	"rappeler que tout ce que nous faisons"
+	dc.b	$FD
+	dc.b	"peut avoir des conséquences imprévues..."	
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Alors, nous devons être prudent,"
+	dc.b	"Et les enjeux seront de plus en plus"
 	dc.b	$FC
-	dc.b	"n'est-ce pas, Chaz !"
+	dc.b	"importants, hein, Chaz ..."
 	dc.b	$FF
 
 ; $3A
