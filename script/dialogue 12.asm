@@ -23,9 +23,9 @@
 	dc.b	$FC
 	dc.b	"tremblements de terre récents ?"
 	dc.b	$FD
-	dc.b	"Peut-être quelque chose de fâcheux"
+	dc.b	"Peut-être quelque chose de grave se"
 	dc.b	$FC
-	dc.b	"se prépare..."
+	dc.b	"prépare..."
 	dc.b	$FF
 
 ; $3
@@ -45,13 +45,13 @@
 	dc.b	$FC
 	dc.b	"île sur terre, sans communication avec"
 	dc.b	$FD
-	dc.b	"les autres agglomérations."
+	dc.b	"les autres villes."
 	dc.b	$FF
 
 ; $5
-	dc.b	"Vous avez remarqué la Tour Ladea ?"
+	dc.b	"Vous avez vu la Tour Ladea ?"
 	dc.b	$FD
-	dc.b	"Elle se dresse sur la péninsule à l'est"
+	dc.b	"Elle se trouve sur la péninsule à l'est"
 	dc.b	$FC
 	dc.b	"d'ici."
 	dc.b	$FF
@@ -63,11 +63,11 @@
 	dc.b	$61, $01
 	dc.b	"Ah, vous vous dirigez vers la péninsule ?"
 	dc.b	$FC
-	dc.b	"Il y a un village nommé Termi là-bas,"
+	dc.b	"Il y a un village nommé Paseo là-bas,"
 	dc.b	$FD
 	dc.b	"mais... Avec ces sables mouvants, nous"
 	dc.b	$FC
-	dc.b	"ne pouvons pas nous y rendre."
+	dc.b	"ne pouvons pas y aller."
 	dc.b	$FD
 	dc.b	"J'espère qu'ils vont bien."
 	dc.b	$FF
@@ -77,7 +77,7 @@
 	dc.b	$FC
 	dc.b	"on dirait que les sables mouvants"
 	dc.b	$FD
-	dc.b	"s'atténuent !"
+	dc.b	"diminuent !"
 	dc.b	$FF
 
 ; $8
@@ -91,7 +91,7 @@
 	dc.b	$FD
 	dc.b	"Ils profitent de la situation pour"
 	dc.b	$FC
-	dc.b	"augmenter leurs prix !"
+	dc.b	"gonfler leurs prix !"
 	dc.b	$FF
 
 ; $9
@@ -99,7 +99,7 @@
 	dc.b	$FC
 	dc.b	"être certains que je n'achèterai plus"
 	dc.b	$FD
-	dc.b	"jamais quoi que ce soit à ce magasin !"
+	dc.b	"jamais rien à ce magasin !"
 	dc.b	$FF
 
 ; $A
@@ -114,9 +114,9 @@
 	dc.b	$FF
 
 ; $B
-	dc.b	"Oh, super, vous allez vous occuper de"
+	dc.b	"Oh, super, vous allez fair quelque chose"
 	dc.b	$FC
-	dc.b	"ces tremblements de terre ? Super !"
+	dc.b	"pour ces tremblements de terre ? Super !"
 	dc.b	$FF
 
 ; $C
@@ -140,19 +140,17 @@
 	dc.b	$61, $01
 	dc.b	"Avec tous ces tremblements de terre,"
 	dc.b	$FC
-	dc.b	"nos clients vont nous déserter... Soupir."
-	dc.b	$FD
-	dc.b	""
+	dc.b	"nous n'aurons plus de clients."
 	dc.b	$FF
 
 ; $E
 	dc.b	"Peut-être nous aurons quelques clients"
 	dc.b	$FC
-	dc.b	"dorénavant."
+	dc.b	"maintenant."
 	dc.b	$FF
 
 ; $F
-	dc.b	"Je suis un chasseur nomade."
+	dc.b	"Je suis un chasseur itinérant."
 	dc.b	$FD
 	dc.b	"C'est un vrai désastre ici, avec tous"
 	dc.b	$FC
@@ -172,7 +170,7 @@
 	dc.b	$FD
 	dc.b	"vers des sables... J'imagine qu'ils veulent"
 	dc.b	$FC
-	dc.b	"juste être prévenants."
+	dc.b	"seulement les protéger."
 	dc.b	$FF
 
 ; $11
@@ -194,17 +192,17 @@
 	dc.b	$FC
 	dc.b	"tremblements de terre ?"
 	dc.b	$FD
-	dc.b	"Ça restera à voir..."
+	dc.b	"Comment savez-vous ça ?"
 	dc.b	$FF
 
 ; $13
 	dc.b	"Mon fils et sa femme vivaient juste à"
 	dc.b	$FC
-	dc.b	"côté, malheureusement..."
+	dc.b	"côté, mais..."
 	dc.b	$FD
-	dc.b	"Ils ont levé l'ancre et quitté la ville,"
+	dc.b	"Ils sont partis de la ville, et nous ont"
 	dc.b	$FC
-	dc.b	"sans nous."
+	dc.b	"abandonnés ici."
 	dc.b	$FF
 
 ; $14
@@ -213,24 +211,18 @@
 	dc.b	"Ma belle-fille, elle est totalement"
 	dc.b	$FC
 	dc.b	"dévergondée !"
-	dc.b	$FD
-	dc.b	"Au fond, je suis heureuse qu'elle soit"
-	dc.b	$FC
-	dc.b	"partie."
 	dc.b	$FF
 
 ; $15
-	dc.b	"Au village de Termi, sur la péninsule,"
+	dc.b	"Au village de Paseo, sur la péninsule,"
 	dc.b	$FC
 	dc.b	"là-bas, je crois qu'ils adorent une"
 	dc.b	$FD
-	dc.b	"héroïne de la légende."
-	dc.b	$FC
-	dc.b	"Voyons... A... Ali... Ali..."
+	dc.b	"héroïne légendaire."
 	dc.b	$FD
-	dc.b	"Je crois qu'ils m'ont dis qu'elle s'appelait"
+	dc.b	"Voyons... A... Elisa... Alias..."
 	dc.b	$FC
-	dc.b	"Alis ?"
+	dc.b	"Ilea... C'était peut-être Alisa ?"
 	dc.b	$FF
 
 ; $16
@@ -238,11 +230,13 @@
 	dc.b	$65, $01
 	dc.b	$FA
 	dc.b	$61, $01
-	dc.b	"Ha, ha, ha ! Si le séisme a abimé vos"
+	dc.b	"Oh, bien ! ... Euh non je veux dire."
 	dc.b	$FC
-	dc.b	"affaires, vous n'avez qu'à en acheter"
+	dc.b	"Si le séisme a abimé vos affaires,"
 	dc.b	$FD
-	dc.b	"des neuves dans ma boutique !"
+	dc.b	"vous n'avez qu'à en acheter des"
+	dc.b	$FC
+	dc.b	"neuves dans ma boutique !"
 	dc.b	$FF
 
 ; $17
@@ -256,13 +250,23 @@
 	dc.b	$65, $01
 	dc.b	$FA
 	dc.b	$61, $01
-	dc.b	"Je n'arrive pas à croire que mon mari"
+	dc.b	"Mon mari fissure les outils qu'il vend"
 	dc.b	$FC
-	dc.b	"arnaque nos amis !"
+	dc.b	"afin qu'ils cassent facilement !"
+	dc.b	$FD
+	dc.b	"J'ai tellement honte que je ne peux pas"
+	dc.b	$FC
+	dc.b	"regarder les voisins en face !"
 	dc.b	$FF
 
 ; $19
-	dc.b	"C'est le châtiment de Dieu !"
+	dc.b	"Et bien... Je me suis fait tant d'argent"
+	dc.b	$FC
+	dc.b	"en vendant des outils modifiés."
+	dc.b	$FD	
+	dc.b	"Tant pis si nous avons perdu tous nos"
+	dc.b	$FC
+	dc.b	"acheteurs."
 	dc.b	$FF
 
 ; $1A
@@ -280,27 +284,31 @@
 	dc.b	$65, $01
 	dc.b	"Il y a une crevasse juste devant notre"
 	dc.b	$FC
-	dc.b	"maison. J'ai peur que les enfants tombent"
+	dc.b	"maison. J'ai peur que mes enfants"
 	dc.b	$FD
-	dc.b	"dedans."
+	dc.b	"finissent par tomber dedans un jour."
 	dc.b	$FF
 
 ; $1B
-	dc.b	"Oh non ! Mon fils jouait dehors et est"
+	dc.b	"Oh non ! Mes enfants jouaient au frizbee"
 	dc.b	$FC
-	dc.b	"tombé dans la crevasse !"
+	dc.b	"dehors et l'un d'eux est tombé dans la"
 	dc.b	$FD
-	dc.b	"Il y a plein de sons étranges venant de"
+	dc.b	"crevasse !"
+	dc.b	$FD
+	dc.b	"Il y a plein de bruits étranges qui"
 	dc.b	$FC
-	dc.b	"cette crevasse !"
+	dc.b	"sortent de là !"
 	dc.b	$FD
 	dc.b	"Alors je suis allée voir la Guilde pour"
 	dc.b	$FC
-	dc.b	"qu'ils m'aident,"
+	dc.b	"qu'ils m'aident, mais le chasseur n'est"
 	dc.b	$FD
-	dc.b	"mais le chasseur n'est toujours pas"
+	dc.b	"toujours pas venu !"
+	dc.b	$FD
+	dc.b	"Je continue à jeter de la nourriture"
 	dc.b	$FC
-	dc.b	"venu !"
+	dc.b	"mais il me faut vite de l'aide !"
 	dc.b	$FF
 
 ; $1C
@@ -328,13 +336,17 @@
 ; $20
 	dc.b	"Merci pour votre aide. Depuis cet"
 	dc.b	$FC
-	dc.b	"incident, je garde mon fils à mes côtés."
+	dc.b	"incident, j'ai juré de garder mon fils"
+	dc.b	$FD
+	dc.b	"près de moi à tout moment."
+	dc.b	$FC
+	dc.b	"Je le garderai en sécurité pour toujours !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Je crois que cette solution est assez"
+	dc.b	"C'est vraiment la seule leçon que vous en"
 	dc.b	$FC
-	dc.b	"discutable."
+	dc.b	"tirez ?"
 	dc.b	$FF
 
 ; $21
@@ -342,7 +354,7 @@
 	dc.b	$3D, $02
 	dc.b	$FA
 	dc.b	$2F, $01
-	dc.b	"Je me demande si on peut traverser de"
+	dc.b	"Je me demande si on peut passer de"
 	dc.b	$FC
 	dc.b	"l'autre côté de la planète en tombant"
 	dc.b	$FD
@@ -352,21 +364,21 @@
 ; $22
 	dc.b	$F4
 	dc.b	$25
-	dc.b	"Je voulais traverser de l'autre côté de"
+	dc.b	"Je voulais aller de l'autre côté de"
 	dc.b	$FC
 	dc.b	"la planète, alors je suis allé dans"
 	dc.b	$FD
-	dc.b	"la vallée. Mais ça débouchait nulle part !"
+	dc.b	"le trou. Mais ça débouchait nulle part !"
 	dc.b	$FC
-	dc.b	"Quelle déception !"
+	dc.b	"C'est pas drôle !"
 	dc.b	$FF
 
 ; $23
 	dc.b	$F4
 	dc.b	$25
-	dc.b	"Maman dit que je ne devrais plus aller"
+	dc.b	"Maman a jeté tous mes jouets et m'a dit"
 	dc.b	$FC
-	dc.b	"dehors ! Je m'ennuie."
+	dc.b	"de ne plus bouger d'ici."
 	dc.b	$FF
 
 ; $24
@@ -374,22 +386,22 @@
 	dc.b	$01
 	dc.b	"Que... Qu'est-ce que c'est ?"
 	dc.b	$FC
-	dc.b	"Il y a une telle caverne sous Monsen ?"
+	dc.b	"Il y a un tel souterrain sous Monsen ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Je me demande où diable Tallas se cache ?"
+	dc.b	"Je me demande où le gamin est passé ?"
 	dc.b	$FF
 
 ; $25
 	dc.b	$F3
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Des souliers d'enfant !"
+	dc.b	"Une chaussure d'enfant !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Je me demande si ce sont ceux de Tallas ?"
+	dc.b	"Je me demande si c'est au gamin ?"
 	dc.b	$FF
 
 ; $26
@@ -408,15 +420,15 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Quoi !"
+	dc.b	"Quoi ?"
 	dc.b	$FC
 	dc.b	"Ce truc t'avait vraiment mangé ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Le ciel soit loué !"
+	dc.b	"Dieu soit loué !"
 	dc.b	$FC
-	dc.b	"Tu semble indemne."
+	dc.b	"Tu as l'air d'aller bien."
 	dc.b	$FD
 	dc.b	"Ce truc t'aurais digéré si nous n'étions"
 	dc.b	$FC
@@ -424,13 +436,15 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$25
-	dc.b	"Ah oui, c'est vrai ! Une limace bizarre m'a"
+	dc.b	"Ah oui, c'est vrai ! Une limace bizarre"
 	dc.b	$FC
-	dc.b	"attaquée."
+	dc.b	"s'est jetée sur moi."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Euh, tu sais, on t'a sauvé la vie..."
+	dc.b	"J'espère que tu fera plus attention"
+	dc.b	$FC
+	dc.b	"quand tu iras jouer dehors."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$25
@@ -460,7 +474,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Viens, pitou !"
+	dc.b	"Viens, ici !"
 	dc.b	$F7
 
 	dc.b	$F4
@@ -477,7 +491,7 @@
 	dc.b	$01
 	dc.b	"Bon chien, bon chien."
 	dc.b	$FC
-	dc.b	"Tiens, voici ton mets favori, du gâteau."
+	dc.b	"Tiens, voici une friandise, du gâteau."
 	dc.b	$FD
 	dc.b	"Voilà notre chance."
 	dc.b	$FC
@@ -497,17 +511,19 @@
 	dc.b	$FC
 	dc.b	"Bien, je vous attendais !"
 	dc.b	$FD
-	dc.b	"Voyez-vous, mon fils Tallas jouait dehors,"
+	dc.b	"Voyez-vous, j'ai laissé mon fils jouer"
 	dc.b	$FC
-	dc.b	"mais il a soudainement disparu."
+	dc.b	"dehors, mais il a soudainement disparu."
 	dc.b	$FD
 	dc.b	"J'ai demandé aux voisins, et ils m'ont dit"
 	dc.b	$FC
 	dc.b	"qu'il est tombé dans la crevasse devant"
 	dc.b	$FD
 	dc.b	"la maison !"
+	dc.b	$FD
+	dc.b	"Depuis, je ne peux rien faire d'autre"
 	dc.b	$FC
-	dc.b	"Depuis, je ne peux rien faire."
+	dc.b	"que de lui envoyer de la nourriture."
 	dc.b	$FD
 	dc.b	"C'est sûr que je veux le secourir,"
 	dc.b	$FC
@@ -519,7 +535,7 @@
 	dc.b	$FF
 
 ; $2E
-	dc.b	"Merci de tout coeur ! En toute vérité,"
+	dc.b	"Merci de tout coeur ! En vérité,"
 	dc.b	$FC
 	dc.b	"j'avais perdu espoir."
 	dc.b	$FD
@@ -535,19 +551,17 @@
 ; $2F
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Ahh ! C'est quoi, ce truc ?"
+	dc.b	"Quelle limace dégoutante !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Oh non, Chaz, Tallas..."
+	dc.b	"Oh non, Chaz..."
 	dc.b	$FC
-	dc.b	"Ce monstre n'a pas..."
+	dc.b	"Ce monstre ne l'a pas..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Arrête, c'est de malchance de même y"
-	dc.b	$FC
-	dc.b	"penser !"
+	dc.b	"Arrête, N'y pense même pas !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
@@ -617,9 +631,7 @@
 
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Wow !"
-	dc.b	$FC
-	dc.b	"Que... Qu'est-ce que tu as, Gryz ?"
+	dc.b	"Wow ! Tout va bien Gryz ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
@@ -627,17 +639,17 @@
 	dc.b	$FD
 	dc.b	"Gryz a peur des séismes, n'est-ce pas,"
 	dc.b	$FC
-	dc.b	"Gryz ?"
+	dc.b	"pas vrai, Gryz ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Hein ? Sans rire ?"
+	dc.b	"Hein ? Vraiment ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$05
-	dc.b	"Et alors, qu'est-ce que ça peut faire ?"
+	dc.b	"C'est effrayant ! La terre peut vous"
 	dc.b	$FC
-	dc.b	"J'y peux rien !"
+	dc.b	"avaler d'un coup sans prévenir !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
@@ -648,13 +660,13 @@
 
 	dc.b	$F4
 	dc.b	$05
-	dc.b	"Ah, la ferme !"
-	dc.b	$FD
+	dc.b	"Eh, c'est pas sympa !"
+	dc.b	$FD	
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Quoi qu'il en soit, des séismes aussi"
+	dc.b	"On doit réfléchir à une solution pour"
 	dc.b	$FC
-	dc.b	"fréquents, c'est vraiment un problème."
+	dc.b	"s'occuper des tremblements de terre."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$07
@@ -695,9 +707,9 @@
 
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Hein ? Euh... C'est qu'on a beaucoup à"
+	dc.b	"Hein ? Euh... C'est qu'on est un peu"
 	dc.b	$FC
-	dc.b	"faire..."
+	dc.b	"occupés..."
 	dc.b	$F7
 
 	dc.b	"Je vous en prie. Vous devez faire cesser"
@@ -710,7 +722,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$00
-	dc.b	"Merci !"
+	dc.b	"Vous êtes nos héros !"
 	dc.b	$FF
 
 ; $41
@@ -804,7 +816,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Quel fauteur de trouble..."
+	dc.b	"Quel trouble-fête..."
 	dc.b	$FC
 	dc.b	"Cette fois-ci, je t'aurai !"
 	dc.b	$F7
@@ -822,8 +834,10 @@
 	dc.b	$F4
 	dc.b	$01
 	dc.b	"Bon chien, bon chien."
+	dc.b	$FD
+	dc.b	"Tiens, voici friandise préférée,"
 	dc.b	$FC
-	dc.b	"Tiens, voici ton mets favori, du gâteau."
+	dc.b	"du gâteau."
 	dc.b	$FD
 	dc.b	"Voilà notre chance."
 	dc.b	$FC

@@ -3,7 +3,7 @@
 	dc.b	$DE, $02
 	dc.b	$FA
 	dc.b	$94, $01
-	dc.b	"Cette ville s'appelle Ryuon."
+	dc.b	"Vous êtes arrivés à Ryuon."
 	dc.b	$FD
 	dc.b	"Si vous voulez vous amuser, vous êtes"
 	dc.b	$FC
@@ -43,53 +43,69 @@
 	dc.b	$DE, $02
 	dc.b	$FA
 	dc.b	$94, $01
-	dc.b	"Il y a un merveilleux prêtre très pieux"
+	dc.b	"Dans le temple au sud d'ici,Il y a un"
 	dc.b	$FC
-	dc.b	"qui habite dans le temple au sud d'ici."
+	dc.b	"prêtre vertueux, très pieux,"
+	dc.b	$FD
+	dc.b	"qui s'appelle Su Raja."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Merveilleux ? Pieux ? Ouais, c'est ça."
+	dc.b	"Raja, c'est possible que les Dezolisiens"
+	dc.b	$FC
+	dc.b	"aient une différente définition de"
+	dc.b	$FD
+	dc.b	"« vertueux » que nous ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
 	dc.b	"Je ne pense pas qu'ils te connaissent"
 	dc.b	$FC
-	dc.b	"très bien."
+	dc.b	"très bien, Raja."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$09
-	dc.b	"Quoi ? Je suis merveilleux et très pieux,"
+	dc.b	"Quoi ? Je suis vertueux et très pieux,"
 	dc.b	$FC
-	dc.b	"non ?"
+	dc.b	"et bien d'autres superlatifs !"
 	dc.b	$FF
 
 ; $4
-	dc.b	"Il y a un merveilleux prêtre très pieux"
+	dc.b	"Dans le temple au sud d'ici,Il y a un"
 	dc.b	$FC
-	dc.b	"qui habite dans le temple au sud d'ici."
+	dc.b	"prêtre vertueux, très pieux,"
+	dc.b	$FD
+	dc.b	"qui s'appelle Su Raja."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Je vous demande pardon, mais je n'arrive"
+	dc.b	"Hum, Je me demande quand nous verrons"
 	dc.b	$FC
-	dc.b	"pas à l'imaginer comme étant très pieux..."
+	dc.b	"son côté pieux..."
 	dc.b	$FF
 
 ; $5
-	dc.b	"Il y a un merveilleux prêtre très pieux"
+	dc.b	"Dans le temple au sud d'ici,Il y a un"
 	dc.b	$FC
-	dc.b	"qui habite dans le temple au sud d'ici."
+	dc.b	"prêtre vertueux, très pieux,"
+	dc.b	$FD
+	dc.b	"qui s'appelle Su Raja."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"J'avais entendu dire que les Dezolisiens"
+	dc.b	"De vieilles histoires disent que les"
 	dc.b	$FC
-	dc.b	"étaient menteurs..."
+	dc.b	"Dezolisiens sont des menteurs,"
+	dc.b	$FD
+	dc.b	"mais ce sont des balivernes !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$09
-	dc.b	"Bah ! Ce sont des médisances !"
+	dc.b	"Un vieux conte Motavien !"
+	dc.b	$FD
+	dc.b	"Tant que vous portez un chapeau"
+	dc.b	$FC
+	dc.b	"bizarre vous êtes toujours honnête !"
 	dc.b	$FF
 
 ; $6
@@ -103,87 +119,69 @@
 	dc.b	$95, $02
 	dc.b	$FA
 	dc.b	$94, $01
-	dc.b	"J'ai vu des Parmaniens de temps à autre,"
+	dc.b	"J'ai vu des Palmaniens de temps à autre,"
 	dc.b	$FC
-	dc.b	"mais jamais une fille avec des cornes !"
+	dc.b	"mais c'est la première fois que j'en"
+	dc.b	$FD
+	dc.b	"vois une avec des oreilles de chouette !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Oh ! Quel culôt !!!"
+	dc.b	"Oh ! J'en ai assez de parler de mes"
+	dc.b	$FC
+	dc.b	"oreilles !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$09
-	dc.b	"Ha, ha ! Je te l'avais dit, pour le commun"
+	dc.b	"Ha, ha ! Je te l'avais dit, Nous avons"
 	dc.b	$FC
-	dc.b	"des mortels, ça ressemble à des cornes !"
+	dc.b	"plein d'espèces de chouettes sur Dezolis."
+	dc.b	$FD
+	dc.b	"Elles ressemblent vraiment aux oreilles"
+	dc.b	$FC
+	dc.b	"de chouette !"
 	dc.b	$FF
 
 ; $7
-	dc.b	"J'ai vu des Parmaniens de temps à autre,"
+	dc.b	"J'ai vu des Palmaniens de temps à autre,"
 	dc.b	$FC
-	dc.b	"mais jamais une fille avec des cornes !"
+	dc.b	"mais c'est la première fois que j'en"
 	dc.b	$FD
-	dc.b	$F4
-	dc.b	$06
-	dc.b	"Aghh ! Quel culôt !!!"
+	dc.b	"vois une avec des oreilles de chouette !"
 	dc.b	$FF
 
 ; $8
-	dc.b	"J'ai vu des Parmaniens de temps à autre,"
+	dc.b	"J'ai vu des Palmaniens de temps à autre,"
 	dc.b	$FC
 	dc.b	"mais jamais une fille avec des cornes !"
-	dc.b	$FD
-	dc.b	$F4
-	dc.b	$06
-	dc.b	"Quel culôt !"
-	dc.b	$FD
-	dc.b	$F4
-	dc.b	$0A
-	dc.b	"Ha ha ha !"
-	dc.b	$FC
-	dc.b	"Calme-toi. Elles sont jolies."
 	dc.b	$FF
 
 ; $9
-	dc.b	"J'ai vu des Parmaniens de temps à autre,"
+	dc.b	"J'ai vu des Palmaniens de temps à autre,"
 	dc.b	$FC
-	dc.b	"mais jamais une fille avec des cornes !"
+	dc.b	"mais jamais une fille avec des oreilles"
 	dc.b	$FD
-	dc.b	$F4
-	dc.b	$06
-	dc.b	"Quel culôt !"
+	dc.b	"de lapin !"
 	dc.b	$FF
 
 ; $A
-	dc.b	"J'ai vu des Parmaniens de temps à autre,"
+	dc.b	"J'ai vu des Palmaniens de temps à autre,"
 	dc.b	$FC
-	dc.b	"mais jamais une fille avec des cornes !"
+	dc.b	"mais jamais une fille aussi peu habillée"
+	dc.b	$FC
+	dc.b	"comme ça !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Quel culôt !"
-	dc.b	$FD
-	dc.b	$F4
-	dc.b	$09
-	dc.b	"Ha, ha ! Je te l'avais dit, pour le commun"
+	dc.b	"Oh ! C'est simplement que j'ai les bons"
 	dc.b	$FC
-	dc.b	"des mortels, ça ressemble à des cornes !"
+	dc.b	"gènes !"
 	dc.b	$FF
 
 ; $B
-	dc.b	"J'ai vu des Parmaniens de temps à autre,"
+	dc.b	"J'ai vu des Palmaniens de temps à autre,"
 	dc.b	$FC
-	dc.b	"mais jamais une fille avec des cornes !"
-	dc.b	$FD
-	dc.b	$F4
-	dc.b	$06
-	dc.b	"Quel culôt !"
-	dc.b	$FD
-	dc.b	$F4
-	dc.b	$0A
-	dc.b	"Ha ha ha !"
-	dc.b	$FC
-	dc.b	"Calme-toi. Elles sont jolies."
+	dc.b	"mais jamais une fille avec ces attributs !"
 	dc.b	$FF
 
 ; $C
@@ -199,49 +197,53 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Raja est notre étrange compagnon de"
+	dc.b	"Dans ce cas, Raja a bien sa place parmi"
 	dc.b	$FC
-	dc.b	"voyage..."
+	dc.b	"nous..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$09
-	dc.b	"Pourquoi dis-tu des choses aussi"
+	dc.b	"Haha, je suis le plus normal du groupe."
 	dc.b	$FC
-	dc.b	"blessantes ? Je nous croyais amis."
+	dc.b	"Où est passé votre sens de l'humour ?"
 	dc.b	$FF
 
 ; $D
 	dc.b	"Oh? Ah, vous êtes les compagnons de"
 	dc.b	$FC
-	dc.b	"voyage étranges de Raja."
+	dc.b	"voyage de Raja."
 	dc.b	$FD
 	dc.b	"D'ailleurs, où est le très vénéré Raja ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Je vous le répète, Raja est notre"
+	dc.b	"C'est pas parceque c'est notre"
 	dc.b	$FC
-	dc.b	"étrange compagnon !"
+	dc.b	"compagnon de voyage qu'on doit être"
+	dc.b	$FD
+	dc.b	"collés ensembles !"
 	dc.b	$FF
 
 ; $E
 	dc.b	"Oh, très vénéré Raja ! Vous avez des"
 	dc.b	$FC
-	dc.b	"compagnons de voyage très étranges"
+	dc.b	"goûts très étranges pour choisir vos"
 	dc.b	$FD
-	dc.b	"aujourd'hui !"
+	dc.b	"compagnons de voyage !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Raja est notre étrange compagnon de"
+	dc.b	"C'est ça, et Raja est un modèle de"
 	dc.b	$FC
-	dc.b	"voyage..."
+	dc.b	"normalité..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$09
-	dc.b	"Pourquoi dis-tu des choses aussi"
+	dc.b	"Je ne comprends pas cet humour étrange."
 	dc.b	$FC
-	dc.b	"blessantes ? Je nous croyais amis."
+	dc.b	"Vos sarcasmes sont aussi drôles qu'un"
+	dc.b	$FD
+	dc.b	"mauvais calembour !"
 	dc.b	$FF
 
 ; $F
@@ -261,7 +263,9 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$09
-	dc.b	"Une tête vaut mieux que deux !"
+	dc.b	"Excellent, allons enquêter de suite sur"
+	dc.b	$FC
+	dc.b	"la situation du bar ."
 	dc.b	$FF
 
 ; $10
@@ -289,15 +293,15 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$09
-	dc.b	"Il faut une tête au lieu de deux !"
+	dc.b	"Je dis qu'on devrait enquêter plus"
+	dc.b	$FC
+	dc.b	"longtemps sur la situation du bar ."
 	dc.b	$FF
 
 ; $12
 	dc.b	$FA
 	dc.b	$A1, $01
-	dc.b	"Il n'y a rien à faire pour calmer cette"
-	dc.b	$FC
-	dc.b	"tempête de neige ?"
+	dc.b	"Quand la tempête va-t-elle cesser ?"
 	dc.b	$FF
 
 ; $13
@@ -311,65 +315,61 @@
 	dc.b	$DC, $02
 	dc.b	$FA
 	dc.b	$94, $01
-	dc.b	"Ah, vous êtes un Parmanien."
+	dc.b	"Ah, vous êtes un Palmanien."
 	dc.b	$FC
 	dc.b	"Vous venez de la ville de Tyler ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$09
-	dc.b	"Oh, non, ils ont volé de leurs propres"
+	dc.b	"Oh, non, ils ont volé depuis Motavia."
 	dc.b	$FC
-	dc.b	"ailes depuis Motavia."
+	dc.b	"Et ils ont les bras fatigués !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Arrgh !"
-	dc.b	$FD
-	dc.b	"Ce n'est pas bientôt fini, vieux"
-	dc.b	$FC
-	dc.b	"croûton ?!"
+	dc.b	"Ah, je n'en peux plus !"
 	dc.b	$FF
 
 ; $15
-	dc.b	"Ah, vous êtes un Parmanien."
+	dc.b	"Ah, vous êtes un Palmanien."
 	dc.b	$FC
 	dc.b	"Vous venez de la ville de Tyler ?"
 	dc.b	$FF
 
 ; $16
-	dc.b	"Ah, vous êtes un Parmanien."
+	dc.b	"Ah, vous êtes un Palmanien."
 	dc.b	$FC
 	dc.b	"Vous venez de la ville de Tyler ?"
 	dc.b	$FD
-	dc.b	"Il y a aussi des drôles de types qui"
+	dc.b	"Il y a aussi des types..."
 	dc.b	$FC
-	dc.b	"vous accompagnent..."
+	dc.b	"étrangers avec vous aussi..."
 	dc.b	$FF
 
 ; $17
 	dc.b	$FA
 	dc.b	$A1, $01
-	dc.b	"La Tour Garuberk est supposément"
+	dc.b	"La Tour Garuberk apparemment quelque"
 	dc.b	$FC
-	dc.b	"quelque part sur Dezolis..."
+	dc.b	"part sur Dezolis..."
 	dc.b	$FD
-	dc.b	"On dit qu'elle s'est érigée en une seule"
+	dc.b	"On dit qu'elle est apparue en une seule"
 	dc.b	$FC
-	dc.b	"nuit."
+	dc.b	"nuit, comme par magie."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"En une seule nuit... Cela me semble"
+	dc.b	"En une seule nuit... Cela me rappelle"
 	dc.b	$FC
-	dc.b	"plutôt familier !"
+	dc.b	"quelque chose..."
 	dc.b	$FF
 
 ; $18
 	dc.b	"Je viens d'entendre une rumeur que je"
 	dc.b	$FC
-	dc.b	"n'ose pas répéter..."
+	dc.b	"n'ose pas répéter... J'ai peur que ça"
 	dc.b	$FD
-	dc.b	"Ça ne peut pas être vrai, non ?"
+	dc.b	"devienne vrai !"
 	dc.b	$FF
 
 ; $19
@@ -377,7 +377,7 @@
 	dc.b	$9D, $02
 	dc.b	$FA
 	dc.b	$94, $01
-	dc.b	"Il y a plusieurs villes Parmaniennes sur"
+	dc.b	"Il y a plusieurs villes Palmaniennes sur"
 	dc.b	$FC
 	dc.b	"Dezolis, dont la ville de Tyler,"
 	dc.b	$FD
@@ -385,7 +385,7 @@
 	dc.b	$FC
 	dc.b	"Ce froid intense est très dur, même"
 	dc.b	$FD
-	dc.b	"pour nous. J'ai pitié des Parmaniens,"
+	dc.b	"pour nous. J'ai pitié des Palmaniens,"
 	dc.b	$FC
 	dc.b	"ce doit être horrible pour eux."
 	dc.b	$FD
@@ -395,7 +395,7 @@
 	dc.b	$FF
 
 ; $1A
-	dc.b	"Il y a plusieurs villes Parmaniennes sur"
+	dc.b	"Il y a plusieurs villes Palmaniennes sur"
 	dc.b	$FC
 	dc.b	"Dezolis, dont la ville de Tyler,"
 	dc.b	$FD
@@ -403,9 +403,9 @@
 	dc.b	$FC
 	dc.b	"Ce froid intense est très dur, même"
 	dc.b	$FD
-	dc.b	"pour nous. J'ai pitié des Parmaniens,"
+	dc.b	"pour nous. J'espère que ces pauvres"
 	dc.b	$FC
-	dc.b	"ce doit être horrible pour eux."
+	dc.b	"Palmaniens pourront traverser ça..."
 	dc.b	$FF
 
 ; $1B
@@ -413,9 +413,9 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Mouais, je trouve qu'il fait encore très"
+	dc.b	"Mouais, je me demande ce qu'est une"
 	dc.b	$FC
-	dc.b	"froid."
+	dc.b	"canicule ici..."
 	dc.b	$FF
 
 ; $1C
@@ -425,9 +425,15 @@
 	dc.b	$FC
 	dc.b	"Dezolisiens. C'est le centre de Dezolis,"
 	dc.b	$FD
-	dc.b	"et c'est un appui moral d'importance"
+	dc.b	"et c'est un appui pilier de la force"
 	dc.b	$FC
 	dc.b	"pour les Dezolisiens !"
+	dc.b	$FD	
+	dc.b	"La légende raconte que les Dézolisiens"
+	dc.b	$FC
+	dc.b	"ont initialement bâti une grande tour"
+	dc.b	$FD	
+	dc.b	"ici pour atteindre les cieux !"
 	dc.b	$FF
 
 ; $1D
@@ -445,7 +451,13 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Pas un mot de ça, Chaz."
+	dc.b	"Chut ! Chaz ! Nous avons déjà détruit le"
+	dc.b	$FC	
+	dc.b	"temple de Raja. Imaginez ce qu'ils"
+	dc.b	$FD
+	dc.b	"diraient s'ils pensaient qu'on a"
+	dc.b	$FC
+	dc.b	"détruit leur plus grand temple..."
 	dc.b	$FF
 
 ; $1E
@@ -453,15 +465,17 @@
 	dc.b	$9D, $01
 	dc.b	"Mmm. Je viens de terminer de pelleter la"
 	dc.b	$FC
-	dc.b	"neige."
+	dc.b	"neige. Et ne dites pas que je fais ça"
+	dc.b	$FD
+	dc.b	"pour rien ! Si j'arrête on finira tous"
+	dc.b	$FC
+	dc.b	"ensevelis !"
 	dc.b	$FF
 
 ; $1F
 	dc.b	"Mmm. Je viens de terminer de pelleter la"
 	dc.b	$FC
 	dc.b	"neige."
-	dc.b	$FD
-	dc.b	"Pelleter, c'est mon travail quotidien !"
 	dc.b	$FF
 
 ; $20
@@ -475,27 +489,19 @@
 	dc.b	$FD
 	dc.b	"toute cette neige."
 	dc.b	$FD
-	dc.b	"La glace bloque les routes à plusieurs"
+	dc.b	"De vrais murs de glace bloquent les"
 	dc.b	$FC
-	dc.b	"endroits."
+	dc.b	"routes."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$09
-	dc.b	"La nuit, nous nous blotissons sans bruit,"
+	dc.b	"Donc à moins que'on ne casse la glace,"
 	dc.b	$FC
-	dc.b	"et nous répétons que la grâce est dans"
-	dc.b	$FD
-	dc.b	"la glace..."
-	dc.b	$FC
-	dc.b	"Pas mal, non ?"
+	dc.b	"on est dans une impasse..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"J'abandonne..."
-	dc.b	$FD
-	dc.b	$F4
-	dc.b	$09
-	dc.b	"Ha ha ha !"
+	dc.b	"...Très utile comme remarque..."
 	dc.b	$FF
 
 ; $21
@@ -505,41 +511,15 @@
 	dc.b	$FD
 	dc.b	"toute cette neige."
 	dc.b	$FD
-	dc.b	"La glace bloque les routes à plusieurs"
-	dc.b	$FC
-	dc.b	"endroits."
-	dc.b	$FD
-	dc.b	$F4
-	dc.b	$09
-	dc.b	"La neige blanche, favorise le frottage"
-	dc.b	$FC
-	dc.b	"des hanches."
-	dc.b	$FD
-	dc.b	"Nous nous blotissons sans bruit toute"
-	dc.b	$FC
-	dc.b	"la nuit, en répêtant que la glace amène"
-	dc.b	$FD
-	dc.b	"rapidement la grâce... Encore mieux,"
-	dc.b	$FC
-	dc.b	"non ?"
-	dc.b	$FD
-	dc.b	$F4
-	dc.b	$01
-	dc.b	"... D'accord, d'accord !"
-	dc.b	$FC
-	dc.b	"J'ai dit que j'abandonne !"
+	dc.b	"La glace bloque les routes !"
 	dc.b	$FF
 
 ; $22
-	dc.b	"Les moyens de transports hors de la"
+	dc.b	"Je dois encore briser les congères,"
 	dc.b	$FC
-	dc.b	"ville ne sont pas fiables à cause de"
+	dc.b	"j'en ai marre d'être bloqué !"
 	dc.b	$FD
-	dc.b	"toute cette neige."
-	dc.b	$FD
-	dc.b	"La glace bloque les routes à plusieurs"
-	dc.b	$FC
-	dc.b	"endroits."
+	dc.b	"Les routes sont toujours bloquées..."
 	dc.b	$FF
 
 ; $23
@@ -557,15 +537,11 @@
 	dc.b	$94, $01
 	dc.b	"Oh, vénérable Raja !"
 	dc.b	$FD
-	dc.b	"Merci à vous de nous éclairer de votre"
+	dc.b	"Ça nous fait tellement plaisir quand vous"
 	dc.b	$FC
-	dc.b	"humour délectable."
+	dc.b	"venez nous partager votre esprit"
 	dc.b	$FD
-	dc.b	$F4
-	dc.b	$01
-	dc.b	"J'ai l'impression d'être incapable de dé-"
-	dc.b	$FC
-	dc.b	"chiffrer le sens de l'humour Dezolisien..."
+	dc.b	"affuté."
 	dc.b	$FF
 
 ; $25
@@ -573,7 +549,7 @@
 	dc.b	$FC
 	dc.b	"grand-prêtre merveilleux tel que vous"
 	dc.b	$FD
-	dc.b	"dans notre humble patelin..."
+	dc.b	"dans notre patelin reculé..."
 	dc.b	$FC
 	dc.b	"Semble un tel gâchis."
 	dc.b	$FF
@@ -581,21 +557,23 @@
 ; $26
 	dc.b	"Oh, vénérable Raja !"
 	dc.b	$FD
-	dc.b	"Merci à vous de nous éclairer de votre"
+	dc.b	"Merci à vous de nous amuser avec votre"
 	dc.b	$FC
-	dc.b	"humour délectable."
+	dc.b	"esprit affuté."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"... J'ai l'impression d'être incapable de dé-"
+	dc.b	"... L'esprit affuté de Raja est aussi "
 	dc.b	$FC
-	dc.b	"chiffrer le sens de l'humour Dezolisien..."
+	dc.b	"tranchant qu'un sac de sable..."
 	dc.b	$FF
 
 ; $27
-	dc.b	"Quel plaisir de s'asseoir devant le feu"
+	dc.b	"Quel plaisir de s'asseoir devant le feu et"
 	dc.b	$FC
-	dc.b	"et de s'abreuver des paroles de Gyuna..."
+	dc.b	"de s'abreuver des paroles de Gyuna..."
+	dc.b	$FD
+	dc.b	"...avec son vieil accent !"
 	dc.b	$FD
 	dc.b	"Cette auberge est notre lieu de détente."
 	dc.b	$FF

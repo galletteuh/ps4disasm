@@ -152,7 +152,7 @@
 	dc.b	$19
 	dc.b	"Quelle surprise, vous avez réussi à"
 	dc.b	$FC
-	dc.b	"obtenir cet objet..."
+	dc.b	"obtenir cet objet...!"
 	dc.b	$FD
 	dc.b	"Comptez sur le vénéré Cinquième pour"
 	dc.b	$FC
@@ -164,19 +164,19 @@
 ; $2A
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Ici, c'est le sanctuaire intérieur, et"
+	dc.b	"Ici, c'est le sanctuaire intérieur, et plus"
 	dc.b	$FC
-	dc.b	"plus loin..."
+	dc.b	"loin..."
 	dc.b	$FD
-	dc.b	"Il y a une chambre appelée la Chambre"
+	dc.b	"Il y a une chambre appelée la Chambre de"
 	dc.b	$FC
-	dc.b	"de Lutz."
+	dc.b	"Lutz."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"Exact. Alors, le temps est venu !"
+	dc.b	"Exact. J'y crois pas, nous allons"
 	dc.b	$FC
-	dc.b	"Enfin, nous pourrons rencontrer Lutz !"
+	dc.b	"rencontrer Lutz !"
 	dc.b	$FD
 	dc.b	"Oh là là ! Mes vêtements sont propres ?"
 	dc.b	$FC
@@ -186,23 +186,21 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Je me demande quel genre de personne"
+	dc.b	"A quoi une personne de 2000 ans peut"
 	dc.b	$FC
-	dc.b	"est-il ?"
-	dc.b	$FD
-	dc.b	"Qu'en penses-tu, Chaz ?"
+	dc.b	"ressembler  ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
 	dc.b	"Hum, Lutz..."
 	dc.b	$FC
-	dc.b	"Le magicien légendaire..."
+	dc.b	"Le Sage d'Algol..."
 	dc.b	$FF
 
 ; $2B
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Là, laisses-moi te guérir."
+	dc.b	"Là, laisses Rika te soigner."
 	dc.b	$FC
 	dc.b	"Ensuite, vas-y !"
 	dc.b	$FF
@@ -213,13 +211,17 @@
 ; $2D
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Chaz... ressaisis-toi !"
+	dc.b	"Chaz... Tu peux le faire, je le sais !"
+	dc.b	$FC
+	dc.b	"Va voir ce qu'il y a là dedans !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Les êtres humains sont bien difficiles à"
+	dc.b	"Ton objectif est au delà de cette entrée,"
 	dc.b	$FC
-	dc.b	"comprendre."
+	dc.b	"mais vous, vous restez ici."
+	dc.b	$FD
+	dc.b	"Les êtres humains sont bien compliqués."
 	dc.b	$FF
 
 ; $2E
@@ -243,19 +245,17 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"Espèce de gros balourd têtu !"
+	dc.b	"Tsss. Pantin sans cervelle !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Laissez-la entrer !"
+	dc.b	"Ça suffit, laissez-la entrer !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$17
-	dc.b	"Comment osez-vous ! Je ne peux..."
+	dc.b	"Comment osez-vous ! Je ne vais pas..."
 	dc.b	$FD
-	dc.b	"Hé !"
-	dc.b	$FD
-	dc.b	"Ah, c'est... c'est vous !"
+	dc.b	"Oh ! Ma parole ! Oui, bien sûr !"
 	dc.b	$FD
 	dc.b	"Excusez mon impolitesse !"
 	dc.b	$FC
@@ -263,7 +263,9 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Rune... ?"
+	dc.b	"Ces types trouvent-ils vraiment que"
+	dc.b	$FC
+	dc.b	"Rune fait figure d'autorité ?"
 	dc.b	$FF
 
 ; $2F
@@ -278,13 +280,13 @@
 
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Lutz n'est pas ici... Il n'est plus de ce"
+	dc.b	"Lutz n'est pas ici... Il a quitté le monde"
 	dc.b	$FC
-	dc.b	"monde depuis longtemps !"
+	dc.b	"des vivants depuis longtemps !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"Comment ?"
+	dc.b	"Quoi ? Qu'est-ce que vous en savez ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
@@ -300,9 +302,9 @@
 	dc.b	$FC
 	dc.b	"propres yeux !"
 	dc.b	$FD
-	dc.b	"De plus...de plus... Nous avons tous la"
+	dc.b	"De plus...de plus... Nous sommes des"
 	dc.b	$FC
-	dc.b	"foi, pas vrai ?"
+	dc.b	"croyants, pas vrai ?"
 	dc.b	$FD
 	dc.b	"Nous croyons dans la légende des Espers,"
 	dc.b	$FC
@@ -318,47 +320,53 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Kyra ! Calme-toi... c'est vrai que Lutz"
+	dc.b	"Kyra ! Calme-toi..."
 	dc.b	$FC
-	dc.b	"n'est plus de ce monde."
+	dc.b	"J'ai dit « Le monde des vivants »."
 	dc.b	$FD
-	dc.b	"Mais même si son corps n'est plus,"
+	dc.b	"Lutz était trop imbriqué avec la force"
 	dc.b	$FC
-	dc.b	"son esprit vit toujours."
+	dc.b	"vitale d'Algol pour disparaître"
+	dc.b	$FD
+	dc.b	"complètement."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Comment ?"
+	dc.b	"Je ne comprends pas..."
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$0100
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Avant de mourir, il a stocké sa volonté"
+	dc.b	"Avant de mourir, il a stocké sa volonté et"
 	dc.b	$FC
-	dc.b	"et sa mémoire dans la Boule Télépathique."
+	dc.b	"sa mémoire dans la Boule Télépathique."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Donc... vous dites que cette Boule est,"
+	dc.b	"Alors... vous dites que cette Boule"
 	dc.b	$FC
-	dc.b	"en fait, Lutz ?"
+	dc.b	"lumineuse... est Lutz ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Non. Il n'est plus là. Mais si la personne"
+	dc.b	"Non. Pas en ce moment."
 	dc.b	$FC
-	dc.b	"choisie s'approche, la volonté et la"
+	dc.b	"Mais quand l'élu s'approche, la volonté et"
 	dc.b	$FD
-	dc.b	"mémoire de Lutz lui seront transmises."
+	dc.b	"la mémoire de Lutz lui seront transmises."
+	dc.b	$FD
+	dc.b	"Mais seulement quand le moment est"
+	dc.b	$FC
+	dc.b	"venu."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"Personne choisie... ?"
+	dc.b	"L'élu...?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Donc..."
+	dc.b	"Le moment est maintenant... donc... !"
 	dc.b	$F2, $02
 	dc.b	$F9
 	dc.b	$B3
@@ -368,7 +376,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Attendez !"
+	dc.b	"Attendez...!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
@@ -376,41 +384,97 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$19
-	dc.b	"C'est exact. Rune Walsh..."
+	dc.b	"D'une certaine façon, oui."
+	dc.b	$FD
+	dc.b	"Rune Walsh a réussi toutes les épreuves."
 	dc.b	$FC
-	dc.b	"Est le Cinquième Lutz."
+	dc.b	"Il est la Cinquième génération de Lutz."
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$0102
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"Vous... vous êtes... Lutz... ?"
+	dc.b	"Attendez... alors vous dites vous êtes"
 	dc.b	$FC
-	dc.b	"Comment est-ce..."
+	dc.b	"vraiment LE Mizeris Lutz Isa Lanai...?"
+	dc.b	$FD
+	dc.b	"Comment est-ce possible...??"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Écoute bien, Chaz."
+	dc.b	"Il y a des années, celui que vous"
+	dc.b	$FC
+	dc.b	"connaissez sous le nom de Zio et moi"
+	dc.b	$FD
+	dc.b	"avons cherché à obtenir cet honneur."
+	dc.b	$FD
+	dc.b	"Lui était calme, froid... très froid."
+	dc.b	$FC
+	dc.b	"Et moi j'étais... eh bien... moi."
+	dc.b	$FD
+	dc.b	"Nous étions le feu et la glace."
+	dc.b	$FD
+	dc.b	"Il m'a dit qu'il gagnerait par tous les"
+	dc.b	$FC
+	dc.b	"moyens nécessaires."
+	dc.b	$FD
+	dc.b	"Et il a essayé. Mes... hum, manières ont"
+	dc.b	$FC
+	dc.b	"failli me faire perdre,"
+	dc.b	$FD
+	dc.b	"mais j'ai été choisi à la fin."
+	dc.b	$FD
+	dc.b	"Il a juré de se venger, puis il a disparu."
+	dc.b	$FC
+	dc.b	"Et j'ai juré de garder Zio sous contrôle."
+	dc.b	$FD
+	dc.b	$F4
+	dc.b	$01
+	dc.b	"Oh, c'est donc pour ça que vous avez"
+	dc.b	$FC
+	dc.b	"atterri sur Motavia."	
+	dc.b	$FD
+	dc.b	"Au fait, comment avez vous fait pour"
+	dc.b	$FC
+	dc.b	"arriver là ?"
+	dc.b	$FD
+	dc.b	$F4
+	dc.b	$04
+	dc.b	"Les Espers possèdent de nombreux"
+	dc.b	$FC
+	dc.b	"secrets d'Algol... mais ils ne sont pas"
+	dc.b	$FD
+	dc.b	"omniscients."
+	dc.b	$FD
+	dc.b	"J'ai pris sur moi de l'arrêter, seul..."
+	dc.b	$FC
+	dc.b	"et... J'étais orgueilleux."
+	dc.b	$FD
+	dc.b	"L'orgueil peut vous coûter ce que vous"
+	dc.b	$FC
+	dc.b	"avez de plus cher."
+	dc.b	$FD
+	dc.b	"Tu m'as montré à quel point j'avais tort,"
+	dc.b	$FC
+	dc.b	"Chaz. Alors il est temps que tu saches..."
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$0103
 	dc.b	"Depuis les temps immémoriaux dans le"
 	dc.b	$FC
-	dc.b	"système Algo, il y a un cycle de calamités"
+	dc.b	"système Algol, il y a un cycle de calamités"
 	dc.b	$FD
 	dc.b	"qui se répète tous les mille ans."
 	dc.b	$FD
 	dc.b	"La cause est l'incarnation du mal appelée"
 	dc.b	$FC
-	dc.b	"Dark Force, qui ressuscite tous les mille"
-	dc.b	$FD
-	dc.b	"ans !"
+	dc.b	"Dark Force, qui ressuscite."
 	dc.b	$FD
 	dc.b	"Jusqu'ici, durant chaque cycle, un individu"
 	dc.b	$FC
 	dc.b	"courageux vainquit le mal pour préserver"
 	dc.b	$FD
-	dc.b	"la paix."
+	dc.b	"la paix pour mille ans de plus."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
@@ -418,9 +482,9 @@
 	dc.b	$FC
 	dc.b	"Kuran, c'est sûr !"
 	dc.b	$FD
-	dc.b	"Pourtant, il n'y a pas d'amélioration des"
+	dc.b	"Pourtant, Algol continue d'enchaîner les"
 	dc.b	$FC
-	dc.b	"conditions climatiques à travers Algo !"
+	dc.b	"calamités les unes après les autres !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
@@ -428,27 +492,39 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Algo a été destabilisé il y a mille ans par"
+	dc.b	"Algol a été secoué lors du dernier cycle."
 	dc.b	$FC
-	dc.b	"l'explosion de Parma."
+	dc.b	"Les forces des ténèbres ont corrompu"
+	dc.b	$FD
+	dc.b	"tout le système."
+	dc.b	$FC
+	dc.b	"Pire, ils ont détruit Palma, notre"
+	dc.b	$FD
+	dc.b	"capitale scientitique, philosophique,"
+	dc.b	$FC
+	dc.b	"culturelle, et gouvernementale."
 	dc.b	$FD
 	dc.b	"L'équilibre précaire qui avait été"
 	dc.b	$FC
-	dc.b	"maintenu jusqu'alors fut bouleversé."
+	dc.b	"maintenu jusqu'ici, tout le progrès"
 	dc.b	$FD
-	dc.b	"C'est probablement la raison pour"
+	dc.b	"d'Algol, a été endommagé pour toujours."
+	dc.b	$FD
+	dc.b	"C'est peut-être à cause de ces"
 	dc.b	$FC
-	dc.b	"laquelle nous pouvons toujours percevoir"
+	dc.b	"évènements que l'Onde d'Énergie Noire"
 	dc.b	$FD
-	dc.b	"l'Onde d'Énergie Noire."
+	dc.b	"persite encore."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Tu veux dire que Dark Force a survécu ?!"
+	dc.b	"Tu veux dire que Dark Force est encore"
+	dc.b	$FC
+	dc.b	"derrière tout ça ?!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Je... je n'en suis pas sûr."
+	dc.b	"Je ne peux pas le dire avec certitude."
 	dc.b	$FD
 	dc.b	$F2, $02
 	dc.b	$F2, $00
@@ -457,35 +533,41 @@
 	dc.b	$FC
 	dc.b	"du mal existe encore !"
 	dc.b	$FD
-	dc.b	"La seule chose à faire est de la"
+	dc.b	"La seule chose à faire est de persister"
 	dc.b	$FC
-	dc.b	"détruire ! Je t'ai choisi, Chaz !"
+	dc.b	"et de la détruire !"
+	dc.b	$FD
+	dc.b	"...Je t'ai choisi, Chaz."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Qui, moi ?!"
+	dc.b	"Moi ?!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Je t'ai choisi. Tu est le soldat qui livrera"
+	dc.b	"Je t'ai choisi comme étant le héro de"
 	dc.b	$FC
-	dc.b	"l'ultime combat !"
+	dc.b	"cette génération qui livrera"
+	dc.b	$FD
+	dc.b	"l'inévitable et décisif combat !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Pourquoi... pourquoi moi ?"
+	dc.b	"Quoi ?? Pourquoi... moi ??"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Je perçois ton potentiel."
-	dc.b	$FD
-	dc.b	"Nous saurons bientôt si mon intuition se"
+	dc.b	"Je sens que tu est un homme avec du"
 	dc.b	$FC
-	dc.b	"confirme, Chaz."
+	dc.b	"potentiel, Chaz. Et..."
+	dc.b	$FD
+	dc.b	"Alys croyait en toi. Nous saurons"
+	dc.b	$FC
+	dc.b	"bientôt si notre jugement est correct."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Ouais, super..."
+	dc.b	"Bon sang, aucune pression, merci !"
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$0105
@@ -495,19 +577,21 @@
 	dc.b	$FC
 	dc.b	"Désolé d'avoir gardé tout cela pour moi."
 	dc.b	$FD
-	dc.b	"Nous pouvons continuer à travailler"
+	dc.b	"Je sais qu'une légende ne devrait pas se"
 	dc.b	$FC
-	dc.b	"ensemble ?"
+	dc.b	"moquer des héros à propos de leur taille."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Euh, oui, oui..."
+	dc.b	"Euh, ouais, parmi tes nombreuses autres"
+	dc.b	$FC
+	dc.b	"qualités qui ne sont pas Lutziennes."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
 	dc.b	"Bien ! Nous devons nous diriger vers la"
 	dc.b	$FC
-	dc.b	"Tour Garuberk !"
+	dc.b	"Tour Garuberk."
 	dc.b	$FD
 	dc.b	"C'est là que nous trouverons la réponse"
 	dc.b	$FC
@@ -539,61 +623,63 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Allons-y. Allez, Chaz, ressaisis-toi !"
+	dc.b	"Allons-y. Allez, Chaz, arrête d'avoir cet"
+	dc.b	$FC
+	dc.b	"air ahuri !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
 	dc.b	"Je suis déçue de voir que Lutz est si"
 	dc.b	$FC
-	dc.b	"indélicat !"
+	dc.b	"insensible !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Navré, j'ai toujours été comme ça !"
+	dc.b	"Désolé. L'influence du Sage ne va pas"
+	dc.b	$FC
+	dc.b	"plus loin avec moi. "
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"Ouiiiin."
+	dc.b	"Hélas !"
 	dc.b	$FF
 
 ; $30
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Chaz, l'épée sacrée, Elsydeon,"
-	dc.b	$FC
-	dc.b	"t'attends !"
+	dc.b	"Chaz, Elsydeon, t'attends !"
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$0128
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Elsydeon ?"
+	dc.b	"C'est qui cette personne ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Il s'agit sans doute de la seule arme"
+	dc.b	"Elsydeon est notre seul espoir contre"
 	dc.b	$FC
-	dc.b	"capable de détruire la Noirceur"
+	dc.b	"les Ténèbres Profonds."
 	dc.b	$FD
-	dc.b	"Profonde ! Va, Chaz... seul !"
+	dc.b	"C'est pourquoi, tu dois rencontrer"
 	dc.b	$FC
-	dc.b	"Va et fait face à Elsydeon !"
+	dc.b	"Elsydeon !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Faire face à Elsydeon ?"
+	dc.b	"Rencontrer Elsydeon ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Exact. Et tu trouveras alors réponse à"
+	dc.b	"Oui. Et tu trouveras alors ce que tu"
 	dc.b	$FC
-	dc.b	"tes questions."
+	dc.b	"recherches."
 	dc.b	$FF
 
 ; $31
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Alors, voilà l'épée sacrée, Elsydeon..."
+	dc.b	"Alors, voilà Elsydeon, cette épée..."
 	dc.b	$FD
 	dc.b	$F9
 	dc.b	$3B
@@ -606,13 +692,13 @@
 	dc.b	$00
 	dc.b	"Ah, vous avez réussi, Chaz Ashley..."
 	dc.b	$FC
-	dc.b	"Vous êtes à l'endroit où retournent"
+	dc.b	"Vous êtes à l'endroit où retournent les"
 	dc.b	$FD
-	dc.b	"les esprits de ceux qui se sont battus"
+	dc.b	"esprits de ceux qui se sont battus"
 	dc.b	$FC
-	dc.b	"pour Algo..."
+	dc.b	"pour Algol..."
 	dc.b	$FD
-	dc.b	"Elsydeon est l'épée que protègent ces"
+	dc.b	"Elsydeon est l'épée qui abrite ces"
 	dc.b	$FC
 	dc.b	"esprits !"
 	dc.b	$FD
@@ -623,87 +709,173 @@
 
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Hé !"
+	dc.b	"...Alisa, l'héroine !"
+	dc.b	$FD
+	dc.b	"Elle a vaincu Dark Force en dessous de"
+	dc.b	$FC
+	dc.b	"Paseo ! Alors sa statue...!"
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Wow !"
+	dc.b	"...1000 ans plus tard, sa descendence"
+	dc.b	$FC
+	dc.b	"a fait la même chose..."
+	dc.b	$FD
+	dc.b	"Mais pour le faire ils ont dû détruire le"
+	dc.b	$FC
+	dc.b	"système qui facilitait la vie des"
+	dc.b	$FD
+	dc.b	"habitants d'Algol..."
+	dc.b	$FD
+	dc.b	"Les ténèbres ont orchestré le « Grand"
+	dc.b	$FC
+	dc.b	"Effondrement » !"
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$00
-	dc.b	"Vous êtes donc Chaz, désigné par Rune..."
+	dc.b	"Ah, Chaz, le héro choisi par Lutz..."
+	dc.b	$FC
+	dc.b	"Je suis Alisa Landale."
 	dc.b	$FD
-	dc.b	"Vous êtes en mesure de comprendre."
+	dc.b	"Maintenant tu comprends le passé l'Algol."
+	dc.b	$FD 
+	dc.b	"Mais ta rage t'aveugle quant à ton rôle"
+	dc.b	$FC
+	dc.b	"dans son futur."	
+	dc.b	$FD
+	dc.b	"Tu as grandi seul, perdu Alys..."
+	dc.b	$FC
+	dc.b	"Tu as le droit d'être en colère."
+	dc.b	$FD	
+	dc.b	"Je comprends. Un tyran a tué ma seule"
+	dc.b	$FC
+	dc.b	"famille. J'ai juré de me venger."	
+	dc.b	$FD
+	dc.b	"Tout comme toi."	
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Aaah... !"
+	dc.b	"..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$00
 	dc.b	$F2, $00
 	dc.w	$0137
-	dc.b	"Chaz... Je vous confie la charge de"
+	dc.b	"Mais j'ai réalisé, ça ne vaut pas la peine"
 	dc.b	$FC
-	dc.b	"porter Elsydeon !"
+	dc.b	"de mourir pour la vengeance."
 	dc.b	$FD
-	dc.b	"Toutes nos pensées sont accumulées dans"
+	dc.b	"La vie... La liberté... Un meilleur futur."
 	dc.b	$FC
-	dc.b	"cette épée."
+	dc.b	"Un monde juste."
+	dc.b	$FD
+	dc.b	"C'est de ça qu'il s'agit."
+	dc.b	$FD
+	dc.b	"J'ai eu l'opportunité de former Algol,"
+	dc.b	$FC
+	dc.b	"comme toi, mais, Chaz, tu as une chance"
+	dc.b	$FD	
+	dc.b	"que je n'ai jamais eu."
+	dc.b	$FC
+	dc.b	"Toi et tes amis peuvent libérer Algol de"
+	dc.b	$FD	
+	dc.b	"ce cycle de cette ingérence divine,"
+	dc.b	$FC
+	dc.b	"pour toujours."
+	dc.b	$FD	
+	dc.b	"Nous t'accordons la force si tu as la"
+	dc.b	$FC
+	dc.b	"volonté de te battre pour un Algol où"	
+	dc.b	$FD	
+	dc.b	"ses habitants pourront enfin choisir"
+	dc.b	$FC
+	dc.b	"leur propre destin."
+	dc.b	$FD
+	dc.b	"Pour le bien ou le mal..."		
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$0138
-	dc.b	"Nous serons tous derrière vous, Chaz,"
-	dc.b	$FC
-	dc.b	"en tout temps, alors..."
+	dc.b	"Chaz, Elsydeon est maintenant à toi !"
 	dc.b	$FD
+	dc.b	"Il contient nos espoirs, rêves, et"
+	dc.b	$FC
+	dc.b	"expérience au travers de millénaires"
+	dc.b	$FD
+	dc.b	"de combats contre les Dark Forces"
+	dc.b	$FC
+	dc.b	"d'Algol."
+	dc.b	$FD
+	dc.b	"Nous croyons en toi. Nous serons"	
+	dc.b	$FC
+	dc.b	"toujours avec toi, Chaz..."
+	dc.b	$FD		
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Ne vous en faites pas. Je m'en charge !"
+	dc.b	"...Alisa, vous avez raison... Je dois"
+	dc.b	$FC
+	dc.b	"mettre mes sentiments de côté,"
+	dc.b	$FD
+	dc.b	"et me concentrer sur quoi, et qui"
+	dc.b	$FC
+	dc.b	"importe le plus maintenant..."
+	dc.b	$FD
+	dc.b	"...Je finirais ce que vous avez commencé."
+	dc.b	$FC
+	dc.b	" Je ne peux pas échouer avec Algol !"
 	dc.b	$FF
 
 ; $32
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"J'en était sûr. Elsydeon avait promis"
-	dc.b	$FC
-	dc.b	"qu'elle te donnerait son pouvoir."
+	dc.b	"Je le savais !"
 	dc.b	$FD
-	dc.b	"Mon jugement est infaillible !"
+	dc.b	"Elsydeon avait promis qu'elle te"
+	dc.b	$FC
+	dc.b	"donnerait ce dont tu avais besoin."
+	dc.b	$FD
+	dc.b	"Alors, vas-tu répondre à l'appel d'Alisa ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Rune !"
+	dc.b	"Oui...J'avais juste besoin d'un rappel sur"
+	dc.b	$FC
+	dc.b	"pourquoi on fait tout ça."
+	dc.b	$FD
+	dc.b	"...Pour qui je le fais."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
 	dc.b	$F2, $00
 	dc.w	$013C
-	dc.b	"Chaz, allons sauver Algo !"
+	dc.b	"Chaz, allons libérer Algol !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Oui ! Nous faisons cela pour toute vie"
+	dc.b	"Oui ! Nous faisons cela non pas pour la"
 	dc.b	$FC
-	dc.b	"dans Algo, et pour forger un avenir"
+	dc.b	"Lumière Sacrée, mais pour que tout ce"
 	dc.b	$FD
-	dc.b	"réellement délivré du mal !"
-	dc.b	$FD
-	dc.b	"Un avenir finalement libre du mal ancien !"
+	dc.b	"qui vit puisse choisir son propre destin,"
 	dc.b	$FC
+	dc.b	"libéré des dieux, des monstres et des"
+	dc.b	$FD
+	dc.b	"chaînes du passé."
+	dc.b	$FD
 	dc.b	"Je me battrai pour cela !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Chaz..."
+	dc.b	"Oh, Chaz...!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Nous vaincrons, Chaz !"
+	dc.b	"Une dernière, décisive bataille..."
 	dc.b	$FC
-	dc.b	"Pour Algo !"
+	dc.b	"Les héros d'Algol sont avec nous !"
+	dc.b	$FD
+	dc.b	"On peut le faire !"
 	dc.b	$F9
 	dc.b	$3B
 
@@ -712,19 +884,25 @@
 	dc.b	$A9
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Il y a une urgence !"
+	dc.b	"Message urgent de Demi :"
 	dc.b	$FD
-	dc.b	"Demi nous informe d'un désastre qui s'est"
+	dc.b	"« A l'aide !! Revenez sur Motavia au plus"
 	dc.b	$FC
-	dc.b	"déclaré sur Motavia !"
+	dc.b	"vite !"
+	dc.b	$FD
+	dc.b	"Des événements catastrophiques se"
+	dc.b	$FC
+	dc.b	"produisent! »"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Chaz !"
+	dc.b	"Chaz !! On doit s'assurer que Demi va"
+	dc.b	$FC
+	dc.b	"bien, après tout ce qu'elle a fait !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"C'est bon."
+	dc.b	"Le début de la fin..."
 	dc.b	$FC
 	dc.b	"Pressons, vers Motavia !!"
 	dc.b	$FF
@@ -742,13 +920,15 @@
 ; $35
 	dc.b	$F4
 	dc.b	$19
-	dc.b	"Ah, Rune ! Content de voir que vous êtes"
+	dc.b	"Ah, Rune ! Mon ami ! Content de voir"
 	dc.b	$FC
-	dc.b	"arrivé sain et sauf."
+	dc.b	"que vous êtes arrivé sain et sauf."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Trêve de formalités."
+	dc.b	"Trêve de formalités, Hasari."
+	dc.b	$FD
+	dc.b	"Pas le temps d'expliquer."
 	dc.b	$FC
 	dc.b	"Je vais entrer..."
 	dc.b	$FD
@@ -756,13 +936,13 @@
 	dc.b	$19
 	dc.b	"Oh, oui, bien sûr..."
 	dc.b	$FC
-	dc.b	"À vos ordres."
+	dc.b	"Comme vous voulez."
 	dc.b	$FF
 
 ; $36
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Nous allons emprunter la chambre"
+	dc.b	"Hasari, Nous allons emprunter la chambre"
 	dc.b	$FC
 	dc.b	"intérieure de nouveau. Je dois léguer"
 	dc.b	$FD
@@ -770,25 +950,21 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$19
-	dc.b	"Heu ! Vous n'allez sûrement pas donner"
+	dc.b	"D'accord... Vous n'allez pas accorder ça"
 	dc.b	$FC
-	dc.b	"ça à un tel jeunôt !"
-	dc.b	$FD
-	dc.b	$F4
-	dc.b	$01
-	dc.b	"Jeunôt ?!"
+	dc.b	"à un tel jeunôt ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
 	dc.b	"Chaz est le seul choix possible."
 	dc.b	$FC
-	dc.b	"... Vous devez me croire !"
+	dc.b	"... Vous devez me faire confiance !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$19
-	dc.b	"Entendu, vénéré Cinquième."
+	dc.b	"...Je comprends, vénéré Cinquième."
 	dc.b	$FC
-	dc.b	"J'obéirai sans protester."
+	dc.b	"Je ne dirai rien de plus."
 	dc.b	$FF
 
 ; $37

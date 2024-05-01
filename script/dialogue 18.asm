@@ -130,7 +130,7 @@
 ; $2B
 	dc.b	$FA
 	dc.b	$A1, $01
-	dc.b	"Ne prêtez pas attention à moi, je veux"
+	dc.b	"Même si ça semble exagéré, je veux"
 	dc.b	$FC
 	dc.b	"juste empêcher cet enfant de tomber"
 	dc.b	$FD
@@ -140,15 +140,15 @@
 ; $2C
 	dc.b	"C'était dûr de voir mon enfant s'ennuyer"
 	dc.b	$FC
-	dc.b	"autant... Mais tout était pour le mieux,"
-	dc.b	$FD
-	dc.b	"non ?"
+	dc.b	"autant... Mais tout va mieux, non ?"
 	dc.b	$FF
 
 ; $2D
 	dc.b	"Hé, pourquoi je ne peux pas jouer"
 	dc.b	$FC
-	dc.b	"dehors ?!"
+	dc.b	"dehors ? J'ai besoin de m'entrainer"
+	dc.b	$FD
+	dc.b	"à faire des boules de neige !"
 	dc.b	$FF
 
 ; $2E
@@ -160,33 +160,33 @@
 ; $2F
 	dc.b	$FA
 	dc.b	$A1, $01
-	dc.b	"L'auberge a été convertie en clinique à"
+	dc.b	"Vu que l'auberge a été convertie en"
 	dc.b	$FC
-	dc.b	"cause de la maladie."
+	dc.b	"clinique à cause de la maladie notre"
 	dc.b	$FD
-	dc.b	"Entretemps, notre maison sert d'auberge"
-	dc.b	$FC
-	dc.b	"temporaire."
+	dc.b	"maison sert d'auberge temporaire."
 	dc.b	$FD
-	dc.b	"En ce moment, nous hébergons des gens"
+	dc.b	"En ce moment, nous hébergons beaucoup"
 	dc.b	$FC
-	dc.b	"qui ont fui Reshel."
+	dc.b	"de gens qui ont fui Reshel."
 	dc.b	$FF
 
 ; $30
-	dc.b	"Ah enfin ! Je peux cesser ce travail"
+	dc.b	"Ah enfin ! Je peux cesser ce travail."
 	dc.b	$FC
-	dc.b	"inhabituel."
+	dc.b	"Tant mieux car c'est pas mon truc."
 	dc.b	$FF
 
 ; $31
 	dc.b	"Je suis un réfugié de Reshel."
 	dc.b	$FC
-	dc.b	"Il est devenu... ah, j'ai eu très peur !"
+	dc.b	"Les choses que j'ai vu..."
+	dc.b	$FD
+	dc.b	"Ça me hantera pour toujours..."
 	dc.b	$FF
 
 ; $32
-	dc.b	"J'en ai marre des endroits terrifiants."
+	dc.b	"J'en ai marre des endroits effrayants."
 	dc.b	$FC
 	dc.b	"Je vais m'enfuir encore plus loin !"
 	dc.b	$FF
@@ -194,7 +194,7 @@
 ; $33
 	dc.b	"Je ne peux pas abandonner Reshel,"
 	dc.b	$FC
-	dc.b	"ma ville natale !"
+	dc.b	"la ville où je suis né et où j'ai grandi !"
 	dc.b	$FD
 	dc.b	"Je suis sûre qu'ils finiront par trouver"
 	dc.b	$FC
@@ -210,15 +210,11 @@
 	dc.b	$FC
 	dc.b	"tout Dezolis. Mais l'aubergiste nous"
 	dc.b	$FD
-	dc.b	"laisse l'utiliser pour les trop nombreux"
+	dc.b	"laisse l'utiliser pour les malades toujours"
 	dc.b	$FC
-	dc.b	"malades."
+	dc.b	"plus nombreux."
 	dc.b	$FD
-	dc.b	"Il est un individu qui a tellement bon"
-	dc.b	$FC
-	dc.b	"coeur !"
-	dc.b	$FD
-	dc.b	"Il va vraiment au delà de toute attente !"
+	dc.b	"Il a tellement bon coeur !"
 	dc.b	$FF
 
 ; $35
@@ -238,13 +234,13 @@
 	dc.b	$FD
 	dc.b	"Pour le moment, rien à faire à part leur"
 	dc.b	$FC
-	dc.b	"insuffler de l'énergie vitale pour les"
+	dc.b	"insuffler de l'énergie vitale."
 	dc.b	$FD
-	dc.b	"maintenir en vie..."
+	dc.b	"Ça permet de gagner du temps..."
 	dc.b	$FD
-	dc.b	"C'est pourquoi tous ces Espers sont"
+	dc.b	"C'est pourquoi tous ces disciples du"
 	dc.b	$FC
-	dc.b	"venus ici."
+	dc.b	"Manoir Esper sont venus ici."
 	dc.b	$FF
 
 ; $37
@@ -276,7 +272,9 @@
 	dc.b	$FF
 
 ; $3A
-	dc.b	"Ah, Kyra ! Tu es indemne !"
+	dc.b	"Ah, c'est toi Kyra !"
+	dc.b	$FC
+	dc.b	"Lutz soit loué, tu es indemne !"
 	dc.b	$FF
 
 ; $3B
@@ -294,7 +292,9 @@
 	dc.b	$FF
 
 ; $3D
-	dc.b	"Je me sens beaucoup mieux !"
+	dc.b	"Je me sens soudainement beaucoup mieux !"
+	dc.b	$FC
+	dc.b	"Je n'ai aucune idée de ce qui s'est passé !"
 	dc.b	$FF
 
 ; $3E
@@ -304,9 +304,9 @@
 	dc.b	$95, $02
 	dc.b	$FA
 	dc.b	$94, $01
-	dc.b	"Si seulement nous pouvions faire quelque"
+	dc.b	"Nous pouvons seulent apporter cette"
 	dc.b	$FC
-	dc.b	"chose..."
+	dc.b	"petite aide..."
 	dc.b	$FF
 
 ; $3F
@@ -314,13 +314,15 @@
 	dc.b	$FF
 
 ; $40
-	dc.b	"Je m'excuse, Kyra est un peu"
+	dc.b	"Je m'excuse, Kyra est une une forte"
 	dc.b	$FC
-	dc.b	"effrontée..."
+	dc.b	"tête..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"Hé ! Je suis juste ici !"
+	dc.b	"Hé bien, désolé de ne pas rester assise"
+	dc.b	$FC
+	dc.b	"à attendre que ça se passe !"
 	dc.b	$FF
 
 ; $41
@@ -338,9 +340,11 @@
 	dc.b	$94, $01
 	dc.b	"Donner de l'énergie vitale aux autres"
 	dc.b	$FC
-	dc.b	"signifie que nous en prenons à nous même,"
+	dc.b	"signifie que nous en prenons à nous même."
 	dc.b	$FD
-	dc.b	"mais..."
+	dc.b	"On ne pourra pas le faire éternellement..."
+	dc.b	$FC
+	dc.b	"Qu'est-ce qu'on peut faire ?"
 	dc.b	$FF
 
 ; $43
@@ -370,9 +374,9 @@
 	dc.b	$95, $02
 	dc.b	$FA
 	dc.b	$94, $01
-	dc.b	"C'est douloureux pour nous, mais les"
+	dc.b	"Nous souffrons, mais les malades ont"
 	dc.b	$FC
-	dc.b	"malades ont encore plus mal."
+	dc.b	"encore plus mal."
 	dc.b	$FD
 	dc.b	"Il faut redoubler d'effort."
 	dc.b	$FF
@@ -387,8 +391,6 @@
 	dc.b	$F4
 	dc.b	$0A
 	dc.b	"Et que veux-tu dire par là ?"
-	dc.b	$FC
-	dc.b	"Espèce de cornichon !"
 	dc.b	$FF
 
 ; $49
@@ -403,11 +405,11 @@
 	dc.b	$FA
 	dc.b	$94, $01
 	dc.b	$F3
-	dc.b	"Whaaaaaaaaaaaaaaam !"
-	dc.b	$FD
-	dc.b	"Ce patient manque d'énergie vitale !"
+	dc.b	"Ce patient a besoin de mon aide mais ça"
 	dc.b	$FC
-	dc.b	"Whaaaaaaaaaaaaaaaaaaam !!"
+	dc.b	"devient de plus en plus dur de soigner"
+	dc.b	$FD
+	dc.b	"tout le monde."
 	dc.b	$FF
 
 ; $4B
@@ -417,17 +419,21 @@
 ; $4C
 	dc.b	"Je m'excuse du fait que Kyra soit si"
 	dc.b	$FC
-	dc.b	"imprudente..."
+	dc.b	"imprudente, mais..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"Hum ! D'accord, ça suffit !"
+	dc.b	"Tsss ! Je pense que tu as besoin d'un"
+	dc.b	$FC
+	dc.b	"peu d'aventure dans ta vie."
 	dc.b	$FF
 
 ; $4D
-	dc.b	"... Ohhh..."
+	dc.b	"... Ohhh... Je ne sais pas combien"
+	dc.b	$FC
+	dc.b	"de temps je vais encore tenir..."
 	dc.b	$FD
-	dc.b	"Je suis vidé d'énergie..."
+	dc.b	"Mais je dois essayer..."
 	dc.b	$FF
 
 ; $4E
@@ -436,30 +442,36 @@
 	dc.b	$FA
 	dc.b	$94, $01
 	dc.b	"Nous sommes prochaines de garde."
+	dc.b	$FC
+	dc.b	"Ça n'en finit pas..."
 	dc.b	$FF
 
 ; $4F
-	dc.b	"Finalement, la pause."
+	dc.b	"Enfin... je peux me reposer..."
 	dc.b	$FF
 
 ; $50
-	dc.b	"Kyra est revenue. Quelle joie !"
+	dc.b	"Kyra est revenue. Merci Lutz !"
 	dc.b	$FF
 
 ; $51
 	dc.b	$FA
 	dc.b	$A1, $01
-	dc.b	"Je suis l'aubergiste. Pour être franc, je"
+	dc.b	"Bienvenue, un lit vient de se libérer"
 	dc.b	$FC
-	dc.b	"ne voulais pas céder l'auberge pour"
+	dc.b	"à l'étage... Attendez, vous n'êtes pas"
 	dc.b	$FD
-	dc.b	"ceci... Mais les citadins m'auraient"
+	dc.b	"malade ?"
 	dc.b	$FC
-	dc.b	"regardé de travers si j'avais laissé"
+	dc.b	"Ouf ! Je dois le dire à quelqu'un !"
 	dc.b	$FD
-	dc.b	"toutes ces chambres vides..."
+	dc.b	"Je ne voulais pas céder l'auberge pour"
 	dc.b	$FC
-	dc.b	"C'est pénible... Zut !"
+	dc.b	"ceci... Mais avec ctous ces lits vides les"
+	dc.b	$FD
+	dc.b	"citadins m'auraient mis dehors !"
+	dc.b	$FC
+	dc.b	"J'ai vraiment pas de chance..."
 	dc.b	$FF
 
 ; $52
@@ -471,9 +483,9 @@
 ; $53
 	dc.b	$FA
 	dc.b	$A1, $01
-	dc.b	"Ouais, peut-être on devrait simplement"
+	dc.b	"Ouais, un hôpital serait d'une grande aide"
 	dc.b	$FC
-	dc.b	"en faire un hôpital."
+	dc.b	"pour tous ces gens."
 	dc.b	$FF
 
 ; $54
@@ -489,9 +501,9 @@
 	dc.b	$95, $02
 	dc.b	$FA
 	dc.b	$94, $01
-	dc.b	"Il y a d'autres gens avec de tels"
+	dc.b	"Il y a d'autres gens avec de tels pouvoirs"
 	dc.b	$FC
-	dc.b	"pouvoirs au Manoir Esper."
+	dc.b	"au Manoir Esper."
 	dc.b	$FF
 
 ; $56
@@ -499,7 +511,7 @@
 	dc.b	$FF
 
 ; $57
-	dc.b	"Bon, Kyra, ne soit pas trop téméraire."
+	dc.b	"Bon, Kyra, ne fait rien d'imprudent."
 	dc.b	$FF
 
 ; $58
@@ -539,7 +551,9 @@
 ; $5B
 	dc.b	$F4
 	dc.b	$17
-	dc.b	"Je vous confie Kyra, vous tous."
+	dc.b	"Les amis, je remets la santé de Kyra"
+	dc.b	$FC
+	dc.b	"entre vos mains !"
 	dc.b	$FF
 
 ; $5C
@@ -555,9 +569,9 @@
 ; $5D
 	dc.b	$F4
 	dc.b	$09
-	dc.b	"Oui, d'accord..."
+	dc.b	"Oui... ça ne me plait pas d'être tombé"
 	dc.b	$FC
-	dc.b	"C'était de la malchance..."
+	dc.b	"malade..."
 	dc.b	$FD
 	dc.b	"Ceci dit, avec ces infirmières, peut-être"
 	dc.b	$FC
@@ -567,31 +581,33 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Toi, tu n'arrête jamais, hein ?"
+	dc.b	"Et bien, si c'est ça qui te motive..."
 	dc.b	$FF
 
 ; $5E
 	dc.b	$F4
 	dc.b	$09
-	dc.b	"Oooooooh...."
+	dc.b	"Aaaaaah...."
 	dc.b	$FC
-	dc.b	"Ooooh... !"
+	dc.b	"Aaaaaproche, ma petite... !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Tiens bon !"
+	dc.b	"Raja, on doit trouver une femme"
+	dc.b	$FC
+	dc.b	"réceptive à tes mauvaises blagues."
 	dc.b	$FF
 
 ; $5F
 	dc.b	$F4
 	dc.b	$09
-	dc.b	"J'ai mal..."
+	dc.b	"J'ai mal... J'ai besoin..."
 	dc.b	$FC
-	dc.b	"OK, j'abandonne !"
+	dc.b	"d'attention... féminine...!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Ah, non, n'abandonne pas !"
+	dc.b	"Oh, Pu...naise !"
 	dc.b	$FF
 
 ; $60
@@ -603,37 +619,37 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Je vois que tu ne changes jamais, Raja !"
+	dc.b	"Je pense qu'elles en on assez de ton"
+	dc.b	$FC
+	dc.b	"cinéma, Raja !"
 	dc.b	$FF
 
 ; $61
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"Ce bonhomme, je crois qu'il s'appelle"
+	dc.b	"Ce viel homme, ils disent qu'il s'appelle"
 	dc.b	$FC
 	dc.b	"Raja ?"
 	dc.b	$FD
 	dc.b	"C'est bien qu'il se rétablisse, ceci dit..."
-	dc.b	$FD
-	dc.b	"Il ne cesse de raconter des farces"
 	dc.b	$FC
-	dc.b	"extrèmement mauvaises."
+	dc.b	"Il ne cesse de raconter des blagues"
+	dc.b	$FD
+	dc.b	"complètement débiles..."
 	dc.b	$FD
 	dc.b	"Comment faites-vous pour le supporter ?"
-	dc.b	$FD
-	dc.b	$F4
-	dc.b	$01
-	dc.b	"Je ne suis pas responsable de lui !"
 	dc.b	$FF
 
 ; $62
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Raja... Arrête de faire le pitre !"
+	dc.b	"Raja... Très drôle !"
+	dc.b	$FC
+	dc.b	"On t'a grillé même sans te voir !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Chaz ! Ce n'est pas une farce !"
+	dc.b	"Chaz ! Ce n'est pas une blague !"
 	dc.b	$FC
 	dc.b	"Il a une énorme fièvre !"
 	dc.b	$FD
@@ -644,21 +660,23 @@
 
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Même Raja tombe malade..."
+	dc.b	"Oh, Raja... Il ne tiendra pas si nous le"
 	dc.b	$FC
-	dc.b	"Il mourra si nous le laissons comme ça !"
+	dc.b	"laissons comme ça !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Ha, ha, ha... J'en reviens pas."
+	dc.b	"Tu penses qu'il ne blague pas...?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Ce n'est pas drôle, Chaz !"
+	dc.b	"Chaz, c'est très sérieux, fais preuve"
+	dc.b	$FC
+	dc.b	"d'un peu de sympathie envers lui !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"C'est vrai, désolé..."
+	dc.b	"...Désolé... Tu as raison."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
@@ -678,11 +696,13 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"C'est vrai !"
+	dc.b	"Oui... Oui, tu as raison !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Hein ? Que voulez-vous dire ?"
+	dc.b	"Quest-ce que c'est ?"
+	dc.b	$FC
+	dc.b	"De quoi parlez-vous, vous deux ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
@@ -702,7 +722,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Tonnerre !"
+	dc.b	"Comment ça peut être sur Dezolis ?"
 	dc.b	$FF
 
 ; $63
@@ -733,7 +753,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Chaz !"
+	dc.b	"Chaz, nous pouvons l'aider !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01

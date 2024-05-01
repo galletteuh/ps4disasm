@@ -1,23 +1,23 @@
 ; 0
 	dc.b	$FA
 	dc.b	$42, $01
-	dc.b	"Vous êtes ici à Aiedo, une ville en"
+	dc.b	"Vous êtes ici à Aiedo, une ville qui bouge"
 	dc.b	$FC
-	dc.b	"mouvement."
+	dc.b	"beaucoup."
 	dc.b	$FD
 	dc.b	"Toutes sortes de marchandises vont et"
 	dc.b	$FC
 	dc.b	"viennent, de toute provenance."
 	dc.b	$FD
-	dc.b	"Hé, si ce n'est pas Alys."
+	dc.b	"Hé, mais c'est Alys !"
 	dc.b	$FC
-	dc.b	"Bon retour parmi nous !"
+	dc.b	"Bienvenue chez toi !"
 	dc.b	$FF
 
 ; $1
-	dc.b	"Vous êtes ici à Aiedo, une ville en"
+	dc.b	"Vous êtes ici à Aiedo, une ville qui bouge"
 	dc.b	$FC
-	dc.b	"mouvement."
+	dc.b	"beaucoup."
 	dc.b	$FD
 	dc.b	"Toutes sortes de marchandises vont et"
 	dc.b	$FC
@@ -25,51 +25,47 @@
 	dc.b	$FD
 	dc.b	"Hé, Chaz !"
 	dc.b	$FD
-	dc.b	"Où est Alys ? Il ne lui ai pas arrivé"
-	dc.b	$FC
-	dc.b	"quelque chose, j'espère ?"
+	dc.b	"Où est Alys ? Quelque chose ne va pas ?"
 	dc.b	$FF
 
 ; $2
 	dc.b	"Je suis venu de Zema pour vendre mes"
 	dc.b	$FC
-	dc.b	"marchandises, mais..."
+	dc.b	"fameux crayons en graphite, mais..."
 	dc.b	$FD
-	dc.b	"Regardez-moi ça !"
-	dc.b	$FC
-	dc.b	"Ils ont déjà un marché très bien fourni !"
+	dc.b	"Regardez-moi cette ville !"
 	dc.b	$FD
-	dc.b	"Malgré tout, je devrai vendre tout ce"
+	dc.b	"Ils en vendent des meilleurs que les"
 	dc.b	$FC
-	dc.b	"que j'ai amené."
+	dc.b	"miens..."
 	dc.b	$FD
-	dc.b	"Sinon, je n'oserai pas retourner chez"
-	dc.b	$FC
-	dc.b	"moi, ce serait la honte !"
+	dc.b	"Je dois les vendre pour ma famille !"
 	dc.b	$FF
 
 ; $3
 	dc.b	$FA
 	dc.b	$42, $01
-	dc.b	"Je dirais que « Alys l'Arracheuse de"
+	dc.b	"Je dirais que « Alys la démembreuse »"
 	dc.b	$FC
-	dc.b	"Tripes » est la combattante la plus"
+	dc.b	"est la meilleure combattante aux"
 	dc.b	$FD
-	dc.b	"habile aux alentours."
+	dc.b	"alentours."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Il me semble t'avoir déjà demandé de ne"
+	dc.b	"J'ai déjà dit à tout le monde d'arrêter"
 	dc.b	$FC
-	dc.b	"pas m'appeler ainsi ? C'est totalement"
+	dc.b	"de m'appeler comme ça ! J'ai l'impression"
 	dc.b	$FD
-	dc.b	"ridicule !"
+	dc.b	"d'être une goule folle et enragée !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Ouais, c'est vraiment ridicule !"
+	dc.b	"Ouais, Alys n'est pas une goule !"
+	dc.b	$FD
+	dc.b	"Ouille ! Alys, ça fait mal ?!"
 	dc.b	$FC
-	dc.b	"Ouille ! Alys, pourquoi me frappez-vous ?!"
+	dc.b	"Mais vraiment, qu'est-ce que j'ai dit ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
@@ -77,17 +73,19 @@
 	dc.b	$FF
 
 ; $4
-	dc.b	"Je dirais que « Alys l'Arracheuse de"
+	dc.b	"Je dirais que « Alys la démembreuse »"
 	dc.b	$FC
-	dc.b	"Tripes » est la combattante la plus"
+	dc.b	"est la meilleure combattante aux"
 	dc.b	$FD
-	dc.b	"habile aux alentours."
+	dc.b	"alentours."
 	dc.b	$FD
-	dc.b	"À bien y penser, je ne l'ai pas vue"
+	dc.b	"Maintenant que j'y pense, je ne l'ai pas"
 	dc.b	$FC
-	dc.b	"dernièrement."
+	dc.b	"vue dernièrement."
 	dc.b	$FD
-	dc.b	"Je me demande ce qui se passe ?"
+	dc.b	"Elle a peut-être pris sa retraite dans"
+	dc.b	$FC
+	dc.b	"un coin tranquille !"
 	dc.b	$FF
 
 ; $5
@@ -105,9 +103,9 @@
 	dc.b	$FD
 	dc.b	"Ah, Alys, c'est vous."
 	dc.b	$FD
-	dc.b	"Je n'ai pas besoin de vous répéter ce que"
+	dc.b	"Je n'ai pas besoin dire ce que vous"
 	dc.b	$FC
-	dc.b	"vous savez déjà."
+	dc.b	"savez déjà."
 	dc.b	$FF
 
 ; $6
@@ -130,33 +128,37 @@
 	dc.b	$FF
 
 ; $8
-	dc.b	"Hé, Chaz. Alys ne vous accompagne pas"
+	dc.b	"Hé, Chaz. Pourquoi Alys n'est pas avec"
 	dc.b	$FC
-	dc.b	"aujourd'hui ?"
+	dc.b	"toi aujourd'hui ?"
 	dc.b	$FF
 
 ; $9
-	dc.b	"Un marché se trouve au centre de la"
+	dc.b	"Un centre commercial se trouve au"
 	dc.b	$FC
-	dc.b	"ville."
+	dc.b	"centre de la ville."
 	dc.b	$FD
-	dc.b	"Juste derrière, c'est la Guilde des Chas-"
+	dc.b	"Juste derrière, c'est la Guilde des"
 	dc.b	$FC
-	dc.b	"seurs. C'est une grande ville, non ?"
+	dc.b	"Chasseurs."
+	dc.b	$FD
+	dc.b	"J'espère que vous êtes acheteur ou que"
+	dc.b	$FC
+	dc.b	"vous chassez."
 	dc.b	$FF
 
 ; $A
-	dc.b	"Ici, c'est la prison."
-	dc.b	$FD
-	dc.b	"Il vaut mieux ne pas trop s'approcher."
+	dc.b	"Ici, c'est la prison. Nous avons peu de"
+	dc.b	$FC
+	dc.b	"crimes graves."
 	dc.b	$FF
 
 ; $B
 	dc.b	$FA
 	dc.b	$42, $01
-	dc.b	"Je suis un chasseur, mais je n'arrive"
+	dc.b	"Je suis un chasseur, mais je n'arrive pas"
 	dc.b	$FC
-	dc.b	"pas à avoir de contrats dernièrement."
+	dc.b	"à avoir de contrats dernièrement."
 	dc.b	$FD
 	dc.b	"Tout ça à cause d'une gonzesse appelée"
 	dc.b	$FC
@@ -164,23 +166,25 @@
 	dc.b	$FD
 	dc.b	"Quand on parle du loup..."
 	dc.b	$FD
-	dc.b	"Pourquoi tu ne m'en laisse pas pas un"
+	dc.b	"Pourquoi tu ne m'en laisse pas un peu"
 	dc.b	$FC
 	dc.b	"peu de temps à autre?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Ne dis pas d'âneries !"
-	dc.b	$FD
-	dc.b	"Les contrats, ce n'est pas quelque chose"
+	dc.b	"Peut-être que si tu étais la moitié de ce"
 	dc.b	$FC
-	dc.b	"qu'il faut attendre. Il faut y travailler !"
+	dc.b	"que je suis tu pourrais avoir la moitié"
+	dc.b	$FD
+	dc.b	"de mes contrats."
+	dc.b	$FD
+	dc.b	"Arrête de te plaindre et améliore toi !"
 	dc.b	$FF
 
 ; $C
-	dc.b	"Je suis un chasseur, mais je n'arrive"
+	dc.b	"Je suis un chasseur, mais je n'arrive pas"
 	dc.b	$FC
-	dc.b	"pas à avoir de contrats dernièrement."
+	dc.b	"à avoir de contrats dernièrement."
 	dc.b	$FD
 	dc.b	"Tout ça à cause d'une gonzesse appelée"
 	dc.b	$FC
@@ -192,43 +196,45 @@
 	dc.b	$42, $01
 	dc.b	"Hé ! Comment oses-tu me bousculer ainsi"
 	dc.b	$FC
-	dc.b	"et passer outre sans me saluer ?"
+	dc.b	"et passer sans dire un mot ?"
 	dc.b	$FD
 	dc.b	"Oh ! Alys !"
 	dc.b	$FD
-	dc.b	"Oh, non, pardonne-moi d'avoir été impoli."
+	dc.b	"Oh, ma chère, excusez moi. Ma langue a"
+	dc.b	$FC
+	dc.b	"fourché !"
+	dc.b	$FD	
+	dc.b	$F4
+	dc.b	$02
+	dc.b	"Ecarte-toi ou je te la coupe."
 	dc.b	$FF
 
 ; $E
 	dc.b	"Hé ! Comment oses-tu me bousculer ainsi"
 	dc.b	$FC
-	dc.b	"et passer outre sans me saluer ?"
+	dc.b	"et passer sans dire un mot ?"
 	dc.b	$FD
 	dc.b	"Ah, c'est toi, Chaz."
 	dc.b	$FD
-	dc.b	"Transmets mes salutation à Alys,"
+	dc.b	"Dis à Alys que je suis désolé d'avoir été"
 	dc.b	$FC
-	dc.b	"d'accord ?"
+	dc.b	"sur son chemin la dernière fois !"
 	dc.b	$FF
 
 ; $F
 	dc.b	"Il y a beaucoup de chasseurs en ville,"
 	dc.b	$FC
-	dc.b	"alors c'est un peu risqué comme endroit."
+	dc.b	"alors ça craint un peu ici."
 	dc.b	$FD
-	dc.b	"Par contre, si des monstres se pointent,"
+	dc.b	"D'un autre côté si des monstres se"
 	dc.b	$FC
-	dc.b	"nous n'avons rien à craindre."
-	dc.b	$FD
-	dc.b	"C'est le bon côté d'avoir autant de"
-	dc.b	$FC
-	dc.b	"chasseurs ici !"
+	dc.b	"pointent nous n'avons rien à craindre."
 	dc.b	$FF
 
 ; $10
 	dc.b	"Mito, la diseuse de bonne aventure,"
 	dc.b	$FC
-	dc.b	"est excellente."
+	dc.b	"est une des meilleures."
 	dc.b	$FD
 	dc.b	"Par exemple, la dernière fois que j'ai"
 	dc.b	$FC
@@ -245,11 +251,9 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Chaz, je crois qu'il vaudrait mieux la"
+	dc.b	"Chaz, elle a vraiement l'air triste."
 	dc.b	$FC
-	dc.b	"laisser seule pendant qu'elle se recueille"
-	dc.b	$FD
-	dc.b	"sur cette tombe."
+	dc.b	"On devrait peut-être la laisser..."
 	dc.b	$FF
 
 ; $12
@@ -381,34 +385,38 @@
 	dc.b	$FF
 
 ; $3C
-	dc.b	"Hé, Alys ! Vous êtes toujours aussi"
+	dc.b	"Hé, Alys ! Bon sang, je ne porte pas"
 	dc.b	$FC
-	dc.b	"magnifiquement belle."
+	dc.b	"souvent ces fringues, j'ai l'air affreux !"
 	dc.b	$FD
-	dc.b	"Avec vos cheveux qui flottent au vent..."
-	dc.b	$FD
-	dc.b	"Vous êtes vraiment très attirante !"
+	dc.b	"Vous avez toujours l'air si ensemble, euh,"
 	dc.b	$FC
-	dc.b	"Bon, à plus !"
+	dc.b	"lavée ! Non, je veux dire, ce n'est pas"
+	dc.b	$FD
+	dc.b	"que je remarque vos vêtements ou vos..."
+	dc.b	$FC
+	dc.b	"... euh, en tout cas, continuez de manger !"
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Euh... de quoi voulait-il parler ?"
+	dc.b	"Qu...Quel bouffon !"
+	dc.b	$FD
+	dc.b	"Ce n'est pas comme ça qu'on courtise"
 	dc.b	$FC
-	dc.b	"Quel minable !"
+	dc.b	"une dame !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$05
-	dc.b	"Peut-être quelqu'un le force à dire de"
+	dc.b	"Je parie qu'Alys aime un peu plus..."
 	dc.b	$FC
-	dc.b	"telles choses."
+	dc.b	"les hommes virils dans son genre..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Hé, les zozos !"
+	dc.b	"Oh, pitié... Vous êtes tous aussi"
 	dc.b	$FC
-	dc.b	"De quoi vous parlez ?"
+	dc.b	"romantiques chirurgie cérébrale."
 	dc.b	$FF
 
 ; $3D
@@ -426,7 +434,7 @@
 	dc.b	$FD
 	dc.b	"Qu'est-ce que vous faites là !?"
 	dc.b	$FD
-	dc.b	"On frappe avant d'entrer !"
+	dc.b	"Ma femme vous a engagé ?"
 	dc.b	$FF
 
 ; $3E
@@ -437,7 +445,7 @@
 	dc.b	$24, $02
 	dc.b	$FA
 	dc.b	$1F, $01
-	dc.b	"Notre chien manque à l'appel."
+	dc.b	"Notre chien Rocky a disparu !"
 	dc.b	$FD
 	dc.b	"Nous avons fouillé la ville de fond en"
 	dc.b	$FC
@@ -445,7 +453,7 @@
 	dc.b	$FD
 	dc.b	"Ça me fait de la peine de voir ma fille"
 	dc.b	$FC
-	dc.b	"aussi déprimée."
+	dc.b	"aussi découragée."
 	dc.b	$FF
 
 ; $40
@@ -455,9 +463,7 @@
 	dc.b	$FD
 	dc.b	"Il aime beaucoup les trucs sucrés..."
 	dc.b	$FD
-	dc.b	"Ce n'est pas surprenant qu'il ait pris"
-	dc.b	$FC
-	dc.b	"autant de poids."
+	dc.b	"Mais on veut juste lui faire plaisir !"
 	dc.b	$FD
 	dc.b	"... Ce n'est pas vraiment un indice utile,"
 	dc.b	$FC
@@ -501,7 +507,7 @@
 	dc.b	$FD
 	dc.b	"donnerait du mal pour trouver un"
 	dc.b	$FC
-	dc.b	"vulgaire chien ?"
+	dc.b	"chien ?"
 	dc.b	$FF
 
 ; $43
@@ -511,11 +517,11 @@
 	dc.b	$FD
 	dc.b	"demandé leur aide."
 	dc.b	$FC
-	dc.b	"Je crois que seul un chasseur qui n'a"
+	dc.b	"Je crois que seul un chasseur qui"
 	dc.b	$FD
-	dc.b	"vraiment rien à faire sera prêt à"
+	dc.b	"s'ennuie et qui a du temps à perdre"
 	dc.b	$FC
-	dc.b	"remplir ce contrat."
+	dc.b	"sera prêt à rechercher un chien."
 	dc.b	$FF
 
 ; $44
@@ -532,7 +538,7 @@
 	dc.b	$FD
 	dc.b	"Excellent travail ! C'est ce qu'on"
 	dc.b	$FC
-	dc.b	"s'attend d'un Chasseur !"
+	dc.b	"attend d'un Chasseur !"
 	dc.b	$FD
 	dc.b	"Ma fille est très heureuse !"
 	dc.b	$FC
@@ -558,7 +564,7 @@
 	dc.b	$FD
 	dc.b	"Mon chien s'appelle comme ça."
 	dc.b	$FD
-	dc.b	"Où diable a-t-il pu aller se fourrer ?"
+	dc.b	"Je me demande où il a pu aller ?"
 	dc.b	$FF
 
 ; $4A
@@ -576,9 +582,7 @@
 	dc.b	$01
 	dc.b	"Elle... Elle m'a appelé Monsieur !"
 	dc.b	$FD
-	dc.b	"C'est comme si quelque chose de mauvais"
-	dc.b	$FC
-	dc.b	"allait m'arriver..."
+	dc.b	"Elle pense que j'ai quel âge ?"
 	dc.b	$FF
 
 ; $4B
@@ -588,7 +592,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Pas surprenant qu'il se soit sauvé..."
+	dc.b	"Pas surprenant qu'il se soit enfui..."
 	dc.b	$FF
 
 ; $4C
@@ -596,9 +600,9 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Aimes-tu vraiment être traité de la"
+	dc.b	"Si tu t'enfuis encore, tu te débrouilles,"
 	dc.b	$FC
-	dc.b	"sorte ?"
+	dc.b	"compris ?"
 	dc.b	$FF
 
 ; $4D
@@ -613,8 +617,10 @@
 	dc.b	$FA
 	dc.b	$79, $01
 	dc.b	"Être gardien de prison n'est pas facile."
+	dc.b	$FD
+	dc.b	"C'est si ennuyant que parfois je"
 	dc.b	$FC
-	dc.b	"C'est tellement ennuyant !"
+	dc.b	"m'endors debout !"
 	dc.b	$FF
 
 ; $4E
@@ -633,13 +639,13 @@
 	dc.b	$FC
 	dc.b	"peine de dix ans, je crois."
 	dc.b	$FD
-	dc.b	"Les libérer ?"
+	dc.b	"Les libérer ? Pas question !"
 	dc.b	$FC
-	dc.b	"Pas question !"
+	dc.b	"Elles doivent rembourser leurs dettes."
 	dc.b	$FD
 	dc.b	"Eh bien, si vous payez leur caution,"
 	dc.b	$FC
-	dc.b	"pas de problème."
+	dc.b	"elles sont libres de partir."
 	dc.b	$FD
 	dc.b	"Combien ? Leur caution s'élève à"
 	dc.b	$FC
@@ -649,12 +655,14 @@
 ; $51
 	dc.b	"Leur caution s'élève à 50 000 meseta."
 	dc.b	$FC
-	dc.b	"Vous payez ?"
+	dc.b	"Vous allez vraiment payer ?"
 	dc.b	$F5
 	dc.b	$01, $00
-	dc.b	"Pas surprenant !"
+	dc.b	"Pas surprenant ! Qui le ferait ?"
+	dc.b	$FD
+	dc.b	"Peut-être leurs parents, mais j'ai"
 	dc.b	$FC
-	dc.b	"Je m'y attendais."
+	dc.b	"entendu qu'ils habitent sur une petite île."
 	dc.b	$FF
 
 ; $52
@@ -667,10 +675,12 @@
 	dc.b	"Wow !"
 	dc.b	$FD
 	dc.b	"C'est très généreux de votre part !"
-	dc.b	$FD
-	dc.b	"Mais vous plaisantez, vous n'avez pas"
 	dc.b	$FC
-	dc.b	"l'argent."
+	dc.b	"Je n'ai jamais vu ça !"
+	dc.b	$FD
+	dc.b	"Vous avez oublié votre portefeuille ?"
+	dc.b	$FC
+	dc.b	"Vous n'avez pas assez d'argent."
 	dc.b	$FF
 
 ; $53
@@ -680,7 +690,7 @@
 	dc.b	$FC
 	dc.b	"Wow !"
 	dc.b	$FD
-	dc.b	"C'est très généreux de votre part !"
+	dc.b	"Vous êtes un saint !"
 	dc.b	$FD
 	dc.b	"Ouaip, toute la somme est payée !"
 	dc.b	$FD
@@ -702,7 +712,7 @@
 	dc.b	$FD
 	dc.b	"C'était moins ennuyant quand ces deux"
 	dc.b	$FC
-	dc.b	"filles étaient là !"
+	dc.b	"pipelettes étaient là !"
 	dc.b	$FF
 
 ; $56
@@ -711,12 +721,16 @@
 	dc.b	"Hé, Alys, espèce de... !"
 	dc.b	$FC
 	dc.b	"C'est à cause de toi que je croupis ici !"
+	dc.b	$FD	
+	dc.b	$F4
+	dc.b	$02
+	dc.b	"Dommage que ton alibi ne t'a pas"
+	dc.b	$FC
+	dc.b	"protégé, petite frappe."
 	dc.b	$FF
 
 ; $57
-	dc.b	"Tonnerre !"
-	dc.b	$FC
-	dc.b	"Je creuserai un tunnel dans le sol !"
+	dc.b	"... Peut-être creuser un tunnel..."
 	dc.b	$FF
 
 ; $58
@@ -728,7 +742,7 @@
 	dc.b	$79, $01
 	dc.b	"On a tenté de s'échapper pendant la"
 	dc.b	$FC
-	dc.b	"nuit, mais ils nous ont ratrappés."
+	dc.b	"nuit, mais ils nous ont rattrapés."
 	dc.b	$FF
 
 ; $59
@@ -737,9 +751,7 @@
 	dc.b	$FF
 
 ; $5A
-	dc.b	"Je ne veux pas passer ma tendre"
-	dc.b	$FC
-	dc.b	"jeunesse en prison !"
+	dc.b	"On ne sortira jamais d'ici..."
 	dc.b	$FF
 
 ; $5B
@@ -750,15 +762,15 @@
 ; $5C
 	dc.b	$FA
 	dc.b	$79, $01
-	dc.b	"Nous sommes des ex-détenues."
+	dc.b	"Qu'est-ce qu'on va faire ?"
 	dc.b	$FC
-	dc.b	"Personne ne voudra nous épouser !"
+	dc.b	"On va rester là pour toujours !"
 	dc.b	$FF
 
 ; $5D
-	dc.b	"Aaah. Aidez moi !"
+	dc.b	"..."
 	dc.b	$FC
-	dc.b	"Maman..."
+	dc.b	"Maman me manque tellement... Sniff"
 	dc.b	$FF
 
 ; $5E
@@ -768,11 +780,11 @@
 	dc.b	$FD
 	dc.b	"Vous avez vraiment du temps à..."
 	dc.b	$FC
-	dc.b	"non, non -- je suis très reconnaissant !"
+	dc.b	"non, non, je suis très reconnaissant !"
 	dc.b	$FD
-	dc.b	"Pour résumer, Rocky, le chien de notre"
+	dc.b	"Rocky, le chien de notre fille,"
 	dc.b	$FC
-	dc.b	"fille, manque à l'appel."
+	dc.b	"a disparu."
 	dc.b	$FD
 	dc.b	"Nous avons cherché dans toute la ville,"
 	dc.b	$FC
@@ -790,25 +802,29 @@
 	dc.b	$FF
 
 ; $5F
-	dc.b	"Nous sommes venues pour faire les"
+	dc.b	"Nous venons de l'île d'Uzo pour pour faire"
 	dc.b	$FC
-	dc.b	"magasins, mais nous avons manqué de"
+	dc.b	"du shopping, mais nous avons un peu"
 	dc.b	$FD
-	dc.b	"retenue."
+	dc.b	"exagéré."
 	dc.b	$FD
 	dc.b	"Alors, on n'avait plus d'argent pour"
 	dc.b	$FC
 	dc.b	"payer la chambre, et on nous a arrêtées."
 	dc.b	$FD
-	dc.b	"C'est vrai ? Mes parents nous demandent"
+	dc.b	"C'est vrai ? Mes parents nous envoient"
 	dc.b	$FC
-	dc.b	"de Uzo ? Sérieusement ?"
+	dc.b	"depuis Uzo ? Sérieusement ?"
 	dc.b	$FD
 	dc.b	"Mais avec le garde qui surveille en"
 	dc.b	$FC
 	dc.b	"permanence..."
 	dc.b	$FD
-	dc.b	"Comment retourner à la maison ?"
+	dc.b	"Et avec notre dette, ça nous prendra"
+	dc.b	$FC
+	dc.b	"des années de travail pour la rembourser."
+	dc.b	$FD
+	dc.b	"On ne reverra jamais notre famille ! Sniff"
 	dc.b	$FF
 
 ; $60
@@ -817,7 +833,9 @@
 	dc.b	$FF
 
 ; $61
-	dc.b	"Vraiment ? Vous avez payé la caution ?"
+	dc.b	"Quoi ? Vous avez payé la caution ?"
+	dc.b	$FC
+	dc.b	"Merci, merci !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
@@ -829,13 +847,13 @@
 ; $62
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"C'est une cellule..."
+	dc.b	"Ne finissons pas ici."
 	dc.b	$FF
 
 ; $63
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"C'est une cellule..."
+	dc.b	"Ne finissons pas ici."
 	dc.b	$FF
 ;; Local Variables:
 ;; eval: (fci-mode)

@@ -17,17 +17,17 @@
 	dc.b	$FF
 
 ; $2
-	dc.b	"Il y a beaucoup de souvenirs ici, bons"
+	dc.b	"Il y a beaucoup de souvenirs ici, bons et"
 	dc.b	$FC
-	dc.b	"et mauvais..."
+	dc.b	"mauvais..."
 	dc.b	$FD
-	dc.b	"Mais c'est dur de quitter sa ville"
+	dc.b	"Mais c'est dur de quitter la ville où on"
 	dc.b	$FC
-	dc.b	"natale."
+	dc.b	"a toujours vécu."
 	dc.b	$FF
 
 ; $3
-	dc.b	"Vous êtes certains que tout ira bien"
+	dc.b	"Vous êtes certains que tout va bien"
 	dc.b	$FC
 	dc.b	"maintenant ?"
 	dc.b	$FD
@@ -40,8 +40,6 @@
 	dc.b	"Vous verrez ! Les gens qui ont abandonné"
 	dc.b	$FC
 	dc.b	"la ville reviendront si on travaille dur."
-	dc.b	$FD
-	dc.b	""
 	dc.b	$FF
 
 ; $5
@@ -49,9 +47,9 @@
 	dc.b	$FC
 	dc.b	"boutique nouvellement rénovée,"
 	dc.b	$FD
-	dc.b	"il vaudrait mieux avoir des soldes"
+	dc.b	"il vaudrait mieux avoir des tarifs"
 	dc.b	$FC
-	dc.b	"compétitives."
+	dc.b	"attractifs."
 	dc.b	$FF
 
 ; $6
@@ -66,12 +64,14 @@
 
 ; $7
 	dc.b	"Vous êtes ici à Reshel."
+	dc.b	$FD
+	dc.b	"Comme vous pouvez le voir, les choses"
 	dc.b	$FC
-	dc.b	"Bienvenue à mes frères Parmaniens !"
+	dc.b	"s'améliorent ici. Bienvenue !"
 	dc.b	$FF
 
 ; $8
-	dc.b	"Ma boutique d'outils est aussi rénovée"
+	dc.b	"Ma boutique d'outils a aussi été rénovée"
 	dc.b	$FC
 	dc.b	"récemment."
 	dc.b	$FD
@@ -87,9 +87,9 @@
 	dc.b	$FF
 
 ; $A
-	dc.b	"On dirait que nous sommes maintenant"
+	dc.b	"On dirait que les problèmes sont"
 	dc.b	$FC
-	dc.b	"libres de problèmes !"
+	dc.b	"maintenant finis !"
 	dc.b	$FF
 
 ; $B
@@ -109,9 +109,9 @@
 ; $D
 	dc.b	"Je viens d'emménager ici..."
 	dc.b	$FD
-	dc.b	"Est-ce qu'il s'est passé d'étranges"
+	dc.b	"Est-ce qu'il s'est passé quelque chose"
 	dc.b	$FC
-	dc.b	"choses récemment ?"
+	dc.b	"récemment ?"
 	dc.b	$FF
 
 ; $E
@@ -121,9 +121,9 @@
 	dc.b	$FF
 
 ; $F
-	dc.b	"Finalement ! Les affaires semblent"
+	dc.b	"Enfin ! Les affaires semblent vouloir"
 	dc.b	$FC
-	dc.b	"vouloir reprendre."
+	dc.b	"reprendre."
 	dc.b	$FF
 
 ; $10
@@ -139,7 +139,7 @@
 ; $11
 	dc.b	"Hé, toi ! Tu salis tout !"
 	dc.b	$FC
-	dc.b	"Tes souliers sont plein de boue !"
+	dc.b	"Tes chaussures sont pleines de boue !"
 	dc.b	$FD
 	dc.b	"Je viens juste de rénover tout ici,"
 	dc.b	$FC
@@ -157,13 +157,15 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Argh ! Aspergez les insectes, pas moi !"
+	dc.b	"Argh ! Je ne suis pas un insecte !"
+	dc.b	$FC
+	dc.b	"Ne pointez pas ce truc vers moi !"
 	dc.b	$FF
 
 ; $13
-	dc.b	"Zut, je venais juste de me faire des"
+	dc.b	"Zut, je commençais à me faire de"
 	dc.b	$FC
-	dc.b	"nouveaux amis où on avait déménagé..."
+	dc.b	"nouveaux amis dans cette ville !"
 	dc.b	$FF
 
 ; $14
@@ -172,10 +174,6 @@
 	dc.b	"tous ces déménagements. Mais l'avenir"
 	dc.b	$FD
 	dc.b	"est prometteur !"
-	dc.b	$FD
-	dc.b	"Tu verras ! Si c'est l'argent qui compte,"
-	dc.b	$FC
-	dc.b	"j'en aurai autant que je voudrai !"
 	dc.b	$FF
 
 ; $15
@@ -185,7 +183,7 @@
 	dc.b	$FD
 	dc.b	"Je pensais qu'il n'était qu'un guignol, mais"
 	dc.b	$FC
-	dc.b	"j'ai changé d'idée à son sujet !"
+	dc.b	"j'ai changé d'avis à son sujet !"
 	dc.b	$FF
 
 ; $16
@@ -215,15 +213,19 @@
 	dc.b	$FC
 	dc.b	"propage en ce moment..."
 	dc.b	$FD
+	dc.b	"C'est pire que ce que vous pouvez"
+	dc.b	$FC
+	dc.b	"imaginer !"
+	dc.b	$FD
 	dc.b	"Les malades font beaucoup de fièvre et"
 	dc.b	$FC
 	dc.b	"meurent en un mois."
 	dc.b	$FD
-	dc.b	"En plus, les morts ressuscitent, mais"
+	dc.b	"En plus, les morts ressuscitent... mais"
 	dc.b	$FC
 	dc.b	"deviennent des zombis !"
 	dc.b	$FD
-	dc.b	"C'est vraiment terrifiant !"
+	dc.b	"Qu'est-ce qu'on peut faire ?!"
 	dc.b	$FF
 
 ; $19
@@ -237,13 +239,13 @@
 	dc.b	$A1, $01
 	dc.b	"Il y avait une ville, Reshel, à l'ouest..."
 	dc.b	$FC
-	dc.b	"Il semble qu'elle ait été décimée par une"
+	dc.b	"Apparemment elle a été sévèrement"
 	dc.b	$FD
-	dc.b	"maladie ! On dit que c'est une ville"
+	dc.b	"affectée par une maladie ! Des zombis"
 	dc.b	$FC
-	dc.b	"morte-vivante depuis."
+	dc.b	"sillonnent les rues ! Que peut-on faire"
 	dc.b	$FD
-	dc.b	"Il faut prendre ça au sérieux ici !"
+	dc.b	"contre pareils démons ?"
 	dc.b	$FF
 
 ; $1B
@@ -323,9 +325,7 @@
 	dc.b	$FC
 	dc.b	"dû brûler et enterrer les dépouilles de"
 	dc.b	$FD
-	dc.b	"ceux qui sont devenus des Zombis."
-	dc.b	$FC
-	dc.b	""
+	dc.b	"ceux qui sont devenus des zombis..."
 	dc.b	$FF
 
 ; $24
@@ -338,6 +338,7 @@
 
 ; $25
 	dc.b	"Un « Esper » est venu ici ? C'est louche !"
+	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
 	dc.b	"Comment oses-tu dire ça !"
