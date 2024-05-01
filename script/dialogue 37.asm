@@ -115,7 +115,9 @@
 ; $26
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Là-bas ! Quelqu'un est en difficulté !"
+	dc.b	"Regardez !"
+	dc.b	$FC
+	dc.b	"Quelqu'un est attaqué !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
@@ -125,9 +127,9 @@
 ; $27
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Zut ! Ils grandissent et sans arrêt"
+	dc.b	"Zut ! Ils grandissent et sans arrêt dès"
 	dc.b	$FC
-	dc.b	"dès qu'on les détruit !"
+	dc.b	"qu'on les détruit !"
 	dc.b	$FD
 	dc.b	"Ils n'ont aucune limite !"
 	dc.b	$FC
@@ -158,7 +160,7 @@
 
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"Je vois... c'est pour cette raison que"
+	dc.b	"Ah, donc c'est pour cette raison que"
 	dc.b	$FC
 	dc.b	"vous avez fait tout ce chemin."
 	dc.b	$FD
@@ -166,35 +168,39 @@
 	dc.b	$01
 	dc.b	$F2, $00
 	dc.w	$009C
-	dc.b	"C'était bien téméraire d'y aller toute"
+	dc.b	"Vous vouliez affronter seule une forêt"
 	dc.b	$FC
-	dc.b	"seule !"
+	dc.b	"hantée ?!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"Je devais faire quelque chose pour"
+	dc.b	"Je me sentais inutile... Je devais faire"
 	dc.b	$FC
-	dc.b	"arranger tout ça !"
+	dc.b	"quelque chose pour arranger tout ça !"
 	dc.b	$FD
-	dc.b	"Je fulmine juste à voir tous ces gens"
+	dc.b	"Je ne suporte pas de voir tous ces gens"
 	dc.b	$FC
 	dc.b	"se tordre de douleur..."
 	dc.b	$FD
 	dc.b	"Mais ces arbres carnivores étaient beau-"
 	dc.b	$FC
-	dc.b	"coup plus coriace que ce qu'on disait..."
+	dc.b	"coup plus difficile à traverser que je"
+	dc.b	$FD
+	dc.b	"ne pensais..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Ouais... Je me demande s'il y a un autre"
+	dc.b	"Je me demande s'il n'y a pas une autre"
 	dc.b	$FC
-	dc.b	"moyen de les vaincre ?"
+	dc.b	"approche possible ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
 	dc.b	"Je connais peut-être le moyen..."
 	dc.b	$FD
-	dc.b	"Notre chef devrait pouvoir nous aider !"
+	dc.b	"Je parie que notre leader saura"
+	dc.b	$FC
+	dc.b	"exactement quoi faire !"
 	dc.b	$FD
 	dc.b	"Notre... guide au Manoir Esper..."
 	dc.b	$FD
@@ -204,11 +210,11 @@
 	dc.b	$FD
 	dc.b	"Il y a environ deux mille ans..."
 	dc.b	$FD
-	dc.b	"Accompagné d'une héroïne appelée Alis, il"
+	dc.b	"Accompagné d'une héroïne appelée Alisa, il"
 	dc.b	$FC
-	dc.b	"a sauvé Algo et est devenu renommé"
+	dc.b	"a sauvé Algol et il nous guide tous"
 	dc.b	$FD
-	dc.b	"comme étant un magicien légendaire !"
+	dc.b	"depuis ce moment !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
@@ -224,35 +230,37 @@
 	dc.b	$FC
 	dc.b	"profondeurs du Manoir Esper !"
 	dc.b	$FD
-	dc.b	"Mais nul, hormis les plus haut gradés, ne"
+	dc.b	"Mais personne, hormis les plus haut"
 	dc.b	$FC
-	dc.b	"peuvent y entrer."
+	dc.b	"gradés, ne peut y entrer."
 	dc.b	$FD
-	dc.b	"C'est pourquoi je ne l'ai vu qu'une seule"
+	dc.b	"Même si je ne l'ai aperçu qu'une seule"
 	dc.b	$FC
 	dc.b	"fois, de loin, par hasard de surcroît, à"
 	dc.b	$FD
 	dc.b	"l'occasion d'une cérémonie !"
 	dc.b	$FD
-	dc.b	"Mais... on le reconnaît même de loin - il"
+	dc.b	"Mais... même à cette époque, il rayonnait"
 	dc.b	$FC
-	dc.b	"est brillant... gracieux...élégant... une"
+	dc.b	"d'intelligence, de grâce, de noblesse..."
 	dc.b	$FD
-	dc.b	"personne merveilleuse !"
-	dc.b	$FD
-	dc.b	"Je suis certaine qu'il doit connaître le"
+	dc.b	"Il doit être l'être le plus sage de tout"
 	dc.b	$FC
-	dc.b	"moyen de résoudre ce problème !"
+	dc.b	"Algol !"
+	dc.b	$FD
+	dc.b	"Je ne doute pas qu'il souhaiterait être"
+	dc.b	$FC
+	dc.b	"mis au courant de notre situation !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Hmm..."
-	dc.b	$FD
-	dc.b	"Il est vivant depuis deux mille ans..."
+	dc.b	"Il traîne donc dans la maison depuis deux"
+	dc.b	$FC
+	dc.b	"millénaires, hein ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
-	dc.b	"Tu ne le crois pas ?"
+	dc.b	"Tu te moques de moi ?"
 	dc.b	$FD
 	dc.b	"Le vénéré Lutz est un magicien sans"
 	dc.b	$FC
@@ -266,13 +274,19 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Je me demande si c'est possible ?"
+	dc.b	"Et bien, on a vu des choses impossibles"
+	dc.b	$FC
+	dc.b	"plusieurs fois jusqu'à maintenant..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"En toute logique, il doit s'agir d'une"
+	dc.b	"Même avant Mother Brain, l'hibernation"
 	dc.b	$FC
-	dc.b	"variante d'hibernation cryogénique."
+	dc.b	"cryogénique a existé sur Algol, mais je"
+	dc.b	$FD
+	dc.b	"aucune trace de son utilisation sur"
+	dc.b	$FC
+	dc.b	"Dezolis."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
@@ -288,9 +302,11 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Oui ! Hé, Chaz, allons-y, et voyons"
+	dc.b	"Wow ! Chaz, On doit voir si nous"
 	dc.b	$FC
-	dc.b	"si nous pouvons rencontrer ce Lutz !"
+	dc.b	"pouvons rencontrer ce gars !"
+	dc.b	$FD
+	dc.b	"C'est excitant !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
@@ -298,15 +314,17 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"D'accord. Direction, le Manoir Esper !"
+	dc.b	"Merci Kyra ! D'accord. Direction,"
+	dc.b	$FC
+	dc.b	"le Manoir Esper !"
 	dc.b	$FF
 
 ; $29
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Il serait dangereux de s'aventurer"
+	dc.b	"Il serait dangereux de s'aventurer au"
 	dc.b	$FC
-	dc.b	"passé ce lieu."
+	dc.b	"delà de ce point."
 	dc.b	$FD
 	dc.b	"Ce sont des arbres carnivores !"
 	dc.b	$FF
@@ -333,9 +351,9 @@
 	dc.b	$FF
 
 ; $2C
-	dc.b	"Des ondes très puissantes de pure"
+	dc.b	"Des ondes très puissantes de pure haine"
 	dc.b	$FC
-	dc.b	"haine ont envahi ce temple !"
+	dc.b	"ont envahi ce temple !"
 	dc.b	$FF
 
 ; $2D
@@ -361,9 +379,9 @@
 ; $2F
 	dc.b	"Et nous qui croyions que ce nuage sombre"
 	dc.b	$FC
-	dc.b	"était levé et que la méchanceté était"
+	dc.b	"était levé et que la méchanceté était du"
 	dc.b	$FD
-	dc.b	"du passé... !"
+	dc.b	"passé... !"
 	dc.b	$FF
 
 ; $30
@@ -382,19 +400,17 @@
 	dc.b	$F3
 	dc.b	$F4
 	dc.b	$1B
-	dc.b	"Je crois en votre potentiel, Chaz"
-	dc.b	$FC
-	dc.b	"Ashley..."
+	dc.b	"J'ai foi en vous, Chaz Ashley..."
 	dc.b	$FF
 
 ; $32
 	dc.b	$F4
 	dc.b	$1A
-	dc.b	"Pardon ? Non, c'est impossible !"
+	dc.b	"Je suis le haut prêtre Ta Suuk."
 	dc.b	$FD
-	dc.b	"La flamme sacrée ne devrait pas franchir"
+	dc.b	"Cette flamme miraculeuse n'est pas"
 	dc.b	$FC
-	dc.b	"cette porte !"
+	dc.b	"autorisée à franchir cette porte !"
 	dc.b	$FD
 	dc.b	"Même si c'est le souhait de Lutz de"
 	dc.b	$FC
@@ -404,23 +420,25 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Mon pote, tu n'y comprends rien !"
+	dc.b	"Mon pote, vous êtes aussi mauvais que"
+	dc.b	$FC
+	dc.b	"Raja ? Vous ne comprenez vraiment rien !"
 	dc.b	$FD
 	dc.b	"Dois-je tout te ré-expliquer ?"
 	dc.b	$FD
-	dc.b	"Le sort du système Algo tout entier"
+	dc.b	"Le sort du système Algol tout entier"
 	dc.b	$FC
 	dc.b	"dépend de cela !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$1A
-	dc.b	"Impossible, impossible ! Ça ne se fait"
+	dc.b	"Impossible, impossible ! Ça ne se fait juste"
 	dc.b	$FC
-	dc.b	"juste pas !"
+	dc.b	"pas !"
 	dc.b	$FD
 	dc.b	"Hein ?"
 	dc.b	$FD
-	dc.b	"Qui est-ce ?"
+	dc.b	"C'est quoi ça ?"
 	dc.b	$F7
 
 	dc.b	$F4
@@ -429,48 +447,52 @@
 	dc.b	$FD
 	dc.b	"Je vais vous emprunter ceci, vous voulez"
 	dc.b	$FC
-	dc.b	"bien ?"
+	dc.b	"bien ? Merci beaucoup !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Hé ! Qu'est-ce que tu crois, qu'on va te"
-	dc.b	$FC
-	dc.b	"laisser faire ?!"
+	dc.b	"Ils sont apparus de nulle part !"
+	dc.b	$FD
+	dc.b	"Comment ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$1F
-	dc.b	"Ha, ha, ha, ha !"
-	dc.b	$FD
-	dc.b	"Si vous voulez nous trouver, vous"
+	dc.b	"Nous, les démons, sommes chez nous au"
 	dc.b	$FC
-	dc.b	"devrez affronter le Air Castle !"
+	dc.b	"Air Castle !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$1D
 	dc.b	"Eh, toi... le gars habillé tout en blanc !"
 	dc.b	$FD
-	dc.b	"Tu es Lutz, alors tu te rappelle, non ?"
+	dc.b	"Si tu es Lutz, alors tu te rappelle, non ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$1F
-	dc.b	"Tu sais qui t'attends avec impatience"
+	dc.b	"Nous t'apportons les salutations des"
 	dc.b	$FC
-	dc.b	"dans le Air Castle !"
+	dc.b	"fantômes impies du passé d'Algol !"
+	dc.b	$FD
+	dc.b	"Lutz sait que la terreur attend ceux qui"
+	dc.b	$FC
+	dc.b	"défient le souverain légitime du"
+	dc.b	$FD
+	dc.b	"Air Castle..."
 	dc.b	$F7
 	
 	dc.b	$F4
 	dc.b	$1D
-	dc.b	"Je vous prends le Flambeau  de l'Éclipse !"
+	dc.b	"... et des reliques d'Algol !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$1F
-	dc.b	"Vous voulez le ravoir, alors venez nous"
+	dc.b	"L'âme de notre maître brûle de désir de"
 	dc.b	$FC
-	dc.b	"le reprendre !"
+	dc.b	"vengeance !"
 	dc.b	$FD
-	dc.b	"Si, bien sûr, vous n'y voyez pas d'incon-"
+	dc.b	"Lutz, il te demande de lui faire face une"
 	dc.b	$FC
-	dc.b	"vénient d'y laisser votre vie !"
+	dc.b	"fois encore !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$1D
@@ -482,7 +504,7 @@
 	dc.b	$1A
 	dc.b	"Ahhhhhh !"
 	dc.b	$FC
-	dc.b	"C'est horrible !"
+	dc.b	"Quel désastre !"
 	dc.b	$FD
 	dc.b	"Le flambeau sacré a été dérobé..."
 	dc.b	$FD
@@ -495,20 +517,14 @@
 	dc.b	"telle honte..."
 	dc.b	$FD
 	dc.b	$F4
-	dc.b	$01
-	dc.b	"Ne soyez pas si négatif !"
-	dc.b	$FD
-	dc.b	$F4
 	dc.b	$04
 	dc.b	"On vous l'a pris de force."
 	dc.b	$FC
-	dc.b	"Vous n'êtes pas en cause."
+	dc.b	"Ce n'est pas de votre faute."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Tout ce que l'on doit faire, c'est y aller,"
-	dc.b	$FC
-	dc.b	"et le récupérer !"
+	dc.b	"... Et on peut le ramener !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$1A
@@ -532,7 +548,7 @@
 	dc.b	$06
 	dc.b	"Rune, au sujet du Air Castle ?"
 	dc.b	$FC
-	dc.b	"Tu disais que tu le connaissait."
+	dc.b	"Il disait que tu le connaissait ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
@@ -544,21 +560,25 @@
 	dc.b	$FD
 	dc.b	"C'est un château qui flottait dans les"
 	dc.b	$FC
-	dc.b	"cieux de Parma il y a fort longtemps !"
+	dc.b	"cieux de Palma il y a fort longtemps !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Dans les cieux de Parma !"
-	dc.b	$FD
-	dc.b	"Alors, il a dû être détruit il y a mille ans !"
+	dc.b	"La planète Palma ! Dans ce cas il a"
+	dc.b	$FC
+	dc.b	"dû être détruit il y a mille ans !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"La planète Parma fut détruite, et tout"
+	dc.b	"La planète Palma fut détruite, en 1284 AW"
 	dc.b	$FC
-	dc.b	"ce qu'il en reste, c'est une ceinture"
+	dc.b	"quand le satellite artificiel Gaira l'a"
+	dc.b	$FD	
+	dc.b	"percutée."
+	dc.b	$FC
+	dc.b	"Tout ce qu'il en reste, c'est une ceinture"
 	dc.b	$FD
-	dc.b	"d'astéroïdes qui occupe son ancien"
+	dc.b	"d'astéroïdes qui occupe son ancienne "
 	dc.b	$FC
 	dc.b	"orbite."
 	dc.b	$FD
@@ -584,7 +604,7 @@
 	dc.b	$01
 	dc.b	"Rune, j'ai une autre question..."
 	dc.b	$FD
-	dc.b	"De qui parlaient ces sorcières ?"
+	dc.b	"Qui est le « Maître » dont ils parlaient ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
@@ -592,17 +612,23 @@
 	dc.b	$FC
 	dc.b	"combattu un homme dans le Air Castle..."
 	dc.b	$FD
-	dc.b	"Cet homme s'appelait Lashiec !"
+	dc.b	"Le roi illégitime de Palma, dans le"
+	dc.b	$FC
+	dc.b	"château dans le ciel : Lashiec !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"C'est de lui qu'elles parlaient ?"
+	dc.b	"C'est de lui dont ils parlaient ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Lashiec fut vaincu par le premier Lutz !"
+	dc.b	"On peut supposer que Lashiec est mort"
+	dc.b	$FC
+	dc.b	"dans la bataille avec Lutz, mais je n'en"
 	dc.b	$FD
-	dc.b	"Va savoir ce qu'on va trouver là-bas..."
+	dc.b	"ai pas la preuve."
+	dc.b	$FC
+	dc.b	"...Tout cela n'a pas de sens"
 	dc.b	$FF
 
 ; $33
@@ -610,13 +636,15 @@
 	dc.b	$1B
 	dc.b	"Heureux de vous voir."
 	dc.b	$FD
-	dc.b	"Je suis l'archevêque du Temple Gumbious,"
+	dc.b	"Je suis Sha Iraa, archevêque du Temple"
 	dc.b	$FC
-	dc.b	"érigé il y a deux mille ans."
+	dc.b	"Gumbious. J'ai vécu plus de 2000 ans,"
+	dc.b	$FD
+	dc.b	"lorsqu'une immense tour s'élevait ici."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Archevêque, que diable s'est-il passé ?"
+	dc.b	"Archevêque, que se passe-t-il ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
@@ -634,17 +662,19 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$1B
-	dc.b	"La « Noirceur Profonde » existe encore."
+	dc.b	"Les Ténèbres Profonds existent encore."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"La « Noirceur Profonde » ?"
+	dc.b	"Qu'est-ce c'est que « les Ténèbres"
+	dc.b	$FC
+	dc.b	"Profonds » ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$1B
-	dc.b	"Elle est la racine du mal qui apporte"
+	dc.b	"C'est la racine du mal qui apporte la"
 	dc.b	$FC
-	dc.b 	"la mort et la destruction à Algo depuis"
+	dc.b 	"mort et la destruction à Algol depuis"
 	dc.b	$FD
 	dc.b	"les temps immémoriaux."
 	dc.b	$FD
@@ -654,7 +684,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Oh !"
+	dc.b	"Non !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
@@ -668,33 +698,39 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Rykros ?"
+	dc.b	"« Rykros » ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$1B
-	dc.b	"Elle n'a pas réussi à en prendre le"
+	dc.b	"Les Ténèbres profondes n'ont aucun"
 	dc.b	$FC
-	dc.b	"contrôle."
+	dc.b	"contrôle sur leurs propres actions."
+	dc.b	$FD		
+	dc.b	"Simple force de la nature, il s'agit d'une"
+	dc.b	$FC
+	dc.b	"volonté pure, sans conscience."
 	dc.b	$FD
-	dc.b	"C'est pourquoi la Noirceur Profonde"
+	dc.b	"S'ils n'ont pas pu percer le secret de"
 	dc.b	$FC
-	dc.b	"se manifeste."
+	dc.b	"Rykros, ils se sont efforcés d'entraver"
 	dc.b	$FD
-	dc.b	"Si elle ne peut pas l'avoir, elle ne veut"
+	dc.b	"votre quête et s'assurer que personne"
 	dc.b	$FC
-	dc.b	"pas vous laisser en prendre possession."
+	dc.b	"n'y parvienne."	
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Archevêque, ce n'est pas clair."
+	dc.b	"Archevêque, je ne comprends pas."
 	dc.b	$FC
 	dc.b	"Qu'est-ce que « Rykros » ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Est-ce important au point que nous"
+	dc.b	"C'est si important au point que nous"
 	dc.b	$FC
-	dc.b	"devions tout faire pour le trouver ?"
+	dc.b	"devions nous dépêcher pour le trouver"
+	dc.b	$FD
+	dc.b	"avant Dark Force ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$1B
@@ -708,23 +744,29 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Et ça veut dire... ?"
+	dc.b	"Pouvez-vous reformuler archevèque ?"
+	dc.b	$FC
+	dc.b	"Essayez, s'il vous plait."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$1B
-	dc.b	"Je ne suis pas certain moi-même de la"
+	dc.b	"Ce n'est pas clair pour moi non plus,"
 	dc.b	$FC
-	dc.b	"véritable nature de « Rykros »..."
+	dc.b	"ce que « Rykros » est..."
 	dc.b	$FD
-	dc.b	"ni d'où elle se trouve..."
+	dc.b	"ni où ça se trouve..."
 	dc.b	$FD
-	dc.b	"Quand « Rykros » reviendra,"
+	dc.b	"« Quand Rykros reviendra,"
 	dc.b	$FC
-	dc.b	"« l'Aero-Prisme » montrera la voie."
+	dc.b	"l'Aero-Prisme montrera la voie. »"
 	dc.b	$FD
-	dc.b	"Je ne sais rien hormis ce dicton, transmis"
+	dc.b	"C'est le seul indice dont je dispose."
 	dc.b	$FC
-	dc.b	"de génération en génération."
+	dc.b	"Ce dicton, transmis depuis des"
+	dc.b	$FD
+	dc.b	"millénaires, est partagé par les chefs"
+	dc.b	$FC
+	dc.b	"sacrés de Dezolis."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
@@ -732,9 +774,9 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Ah, la lumière de l'Aero-Prisme, qui mène"
+	dc.b	"L'objet qui révèle non pas ce que"
 	dc.b	$FC
-	dc.b	"à l'illumination... !"
+	dc.b	"l'obscurité mais ce que la lumière cache !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
@@ -742,51 +784,45 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Chaz ! Nous devons retourner sur"
-	dc.b	$FC
-	dc.b	"Motavia !"
+	dc.b	"Chaz ! On doit retourner sur Motavia !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Motavia ?"
+	dc.b	"Motavia ? Pourquoi ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Le premier Lutz a rangé l'Aero-Prisme"
+	dc.b	"Le premier Lutz a rangé l'Aero-Prisme au"
 	dc.b	$FC
-	dc.b	"au Temple des Soldats !"
+	dc.b	"Temple des Soldats !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Ah, le temple sur l'île, au milieu du lac,"
+	dc.b	"Ah, ce temple sur l'île, au milieu du lac,"
 	dc.b	$FC
-	dc.b	"près de Krup !"
+	dc.b	"près de Krup ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Nous aurons besoin d'un vehicule"
+	dc.b	"Nous aurons besoin d'un vehicule capable"
 	dc.b	$FC
-	dc.b	"capable de franchir ce lac."
+	dc.b	"de franchir ce lac."
 	dc.b	$FD
 	dc.b	"Je vais contacter Demi immédiatement."
 	dc.b	$FD
 	dc.b	$F4
-	dc.b	$01
-	dc.b	"Archevêque, je vous remercie."
-	dc.b	$FD
-	dc.b	"Nous vous rendons le Flambeau de"
-	dc.b	$FC
-	dc.b	"l'Éclipse."
-	dc.b	$FD
-	dc.b	$F4
 	dc.b	$1B
-	dc.b	"Ainsi, vous irez à Rykros ?"
+	dc.b	"Alors... vous partez en quête de"
+	dc.b	$FC
+	dc.b	"Rykros ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Oui. Après tout, nous avons déjà fait"
+	dc.b	"Oui."
+	dc.b	$FD
+	dc.b	"Après tout, nous sommes allés aussi loin,"
 	dc.b	$FC
-	dc.b	"tout ce chemin..."
+	dc.b	"alors autant aller jusqu'au bout."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$1B
@@ -798,9 +834,9 @@
 	dc.b	$FD
 	dc.b	"C'est à vous d'écrire l'histoire."
 	dc.b	$FD
-	dc.b	"Tous nos espoirs reposent sur vous, des"
+	dc.b	"Et sous quel nom l'histoire devrait-elle"
 	dc.b	$FC
-	dc.b	"gens pourtant si jeunes..."
+	dc.b	"se souvenir de vous ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
@@ -810,9 +846,9 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$1B
-	dc.b	"Je vois. Je vous confie cette mission,"
+	dc.b	"Je vois. Prenez place parmi les"
 	dc.b	$FC
-	dc.b	"Chaz Ashley."
+	dc.b	"légendes, Chaz Ashley !"
 	dc.b	$FF
 
 ; $34

@@ -5,7 +5,7 @@
 	dc.b	$03
 	dc.b	"Professeur !"
 	dc.b	$FC
-	dc.b	"Dieu merci, vous êtes sauf !"
+	dc.b	"Dieu merci, vous allez bien !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0D
@@ -43,7 +43,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Mais que... ?!"
+	dc.b	"Whoa ?!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
@@ -57,13 +57,15 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Rika."
+	dc.b	"« Rika »..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Ces oreilles... de quelle espèce es-tu ?"
+	dc.b	"Ces oreilles..."
+	dc.b	$FC
+	dc.b	"Qu'est-ce que... tu es ?"
 	dc.b	$FD
-	dc.b	"Et quel est cet endroit !?"
+	dc.b	"Et quel est cet endroit ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
@@ -79,10 +81,8 @@
 	dc.w	$0032
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"C'est... c'est un vestige de l'ancienne"
+	dc.b	"Ouahh, c'est incroyable !"
 	dc.b	$FC
-	dc.b	"civilisation avancée !"
-	dc.b	$FD
 	dc.b	"Il fonctionne encore ?"
 	dc.b	$FD
 	dc.b	$F4
@@ -105,7 +105,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Vraiment ? C'est la vérité ?"
+	dc.b	"Professeur ? C'est la vérité ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0D
@@ -121,9 +121,9 @@
 	dc.b	$FD
 	dc.b	"minimales pour la préservation de la vie."
 	dc.b	$FD
-	dc.b	"De plus, ces systèmes ont commencé"
+	dc.b	"D'ailleurs en ce moment, ce système"
 	dc.b	$FC
-	dc.b	"à dérailler !"
+	dc.b	"commence à dérailler !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
@@ -145,19 +145,21 @@
 	dc.b	$FD
 	dc.b	"... Si vous voulez en savoir plus,"
 	dc.b	$FC
-	dc.b	"adressez-vous à « Seed »."
+	dc.b	"adressez-vous à mon mentor « Seed »."
 	dc.b	$FD
 	dc.b	"Il est juste ici."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"« Seed ? »"
+	dc.b	"« Seed » ?"
 	dc.b	$FF
 
 ; $1
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Alors, où se trouve ce Seed ?"
+	dc.b	"C'est une plaisanterie ?"
+	dc.b	$FC
+	dc.b	"Il n'y a personne ici !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
@@ -165,13 +167,17 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Où, exactement ?"
+	dc.b	"...Quoi ? Aaah !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$00
-	dc.b	"Je suis « Seed », l'ordinateur de contrôle"
+	dc.b	"Je suis le Système d'Etude de l'Evolution"
 	dc.b	$FC
-	dc.b	"de ce Bio-laboratoire."
+	dc.b	"et du Développement « SEED »,"
+	dc.b	$FD
+	dc.b	"l'ordinateur de contrôle de ce"
+	dc.b	$FC
+	dc.b	"Bio-laboratoire."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
@@ -179,13 +185,17 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0D
-	dc.b	"In... Incroyable !"
+	dc.b	"Absolument incroyable !"
+	dc.b	$FC
+	dc.b	"La découverte du siècle !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$00
-	dc.b	"Vous avez raison, le bio-laboratoire n'a"
+	dc.b	"Vous avez raison, nous sommes loin de la"
 	dc.b	$FC
-	dc.b	"pas échappé aux dérèglements."
+	dc.b	"technologie actuelle d'Algol."
+	dc.b	$FD
+	dc.b	"Ça doit être un choc."
 	dc.b	$FD
 	dc.b	"Vous pouvez confirmer mon état ici. Le"
 	dc.b	$FC
@@ -248,13 +258,11 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Aucun souci. Tout ce que nous avons à"
+	dc.b	"Il y a un moyen. Nous devons désactiver"
 	dc.b	$FC
-	dc.b	"faire, c'est désactiver « Nurvus »,"
+	dc.b	"« Nurvus », l'installation qui fournit"
 	dc.b	$FD
-	dc.b	"l'installation qui fournit l'énergie"
-	dc.b	$FC
-	dc.b	"aux autres."
+	dc.b	"l'énergie aux autres."
 	dc.b	$FD
 	dc.b	"Toutes les installations seront alors"
 	dc.b	$FC
@@ -290,13 +298,11 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Qui diable est ce Zio !?"
+	dc.b	"Que pouvez vous nous dire de Zio ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$00
-	dc.b	"Je n'ai pas d'informations sur les motiva-"
-	dc.b	$FC
-	dc.b	"tions de Zio."
+	dc.b	"Je n'ai pas d'informations sur Zio."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
@@ -304,27 +310,31 @@
 	dc.b	$FC
 	dc.b	"secourir Demi, non ?"
 	dc.b	$FD
-	dc.b	"Où est-elle incarcérée ?"
+	dc.b	"Où est-elle retenue en hotage ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Elle est avec Zio,"
+	dc.b	"Vous avez vu la tour sinistre,"
+	dc.b	$FC
+	dc.b	"à l'horizon ?"
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$0036
-	dc.b	"et ce château s'appelle le Fort de Zio !"
+	dc.b	"Aucun doute qu'elle est retenue à"
+	dc.b	$FC
+	dc.b	"l'intérieur : Le Fort de Zio !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
 	dc.b	"Est-ce que cet endroit serait..."
 	dc.b	$FC
-	dc.b	"passé les sables mouvants de Mile ?"
+	dc.b	"au délà des sables mouvants de Mile ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Oh, ce château inquiétant au nord de"
+	dc.b	"Ah ha ! Ce château sinistre au nord"
 	dc.b	$FC
-	dc.b	"Zema."
+	dc.b	"qu'on a vu au nord de la ville !"
 	dc.b	$FD
 	dc.b	$F2, $01
 	dc.b	$F9
@@ -335,25 +345,23 @@
 	dc.b	$02
 	dc.b	"Bon, ce n'est pas la porte d'à côté, mais"
 	dc.b	$FC
-	dc.b	"vu l'ampleur des enjeux, on n'a pas"
+	dc.b	"on dirait que tous les chemins mènent à"
 	dc.b	$FD
-	dc.b	"vraiment le choix."
+	dc.b	"Zio."
 	dc.b	$FD
-	dc.b	"Hé hé, ça fait un bon moment que je ne me"
+	dc.b	"Devenir le fléau de Motavia a pu être un"
 	dc.b	$FC
-	dc.b	"suis pas sentie aussi enthousiaste !"
+	dc.b	"jeu pour lui jusque là, mais maintenant"
 	dc.b	$FD
-	dc.b	"Et tant que nous y sommes, pourquoi ne"
+	dc.b	"Alys Brangwin est là pour botter des"
 	dc.b	$FC
-	dc.b	"pas en profiter pour se débarasser de"
-	dc.b	$FD
-	dc.b	"cet horrible Zio !"
+	dc.b	"culs !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$05
-	dc.b	"Ouais !"
+	dc.b	"Enfin ! Zio est allé trop loin cette"
 	dc.b	$FC
-	dc.b	"Là, tu parles !"
+	dc.b	"fois-ci."
 	dc.b	$FD
 	dc.b	$F2, $01
 	dc.b	$F9
@@ -363,9 +371,9 @@
 	dc.w	$0037
 	dc.b	$F4
 	dc.b	$00
-	dc.b	"Donc, vous acceptez ? Alors, veuillez"
+	dc.b	"Donc, ça commence... Alors, permettez à"
 	dc.b	$FC
-	dc.b	"prendre Rika avec vous."
+	dc.b	"Rika de vous escorter jusqu'à Zio."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
@@ -387,41 +395,68 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$00
-	dc.b	"C'est exact. Elle est le fruit de mille ans"
+	dc.b	"Oui, et non. Elle est organique, mais pas"
 	dc.b	$FC
-	dc.b	"d'améliorations successives de l'infor-"
+	dc.b	"née naturellement."
 	dc.b	$FD
-	dc.b	"mation génétique provenant d'un proto-"
+	dc.b	"Elle est le produit de 1000 ans d'analyse"
 	dc.b	$FC
-	dc.b	"type datant du « Grand Effondrement »."
+	dc.b	"des données du génôme de type  « Nei »"
 	dc.b	$FD
-	dc.b	"Je lui ai aussi fait profiter d'un ensei-"
+	dc.b	"datant d'avant le « Grand"
 	dc.b	$FC
-	dc.b	"gnement de base."
+	dc.b	"Effondrement »."
 	dc.b	$FD
-	dc.b	"Elle va sans doute vous être d'une"
+	dc.b	"L'objectif du projet était de fusionner"
 	dc.b	$FC
-	dc.b	"grande aide."
+	dc.b	"l'intelligence et l'émotion des Palmaniens"
+	dc.b	$FD
+	dc.b	"avec la ténacité et la constitution d'un"
+	dc.b	$FC
+	dc.b	"biomonstre..."
+	dc.b	$FD
+	dc.b	"...un être capable de se reproduire avec"
+	dc.b	$FC
+	dc.b	"les humains, donnant naissance à une"
+	dc.b	$FD
+	dc.b	"nouvelle race capable de survivre aux"
+	dc.b	$FC
+	dc.b	"environnements les plus rudes d'Algol."
+	dc.b	$FD
+	dc.b	"Je lui ai également inculqué une éducation"
+	dc.b	$FC
+	dc.b	"sur votre monde. Elle vous sera sûrement"
+	dc.b	$FD
+	dc.b	"d'une grande aide."
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$0038
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"C'est entendu, Seed."
+	dc.b	"D'accord, vous m'avez convaincue !"
 	dc.b	$FC
-	dc.b	"Elle vient avec nous !"
+	dc.b	"Bienvenue parmi nous, Rika !"
+	dc.b	$FD
+	dc.b	"J'espère que le grand vert et gris t'a"
+	dc.b	$FC
+	dc.b	"aussi appris à te battre !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Je vous remercie !"
-	dc.b	$FD
-	dc.b	"J'ai toujours voulu voir le monde"
+	dc.b	"Oh, oui, et j'apprends très vite !"
 	dc.b	$FC
-	dc.b	"extérieur !"
+	dc.b	"Merci infiniment !"
+	dc.b	$FD
+	dc.b	"J'avais peur que le jour où je verrai"
+	dc.b	$FC
+	dc.b	"l'extérieur n'arrive jamais !"
+	dc.b	$FD
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$00
-	dc.b	"Rika, prends soin de toi..."
+	dc.b	"Rika, mon enfant... prends soin de toi..."
+	dc.b	$FC
+	dc.b	"Va et vis ta vie."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
@@ -439,17 +474,13 @@
 	dc.b	$FF
 
 ; $2
-	dc.b	"Il n'y a qu'un seul moyen d'arrêter cette"
+	dc.b	"J'ai rempli ma mission."
 	dc.b	$FC
-	dc.b	"épidémie de monstres. Maintenant que"
+	dc.b	"Rika est libre."
 	dc.b	$FD
-	dc.b	"le fruit de mille ans de recherches va"
+	dc.b	"Il n'y a qu'un moyen pour aider à la"
 	dc.b	$FC
-	dc.b	"finalement pouvoir faire ses premiers"
-	dc.b	$FD
-	dc.b	"pas à l'extérieur, il n'y a plus d'empêche-"
-	dc.b	$FC
-	dc.b	"ments à sa réalisation."
+	dc.b	"renaissance d'Algol..."
 	dc.b	$FF
 
 ; $3
@@ -457,7 +488,7 @@
 	dc.w	$0039
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Nous sommes l'extérieur !"
+	dc.b	"C'est meilleur que dans mes rêves !"
 	dc.b	$FD
 	dc.b	"Wow, J'ignorais que le ciel était aussi"
 	dc.b	$FC
@@ -465,27 +496,27 @@
 	dc.b	$FD
 	dc.b	"Elles sont si magnifiques !"
 	dc.b	$FC
-	dc.b	"Comme tout est joli !"
+	dc.b	"Quelles couleurs vibrantes !"
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$003A
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Après avoir passé toute votre existence"
+	dc.b	"Haha, Rika, yep, c'est Motavia !"
 	dc.b	$FC
-	dc.b	"sous terre, tout doit vous sembler si"
+	dc.b	"Cette planète a eu des jours meilleurs"
 	dc.b	$FD
-	dc.b	"surprenant..."
+	dc.b	"mais c'est notre seul foyer."
 	dc.b	$FF
 
 ; $4
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Qu'est-ce que c'était ?"
+	dc.b	"Oh non ! C'était quoi ça ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Une déflagration !"
+	dc.b	"Une explosion !"
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$003D
@@ -495,15 +526,19 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Rika, tu dois accomplir la volonté de"
+	dc.b	"Rika, Seed savait que ces systèmes"
 	dc.b	$FC
-	dc.b	"Seed !"
+	dc.b	"foireux devaient être stoppés pour !"
 	dc.b	$FD
-	dc.b	"Tu ne peux plus revenir en arrière !"
+	dc.b	"la sûreté de Motavia, lui y compris."
+	dc.b	$FC
+	dc.b	"Il compte sur toi !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Je sais..."
+	dc.b	"Je sais... ce qu'on a à faire..."
+	dc.b	$FC
+	dc.b	"Seed, je poursuivrai votre volonté !"
 	dc.b	$FF
 
 ; $5
@@ -517,15 +552,17 @@
 	dc.b	$05
 	dc.b	"Donc, tant que nous avons ce Bâton-psy,"
 	dc.b	$FC
-	dc.b	"nous n'avons rien à craindre de Zio."
+	dc.b	"nous n'avons rien à craindre de Zio !"
+	dc.b	$FD
+	dc.b	"Allons-y !"
 	dc.b	$FD
 	dc.b	$F2, $03
 	dc.b	$FB
 	dc.b	$F4
 	dc.b	$07
-	dc.b	"Pardon, vous deux, est-ce que quelque"
+	dc.b	"...Rune, Rika...Qu'est-ce qui ne va"
 	dc.b	$FC
-	dc.b	"chose ne va pas ?"
+	dc.b	"pas ? On est si près de la victoire ?"
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$0054
@@ -535,7 +572,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Rune..."
+	dc.b	"Oh non... Rune... Elle est..."
 	dc.b	$F2, $00
 	dc.w	$0055
 	dc.b	$F9
@@ -556,11 +593,13 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Pardon ?"
+	dc.b	"Hein ? Qu'est-ce qui se passe ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Bougez vous ! On s'en va !"
+	dc.b	"MAINTENANT Chaz !"
+	dc.b	$FC
+	dc.b	"Avant qu'il ne soit trop tard !"
 	dc.b	$FF
 
 ; $6
@@ -572,55 +611,47 @@
 	dc.b	$94
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Tu es arrivé, Chaz !"
+	dc.b	"Tu es arrivé, petite tête !"
 	dc.b	$FD
-	dc.b	"Surprenant que tu aies pu te rendre"
+	dc.b	"Surprenant que tu aies pu arriver"
 	dc.b	$FC
 	dc.b	"jusqu'ici, avec d'aussi courtes jambes !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Rune, ce n'est pas le temps de"
+	dc.b	"Rune, crois moi, si Alys n'avait pas"
 	dc.b	$FC
-	dc.b	"plaisanter !"
+	dc.b	"desespérément besoin de ton aide,"
 	dc.b	$FD
-	dc.b	"Je t'en conjure. Aide-nous !"
+	dc.b	"je ne serais pas ici !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Hein ? Où est Alys ? Qu'est-il arrivé ?"
+	dc.b	"...Vous avez laissé arriver quelque"
+	dc.b	$FC
+	dc.b	"chose à Alys ?!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"En fait..."
+	dc.b	"...Zio...il..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Vraiment... Qu'une telle chose lui soit"
+	dc.b	"...Je vois... Oh Alys..."
+	dc.b	$FD
+	dc.b	"...Pas de temps à perdre, le Bâton-psy"
 	dc.b	$FC
-	dc.b	"arrivée... Alys..."
+	dc.b	"est notre seule chance !"
 	dc.b	$FD
-	dc.b	"Bon, ne nous précipitons pas."
+	dc.b	"Quand on l'aura trouvé..."
 	dc.b	$FD
-	dc.b	"Dès que nous aurons obtenu le"
+	dc.b	"C'est une ancienne arme qui peut"
 	dc.b	$FC
-	dc.b	"Bâton-psy..."
-	dc.b	$FD
-	dc.b	$F4
-	dc.b	$06
-	dc.b	"Le « Bâton-psy » ?"
-	dc.b	$FD
-	dc.b	$F4
-	dc.b	$04
-	dc.b	"Ouaip, c'est pour ça que je suis ici."
-	dc.b	$FD
-	dc.b	"Le Bâton-psy est la seule arme capable"
-	dc.b	$FC
-	dc.b	"de détruire la barrière magique de Zio !"
+	dc.b	"détruire la barrière magique de Zio !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Alors... Rune !"
+	dc.b	"OK, Alors tu penses qu'il est ici ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
@@ -628,23 +659,23 @@
 	dc.b	$FC
 	dc.b	"scellé, au sommet de la Tour Ladea."
 	dc.b	$FD
-	dc.b	"Je n'ai pas encore pu mettre la main"
+	dc.b	"On en a besoin. Et actuellement je"
 	dc.b	$FC
-	dc.b	"dessus."
+	dc.b	"préfère peu d'aide que pas d'aide."
 	dc.b	$FD
 	dc.b	"C'est par là que je me dirigeait."
 	dc.b	$FC
-	dc.b	"Vous venez ?"
+	dc.b	"Tu es chaud pour ça, petite tête ?"
 	dc.b	$FD
 	dc.b	"Une fois que nous aurons trouvé le"
 	dc.b	$FC
-	dc.b	"Bâton-psy, je serai très heureux de"
+	dc.b	"Bâton-psy... Et bien... Allez finissons-en,"
 	dc.b	$FD
-	dc.b	"vous aider."
+	dc.b	"et vite."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"D'accord, ça va, j'ai compris."
+	dc.b	"...OK, pour Alys."
 	dc.b	$FF
 
 ; $7
@@ -658,44 +689,44 @@
 	dc.b	$FF
 
 ; $8
-	dc.b	"Ha, ha, ha ! C'est le moment !"
+	dc.b	"Ha, ha, ha ! On y est !"
 	dc.b	$FD
-	dc.b	"C'est exactement ce que j'attendais !"
+	dc.b	"C'est le moment que j'attendais !"
 	dc.b	$F7
 
-	dc.b	"Sous l'ordre de Zio, je prends possession"
+	dc.b	"Je réclame ce bâton pour Zio !"
 	dc.b	$FC
-	dc.b	"du Bâton-psy !"
-	dc.b	$FD
-	dc.b	$F4
-	dc.b	$05
-	dc.b	"Tu es le sous-fifre de Zio !?"
-	dc.b	$FD
-	dc.b	$F4
-	dc.b	$04
-	dc.b	"Bof, un autre légume minable qui se prend"
-	dc.b	$FC
-	dc.b	"pour un sorcier."
-	dc.b	$FD
-	dc.b	"Chaz, ne le laisse pas prendre le"
-	dc.b	$FC
-	dc.b	"Bâton-psy !"
+	dc.b	"Je vais vous étriper, sacs à viande !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Pas besoin de me le rappeler !"
+	dc.b	"Un larbin de Zio ! Espèce de sale..."
 	dc.b	$FD
-	dc.b	"Arrête de me donner des ordres sans"
+	dc.b	$F4
+	dc.b	$04
+	dc.b	"Petite tête, tu ne dois pas te laisser"
 	dc.b	$FC
-	dc.b	"cesse !"
+	dc.b	"emporter par des insultes !"
+	dc.b	$FD
+	dc.b	"Garde la tête froide ! Si on perd le"
+	dc.b	$FC
+	dc.b	"bâton, on perd Alys !"
+	dc.b	$FD
+	dc.b	$F4
+	dc.b	$01
+	dc.b	"Je le sais ! Et hé, je la laisse assez me"
+	dc.b	$FC
+	dc.b	"donner des ordres comme ça !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Allez ! C'est vraiment le moment de se"
+	dc.b	"Allez ! J'ai bien envie de vous séparer"
 	dc.b	$FC
-	dc.b	"chamailler ?"
+	dc.b	"tous les deux, mais si on ne se"
 	dc.b	$FD
-	dc.b	"Il attaque !"
+	dc.b	"reprend pas ce monstre le fera"
+	dc.b	$FC
+	dc.b	"définitivement ! Allons-y !"
 	dc.b	$FF
 
 ; $9
@@ -736,15 +767,25 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$07
-	dc.b	"Oui, c'est juste."
+	dc.b	"Oui, Zio m'a laissé peu de choix."
 	dc.b	$FC
-	dc.b	"Zio est un homme plutôt violent."
+	dc.b	"Il est très persuasif."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$05
-	dc.b	"C'est une façon plutôt charitable de"
+	dc.b	"Vous pouvez répéter ça ?"
+	dc.b	$FD
+	dc.b	$F4
+	dc.b	$07
+	dc.b	"Pourquoi ? Oh pardon, je ne savais pas"
 	dc.b	$FC
-	dc.b	"voir les choses..."
+	dc.b	"que vous aviez des problèmes d'audition !"
+	dc.b	$FD	
+	dc.b	"Volume : Augmentation de 4 crans !"
+	dc.b	$FD	
+	dc.b	$F4
+	dc.b	$05
+	dc.b	"...Ce n'est pas... Laisse tomber."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$07
@@ -760,9 +801,13 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$07
-	dc.b	"Négatif. La cause ultime des problèmes"
+	dc.b	"Négatif. Zio est peut-être un fléau sur"
 	dc.b	$FC
-	dc.b	"vient du fait que Zelan émet des ordres"
+	dc.b	"Motavia, mais ça le dépasse."
+	dc.b	$FD
+	dc.b	"La cause ultime des problèmes vient du"
+	dc.b	$FC
+	dc.b	"fait que Zelan émet des ordres"
 	dc.b	$FD
 	dc.b	"contradictoires."
 	dc.b	$FD
@@ -782,7 +827,7 @@
 	dc.b	$FC
 	dc.b	"centrale des systèmes de maintient"
 	dc.b	$FD
-	dc.b	"environnemental du système solaire Algo."
+	dc.b	"environnemental du système solaire Algol."
 	dc.b	$FD
 	dc.b	"Il s'agit d'une station en orbite au-des-"
 	dc.b	$FC
@@ -790,7 +835,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$05
-	dc.b	"Impressionnant."
+	dc.b	"Impressionnant, ça semble... loin."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
@@ -798,53 +843,55 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$05
-	dc.b	"Tout d'abord, il faut trouver comment"
+	dc.b	"Ecoutez les gars, la première chose"
 	dc.b	$FC
-	dc.b	"vaincre Zio et éteindre Nurvus !"
+	dc.b	"à faire est d'arrêter Nurvus...et Zio !"
 	dc.b	$FD
 	dc.b	$F2, $01
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Ouais, tu as raison."
-	dc.b	$FD
-	dc.b	"Mais est-ce que vaincre Zio sera suffi-"
+	dc.b	"Ouais, Gryz a raison. Mais si ce n'est"
 	dc.b	$FC
-	dc.b	"sant ? Je suis inquiet au sujet de..."
+	dc.b	"pas suffisant de vaincre Zio..."
 	dc.b	$FD
-	dc.b	"Dark Force !"
+	dc.b	"Est-ce que ce « Dark Force » a un rôle"
+	dc.b	$FC
+	dc.b	"à jouer là dedans ?"
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$07
-	dc.b	"Soyez sans crainte, tout ira bien !"
+	dc.b	"Et bien, comme le dit Gryz, chaque chose"
 	dc.b	$FC
-	dc.b	"Je vais mettre le Land Rover en route !"
+	dc.b	"en son temps !"
 	dc.b	$FD
-	dc.b	"Allons à l'extérieur."
+	dc.b	"Je démarre le Land Rover."
 	dc.b	$FC
-	dc.b	"Il nous attendra là."
+	dc.b	"Il sera prêt dehors !"
 	dc.b	$FF
 
 ; $A
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Aïe ! Qu'est-ce que c'est !?"
+	dc.b	"Aah ! Ça vient d'où ça ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"On... On va tous mourir !"
+	dc.b	"On... On va tous cramer,"
+	dc.b	$FC
+	dc.b	"Je le savais !!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Arrêtez de trembler ! Les hommes sont"
+	dc.b	"Je rêve ! Les hommes sont de tels"
 	dc.b	$FC
-	dc.b	"de telles mauviettes !"
+	dc.b	"trouillards ! Et idiots aussi !"
 	dc.b	$FD
-	dc.b	"Ce n'est rien !"
+	dc.b	"Car ce n'est rien du tout !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Ah... ah, oui, c'est déjà fini."
+	dc.b	"Gloups... J'espère..."
 	dc.b	$FF
 
 ; $B

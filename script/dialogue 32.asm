@@ -85,7 +85,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01, $02
-	dc.b	"Hmm... Le chef des Espers."
+	dc.b	"Wow... Le Sage D'Algol..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A, $00
@@ -115,7 +115,9 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01, $00
-	dc.b	"Euh..."
+	dc.b	"Euh... faire comme si tu étais déjà"
+	dc.b	$FC
+	dc.b	"venue ?"	
 	dc.b	$FF
 
 ; $1C
@@ -133,17 +135,17 @@
 	dc.b	$FC
 	dc.b	"Gumbious », à l'ouest du Manoir Esper !"
 	dc.b	$FD
-	dc.b	"Chaz ! Marche plus vite !"
+	dc.b	"Chaz ! Enlève cet air ahuri de ton"
 	dc.b	$FC
-	dc.b	"Argh ! Toi et tes petites jambes !"
+	dc.b	"visage et allons-y !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A, $02
-	dc.b	"Ouiin..."
+	dc.b	"Quelle déception..."
 	dc.b	$FD
-	dc.b	"Je suis désillusionnée de ma belle image"
+	dc.b	"Ça ne correspond pas à la belle image de"
 	dc.b	$FC
-	dc.b	"de Lutz !"
+	dc.b	"Lutz que j'avais lu dans les livres !"
 	dc.b	$FF
 
 ; $1D
@@ -153,7 +155,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01, $00
-	dc.b	"Qui sont ces gaillards ?"
+	dc.b	"Qui sont ces types ?"
 	dc.b	$FC
 	dc.b	"Qu'est-ce que le « Air Castle » ?"
 	dc.b	$FD
@@ -189,13 +191,13 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06, $01
-	dc.b	"rires..."
+	dc.b	"Ha ha ha !"
 	dc.b	$FF
 
 ; $1F
 	dc.b	$F4
 	dc.b	$04, $01
-	dc.b	"Nous avons vaincu ces trois sorcières."
+	dc.b	"Nous avons vaincu le trio diabolique."
 	dc.b	$FC
 	dc.b	"Tout ce qui nous reste à faire, c'est"
 	dc.b	$FD
@@ -209,7 +211,13 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04, $01
-	dc.b	"Eh bien..."
+	dc.b	"Tu sais, celui qui commande :"
+	dc.b	$FC
+	dc.b	"le plus grand et le plus fort !"
+	dc.b	$FD
+	dc.b	"Et nous devons le battre pour continuer."
+	dc.b	$FC
+	dc.b	"Tu comprends ce que ça veut dire ?!"
 	dc.b	$FF
 
 ; $20
@@ -225,7 +233,9 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06, $01
-	dc.b	"Oh ! Merci, maître Wren !"
+	dc.b	"Si on travaille tous ensemble, je sens"
+	dc.b	$FC
+	dc.b	"que ne peut nous arrêter !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A, $02
@@ -239,9 +249,9 @@
 ; $21
 	dc.b	$F4
 	dc.b	$04, $01
-	dc.b	"La lumière sacrée du Flambeau de l'Éclip-"
+	dc.b	"La lumière sacrée du Flambeau de"
 	dc.b	$FC
-	dc.b	"se a consumé les arbres carnivores."
+	dc.b	"l'Éclipse a brûlé les arbres carnivores."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01, $00
@@ -251,9 +261,9 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A, $02
-	dc.b	"Parfait ! Citoyens de Meese, je vous"
+	dc.b	"Parfait ! Citoyens de Meese, tenez bon,"
 	dc.b	$FC
-	dc.b	"sauverai, vous verrez..."
+	dc.b	"je vous sauverai..."
 	dc.b	$FF
 
 ; $22
@@ -261,7 +271,7 @@
 	dc.b	$01, $00
 	dc.b	"Nous avons vaincu Dark Force, alors que"
 	dc.b	$FC
-	dc.b	"signifient ces colonnes de feu ?"
+	dc.b	"signifiaient ces colonnes de feu ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06, $01
@@ -291,51 +301,63 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01, $00
-	dc.b	"Rykros..."
-	dc.b	$FD
-	dc.b	"Hmm... l'endroit où nous trouverons la"
+	dc.b	"Rykros... l'endroit où repose les secrets"
 	dc.b	$FC
-	dc.b	"réponse à toutes les questions..."
+	dc.b	"d'Algol..."
 	dc.b	$FF
 
 ; $24
 	dc.b	$F4
 	dc.b	$01, $00
-	dc.b	"Nous avons maintenant un Hydroptère."
+	dc.b	"Nous avons maintenant un Aéroglisseur."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04, $02
-	dc.b	"Alors, nous pouvons traverser tout plan"
+	dc.b	"maintenant, nous pouvons traverser"
 	dc.b	$FC
-	dc.b	"d'eau, que ce soit un océan ou un lac !"
+	dc.b	"tout plan d'eau, que ce soit un océan"
+	dc.b	$FD
+	dc.b	"ou peut-être même des affluents."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06, $01
-	dc.b	"Donc, nous pourrons aller au Temple des"
+	dc.b	"Oh, wow, quel nouveau mot amusant !"
+	dc.b	$FD
+	dc.b	"Chaz, pourquoi ton vocabulaire n'est-il"
 	dc.b	$FC
-	dc.b	"Soldats à partir de Krup."
+	dc.b	"pas aussi riche que celui de Rune ?"	
+	dc.b	$FD
+	dc.b	"OK, Capitaine, dirigez-nous vers le"
+	dc.b	$FC
+	dc.b	"Temple des Soldats, depuis Krup !"		
 	dc.b	$FF
 
 ; $25
 	dc.b	$F4
 	dc.b	$01, $00
-	dc.b	"Ouais, c'est super..."
-	dc.b	$FD
-	dc.b	"Il y a un gars bizarre qui s'est collé à"
+	dc.b	"On a de la chance que Seth soit avec"
 	dc.b	$FC
-	dc.b	"nous."
+	dc.b	"nous, non ? Il reconnaît le talent quand"
+	dc.b	$FD
+	dc.b	"il le voit !."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0B, $02
-	dc.b	"Oh, faites comme si je n'étais pas là."
+	dc.b	"Je ferai de mon mieux pour ne pas vous"
+	dc.b	$FC
+	dc.b	"ralentir !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04, $01
-	dc.b	"Chaz ! Allons vite au temple."
+	dc.b	"Seth marque un point."
+	dc.b	$FD
+	dc.b	"Chaz, ne perdons pas de temps."
+	dc.b	$FC
+	dc.b	"Allons au Temple."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01, $00
-	dc.b	"Ouais, ouais."
+	dc.b	"Oh... ouais."
 	dc.b	$FF
 
 ; $26
@@ -359,7 +381,7 @@
 	dc.b	$FD
 	dc.b	"Désolé, Seth, mais cet objet est très"
 	dc.b	$FC
-	dc.b	"précieux pour nous."
+	dc.b	"important pour notre mission."
 	dc.b	$FD
 	dc.b	"Nous ne pouvons pas le passer à l'autres"
 	dc.b	$FC
@@ -371,41 +393,45 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06, $01
-	dc.b	"Chaz !"
+	dc.b	"Allez, Chaz !"
 	dc.b	$FC
-	dc.b	"Tu es bien trop accommodant !"
+	dc.b	"Tu fais trop facilement confiance !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01, $00
-	dc.b	"Bon, bon... où se trouve le secret de"
+	dc.b	"...Se faire traiter de naïf par quelqu'un"
 	dc.b	$FC
-	dc.b	"Rykros ?"
+	dc.b	"agé d'un an, je suis tombé bien bas..."
+	dc.b	$FD
+	dc.b	"Bon, comment on trouve ce Rykros ?"
 	dc.b	$FF
 
 ; $27
 	dc.b	$F4
 	dc.b	$06, $02
-	dc.b	"Seth, il était aussi un..."
+	dc.b	"Seth, J'y crois pas !"
+	dc.b	$FC
+	dc.b	"Il était si sympa !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04, $01
-	dc.b	"Je commence à être blasé de tous ces"
+	dc.b	"Je ne suis pas inquiet des ennemis, mais"
 	dc.b	$FC
-	dc.b	"ennemis."
+	dc.b	"du temps. On en a déjà trop perdu."
 	dc.b	$FD
-	dc.b	"On n'a pas le temps de traîner."
-	dc.b	$FC
-	dc.b	"Il faut vite aller sur Rykros !"
+	dc.b	"On doit se dépêcher d'aller à Rykros."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01, $00
-	dc.b	"Alors, qu'est-ce que c'est, Rykros ?"
+	dc.b	"Mais on ne sait toujours pas où c'est ni"
+	dc.b	$FC
+	dc.b	"même ce que c'est...!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06, $02
-	dc.b	"Nous devrons y aller pour le savoir,"
+	dc.b	"Et bien trouvons Rykros... ensemble !"
 	dc.b	$FC
-	dc.b	"Chaz !"
+	dc.b	"On est tout proches, je le sens !"
 	dc.b	$FF
 
 ; $28
@@ -435,13 +461,15 @@
 	dc.b	$01, $02
 	dc.b	"Rune..."
 	dc.b	$FD
-	dc.b	"Que diable penses-tu que nous"
+	dc.b	"Que penses-tu qu'on va trouver"
 	dc.b	$FC
-	dc.b	"trouverons au Manoir Esper ?"
+	dc.b	"au Manoir Esper ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04, $00
-	dc.b	"Tiens ta langue, et suis-moi !"
+	dc.b	"...Pour une fois dans ta vie fais"
+	dc.b	$FC
+	dc.b	"moi confiance. Ok, petite tête ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01, $02
@@ -451,7 +479,7 @@
 ; $2A
 	dc.b	$F4
 	dc.b	$01, $00
-	dc.b	"« Fais Face à Elsydeon »..."
+	dc.b	"« Rencontrer Elsydeon »..."
 	dc.b	$FC
 	dc.b	"Qu'est-ce que ça signifie ?"
 	dc.b	$FF
@@ -459,15 +487,13 @@
 ; $2B
 	dc.b	$F4
 	dc.b	$01, $00
-	dc.b	"Que diable se passe-t-il sur Motavia ?"
-	dc.b	$FC
-	dc.b	"Wren ! Tu n'en sais pas plus ?"
+	dc.b	"Qu'est-ce qui se passe sur Motavia ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08, $02
-	dc.b	"Les détails sont incomplets."
+	dc.b	"Le message n'est pas clair."
 	dc.b	$FD
-	dc.b	"Le message est dénué de tout contenu"
+	dc.b	"Le message est vide de tout contenu"
 	dc.b	$FC
 	dc.b	"autre que, « venez immédiatement »..."
 	dc.b	$FF
@@ -477,17 +503,17 @@
 	dc.b	$01, $00
 	dc.b	"C'est l'ultime bataille !"
 	dc.b	$FC
-	dc.b	"Allons-y !"
+	dc.b	"Les amis, vous êtes prêts ?"
 	dc.b	$FD
-	dc.b	"Il faut faire face à la Noirceur"
+	dc.b	"Il faut faire face aux Ténèbres"
 	dc.b	$FC
-	dc.b	"Profonde !"
+	dc.b	"Profonds !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06, $01
-	dc.b	"Oui, Chaz ! Allons-y et battons-nous tous"
+	dc.b	"Chaz... On peut le faire ! Trouvons"
 	dc.b	$FC
-	dc.b	"ensemble !"
+	dc.b	"l'entrée au nord de Piata !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08, $02
@@ -499,7 +525,9 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04, $01
-	dc.b	"Alors... allons-y !"
+	dc.b	"Ça dépend de nous s'il s'agit de la fin"
+	dc.b	$FC
+	dc.b	"ou du véritable début d'Algol..."
 	dc.b	$FF
 
 ; $2D
@@ -507,17 +535,17 @@
 	dc.b	$01, $00
 	dc.b	"C'est l'ultime bataille !"
 	dc.b	$FC
-	dc.b	"Allons-y !"
+	dc.b	"Les amis, vous êtes prêts ?"
 	dc.b	$FD
-	dc.b	"Il faut faire face à la Noirceur"
+	dc.b	"Il faut faire face aux Ténèbres"
 	dc.b	$FC
-	dc.b	"Profonde !"
+	dc.b	"Profonds !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06, $01
-	dc.b	"Oui, Chaz ! Allons-y et battons-nous tous"
+	dc.b	"Chaz... On peut le faire ! Trouvons"
 	dc.b	$FC
-	dc.b	"ensemble !"
+	dc.b	"l'entrée au nord de Piata !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08, $02
@@ -529,13 +557,15 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04, $01
-	dc.b	"Alors... allons-y !"
+	dc.b	"Ça dépend de nous s'il s'agit de la fin"
+	dc.b	$FC
+	dc.b	"ou du véritable début d'Algol..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03, $02
-	dc.b	"C'est le moment de mettre à profit mon"
+	dc.b	"C'est le moment de voir si mon"
 	dc.b	$FC
-	dc.b	"entraînement secret !"
+	dc.b	"entrainement va payer !"
 	dc.b	$FF
 
 ; $2E
@@ -543,17 +573,17 @@
 	dc.b	$01, $00
 	dc.b	"C'est l'ultime bataille !"
 	dc.b	$FC
-	dc.b	"Allons-y !"
+	dc.b	"Les amis, vous êtes prêts ?"
 	dc.b	$FD
-	dc.b	"Il faut faire face à la Noirceur"
+	dc.b	"Il faut faire face aux Ténèbres"
 	dc.b	$FC
-	dc.b	"Profonde !"
+	dc.b	"Profonds !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06, $01
-	dc.b	"Oui, Chaz ! Allons-y et battons-nous tous"
+	dc.b	"Chaz... On peut le faire ! Trouvons"
 	dc.b	$FC
-	dc.b	"ensemble !"
+	dc.b	"l'entrée au nord de Piata !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08, $02
@@ -565,11 +595,15 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04, $01
-	dc.b	"Alors... allons-y !"
+	dc.b	"Ça dépend de nous s'il s'agit de la fin"
+	dc.b	$FC
+	dc.b	"ou du véritable début d'Algol..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$05, $02
-	dc.b	"C'est tout ce que j'espérais !"
+	dc.b	"Maman...Papa...Pana..."
+	dc.b	$FC
+	dc.b	"Ce sera mon dernier combat, pour vous !"
 	dc.b	$FF
 
 ; $2F
@@ -577,17 +611,17 @@
 	dc.b	$01, $00
 	dc.b	"C'est l'ultime bataille !"
 	dc.b	$FC
-	dc.b	"Allons-y !"
+	dc.b	"Les amis, vous êtes prêts ?"
 	dc.b	$FD
-	dc.b	"Il faut faire face à la Noirceur"
+	dc.b	"Il faut faire face aux Ténèbres"
 	dc.b	$FC
-	dc.b	"Profonde !"
+	dc.b	"Profonds !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06, $01
-	dc.b	"Oui, Chaz ! Allons-y et battons-nous tous"
+	dc.b	"Chaz... On peut le faire ! Trouvons"
 	dc.b	$FC
-	dc.b	"ensemble !"
+	dc.b	"l'entrée au nord de Piata !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08, $02
@@ -599,13 +633,13 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04, $01
-	dc.b	"Alors... allons-y !"
+	dc.b	"Ça dépend de nous s'il s'agit de la fin"
+	dc.b	$FC
+	dc.b	"ou du véritable début d'Algol..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$07, $02
-	dc.b	"Permettez-moi de me joindre à vous."
-	dc.b	$FC
-	dc.b	"Allons-y !"
+	dc.b	"Je suis honoré d'être à vos côtés !"
 	dc.b	$FF
 
 ; $30
@@ -613,17 +647,17 @@
 	dc.b	$01, $00
 	dc.b	"C'est l'ultime bataille !"
 	dc.b	$FC
-	dc.b	"Allons-y !"
+	dc.b	"Les amis, vous êtes prêts ?"
 	dc.b	$FD
-	dc.b	"Il faut faire face à la Noirceur"
+	dc.b	"Il faut faire face aux Ténèbres"
 	dc.b	$FC
-	dc.b	"Profonde !"
+	dc.b	"Profonds !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06, $01
-	dc.b	"Oui, Chaz ! Allons-y et battons-nous tous"
+	dc.b	"Chaz... On peut le faire ! Trouvons"
 	dc.b	$FC
-	dc.b	"ensemble !"
+	dc.b	"l'entrée au nord de Piata !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08, $02
@@ -635,13 +669,15 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04, $01
-	dc.b	"Alors... allons-y !"
+	dc.b	"Ça dépend de nous s'il s'agit de la fin"
+	dc.b	$FC
+	dc.b	"ou du véritable début d'Algol..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$09, $02
-	dc.b	"Je vais protéger Algo -- et tout mon vin"
+	dc.b	"Je ferai ma part pour sauver Algol !"
 	dc.b	$FC
-	dc.b	"à boire ! Ha, ha, ha !"
+	dc.b	"Et protéger mon alcool ! Ha ha ha !"
 	dc.b	$FF
 
 ; $31
@@ -649,17 +685,17 @@
 	dc.b	$01, $00
 	dc.b	"C'est l'ultime bataille !"
 	dc.b	$FC
-	dc.b	"Allons-y !"
+	dc.b	"Les amis, vous êtes prêts ?"
 	dc.b	$FD
-	dc.b	"Il faut faire face à la Noirceur"
+	dc.b	"Il faut faire face aux Ténèbres"
 	dc.b	$FC
-	dc.b	"Profonde !"
+	dc.b	"Profonds !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06, $01
-	dc.b	"Oui, Chaz ! Allons-y et battons-nous tous"
+	dc.b	"Chaz... On peut le faire ! Trouvons"
 	dc.b	$FC
-	dc.b	"ensemble !"
+	dc.b	"l'entrée au nord de Piata !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08, $02
@@ -671,11 +707,15 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04, $01
-	dc.b	"Alors... allons-y !"
+	dc.b	"Ça dépend de nous s'il s'agit de la fin"
+	dc.b	$FC
+	dc.b	"ou du véritable début d'Algol..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A, $02
-	dc.b	"Je suis prête dès que vous l'êtes !"
+	dc.b	"Maintenant je sais ce que c'est que"
+	dc.b	$FC
+	dc.b	"d'avoir confiance en ses amis... Allons-y !"
 	dc.b	$FF
 
 ; $32
