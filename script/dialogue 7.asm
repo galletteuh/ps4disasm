@@ -1,13 +1,15 @@
 ; 0
 	dc.b	"Vous êtes au village Motavien de Molcum."
 	dc.b	$FD
-	dc.b	"Les Parmaniens ne sont pas tolérés dans"
+	dc.b	"Les Palmaniens ne sont pas tolérés dans"
 	dc.b	$FC
-	dc.b	"notre village."
+	dc.b	"notre village. Mec !"
 	dc.b	$FF
 
 ; $1
 	dc.b	"Vous n'êtes pas des associés de ce Zio ?"
+	dc.b	$FC
+	dc.b	"Fuyez, tous !"
 	dc.b	$FF
 
 ; $2
@@ -26,37 +28,47 @@
 	dc.w	$0011
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Hé, Alys !"
+	dc.b	"Hé, Alys ! La démembreuse préférée de"
 	dc.b	$FC
-	dc.b	"Ça fait un bail !"
-	dc.b	$FD
-	dc.b	$F4
-	dc.b	$01
-	dc.b	"Alys, vous connaissez cet homme ?"
+	dc.b	"tous ! Ça fait un bail !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Il y a longtemps..."
+	dc.b	"Combien de fois je t'ai dit de ne jamais"
+	dc.b	$FC
+	dc.b	"m'appeler comme ça ?"
+	dc.b	$FD
+	dc.b	$F4
+	dc.b	$01
+	dc.b	"Alys, vous connaissez ce type ?"
+	dc.b	$FD
+	dc.b	$F4
+	dc.b	$02
+	dc.b	"Rune Walsh... oh que oui."
+	dc.b	$FC
+	dc.b	"Ça remonte à loin, Chaz"
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$0012
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Est-ce que Petit ici est ton companion"
+	dc.b	"Est-ce que la petite tête ici est ton"
 	dc.b	$FC
-	dc.b	"actuel ?"
+	dc.b	"nouveau petit protégé ?"
 	dc.b	$FD
 	dc.b	"Ce n'est qu'un gosse."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Surveille ton langage !"
+	dc.b	"Un gosse qui pourrait s'occuper de ton"
+	dc.b	$FC
+	dc.b	"cas !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Ça suffit, vous deux."
+	dc.b	"Ça suffit, Chaz !"
 	dc.b	$FD
-	dc.b	"Ceci dit, Rune, que se passe-t-il ?"
+	dc.b	"Plus important, Rune, que se passe-t-il ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
@@ -64,42 +76,52 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Zio ! Je parie que c'est lui qui a pétrifié"
+	dc.b	"Zio ! Je parie que c'est lui qui a changé"
 	dc.b	$FC
-	dc.b	"les gens de Zema..."
+	dc.b	"les gens de Zema en pierre..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Eh bien, on dirait que ton cerveau"
+	dc.b	"Wow, quelle intelligence vertigineuse,"
 	dc.b	$FC
-	dc.b	"fonctionne un tantinet."
+	dc.b	"celui là, un premier de la classe,"
+	dc.b	$FD
+	dc.b	"j'en suis sûr."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Espèce de..."
+	dc.b	"Tu vas t'en prendre une si tu la ferme"
+	dc.b	$FC
+	dc.b	"pas !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
 	dc.b	"J'ai dit, suffit ! On dirait que où qu'on"
 	dc.b	$FC
-	dc.b	"aille, tout revient à Zio."
+	dc.b	"aille, c'est toujours Zio, Zio."
 	dc.b	$FD
 	dc.b	"Qui est-il au juste ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Je n'en suis pas certain."
+	dc.b	"Visiblement quelqu'un avec qui il"
+	dc.b	$FC
+	dc.b	"ne faut pas jouer."
 	dc.b	$FD
 	dc.b	$F2, $01
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"La ville est en ruine. Comment allons"
+	dc.b	"Ça me brise le coeur, mais on ne peut pas"
 	dc.b	$FC
-	dc.b	"nous trouver l'Alshline ?"
+	dc.b	"les aider maintenant."
+	dc.b	$FD
+	dc.b	"Cette ville est en ruines, où allons nous"
+	dc.b	$FC
+	dc.b	"trouver l'Alsulin ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Vous cherchez de l'Alshline ?"
+	dc.b	"Vous cherchez de l'Alsulin ?"
 	dc.b	$FD
 	dc.b	"Il vaudrait mieux aller à Tonoe."
 	dc.b	$FD
@@ -139,9 +161,11 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Je vais m'inviter à rejoindre votre"
+	dc.b	"Je n'aime pas la tournure des"
 	dc.b	$FC
-	dc.b	"groupe."
+	dc.b	"évènements. Je ferais mieux vous"
+	dc.b	$FD
+	dc.b	"accompagner."
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$0013
@@ -152,43 +176,59 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Hé, pas si vite !"
+	dc.b	"On n'a pas besoin de toi ! Qu'est-ce que"
+	dc.b	$FC
+	dc.b	"tu pense pouvoir faire aux monstres"
+	dc.b	$FD
+	dc.b	"avec ta canne de vieux ?"	
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$0014
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Nous serions honoré de ta présence."
+	dc.b	"Tu peux venir, Rune."
+	dc.b	$FC
+	dc.b	"En souvenir du bon vieux temps."
+	dc.b	$FD
+	dc.b	"Sois sans crainte Chaz."
+	dc.b	$FC
+	dc.b	"Il sait se défendre."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Alys !"
+	dc.b	"Allez, Alys !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
 	dc.b	"Bien, tout est réglé, alors."
 	dc.b	$FD
-	dc.b	"Et Petit, tente de ne pas être dans mes"
+	dc.b	"Et petite tête, essaie de ne pas être"
 	dc.b	$FC
-	dc.b	"pattes."
+	dc.b	"dans mes pattes."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Ne m'appelle pas Petit !"
+	dc.b	"Arrête de m'appeller comme ça !"
 	dc.b	$FC
-	dc.b	"Je m'appelle..."
+	dc.b	"Je m'appelle Chaz, Chaz Ashley !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Chaz, tu disais ? Ah."
+	dc.b	"... Chaz Ashley, décidément, gamin."
+	dc.b	$FD
+	dc.b	"Tu as l'air aussi dangereux qu'un couteau"
 	dc.b	$FC
-	dc.b	"Quel nom stupide !"
+	dc.b	"émoussé."
+	dc.b	$FD
+	dc.b	"Qu'est-ce qu'un crétin comme toi fait"
+	dc.b	$FC
+	dc.b	"avec Alys ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Alys, j'ai l'impression qu'il va nous"
+	dc.b	"Alys, ce mec est un connard !"
 	dc.b	$FC
-	dc.b	"nuire plus qu'autre chose."
+	dc.b	"On n'a pas besoin de son aide."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
@@ -196,13 +236,15 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Tu l'es déjà."
+	dc.b	"Ha, tes célèbres derniers mots."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Euh... Je suis quelque peu embêté quant"
+	dc.b	"Je préfèrerai contourner Krup..."
+	dc.b	$FD	
+	dc.b	"... Et je ne pense pas que ce voyage"
 	dc.b	$FC
-	dc.b	"à notre destination..."
+	dc.b	"puisse empirer."
 	dc.b	$FF
 
 ; $4
@@ -210,17 +252,17 @@
 	dc.b	$65, $02
 	dc.b	$FA
 	dc.b	$30, $01
-	dc.b	"Ici, c'est Tonoe..."
+	dc.b	"Ce chemin mène à Tonoe..."
 	dc.b	$FD
 	dc.b	"Hé !"
 	dc.b	$FC
-	dc.b	"Comment êtes-vous entrés ?"
+	dc.b	"Comment êtes-vous arrivés ici ?"
 	dc.b	$FF
 
 ; $5
 	dc.b	"Ici, c'est Tonoe..."
 	dc.b	$FD
-	dc.b	"Hé ! Comment êtes-vous arrivés ?"
+	dc.b	"Hé ! Comment êtes-vous arrivés ici ?"
 	dc.b	$FD
 	dc.b	"Ah, je vois."
 	dc.b	$FC
@@ -232,21 +274,21 @@
 ; $6
 	dc.b	"Ici, c'est Tonoe..."
 	dc.b	$FC
-	dc.b	"Ah, c'est vous."
+	dc.b	"Ah, c'est vous !"
 	dc.b	$FF
 
 ; $7
 	dc.b	$FA
 	dc.b	$32, $01
-	dc.b	"De l'Alshline ?"
+	dc.b	"De l'Alsulin ?"
 	dc.b	$FD
 	dc.b	"Non, je ne suis pas au courant !"
 	dc.b	$FC
 	dc.b	"Par contre..."
 	dc.b	$FD
-	dc.b	"Si vous avez des questions, il vaudrait"
+	dc.b	"Si vous avez des questions, vous devriez"
 	dc.b	$FC
-	dc.b	"mieux demander au Père Dorin !"
+	dc.b	"demander au Père Dorin !"
 	dc.b	$FF
 
 ; $8
@@ -254,9 +296,9 @@
 	dc.b	$FC
 	dc.b	"cherchiez ?"
 	dc.b	$FD
-	dc.b	"Le Père Dorin a réponse à pas mal de"
+	dc.b	"Vous trouverez les réponses si vous"
 	dc.b	$FC
-	dc.b	"questions !"
+	dc.b	"demandez au Père Dorin !"
 	dc.b	$FF
 
 ; $9
@@ -264,15 +306,15 @@
 	dc.b	$FC
 	dc.b	"passé à Molcum !"
 	dc.b	$FD
-	dc.b	"Ce maudit Zio !"
+	dc.b	"Zio est le pire Palmanien!"
 	dc.b	$FF
 
 ; $A
-	dc.b	"Les Parmaniens aiment faire la guerre."
+	dc.b	"Les Palmaniens aiment faire la guerre."
 	dc.b	$FD
-	dc.b	"Je refuse de me mêler des rixes de tels"
+	dc.b	"Je refuse de me mêler à des combats"
 	dc.b	$FC
-	dc.b	"gens !"
+	dc.b	"d'égos, de terres ou de propriétés !"
 	dc.b	$FF
 
 ; $B
@@ -288,7 +330,7 @@
 ; $C
 	dc.b	"Hors de mon chemin ! Et cessez de rôder"
 	dc.b	$FC
-	dc.b	"aux alentours !"
+	dc.b	"aux alentours sans raison !"
 	dc.b	$FF
 
 ; $D
@@ -349,9 +391,9 @@
 	dc.b	"Titane ?"
 	dc.b	$F5
 	dc.b	$00, $01
-	dc.b	"Je vois. On en parle comme d'un"
+	dc.b	"Je vois. Secret commercial. Restez"
 	dc.b	$FC
-	dc.b	"secret, et c'est vraiment un secret !"
+	dc.b	"avec votre cuir et votre carbone !"
 	dc.b	$FF
 
 ; $19
@@ -362,28 +404,28 @@
 	dc.b	"rocher ?"
 	dc.b	$F5
 	dc.b	$00, $01
-	dc.b	"En prévision d'une attaque de Zio,"
+	dc.b	"Une défense préventive contre Zio."
 	dc.b	$FC
-	dc.b	"nous nous sommes isolés."
+	dc.b	"Rien à voir avec vous, Palmaniens."
 	dc.b	$FF
 
 ; $1A
-	dc.b	"Alors, voulez-vous connaître les"
+	dc.b	"Alors, recherchez-vous des photos"
 	dc.b	$FC
-	dc.b	"mensurations de la très belle et très"
+	dc.b	"osées de la célèbre Alys Brangwin,"
 	dc.b	$FD
-	dc.b	"renommée Alys Brangwin,"
-	dc.b	$FD
-	dc.b	"aussi surnommée Alys Arracheuse"
+	dc.b	"la démembreuse, se relaxant sous la"
 	dc.b	$FC
-	dc.b	"de Tripes ?"
+	dc.b	"douche après un rude combat contre"
+	dc.b	$FD
+	dc.b	"un énième ennemi vaincu ?"
 	dc.b	$F5
 	dc.b	$00, $01
 	dc.b	"Voilà qui est mieux."
 	dc.b	$FD
-	dc.b	"Alors, en commençant du haut,"
+	dc.b	"Alors, commençons par son duel"
 	dc.b	$FC
-	dc.b	"quatre-vingt-huit, cinquante..."
+	dc.b	"légendaire contre..."
 	dc.b	$F7
 
 	dc.b	$F4
@@ -392,7 +434,7 @@
 	dc.b	$FC
 	dc.b	"Ouch !!"
 	dc.b	$FD
-	dc.b	"Que... que signifie !?"
+	dc.b	"Que... que faites-vous !?"
 	dc.b	$FD
 	dc.b	"Comment osez-vous me frapper sans"
 	dc.b	$FC
@@ -407,11 +449,11 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Espèce de vieux schnock bavard !"
+	dc.b	"Tu me dégoutes, vieux pervers !"
 	dc.b	$FD
-	dc.b	"Tu vends mes mensurations au tout"
+	dc.b	"Nous allons brûler toutes ces photos"
 	dc.b	$FC
-	dc.b	"venant !?"
+	dc.b	"dépravées jusqu'à la dernière ! Rune ??"
 	dc.b	$F7
 
 	dc.b	$F4
@@ -425,11 +467,11 @@
 	dc.b	$FD
 	dc.b	"C'est toi, Rune."
 	dc.b	$FC
-	dc.b	"Aide-moi, je t'en supplie !"
+	dc.b	"Arrête la, je t'en supplie !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Tu ne changes jamais, n'est-ce pas,"
+	dc.b	"Tu ne changera jamais, n'est-ce pas,"
 	dc.b	$FC
 	dc.b	"vieille branche !"
 	dc.b	$FF
@@ -437,9 +479,7 @@
 ; $1B
 	dc.b	"Bon. Si vous n'avez rien à me demander,"
 	dc.b	$FC
-	dc.b	"cessez de m'importuner. J'ai beaucoup"
-	dc.b	$FD
-	dc.b	"à faire."
+	dc.b	"vous savez où est a sortie."
 	dc.b	$FF
 
 ; $1C
@@ -457,15 +497,15 @@
 	dc.b	$30, $01
 	dc.b	$F4
 	dc.b	$10
-	dc.b	"Vous savez, je viens de Molcum."
+	dc.b	"Vous savez, je vivais à Molcum."
 	dc.b	$FC
-	dc.b	"Malheureusement, Zio a frappé."
+	dc.b	"Vous avez vu l'attaque de Zio ?"
 	dc.b	$FD
 	dc.b	"Mon frère s'est battu avec courage, mais"
 	dc.b	$FC
 	dc.b	"il n'était pas de taille."
 	dc.b	$FD
-	dc.b	"Ma mère et mon père ont péri."
+	dc.b	"Ma mère et mon père ont été tués."
 	dc.b	$FD
 	dc.b	"Mon frère et moi nous sommes échappés"
 	dc.b	$FC
@@ -475,15 +515,15 @@
 ; $1E
 	dc.b	$F4
 	dc.b	$10
-	dc.b	"Vous savez, je viens de Molcum."
+	dc.b	"...On vivait à Molcum."
 	dc.b	$FC
-	dc.b	"Malheureusement, Zio a frappé."
+	dc.b	"Mais un jour, Zio a détruit toute la ville."
 	dc.b	$FD
 	dc.b	"Mon frère s'est battu avec courage, mais"
 	dc.b	$FC
 	dc.b	"il n'était pas de taille."
 	dc.b	$FD
-	dc.b	"Ma mère et mon père ont péri."
+	dc.b	"Ma mère et mon père sont morts."
 	dc.b	$FD
 	dc.b	"Mon frère et moi nous sommes échappés"
 	dc.b	$FC
@@ -491,15 +531,15 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$05
-	dc.b	"Pana... Je te promet qu'un jour, je les"
+	dc.b	"Pana... Je te promets que je prendrai"
 	dc.b	$FC
-	dc.b	"vengerai !"
+	dc.b	"soin de toi, et je les vengerai !"
 	dc.b	$FF
 
 ; $1F
 	dc.b	$F4
 	dc.b	$10
-	dc.b	"Oh, mon frère..."
+	dc.b	"Oh, grand frère..."
 	dc.b	$FF
 
 ; $20
@@ -507,15 +547,17 @@
 	dc.b	$65, $01
 	dc.b	$F4
 	dc.b	$05
-	dc.b	"Argh !"
+	dc.b	"... Je dois encore m'entrainer..."
+	dc.b	$FC
+	dc.b	"... Il va payer..."
 	dc.b	$FF
 
 ; $21
 	dc.b	$F4
 	dc.b	$05
-	dc.b	"Je ne peux laisser Pana ici seule."
+	dc.b	"C'est trop dangereux de laisser Pana"
 	dc.b	$FC
-	dc.b	"Pardonnez-moi..."
+	dc.b	"toute seule... Pardonnez-moi."
 	dc.b	$FF
 
 ; $22
@@ -523,7 +565,7 @@
 	dc.b	$FC
 	dc.b	"habile à construire des machines."
 	dc.b	$FD
-	dc.b	"Par contre, je ne vaux rien en  cuisine."
+	dc.b	"Par contre, je ne vaux rien en cuisine."
 	dc.b	$FC
 	dc.b	"J'aimerais réussir un gâteau."
 	dc.b	$FF
@@ -546,7 +588,7 @@
 
 	dc.b	$F4
 	dc.b	$05
-	dc.b	"Oh, il y a un truc pour ouvrir cette"
+	dc.b	"Oh, il y a un astuce pour ouvrir cette"
 	dc.b	$FC
 	dc.b	"trappe."
 	dc.b	$F7
@@ -576,27 +618,33 @@
 	dc.b	$04
 	dc.b	"Tu veux bien le pardonner, Alys ?"
 	dc.b	$FD
-	dc.b	"Ce vieillard n'est pas mal intentionné."
+	dc.b	"Ce vieillard n'a pas beaucoup de raison"
+	dc.b	$FC
+	dc.b	"de vivre."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"C'est pour ça que je le tolère."
+	dc.b	"Il a de la chance qu'on ait besoin de"
+	dc.b	$FC
+	dc.b	"cette info."
+	dc.b	$FD
+	dc.b	"Et il m'a suspris alors que j'étais dans"
+	dc.b	$FC
+	dc.b	"un bon jour."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Père Dorin, je suis venu reprendre"
+	dc.b	"Père Dorin, je suis venu reprendre ce"
 	dc.b	$FC
-	dc.b	"l'objet que je t'ai confié."
+	dc.b	"que tu sais."
 	dc.b	$FD
-	dc.b	"Aussi, ces gens cherchent de l'Alshline."
+	dc.b	"Aussi, mes amis ont besoin de l'Alsulin."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0F
-	dc.b	"Ah, si vous cherchez de l'Alshline,"
+	dc.b	"Ah, si vous voulez de l'Alsulin,"
 	dc.b	$FC
-	dc.b	"libre à vous d'en prendre autant que"
-	dc.b	$FD
-	dc.b	"vous en ayez besoin."
+	dc.b	"prenez-en autant que nécessaire."
 	dc.b	$FD
 	dc.b	"Il y en a dans le sous-sol de l'entrepôt,"
 	dc.b	$FC
@@ -615,19 +663,19 @@
 	dc.b	$0F
 	dc.b	"Minute ! Personne n'utilise cet endroit"
 	dc.b	$FC
-	dc.b	"pour le moment, alors c'est peut-être"
+	dc.b	"pour le moment, alors qui sait ce qui s'y"
 	dc.b	$FD
-	dc.b	"un peu dangereux. Gryz !"
+	dc.b	"cache ces jours-ci ?"
+	dc.b	$FD
+	dc.b	"En gage de confiance, je demanderai à"
 	dc.b	$FC
-	dc.b	"Peux-tu guider ces gens ?"
+	dc.b	"l'un de nos chefs, de vous guider. Gryz ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$05
-	dc.b	"Avec plaisir."
-	dc.b	$FD
-	dc.b	"Je m'appelle Gryz."
+	dc.b	"Ah, un peu d'action ! Je m'appelle"
 	dc.b	$FC
-	dc.b	"Heureux de vous rencontrer."
+	dc.b	"Gryz. Ravi de vous rencontrer."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
@@ -635,17 +683,17 @@
 	dc.b	$FC
 	dc.b	"le Père Dorin, alors je vous laisse !"
 	dc.b	$FD
-	dc.b	"Ah oui, demi-portion..."
+	dc.b	"Ah oui, petite tête..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Tu commence à m'énerver !"
+	dc.b	"Quoi ? Tu peux y aller !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
 	dc.b	"Enlève-toi l'idée stupide de te mesurer"
 	dc.b	$FC
-	dc.b	"à Zio de cette petite tête !"
+	dc.b	"à Zio de cette petite tête blonde !"
 	dc.b	$FD
 	dc.b	$F2, $03
 	dc.b	$FE
@@ -655,37 +703,41 @@
 	dc.w	$0018
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Hein ?"
+	dc.b	"... Qu'est-ce que ça veut dire ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$05
-	dc.b	"Euh, les amis..."
+	dc.b	"Quoi ? Vous parlez de Zio ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"À ce stade, tu n'es pas de taille !"
-	dc.b	$FD
-	dc.b	"Peut-être nos chemins vont se recroiser"
+	dc.b	"À ce stade du jeu, tu n'es pas de taille"
 	dc.b	$FC
-	dc.b	"plus tard."
+	dc.b	"contre sa magie !"
+	dc.b	$FD
+	dc.b	"...Peut-être que nos chemins vont se"
+	dc.b	$FC
+	dc.b	"croiser plus tard."
 	dc.b	$FD
 	dc.b	"Alys..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Ouais."
+	dc.b	"Ouais, Rune ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Fais attention à toi."
+	dc.b	"Fais attention à toi, OK ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Moi... me mesurer à Zio ?"
+	dc.b	"Moi... me mesurer à Zio ? Et comment"
+	dc.b	$FC
+	dc.b	"en sait-il autant sur lui ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Merci, Rune."
+	dc.b	"Toi aussi, Rune... Merci."
 	dc.b	$FF
 
 ; $26
@@ -709,15 +761,17 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"On y va ?"
+	dc.b	"Après toi, petite tête."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Cette technique..."
+	dc.b	"Cet art que vous avez utilisé..."
 	dc.b	$FC
 	dc.b	"Je n'ai jamais rien vu de tel."
 	dc.b	$FD
-	dc.b	"La méthode semble inhabituelle."
+	dc.b	"Ce n'est pas une technique."
+	dc.b	$FC
+	dc.b	"Quel est ce pouvoir étrange ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
@@ -725,11 +779,11 @@
 	dc.b	$FC
 	dc.b	"n'aies jamais vu ça."
 	dc.b	$FD
-	dc.b	"C'est ce qu'on appelle de la « magie »."
+	dc.b	"C'est un truc « magique », héhé."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"De la magie !"
+	dc.b	"Magique !"
 	dc.b	$FF
 
 ; $27
@@ -737,7 +791,7 @@
 	dc.w	$0019
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Donc, voici la fameuse Alshline !"
+	dc.b	"Donc, voici la fameuse Alsulin !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
@@ -756,29 +810,31 @@
 	dc.b	$FD
 	dc.b	"Je n'ai pas pu sauver mon père, ni ma"
 	dc.b	$FC
-	dc.b	"mère !"
+	dc.b	"mère ! Il va payer."
 	dc.b	$FD
-	dc.b	"Je dois me venger !"
+	dc.b	"Je dois les venger !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Hé, Gryz !"
-	dc.b	$FD
-	dc.b	"Notre but n'est pas forcément de"
+	dc.b	"Hé, Gryz ! Je comprends ce que vous"
 	dc.b	$FC
-	dc.b	"vaincre Zio."
+	dc.b	"ressentez."
+	dc.b	$FD
+	dc.b	"Mais le but de ce voyage n'est pas"
+	dc.b	$FC
+	dc.b	"forcément de tuer Zio."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$05
 	dc.b	"Mais ce grand gars qui vous accompagnait"
 	dc.b	$FC
-	dc.b	"n'a pas dit quelque chose du genre ?"
+	dc.b	"n'a pas dit un truc du genre ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Oh, ça... il disait juste des trucs comme"
+	dc.b	"C'est juste Rune qui fait du Rune."
 	dc.b	$FC
-	dc.b	"ça."
+	dc.b	"C'était pour me taquiner, je pense."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$05

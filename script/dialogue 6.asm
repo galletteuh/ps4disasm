@@ -133,9 +133,9 @@
 ; $2C
 	dc.b	$F4
 	dc.b	$0C
-	dc.b	"Hahn ! Tu es revenu !"
+	dc.b	"Hahnny ! Tu es revenu !"
 	dc.b	$FC
-	dc.b	"... Quelque chose ne va pas !?"
+	dc.b	"... Mais, Que s'est-il passé ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
@@ -144,7 +144,7 @@
 
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Elle est ma fiancée."
+	dc.b	"Elle est ma fiancée, Saya."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0C
@@ -155,16 +155,18 @@
 
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Pas le temps pour les formules de"
+	dc.b	"T'inquiète pas pour les présentations,"
 	dc.b	$FC
-	dc.b	"politesse, Saya ! Nous devons"
+	dc.b	"Saya ! Pour le moment nous devons nous"
 	dc.b	$FD
-	dc.b	"prendre soin d'Alys !"
+	dc.b	"occuper d'Alys !"
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$0C
-	dc.b	"Oh non ! Mettez-la au lit sans tarder !!"
+	dc.b	"Mon Dieu ! Elle est si pâle !"
+	dc.b	$FC
+	dc.b	"Mettons-la au lit sans tarder !"
 	dc.b	$FF
 
 ; $2D
@@ -187,21 +189,25 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Damné Zio ! Il était différent des autres"
+	dc.b	"Il y avait quelque chose d'inhabituel"
 	dc.b	$FC
-	dc.b	"ennemis auxquel j'ai fait face !"
+	dc.b	"avec les attaques de Zio. Pas comme"
+	dc.b	$FD
+	dc.b	"de la magie, Quelque chose de plus..."
+	dc.b	$FC
+	dc.b	"maléfique."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Elle refuse tout soin."
+	dc.b	"Les remèdes sont sans effet."
 	dc.b	$FC
 	dc.b	"C'est comme si elle était..."
 	dc.b	$FD
-	dc.b	"sous l'emprise du mal."
+	dc.b	"maudite par un pouvoir extraordinaire."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$05
-	dc.b	"Que le diable t'emporte, Zio !"
+	dc.b	"Enfoiré de Zio ! Quel démon !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
@@ -211,11 +217,11 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$07
-	dc.b	"Non, ça ne fonctionnera pas."
+	dc.b	"Non, ces problèmes ne sont pas liés."
 	dc.b	$FC
-	dc.b	"Nurvus se situe sous le fort de Zio !"
+	dc.b	"Mais Nurvus se situe sous le fort de Zio !"
 	dc.b	$FD
-	dc.b	"En fait, Zio a construit son fort juste"
+	dc.b	"En fait, Zio a érigé son fort juste"
 	dc.b	$FC
 	dc.b	"au-dessus de Nurvus."
 	dc.b	$F7
@@ -224,13 +230,11 @@
 	dc.b	$01
 	dc.b	"Ah, juste en dessous de cette barrière"
 	dc.b	$FC
-	dc.b	"invisible !!"
+	dc.b	"invisible à l'entrée !!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$05
-	dc.b	"Donc, nous n'avons pas d'autre choix"
-	dc.b	$FC
-	dc.b	"que de vaincre Zio !"
+	dc.b	"Donc, nous devons tuer Zio après tout !"
 	dc.b	$FD
 	dc.b	$F2, $01
 	dc.b	$F4
@@ -240,7 +244,7 @@
 
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Alys ! Ne te fatigue pas !"
+	dc.b	"Alys ! Ne parlez pas !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$22
@@ -250,19 +254,19 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Alys, ne t'en fait pas. Nous trouverons"
+	dc.b	"Alys, ça ira. Nous trouverons un"
 	dc.b	$FC
-	dc.b	"un moyen de vaincre Zio !"
+	dc.b	"moyen de vaincre Zio et vous sauver !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$22
-	dc.b	"Écoute moi. Équipé comme vous l'êtes..."
+	dc.b	"Écoute moi. Équipés comme vous l'êtes..."
 	dc.b	$FC
-	dc.b	"La victoire est hors d'atteinte."
+	dc.b	"Vous ne pourrez... pas gagner."
 	dc.b	$FD
-	dc.b	"Il faut trouver le moyen de contrer"
+	dc.b	"Il faut trouver le moyen...de contrer sa"
 	dc.b	$FC
-	dc.b	"sa barrière magique."
+	dc.b	"barrière magique."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
@@ -270,17 +274,19 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"La « magie » ! Cette chose devait avoir"
+	dc.b	"La « magie » ! C'est impossible !"
 	dc.b	$FC
-	dc.b	"disparu depuis mille ans !"
+	dc.b	"Les Espers et la magie ont disparu"
+	dc.b	$FD
+	dc.b	"d'Algol lors du « Grand Effondrement » !"
 	dc.b	$FD
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"À bien y penser, Rune utilisait une"
+	dc.b	"En y repensant, Rune utilisait une sorte"
 	dc.b	$FC
-	dc.b	"sorte de magie !"
+	dc.b	"de magie !"
 	dc.b	$FD
 	dc.b	"Quelque chose comme Flaeli..."
 	dc.b	$FD
@@ -288,31 +294,29 @@
 	dc.b	$22
 	dc.b	"Oui, c'est ça... donc si vous pouviez"
 	dc.b	$FC
-	dc.b	"convaincre Rune de..."
+	dc.b	"convaincre ce... scélerat... de"
 	dc.b	$FD
-	dc.b	"Ooohh !"
+	dc.b	"Rune... Ooohh !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
 	dc.b	"Alys !"
 	dc.b	$FC
-	dc.b	"Chaz, qui est ce Rune ?"
+	dc.b	"Chaz, quoi ou qui est ce Rune ?"
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Oh, c'est un horrible crétin"
+	dc.b	"C'est... La dernière personne au monde"
 	dc.b	$FC
-	dc.b	"présomptueux !"
+	dc.b	"à qui je veux demander de l'aide."
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Je déteste devoir l'admettre,"
+	dc.b	"Mais si Alys dit que c'est notre seul"
 	dc.b	$FC
-	dc.b	"mais nous n'avons pas le choix."
-	dc.b	$FD
-	dc.b	"Nous devons le supplier de nous aider."
+	dc.b	"espoir, nous devons le trouver."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
@@ -324,13 +328,13 @@
 	dc.b	$05
 	dc.b	"S'il est avec le Père Dorin..."
 	dc.b	$FC
-	dc.b	"Il est probablement à la « Tour Ladea »."
+	dc.b	"Je sais où il est : La « Tour Ladea »."
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$004C
 	dc.b	"Il parlait d'ouvrir le portail vers la"
 	dc.b	$FC
-	dc.b	"tour Ladea."
+	dc.b	"Tour Ladea."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
@@ -338,13 +342,11 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$05
-	dc.b	"Je ne suis pas très au courant,"
+	dc.b	"Je ne suis pas sûr, mais la rumeur dit"
 	dc.b	$FC
-	dc.b	"mais la rumeur court qu'elle est située"
+	dc.b	"qu'elle est située sur une petite île,"
 	dc.b	$FD
-	dc.b	"sur une petite île, passé les sables"
-	dc.b	$FC
-	dc.b	"mouvants à l'est."
+	dc.b	"passé les sables mouvants à l'est."
 	dc.b	$FD
 	dc.b	"Le Père Dorin disait que quelque chose"
 	dc.b	$FC
@@ -354,18 +356,16 @@
 	dc.b	$F4
 	dc.b	$01
 	dc.b	"Comment traverser les sables"
-	dc.b	$FC
-	dc.b	"mouvants ?"
 	dc.b	$FD
-	dc.b	"Comment y sont arrivés Rune et le Père"
+	dc.b	"mouvants ? Et comment y sont arrivés"
 	dc.b	$FC
-	dc.b	"Dorin ?"
+	dc.b	"Rune et le Père Dorin ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$05
-	dc.b	"Je n'en sais rien."
+	dc.b	"Ça me dépasse."
 	dc.b	$FC
-	dc.b	"Probablement que ça implique la magie."
+	dc.b	"Ça implique sans doute la magie."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$07
@@ -373,7 +373,7 @@
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$004D
-	dc.b	"Je peux trouver le Land Rover !"
+	dc.b	"On peut utiliser le Land Rover !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
@@ -384,13 +384,13 @@
 
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Tu veux dire qu'on peut trouver un"
+	dc.b	"Vous voulez dire qu'il existe encore"
 	dc.b	$FC
-	dc.b	"Land Rover toujours intact ?"
+	dc.b	"un Land Rover fonctionnel ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$07
-	dc.b	"Absolument."
+	dc.b	"Affirmatif."
 	dc.b	$FD
 	dc.b	"Le Land Rover est un véhicule blindé"
 	dc.b	$FC
@@ -414,7 +414,7 @@
 	dc.b	$01
 	dc.b	"Le Centre des Machines ?"
 	dc.b	$FC
-	dc.b	"Un tel endroit existe ?"
+	dc.b	"Qu'est-ce que c'est que ce truc ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$07
@@ -423,32 +423,30 @@
 	dc.b	$F2, $01
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"C'est décidé ! Donc, ne tardons pas et"
-	dc.b	$FC
-	dc.b	"allons-y !"
+	dc.b	"Ok, dans ce cas, allons-y sans tarder !"
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Peux-tu rester ici, Hahn ?"
+	dc.b	"Pouvez-vous rester ici, Hahn ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Pardon ? Mais, je..."
+	dc.b	"Quoi ? Mais, je..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Il vaudrait mieux que tu restes ici pour"
+	dc.b	"Il vaudrait mieux que vous restiez ici"
 	dc.b	$FC
-	dc.b	"veiller sur Alys."
+	dc.b	"pour veiller sur Alys."
 	dc.b	$FD
-	dc.b	"En plus, tu as une jolie fiancée qui habite"
+	dc.b	"En plus, vous avez une jolie fiancée ici"
 	dc.b	$FC
-	dc.b	"ici !"
+	dc.b	"à qui vous avez manqué un peu !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Euh... mais..."
+	dc.b	"... Ok. Je dois bien ça à Alys."
 	dc.b	$F7
 
 	dc.b	$F4
@@ -464,7 +462,7 @@
 
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Hahn, prends bien soin d'elle !"
+	dc.b	"Hahn, prenez bien soin d'elle !"
 	dc.b	$FF
 
 ; $2E
@@ -491,9 +489,7 @@
 	dc.b	$01
 	dc.b	"Alys ! Alys !"
 	dc.b	$FD
-	dc.b	"Rune ! Tu ne peux rien faire avec tes"
-	dc.b	$FC
-	dc.b	"pouvoirs !?"
+	dc.b	"Rune ! Tu peux faire quelque chose ?"
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$0058
@@ -503,13 +499,15 @@
 	dc.b	$FC
 	dc.b	"de Zio."
 	dc.b	$FD
-	dc.b	"Elle contient un pouvoir encore plus vil,"
+	dc.b	"Elle contient un pouvoir encore plus vil."
 	dc.b	$FC
-	dc.b	"contre lequel je ne peux rien."
+	dc.b	"Oh, si seulement j'avais été là,"
+	dc.b	$FD
+	dc.b	"Alys ! Peut-être que Zio..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$22
-	dc.b	"Chaz... ne t'en fait pas. Chaz..."
+	dc.b	"Rune... Ne t'inquiète pas..."
 	dc.b	$FD
 	dc.b	"... Ru...ne..."
 	dc.b	$FD
@@ -523,13 +521,13 @@
 	dc.b	$22
 	dc.b	"... Rune... Aide... Chaz..."
 	dc.b	$FC
-	dc.b	"S'il-te-plaît... Rune..."
+	dc.b	"S'il-te-plaît..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
 	dc.b	"Sois sans crainte..."
 	dc.b	$FC
-	dc.b	"Je m'en chargerai..."
+	dc.b	"Tout... tout ce que tu veux..."
 	dc.b	$FD
 	dc.b	$F2, $01
 	dc.b	$F4
@@ -557,21 +555,27 @@
 	dc.b	$FD
 	dc.b	"responsable..."
 	dc.b	$FD
-	dc.b	"À partir de maintenant..."
+	dc.b	"Tu as tant de dons..."
 	dc.b	$FC
-	dc.b	"tu devras choisir ton destin..."
+	dc.b	"... Chaz..."
 	dc.b	$FD
-	dc.b	"par toi-même..."
+	dc.b	"Combattre était la seule chose..."
+	dc.b	$FC
+	dc.b	"La seule chose que je savais faire."
+	dc.b	$FD
+	dc.b	"Tu peux faire bien... plus... Chaz..."
+	dc.b	$FD
+	dc.b	"Trouve ta destinée...sans moi."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Alys ! Ne dis pas ça !"
+	dc.b	"Alys ! Ne dites pas ça !"
 	dc.b	$FC
 	dc.b	"Alys !!!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$22
-	dc.b	"Ch...az... Mer...ci..."
+	dc.b	"Ch...az... sois... plus..."
 	dc.b	$F2, $01
 	dc.b	$F9
 	dc.b	$09
@@ -580,7 +584,9 @@
 
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Alys..."
+	dc.b	"Non ! Vous êtes trop forte pour mourir..."
+	dc.b	$FC
+	dc.b	"Ne me laissez pas !! Alys !!!"
 	dc.b	$F9
 	dc.b	$27
 
@@ -597,51 +603,69 @@
 
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Tu ne dors pas ?"
+	dc.b	"Tu n'arrives pas à dormir ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Que... dois-je faire, maintenant ?"
+	dc.b	"... Je réfléchissais."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Chaz ?"
+	dc.b	"A propos de quoi ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Loin d'ici, avant qu'Alys ne me prenne"
+	dc.b	"Alys m'a accueilli il y a trois ans."
 	dc.b	$FC
-	dc.b	"sous son aile, j'ai fait beaucoup de"
+	dc.b	"J'ai grandi seul... Et en colère."
 	dc.b	$FD
-	dc.b	"mauvaises choses."
-	dc.b	$FD
-	dc.b	"Quand j'ai rejoint Alys comme chasseur..."
-	dc.b	$FD
-	dc.b	"Finalement je pouvais gagner ma vie,"
+	dc.b	"Je braquais des entrepôts, et la ville"
 	dc.b	$FC
-	dc.b	"et vivre confortablement."
+	dc.b	"a engagé Alys pour m'arrêter."
 	dc.b	$FD
-	dc.b	"Tout allait bien..."
-	dc.b	$FD
-	dc.b	"Mais là... Alys n'est plus."
-	dc.b	$FD
-	dc.b	"Je veux la venger, bien sûr,"
+	dc.b	"Elle... aurait pu me tuer. Ma vie etait"
 	dc.b	$FC
-	dc.b	"mais que dois-je faire ensuite ?"
+	dc.b	"un enfer. Mais elle m'a sauvé."
 	dc.b	$FD
-	dc.b	"Me battre ? Pourquoi ?"
+	dc.b	"Elle a vu... quelque chose en moi..."
+	dc.b	$FC
+	dc.b	"dont je n'avais pas conscience."
+	dc.b	$FD
+	dc.b	"En tant que chasseur, j'ai pu avoir la"
+	dc.b	$FC
+	dc.b	"belle vie excitante, avec un toît,"
+	dc.b	$FD
+	dc.b	"trois repas par jour, et même une"
+	dc.b	$FC
+	dc.b	"famille, avec Alys."
+	dc.b	$FD
+	dc.b	"En un instant, j'ai perdu cette vie à"
+	dc.b	$FC
+	dc.b	"jamais..."
+	dc.b	$FD
+	dc.b	"Je n'ai jamais imaginé une vie au délà de"
+	dc.b	$FC
+	dc.b	"celle qu'on avait."
+	dc.b	$FD
+	dc.b	"Que voulait-elle me dire, « Sois plus » ?"
+	dc.b	$FC
+	dc.b	"Combattre pour de l'argent est la seule"
+	dc.b	$FD
+	dc.b	"chose que je connais, et elle me l'a"
+	dc.b	$FC
+	dc.b	"appris !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Gagner sa vie, hein..."
+	dc.b	"L'argent, hein..."
 	dc.b	$FD
-	dc.b	"Tu crois vraiment qu'Alys se battait"
+	dc.b	"Tu crois vraiment qu'Alys ne vivait que"
 	dc.b	$FC
-	dc.b	"juste pour l'argent ?"
+	dc.b	"pour l'argent ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Pardon ?"
+	dc.b	"... Eh bien... ouais... je le pensais..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
@@ -651,34 +675,40 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Je..."
+	dc.b	"...Je ne comprends pas..."
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$0068
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Penses-y bien !"
+	dc.b	"Et bien, penses-y, petite tête !"
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$06
 	dc.b	"Hé, Chaz ?"
 	dc.b	$FD
-	dc.b	"Je me disais..."
-	dc.b	$FD
-	dc.b	"C'est vraiment bien que j'aie pu partir"
+	dc.b	"Je suis si triste, mais je pense..."
 	dc.b	$FC
-	dc.b	"du Bio-laboratoire."
+	dc.b	"que c'est vraiment bien que j'aie pu"
 	dc.b	$FD
+	dc.b	"partir du Bio-laboratoire."
+	dc.b	$FC
 	dc.b	"J'ai tellement appris de Seed."
 	dc.b	$FD
 	dc.b	"Sur les océans, les montagnes, les villes,"
 	dc.b	$FC
-	dc.b	"et les gens !"
+	dc.b	"les gens... et les émotions..."
 	dc.b	$FD
-	dc.b	"La théorie est vraiment très différente"
+	dc.b	"Mais j'ai déjà appris que les mots ne"
 	dc.b	$FC
-	dc.b	"de l'apprentissage de la vie."
+	dc.b	"peuvent décrire la beauté et le"
+	dc.b	$FD
+	dc.b	"mystère de la vie."
+	dc.b	$FD
+	dc.b	"J'ai besoin d'expérience pour pouvoir"
+	dc.b	$FC
+	dc.b	"comprendre..."
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$0183
@@ -687,19 +717,37 @@
 
 	dc.b	$F2, $00
 	dc.w	$0184
-	dc.b	"Par exemple, l'odeur de l'océan, la"
+	dc.b	"Comme l'odeur de l'océan, la majesté"
 	dc.b	$FC
-	dc.b	"majesté des montagnes, le grouillement"
+	dc.b	"des montagnes, l'animation de la"
 	dc.b	$FD
-	dc.b	"de la ville, et"
+	dc.b	"ville, et..."
 	dc.b	$FC
 	dc.b	$F2, $00
 	dc.w	$0185
-	dc.b	"la chaleur des gens."
+	dc.b	"la chaleur des... amis."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"... Merci, Rika."
+	dc.b	"... La chaleur des autres est sans doute"
+	dc.b	$FC
+	dc.b	"la seule chose qui me permet de tenir"
+	dc.b	$FD
+	dc.b	"le coup en ce moment..."
+	dc.b	$FD
+	dc.b	"... Tu es incroyable, Rika..."
+	dc.b	$FC
+	dc.b	"...pas seulement en combattante."
+	dc.b	$FD
+	dc.b	"Je n'ai jamais rencontré quelqu'un comme"
+	dc.b	$FC
+	dc.b	"toi."
+	dc.b	$FD
+	dc.b	"Et bien, évidemment, je pense, mais..."
+	dc.b	$FC
+	dc.b	"... Je suis... c'est vraiment super que"	
+	dc.b	$FD
+	dc.b	"tu sois avec nous, sur ce..."
 	dc.b	$FD
 	dc.b	$F2, $01
 	dc.b	$F9
@@ -723,12 +771,14 @@
 
 	dc.b	$F2, $00
 	dc.w	$006B
-	dc.b	"Merci, ça ira..."
+	dc.b	"Ce que je veux dire c'est que... je..."
+	dc.b	$FC
+	dc.b	"ah... Je suis heureux que tu sois là, Rika."
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Je vais retourner à l'Académie."
+	dc.b	"...Je vais retourner à l'Académie."
 	dc.b	$FD
 	dc.b	"Il vaut mieux que je fasse un rapport"
 	dc.b	$FC
@@ -740,7 +790,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Bien. Je compte sur toi, Hahn !"
+	dc.b	"Bien. Nous comptons sur vous, Hahn !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0C
@@ -750,12 +800,16 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Chaz, garde le moral !"
+	dc.b	"Chaz, Vous et Alys serez toujours dans"
+	dc.b	$FC
+	dc.b	"nos prières."
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"OK ! Allons-y !"
+	dc.b	"... Zio, tu vas payer. Je le jure !"
+	dc.b	$FC
+	dc.b	"Oeil pour Oeil, Zio..."
 	dc.b	$FF
 
 ; $2F
@@ -767,7 +821,7 @@
 	dc.b	$22, $01
 	dc.b	$FA
 	dc.b	$1F, $01
-	dc.b	"Quel glouton ce chien !"
+	dc.b	"Quel goinfre ce chien !"
 	dc.b	$FD
 	dc.b	"Il mange tout le temps !"
 	dc.b	$FF
@@ -827,7 +881,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"D'accord, voici ton mets préféré,"
+	dc.b	"D'accord, voici ta friandise préférée,"
 	dc.b	$FC
 	dc.b	"du gâteau."
 	dc.b	$FD

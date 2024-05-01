@@ -78,8 +78,10 @@
 	dc.b	$FC
 	dc.b	"Ici, c'est la ville de Kadary."
 	dc.b	$FD
-	dc.b	"Personne ne viste plus l'Église de Zio."
+	dc.b	"Plus personne ne visite l'Église de Zio."
 	dc.b	$FC
+	dc.b	"Dieu merci."
+	dc.b	$FD
 	dc.b	"Vous non plus, n'est-ce pas ?"
 	dc.b	$FF
 
@@ -88,23 +90,27 @@
 	dc.b	$65, $01
 	dc.b	"Une Église qui enseigne les préceptes de"
 	dc.b	$FC
-	dc.b	"Zio a été constuite dans cette ville."
+	dc.b	"d'un dénommé Zio a été constuite dans"
+	dc.b	$FD
+	dc.b	"cette ville récemment."
 	dc.b	$FD
 	dc.b	"Les adeptes de toute part se"
 	dc.b	$FC
 	dc.b	"rassemblent ici."
 	dc.b	$FD
-	dc.b	"Je ne veux pas dire ça trop fort, mais..."
+	dc.b	"Psss... Gardez-ça pour vous..."
 	dc.b	$FC
-	dc.b	"c'est vraiment dérangeant !"
+	dc.b	"J'ai la sensation d'être constamment"
+	dc.b	$FD
+	dc.b	"surveillé !"
 	dc.b	$FF
 
 ; $18
-	dc.b	"On me dit que Zio n'est plus."
+	dc.b	"On me dit que Zio est mort."
 	dc.b	$FD
-	dc.b	"Bon, la ville va finalement revenir à"
+	dc.b	"Cette ville va enfin pouvoir être à"
 	dc.b	$FC
-	dc.b	"la normale."
+	dc.b	"nouveau libre."
 	dc.b	$FF
 
 ; $19
@@ -112,9 +118,9 @@
 	dc.b	$65, $01
 	dc.b	"Êtes-vous venus par le chemin au nord ?"
 	dc.b	$FD
-	dc.b	"Alors, en passant, vous devez avoir vu"
+	dc.b	"Alors, en passant, vous avez sans doute"
 	dc.b	$FC
-	dc.b	"ce village réduit en cendres ?"
+	dc.b	"vu ce village réduit en cendres ?"
 	dc.b	$FD
 	dc.b	"On dit que c'est à cause de Zio !"
 	dc.b	$FC
@@ -124,7 +130,7 @@
 ; $1A
 	dc.b	"Êtes-vous venus par le chemin au nord ?"
 	dc.b	$FD
-	dc.b	"Alors, vous devez avoir passé par le"
+	dc.b	"Alors, vous avez dû passer par le"
 	dc.b	$FC
 	dc.b	"village rasé par le feu sur votre"
 	dc.b	$FD
@@ -142,16 +148,16 @@
 	dc.b	$FC
 	dc.b	"question ?"
 	dc.b	$FD
-	dc.b	"Est-ce que vous croyez dans les"
+	dc.b	"Est-ce que vous croyez en la parole"
 	dc.b	$FC
-	dc.b	"enseignements de Zio ?"
+	dc.b	"de Zio ?"
 	dc.b	$F5
 	dc.b	$00, $01
 	dc.b	"Ah, une âme-soeur !"
 	dc.b	$FC
 	dc.b	"Gloire au grand Zio !"
 	dc.b	$FD
-	dc.b	"Nettoie l'esprit des incrédules !"
+	dc.b	"Purifie l'esprit des imbéciles !"
 	dc.b	$FF
 
 ; $1C
@@ -167,22 +173,20 @@
 	dc.b	$FC
 	dc.b	"question ?"
 	dc.b	$FD
-	dc.b	"Est-ce que vous croyez dans les"
+	dc.b	"Est-ce que vous croyez en la parole"
 	dc.b	$FC
-	dc.b	"enseignements de Zio ?"
+	dc.b	"de Zio ?"
 	dc.b	$F5
 	dc.b	$00, $01
 	dc.b	"Vous êtes aveugles ou quoi ?"
 	dc.b	$FC
-	dc.b	"Regardez autour de vous !"
-	dc.b	$FD
-	dc.b	"Vous devriez vous ressaisir."
+	dc.b	"Imbéciles..."
 	dc.b	$FF
 
 ; $1E
-	dc.b	"Bien, vous avez vu la lumière !"
+	dc.b	"Bien, vous avez vu la vérité !"
 	dc.b	$FC
-	dc.b	"Je ne sais pas ce qui m'a pris !"
+	dc.b	"Que m'est-il arrivé..."
 	dc.b	$FF
 
 ; $1F
@@ -213,19 +217,19 @@
 ; $23
 	dc.b	$FA
 	dc.b	$65, $01
-	dc.b	"Cette auberge au fond de la ville..."
+	dc.b	"Cette taverne au fond de la ville..."
 	dc.b	$FC
-	dc.b	"Auparavant, j'aimais aller à cet endroit,"
+	dc.b	"J'avais l'habitude d'y aller,"
 	dc.b	$FD
-	dc.b	"mais dernièrement, je ne pourrais y"
+	dc.b	"mais récemment, je ne pourrais pas"
 	dc.b	$FC
-	dc.b	"aller même si je le voulais..."
+	dc.b	"y aller même si je le voulais..."
 	dc.b	$FF
 
 ; $24
 	dc.b	"Ah, je peux finalement retourner boire"
 	dc.b	$FC
-	dc.b	"à l'auberge !"
+	dc.b	"à la taverne!"
 	dc.b	$FF
 
 ; $25
@@ -239,29 +243,29 @@
 	dc.b	$FF
 
 ; $26
-	dc.b	"C'est pathétique ! Une personne mature"
+	dc.b	"Aucun de ces adorateurs de Zio ne sait"
 	dc.b	$FC
-	dc.b	"qui réclame Zio !"
+	dc.b	"penser par lui-même."
 	dc.b	$FD
-	dc.b	"Vous devez avoir du respect pour"
+	dc.b	"La pensée collective n'est jamais"
 	dc.b	$FC
-	dc.b	"vous-même avant de respecter les"
-	dc.b	$FD
-	dc.b	"autres, ressaisissez-vous !"
+	dc.b	"bénéfique !"
 	dc.b	$FF
 
 ; $27
 	dc.b	$FA
 	dc.b	$65, $01
-	dc.b	"C'est quoi le problème de ces gens qui"
+	dc.b	"C'est quoi le problème avec ces gens qui"
 	dc.b	$FC
-	dc.b	"exagèrent à propos de ce Zio ?"
+	dc.b	"deviennent fous avec ces conneries de"
 	dc.b	$FD
+	dc.b	"autour de Zio ?"
+	dc.b	$FC
 	dc.b	"Ça me donne la chair de poule !"
 	dc.b	$FF
 
 ; $28
-	dc.b	"Le ciel soit loué ! Les gens ont finalement"
+	dc.b	"Dieu soit loué ! Les gens ont finalement"
 	dc.b	$FC
 	dc.b	"tous retrouvé leurs esprits."
 	dc.b	$FF
@@ -269,31 +273,33 @@
 ; $29
 	dc.b	$FA
 	dc.b	$65, $01
-	dc.b	"Notre fille est devenue une dévote de"
+	dc.b	"Notre fille a dit qu'elle partait suivre"
 	dc.b	$FC
-	dc.b	"Zio, et ne veut plus revenir à la maison."
+	dc.b	"Zio, et ne veut plus rentrer à la maison."
 	dc.b	$FF
 
 ; $2A
-	dc.b	"Enfin ! Notre fille a elle aussi retrouvé"
+	dc.b	"Enfin ! Notre fille aussi a retrouvé ses"
 	dc.b	$FC
-	dc.b	"ses esprits !"
+	dc.b	"esprits !"
 	dc.b	$FF
 
 ; $2B
 	dc.b	$FA
 	dc.b	$65, $01
-	dc.b	"Si tous sur cette planète vont mourir"
+	dc.b	"Si c'est le destin de cette planète de"
 	dc.b	$FC
-	dc.b	"bientôt, autant miser tous nos espoirs"
+	dc.b	"mourir de toute façon, alors autant"
 	dc.b	$FD
-	dc.b	"sur cet homme. N'est-ce pas ?"
+	dc.b	"remettre tous nos espoirs en cet"
+	dc.b	$FC
+	dc.b	"homme. N'est-ce pas ?"
 	dc.b	$FF
 
 ; $2C
-	dc.b	"Vous dites de nous résigner à notre"
+	dc.b	"Vous nous dites que vous vous"
 	dc.b	$FC
-	dc.b	"sort... ou... quoi ?"
+	dc.b	"êtes résignés à votre destin ?"
 	dc.b	$FF
 
 ; $2D
@@ -301,19 +307,21 @@
 	dc.b	$FF
 
 ; $2E
-	dc.b	"Ceci est une église où nous adorons le"
+	dc.b	"C'est une église où nous vénérons le"
 	dc.b	$FC
 	dc.b	"grand Zio."
 	dc.b	$FD
-	dc.b	"Zio a dit qu'il purifiera cette terre"
+	dc.b	"Zio dit qu'il purifiera cette terre"
 	dc.b	$FC
-	dc.b	"souillée par le feu de la destruction..."
+	dc.b	"souillée par le feu de la création"
+	dc.b	$FD
+	dc.b	"et de la destruction..."
 	dc.b	$FD
 	dc.b	"Ensuite, il construira une société"
 	dc.b	$FC
-	dc.b	"paradisiaque avec seuls les meilleurs"
+	dc.b	"utopique avec les meilleurs citoyens"
 	dc.b	$FD
-	dc.b	"citoyens !"
+	dc.b	"uniquement !"
 	dc.b	$FD
 	dc.b	"Comme c'est magnifique !"
 	dc.b	$FC
@@ -321,19 +329,19 @@
 	dc.b	$FF
 
 ; $2F
-	dc.b	"Ces hordes ignorantes qui vivent dans"
+	dc.b	"Ces hordes d'ignorants qui vivent dans"
 	dc.b	$FC
 	dc.b	"l'oisiveté !"
 	dc.b	$FD
-	dc.b	"Ce sont ces gens qui devraient être"
+	dc.b	"Ce sont eux qui devraient être purifiés"
 	dc.b	$FC
-	dc.b	"purifiés par Zio !"
+	dc.b	"par la main de Zio !"
 	dc.b	$FF
 
 ; $30
-	dc.b	"Seuls les fidèles accompagneront Zio"
+	dc.b	"Seuls les fidèles seront guidés par Zio"
 	dc.b	$FC
-	dc.b	"dans le monde nouveau !"
+	dc.b	"vers le nouveau monde !"
 	dc.b	$FF
 
 ; $31
@@ -343,9 +351,9 @@
 	dc.b	$FF
 
 ; $33
-	dc.b	"La création du nouveau monde ne pourra"
+	dc.b	"Seule la destruction permettra la"
 	dc.b	$FC
-	dc.b	"se faire qu'au prix de la destruction !"
+	dc.b	"création du nouveau monde !"
 	dc.b	$FF
 
 ; $34
@@ -385,61 +393,63 @@
 	dc.b	$06
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Impossible de lui parler, il s'est évanoui..."
+	dc.b	"Impossible de lui parler,"
+	dc.b	$FC
+	dc.b	"il s'est volatilisé..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"C'est sinistre."
+	dc.b	"C'est effrayant..."
 	dc.b	$FF
 
 ; $39
-	dc.b	"Que... que diable ai-je fait ?"
+	dc.b	"Que... qu'est-ce que j'ai fait ?"
 	dc.b	$FF
 
 ; $3A
-	dc.b	"Hein ? Tu es brave d'amener une femme"
+	dc.b	"Hein ? Tu as du cran d'amener une femme"
 	dc.b	$FC
-	dc.b	"à un tel endroit, n'est-ce pas, les gars ?"
+	dc.b	"à un tel endroit, pas vrai, les gars ?"
 	dc.b	$FF
 
 ; $3B
-	dc.b	"Qu'est-ce qu'il vous prend ?"
+	dc.b	"Qu'est-ce qui ne va pas chez vous ?"
 	dc.b	$FC
 	dc.b	"Vous osez me dévisager ainsi !?"
 	dc.b	$FD
-	dc.b	"Vous ne savez donc pas que nous sommes"
+	dc.b	"Vous ne savez donc pas que je suis une"
 	dc.b	$FC
-	dc.b	"les subalternes de Zio ?"
+	dc.b	"des subalternes de Zio ?"
 	dc.b	$FF
 
 ; $3C
-	dc.b	"Si vous croyez en Zio, nous pouvons"
+	dc.b	"Si vous suivez la parole de Zio, nous"
 	dc.b	$FC
-	dc.b	"vous donner du bon temps !"
+	dc.b	"pourrons vous donner du bon temps !"
 	dc.b	$FF
 
 ; $3D
 	dc.b	$FA
 	dc.b	$65, $01
-	dc.b	"C'est vrai que je n'ai plus de soucis"
+	dc.b	"C'est vrai que je n'ai plus de problèmes"
 	dc.b	$FC
-	dc.b	"financiers, mais je me suis sali les mains..."
+	dc.b	"d'argent, mais je me suis sali les mains..."
 	dc.b	$FD
 	dc.b	"Je me demande si j'ai fait le bon choix ?"
 	dc.b	$FF
 
 ; $3E
-	dc.b	"Je travaillerai ici, à l'auberge, pour"
+	dc.b	"J'ai décidé de travailler ici, à cette"
 	dc.b	$FC
-	dc.b	"rembourser ma dette envers"
+	dc.b	"taverne, pour rembourser ma dette."
 	dc.b	$FD
-	dc.b	"l'établissement."
+	dc.b	"C'est le moins que je puisse faire."
 	dc.b	$FF
 
 ; $3F
 	dc.b	$FA
 	dc.b	$65, $01
-	dc.b	"Avant, c'était une auberge comme les"
+	dc.b	"Avant, c'était une taverne comme les"
 	dc.b	$FC
 	dc.b	"autres ici, mais un jour,"
 	dc.b	$FD
@@ -449,19 +459,23 @@
 	dc.b	$FD
 	dc.b	"crédit, mais ils ne paient jamais..."
 	dc.b	$FC
-	dc.b	"snif, snif..."
+	dc.b	"Dans quel horrible endroit je suis..."
 	dc.b	$FF
 
 ; $40
-	dc.b	"Zio est vaincu ! Une fois cela annoncé,"
-	dc.b	$FC
-	dc.b	"tout le monde a fui."
+	dc.b	"Zio est mort ! C'est fini !"
 	dc.b	$FD
-	dc.b	"Sans payer, bien sûr, mais je suis soulagé."
-	dc.b	$FD
-	dc.b	"Par contre, il reste une personne que"
+	dc.b	"A l'annonce de sa mort,"
 	dc.b	$FC
-	dc.b	"j'admire."
+	dc.b	"tout le monde s'est enfui."
+	dc.b	$FD
+	dc.b	"Sans payer, bien sûr, mais je suis soulagé"
+	dc.b	$FC
+	dc.b	"que tout redevienne normal."
+	dc.b	$FD
+	dc.b	"Par contre, il reste une personne qui"
+	dc.b	$FC
+	dc.b	"m'impressionne."
 	dc.b	$FF
 
 ; $41
@@ -471,23 +485,27 @@
 	dc.b	$FD
 	dc.b	"Comme c'est adorable."
 	dc.b	$FD
-	dc.b	"Je prendrai bien soin de toi."
+	dc.b	"Pourquoi tu ne retournes pas à l'école,"
+	dc.b	$FC
+	dc.b	"mon petit ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Hein ? Que... Que voulez-vous dire ?"
+	dc.b	"Hein ? Peu importe, je ne suis pas venu"
+	dc.b	$FC
+	dc.b	"acheter, madame !"
 	dc.b	$FF
 
 ; $42
 	dc.b	$FA
 	dc.b	$65, $01
-	dc.b	"Je n'aime pas cette nouvelle religion."
+	dc.b	"Je n'aime pas cette nouvelle église."
 	dc.b	$FC
 	dc.b	"Les soldats de Zio restent la nuit, mais"
 	dc.b	$FD
 	dc.b	"je n'ose pas leur réclamer mon dû."
 	dc.b	$FC
-	dc.b	"C'est insupportable !"
+	dc.b	"Ça pourrait mal finir pour moi..."
 	dc.b	$FF
 
 ; $43
@@ -499,15 +517,15 @@
 ; $44
 	dc.b	"Chez les fidèles de Zio, il y a un dicton :"
 	dc.b	$FC
-	dc.b	"« Les justes n'éludent pas Kadary. »"
+	dc.b	"« Les justes afflueront vers Kadary. »"
 	dc.b	$FD
 	dc.b	"Kadary est un lieu sacré !"
 	dc.b	$FF
 
 ; $45
-	dc.b	"Seul Zio peut nous sauver des tares de"
+	dc.b	"Nul autre que Zio peut nous sauver de"
 	dc.b	$FC
-	dc.b	"Motavia !"
+	dc.b	"la souillure de Motavia !"
 	dc.b	$FD
 	dc.b	"Ahhh !"
 	dc.b	$FC
@@ -520,7 +538,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"C'est... c'est sinistre."
+	dc.b	"C'est... c'est effrayant."
 	dc.b	$FF
 
 ; $46
@@ -533,9 +551,11 @@
 	dc.b	$FF
 
 ; $49
-	dc.b	"Oh, je ne veux rien entendre ! Même si"
+	dc.b	"Imbéciles, votre hérésie est vaine !"
 	dc.b	$FC
-	dc.b	"Zio est vaincu, j'ai toujours foi en lui !"
+	dc.b	"Même si Zio est vaincu, j'ai toujours"
+	dc.b	$FD
+	dc.b	"foi en lui !"
 	dc.b	$FD
 	dc.b	"Oh... Saint Zio..."
 	dc.b	$FF
@@ -549,7 +569,9 @@
 	dc.b	$FC
 	dc.b	"Motavia jusqu'ici."
 	dc.b	$FD
-	dc.b	"Les travaux scolaires, c'est trop bête !"
+	dc.b	"Les études c'est chiant,"
+	dc.b	$FC
+	dc.b	"mais j'ai des doutes ici..."
 	dc.b	$FF
 
 ; $4B
@@ -560,19 +582,19 @@
 ; $4C
 	dc.b	$F4
 	dc.b	$24
-	dc.b	"Ouiiin ! Où suis-je ?"
+	dc.b	"Que se passe-t-il ?, Je suis seule !"
 	dc.b	$FC
-	dc.b	"Je veux retourner à Piata !"
+	dc.b	"J'étais en sécurité au dortoir !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Oui, bonne idée, retournons-y !"
+	dc.b	"Oui, bonne idée, retournons à Piata !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$24
-	dc.b	"Vous m'accompagnerez ?"
+	dc.b	"Sniff... Vous allez ...me raccompagner ?"
 	dc.b	$FC
-	dc.b	"Mer... Merci !"
+	dc.b	"Mer... Merci ! Vous êtes des saints !"
 	dc.b	$FF
 
 ; $4D
@@ -605,7 +627,7 @@
 	dc.b	$FD
 	dc.b	"Voyons voir, pourquoi ne pas en donner"
 	dc.b	$FC
-	dc.b	"à cette fille ?"
+	dc.b	"à cette pauvre fille ?"
 	dc.b	$FF
 
 ; $50
@@ -627,8 +649,10 @@
 	dc.b	"ici ?"
 	dc.b	$FD
 	dc.b	"Où suis-je ?"
+	dc.b	$FD
+	dc.b	"Où sont mes amis ?"
 	dc.b	$FC
-	dc.b	"Ouiinnn !"
+	dc.b	"Je me sens...vide... confuse !"
 	dc.b	$FF
 
 ; $53
@@ -637,28 +661,34 @@
 	dc.b	"Elle est très faible. Il faut lui donner"
 	dc.b	$FD
 	dc.b	"quelque chose de nutritif."
+	dc.b	$FC
+	dc.b	"Pas un soin, mais de la bouffe !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
 	dc.b	"Hum, quelque chose de nutritif..."
+	dc.b	$FC
+	dc.b	"Du gâteau ne suffira pas."
 	dc.b	$FF
 
 ; $54
 	dc.b	$F4
 	dc.b	$24
-	dc.b	"Oh."
+	dc.b	"... Je pense que ça va aller."
 	dc.b	$FC
-	dc.b	"Que m'est t'il arrivé ?"
+	dc.b	"Vous... êtes mon héro ! Bisou."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Le ciel soit loué, vous allez bien !"
+	dc.b	"Euh... je suis content que vous alliez"
 	dc.b	$FC
-	dc.b	"Retournons à Piata."
+	dc.b	"mieux ! Rentrons."
 	dc.b	$FF
 
 ; $55
-	dc.b	"Comment ça va ?"
+	dc.b	"Avez-vous trouvé quelque chose de"
+	dc.b	$FC
+	dc.b	"nutritif ?"
 	dc.b	$FF
 
 ; $56

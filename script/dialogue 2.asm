@@ -193,17 +193,19 @@
 ; $40
 	dc.b	$FA
 	dc.b	$DA, $01
-	dc.b	"Mes parents habitent à Mile, un village"
+	dc.b	"Mes parents vivent à Mile, un village au"
 	dc.b	$FC
-	dc.b	"au nord-est."
+	dc.b	"nord-est d'ici."
 	dc.b	$FD
-	dc.b	"Dernièrement, je ne reçois plus mon"
+	dc.b	"Dernièrement, je ne plus reçois l'argent"
 	dc.b	$FC
-	dc.b	"argent de poche. M'ont-ils oublié ?"
+	dc.b	"pour l'internat. Je me demande s'ils"
+	dc.b	$FD
+	dc.b	"m'ont oublié ?"
 	dc.b	$FD
 	dc.b	"Bon, eh bien, je vais devoir me trouver"
 	dc.b	$FC
-	dc.b	"un emploi."
+	dc.b	"un boulot."
 	dc.b	$FD
 	dc.b	"Devenir chasseur..."
 	dc.b	$FC
@@ -211,10 +213,12 @@
 	dc.b	$FF
 
 ; $41
-	dc.b	"C'est vrai que le village de Mile est"
+	dc.b	"C'est vrai que tout le monde est mort"
 	dc.b	$FC
-	dc.b	"devenu un village fantôme ?"
+	dc.b	"au village de Mile ?"
 	dc.b	$FD
+	dc.b	"C'est pas possible !"
+	dc.b	$FC
 	dc.b	"Maman ! Papa !"
 	dc.b	$FF
 
@@ -223,21 +227,21 @@
 	dc.b	$DA, $02
 	dc.b	$FA
 	dc.b	$0C, $01
-	dc.b	"Le nombre de monstres semblait diminuer,"
+	dc.b	"Juste quand le nombre de monstres"
 	dc.b	$FC
-	dc.b	"et soudain, on en retrouve dans la ville !"
+	dc.b	"semblait diminuer, ils débarquent"
 	dc.b	$FD
-	dc.b	"Vous croyez que c'est un signe du"
-	dc.b	$FC
-	dc.b	"destin ?"
+	dc.b	"carrément dans la ville !"
+	dc.b	$FD
+	dc.b	"Vous croyez que c'est mauvais signe ?"
 	dc.b	$FF
 
 ; $43
-	dc.b	"Finalement, les monstres ne rôdent plus"
+	dc.b	"Apparemment, les monstres"
 	dc.b	$FC
-	dc.b	"dans la ville."
+	dc.b	"n'apparaissent plus dans la ville."
 	dc.b	$FD
-	dc.b	"Le ciel soit loué !"
+	dc.b	"Dieu soit loué !"
 	dc.b	$FF
 
 ; $44
@@ -251,27 +255,25 @@
 	dc.b	$0C, $01
 	dc.b	"Les monstres ne peuvent pas entrer"
 	dc.b	$FC
-	dc.b	"dans la ville. Notre mur nous protège."
+	dc.b	"dans la ville. Le mur nous protège."
 	dc.b	$FD
 	dc.b	"C'est pourquoi je crois que ces monstres"
 	dc.b	$FC
-	dc.b	"étranges doivent venir de l'intérieur"
+	dc.b	"étranges viennent de l'intérieur."
 	dc.b	$FD
-	dc.b	"des murs."
-	dc.b	$FC
 	dc.b	"Il y a quelque chose de très suspect"
-	dc.b	$FD
-	dc.b	"dans la recherche qui se fait à"
 	dc.b	$FC
+	dc.b	"dans les recherches qui se font à"
+	dc.b	$FD
 	dc.b	"l'Académie."
 	dc.b	$FF
 
 ; $46
-	dc.b	"J'ai entendu dire que les monstres furent"
+	dc.b	"J'ai entendu dire que les monstres ont"
 	dc.b	$FC
-	dc.b	"vaincus par un chasseur dont j'ai oublié"
+	dc.b	"été vaincus par une chasseresse avec"
 	dc.b	$FD
-	dc.b	"le nom."
+	dc.b	"un surnom bizarre."
 	dc.b	$FF
 
 ; $47
@@ -279,7 +281,7 @@
 	dc.b	$FC
 	dc.b	"trou ?"
 	dc.b	$FD
-	dc.b	"Hé ! C'est vrai ?"
+	dc.b	"Comment est-ce possible ??"
 	dc.b	$FF
 
 ; $48
@@ -295,7 +297,7 @@
 	dc.b	$FD
 	dc.b	"Ça fait un bail, mais je me demande ce"
 	dc.b	$FC
-	dc.b	"que ça pouvait bien être !"
+	dc.b	"que c'était !"
 	dc.b	$FF
 
 ; $49
@@ -308,16 +310,18 @@
 
 ; $4A
 	dc.b	"Je ne sais pas ce qui se passe."
+	dc.b	$FD
+	dc.b	"Je sais juste qu'il y a un enorme,"
 	dc.b	$FC
-	dc.b	"Je sais juste qu'il y a un trou..."
+	dc.b	"trou béant..."
 	dc.b	$FF
 
 ; $4B
 	dc.b	$FA
 	dc.b	$DA, $01
 	dc.b	"C'est quoi votre problème ?"
-	dc.b	$FD
-	dc.b	"Vous êtes bien trop amicaux !"
+	dc.b	$FC
+	dc.b	"Ne soyez pas si familiers !"
 	dc.b	$FF
 
 ; $4C
@@ -339,31 +343,27 @@
 	dc.b	$FD
 	dc.b	"Mon copain, qui travaille au département"
 	dc.b	$FC
-	dc.b	"de l'agriculture, est très contrarié."
+	dc.b	"de l'agriculture, est un peu désemparé."
 	dc.b	$FF
 
 ; $4E
-	dc.b	"On ne peut pas expliquer ça juste en"
+	dc.b	"Ce changement climatique ne peut plus"
 	dc.b	$FC
-	dc.b	"disant que la surface du sol a glissé"
-	dc.b	$FD
-	dc.b	"d'un coup !"
+	dc.b	"être ignoré !"
 	dc.b	$FF
 
 ; $4F
 	dc.b	$FA
 	dc.b	$DA, $01
-	dc.b	"Ça va toujours ici, mais il semblerait que"
+	dc.b	"Ici ça va, mais il semblerait que les puits"
 	dc.b	$FC
-	dc.b	"les puits du village de Mile sont tous"
-	dc.b	$FD
-	dc.b	"à sec !"
+	dc.b	"du village de Mile sont tous à sec !"
 	dc.b	$FF
 
 ; $50
-	dc.b	"Si Mile a des problèmes, ce sera à notre"
+	dc.b	"Si Mile a des problèmes, ce sera bientôt"
 	dc.b	$FC
-	dc.b	"tour bientôt !"
+	dc.b	"à notre tour !"
 	dc.b	$FF
 
 ; $51
@@ -375,9 +375,9 @@
 	dc.b	$FD
 	dc.b	"J'arrive pas à croire que j'ai manqué ça !"
 	dc.b	$FD
-	dc.b	"Vous devriez vous y baigner, ça vous"
+	dc.b	"Vous devriez piquer une tête aussi,"
 	dc.b	$FC
-	dc.b	"ferait du bien.."
+	dc.b	"ça vous ferait du bien..."
 	dc.b	$FF
 
 ; $52
@@ -389,29 +389,29 @@
 	dc.b	$DA, $02
 	dc.b	$FA
 	dc.b	$0C, $01
-	dc.b	"Ordre du directeur."
+	dc.b	"Ordre du principal."
 	dc.b	$FD
-	dc.b	"Personne ne passe au delà de cette"
+	dc.b	"Personne ne peux passer par ici."
 	dc.b	$FC
-	dc.b	"ligne !"
+	dc.b	"Désolé les gars."
 	dc.b	$FF
 
 ; $54
-	dc.b	"Ici, c'est Piata, une ville universitaire."
+	dc.b	"Ici, c'est la ville universitaire de Piata."
 	dc.b	$FD
-	dc.b	"C'est une ville pleine de chercheurs"
+	dc.b	"C'est une ville qui accueille de"
 	dc.b	$FC
-	dc.b	"et d'étudiants."
+	dc.b	"nombreux étudiants et universitaires."
 	dc.b	$FF
 
 ; $55
-	dc.b	"Ici, vous êtes à Piata, mais trève de"
+	dc.b	"Ici, vous êtes à Piata, mais pas le"
 	dc.b	$FC
-	dc.b	"plaisanteries !"
+	dc.b	"temps de bavarder !"
 	dc.b	$FD
-	dc.b	"Au nord, près de Mile, il y a un grand"
+	dc.b	"Au nord, près de Mile, il y a une grande"
 	dc.b	$FC
-	dc.b	"trou !"
+	dc.b	"ouverture dans le sol !"
 	dc.b	$FF
 
 ; $56
@@ -457,19 +457,21 @@
 ; $5B
 	dc.b	"Merci pour tout !"
 	dc.b	$FD
-	dc.b	"Maintenant nous pouvons sauver les"
+	dc.b	"Si les parents pensent que leurs"
 	dc.b	$FC
-	dc.b	"apparences dans ce dortoir."
+	dc.b	"enfants ne sont pas en sécurité notre."
 	dc.b	$FD
-	dc.b	"Nous remettrons la somme convenue"
+	dc.b	"trésorerie va fondre."
+	dc.b	$FD
+	dc.b	"Nous remettrons la récompense à la"
 	dc.b	$FC
-	dc.b	"à la guilde !"
+	dc.b	"guilde !"
 	dc.b	$FD
 	dc.b	"Euh, aussi... J'apprécierais si vous"
 	dc.b	$FC
 	dc.b	"pouviez garder toute cette affaire"
 	dc.b	$FD
-	dc.b	"sous silence."
+	dc.b	"pour vous."
 	dc.b	$FF
 
 ; $5C
@@ -481,19 +483,19 @@
 	dc.b	$65, $01
 	dc.b	"J'ai un mémoire à remettre demain,"
 	dc.b	$FC
-	dc.b	"mais je n'ai pas écrit un seul mot !"
+	dc.b	"mais je n'ai pas fini la première page !"
+	dc.b	$FD
+	dc.b	"Je dois prendre plus de café ?!"
 	dc.b	$FF
 
 ; $5E
-	dc.b	"« Échec »..."
+	dc.b	"« Recalé »..."
 	dc.b	$FD
 	dc.b	"J'imagine que c'est normal compte tenu"
 	dc.b	$FC
 	dc.b	"que je n'ai pas remis mon mémoire"
 	dc.b	$FD
 	dc.b	"à temps..."
-	dc.b	$FC
-	dc.b	"Snif snif."
 	dc.b	$FF
 
 ; $5F
@@ -503,23 +505,25 @@
 	dc.b	$2A, $02
 	dc.b	$FA
 	dc.b	$26, $01
-	dc.b	"C'est bien plus chouette de flâner que"
+	dc.b	"C'est bien plus chouette de jouer que"
 	dc.b	$FC
-	dc.b	"d'assister aux cours."
+	dc.b	"d'aller en classe."
 	dc.b	$FF
 
 ; $60
 	dc.b	"La fille de la chambre d'à côté ?"
 	dc.b	$FC
-	dc.b	"À bien y penser, je ne l'ai pas vue"
+	dc.b	"Je ne l'ai pas vue depuis plusieurs jours."
 	dc.b	$FD
-	dc.b	"depuis longtemps."
+	dc.b	"Je me suis dit qu'elle avait échoué ou"
+	dc.b	$FC
+	dc.b	"quelque chose du genre."	
 	dc.b	$FF
 
 ; $61
 	dc.b	"La fille de la chambre d'à côté est"
 	dc.b	$FC
-	dc.b	"revenue ? Je n'étais pas au courant."
+	dc.b	"revenue ? C'est super !"
 	dc.b	$FF
 
 ; $62
@@ -535,13 +539,9 @@
 	dc.b	$2A, $02
 	dc.b	$FA
 	dc.b	$26, $01
-	dc.b	"La fille de la chambre d'à côté est"
+	dc.b	"La fille de la chambre d'à côté a été"
 	dc.b	$FC
-	dc.b	"sous l'emprise d'une étrange religion."
-	dc.b	$FD
-	dc.b	"On ne l'a pas revue depuis un bail."
-	dc.b	$FC
-	dc.b	"Où donc est-elle allée ?"
+	dc.b	"influencée par une étrange religion."
 	dc.b	$FF
 
 ; $64
@@ -559,9 +559,9 @@
 	dc.b	$FC
 	dc.b	"revenue !"
 	dc.b	$FD
-	dc.b	"Apparamment, elle n'a aucun souvenir"
+	dc.b	"Apparamment, elle a seulement un vague"
 	dc.b	$FC
-	dc.b	"de ce qui lui est arrivée là-bas..."
+	dc.b	"souvenir de ce qui lui est arrivée là-bas..."
 	dc.b	$FD
 	dc.b	"Je suis très inquiet pour elle."
 	dc.b	$FF
@@ -575,39 +575,39 @@
 	dc.b	$DA, $02
 	dc.b	$FA
 	dc.b	$65, $01
-	dc.b	"Hé ! Je me change !"
+	dc.b	"Hé ! Je me déshabille !"
 	dc.b	$FC
-	dc.b	"Dehors ! Dehors !!!"
+	dc.b	"Sortez ! SORTEZ !!!"
 	dc.b	$FF
 
 ; $68
-	dc.b	"Hé ! Je me change toujours !"
+	dc.b	"Hé ! Je me déshabille toujours !"
 	dc.b	$FC
-	dc.b	"Dehors ! Dehors !!!"
+	dc.b	"C'est quoi votre problème ?!"
 	dc.b	$FF
 
 ; $69
-	dc.b	"Je suis encore en train de me changer !"
+	dc.b	"Sortez !"
 	dc.b	$FC
-	dc.b	"Alors, déguerpissez !"
+	dc.b	"SORTEZ !"
 	dc.b	$FF
 
 ; $6A
 	dc.b	$FA
 	dc.b	$DA, $01
-	dc.b	"Que... qu'est-ce que je faisais tout ce"
+	dc.b	"Merci beaucoup ! Ils m'ont promis le"
 	dc.b	$FC
-	dc.b	"temps... ?"
+	dc.b	"bonheur, mais ils nous ont juste"
 	dc.b	$FD
-	dc.b	"Quand je tente de m'en rappeler,"
+	dc.b	"endoctriné avec leur culte bizarre et"
 	dc.b	$FC
-	dc.b	"ma tête me fait mal..."
+	dc.b	"ne nous laissaient pas partir !"
 	dc.b	$FF
 
 ; $6B
-	dc.b	"J'ai... horriblement mal à la tête..."
+	dc.b	"J'ai... une terrible migraine..."
 	dc.b	$FC
-	dc.b	"Que... signifie !?"
+	dc.b	"J'espère que ça va passer..."
 	dc.b	$FF
 
 ; $6C
@@ -617,35 +617,37 @@
 	dc.b	$FD
 	dc.b	"Il se trouve que l'une des étudiantes"
 	dc.b	$FC
-	dc.b	"qui habite ici manque à l'appel !"
+	dc.b	"qui vit ici manque à l'appel !"
 	dc.b	$FD
 	dc.b	"Il semblerait qu'elle est devenue dévote"
 	dc.b	$FC
-	dc.b	"d'une secte bizarre et qu'elle a tout"
+	dc.b	"d'une secte bizarre. Elle a tout plaqué"
 	dc.b	$FD
-	dc.b	"planté là et est partie."
+	dc.b	"et est partie."
 	dc.b	$FD
 	dc.b	"Je croyais que ce n'était qu'une lubie"
 	dc.b	$FC
 	dc.b	"temporaire et qu'elle reviendrait,"
 	dc.b	$FD
-	dc.b	"mais..."
+	dc.b	"mais elle n'est toujours pas rentrée..."
 	dc.b	$FD
-	dc.b	"J'ai la lourde responsabilité de m'occuper"
+	dc.b	"Les parents vont retirer les enfants"
 	dc.b	$FC
-	dc.b	"de l'enfant d'une autre personne !"
+	dc.b	"de l'école s'ils pensent qu'un culte"
 	dc.b	$FD
-	dc.b	"Suite à un tel dérapage, la réputation"
-	dc.b	$FC
-	dc.b	"même de l'Académie pourrait en pâtir !"
+	dc.b	"bizarre les incite à sécher les cours !"
 	dc.b	$FD
-	dc.b	"Je vous en prie, tentez de la ramener"
+	dc.b	"Avec à un telle gaffe, la réputation même"
 	dc.b	$FC
-	dc.b	"avant que les gens ne l'apprennent !"
+	dc.b	"de l'Académie pourrait prendre cher !"
 	dc.b	$FD
-	dc.b	"Merci de vous donner tant de mal"
+	dc.b	"Je vous en prie, ramenez-la avant que"
 	dc.b	$FC
-	dc.b	"pour nous."
+	dc.b	"ça s'ébruite !"
+	dc.b	$FD
+	dc.b	"Désolé de vous ennuyer avec tous ces"
+	dc.b	$FC
+	dc.b	"problèmes."
 	dc.b	$FF
 ;; Local Variables:
 ;; eval: (fci-mode)

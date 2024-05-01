@@ -1,7 +1,7 @@
 ; 0
 	dc.b	"Vous êtes ici à Nalya, mais je ne crois pas"
 	dc.b	$FC
-	dc.b	"qu'on puisse y habiter maintenant."
+	dc.b	"qu'on pourra y habiter plus longtemps."
 	dc.b	$FF
 
 ; $1
@@ -9,27 +9,25 @@
 	dc.b	$FC
 	dc.b	"est tombée près de la ville..."
 	dc.b	$FD
-	dc.b	"Et voyez le résultat !"
+	dc.b	"Regardez le résultat !"
 	dc.b	$FD
-	dc.b	"Qu'avons nous fait pour mériter un tel"
-	dc.b	$FC
-	dc.b	"sort ?"
+	dc.b	"Qu'avons nous fait pour mériter ça ?"
 	dc.b	$FF
 
 ; $2
 	dc.b	"Notre ville est probablement fichue."
 	dc.b	$FD
-	dc.b	"Probablement qu'il vaudrait mieux"
+	dc.b	"Ce serait judicieux de partir vers un"
 	dc.b	$FC
-	dc.b	"déménager quelque part comme Aiedo."
+	dc.b	"meilleur endroit comme Aiedo."
 	dc.b	$FF
 
 ; $3
 	dc.b	"C'était notre maison..."
 	dc.b	$FD
-	dc.b	"Oh, bien, on devrait s'estimer chanceux"
+	dc.b	"Oh, bien, c'est déjà un miracle qu'on soit"
 	dc.b	$FC
-	dc.b	"d'être encore en vie."
+	dc.b	"encore en vie."
 	dc.b	$FF
 
 ; $4
@@ -37,11 +35,11 @@
 	dc.b	$FC
 	dc.b	"dans ce grand trou ?"
 	dc.b	$FD
-	dc.b	"Tous sont curieux d'aller voir, mais"
+	dc.b	"On veut tous voir ce que c'est, mais"
 	dc.b	$FC
-	dc.b	"malheureusement, c'est un peu effrayant"
+	dc.b	"d'un autre côté c'est un peu effrayant"
 	dc.b	$FD
-	dc.b	"et personne ne se porte volontaire."
+	dc.b	"et personne n'ose s'en approcher."
 	dc.b	$FF
 
 ; $5
@@ -53,7 +51,7 @@
 	dc.b	$FF
 
 ; $6
-	dc.b	"Maman ! Le vent me gèle !"
+	dc.b	"Maman ! Le vent est trop froid !"
 	dc.b	$FF
 
 ; $7
@@ -61,7 +59,7 @@
 	dc.b	$FC
 	dc.b	"la maison..."
 	dc.b	$FD
-	dc.b	"Qu'adviendra-t-il de nous ?"
+	dc.b	"Qu'est-ce qu'on va faire ?"
 	dc.b	$FF
 
 ; $8
@@ -69,9 +67,9 @@
 	dc.b	$FC
 	dc.b	"épargnée, mais on se fait constamment"
 	dc.b	$FD
-	dc.b	"harceler. Avoir su que ce serait ainsi,"
+	dc.b	"harceler. Si c'est comme ça, j'aurais"
 	dc.b	$FC
-	dc.b	"j'aurais préféré que tout soit détruit !"
+	dc.b	"préféré que tout soit détruit !"
 	dc.b	$FF
 
 ; $9
@@ -83,21 +81,21 @@
 	dc.b	$FC
 	dc.b	"auparavant !"
 	dc.b	$FD
-	dc.b	"Je ne peux plus faire confiance à"
+	dc.b	"On ne peut plus faire confiance à"
 	dc.b	$FC
-	dc.b	"quiconque de nos jours !"
+	dc.b	"personne de nos jours !"
 	dc.b	$FF
 
 ; $A
 	dc.b	"Mes amis ne me parlent plus."
 	dc.b	$FD
-	dc.b	"Je m'ennuie... Ouiiin..."
+	dc.b	"Je m'ennuie..."
 	dc.b	$FF
 
 ; $B
-	dc.b	"Cette maison fut épargnée, mais à voir"
+	dc.b	"La maison a été épargnée, mais vu ce"
 	dc.b	$FC
-	dc.b	"ce qui risque d'arriver,"
+	dc.b	"qui risque d'arriver,"
 	dc.b	$FD
 	dc.b	"j'ai l'impression qu'il vaudrait mieux"
 	dc.b	$FC
@@ -107,7 +105,7 @@
 ; $C
 	dc.b	"Je ne sais pas où nous pourrions aller."
 	dc.b	$FD
-	dc.b	"C'est dûr de quitter l'endroit où on a"
+	dc.b	"C'est dur de quitter l'endroit où on a"
 	dc.b	$FC
 	dc.b	"vécu si longtemps."
 	dc.b	$FF
@@ -115,21 +113,19 @@
 ; $D
 	dc.b	"Pourquoi ma maison a été détruite, et"
 	dc.b	$FC
-	dc.b	"celle de l'autre côté de la rue,"
-	dc.b	$FD
-	dc.b	"épargnée !?"
+	dc.b	"pas celle de l'autre côté de la rue !?"
 	dc.b	$FD
 	dc.b	"C'est injuste !"
 	dc.b	$FC
 	dc.b	"Vous ne croyez pas ?"
 	dc.b	$FD
-	dc.b	"Ça me met en rogne !"
+	dc.b	"Ça m'énerve !"
 	dc.b	$FF
 
 ; $E
-	dc.b	"Hé, du calme, il vaut mieux se résigner à"
+	dc.b	"Chérie, te mettre en colère n'aidera"
 	dc.b	$FC
-	dc.b	"notre sort."
+	dc.b	"pas à garder notre famille soudée !"
 	dc.b	$FD
 	dc.b	"Ma femme n'était pas comme ça avant..."
 	dc.b	$FF
@@ -139,7 +135,7 @@
 	dc.b	$FD
 	dc.b	"Je veux être avec mes amis et qu'on"
 	dc.b	$FC
-	dc.b	"joue ensemble !"
+	dc.b	"rejoue ensemble !"
 	dc.b	$FF
 
 ; $10
@@ -182,9 +178,9 @@
 	dc.b	$FF
 
 ; $14
-	dc.b	"Il y a une grosse ville, Aiedo, juste à"
+	dc.b	"Il y a une grande ville, Aiedo, à l'ouest"
 	dc.b	$FC
-	dc.b	"l'ouest, et mes parents ont une maison"
+	dc.b	"d'ici, et mes parents ont une maison"
 	dc.b	$FD
 	dc.b	"là-bas. Alors je tente de convaincre mon"
 	dc.b	$FC
@@ -365,9 +361,9 @@
 	dc.b	$FC
 	dc.b	"à pirater, mais... voilà !"
 	dc.b	$FD
-	dc.b	"Maintenant nous pouvons accéder aux"
+	dc.b	"Maintenant nous pouvons accéder à la"
 	dc.b	$FC
-	dc.b	"mémoires de l'ordinateur !"
+	dc.b	"mémoire centrale de l'ordinateur !"
 	dc.b	$F7
 
 	dc.b	$F2, $00
@@ -378,19 +374,19 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Voyez ! Ceci dit que nous sommes dans un"
+	dc.b	"Regardez ! Ça dit que nous sommes dans"
 	dc.b	$FC
-	dc.b	"vaisseau qui a fui Parma il y a mille ans !"
+	dc.b	"un vaisseau qui a fuit Palma il y a"
+	dc.b	$FD
+	dc.b	"mille ans !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Hein ! C'est vrai ?!"
-	dc.b	$FD
-	dc.b	$F4
-	dc.b	$01
-	dc.b	"Mais... il me semble que Parma a été"
+	dc.b	"Hein ! Mais comment ? Palma a explosé..."
 	dc.b	$FC
-	dc.b	"détruite il y a mille ans !?"
+	dc.b	"en un instant ! Personne n'a pu avoir le"
+	dc.b	$FD
+	dc.b	"temps de contruire un truc comme ça...?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
@@ -398,43 +394,49 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Oui... on me l'a dit alors que j'étais à"
-	dc.b	$FC
-	dc.b	"l'Académie."
+	dc.b	"Oui... J'ai reçu des leçons aussi !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Parma, la première planète du système"
+	dc.b	"Palma, la première planète du système"
 	dc.b	$FC
-	dc.b	"solaire Algo, fut détruite en 1284 AW"
+	dc.b	"solaire Algol, fut détruite en 1284 AW"
 	dc.b	$FD
 	dc.b	"quand Gaira, un satellite artificiel,"
 	dc.b	$FC
-	dc.b	"l'a percutée..."
+	dc.b	"s'est écrasé dessus..."
 	dc.b	$FD
 	dc.b	"De nos jour, tout ce qu'il en reste,"
 	dc.b	$FC
-	dc.b	"ce sont ces astéroïdes."
+	dc.b	"c'est une ceinture d'astéroïdes."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Mais certains ont pu fuir !"
+	dc.b	"Mais... certains ont pu fuir sur ces"
+	dc.b	$FC
+	dc.b	"vaisseaux géants ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"D'après ces mémoires..."
+	dc.b	"D'après les enregistrements..."
 	dc.b	$FC
-	dc.b	"Juste avant l'explosion, des gens sont"
+	dc.b	"Ils ont été construits et préparés bien"
 	dc.b	$FD
-	dc.b	"arrivés à échapper à la catastrophe..."
+	dc.b	"avant la destruction de Palma."
 	dc.b	$FD
-	dc.b	"Ce vaisseau fut endommagé, et fut"
+	dc.b	"De nombreux palmaniens se sont enfuis"
 	dc.b	$FC
-	dc.b	"capturé en orbite autour de Motavia."
+	dc.b	"sur ces vaisseaux biodôme géants..."
 	dc.b	$FD
-	dc.b	"Il a flotté dans l'espace et tous les"
+	dc.b	"Ce vaisseau a été endommagé, et s'est"
 	dc.b	$FC
-	dc.b	"humains à bord sont morts. Mais"
+	dc.b	"retrouvé piégé en orbite autour de"
+	dc.b	$FD
+	dc.b	"Motavia."
+	dc.b	$FD
+	dc.b	"Il a dérivé dans l'espace jusqu'à que"
+	dc.b	$FC
+	dc.b	"les humains à bord soient morts. Mais"
 	dc.b	$FD
 	dc.b	"l'ordinateur a pu rester en marche"
 	dc.b	$FC
@@ -442,27 +444,29 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Ils... sont tous morts ?"
+	dc.b	"C'est affreux. Ces pauvres gens..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"D'après le plan de vol..."
-	dc.b	$FD
-	dc.b	"l'orbite a décliné graduellement durant"
+	dc.b	"D'après le plan de vol... l'orbite a"
 	dc.b	$FC
-	dc.b	"ces derniers mille ans..."
+	dc.b	"décliné graduellement durant ces"
 	dc.b	$FD
-	dc.b	"et le vaisseau s'est écrasé ici !"
+	dc.b	"derniers mille ans... et le vaisseau"
+	dc.b	$FC
+	dc.b	"a fini par s'écraser ici !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Alors... tous les Parmaniens ont péri ?!"
+	dc.b	"Alors... les humains de Motavia sont les"
+	dc.b	$FC
+	dc.b	"derniers Palmaniens en vie ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Attends... Ce n'était pas le seul"
+	dc.b	"Attends... Ce n'était pas le seul vaisseau"
 	dc.b	$FC
-	dc.b	"vaisseau venant de Parma !"
+	dc.b	"venant de Palma !"
 	dc.b	$FD
 	dc.b	"Apparamment, d'autres vaisseaux"
 	dc.b	$FC
@@ -470,29 +474,33 @@
 	dc.b	$FD
 	dc.b	"La plupart ont atterri sur Motavia ou"
 	dc.b	$FC
-	dc.b	"Dezolis, mais il semble que certains"
+	dc.b	"Dezolis, mais il semble que certains se"
 	dc.b	$FD
-	dc.b	"se sont dirigés hors du système solaire."
+	dc.b	"sont dirigés hors du système solaire."
 	dc.b	$FD
 	dc.b	"Je n'ai pas de chiffre exact, mais ce"
 	dc.b	$FC
-	dc.b	"doit être de l'ordre d'une dizaine"
+	dc.b	"doit être de l'ordre de plusieurs"
 	dc.b	$FD
-	dc.b	"de vaisseaux."
+	dc.b	"douzaines de vaisseaux."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"... Donc ils sont toujours en vol..."
+	dc.b	"... Donc ils parcourent toujours"
 	dc.b	$FC
-	dc.b	"quelque part dans le vide..."
+	dc.b	"l'espace..."
+	dc.b	$FD
+	dc.b	"Je me demande comment est leur vie"
+	dc.b	$FC
+	dc.b	"après mille ans ?"
 	dc.b	$FF
 
 ; $48
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Ce doit être un vaisseau qui a fui"
+	dc.b	"Ce doit être un vaisseau qui a fuit"
 	dc.b	$FC
-	dc.b	"Parma..."
+	dc.b	"Palma..."
 	dc.b	$FF
 
 ; $49
@@ -536,11 +544,11 @@
 
 ; $56
 	dc.b	$F3
-	dc.b	"Ne dis pas d'âneries !"
+	dc.b	"Ne sois pas ridicule !"
 	dc.b	$FD
-	dc.b	"Tu crois que tu peux leur demander ça"
+	dc.b	"Tu crois pouvoir faire quelque chose"
 	dc.b	$FC
-	dc.b	"après avoir fugué ?!"
+	dc.b	"comme ça après t'être enfuie ?!"
 	dc.b	$FF
 ;; Local Variables:
 ;; eval: (fci-mode)

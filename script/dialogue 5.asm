@@ -5,7 +5,7 @@
 	dc.b	$FD
 	dc.b	"Hahn ! C'est Hahn !"
 	dc.b	$FC
-	dc.b	"Tu es revenu !?"
+	dc.b	"Tu es rentré !?"
 	dc.b	$FF
 
 ; $1
@@ -17,15 +17,15 @@
 	dc.b	$42, $02
 	dc.b	$FA
 	dc.b	$12, $01
-	dc.b	"Ravi de te revoir parmi les tiens, Hahn !"
+	dc.b	"Content de te voir à la maison, Hahn !"
 	dc.b	$FD
-	dc.b	"Saya sera très heureuse de te revoir !"
+	dc.b	"Saya sera très ravie de te revoir !"
 	dc.b	$FC
-	dc.b	"Va !"
+	dc.b	"Va la voir !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"C'est qui, Saya ?"
+	dc.b	"Qui est Saya ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
@@ -33,51 +33,53 @@
 	dc.b	$FF
 
 ; $3
-	dc.b	"Ravi de te revoir, Hahn !"
+	dc.b	"Ça fait plaisir de te voir, Hahn !"
 	dc.b	$FF
 
 ; $4
-	dc.b	"Merci d'avoir pris soin de Hahn."
+	dc.b	"Merci pour ce que vous avez fait pour"
+	dc.b	$FC
+	dc.b	"Hahn. Il en avait besoin."
 	dc.b	$FF
 
 ; $5
 	dc.b	$FA
 	dc.b	$13, $01
-	dc.b	"Eh bien, Tonoe est au nord, mais la route"
+	dc.b	"Eh bien, Tonoe est au nord d'ici, mais"
 	dc.b	$FC
-	dc.b	"pour y parvenir est telle un labyrinthe."
+	dc.b	"la route est un vrai labyrinthe."
 	dc.b	$FD
-	dc.b	"De plus, l'entrée de Tonoe est bloquée"
+	dc.b	"En plus, l'entrée de Tonoe est bloquée"
 	dc.b	$FC
 	dc.b	"par un rocher."
 	dc.b	$FD
-	dc.b	"Du moins, c'est ce qu'on raconte ces"
-	dc.b	$FC
-	dc.b	"derniers temps."
+	dc.b	"Du moins, c'est ce qu'on raconte."
 	dc.b	$FF
 
 ; $6
-	dc.b	"Eh bien, Tonoe est au nord, mais la route"
+	dc.b	"Eh bien, Tonoe est au nord d'ici, mais"
 	dc.b	$FC
-	dc.b	"pour y parvenir est telle un labyrinthe."
+	dc.b	"la route est un vrai labyrinthe."
 	dc.b	$FD
-	dc.b	"Vous devez vraiment être très curieux,"
+	dc.b	"Vous devez parcourir le monde pour"
 	dc.b	$FC
-	dc.b	"pour vouloir aller à un tel endroit."
+	dc.b	"l'aventure et les trésors pour vouloir"
+	dc.b	$FD
+	dc.b	"aller dans un endroit pareil !"
 	dc.b	$FF
 
 ; $7
 	dc.b	$FA
 	dc.b	$42, $01
-	dc.b	"Hahn est sans doute le citoyen du village"
+	dc.b	"L'habitant du village qui a eu le mieux"
 	dc.b	$FC
-	dc.b	"qui a eu le plus de succès."
+	dc.b	"réussi est sans doute Hahn,"
 	dc.b	$FD
-	dc.b	"Il est le fils unique du forgeron, et"
+	dc.b	"le fils unique du forgeron."
+	dc.b	$FD
+	dc.b	"Il est devenu professeur à l'Académie"
 	dc.b	$FC
-	dc.b	"il est devenu professeur adjoint à"
-	dc.b	$FD
-	dc.b	"l'Académie Motavia."
+	dc.b	"Motavia."
 	dc.b	$FD
 	dc.b	"Nous sommes tellement fiers de lui !"
 	dc.b	$FD
@@ -85,29 +87,27 @@
 	dc.b	$FF
 
 ; $8
-	dc.b	"Hahn est sans doute le citoyen du village"
+	dc.b	"L'habitant du village qui a eu le mieux"
 	dc.b	$FC
-	dc.b	"qui a eu le plus de succès."
+	dc.b	"réussi est sans doute Hahn,"
 	dc.b	$FD
-	dc.b	"Il est le fils unique du forgeron, et"
+	dc.b	"le fils unique du forgeron."
+	dc.b	$FD
+	dc.b	"Il est devenu professeur à l'Académie"
 	dc.b	$FC
-	dc.b	"il est devenu professeur adjoint à"
-	dc.b	$FD
-	dc.b	"l'Académie Motavia."
+	dc.b	"Motavia."
 	dc.b	$FD
 	dc.b	"Nous sommes tellement fiers de lui !"
 	dc.b	$FF
 
 ; $9
-	dc.b	"Ce lac ? Il est apparu à cause d'une"
+	dc.b	"Ce lac ? Il est apparu quand une"
 	dc.b	$FC
-	dc.b	"météorite tombée sur la planète."
+	dc.b	"météorite est tombée sur la planète."
 	dc.b	$FD
-	dc.b	"La cratère s'est empli d'eau il y a"
+	dc.b	"La cratère s'est rempli d'eau il y a des"
 	dc.b	$FC
-	dc.b	"des lustres."
-	dc.b	$FD
-	dc.b	"Incroyable, n'est-ce pas ?"
+	dc.b	"lustres."
 	dc.b	$FF
 
 ; $A
@@ -115,21 +115,23 @@
 	dc.b	$FC
 	dc.b	"du lac, là-bas ?"
 	dc.b	$FD
-	dc.b	"Le bâtiment sur cette île porte le nom"
+	dc.b	"Le bâtiment sur cette île a été appelé"
 	dc.b	$FC
-	dc.b	"de Temple du Soldat depuis des lustres."
+	dc.b	"le Temple du Soldat il y a longtemps."
 	dc.b	$FD
-	dc.b	"Une fois, j'ai nagé jusque là, mais ça"
+	dc.b	"Une fois, j'ai nagé jusque là bas, mais ça"
 	dc.b	$FC
 	dc.b	"grouillait de monstres !"
 	dc.b	$FD
-	dc.b	"J'ai eu peur, et je suis retourné chez moi."
+	dc.b	"J'ai failli y rester, et je suis rentré"
+	dc.b	$FC
+	dc.b	"en vitesse chez moi."
 	dc.b	$FF
 
 ; $B
-	dc.b	"J'ai confiance en Saya, elle s'occupera"
+	dc.b	"J'ai confiance, notre enfant est en de"
 	dc.b	$FC
-	dc.b	"bien de notre enfant."
+	dc.b	"bonnes mains avec Saya."
 	dc.b	$FF
 
 ; $C
@@ -138,12 +140,14 @@
 	dc.b	"Nous observons le ciel pour prédire le"
 	dc.b 	$FC
 	dc.b	"temps qu'il fera demain."
+	dc.b	$FD
+	dc.b	"C'est pire depuis un an."
 	dc.b	$FF
 
 ; $D
-	dc.b	"L'autre jour, à l'ouest, on pouvait"
+	dc.b	"L'autre jour, on pouvait voir des"
 	dc.b	$FC
-	dc.b	"des tonnes de fumée !"
+	dc.b	"tonnes de fumée venant de l'ouest !"
 	dc.b	$FD
 	dc.b	"Je me demande s'il y avait un gros"
 	dc.b	$FC
@@ -171,9 +175,7 @@
 
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"C'est Saya, ma... hum..."
-	dc.b	$FC
-	dc.b	"fi... fiancée."
+	dc.b	"C'est Saya, ma... hum... fi... fiancée."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
@@ -192,17 +194,19 @@
 	dc.b	$03
 	dc.b	"Saya enseigne aux enfants du village,"
 	dc.b	$FC
-	dc.b	"ici-même, dans son domicile."
+	dc.b	"ici-même, chez elle."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Wow... c'est impressionant !"
+	dc.b	"Wow... quel dévouement !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0C
-	dc.b	"Oh, non, je suis incapable de faire"
+	dc.b	"Et bien, j'aime les enfants, et"
 	dc.b	$FC
-	dc.b	"autre chose..."
+	dc.b	"l'éducation est difficile à trouver"
+	dc.b	$FD
+	dc.b	"dans la région"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
@@ -212,9 +216,15 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0C
-	dc.b	"C'est un travail rude, n'est-ce pas ?"
+	dc.b	"Mon Hahnny a beaucoup de talents."
 	dc.b	$FD
-	dc.b	"Merci de prendre soin de Hahn."
+	dc.b	"Tuer des monstres n'en fait pas partie,"
+	dc.b	$FC
+	dc.b	"ha ha."
+	dc.b	$FD
+	dc.b	"Gardez-le en sécurité !"
+	dc.b	$FC
+	dc.b	"Il a encore du travail à faire !"
 	dc.b	$F7
 
 	dc.b	$F4
@@ -224,9 +234,9 @@
 
 	dc.b	$F4
 	dc.b	$0C
-	dc.b	"Mais si quelque chose de fâcheux"
+	dc.b	"Mais si quelque chose t'arrivait,"
 	dc.b	$FC
-	dc.b	"t'arrivait, je..."
+	dc.b	"je..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
@@ -234,12 +244,16 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0C
-	dc.b	"Hahn..."
+	dc.b	"... Reviens-moi en un seul morceau !"
 	dc.b	$F7
 
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"... Hum, vous deux... !"
+	dc.b	"Détends toi, Saya, nous laissons ce"
+	dc.b	$FC
+	dc.b	"cornichon en retrait pour cette raison."
+	dc.b	$FD
+	dc.b	"Tout ira bien."
 	dc.b	$FF
 
 ; $F
@@ -247,19 +261,21 @@
 	dc.b	$63, $01
 	dc.b	$F4
 	dc.b	$0C
-	dc.b	"Merci encore de prendre soin de Hahn."
+	dc.b	"Merci encore de prendre soin de mon"
+	dc.b	$FC
+	dc.b	"Hahnny. Il a besoin de votre aide."
 	dc.b	$FF
 
 ; $10
 	dc.b	$F4
 	dc.b	$0C
-	dc.b	"Ah, qu'un sort aussi funeste ait été"
+	dc.b	"Ah, qu'un telle chose soit arrivée à"
 	dc.b	$FC
-	dc.b	"réservé à Alys..."
+	dc.b	"Alys..."
 	dc.b	$FD
-	dc.b	"Garde le moral, Chaz, et meilleurs"
+	dc.b	"Garde le moral, Chaz, et que Algol te"
 	dc.b	$FC
-	dc.b	"voeux de succès."
+	dc.b	"bénisse."
 	dc.b	$FF
 
 ; $11
@@ -269,21 +285,21 @@
 	dc.b	$42, $01
 	dc.b	"Ma maîtresse, Saya, est belle et"
 	dc.b	$FC
-	dc.b	"gentille. Je l'adore !"
+	dc.b	"gentille. Je l'aime !"
 	dc.b	$FF
 
 ; $12
 	dc.b	"La maîtresse nous a demandé d'étudier"
 	dc.b	$FC
-	dc.b	"de nous même un temps."
+	dc.b	"tout seuls pendant un moment."
 	dc.b	$FD
-	dc.b	"On s'ennuie quand elle n'est pas là..."
+	dc.b	"On se sent seuls sans elle."
 	dc.b	$FF
 
 ; $13
-	dc.b	"Hé, la femme avec le costume rouge"
+	dc.b	"Hé, où est partie la dame avec le costume"
 	dc.b	$FC
-	dc.b	"n'est plus avec vous ?"
+	dc.b	"rouge ?"
 	dc.b	$FF
 
 ; $14
@@ -295,13 +311,13 @@
 	dc.b	$FC
 	dc.b	"Saya en mariage !"
 	dc.b	$FD
-	dc.b	"Je lui ai promis ! C'est vrai, je vous dit !"
+	dc.b	"Je lui ai promis ! C'est vrai, je vous dis !"
 	dc.b	$FF
 
 ; $15
 	dc.b	"La maîtresse nous a demandé d'étudier"
 	dc.b	$FC
-	dc.b	"de nous même un temps."
+	dc.b	"tout seuls pendant un moment."
 	dc.b	$FD
 	dc.b	"On s'ennuie quand elle n'est pas là..."
 	dc.b	$FF
@@ -323,35 +339,45 @@
 	dc.b	$FC
 	dc.b	"environnementaux sont causés"
 	dc.b	$FD
-	dc.b	"délibérément..."
+	dc.b	"délibérément par quelqu'un..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Il fait son je-sais-tout..."
+	dc.b	"Quelle est la matière qui t'a appris à"
+	dc.b	$FC
+	dc.b	"parler comme ça, petit ?"
 	dc.b	$FF
 
 ; $18
-	dc.b	"Ouais, elle est blessée, mais Saya est"
+	dc.b	"Saya est une des personnes les plus"
 	dc.b	$FC
-	dc.b	"vraiment gentille de rester aux côtés"
+	dc.b	"gentille que j'ai rencontré. Elle prend"
 	dc.b	$FD
-	dc.b	"de la chasseresse engagée par son"
+	dc.b	"vraiment soin de la chasseresse"
 	dc.b	$FC
-	dc.b	"fiancé !"
+	dc.b	"engagée par son fiancé."
+	dc.b	$FD
+	dc.b	"Hahn a de la chance !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Vraiment."
+	dc.b	"Saya est vraiment douée pour prendre"
+	dc.b	$FC
+	dc.b	"soin des autres. Ça a du sens quand"
+	dc.b	$FD
+	dc.b	"on voit pourquoi elle et Hahn"
+	dc.b	$FC
+	dc.b	"travaillent maintenant."
 	dc.b	$FF
 
 ; $19
-	dc.b	"Tout le monde meurt quand leur heure"
+	dc.b	"Tout le monde meurt quand notre heure"
 	dc.b	$FC
 	dc.b	"est venue, jeune ou vieux."
 	dc.b	$FD
-	dc.b	"Je suis désolé d'avoir dit de telles"
+	dc.b	"Je pense qu'on doit faire que qu'on peut"
 	dc.b	$FC
-	dc.b	"horreurs l'autre jour."
+	dc.b	"avec le temps qu'on a."
 	dc.b	$FF
 
 ; $1A
@@ -367,25 +393,27 @@
 	dc.b	$FC
 	dc.b	"Hahn."
 	dc.b	$FD
-	dc.b	"Je voudrai quelqu'un de fiable !"
+	dc.b	"Il devra être plus viril !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Hum."
+	dc.b	"Hé, Je suis en bien meilleure forme depuis"
+	dc.b	$FC
+	dc.b	"que j'ai rencontré ces chasseurs !"
 	dc.b	$FF
 
 ; $1B
-	dc.b	"Est-ce que la femme en costume rouge"
+	dc.b	"Est-ce que la dame en robe rouge est"
 	dc.b	$FC
-	dc.b	"est malade ?"
+	dc.b	"malade ?"
 	dc.b	$FD
-	dc.b	"J'espère qu'elle ira mieux bientôt !"
+	dc.b	"J'espère qu'elle guérira vite !"
 	dc.b	$FF
 
 ; $1C
-	dc.b	"C'est vrai que la femme en costume"
+	dc.b	"C'est vrai que la dame en robe rouge"
 	dc.b	$FC
-	dc.b	"rouge n'est plus là ?"
+	dc.b	"n'est plus là ?"
 	dc.b	$FF
 
 ; $1D
@@ -393,25 +421,31 @@
 	dc.b	$63, $02
 	dc.b	$FA
 	dc.b	$42, $01
-	dc.b	"Je... Je dois aller au petit coin, mais je"
+	dc.b	"Je... Je dois aller faire pipi, mais je dois"
 	dc.b	$FC 
-	dc.b	"dois tenir jusqu'à la fin des cours."
+	dc.b	"tenir jusqu'à la fin des cours."
 	dc.b	$FD
-	dc.b	"Je ne veux rien manquer du cours"
+	dc.b	"Je ne veux rien manquer du cours de"
 	dc.b	$FC
-	dc.b	"de Saya."
+	dc.b	"Saya."
 	dc.b	$FF
 
 ; $1E
-	dc.b	"Saya est partie... Peut-être que je"
+	dc.b	"Vu que Saya est partie... Je devrais"
 	dc.b	$FC
-	dc.b	"devrais aller au petit coin maintenant..."
+	dc.b	"aller au petit coin maintenant..."
+	dc.b	$FD
+	dc.b	"Oups, trop tard !"
+	dc.b	$FD	
+	dc.b	$F4
+	dc.b	$01
+	dc.b	"C'est malin, gamin !"
 	dc.b	$FF
 
 ; $1F
 	dc.b	"Oh non ! Tes yeux sont rouges !"
 	dc.b	$FC
-	dc.b	"On s'est moqué de toi, pas vrai ?"
+	dc.b	"On a été méchant avec toi ?"
 	dc.b	$FF
 
 ; $20
@@ -421,11 +455,9 @@
 	dc.b	$FF
 
 ; $21
-	dc.b	"C'est sans espoir, n'est-ce pas ?"
-	dc.b	$FD
-	dc.b	"Après tout, il est le fils d'une telle"
+	dc.b	"Hahn est un modèle pour tout le monde à"
 	dc.b	$FC
-	dc.b	"mère..."
+	dc.b	"Krup."
 	dc.b	$FF
 
 ; $22
@@ -451,21 +483,24 @@
 	dc.b	$FD
 	dc.b	"Je veux faire tout ce que je peux, grâce"
 	dc.b	$FC
-	dc.b	"à la science !"
+	dc.b	"à la seule chose que je sais faire, la"
 	dc.b	$FD
-	dc.b	"C'est pour ça que j'étudie !"
+	dc.b	"science. C'est pour ça que j'étudie !"
 	dc.b	$FF
 
 ; $23
-	dc.b	"Hahn en est venu à être très insolent."
-	dc.b	$FD
-	dc.b	"On dirait qu'il apprenait à marcher"
+	dc.b	"Hahn en est venu à être très insolent"
 	dc.b	$FC
-	dc.b	"qu'hier encore."
+	dc.b	"à mesure qu'il a appris à l'académie."
+	dc.b	$FD
+	dc.b	"J'aurais aimé qu'il nous aide ici. On"
+	dc.b	$FC
+	dc.b	"aurait été une belle famille normale."
+	dc.b	$FD
 	dc.b	$FF
 
 ; $24
-	dc.b	"Cette armurerie fut ouvert par mes"
+	dc.b	"Cette armurerie fut ouverte par mes"
 	dc.b	$FC
 	dc.b	"grand-parents."
 	dc.b	$FD
@@ -479,43 +514,45 @@
 	dc.b	$63, $02
 	dc.b	$FA
 	dc.b	$42, $01
-	dc.b	"Hahn ! Je suis contente que tu sois de"
-	dc.b	$FC
-	dc.b	"nouveau parmi nous !"
+	dc.b	"Hahn ! C'est bon de te voir à la maison !"
 	dc.b	$FD
-	dc.b	"Ton père parle rûdement, mais au fond,"
+	dc.b	"Ton père ne lâche pas l'affaire, mais au"
 	dc.b	$FC
-	dc.b	"il est très fier de toi, tu sais."
+	dc.b	"fond il est très fier de toi, tu sais."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Je sais ça, m'man... Mais ma décision"
+	dc.b	"Je sais ça, m'man... Mais je ne changerai"
 	dc.b	$FC
-	dc.b	"est finale !"
+	dc.b	"pas d'avis sur mon choix !"
 	dc.b	$FF
 
 ; $26
 	dc.b	"Chéri, Hahn n'est plus un enfant."
+	dc.b	$FC
+	dc.b	"Il doit faire ce qui lui semble bon."
 	dc.b	$FF
 
 ; $27
-	dc.b	"Hahn... alors, tu t'en vas de nouveau..."
-	dc.b	$FD
-	dc.b	"Reviens faire acte de présence de temps"
+	dc.b	"Je m'inquiète tant pour Hahn quand il"
 	dc.b	$FC
-	dc.b	"à autre."
+	dc.b	"s'en va..."
+	dc.b	$FD
+	dc.b	"Mais nous savons qu'il fait toujours ce"
+	dc.b	$FC
+	dc.b	"qu'il faut pour les autres."
 	dc.b	$FF
 
 ; $28
-	dc.b	"Le père de Hahn dit de telles choses,"
-	dc.b	$FC
-	dc.b	"mais..."
+	dc.b	"Le père de Hahn parle comme ça, mais..."
 	dc.b	$FD
 	dc.b	"C'est grâce aux textes que Hahn nous"
 	dc.b	$FC
-	dc.b	"envoie qu'il a pu forger des armes aussi"
+	dc.b	"envoie qu'un village comme ça peut"
 	dc.b	$FD
-	dc.b	"magnifiques en pleine campagne."
+	dc.b	"vendre des armes de haute qualité dont"
+	dc.b	$FC
+	dc.b	"le village a besoin pour se protéger."
 	dc.b	$FF
 
 ; $29
@@ -523,7 +560,7 @@
 	dc.b	$03
 	dc.b	"Alys !"
 	dc.b	$FC
-	dc.b	"Tiens bon !"
+	dc.b	"Vous allez vous en sortir !"
 	dc.b	$FF
 
 ; $2A
@@ -541,19 +578,23 @@
 	dc.b	$FC
 	dc.b	"consciente."
 	dc.b	$FD
-	dc.b	"Elle est vraiment très obstinée !"
+	dc.b	"Elle est vraiment très forte !"
 	dc.b	$FF
 
 ; $2B
 	dc.b	$F4
 	dc.b	$22
-	dc.b	"Aaaah... Chaz... ne fais pas une telle"
+	dc.b	"Aaaah... Chaz... n'ait pas l'air si"
 	dc.b	$FC
-	dc.b	"tête... ouille... aaah !"
+	dc.b	"triste... ouille... aaah !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Alys... tiens bon... !"
+	dc.b	"Alys... Vous êtes la personne la plus"
+	dc.b	$FC
+	dc.b	"forte que je connaisse."
+	dc.b	$FD
+	dc.b	"Battez-vous ! n'abandonnez pas !"
 	dc.b	$FF
 
 ; $2C
@@ -574,7 +615,7 @@
 	dc.b	$22, $01
 	dc.b	$FA
 	dc.b	$1F, $01
-	dc.b	"Quel glouton ce chien !"
+	dc.b	"Quel goinfre ce chien !"
 	dc.b	$FD
 	dc.b	"Il mange tout le temps !"
 	dc.b	$FF
@@ -634,9 +675,9 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"D'accord, voici ton mets préféré,"
+	dc.b	"D'accord, voici ton ta friandise"
 	dc.b	$FC
-	dc.b	"du gâteau."
+	dc.b	"préférée, du gâteau."
 	dc.b	$FD
 	dc.b	"Voilà notre chance."
 	dc.b	$FD
