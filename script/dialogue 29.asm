@@ -818,7 +818,7 @@
 	dc.b	$01
 	dc.b	"C'est un tas de livres de divination, et"
 	dc.b	$FC
-	dc.b	"quelques livres théoriques aussi."."
+	dc.b	"quelques livres théoriques aussi."
 	dc.b	$FF
 
 ; $AE
