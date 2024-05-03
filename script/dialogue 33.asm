@@ -32,7 +32,7 @@
 	dc.b	$0E
 	dc.b	"... tu vas aller voir, Hahn ?"
 	dc.b	$FC
-	dc.b	"Tu es fou ! Tu nest pas un combattant !"
+	dc.b	"Tu es fou ! Tu n'es pas un combattant !"
 	dc.b	$FD	
 	dc.b	$F4
 	dc.b	$03
@@ -68,7 +68,7 @@
 	dc.b	$FD
 	dc.b	"Nous nous sommes mis dans cette galère"
 	dc.b	$FC
-	dc.b	"nous-même, il y a mille ans !."
+	dc.b	"nous-même, il y a mille ans !"
 	dc.b	$FF
 
 ; $5
@@ -158,7 +158,7 @@
 	dc.b	$FD
 	dc.b	"Mais je n'ai pas encore obtenu d'aide."
 	dc.b	$FD
-	dc.b	"La direction de cette académie est assez"
+	dc.b	"La direction de cette académie est trop"
 	dc.b	$FC
 	dc.b	"conservatrice."
 	dc.b	$FD
@@ -184,7 +184,7 @@
 	dc.b	$FC
 	dc.b	"Mais je n'ai pas encore obtenu d'aide."
 	dc.b	$FD
-	dc.b	"La direction de cette académie est assez"
+	dc.b	"La direction de cette académie est trop"
 	dc.b	$FC
 	dc.b	"conservatrice."
 	dc.b	$FD
@@ -305,9 +305,9 @@
 	dc.b	$FC
 	dc.b	"à la Vallée de l'Éclosion !"
 	dc.b	$FD
-	dc.b	"Depuis, nous nous enquérons incessam-"
+	dc.b	"Depuis, nous demandons régulièrement des"
 	dc.b	$FC
-	dc.b	"ment de la situation, mais il demeure"
+	dc.b	"nouvelles à ce sujet, mais il demeure"
 	dc.b	$FD
 	dc.b	"évasif sur tout ce qui touche ce sujet."
 	dc.b	$FD
@@ -594,9 +594,9 @@
 	dc.b	$FC
 	dc.b	"mettre sur pied une expédition pour les"
 	dc.b	$FD
-	dc.b	"secourir, et, de surcroît, vous avez in-"
+	dc.b	"secourir, et en plus vous avez interdit"
 	dc.b	$FC
-	dc.b	"terdit l'accès à la Vallée de l'Éclosion !"
+	dc.b	"l'accès à la Vallée de l'Éclosion !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0E

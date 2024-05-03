@@ -157,7 +157,7 @@
 	dc.b	$FF
 
 ; $B
-	dc.b	"Et bien ! Alys est très jolie, elle ne"
+	dc.b	"Eh ! Alys est très jolie, mais elle ne"
 	dc.b	$FC
 	dc.b	"porte jamais de tenue comme la tienne !"
 	dc.b	$FD

@@ -402,7 +402,7 @@
 	dc.b	$FC
 	dc.b	$F2, $03
 	dc.b	$AD
-	dc.b	"dimensionnelle a cessé d'exister."
+	dc.b	"dimensionnelle a disparu."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
@@ -470,7 +470,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Oui, je pense qu'on l'a fait !"
+	dc.b	"Oui, on l'a fait !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
@@ -520,9 +520,9 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$09
-	dc.b	"Vous ne rendrez pas hommage au person-"
+	dc.b	"On ne pourra plus défier avec finesse"
 	dc.b	$FC
-	dc.b	"nage, comme c'est dommage ! Ha ha !"
+	dc.b	"notre sagesse, quelle tristesse ! Ha ha !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
@@ -538,7 +538,7 @@
 	dc.b	$FD
 	dc.b	"Le jour viendra où mon Maître et moi ne"
 	dc.b	$FC
-	dc.b	"serons plus indispensable pour le"
+	dc.b	"serons plus indispensables pour le"
 	dc.b	$FD
 	dc.b	"maintient de la vie sur Algol."
 	dc.b	$FD
@@ -552,7 +552,7 @@
 	dc.b	$08
 	dc.b	"Demi et moi aimons beaucoup ces mondes."
 	dc.b	$FD
-	dc.b	"Et ses habitants."
+	dc.b	"Et leurs habitants."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
@@ -680,7 +680,7 @@
 	dc.b	$FD
 	dc.b	"Ce sera la fierté de ma vie d'avoir"
 	dc.b	$FC
-	dc.b	"combattu avec toi !"
+	dc.b	"combattu à tes côtés !"
 	dc.b	$F7
 
 	dc.b	$F4
@@ -758,7 +758,7 @@
 	dc.b	$FD
 	dc.b	"Surtout, comment faire face aux"
 	dc.b	$FC
-	dc.b	"moqueries constantes, haha !"
+	dc.b	"moqueries en permanence, haha !"
 	dc.b	$FD	
 	dc.b	$F4
 	dc.b	$04
@@ -875,7 +875,7 @@
 
 	dc.b	$F7
 
-	dc.b	"...et garder le passé vivant..."
+	dc.b	"...et préserver le souvenir du passé..."
 	dc.b	$F9
 	dc.b	$1D
 

@@ -961,7 +961,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Ahhh... Qu'est-ce qui a changé..."
+	dc.b	"Ahhh... Qu'est-ce qui a changé...?"
 	dc.b	$FC
 	dc.b	"C'est... vos cheveux ?"
 	dc.b	$FD

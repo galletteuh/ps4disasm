@@ -303,9 +303,9 @@
 	dc.b	$FD
 	dc.b	"Je parie que ce n'est pas une livraison"
 	dc.b	$FC
-	dc.b	"pâtisseries Naula pour le principal,"
+	dc.b	"de pâtisseries Naula pour le principal."
 	dc.b	$FD
-	dc.b	"c'est certain : il déteste le glaçage."
+	dc.b	"C'est certain : il déteste le glaçage."
 	dc.b	$FF
 
 ; $49
@@ -347,7 +347,7 @@
 	dc.b	$FD
 	dc.b	"Les cultures arrivent à peine à"
 	dc.b	$FC
-	dc.b	"croître sur cette ferme."
+	dc.b	"pousser sur cette ferme."
 	dc.b	$FD
 	dc.b	"Mon copain, qui travaille au département"
 	dc.b	$FC
@@ -450,7 +450,7 @@
 ; $58
 	dc.b	"Je pensais qu'en laissant aller les "
 	dc.b	$FC
-	dc.b	"choses, elles finiraient par revenir,"
+	dc.b	"choses, elle finirait par revenir,"
 	dc.b	$FD
 	dc.b	"mais..."
 	dc.b	$FC

@@ -31,7 +31,7 @@
 	dc.b	$FC
 	dc.b	"erronés auraient pu être transmis,"
 	dc.b	$FD
-	dc.b	"compte tenu de la déactivation de Kuran."
+	dc.b	"vu que Kuran a été désactivé."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
@@ -407,7 +407,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Daughter, je vais éteindre maintenant."
+	dc.b	"Daughter, je vais t'éteindre maintenant."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$00
@@ -520,7 +520,7 @@
 	dc.b	$FD
 	dc.b	"D'après ce que Seed m'a appris"
 	dc.b	$FC
-	dc.b	"sur Mother Brain, Son niveau de défense"
+	dc.b	"sur Mother Brain, son niveau de défense"
 	dc.b	$FD	
 	dc.b	"n'avait rien à lui envier. Une chance que"
 	dc.b	$FC

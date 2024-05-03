@@ -184,7 +184,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$1F
-	dc.b	"Nous navons pas besoin de vous à part"
+	dc.b	"Nous n'avons pas besoin de vous à part"
 	dc.b	$FC
 	dc.b	"Lutz, et..."
 	dc.b	$FD
@@ -197,8 +197,6 @@
 	dc.b	"On va le regarder se tordre quand on va"
 	dc.b	$FC
 	dc.b	"le torturer avec la magie la plus sombre !"
-	dc.b	$FD
-	dc.b	""
 	dc.b	$FF
 
 ; $37
@@ -250,19 +248,19 @@
 	dc.b	$FC
 	dc.b	"Algol, pour toujours!"
 	dc.b	$FD
-	dc.b	"C'est alors que TOI, et cette fille..."
-	dc.b	$FD
 	dc.b	"Mais ce pouvoir m'a manqué quand j'en"
 	dc.b	$FC
 	dc.b	"avais le plus besoin !"
 	dc.b	$FD
+	dc.b	"C'est alors que TOI, et cette fille..."
+	dc.b	$FD
 	dc.b	"Pourtant, mon esprit a résisté !"
 	dc.b	$FD
-	dc.b	"Maintenant..."
-	dc.b	$FD
-	dc.b	"tandis que l'âme de Lutz endurait, ma"
+	dc.b	"Tandis que l'âme de Lutz endurait, ma"
 	dc.b	$FC
 	dc.b	"haine pour toi persistait."
+	dc.b	$FD
+	dc.b	"Maintenant..."
 	dc.b	$FD
 	dc.b	"Les ténèbres, prêts à réclamer Algol,"
 	dc.b	$FC

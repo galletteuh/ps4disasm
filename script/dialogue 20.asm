@@ -326,7 +326,7 @@
 	dc.b	$FC
 	dc.b	"J'ai dit « Le monde des vivants »."
 	dc.b	$FD
-	dc.b	"Lutz était trop imbriqué avec la force"
+	dc.b	"Lutz était trop lié à la force"
 	dc.b	$FC
 	dc.b	"vitale d'Algol pour disparaître"
 	dc.b	$FD
@@ -474,7 +474,7 @@
 	dc.b	$FD
 	dc.b	"Jusqu'ici, durant chaque cycle, un individu"
 	dc.b	$FC
-	dc.b	"courageux vainquit le mal pour préserver"
+	dc.b	"courageux a vaincu le mal pour préserver"
 	dc.b	$FD
 	dc.b	"la paix pour mille ans de plus."
 	dc.b	$FD
@@ -653,7 +653,7 @@
 ; $30
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"Chaz, Elsydeon, t'attends !"
+	dc.b	"Chaz, Elsydeon t'attends !"
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$0128
@@ -787,7 +787,7 @@
 	dc.b	$FC
 	dc.b	"Toi et tes amis peuvent libérer Algol de"
 	dc.b	$FD	
-	dc.b	"ce cycle de cette ingérence divine,"
+	dc.b	"ce cycle, de cette ingérence divine,"
 	dc.b	$FC
 	dc.b	"pour toujours."
 	dc.b	$FD	
@@ -861,7 +861,7 @@
 	dc.b	$01
 	dc.b	"Oui ! Nous faisons cela non pas pour la"
 	dc.b	$FC
-	dc.b	"Lumière Sacrée, mais pour que tout ce"
+	dc.b	"Lumière Suprème, mais pour que tout ce"
 	dc.b	$FD
 	dc.b	"qui vit puisse choisir son propre destin,"
 	dc.b	$FC

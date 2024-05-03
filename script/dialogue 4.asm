@@ -49,7 +49,7 @@
 	dc.b	$FD
 	dc.b	"Il ne mange que des céréales et des"
 	dc.b	$FC
-	dc.b	"pizzas, alors il risque de faim"	
+	dc.b	"pizzas, alors il risque mourir de faim"	
 	dc.b	$FD
 	dc.b	"sans nous !"
 	dc.b	$FF

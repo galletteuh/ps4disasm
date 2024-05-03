@@ -443,7 +443,7 @@
 	dc.b	$A1, $02
 	dc.b	$FA
 	dc.b	$94, $01
-	dc.b	"Nous sommes prochaines de garde."
+	dc.b	"Nous sommes les prochaines de garde."
 	dc.b	$FC
 	dc.b	"Ça n'en finit pas..."
 	dc.b	$FF
@@ -469,7 +469,7 @@
 	dc.b	$FD
 	dc.b	"Je ne voulais pas céder l'auberge pour"
 	dc.b	$FC
-	dc.b	"ceci... Mais avec ctous ces lits vides les"
+	dc.b	"ceci... Mais avec tous ces lits vides les"
 	dc.b	$FD
 	dc.b	"citadins m'auraient mis dehors !"
 	dc.b	$FC
@@ -533,7 +533,7 @@
 	dc.b	$94, $01
 	dc.b	$F4
 	dc.b	$17
-	dc.b	"Cette maladie étrange s'est déclarée"
+	dc.b	"Cette étrange maladie s'est déclarée"
 	dc.b	$FC
 	dc.b	"juste après que la Tour Garuberk soit"
 	dc.b	$FD
@@ -579,9 +579,7 @@
 	dc.b	$FD
 	dc.b	"Ceci dit, avec ces infirmières, peut-être"
 	dc.b	$FC
-	dc.b	"le pire des temps deviendra le meilleur"
-	dc.b	$FD
-	dc.b	"des temps !"
+	dc.b	"que le pire moment deviendra le meilleur !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01

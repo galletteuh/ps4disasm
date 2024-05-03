@@ -190,9 +190,9 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Tu ne sais pas faire la différence entre"
+	dc.b	"Tu ne sais mê mepas faire la différence"
 	dc.b	$FC
-	dc.b	"un bon et un mauvais chasseur ?"
+	dc.b	"entre un bon et un mauvais chasseur ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$00
@@ -246,7 +246,7 @@
 	dc.b	$FD
 	dc.b	"Oh ! Alys !"
 	dc.b	$FD
-	dc.b	"Oh, ma chère, excusez moi. Ma langue a"
+	dc.b	"Oh, excusez moi, ma chère. Ma langue a"
 	dc.b	$FC
 	dc.b	"fourché !"
 	dc.b	$FD	
@@ -278,7 +278,7 @@
 	dc.b	$FD
 	dc.b	"En revanche ils boivent toute la bière."
 	dc.b	$FC
-	dc.b	"Hé, les bon et les mauvais côtés."
+	dc.b	"Ah, les bon et les mauvais côtés."
 	dc.b	$FF
 
 ; $10
@@ -443,13 +443,15 @@
 	dc.b	$FC
 	dc.b	"souvent ces fringues, j'ai l'air affreux !"
 	dc.b	$FD
-	dc.b	"Vous avez toujours l'air si ensemble, euh,"
+	dc.b	"Vous avez toujours l'air si bien assortie,"
 	dc.b	$FC
-	dc.b	"lavée ! Non, je veux dire, ce n'est pas"
+	dc.b	"euh, propre sur vous ! Non, je veux dire,"
 	dc.b	$FD
-	dc.b	"que je remarque vos vêtements ou vos..."
+	dc.b	"ce n'est pas que je me soucie de vos"
 	dc.b	$FC
-	dc.b	"... euh, en tout cas, continuez de manger !"
+	dc.b	"vêtements ou de vos...euh, en bref,"
+	dc.b	$FD
+	dc.b	"continuons de... manger !"
 	dc.b	$F7
 
 	dc.b	$F4

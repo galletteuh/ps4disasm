@@ -397,7 +397,7 @@
 	dc.b	$FC
 	dc.b	"comprends pas pourquoi vous mettez"
 	dc.b	$FD
-	dc.b	"votre comptoir aussi à la cave."
+	dc.b	"aussi votre comptoir à la cave."
 	dc.b	$FF
 
 ; $2F
@@ -567,7 +567,7 @@
 	dc.b	$FD
 	dc.b	"Ouiin. Pardonnez-nous."
 	dc.b	$FD
-	dc.b	"Ne rêve pas, sale garnement !"
+	dc.b	"Ne rêve pas, sale gosse !"
 	dc.b	$FC
 	dc.b	"Vous n'avez pas honte, gamines ?"
 	dc.b	$FD

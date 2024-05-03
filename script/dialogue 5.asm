@@ -373,13 +373,13 @@
 	dc.b	$FF
 
 ; $19
-	dc.b	"Tout le monde meurt quand notre heure"
+	dc.b	"On meurt tous quand notre heure est"
 	dc.b	$FC
-	dc.b	"est venue, jeune ou vieux."
+	dc.b	"venue, jeune ou vieux."
 	dc.b	$FD
-	dc.b	"Je pense qu'on doit faire que qu'on peut"
+	dc.b	"Je pense qu'on doit profiter du temps"
 	dc.b	$FC
-	dc.b	"avec le temps qu'on a."
+	dc.b	"qu'on a."
 	dc.b	$FF
 
 ; $1A
@@ -443,9 +443,9 @@
 	dc.b	$01
 	dc.b	"C'est malin, gamin ! Ça va tacher !"
 	dc.b	$FD
-	dc.b	"Va chercher le matériel de nettoyage"
+	dc.b	"Va chercher la serpillère et"
 	dc.b	$FC
-	dc.b	"et essuie ton bazar !"
+	dc.b	"essuie ton bazar !"
 	dc.b	$FF
 
 ; $1F
@@ -501,7 +501,7 @@
 ; $23
 	dc.b	"Hahn en est venu à être très insolent"
 	dc.b	$FC
-	dc.b	"à mesure qu'il a appris à l'académie."
+	dc.b	"depuis qu'il étudie à l'académie."
 	dc.b	$FD
 	dc.b	"J'aurais aimé qu'il nous aide ici. On"
 	dc.b	$FC
@@ -510,13 +510,13 @@
 	dc.b	$FF
 
 ; $24
-	dc.b	"Cette armurerie fut ouverte par mes"
+	dc.b	"Cette armurerie a été créée par mes"
 	dc.b	$FC
 	dc.b	"grand-parents."
 	dc.b	$FD
 	dc.b	"Mais c'est terminé maintenant..."
 	dc.b	$FC
-	dc.b	"peut-être que c'est pour le mieux."
+	dc.b	"C'est peut-être mieux comme ça."
 	dc.b	$FF
 
 ; $25
@@ -556,13 +556,13 @@
 ; $28
 	dc.b	"Le père de Hahn parle comme ça, mais..."
 	dc.b	$FD
-	dc.b	"C'est grâce aux textes que Hahn nous"
+	dc.b	"C'est grâce aux recherches que Hahn"
 	dc.b	$FC
-	dc.b	"envoie qu'un village comme ça peut"
+	dc.b	"nous envoie qu'un village comme le nôtre"
 	dc.b	$FD
-	dc.b	"vendre des armes de haute qualité dont"
+	dc.b	"peut faire des armes de cette qualité"
 	dc.b	$FC
-	dc.b	"le village a besoin pour se protéger."
+	dc.b	"dont le village a besoin pour se protéger."
 	dc.b	$FF
 
 ; $29

@@ -289,11 +289,11 @@
 	dc.b	$65, $01
 	dc.b	"Si c'est le destin de cette planète de"
 	dc.b	$FC
-	dc.b	"mourir de toute façon, alors autant"
+	dc.b	"mourir, alors autant remettre tous"
 	dc.b	$FD
-	dc.b	"remettre tous nos espoirs en cet"
+	dc.b	"nos espoirs en cet homme."
 	dc.b	$FC
-	dc.b	"homme. N'est-ce pas ?"
+	dc.b	"N'est-ce pas ?"
 	dc.b	$FF
 
 ; $2C
@@ -395,7 +395,7 @@
 	dc.b	$06
 	dc.b	"Impossible de lui parler,"
 	dc.b	$FC
-	dc.b	"il s'est volatilisé..."
+	dc.b	"il s'est évanoui..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
@@ -553,7 +553,7 @@
 ; $49
 	dc.b	"Imbéciles, votre hérésie est vaine !"
 	dc.b	$FC
-	dc.b	"Même si Zio est vaincu, j'ai toujours"
+	dc.b	"Même si Zio est mort, j'ai toujours"
 	dc.b	$FD
 	dc.b	"foi en lui !"
 	dc.b	$FD

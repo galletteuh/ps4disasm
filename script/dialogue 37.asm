@@ -284,7 +284,7 @@
 	dc.b	$08
 	dc.b	"Même avant Mother Brain, l'hibernation"
 	dc.b	$FC
-	dc.b	"cryogénique a existé sur Algol, mais je"
+	dc.b	"cryogénique a existé sur Algol, mais"
 	dc.b	$FD
 	dc.b	"aucune trace de son utilisation sur"
 	dc.b	$FC
@@ -475,7 +475,7 @@
 	dc.b	$1F
 	dc.b	"Nous t'apportons les salutations des"
 	dc.b	$FC
-	dc.b	"fantômes impies du passé d'Algol !"
+	dc.b	"fantômes impis du passé d'Algol !"
 	dc.b	$FD
 	dc.b	"Lutz sait que la terreur attend ceux qui"
 	dc.b	$FC
@@ -490,7 +490,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$1F
-	dc.b	"L'âme de notre maître brûle de désir de"
+	dc.b	"L'âme de notre maître brûle du désir de"
 	dc.b	$FC
 	dc.b	"vengeance !"
 	dc.b	$FD
@@ -532,7 +532,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$1A
-	dc.b	"Oh, oh, vous feriez ça ?"
+	dc.b	"Oh, vous feriez ça ?"
 	dc.b	$FC
 	dc.b	"Me... Merci de tout coeur !"
 	dc.b	$FD
@@ -544,7 +544,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$1A
-	dc.b	"Oh, oh, oui... bien sûr !"
+	dc.b	"Oh, oui... bien sûr !"
 	dc.b	$FC
 	dc.b	"Cela ira de soi !"
 	dc.b	$FD

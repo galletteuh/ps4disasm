@@ -463,9 +463,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04, $01
-	dc.b	"De toute façon, ne tardons pas, allons"
-	dc.b	$FC
-	dc.b	"sur Zelan !"
+	dc.b	"Ne tardons pas, allons sur Zelan !"
 	dc.b	$FF
 
 ; $14
@@ -479,7 +477,7 @@
 	dc.b	$06, $02
 	dc.b	"Le satellite artificiel Kuran..."
 	dc.b	$FC
-	dc.b	"... Je pense qu'on doit y aller pour"
+	dc.b	"... Nous devrions y aller pour"
 	dc.b	$FD
 	dc.b	"sauver le système !"
 	dc.b	$FF

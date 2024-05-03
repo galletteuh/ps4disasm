@@ -368,7 +368,7 @@
 	dc.b	$FF
 
 ; $2F
-	dc.b	"Notre famille visitait autrefois le"
+	dc.b	"Par le passé nous avions visité le"
 	dc.b	$FC
 	dc.b	"village de Paseo... Mon fils aimait"
 	dc.b	$FD

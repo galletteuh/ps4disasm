@@ -290,7 +290,7 @@
 	dc.b	$01
 	dc.b	"Mis à part ce qui se passe avec le climat,"
 	dc.b	$FC
-	dc.b	"A moins d'apprendre à ne pas se tromper,"
+	dc.b	"à moins d'apprendre à ne pas se tromper,"
 	dc.b	$FD	
 	dc.b	"nous nous faisons toujours avoir."
 	dc.b	$FF

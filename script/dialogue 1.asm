@@ -189,9 +189,9 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Et bien, je ne dirai pas que vous êtes"
+	dc.b	"Et bien, vous n'avez pas l'air d'être"
 	dc.b	$FC
-	dc.b	"de la haute société."
+	dc.b	"haute société non plus."
 	dc.b	$FD
 	dc.b	"Je vais peut-être m'amuser un peu avec"
 	dc.b	$FC
@@ -229,13 +229,11 @@
 	dc.b	$FD
 	dc.b	"Palmaniens."
 	dc.b	$FD
-	dc.b	"Actuellement, nous devons conjuguer"
+	dc.b	"Actuellement, nous avons un dérèglement"
 	dc.b	$FC
-	dc.b	"avec des changements climatiques,"
+	dc.b	"climatiques, un appauvrissement des sols"
 	dc.b	$FD
-	dc.b	"l'épuisement des sols, et une baisse de"
-	dc.b	$FC
-	dc.b	"natalité !"
+	dc.b	"et un taux de natalité en baisse !"
 	dc.b	$FD
 	dc.b	"Mais franchement, quelle importance"
 	dc.b	$FC
@@ -255,13 +253,11 @@
 	dc.b	$FC
 	dc.b	"problèmes."
 	dc.b	$FD
-	dc.b	"Actuellement, nous devons conjuguer"
+	dc.b	"Actuellement, nous avons un dérèglement"
 	dc.b	$FC
-	dc.b	"avec des changements climatiques,"
+	dc.b	"climatiques, un appauvrissement des sols"
 	dc.b	$FD
-	dc.b	"l'épuisement des sols, et une baisse de"
-	dc.b	$FC
-	dc.b	"natalité !"
+	dc.b	"et un taux de natalité en baisse !"
 	dc.b	$FD
 	dc.b	"On finira surement par laisser nos"
 	dc.b	$FC
@@ -287,14 +283,12 @@
 	dc.b	$FC
 	dc.b	"problèmes."
 	dc.b	$FD
-	dc.b	"Actuellement, nous devons conjuguer"
+	dc.b	"Actuellement, nous avons un dérèglement"
 	dc.b	$FC
-	dc.b	"avec des changements climatiques,"
+	dc.b	"climatiques, un appauvrissement des sols"
 	dc.b	$FD
-	dc.b	"l'épuisement des sols, et une baisse"
+	dc.b	"et un taux de natalité en baisse !"
 	dc.b	$FC
-	dc.b	"de natalité !"
-	dc.b	$FD
 	dc.b	"Ça finira par tous nous emporter..."
 	dc.b	$FF
 
@@ -311,7 +305,7 @@
 	dc.b	$0B, $02
 	dc.b	$FA
 	dc.b	$0A, $01
-	dc.b	"J'ai très peur des monstres."
+	dc.b	"J'ai la trouille des monstres."
 	dc.b	$FC
 	dc.b	"Je voudrais vraiment quitter la ville."
 	dc.b	$FD
@@ -341,7 +335,7 @@
 	dc.b	$FC
 	dc.b	"Ouf ! Quel soulagement !"
 	dc.b	$FD
-	dc.b	"Enif on peut reprendre notre"
+	dc.b	"Enfin on peut reprendre notre"
 	dc.b	$FC
 	dc.b	"championnat de frizebee !"	
 	dc.b	$FF
@@ -385,7 +379,7 @@
 	dc.b	$FC
 	dc.b	"soudains dans les plaques tectoniques,"
 	dc.b	$FD
-	dc.b	"ainsi qu'une resurgence de monstres !"
+	dc.b	"ainsi qu'une résurgence de monstres !"
 	dc.b	$FD
 	dc.b	"A ce rythme, la planète ne tiendra"
 	dc.b	$FC
@@ -403,7 +397,7 @@
 	dc.b	$FC
 	dc.b	"soudains dans les plaques tectoniques,"
 	dc.b	$FD
-	dc.b	"ainsi qu'une resurgence de monstres !"
+	dc.b	"ainsi qu'une résurgence de monstres !"
 	dc.b	$FD
 	dc.b	"A ce rythme, la planète ne tiendra"
 	dc.b	$FC
@@ -467,7 +461,7 @@
 ; $25
 	dc.b	"Je n'arrive pas à croire qu'une telle"
 	dc.b	$FC
-	dc.b	"chose arrive..."
+	dc.b	"chose puisse arriver..."
 	dc.b	$FF
 
 ; $26
@@ -673,7 +667,7 @@
 	dc.b	$FC
 	dc.b	"eux ont sauté dans la fontaine !"
 	dc.b	$FD
-	dc.b	"Quel chantier !"
+	dc.b	"Quel bordel !"
 	dc.b	$FC
 	dc.b	"Ils se fichent des autres ?"
 	dc.b	$FD

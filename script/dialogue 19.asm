@@ -81,7 +81,7 @@
 ; $9
 	dc.b	"Nous remplirons la nouvelle ville de"
 	dc.b	$FC
-	dc.b	"Reshel de mémoires heureuses !"
+	dc.b	"Reshel de bons souvenirs !"
 	dc.b	$FD
 	dc.b	"Vous verrez !"
 	dc.b	$FF
