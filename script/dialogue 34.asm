@@ -536,7 +536,7 @@
 	dc.b	$02
 	dc.b	"Rika, Seed savait que ces systèmes"
 	dc.b	$FC
-	dc.b	"foireux devaient être stoppés pour !"
+	dc.b	"foireux devaient être stoppés pour"
 	dc.b	$FD
 	dc.b	"la sûreté de Motavia, lui y compris."
 	dc.b	$FC
