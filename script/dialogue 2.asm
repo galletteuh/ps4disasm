@@ -339,7 +339,7 @@
 	dc.b	$FD
 	dc.b	"Les cultures arrivent à peine à"
 	dc.b	$FC
-	dc.b	"croître sur cette ferme."
+	dc.b	"pousser sur cette ferme."
 	dc.b	$FD
 	dc.b	"Mon copain, qui travaille au département"
 	dc.b	$FC
@@ -436,7 +436,7 @@
 ; $58
 	dc.b	"Je pensais qu'en laissant aller les "
 	dc.b	$FC
-	dc.b	"choses, elles finiraient par revenir,"
+	dc.b	"choses, elle finirait par revenir,"
 	dc.b	$FD
 	dc.b	"mais..."
 	dc.b	$FC

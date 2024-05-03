@@ -96,7 +96,7 @@
 	dc.b	$08
 	dc.b	"C'est l'évidence même. Zelan n'est pas"
 	dc.b	$FC
-	dc.b	"en cause de la perte de contrôle des"
+	dc.b	"la cause de la perte de contrôle des"
 	dc.b	$FD
 	dc.b	"systèmes environnementaux de Motavia."
 	dc.b	$FD
@@ -275,7 +275,7 @@
 	dc.b	$04
 	dc.b	"Des problèmes venant de la salle des"
 	dc.b	$FC
-	dc.b	"machines... C'e n'est jamais bon, ça."
+	dc.b	"machines... Ce n'est jamais bon, ça."
 	dc.b	$FD
 	dc.b	"Bon, allons vite voir ce qui s'y passe !"
 	dc.b	$FD
@@ -424,7 +424,7 @@
 ; $4
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Ainsi, voilà Kuran, le satellite artificiel"
+	dc.b	"Alors, voilà Kuran, le satellite artificiel"
 	dc.b	$FC
 	dc.b	"qui a dérèglé tout le système de contrôle"
 	dc.b	$FD

@@ -215,9 +215,9 @@
 	dc.b	$8C, $01
 	dc.b	"Super ! Profitez-en bien !"
 	dc.b	$FD
-	dc.b	"Prenez garde toutefois, le Pingouin vous"
+	dc.b	"Prenez garde toutefois, le Pingouin s'en"
 	dc.b	$FC
-	dc.b	"quittera si vous quittez la ville ou"
+	dc.b	"ira si vous quittez la ville ou"
 	dc.b	$FD
 	dc.b	"entrez dans une maison."
 	dc.b	$FF
@@ -239,11 +239,11 @@
 	dc.b	$FF
 
 ; $15
-	dc.b	"Prenez garde, le Pingouin vous quittera"
+	dc.b	"Prenez garde, le Pingouin s'en"
 	dc.b	$FC
-	dc.b	"si vous quittez la ville ou entrez dans"
+	dc.b	"ira si vous quittez la ville ou"
 	dc.b	$FD
-	dc.b	"une maison."
+	dc.b	"entrez dans une maison."
 	dc.b	$FF
 
 ; $16
@@ -291,7 +291,7 @@
 	dc.b	$FC
 	dc.b	"d'aller au Temple Gumbious, où nous"
 	dc.b	$FD
-	dc.b	"trouvons la paix de l'esprit et prions."
+	dc.b	"trouvons la paix de l'esprit en priant."
 	dc.b	$FF
 
 ; $1A
@@ -604,7 +604,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Quoi ! Tu as dit des ordres ?"
+	dc.b	"Quoi ? Tu as dit des ordres ?"
 	dc.b	$FD
 	dc.b	"Mais nous avons vaincu Zio... et Dark"
 	dc.b	$FC
@@ -740,7 +740,7 @@
 	dc.b	$FD
 	dc.b	"On verra ce qui se passe quand on y"
 	dc.b	$FC
-	dc.b	"sera.»"
+	dc.b	"sera."
 	dc.b	$FF
 
 ; $39

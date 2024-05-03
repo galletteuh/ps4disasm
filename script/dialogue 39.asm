@@ -111,7 +111,7 @@
 	dc.b	$FD
 	dc.b	"Les Ténèbres profonds..."
 	dc.b	$FD
-	dc.b	"Le sceau d'Algol' ne peut plus les"
+	dc.b	"Les sceaux d'Algol ne peuvent plus les"
 	dc.b	$FC
 	dc.b	"retenir. C'est le moment."
 	dc.b	$FD	
@@ -209,7 +209,7 @@
 	dc.b	$FC
 	dc.b	"sécurité comme excuse pour ne pas me"
 	dc.b	$FD
-	dc.b	"battre avec toi, Rudy."
+	dc.b	"battre avec toi, Chaz."
 	dc.b	$FD
 	dc.b	"Ça m'a fait mal de l'entendre, et je veux"
 	dc.b	$FC
@@ -554,13 +554,13 @@
 	dc.w	$0186
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"D'accord ! Demi, es-tu prête ?"
+	dc.b	"D'accord ! Demi, tu es prête ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$07
 	dc.b	"Je suis profondément désolée, mais à ce"
 	dc.b	$FC
-	dc.b	"stade-ci, je ne peux vous accompagner."
+	dc.b	"stade, je ne peux vous accompagner."
 	dc.b	$FD
 	dc.b	"La réinitialisation des systèmes de Mota-"
 	dc.b	$FC

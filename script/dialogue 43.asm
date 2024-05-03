@@ -31,7 +31,7 @@
 	dc.b	$FC
 	dc.b	"erronés auraient pu être transmis,"
 	dc.b	$FD
-	dc.b	"compte tenu de la déactivation de Kuran."
+	dc.b	"vu que Kuran a été désactivé."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
@@ -377,7 +377,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Daughter, je vais éteindre maintenant."
+	dc.b	"Daughter, je vais t'éteindre maintenant."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$00

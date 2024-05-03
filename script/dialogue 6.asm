@@ -144,7 +144,7 @@
 
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Elle est ma fiancée, Saya."
+	dc.b	"C'est ma fiancée, Saya."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0C
@@ -631,7 +631,7 @@
 	dc.b	$FC
 	dc.b	"dont je n'avais pas conscience."
 	dc.b	$FD
-	dc.b	"En tant que chasseur, j'ai pu avoir la"
+	dc.b	"En tant que chasseur, j'ai pu avoir une"
 	dc.b	$FC
 	dc.b	"belle vie excitante, avec un toît,"
 	dc.b	$FD
@@ -784,9 +784,9 @@
 	dc.b	$FC
 	dc.b	"des évènements."
 	dc.b	$FD
-	dc.b	"J'espère les convaincre de formuler un"
+	dc.b	"J'espère les convaincre de mettre en"
 	dc.b	$FC
-	dc.b	"plan d'action."
+	dc.b	"place un plan d'action."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01

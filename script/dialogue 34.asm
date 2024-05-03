@@ -663,7 +663,7 @@
 	dc.b	$FC
 	dc.b	"préfère peu d'aide que pas d'aide."
 	dc.b	$FD
-	dc.b	"C'est par là que je me dirigeait."
+	dc.b	"C'est par là que je me dirigeais."
 	dc.b	$FC
 	dc.b	"Tu es chaud pour ça, petite tête ?"
 	dc.b	$FD
@@ -714,9 +714,9 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Je le sais ! Et hé, je la laisse assez me"
+	dc.b	"Je le sais ! Et puis je la laisse assez"
 	dc.b	$FC
-	dc.b	"donner des ordres comme ça !"
+	dc.b	"me donner des ordres comme ça !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06

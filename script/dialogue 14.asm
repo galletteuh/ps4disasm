@@ -132,7 +132,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Oh...Je pense...un patient est une"
+	dc.b	"Oh...Je vois...un patient est une"
 	dc.b	$FC
 	dc.b	"personne dont s'occupe un docteur car"
 	dc.b	$FD
@@ -311,7 +311,7 @@
 	dc.b	$FD
 	dc.b	"...ohhh ! Vous êtes si vexant !"
 	dc.b	$FD
-	dc.b	"Donc il est-ce qu'on peut trouver un"
+	dc.b	"Alors est-ce qu'on peut trouver un"
 	dc.b	$FC
 	dc.b	"endroit où réparer le vaisseau ?"
 	dc.b	$FD
@@ -812,7 +812,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Donc, ceci est le vaisseau qui a amené ici"
+	dc.b	"Donc, voilà le vaisseau qui a amené ici"
 	dc.b	$FC
 	dc.b	"les Paramaniens il y a si longtemps !"
 	dc.b	$FD

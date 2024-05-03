@@ -97,7 +97,7 @@
 	dc.b	$FC
 	dc.b	"Dezolisiens sont des menteurs,"
 	dc.b	$FD
-	dc.b	"mais ce sont des balivernes !"
+	dc.b	"mais ça, c'est du pipeau !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$09
@@ -217,7 +217,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"C'est pas parceque c'est notre"
+	dc.b	"C'est pas parce que c'est notre"
 	dc.b	$FC
 	dc.b	"compagnon de voyage qu'on doit être"
 	dc.b	$FD

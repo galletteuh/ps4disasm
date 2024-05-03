@@ -555,7 +555,7 @@
 	dc.b	$FD
 	dc.b	"Ouiin. Pardonnez-nous."
 	dc.b	$FD
-	dc.b	"Ne rêve pas, sale garnement !"
+	dc.b	"Ne rêve pas, sale gosse !"
 	dc.b	$FC
 	dc.b	"Vous n'avez pas honte, gamines ?"
 	dc.b	$FD

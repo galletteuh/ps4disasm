@@ -91,7 +91,7 @@
 ; $7
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"...Mais quest-ce que ?!"
+	dc.b	"...Mais qu'est-ce que ?!"
 	dc.b	$FD
 	dc.b	"Alys... Vous êtes à l'intérieur"
 	dc.b	$FC
@@ -123,7 +123,7 @@
 	dc.b	$FD
 	dc.b	"Gardien, monstre fourbe !"
 	dc.b	$FC
-	dc.b	"Montre-toin monstre !!"
+	dc.b	"Montre-toi, monstre !!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$00

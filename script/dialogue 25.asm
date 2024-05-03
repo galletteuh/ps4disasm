@@ -228,7 +228,7 @@
 	dc.b	$FD
 	dc.b	"Mais ça fait un mois maintenant,"
 	dc.b	$FC
-	dc.b	"et aucune nouvelles de leur part !"
+	dc.b	"et aucune nouvelle de leur part !"
 	dc.b	$FD
 	dc.b	"Je ne sais même pas si elles ont atteint"
 	dc.b	$FC
@@ -459,7 +459,7 @@
 	dc.b	$FD
 	dc.b	"Je pensais qu'éventuellement le village"
 	dc.b	$FC
-	dc.b	"trouverait un moyen de sen sortir sans"
+	dc.b	"trouverait un moyen de s'en sortir sans"
 	dc.b	$FD
 	dc.b	"avoir à blesser les oiseaux..."
 	dc.b	$FD
@@ -527,7 +527,7 @@
 	dc.b	$FC
 	dc.b	"mauviette que je pensais, petite tête,"
 	dc.b	$FD	
-	dc.b	"Ce volatile ne nous a pas posé de"
+	dc.b	"ce volatile ne nous a pas posé de"
 	dc.b	$FC	
 	dc.b	"sérieux problèmes."
 	dc.b	$FD	

@@ -184,7 +184,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$1F
-	dc.b	"Nous navons pas besoin de vous à part"
+	dc.b	"Nous n'avons pas besoin de vous à part"
 	dc.b	$FC
 	dc.b	"Lutz, et..."
 	dc.b	$FD
@@ -197,8 +197,6 @@
 	dc.b	"On va le regarder se tordre quand on va"
 	dc.b	$FC
 	dc.b	"le torturer avec la magie la plus sombre !"
-	dc.b	$FD
-	dc.b	""
 	dc.b	$FF
 
 ; $37

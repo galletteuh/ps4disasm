@@ -627,7 +627,7 @@
 	dc.b	$01
 	dc.b	"Je pense que ça en dit plus sur les"
 	dc.b	$FC
-	dc.b	"habitants que Raja..."
+	dc.b	"habitants que sur Raja..."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$15
@@ -795,7 +795,7 @@
 	dc.b	$FC
 	dc.b	"Il a un bel esprit, Rajeux..."
 	dc.b	$FD
-	dc.b	"C'est un bon ami que j'ai, croyez moi !"
+	dc.b	"C'est un bon ami que j'ai, vous suivez ?"
 	endif
 	dc.b	$FF
 

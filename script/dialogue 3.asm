@@ -773,7 +773,7 @@
 	dc.b	$02
 	dc.b	"Bon, je pense que c'est le bon moment"
 	dc.b	$FC
-	dc.b	"de se reposer."
+	dc.b	"pour se reposer."
 	dc.b	$FD
 	dc.b	"Tu as fait du bon boulot jusque là, Chaz."
 	dc.b	$FC

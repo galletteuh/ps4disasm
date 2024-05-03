@@ -332,7 +332,7 @@
 	dc.b	$FD
 	dc.b	"Quel « M » va nous pourrir la vie"
 	dc.b	$FC
-	dc.b	"maintenant ?"
+	dc.b	"maintenant ? La Mort ?"
 	dc.b	$FF
 
 ; $35
