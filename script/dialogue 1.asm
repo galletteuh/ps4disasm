@@ -179,7 +179,7 @@
 	dc.b	$02
 	dc.b	"Et bien, vous n'avez pas l'air d'être"
 	dc.b	$FC
-	dc.b	"haute société non plus."
+	dc.b	"de la haute société non plus."
 	dc.b	$FD
 	dc.b	"Je vais peut-être m'amuser un peu avec"
 	dc.b	$FC
@@ -219,7 +219,7 @@
 	dc.b	$FD
 	dc.b	"Actuellement, nous avons un dérèglement"
 	dc.b	$FC
-	dc.b	"climatiques, un appauvrissement des sols"
+	dc.b	"climatique, un appauvrissement des sols"
 	dc.b	$FD
 	dc.b	"et un taux de natalité en baisse !"
 	dc.b	$FC
@@ -241,7 +241,7 @@
 	dc.b	$FD
 	dc.b	"Actuellement, nous avons un dérèglement"
 	dc.b	$FC
-	dc.b	"climatiques, un appauvrissement des sols"
+	dc.b	"climatique, un appauvrissement des sols"
 	dc.b	$FD
 	dc.b	"et un taux de natalité en baisse !"
 	dc.b	$FD
@@ -271,7 +271,7 @@
 	dc.b	$FD
 	dc.b	"Actuellement, nous avons un dérèglement"
 	dc.b	$FC
-	dc.b	"climatiques, un appauvrissement des sols"
+	dc.b	"climatique, un appauvrissement des sols"
 	dc.b	$FD
 	dc.b	"et un taux de natalité en baisse !"
 	dc.b	$FC
