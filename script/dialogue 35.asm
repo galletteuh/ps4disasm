@@ -141,7 +141,7 @@
 	dc.b	$06
 	dc.b	"C'est pourquoi Demi en a déduit que Zelan"
 	dc.b	$FC
-	dc.b	"avait mal tourné!"
+	dc.b	"avait mal tourné !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
@@ -228,7 +228,7 @@
 	dc.b	$04
 	dc.b	"Et bien, quelqu'un doit bien le faire !"
 	dc.b	$FD
-	dc.b	"Si ça ne te plaît pas, voyons  si tu peux"
+	dc.b	"Si ça ne te plaît pas, voyons si tu peux"
 	dc.b	$FC
 	dc.b	"faire mieux, petite tête !"
 	dc.b	$FD
@@ -482,13 +482,13 @@
 ; $6
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Pourquoi...! Je sens de l'opression..."
+	dc.b	"Pourquoi...! Je sens de l'oppression..."
 	dc.b	$FC
 	dc.b	"du désespoir...!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"C'est ... Dark Force !"
+	dc.b	"C'est... Dark Force !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
@@ -502,7 +502,7 @@
 	dc.b	$08
 	dc.b	"Il semble que Dark Force soit à l'origine"
 	dc.b	$FC
-	dc.b	"source de tous les problèmes."
+	dc.b	"de tous les problèmes."
 	dc.b	$FD
 	dc.b	"Nous devons donc la supprimer."
 	dc.b	$FD
@@ -573,8 +573,8 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
-	dc.b	"... ..."
-	dc.b	$FC
+	dc.b	"..."
+	dc.b	$FD
 	dc.b	"... Redemande-le moi plus tard."
 	dc.b	$FD
 	dc.b	$F4
@@ -741,13 +741,13 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Nous pouvons utiliser le Croque Glace"
+	dc.b	"Nous pouvons utiliser le Brise Glace"
 	dc.b	$FC
 	dc.b	"pour traverser les murs de glace."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Le Croque Glace ?"
+	dc.b	"Le Brise Glace ?"
 	dc.b	$FC
 	dc.b	"C'est quoi, ça ?"
 	dc.b	$FD

@@ -698,7 +698,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Quest-ce que c'est ?"
+	dc.b	"Qu'est-ce que c'est ?"
 	dc.b	$FC
 	dc.b	"De quoi parlez-vous, vous deux ?"
 	dc.b	$FD
