@@ -190,7 +190,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Tu ne sais mêm epas faire la différence"
+	dc.b	"Tu ne sais même pas faire la différence"
 	dc.b	$FC
 	dc.b	"entre un bon et un mauvais chasseur."
 	dc.b	$FD
