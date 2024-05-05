@@ -632,7 +632,7 @@
 	dc.b	$FC
 	dc.b	"cette info."
 	dc.b	$FD
-	dc.b	"Et il m'a suspris alors que j'étais dans"
+	dc.b	"Et il m'a surprise alors que j'étais dans"
 	dc.b	$FC
 	dc.b	"un bon jour."
 	dc.b	$FD

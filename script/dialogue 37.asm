@@ -706,7 +706,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$1B
-	dc.b	"Les Ténèbres profondes n'ont aucun"
+	dc.b	"Les Ténèbres profonds n'ont aucun"
 	dc.b	$FC
 	dc.b	"contrôle sur leurs propres actions."
 	dc.b	$FD		

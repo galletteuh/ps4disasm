@@ -671,7 +671,7 @@
 	dc.b	$FD
 	dc.b	"Gryz a peur des séismes, n'est-ce pas,"
 	dc.b	$FC
-	dc.b	"pas vrai, Gryz ?"
+	dc.b	"Gryz ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01

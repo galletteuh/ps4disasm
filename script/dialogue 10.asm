@@ -329,7 +329,7 @@
 	dc.b	$FD
 	dc.b	"Vous ne voulez sûrement pas aller à"
 	dc.b	$FC
-	dc.b	"la soirée karaoké."
+	dc.b	"la soirée karaoké ?"
 	dc.b	$FF
 
 ; $29

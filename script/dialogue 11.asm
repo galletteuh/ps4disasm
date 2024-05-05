@@ -190,9 +190,9 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Tu ne sais mê mepas faire la différence"
+	dc.b	"Tu ne sais mêm epas faire la différence"
 	dc.b	$FC
-	dc.b	"entre un bon et un mauvais chasseur ?"
+	dc.b	"entre un bon et un mauvais chasseur."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$00
@@ -472,7 +472,7 @@
 	dc.b	$02
 	dc.b	"Oh, pitié... Vous êtes tous aussi"
 	dc.b	$FC
-	dc.b	"romantiques chirurgie cérébrale."
+	dc.b	"romantiques qu'une chirurgie cérébrale."
 	dc.b	$FF
 
 ; $3D
