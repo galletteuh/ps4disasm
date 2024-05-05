@@ -501,7 +501,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Dark Force perçoit notre précence."
+	dc.b	"Dark Force perçoit notre présence."
 	dc.b	$FC
 	dc.b	"Elle va nous attaquer !"
 	dc.b	$FD
@@ -649,7 +649,7 @@
 	dc.b	$01
 	dc.b	$F2, $00
 	dc.w	$0114
-	dc.b	"Bah, On ne peut pas être le légendaire"
+	dc.b	"Bah, on ne peut pas être le légendaire"
 	dc.b	$FC
 	dc.b	"grand sage immortel de tout le système"
 	dc.b	$FD

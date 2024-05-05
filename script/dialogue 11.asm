@@ -418,7 +418,7 @@
 	dc.b	$02
 	dc.b	"Oh, pitié... Vous êtes tous aussi"
 	dc.b	$FC
-	dc.b	"romantiques chirurgie cérébrale."
+	dc.b	"romantiques qu'une chirurgie cérébrale."
 	dc.b	$FF
 
 ; $3D

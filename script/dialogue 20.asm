@@ -324,11 +324,9 @@
 	dc.b	$FC
 	dc.b	"J'ai dit « Le monde des vivants »."
 	dc.b	$FD
-	dc.b	"Lutz était trop lié à la force"
+	dc.b	"Lutz était trop lié à la force vitale"
 	dc.b	$FC
-	dc.b	"vitale d'Algol pour disparaître"
-	dc.b	$FD
-	dc.b	"complètement."
+	dc.b	"d'Algol pour disparaître complètement."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01

@@ -183,7 +183,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$05
-	dc.b	"Il semble que ça n'aille pas en"
+	dc.b	"Ça n'a pas l'air d'aller en"
 	dc.b	$FC
 	dc.b	"s'améliorant."
 	dc.b	$FD
@@ -356,9 +356,9 @@
 	dc.b	$F4
 	dc.b	$01
 	dc.b	"Comment traverser les sables"
-	dc.b	$FD
-	dc.b	"mouvants ? Et comment y sont arrivés"
 	dc.b	$FC
+	dc.b	"mouvants ? Et comment y sont arrivés"
+	dc.b	$FD
 	dc.b	"Rune et le Père Dorin ?"
 	dc.b	$FD
 	dc.b	$F4

@@ -839,7 +839,7 @@
 	dc.b	$FD
 	dc.b	"Cette première mission est prometteuse."
 	dc.b	$FC
-	dc.b	"Je suis fier de toi mon petit."
+	dc.b	"Je suis fière de toi mon petit."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01

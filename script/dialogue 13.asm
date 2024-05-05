@@ -939,7 +939,7 @@
 	dc.b	$07
 	dc.b	"Vous ne le voyez pas, c'est une"
 	dc.b	$FC
-	dc.b	"nouvelle arme, un émetteur d'ultrasons !"
+	dc.b	"nouvelle arme, le Phonon Maser !"
 	dc.b	$FD
 	dc.b	"Allons le tester !"
 	dc.b	$FF

@@ -814,7 +814,7 @@
 	dc.b	$06
 	dc.b	"Donc, voilà le vaisseau qui a amené ici"
 	dc.b	$FC
-	dc.b	"les Paramaniens il y a si longtemps !"
+	dc.b	"les Palmaniens il y a si longtemps !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04

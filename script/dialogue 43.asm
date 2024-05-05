@@ -512,7 +512,7 @@
 	dc.b	$FD
 	dc.b	"l'ayons trouvé en premier."
 	dc.b	$FC
-	dc.b	"C'est un module Perce-armure ?"
+	dc.b	"C'est un module Positron Bolt ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
@@ -603,7 +603,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Il s'agit d'un lance missiles."
+	dc.b	"Il s'agit d'une unité Burst Roc."
 	dc.b	$FD
 	dc.b	"C'est une arme semi-automatique à longue"
 	dc.b	$FC
