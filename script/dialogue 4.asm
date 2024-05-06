@@ -414,7 +414,7 @@
 	dc.b	$FC
 	dc.b	"venue déranger la Vallée de l'Éclosion"
 	dc.b	$FD
-	dc.b	"que nous avons plein de problèmes  !"
+	dc.b	"que nous avons plein de problèmes !"
 	dc.b	$FD
 	dc.b	"Je veux que les gens de l'académie"
 	dc.b	$FC
@@ -430,7 +430,7 @@
 	dc.b	$FC
 	dc.b	"venue déranger la Vallée de l'Éclosion"
 	dc.b	$FD
-	dc.b	"que nous avons plein de problèmes  !"
+	dc.b	"que nous avons plein de problèmes !"
 	dc.b	$FF
 
 ; $3C

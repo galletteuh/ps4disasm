@@ -501,7 +501,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$09
-	dc.b	"C'est la ville Palmanienne de  « Tyler »."
+	dc.b	"C'est la ville Palmanienne de « Tyler »."
 	dc.b	$FC
 	dc.b	"Elle n'est pas trop loin au nord-ouest !"
 	dc.b	$FD

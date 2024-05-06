@@ -409,7 +409,7 @@
 	dc.b	$FD
 	dc.b	"Elle est le produit de 1000 ans d'analyse"
 	dc.b	$FC
-	dc.b	"des données du génôme de type  « Nei »"
+	dc.b	"des données du génôme de type « Nei »"
 	dc.b	$FD
 	dc.b	"datant d'avant le « Grand"
 	dc.b	$FC

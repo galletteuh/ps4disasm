@@ -267,7 +267,7 @@
 	dc.b	$03, $01
 	dc.b	"Donc, le château se trouve après les"
 	dc.b	$FC
-	dc.b	"sables mouvants à  côté de Mile..."
+	dc.b	"sables mouvants à côté de Mile..."
 	dc.b	$FD
 	dc.b	"On devra trouver un chemin qui y amène"
 	dc.b	$FC
