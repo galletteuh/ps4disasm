@@ -188,7 +188,7 @@
 	dc.b	$06
 	dc.b	"A quoi une personne de 2000 ans peut"
 	dc.b	$FC
-	dc.b	"ressembler  ?"
+	dc.b	"ressembler ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
