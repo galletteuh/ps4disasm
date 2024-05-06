@@ -593,7 +593,7 @@
 	dc.b	$FD
 	dc.b	"Nous pouvons laisser cet endroit tel"
 	dc.b	$FC
-	dc.b	"quel,  si tel est notre désir."
+	dc.b	"quel, si tel est notre désir."
 	dc.b	$FF
 
 ; $8

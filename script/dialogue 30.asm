@@ -53,7 +53,7 @@
 	dc.b	$01
 	dc.b	"« Magie et Techniques : Effets et"
 	dc.b	$FC
-	dc.b	"concordance. »  Hmm..."
+	dc.b	"concordance. » Hmm..."
 	dc.b	$FF
 
 ; $7

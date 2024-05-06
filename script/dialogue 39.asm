@@ -87,7 +87,7 @@
 	dc.b	$FC
 	dc.b	"sol, au nord de Piata !"
 	dc.b	$FD
-	dc.b	"Toute forme de vie,  même les habitants"
+	dc.b	"Toute forme de vie, même les habitants"
 	dc.b	$FC
 	dc.b	"de Mile... meurent rapidement !"
 	dc.b	$FD
