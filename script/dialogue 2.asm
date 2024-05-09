@@ -436,10 +436,8 @@
 ; $58
 	dc.b	"Je pensais qu'en laissant aller les "
 	dc.b	$FC
-	dc.b	"choses, elle finirait par revenir,"
+	dc.b	"choses, elle finirait par revenir, mais..."
 	dc.b	$FD
-	dc.b	"mais..."
-	dc.b	$FC
 	dc.b	"Ah, non, rien, rien à voir avec vous !"
 	dc.b	$FF
 
@@ -459,7 +457,7 @@
 	dc.b	$FD
 	dc.b	"Si les parents pensent que leurs"
 	dc.b	$FC
-	dc.b	"enfants ne sont pas en sécurité notre."
+	dc.b	"enfants ne sont pas en sécurité notre"
 	dc.b	$FD
 	dc.b	"trésorerie va fondre."
 	dc.b	$FD
@@ -491,11 +489,9 @@
 ; $5E
 	dc.b	"« Recalé »..."
 	dc.b	$FD
-	dc.b	"J'imagine que c'est normal compte tenu"
+	dc.b	"J'imagine que c'est normal vu que je"
 	dc.b	$FC
-	dc.b	"que je n'ai pas remis mon mémoire"
-	dc.b	$FD
-	dc.b	"à temps..."
+	dc.b	"n'ai pas remis mon mémoire à temps..."
 	dc.b	$FF
 
 ; $5F
@@ -637,7 +633,7 @@
 	dc.b	$FD
 	dc.b	"bizarre les incite à sécher les cours !"
 	dc.b	$FD
-	dc.b	"Avec à un telle gaffe, la réputation même"
+	dc.b	"Avec une telle gaffe, la réputation même"
 	dc.b	$FC
 	dc.b	"de l'Académie pourrait prendre cher !"
 	dc.b	$FD

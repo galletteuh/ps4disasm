@@ -606,7 +606,7 @@
 
 	dc.b	$F4
 	dc.b	$05
-	dc.b	"...Juste comme ça, Ils sont partis."
+	dc.b	"... Juste comme ça, ils sont partis."
 	dc.b	$FD
 	dc.b	"Probablement pour toujours..."
 	dc.b	$F9
@@ -633,7 +633,7 @@
 	dc.b	$FC
 	dc.b	"douloureux."
 	dc.b	$FD
-	dc.b	"...Bien, vous êtes à moitié humaine."
+	dc.b	"... Bien, vous êtes à moitié humaine."
 	dc.b	$FD
 	dc.b	"Des choix affectifs sont envisagés."
 	dc.b	$F7
@@ -738,9 +738,9 @@
 	dc.b	$FC
 	dc.b	"ou... Alys... maintenant."
 	dc.b	$FD
-	dc.b	"...Façon de parler héhé !"
+	dc.b	"... Façon de parler héhé !"
 	dc.b	$FD
-	dc.b	"...Tu vas me manquer mon petit."
+	dc.b	"... Tu vas me manquer mon petit."
 	dc.b	$FD	
 	dc.b	$F4
 	dc.b	$01
@@ -791,11 +791,11 @@
 
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"...Rika... je... je t'aime !"
+	dc.b	"... Rika... je... je t'aime !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"...Je t'aime aussi, Chaz !"
+	dc.b	"... Je t'aime aussi, Chaz !"
 	dc.b	$F7
 
 	dc.b	$F4
@@ -875,7 +875,7 @@
 
 	dc.b	$F7
 
-	dc.b	"...et préserver le souvenir du passé..."
+	dc.b	"... et préserver le souvenir du passé..."
 	dc.b	$F9
 	dc.b	$1D
 
@@ -886,7 +886,7 @@
 
 	dc.b	$F7
 
-	dc.b	"...sont une seule et même chose."
+	dc.b	"... sont une seule et même chose."
 	dc.b	$F9
 	dc.b	$1D
 
@@ -982,7 +982,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Wow,tu es d'une grande aide,"
+	dc.b	"Wow, tu es d'une grande aide,"
 	dc.b	$FC
 	dc.b	"« Révéré Cinquième » !"
 	dc.b	$FF

@@ -538,7 +538,7 @@
 	dc.b	$22
 	dc.b	"Chaz... approche..."
 	dc.b	$FD
-	dc.b	"laisse-moi te regarder de près..."
+	dc.b	"Laisse-moi te regarder de près..."
 	dc.b	$FD
 	dc.b	$F2, $01
 	dc.b	$F9
@@ -617,7 +617,7 @@
 	dc.b	$01
 	dc.b	"Alys m'a accueilli il y a trois ans."
 	dc.b	$FC
-	dc.b	"J'ai grandi seul... Et en colère."
+	dc.b	"J'ai grandi seul... et en colère."
 	dc.b	$FD
 	dc.b	"Je braquais des entrepôts, et la ville"
 	dc.b	$FC
@@ -690,7 +690,7 @@
 	dc.b	$FD
 	dc.b	"Je suis si triste, mais je pense..."
 	dc.b	$FC
-	dc.b	"que c'est vraiment bien que j'aie pu"
+	dc.b	"que c'est vraiment bien que j'ai pu"
 	dc.b	$FD
 	dc.b	"partir du Bio-laboratoire."
 	dc.b	$FC
@@ -737,7 +737,7 @@
 	dc.b	$FD
 	dc.b	"... Tu es incroyable, Rika..."
 	dc.b	$FC
-	dc.b	"...pas seulement en combattante."
+	dc.b	"... pas seulement en combattante."
 	dc.b	$FD
 	dc.b	"Je n'ai jamais rencontré quelqu'un comme"
 	dc.b	$FC

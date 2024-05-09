@@ -29,11 +29,11 @@
 	dc.b	$FD
 	dc.b	"J'ai entendu parler de l'Académie Motavia"
 	dc.b	$FC
-	dc.b	"avec tous ces étudiants cultivé, et aussi"
+	dc.b	"avec tous ces étudiants cultivés, et"
 	dc.b	$FD
-	dc.b	"d'un grand centre commercial qui vend"
+	dc.b	"aussi d'un grand centre commercial qui"
 	dc.b	$FC
-	dc.b	"de tout !"
+	dc.b	"vend de tout !"
 	dc.b	$FF
 
 ; $3
@@ -407,7 +407,7 @@
 	dc.b	$FD
 	dc.b	"Il y a peu de temps, j'ai découvert une"
 	dc.b	$FC
-	dc.b	"nouvelle espèce d'oiseau."
+	dc.b	"nouvelle espèce d'oiseaux."
 	dc.b	$FD
 	dc.b	"Je les ai sauvés des monstres et élevés"
 	dc.b	$FC

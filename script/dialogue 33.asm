@@ -30,7 +30,7 @@
 ; $2
 	dc.b	$F4
 	dc.b	$0E
-	dc.b	"... tu vas aller voir, Hahn ?"
+	dc.b	"... Tu vas aller voir, Hahn ?"
 	dc.b	$FC
 	dc.b	"Tu es fou ! Tu n'es pas un combattant !"
 	dc.b	$FD	

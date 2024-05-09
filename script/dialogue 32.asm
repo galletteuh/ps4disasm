@@ -313,7 +313,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04, $02
-	dc.b	"maintenant, nous pouvons traverser"
+	dc.b	"Maintenant, nous pouvons traverser"
 	dc.b	$FC
 	dc.b	"tout plan d'eau, que ce soit un océan"
 	dc.b	$FD
@@ -467,7 +467,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04, $00
-	dc.b	"...Pour une fois dans ta vie fais"
+	dc.b	"... Pour une fois dans ta vie fais"
 	dc.b	$FC
 	dc.b	"moi confiance. Ok, petite tête ?"
 	dc.b	$FD

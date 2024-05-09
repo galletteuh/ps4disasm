@@ -424,7 +424,7 @@
 	dc.b	$FD
 	dc.b	"avant la destruction de Palma."
 	dc.b	$FD
-	dc.b	"De nombreux palmaniens se sont enfuis"
+	dc.b	"De nombreux Palmaniens se sont enfuis"
 	dc.b	$FC
 	dc.b	"sur ces vaisseaux biodôme géants..."
 	dc.b	$FD

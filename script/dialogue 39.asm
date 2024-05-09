@@ -1,7 +1,9 @@
 ; 0
 	dc.b	$F4
 	dc.b	$09
-	dc.b	"Alors Chaz, ça gaze ? Content de te voir."
+	dc.b	"Alors Chaz, ça gaze ?"
+	dc.b	$FC
+	dc.b	"Content de te voir."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
@@ -77,9 +79,9 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
-	dc.b	"Nous n'avons pas le temps pour ça. Quelle"
+	dc.b	"Nous n'avons pas le temps pour ça."
 	dc.b	$FC
-	dc.b	"est la situation, Demi ?"
+	dc.b	"Quelle est la situation, Demi ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$07
@@ -91,7 +93,7 @@
 	dc.b	$FC
 	dc.b	"de Mile... meurent rapidement !"
 	dc.b	$FD
-	dc.b	"Mais n'en détecte pas la cause !"
+	dc.b	"Mais je n'en détecte pas la cause !"
 	dc.b	$FC
 	dc.b	"Aucune émission de gaz ou de radiations !"
 	dc.b	$FD
