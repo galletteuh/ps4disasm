@@ -269,9 +269,9 @@
 	dc.b	$FD
 	dc.b	"avec ces sables mouvants, je ne pourrais"
 	dc.b	$FC
-	dc.b	"pas retourner à Monsen de toute "
+	dc.b	"pas retourner à Monsen de toute façon."
 	dc.b	$FD
-	dc.b	"façon. En plus, ma femme et ma mère"
+	dc.b	"En plus, ma femme et ma mère"
 	dc.b	$FC
 	dc.b	"se disputent constamment !"
 	dc.b	$FF
@@ -597,7 +597,7 @@
 	dc.b	$02
 	dc.b	"Ton dieu, hein ? Plaider la folie ne"
 	dc.b	$FC
-	dc.b	"t'aidera pas, ni personne, Zio !"
+	dc.b	"te sauvera pas, Zio !"
 	dc.b	$FD
 	dc.b	"Ecoute, on n'a pas le temps, nous..."
 	dc.b	$FD
@@ -936,9 +936,9 @@
 	dc.b	$FD
 	dc.b	"Je vais l'installer immédiatement."
 	dc.b	$FD
-	dc.b	"Voulez-vous bien vous retourner,"
+	dc.b	"Voulez-vous bien vous retourner, et"
 	dc.b	$FC
-	dc.b	"je vous prie ?"
+	dc.b	"fermez vos yeux, je vous prie ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01

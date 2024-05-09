@@ -327,7 +327,7 @@
 	endif
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Chapeaux ? Lèvres ? sérieusement ?"
+	dc.b	"Chapeaux ? Lèvres ? Sérieusement ?"
 	dc.b	$FC
 	dc.b	"Et c'est quoi un « bézot » ?"
 	dc.b	$FD

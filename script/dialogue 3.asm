@@ -625,7 +625,7 @@
 	dc.b	$FD
 	dc.b	"C'est comme une malédiction magique"
 	dc.b	$FC
-	dc.b	"sortis d'un livre de contes !"
+	dc.b	"sortie d'un livre de contes !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
@@ -633,11 +633,11 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Les légendes palmaniennes parlent d'un"
+	dc.b	"Les légendes Palmaniennes parlent d'un"
 	dc.b	$FC
 	dc.b	"remède appelé « Alsulin », qui peut"
 	dc.b	$FD
-	dc.b	"Rechanger la pierre en chair."
+	dc.b	"rechanger la pierre en chair."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
@@ -771,7 +771,7 @@
 	dc.b	$FD
 	dc.b	"Il ne pense qu'à son boulot et..."
 	dc.b	$FC
-	dc.b	"rien d'autre, je pense."
+	dc.b	"à rien d'autre, je pense."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01

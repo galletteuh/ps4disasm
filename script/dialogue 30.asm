@@ -693,7 +693,7 @@
 	dc.b	$01
 	dc.b	"C'est une cuisine."
 	dc.b	$FC
-	dc.b	"Elle semble commencer à être sale."
+	dc.b	"Elle commence à être sale."
 	dc.b	$FF
 
 ; $48
@@ -707,7 +707,7 @@
 	dc.b	$01
 	dc.b	"C'est une cheminée."
 	dc.b	$FC
-	dc.b	"Il semble commencer à être sale."
+	dc.b	"Il commence à être sale."
 	dc.b	$FF
 
 ; $4A
@@ -737,7 +737,7 @@
 	dc.b	$FC
 	dc.b	"influencer les clients »..."
 	dc.b	$FD
-	dc.b	"Hmm...manipuler les gens pour vendre du"
+	dc.b	"Hmm... manipuler les gens pour vendre du"
 	dc.b	$FC
 	dc.b	"matériel est vraiment si facile ?"	
 	dc.b	$FF

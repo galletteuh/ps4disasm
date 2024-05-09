@@ -559,7 +559,7 @@
 	dc.b	$FC
 	dc.b	"d'auberge."
 	dc.b	$FD
-	dc.b	"C'est dans les dortoirs que ça se passe"
+	dc.b	"C'est dans les dortoirs que se passe"
 	dc.b	$FC
 	dc.b	"toute l'action."
 	dc.b	$FD

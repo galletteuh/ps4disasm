@@ -39,7 +39,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$00
-	dc.b	"Rykros est une protégée par une"
+	dc.b	"Rykros est une planète protégée par une"
 	dc.b	$FC
 	dc.b	"barrière magique et gravitationnelle."
 	dc.b	$FD
@@ -246,7 +246,7 @@
 	dc.b	$F9
 	dc.b	$77
 
-	dc.b	"Nous appelons le vainqueur La « Lumière"
+	dc.b	"Nous appelons le vainqueur « La Lumière"
 	dc.b	$FC
 	dc.b	"Suprème », et le perdant,"
 	dc.b	$FD
@@ -356,7 +356,7 @@
 	dc.b	$00
 	dc.b	$F2, $00
 	dc.w	$011E
-	dc.b	"Pendant tout ce temps,, Les Ténèbres"
+	dc.b	"Pendant tout ce temps, Les Ténèbres"
 	dc.b	$FC
 	dc.b	"Profonds se sont nourries de rancoeur"
 	dc.b	$FD
@@ -434,7 +434,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Non ! Il y bien quelque chose qu'on"
+	dc.b	"Non ! Il y bien quelque chose qu'on puisse"
 	dc.b	$FC
 	dc.b	"faire ! On est venus de si loin !"
 	dc.b	$FD
@@ -522,9 +522,9 @@
 	dc.b	$01
 	dc.b	"J'ai écouté patiemment, et tout ce que"
 	dc.b	$FC
-	dc.b	"j'ai entendu c'est que les Ténèbres et la"
+	dc.b	"j'ai entendu c'est que Les Ténèbres et"
 	dc.b	$FD
-	dc.b	"Lumière sont exactement pareils !"
+	dc.b	"La Lumière sont exactement pareils !"
 	dc.b	$FD
 	dc.b	$F2, $00
 	dc.w	$0121
@@ -533,10 +533,10 @@
 	dc.b	"pathétique rancune ancestrale !"
 	dc.b	$FD
 	dc.b	"N'êtes-vous pas immortel ?"
-	dc.b	$FC
-	dc.b	"Comment osez-vous nous faire mourir"
 	dc.b	$FD
-	dc.b	"pour votre bordel !"
+	dc.b	"Comment osez-vous nous faire mourir"
+	dc.b	$FC
+	dc.b	"pour votre bordel ?!"
 	dc.b	$FD
 	dc.b	"Où est cette Lumière Suprème"
 	dc.b	$FC
@@ -687,7 +687,7 @@
 	dc.b	$FD
 	dc.b	"Tu as entendu Le Roof."
 	dc.b	$FD
-	dc.b	"Ce qu'on pense de la Lumière ou des"
+	dc.b	"Ce qu'on pense de La Lumière ou des"
 	dc.b	$FC
 	dc.b	"Ténèbres n'a pas d'importance dans notre"
 	dc.b	$FD
@@ -699,7 +699,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Mais, combattre un être suprême ?"
+	dc.b	"Mais... combattre un être suprême ?"
 	dc.b	$FC
 	dc.b	"C'est trop pour nous, et ce n'est même"
 	dc.b	$FD

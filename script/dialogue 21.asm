@@ -403,7 +403,7 @@
 	dc.b	$FD
 	dc.b	"les temps anciens !"
 	dc.b	$FD
-	dc.b	"on dit qu'elle est quelque part sur"
+	dc.b	"On dit qu'elle est quelque part sur"
 	dc.b	$FC
 	dc.b	"Dezolis !"
 	dc.b	$FF

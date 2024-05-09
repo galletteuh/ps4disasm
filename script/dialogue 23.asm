@@ -302,7 +302,7 @@
 	dc.b	$A1, $01
 	dc.b	"Avec le Temple Gumbious si près de nous,"
 	dc.b	$FC
-	dc.b	"Le temple de la ville me semble négligé."
+	dc.b	"le temple de la ville me semble négligé."
 	dc.b	$FF
 
 ; $1D
@@ -318,7 +318,7 @@
 	dc.b	$FD
 	dc.b	"Quoi qu'il semble que certains d'entre"
 	dc.b	$FC
-	dc.b	"nous sont plus aventuriers..."
+	dc.b	"nous soient plus aventuriers..."
 	dc.b	$FF
 
 ; $1F
@@ -483,9 +483,9 @@
 	dc.b	"Bonté divine..."
 	dc.b	$FD
 	dc.b	"...On ne doit pas paniquer."
-	dc.b	$FC
-	dc.b	"C'est dans ces moments que je dois"
 	dc.b	$FD
+	dc.b	"C'est dans ces moments que je dois"
+	dc.b	$FC
 	dc.b	"rester calme et me montrer à la hauteur !"
 	dc.b	$FD
 	dc.b	$F4
@@ -502,7 +502,9 @@
 	dc.b	$FC
 	dc.b	"chapelle du village a aussi son"
 	dc.b	$FD
-	dc.b	"importance. Pourquoi ?"
+	dc.b	"importance."
+	dc.b	$FD
+	dc.b	"Pourquoi ?"
 	dc.b	$FD
 	dc.b	"Euh honnêtement, je ne peux pas le dire."
 	dc.b	$FC
@@ -558,7 +560,7 @@
 	dc.b	$FC
 	dc.b	"réalise le peu d'influence que nous"
 	dc.b	$FD
-	dc.b	"avons sur notre propre existence."
+	dc.b	"avons sur notre propre existence"
 	dc.b	$FC
 	dc.b	"et le monde qui nous entoure..."
 	dc.b	$FF
@@ -606,9 +608,9 @@
 	dc.b	"nos modes de vie diffèrent en raison de"
 	dc.b	$FD
 	dc.b	"nos croyances religieuses."
-	dc.b	$FC
-	dc.b	"Vous autres croyez toujours en cette"
 	dc.b	$FD
+	dc.b	"Vous autres croyez toujours en cette"
+	dc.b	$FC
 	dc.b	"déesse Nei ?"
 	dc.b	$FF
 

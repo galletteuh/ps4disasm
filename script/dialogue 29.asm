@@ -498,7 +498,7 @@
 	dc.b	$01
 	dc.b	"C'est un écriteau."
 	dc.b	$FC
-	dc.b	"« Ne pas courir dans l'aire commune. »"
+	dc.b	"« Ne pas courir dans l'espace commun. »"
 	dc.b	$FF
 
 ; $8D
@@ -508,7 +508,7 @@
 	dc.b	$FD
 	dc.b	"« Cette guilde appartient à tout le"
 	dc.b	$FC
-	dc.b	"monde. Utilisez-la avec calme. »"
+	dc.b	"monde. Respectez le calme. »"
 	dc.b	$FF
 
 ; $8E
@@ -760,7 +760,7 @@
 	dc.b	$01
 	dc.b	"C'est ici que la magie opère..."
 	dc.b	$FD
-	dc.b	"...L'armoire d'Alys !"
+	dc.b	"... L'armoire d'Alys !"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$02
@@ -776,7 +776,7 @@
 ; $A8
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"C'est une bibliothèque, mais sans."
+	dc.b	"C'est une bibliothèque, mais sans"
 	dc.b	$FC
 	dc.b	"aucun livre."
 	dc.b	$FF
@@ -844,7 +844,7 @@
 ; $B1
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"...Un autel effrayant ?"
+	dc.b	"... Un autel effrayant ?"
 	dc.b	$FC
 	dc.b	"... Il vaut mieux ne pas s'approcher."
 	dc.b	$FF
@@ -924,7 +924,7 @@
 	dc.b	$07
 	dc.b	"Désolé, mais c'est impossible ! Nurvus"
 	dc.b	$FC
-	dc.b	"n'accepte aucune données de l'extérieur."
+	dc.b	"n'accepte aucune donnée de l'extérieur."
 	dc.b	$FD
 	dc.b	"Impossible d'accéder au système, à moins"
 	dc.b	$FC
@@ -1040,7 +1040,7 @@
 	dc.b	$FC
 	dc.b	"un tel fardeau."		
 	dc.b	$FD
-	dc.b	"...Pourquoi ont-ils fait une statue de"
+	dc.b	"... Pourquoi ont-ils fait une statue de"
 	dc.b	$FC
 	dc.b	"son chat ?"	
 	dc.b	$FF
@@ -1082,7 +1082,7 @@
 	dc.b	$FC
 	dc.b	"argent ! Noooon !"	
 	dc.b	$FD
-	dc.b	"...Je déconne, ce ne sont que des"
+	dc.b	"... Je déconne, ce ne sont que des"
 	dc.b	$FC
 	dc.b	"provisions."	
 	dc.b	$FF

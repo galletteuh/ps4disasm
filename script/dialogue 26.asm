@@ -171,9 +171,9 @@
 	dc.b	$01
 	dc.b	"Je ne pense pas que s'extasier sur la"
 	dc.b	$FC
-	dc.b	"tenue d'une femme soit si flatteur que"
+	dc.b	"tenue d'une femme soit aussi flatteur"
 	dc.b	$FD
-	dc.b	"tu ne le penses, mec."
+	dc.b	"que tu ne le penses, mec."
 	dc.b	$FF
 
 ; $C

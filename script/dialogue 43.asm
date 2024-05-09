@@ -21,7 +21,7 @@
 	dc.b	$FD
 	dc.b	"Vu le degré élevé de sophistication de"
 	dc.b	$FC
-	dc.b	"leur attaque, entité systémique"
+	dc.b	"leur attaque, une entité systémique"
 	dc.b	$FD
 	dc.b	"est derrière tout ça."
 	dc.b	$FD
@@ -524,7 +524,7 @@
 	dc.b	$FD	
 	dc.b	"n'avait rien à lui envier. Une chance que"
 	dc.b	$FC
-	dc.b	"y étions préparés !"	
+	dc.b	"nous y étions préparés !"	
 	dc.b	$FF
 
 ; $6

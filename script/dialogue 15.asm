@@ -43,7 +43,7 @@
 	dc.b	$DE, $02
 	dc.b	$FA
 	dc.b	$94, $01
-	dc.b	"Dans le temple au sud d'ici,Il y a un"
+	dc.b	"Dans le temple au sud d'ici, Il y a un"
 	dc.b	$FC
 	dc.b	"prêtre vertueux, très pieux,"
 	dc.b	$FD
@@ -71,7 +71,7 @@
 	dc.b	$FF
 
 ; $4
-	dc.b	"Dans le temple au sud d'ici,Il y a un"
+	dc.b	"Dans le temple au sud d'ici, Il y a un"
 	dc.b	$FC
 	dc.b	"prêtre vertueux, très pieux,"
 	dc.b	$FD
@@ -85,7 +85,7 @@
 	dc.b	$FF
 
 ; $5
-	dc.b	"Dans le temple au sud d'ici,Il y a un"
+	dc.b	"Dans le temple au sud d'ici, Il y a un"
 	dc.b	$FC
 	dc.b	"prêtre vertueux, très pieux,"
 	dc.b	$FD
@@ -163,7 +163,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Oh, Maintenant ce sont des cornes ?!"
+	dc.b	"Oh, maintenant ce sont des cornes ?!"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
@@ -181,14 +181,14 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"...ça devient ridicule."
+	dc.b	"...Ça devient ridicule."
 	dc.b	$FF
 
 ; $A
 	dc.b	"J'ai vu des Palmaniens de temps à autre,"
 	dc.b	$FC
 	dc.b	"mais jamais une fille aussi peu habillée"
-	dc.b	$FC
+	dc.b	$FD
 	dc.b	"comme ça !"
 	dc.b	$FD
 	dc.b	$F4
@@ -303,7 +303,7 @@
 	dc.b	$09
 	dc.b	"Excellent, allons enquêter de suite sur"
 	dc.b	$FC
-	dc.b	"la situation du bar ."
+	dc.b	"la situation du bar."
 	dc.b	$FF
 
 ; $10
@@ -333,7 +333,7 @@
 	dc.b	$09
 	dc.b	"Je dis qu'on devrait enquêter plus"
 	dc.b	$FC
-	dc.b	"longtemps sur la situation du bar ."
+	dc.b	"longtemps sur la situation du bar."
 	dc.b	$FF
 
 ; $12
@@ -469,7 +469,7 @@
 	dc.b	$FC
 	dc.b	"Dezolisiens. C'est le centre de Dezolis,"
 	dc.b	$FD
-	dc.b	"et c'est un appui pilier de la force"
+	dc.b	"et c'est un pilier de la force"
 	dc.b	$FC
 	dc.b	"pour les Dezolisiens !"
 	dc.b	$FD	
@@ -651,9 +651,9 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"... L'esprit affuté de Raja est aussi "
+	dc.b	"... L'esprit affuté de Raja ?"
 	dc.b	$FC
-	dc.b	"tranchant qu'un sac de sable..."
+	dc.b	"Rasoir, vous voulez dire ?"
 	dc.b	$FF
 
 ; $27

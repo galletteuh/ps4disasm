@@ -153,7 +153,7 @@
 ; $E
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Un livre: « Le palmanien polyglotte »."
+	dc.b	"Un livre: « Le Palmanien polyglotte »."
 	dc.b	$FC
 	dc.b	"On dit que les Dezolisiens ont un ancien"
 	dc.b	$FD
@@ -337,7 +337,7 @@
 	dc.b	$01
 	dc.b	"Ceci est un document historique."
 	dc.b	$FC
-	dc.b	"« Itinéraires accordés en AW 342 »."
+	dc.b	"« Itinéraires accordés en 342 AW »."
 	dc.b	$FD
 	dc.b	"Qui a besoin de ça ?"	
 	dc.b	$FF

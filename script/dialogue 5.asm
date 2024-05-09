@@ -212,7 +212,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
-	dc.b	"Alys et Chaz sont des Chasseurs."
+	dc.b	"Alys et Chaz sont des chasseurs."
 	dc.b	$FC
 	dc.b	"Ils m'aident dans ma mission."
 	dc.b	$FD

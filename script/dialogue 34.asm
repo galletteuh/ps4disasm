@@ -568,7 +568,7 @@
 	dc.b	$FB
 	dc.b	$F4
 	dc.b	$07
-	dc.b	"...Rune, Rika...Qu'est-ce qui ne va"
+	dc.b	"...Rune, Rika... Qu'est-ce qui ne va"
 	dc.b	$FC
 	dc.b	"pas ? On est si près de la victoire ?"
 	dc.b	$FD

@@ -385,7 +385,7 @@
 	dc.b	$0A
 	dc.b	"Oh, du parfum ! C'est chouette."
 	dc.b	$FD
-	dc.b	"Mais le senteur ne serait pas mon"
+	dc.b	"Mais la senteur ne serait pas mon"
 	dc.b	$FC
 	dc.b	"premier choix."
 	dc.b	$FF
