@@ -837,11 +837,11 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Oui...J'avais juste besoin d'un rappel sur"
+	dc.b	"Oui... J'avais juste besoin d'un rappel"
 	dc.b	$FC
-	dc.b	"pourquoi on fait tout ça."
+	dc.b	"sur pourquoi on fait tout ça."
 	dc.b	$FD
-	dc.b	"...Pour qui je le fais."
+	dc.b	"... Pour qui je le fais."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
@@ -851,7 +851,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Oui ! Nous faisons cela non pas pour la"
+	dc.b	"Oui ! Nous faisons cela non pas pour La"
 	dc.b	$FC
 	dc.b	"Lumière Suprème, mais pour que tout ce"
 	dc.b	$FD

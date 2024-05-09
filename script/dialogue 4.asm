@@ -871,7 +871,7 @@
 ; $6D
 	dc.b	"Ah, vous avez pu détruire ce qui"
 	dc.b	$FC
-	dc.b	"contrôle ces machines !"
+	dc.b	"contrôle ces machines ?"
 	dc.b	$FD
 	dc.b	"C'est sans doute vrai, vu qu'elles ne"
 	dc.b	$FC

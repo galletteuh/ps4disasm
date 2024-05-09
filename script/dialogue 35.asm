@@ -114,11 +114,11 @@
 	dc.b	$F4
 	dc.b	$08
 	dc.b	"Actuellement, la connexion de Zelan"
-	dc.b	$FD
-	dc.b	"aux réseaux d'Algol est brouillée."
 	dc.b	$FC
-	dc.b	"Le satellite artificiel Kuran perturbe les"
+	dc.b	"aux réseaux d'Algol est brouillée."
 	dc.b	$FD
+	dc.b	"Le satellite artificiel Kuran perturbe les"
+	dc.b	$FC
 	dc.b	"systèmes de Motavia."
 	dc.b	$FD
 	dc.b	"À l'origine, Kuran devait agir comme"

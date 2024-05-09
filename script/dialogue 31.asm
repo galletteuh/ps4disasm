@@ -531,7 +531,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01, $00
-	dc.b	"...Elle était trop facile celle-là."
+	dc.b	"... Elle était trop facile celle-là."
 	dc.b	$FF
 
 ; $17

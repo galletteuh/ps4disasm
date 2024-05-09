@@ -350,7 +350,7 @@
 	dc.b	$A8, $01
 	dc.b	"Autrefois, quand il y avait moins de"
 	dc.b	$FC
-	dc.b	"monstres, notre famille visitait une ville"
+	dc.b	"monstres, notre famille a visité une ville"
 	dc.b	$FD
 	dc.b	"touristique sur le continent..."
 	dc.b	$FD
@@ -358,7 +358,7 @@
 	dc.b	$FC
 	dc.b	"l'héroïne et jouait à l'aventure."
 	dc.b	$FD
-	dc.b	"Je souhaiterais qu'il retrouve la santé"
+	dc.b	"J'aimerais qu'il retrouve la santé"
 	dc.b	$FC
 	dc.b	"qu'il avait à l'époque."
 	dc.b	$FF
@@ -550,11 +550,11 @@
 	dc.b	$FC
 	dc.b	"d'oiseaux qui dévorent nos récoltes,"
 	dc.b	$FD
-	dc.b	"n'est-ce pas ? Eh bien, je sais vous"
+	dc.b	"n'est-ce pas ? Eh bien, je sais où vous"
 	dc.b	$FC
 	dc.b	"pouvez trouver le chef de meute."
 	dc.b	$FD
-	dc.b	"Pouvez-vous...euh...le déloger ?"
+	dc.b	"Pouvez-vous... euh... le déloger ?"
 	dc.b	$FD
 	dc.b	"Vous le trouverez dans une caverne, qui"
 	dc.b	$FC

@@ -330,7 +330,7 @@
 	dc.b	"Oh, qu'une telle chose a-t-elle pu se"
 	dc.b	$FC
 	dc.b	"produire à cause de mon manque"
-	dc.b	$FC
+	dc.b	$FD
 	dc.b	"d'attention !"
 	dc.b	$FF
 

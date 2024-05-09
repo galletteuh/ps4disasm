@@ -29,7 +29,7 @@
 	dc.b	$FD
 	dc.b	"humour. Physiquement c'est un"
 	dc.b	$FC
-	dc.b	"vrai roc"
+	dc.b	"vrai roc."
 	dc.b	$FF
 
 ; $2
@@ -271,7 +271,7 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Drôle...euh, je n'aurai pas choisi"
+	dc.b	"Drôle... euh, je n'aurai pas choisi"
 	dc.b	$FC
 	dc.b	"ce mot pour le décrire."	
 	dc.b	$FD

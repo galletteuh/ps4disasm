@@ -208,7 +208,7 @@
 	dc.b	$04
 	dc.b	"Non ! Comment... Lutz t'a vu mourir !"
 	dc.b	$FC
-	dc.b	"Comment Lashiec peut-il encore exister ?"
+	dc.b	"Comment peux-tu encore exister ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$1C
@@ -260,7 +260,7 @@
 	dc.b	$FD	
 	dc.b	$F4
 	dc.b	$1C
-	dc.b	"Non, non! Vous souffrirez comme je"
+	dc.b	"Non, non ! Vous souffrirez comme je"
 	dc.b	$FC
 	dc.b	"l'entends... éternellement !!"
 	dc.b	$FD
@@ -309,7 +309,7 @@
 	dc.b	$0A
 	dc.b	"Nous y sommes arrivés !"
 	dc.b	$FD
-	dc.b	"Nous avons sauvé le Flambeau de"
+	dc.b	"Nous avons récupéré le Flambeau de"
 	dc.b	$FC
 	dc.b	"l'Éclipse !"
 	dc.b	$FD
@@ -453,9 +453,9 @@
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$01
-	dc.b	"Excellent ! Dépêchons-nous vers cette"
+	dc.b	"Excellent ! Direction cette forêt"
 	dc.b	$FC
-	dc.b	"forêt d'arbres carnivores !"
+	dc.b	"d'arbres carnivores !"
 	dc.b	$FF
 
 ; $3A
@@ -553,7 +553,7 @@
 	dc.b	$FD
 	dc.b	"Je parie que les malades de Meese"
 	dc.b	$FC
-	dc.b	"commencent à récupérer."
+	dc.b	"commencent déjà à récupérer."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$0A
@@ -649,11 +649,11 @@
 	dc.b	$01
 	dc.b	$F2, $00
 	dc.w	$0114
-	dc.b	"Bah, on ne peut pas être le légendaire"
+	dc.b	"Bah, on ne peut pas tous être le"
 	dc.b	$FC
-	dc.b	"grand sage immortel de tout le système"
+	dc.b	"légendaire grand sage immortel de tout"
 	dc.b	$FD
-	dc.b	"solaire."
+	dc.b	"le système solaire."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$04
