@@ -14,13 +14,15 @@
 	dc.b	$FC
 	dc.b	$F2, $00
 	dc.w	$0077
-	dc.b	"Mon nom est Forren, mais vu que je"
-	dc.b	$FC
-	dc.b	"je suis la dernière unité REN restante"
+	dc.b	"Mon nom est Forren."
 	dc.b	$FD
-	dc.b	"dans Algol avec une responsabilité de"
+	dc.b	"Mais vu que je suis la dernière unité"
 	dc.b	$FC
-	dc.b	"décision, appelez-moi simplement Wren."	
+	dc.b	"REN restante dans Algol avec une"
+	dc.b	$FD
+	dc.b	"responsabilité de décision,"
+	dc.b	$FC
+	dc.b	"appelez-moi simplement Wren."	
 	dc.b	$FD
 	dc.b	"Nous sommes sur le satellite artificiel"
 	dc.b	$FC
