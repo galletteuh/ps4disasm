@@ -632,7 +632,7 @@
 	dc.b	$FD
 	dc.b	"ai pas la preuve."
 	dc.b	$FC
-	dc.b	"...Tout cela n'a pas de sens"
+	dc.b	"...Tout cela n'a pas de sens."
 	dc.b	$FF
 
 ; $33

@@ -695,7 +695,7 @@
 	dc.w	$0023
 	dc.b	$F4
 	dc.b	$0D
-	dc.b	"Hein? Quoi? C'est toi, Hahn !"
+	dc.b	"Hein ? Quoi ? C'est toi, Hahn !"
 	dc.b	$FC
 	dc.b	"Nom d'une pipe, quel endroit !"
 	dc.b	$FD

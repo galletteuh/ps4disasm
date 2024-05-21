@@ -714,7 +714,7 @@
 ; $37
 	dc.b	$F4
 	dc.b	$02
-	dc.b	"Alors ça fait quoi d'être enfin membre"
+	dc.b	"Alors, ça fait quoi d'être enfin membre"
 	dc.b	$FC
 	dc.b	"de la Guilde des Chasseurs ?"
 	dc.b	$FD
@@ -782,7 +782,7 @@
 	dc.b	$FD
 	dc.b	"une vie de chasseur !"
 	dc.b	$FC
-	dc.b	"On va voir de quel étoffe tu es fait."
+	dc.b	"On va voir de quelle étoffe tu es fait."
 	dc.b	$FF
 
 ; $3A

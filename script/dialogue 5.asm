@@ -208,7 +208,7 @@
 	dc.b	$FC
 	dc.b	"l'éducation est difficile à trouver"
 	dc.b	$FD
-	dc.b	"dans la région"
+	dc.b	"dans la région."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$03
