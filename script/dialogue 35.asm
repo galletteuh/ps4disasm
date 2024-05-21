@@ -14,13 +14,15 @@
 	dc.b	$FC
 	dc.b	$F2, $00
 	dc.w	$0077
-	dc.b	"Mon nom est Forren, mais vu que je"
-	dc.b	$FC
-	dc.b	"je suis la dernière unité REN restante"
+	dc.b	"Mon nom est Forren."
 	dc.b	$FD
-	dc.b	"dans Algol avec une responsabilité de"
+	dc.b	"Mais vu que je suis la dernière unité"
 	dc.b	$FC
-	dc.b	"décision, appelez-moi simplement Wren."	
+	dc.b	"REN restante dans Algol avec une"
+	dc.b	$FD
+	dc.b	"responsabilité de décision,"
+	dc.b	$FC
+	dc.b	"appelez-moi simplement Wren."	
 	dc.b	$FD
 	dc.b	"Nous sommes sur le satellite artificiel"
 	dc.b	$FC
@@ -798,11 +800,11 @@
 	dc.b	$FD
 	dc.b	"Je présume que nous sommes en présence"
 	dc.b	$FC
-	dc.b	"d'un émetteur d'ondes magnétiques."
+	dc.b	"d'un module Hyper-Jammer."
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$06
-	dc.b	"Un émetteur d'ondes ?"
+	dc.b	"Hyper-Jammer ?"
 	dc.b	$FD
 	dc.b	$F4
 	dc.b	$08
